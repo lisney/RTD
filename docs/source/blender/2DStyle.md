@@ -33,6 +33,20 @@
 ![image](https://user-images.githubusercontent.com/30430227/126418129-3be017b0-0c97-49bd-b931-8e28157d3632.png)
 > 잔물결 추가
 
+### 파장 1 Voronoi
+![image](https://user-images.githubusercontent.com/30430227/126263463-eef5000d-2244-4947-8fb3-4ebcf66c9fc9.png)
+![image](https://user-images.githubusercontent.com/30430227/126263294-71e064eb-57fa-401e-900a-3255a8061ec5.png)
+![image](https://user-images.githubusercontent.com/30430227/126263309-6538cbf5-0290-4b55-8021-a87c57391850.png)
+
+### 파장 2 Wave
+![image](https://user-images.githubusercontent.com/30430227/126264267-dd171e3f-7cab-42bd-8ec9-8bcba9825fa7.png)
+![image](https://user-images.githubusercontent.com/30430227/126264306-7c09799a-59b9-421a-a46a-da1144199845.png)
+
+### 파장 3 Gradient
+![image](https://user-images.githubusercontent.com/30430227/126265471-37f6d06a-76a0-4926-8095-e36365a908b3.png)
+![image](https://user-images.githubusercontent.com/30430227/126265561-d9b97a68-54c7-40ff-93b1-ec43f42936d6.png)
+
+
 ### 물결 반짝이 추가
 ![image](https://user-images.githubusercontent.com/30430227/126418841-199b47b3-437c-4eb7-a798-4e59205c47e7.png)
 ![image](https://user-images.githubusercontent.com/30430227/126418818-daade5f2-1bcc-453c-a60f-e75a07cf4d19.png)
@@ -57,18 +71,6 @@
 2. Separate - Combine
 3. Wave, Gradient Texture Mix(Screen)
 
-### 파장 1 Voronoi
-![image](https://user-images.githubusercontent.com/30430227/126263463-eef5000d-2244-4947-8fb3-4ebcf66c9fc9.png)
-![image](https://user-images.githubusercontent.com/30430227/126263294-71e064eb-57fa-401e-900a-3255a8061ec5.png)
-![image](https://user-images.githubusercontent.com/30430227/126263309-6538cbf5-0290-4b55-8021-a87c57391850.png)
-
-### 파장 2 Wave
-![image](https://user-images.githubusercontent.com/30430227/126264267-dd171e3f-7cab-42bd-8ec9-8bcba9825fa7.png)
-![image](https://user-images.githubusercontent.com/30430227/126264306-7c09799a-59b9-421a-a46a-da1144199845.png)
-
-### 파장 3 Gradient
-![image](https://user-images.githubusercontent.com/30430227/126265471-37f6d06a-76a0-4926-8095-e36365a908b3.png)
-![image](https://user-images.githubusercontent.com/30430227/126265561-d9b97a68-54c7-40ff-93b1-ec43f42936d6.png)
 
 ### Outline(Solidify)
 ![image](https://user-images.githubusercontent.com/30430227/126270984-602d99bc-c7d7-4d21-b669-164f207b55e7.png)
