@@ -11,7 +11,7 @@ Welcome to 기능튜토 documentation!
    :caption: Blender:
    
    blender/geometry
-   blender/2DStyle
+   blender/Style
 
 
 
