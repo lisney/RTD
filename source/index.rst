@@ -8,7 +8,9 @@ Welcome to RTD's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Blender:
+   
+   blender/geometry
 
 
 
