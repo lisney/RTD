@@ -33,7 +33,8 @@ Layout Frame에서 벗어나기 Alt + P
 모션그래픽
 ------------
 
-모그래픽 1
+### 모그래픽 1
+
 ![image](https://user-images.githubusercontent.com/30430227/121111108-49b99900-c849-11eb-872f-d27f56d69a18.png)
 
 Instance Object - Cube
@@ -48,7 +49,8 @@ Surface Object - Grid
 
 ![image](https://user-images.githubusercontent.com/30430227/121111422-ccdaef00-c849-11eb-839b-ddcc0ad71944.png)
 
-모그래픽 2
+### 모그래픽 2
+
 ![image](https://user-images.githubusercontent.com/30430227/121120329-509bd800-c858-11eb-932e-1be64a0ea762.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/121120356-585b7c80-c858-11eb-9802-7cf9577bd411.png)
@@ -61,8 +63,8 @@ Grid
 ![image](https://user-images.githubusercontent.com/30430227/121120434-7d4fef80-c858-11eb-9965-f72b283bd167.png)
 
 
-모그래픽 3
------------
+### 모그래픽 3
+
 
 ![image](https://user-images.githubusercontent.com/30430227/121125743-07e91c80-c862-11eb-997b-70e3d5eb27d7.png)
 
