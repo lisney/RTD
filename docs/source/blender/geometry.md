@@ -11,14 +11,14 @@ Geometry Node
 
 빌딩
 ------
-### 빌딩 I
+
+1. 빌딩 I
 ![image](https://user-images.githubusercontent.com/30430227/120792513-9878e180-c570-11eb-8b78-b48a04d11931.png)
 ![image](https://user-images.githubusercontent.com/30430227/120792541-a464a380-c570-11eb-8505-e1d922b7c409.png)
 ![image](https://user-images.githubusercontent.com/30430227/120792650-d118bb00-c570-11eb-9d53-68acd800b195.png)
 > Group Input의 아웃풋을 Count로 연결하면 자동으로 Integer로 된다. 이후 타입을 바꾸는 기능은 현재 없다
 
-
-### 빌딩 II
+2. 빌딩 II
 ![image](https://user-images.githubusercontent.com/30430227/120794443-366dab80-c573-11eb-9ef0-092446c6dcae.png)
 ![image](https://user-images.githubusercontent.com/30430227/120794475-408faa00-c573-11eb-9bcd-6faa1be57f94.png)
 ![image](https://user-images.githubusercontent.com/30430227/120794501-49807b80-c573-11eb-90a7-4e215902f725.png)
@@ -28,7 +28,8 @@ Geometry Node
 
 모션그래픽
 ------------
-### 모그래픽 1
+
+모그래픽 1
 ![image](https://user-images.githubusercontent.com/30430227/121111108-49b99900-c849-11eb-872f-d27f56d69a18.png)
 
 1. Instance Object - Cube
@@ -54,7 +55,9 @@ Geometry Node
 ![image](https://user-images.githubusercontent.com/30430227/121120434-7d4fef80-c858-11eb-9965-f72b283bd167.png)
 
 
-### 모그래픽 3
+모그래픽 3
+-----------
+
 ![image](https://user-images.githubusercontent.com/30430227/121125743-07e91c80-c862-11eb-997b-70e3d5eb27d7.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/121125774-13d4de80-c862-11eb-9015-746e05931344.png)
