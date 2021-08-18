@@ -4,15 +4,15 @@ Geometry Node
 기초
 ----------
 
-1. 노드 뮤트 
+노드 뮤트 
 ![image](https://user-images.githubusercontent.com/30430227/129670865-dd6b7fbe-6573-46c1-8bb1-f3410b4cdcdb.png)
 
-2. Layout Frame에서 벗어나기 Alt + P
+Layout Frame에서 벗어나기 Alt + P
 
 빌딩
 ------
 
-1. 빌딩1
+빌딩1
 
 ![image](https://user-images.githubusercontent.com/30430227/120792513-9878e180-c570-11eb-8b78-b48a04d11931.png)
 ![image](https://user-images.githubusercontent.com/30430227/120792541-a464a380-c570-11eb-8505-e1d922b7c409.png)
@@ -20,7 +20,7 @@ Geometry Node
 
 > Group Input의 아웃풋을 Count로 연결하면 자동으로 Integer로 된다. 이후 타입을 바꾸는 기능은 현재 없다
 
-2. 빌딩2
+빌딩2
 
 ![image](https://user-images.githubusercontent.com/30430227/120794443-366dab80-c573-11eb-9ef0-092446c6dcae.png)
 ![image](https://user-images.githubusercontent.com/30430227/120794475-408faa00-c573-11eb-9bcd-6faa1be57f94.png)
@@ -36,13 +36,13 @@ Geometry Node
 모그래픽 1
 ![image](https://user-images.githubusercontent.com/30430227/121111108-49b99900-c849-11eb-872f-d27f56d69a18.png)
 
-1. Instance Object - Cube
-2. 
+Instance Object - Cube
+ 
 ![image](https://user-images.githubusercontent.com/30430227/121111184-6786fe00-c849-11eb-946a-3ae8beb9e979.png)
 ![image](https://user-images.githubusercontent.com/30430227/121111153-59d17880-c849-11eb-9560-e67972b079c9.png)
 
-2. Surface Object - Grid
-3. 
+Surface Object - Grid
+ 
 ![image](https://user-images.githubusercontent.com/30430227/121111326-a026d780-c849-11eb-93b1-d1c53e5e91f8.png)
 ![image](https://user-images.githubusercontent.com/30430227/121111364-b03eb700-c849-11eb-9290-afbbd52a5cf5.png)
 
@@ -53,10 +53,10 @@ Geometry Node
 
 ![image](https://user-images.githubusercontent.com/30430227/121120356-585b7c80-c858-11eb-9802-7cf9577bd411.png)
 
-1. Cubes
+Cubes
 ![image](https://user-images.githubusercontent.com/30430227/121120473-922c8300-c858-11eb-9607-f9430e060d17.png)
 
-2. Grid
+Grid
 ![image](https://user-images.githubusercontent.com/30430227/121120385-67dac580-c858-11eb-8b90-0daf62a20a61.png)
 ![image](https://user-images.githubusercontent.com/30430227/121120434-7d4fef80-c858-11eb-9965-f72b283bd167.png)
 
@@ -68,27 +68,27 @@ Geometry Node
 
 ![image](https://user-images.githubusercontent.com/30430227/121125774-13d4de80-c862-11eb-9015-746e05931344.png)
 
-1. 랜덤분포로 ColorRamp를 사용 - 사용자정의 Attribute 'rand'
+랜덤분포로 ColorRamp를 사용 - 사용자정의 Attribute 'rand'
 ![image](https://user-images.githubusercontent.com/30430227/121281191-7dacc100-c912-11eb-90e9-3ac81f1d4f94.png)
 
-2. Atrribute Sample Texture
+Atrribute Sample Texture
 ![image](https://user-images.githubusercontent.com/30430227/121283574-548e2f80-c916-11eb-8be2-49c1da23cc7b.png)
 ![image](https://user-images.githubusercontent.com/30430227/121283592-5d7f0100-c916-11eb-9be9-6796a9be617d.png)
 
-3. 거리에 따른 분포 - PingPong
+거리에 따른 분포 - PingPong
 ![image](https://user-images.githubusercontent.com/30430227/121284942-886a5480-c918-11eb-8144-ad66d27f0ee3.png)
 
 
-4. 노말 활용 - Point Translate, Point Rotate
+노말 활용 - Point Translate, Point Rotate
 ![image](https://user-images.githubusercontent.com/30430227/121287676-f7e24300-c91c-11eb-99c4-d9ea86d48f6c.png)
 
-5. 그래디언트 사이즈
+그래디언트 사이즈
 ![image](https://user-images.githubusercontent.com/30430227/121297817-d89fe180-c92d-11eb-8b6e-f95a8f3a303b.png)
 
-6. 커스텀 변수 'rand'. Align Rotation to Vector
+커스텀 변수 'rand'. Align Rotation to Vector
 ![image](https://user-images.githubusercontent.com/30430227/121326853-e49b9b80-c94d-11eb-9c78-bacbcdec98c1.png)
 
-7. Proximity
+Proximity
 ![image](https://user-images.githubusercontent.com/30430227/121973862-28acf700-cdb9-11eb-9512-c542f3b48804.png)
 ![image](https://user-images.githubusercontent.com/30430227/121973887-35c9e600-cdb9-11eb-8b1d-5c9aed516c50.png)
 
