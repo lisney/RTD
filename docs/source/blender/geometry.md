@@ -4,10 +4,10 @@ Geometry Node
 기초
 ----------
 
-# 노드 뮤트 
+1. 노드 뮤트 
 ![image](https://user-images.githubusercontent.com/30430227/129670865-dd6b7fbe-6573-46c1-8bb1-f3410b4cdcdb.png)
 
-# Layout Frame에서 벗어나기 Alt + P
+2. Layout Frame에서 벗어나기 Alt + P
 
 빌딩
 ------
