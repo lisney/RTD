@@ -13,7 +13,11 @@ Welcome to 기능튜토 documentation!
    blender/geometry
    blender/style
 
-
+.. toctree::
+   :maxdepth: 2
+   :caption: Javascript:
+   
+   javascript/basic
 
 Indices and tables
 ==================
