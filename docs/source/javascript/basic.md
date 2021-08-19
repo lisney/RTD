@@ -1,4 +1,6 @@
-# 리스트, 객체
+# 기초
+
+## 리스트, 객체
 ![image](https://user-images.githubusercontent.com/30430227/125232590-e7f0c100-e317-11eb-8e6b-e09f81b06829.png)
 ```
 <script>
@@ -23,9 +25,9 @@
 </script>
 ```
 
-# addEventListener, Form, submit
-### 전송을 위한 변수(프로퍼티,name) 'word' 
-### 입력한 텍스트가 사라지는 원인은 URL이 바뀌어 '새로고침' 하기때문
+## addEventListener, Form, submit
+전송을 위한 변수(프로퍼티,name) 'word' 
+입력한 텍스트가 사라지는 원인은 URL이 바뀌어 '새로고침' 하기때문
 ![image](https://user-images.githubusercontent.com/30430227/125257363-4d54aa00-e338-11eb-93d5-6cdd18c9f154.png)
 ```
 <body>
@@ -44,8 +46,8 @@
 </script>
 ```
 
-# onsubmit, form, submit
-### 반환값(false, true) 따라 요청여부가 결정, return 값 false 시 '새로고침' 안함
+## onsubmit, form, submit
+반환값(false, true) 따라 요청여부가 결정, return 값 false 시 '새로고침' 안함
 ![image](https://user-images.githubusercontent.com/30430227/125261929-b0e0d680-e33c-11eb-9102-09ad13b8a67f.png)
 ```
     <section>
@@ -64,7 +66,7 @@
     }
 </script>
 ```
-# 접속
+## 접속
 ![image](https://user-images.githubusercontent.com/30430227/125263526-11bcde80-e33e-11eb-8756-302615078679.png)
 ```
     <section>
@@ -82,7 +84,7 @@
 </script>
 ```
 
-# zfill(파이썬 메소드) 구현
+## zfill(파이썬 메소드) 구현
 ![image](https://user-images.githubusercontent.com/30430227/125268738-f6a09d80-e342-11eb-9927-dc3ec0e4d5da.png)
 ```
 <script>
@@ -99,7 +101,7 @@
 </script>
 ```
 
-# 소수점 floor, toFixed
+## 소수점 floor, toFixed
 ![image](https://user-images.githubusercontent.com/30430227/125276272-fe644000-e34a-11eb-8e78-de4b22cbbec5.png)
 ```
     <section>
@@ -110,9 +112,9 @@
     </section>
 ```
 
-# 남은 시간은?
-### getTime은 밀리세컨드를 받는다
-### getMonth는 0~11을 받는다(0 = 1월)
+## 남은 시간은?
+getTime은 밀리세컨드를 받는다
+getMonth는 0~11을 받는다(0 = 1월)
 ![image](https://user-images.githubusercontent.com/30430227/125278441-b692e800-e34d-11eb-8ca6-dde03ad40771.png)
 ```
 <script>
@@ -139,7 +141,7 @@
 </script>
 ```
 
-# 남은 시간 카운트다운
+## 남은 시간 카운트다운
 ![image](https://user-images.githubusercontent.com/30430227/125279934-792f5a00-e34f-11eb-8378-742e3bde0227.png)
 ```
     <section>
@@ -181,7 +183,7 @@
 </script>
 ```
 
-# 풀다운 메뉴 select
+## 풀다운 메뉴 select
 ![image](https://user-images.githubusercontent.com/30430227/125384773-60b55300-e3d4-11eb-9ad9-6c9e0d35ab05.png)
 ```<body>
     <section>
@@ -204,7 +206,7 @@
 </script>
 ```
 
-# Cookies
+## Cookies
 ![image](https://user-images.githubusercontent.com/30430227/125396880-205fd000-e3e8-11eb-81ad-a01814c84e7d.png)
 ```
     <section>
@@ -236,7 +238,7 @@
     </script>
 ```
     
-# data-XXX, dataset 이미지 바꾸기
+## data-XXX, dataset 이미지 바꾸기
 ![image](https://user-images.githubusercontent.com/30430227/125406378-bb11dc00-e3f3-11eb-87a8-b67ce6b3ffb2.png)
  ```
  <style>
@@ -285,7 +287,7 @@
     </script>
 ```
 
-# 사진 리스트
+## 사진 리스트
 ![image](https://user-images.githubusercontent.com/30430227/125546171-7219b63e-a616-49cb-a3ee-ec9b2ec5fca4.png)
 ```
  <style>
@@ -366,18 +368,20 @@
         pageNum()
     </script>
 ```
-# XMLHttpRequest(Vinilla Script Ajax)
-### Ajax는 데이터 이용량 줄이고, 페이지 로딩 시간 줄임
-> 순서
+## XMLHttpRequest(Vinilla Script Ajax)
+Ajax는 데이터 이용량 줄이고, 페이지 로딩 시간 줄임
+
+1. 순서
 (클라이언트)XMXHttpRequest 객체 생성/서버로 보냄 => (서버)해당 정보를 클라이언트에 보냄 => (클라이언트)받은 정보를 특정 영역에 뿌림
-### XMLHttpRequest 메소드 : open/요청 타입 결정, send/서버로 요청 보냄(GET), send(string)/버서로 요청 보냄(POST)
+2. XMLHttpRequest 메소드 : open/요청 타입 결정, send/서버로 요청 보냄(GET), send(string)/버서로 요청 보냄(POST)
 >open(method, url, async) //method(GET/POST), url(서버/파일 위치), async(true/false)-동기/비동기
-### 응답 프로퍼티
+3. 응답 프로퍼티
 >responseType
-### 이벤트
+4. 이벤트
+
 >onload/불러왔을 때
 >onreadystatechange/속성값 변할 때, readyState/0:요청초기화되지않음/1:서버연결/2:요청받음/3:요청진행중/4:요청응답완료, status/200:정상/404:페이지없음
-### POST 방식을 사용할 때: 데이터베이스 업데이트, 많은 양의 데이터(GET방식은 사이즈 제한), 보안
+5. POST 방식을 사용할 때: 데이터베이스 업데이트, 많은 양의 데이터(GET방식은 사이즈 제한), 보안
 
 ![image](https://user-images.githubusercontent.com/30430227/125599615-c82082bd-92b1-480a-8596-fb2c424057af.png)
 
@@ -468,7 +472,7 @@
         }
     </script>
 ```
-### data.json
+6. data.json
 ```
 [
     {"id":"js","crowded":"yes"},
@@ -477,7 +481,7 @@
 ]
 ```
 
-# 프로미스 연습
+## 프로미스 연습
 ```
 function makeRequest(location){
     console.log(`${location} 전달`)
