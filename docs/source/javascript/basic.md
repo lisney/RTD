@@ -1,4 +1,5 @@
-# 기초
+기초
+=======
 
 ## 리스트, 객체
 ![image](https://user-images.githubusercontent.com/30430227/125232590-e7f0c100-e317-11eb-8e6b-e09f81b06829.png)
