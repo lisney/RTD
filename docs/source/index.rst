@@ -18,6 +18,7 @@ Welcome to 기능튜토 documentation!
    :caption: Javascript:
    
    javascript/basic
+   javascript/doit
 
 Indices and tables
 ==================
