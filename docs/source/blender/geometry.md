@@ -109,4 +109,16 @@ Proximity
 ![image](https://user-images.githubusercontent.com/30430227/121973862-28acf700-cdb9-11eb-9512-c542f3b48804.png)
 ![image](https://user-images.githubusercontent.com/30430227/121973887-35c9e600-cdb9-11eb-8b1d-5c9aed516c50.png)
 
+<br>
+
+Attribute Node
+-----------------
+
+<br>
+
+### Attribute Proximity
+![image](https://user-images.githubusercontent.com/30430227/130223619-15e6a093-6f44-402d-9cdb-8f537b44d2a5.png)  
+`Cycles Renderer`
+![image](https://user-images.githubusercontent.com/30430227/130223704-226b1154-c9d3-4edd-b493-e648322384db.png)
+![image](https://user-images.githubusercontent.com/30430227/130223728-d8049b87-f292-4d1d-a644-5b0257b734eb.png)
 
