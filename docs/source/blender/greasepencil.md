@@ -42,6 +42,10 @@ Basic
 10. 이름을 pupil로 바꾼 후 Edit 모드에서 스케일을 줄여 puipil 머티리얼을 적용한다(Edit모드에서 점들을 선택하고 Assign)
 11. pupil에 eyeball Mask를 적용한다음 Edit Mode에서 위치를 옮겨서 확인한다
 
+![image](https://user-images.githubusercontent.com/30430227/130421431-d41cb8e3-1630-49ea-90ca-116ce4645e1c.png)  
+![image](https://user-images.githubusercontent.com/30430227/130421363-b4881656-509a-4f42-873c-42dc0e0b4a0e.png)
+![image](https://user-images.githubusercontent.com/30430227/130421516-01677614-22ba-44c5-8126-0cdf6ec44ebf.png)
+
 2. 드로잉
 
 ![image](https://user-images.githubusercontent.com/30430227/127612134-5d9e5ae5-ceb2-4a8d-bc10-b4c2a0173505.png)
