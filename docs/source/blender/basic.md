@@ -183,7 +183,7 @@ Cycle
 //블렌더 버전업하면서 기본적으로 파티클에 재질이 들어가는데
 //smoke 효과를 적용할 때는 꺼주어야한다
 //Render:Emitter체크해제, Halo->None
-//**텍스처의 Mapping:Coordinates->Generated 선택
+//텍스처의 Mapping:Coordinates->Generated 선택
 
 
 `파이어스모크도메인 블랙 제거?! 블렌더랜더의 경우`
@@ -202,9 +202,139 @@ Cycle
 
 `Baking Texture`
 //블렌더랜더 -UV에디터에서 UV, image 생성 후 베이킹
-//cycle 랜더 - **image node 생성> new image 연결 후 베이킹
+//cycle 랜더 - image node 생성> new image 연결 후 베이킹
 
 `랜더링 시 firefiles(흰색 점들)제거`
 //Render > Sampling : Clamp 값을 조정해본다
+<br>
+
+Nature
+-------
+`바다`
+//ocean Modifier 적용 > scale(파도의크기)/choppiness(거친바다표현,끝이 날카롭다)
+
+`포말`
+//generate Foam 체크 >coverage(포말의 량)/bake Ocean>foam fade(폼이 사라지는 정도)
+//Material>Mirror 적용
+//Texture>Ocean Type 선택>Ocean>ModifierObject선택하고 output:Foam 선택한다 
+
+`재질미러 사용하기(포말 사용할 시)`
+//머티리얼 Mirror 값을 0로 하고
+//texture>influence>shading>rayMirror(미러 재질설정) 한다
 
 
+`다이내믹 페인트`
+//표면은 Canvas, 물체는 Brush로 적용한다
+
+`물체가 표면을 따라 이동`
+//Date>VertexGroup 에서 그룹을 생성한다
+//캔버스>다이내믹페인트어드벤스드>SurfaceType:weight선택>전에 만들어 둔 버텍스그룹 적용
+//Fade체크한 후 Time을 1로 정한다
+///표면을 따라 이동할 물체 생성한 후 Constraint>Copy Location/Rotate 두 개를 적용한 후 타겟을 오션모디파이어:버텍스 그룹으로 정한다
+
+`다이내믹 페인트 추가`
+//새로 만든 물체를 다이내믹 브러시로 정한다
+//이전 브러시와 독립적으로 영향을 주기 위해 두 브러시를 각각 그룹화한다
+//다이내믹브러시어드벤스드>브러시그룹에서 해당 서피스타입과 각각 연결한다
+
+브러시옵션 Use object material 체크
+//오브젝트의 재질로 페인트한다
+//캔버스의 재질 옵션:VertexColorPaint를 체크한다
+//캔버스의 다이내믹페인트아웃풋:Paintmap layer 메뉴의 + 를 눌러 생성한다
+
+`캔버스옵션 SurfaceType:waves `
+//물결을 생성
+
+`돌 생성`
+//Cell Fracture 에서 Noise 값을 높인다(내부에도 조각이 적용된다)
+
+`연기`
+//Domain>quickSmoke>Vorticity(소용돌이):터뷸런스 값
+//Domain>Density(음수값으로 높일수록 억제력이 높다)
+//Flow>FlowType:Fire+Smoke>FlameRate:Fire의 량
+
+`풀 만들기`
+//파티클(헤어)>그룹오브젝트>모디파이 파티클시스템:convert 클릭
+//파티클 오브젝트에 Weight Paint 를 한다
+//중요::DATA에서 숫자를 클릭(싱글화)한다음 join(Ctrl + j)한다
+
+`파티클 시간에 따라 사이즈`
+//Blender랜더모드
+// : texture >New particleTexture
+//type : Blend, colors : Ramp, Mapping>Coordinates : strand/particle , Influence : Size체크
+//Cycle 랜더모드//Particle > Texture >New Texture 한 후 Texture을 위와같이 설정한다
+
+`파티클 투명도`
+//Cycle모드
+//파티클오브젝트 > New Material
+//노드에디터 
+//New Transparent Shader->Mix Shader에 연결
+//ParticleInfo노드의 Age(현재나이)/Lifetime(수명)->Math(Divide)->ColorRamp
+//ColorRamp(Color)->MixShader의 Fac에 연결한다
+<br>
+
+애팩 합성
+-----------
+`OpenEXR multi 시 IndexOB 를 ID Mask 노드에 링크한 후 ID를 선택한다음`
+//블랜더 File Output에 레이어를 만든 후 ID Mask 노드를 링크한다
+//에팩에서는 3DChennel에서 EXtracter 효과에서 선택한다
+<br>
+
+
+
+
+
+
+
+
+
+
+기타 팁
+-----------
+`나무 Arbaro 실행방법`
+//cd <arbaro directory> 
+ java -jar arbaro_gui.jar
+
+`Clipping Border 단면 보기  //Edit Mode에서 Alt +B`
+View>Clipping Border 단면 보기
+
+`Emulate 3 Button Mouse`
+//2버튼 마우스 사용자를 위한 설정(중간 마우스 대신 좌측마우스키를 사용하게된다)
+
+`카메라 회전 앵글 고정`  돌리다가 Alt키를 떼었다가 다시 누른다
+
+`ctrl + L  (Modify)`
+메이크링크...모디파이 속성을 복사
+
+`F6` : 옵션 창 띄움
+
+`카메라를 버텍스에 자식화 하기`
+부모 오브젝트를 선택 하고 Edit 모드로 들어간 후 버텍스를 3개 선택한 후 shift 카메라 선택한다음 'p' 페어런트 한다.
+
+`레이아웃 전환` ;  Ctrl + 화살표키 좌/우
+
+`Shape Keys에서 두 오브젝트를 몰핑시키는 방법`
+두 오브젝트를 선택한 후 역화살표를 클릭하면 나오는 메뉴에서 Join As Shape를 선택하면 된다
+
+`stl파일 정리 팁`
+//에디트모드에서 del
+//limited Dissolve 선택
+//3Dprint ToolBox에서 Make Manifold 한다
+
+<br>
+VertexPaint
+---------------
+
+///뷰포트에서 보려면 프로퍼티패널에서 Shading>TexturedSolid를 체크해준다
+1.붓 선택
+//Set Brush Number : 명령어 brush.active_index_set
+//숫자를 정해준 후 Mode에 vertex_paint 를 넣어준다
+
+2.Fill Color(paint.vertex_color_set)
+//Shift + K
+
+3.Color Picker(paint.sample_color)
+//Sample Color 
+//단축키 s
+
+  
