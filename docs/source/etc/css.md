@@ -362,8 +362,10 @@ Animation 축약
         </ul>
     </li>
 	</ul>
-```
+	
 <br>
+<br>
+
 ```
 function handler(event){
     // 2단계. handler 의 함수를 작성. handler 함수가 호출이 되면 아래와 같은 행동을 하라.
