@@ -73,40 +73,40 @@ Time Scale: 3, Viscosity: 0.02 후 다시 Bake > Mesh Bake
 
 테두리 fx
 ------------
-![image](https://user-images.githubusercontent.com/30430227/126567150-e6019576-b27f-4ec9-8c14-02ac300b7922.png)
+![image](https://user-images.githubusercontent.com/30430227/126567150-e6019576-b27f-4ec9-8c14-02ac300b7922.png)  
 ![image](https://user-images.githubusercontent.com/30430227/126567394-32dcb413-e778-46ab-99b1-9cb04337b2ae.png)
 
-![image](https://user-images.githubusercontent.com/30430227/126567557-b8ceecc5-4faa-457e-9f13-981c8c788082.png)
+![image](https://user-images.githubusercontent.com/30430227/126567557-b8ceecc5-4faa-457e-9f13-981c8c788082.png)  
 ![image](https://user-images.githubusercontent.com/30430227/126567591-7b60285a-4246-443b-808c-147799b6a798.png)
 
-![image](https://user-images.githubusercontent.com/30430227/126567816-c6868670-9a54-4ea7-ba2e-d3a04f58f8f4.png)
+![image](https://user-images.githubusercontent.com/30430227/126567816-c6868670-9a54-4ea7-ba2e-d3a04f58f8f4.png)  
 ![image](https://user-images.githubusercontent.com/30430227/126567835-69dde0ea-4d5a-4db4-8ab4-1ef6d90036fc.png)
 
-![image](https://user-images.githubusercontent.com/30430227/126567987-b1ed5130-65dc-4aed-b804-62cf317c547c.png)
+![image](https://user-images.githubusercontent.com/30430227/126567987-b1ed5130-65dc-4aed-b804-62cf317c547c.png)  
 ![image](https://user-images.githubusercontent.com/30430227/126568119-a1552cb9-1264-4cee-ab95-efaf9c65848d.png)
 <br>
 
 트랜지션 머티리얼
 -----------------
-![image](https://user-images.githubusercontent.com/30430227/126727343-d217ff58-691a-4293-af27-36a54c917f94.png)
-![image](https://user-images.githubusercontent.com/30430227/126727384-f48e9916-3406-4b72-b32d-d5fb94bb4d54.png)
+![image](https://user-images.githubusercontent.com/30430227/126727343-d217ff58-691a-4293-af27-36a54c917f94.png)  
+![image](https://user-images.githubusercontent.com/30430227/126727384-f48e9916-3406-4b72-b32d-d5fb94bb4d54.png)  
 ![image](https://user-images.githubusercontent.com/30430227/126727403-74b4e41b-1dbe-46f9-bc5e-e4ff26c6e509.png)
 <br>
 
 벌집
 -----
-![image](https://user-images.githubusercontent.com/30430227/128960006-993f4c13-b2cc-428b-be4c-f7e81bfbe45f.png)
+![image](https://user-images.githubusercontent.com/30430227/128960006-993f4c13-b2cc-428b-be4c-f7e81bfbe45f.png)  
 ![image](https://user-images.githubusercontent.com/30430227/128960053-9d6bab52-0144-49d9-a4bb-32781cdf1247.png)
 > Subdivision > Apply
-![image](https://user-images.githubusercontent.com/30430227/128960141-27b3310b-d793-4333-b9f0-eec53762901d.png)
+![image](https://user-images.githubusercontent.com/30430227/128960141-27b3310b-d793-4333-b9f0-eec53762901d.png)  
 ![image](https://user-images.githubusercontent.com/30430227/128960241-0c56a964-54f7-445f-84ce-5b7c2f7722dc.png)
 > Rotate > Salce.Y: 0.6 > Shift + g > dissolve vertices
 <br>
 
 랜덤 램프
 ------------
-![image](https://user-images.githubusercontent.com/30430227/121127701-23a1f200-c865-11eb-8cba-0c5999650bbd.png)
-![image](https://user-images.githubusercontent.com/30430227/121127804-4d5b1900-c865-11eb-9f31-89e6e0b12432.png)
+![image](https://user-images.githubusercontent.com/30430227/121127701-23a1f200-c865-11eb-8cba-0c5999650bbd.png)  
+![image](https://user-images.githubusercontent.com/30430227/121127804-4d5b1900-c865-11eb-9f31-89e6e0b12432.png)  
 ![image](https://user-images.githubusercontent.com/30430227/121127744-34eafe80-c865-11eb-9b6c-2093d1e03869.png)
 <br>
 
