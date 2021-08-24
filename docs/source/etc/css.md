@@ -277,20 +277,22 @@ Animation 축약
 
 1. em
 	폰트 사이즈에 비례 ex)font-size: 16 -> 2em : 32
-	
-> display : grid; 반응형
+
+```
+ display : grid; 반응형
 	grid-template-columns: 폭 폭 폭 폭 폭;
 	grid-template-columns: repeat(5, 폭);
 	grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
 	grid-gap: 1rem;
 	cursor: pointer;
 	
-> image Sprite 유니티의 아틀라스같은... 여러 이미지를 한 장에 모아 사용할 수 있다.
+image Sprite 유니티의 아틀라스같은... 여러 이미지를 한 장에 모아 사용할 수 있다.
 	background: url('...');
 	width:
 	height:
 	background-position: -30,-50;//좌측 상단부위가 width, height 시작하는 지점
-	
+```
+
 <br>
  
 2. SCSS 사용
@@ -301,10 +303,12 @@ Animation 축약
 
 3. hover 시 자식도 변형효과
 
-	transition : transform 0.5s
-	
-	:hover 자식선택자{...} // .card:hover img{transform: translateX(-10px);
-	transform: rotate( 45deg ) // deg, rad, turn
+```
+transition : transform 0.5s
+
+:hover 자식선택자{...} // .card:hover img{transform: translateX(-10px);
+transform: rotate( 45deg ) // deg, rad, turn
+```
 
 <br>
 
@@ -327,6 +331,7 @@ Animation 축약
 ```
 <br>
 5. css
+
 ```
 	div.check{padding:10px;border:1px solid #000;margin-bottom:10px;background-color:#ffeed6;}
 	p{padding:10px;border:1px solid #000;background-color:#d6dfff;}
@@ -363,7 +368,7 @@ Animation 축약
     </li>
 	</ul>
 	
-<br>
+```
 <br>
 
 ```
@@ -378,6 +383,7 @@ function handler(event){
     }
 ``` 
 <br>
+
 ```
   *{margin:0;padding:0;}
 li{list-style-type:none;text-align:center;}
@@ -396,11 +402,12 @@ $(".one").click(handler).find("ul").hide();
     // .one 가 자식으로 가지고 있는 요소들 중에 ul 을 찾아 숨겨라 <- 브라우저가 시작하마자 동작
  ```
 <br>
+
 팁 2
 ----------
 
 1. border-radius 찌그러짐
-- border-radius: 3%/10% //가로가 긴 경우 가로 % 값을 작게준다
+` border-radius: 3%/10% //가로가 긴 경우 가로 % 값을 작게준다`
 <br>
 
 2. Fieldset
@@ -414,9 +421,11 @@ $(".one").click(handler).find("ul").hide();
 출처: https://webdir.tistory.com/318 [WEBDIR]
 ```
 <br>
+
 3. Input Type 선택
 
 ` input[type=text] `
+
 <br>
 
 4. clear both
