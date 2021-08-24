@@ -128,7 +128,7 @@ Time Scale: 3, Viscosity: 0.02 후 다시 Bake > Mesh Bake
 
 ![image](https://user-images.githubusercontent.com/30430227/130582134-8fd55a2b-eae0-488f-9e57-6ed7d63d3db0.png)  
 
-`Bevel > Geometry > Miter Outer (Sharp -> Arc)  
+`Bevel > Geometry > Miter Outer (Sharp -> Arc)  `
 ![image](https://user-images.githubusercontent.com/30430227/130582397-b5b2e59f-1c7c-442e-9869-ef413e531c47.png)
 
 
