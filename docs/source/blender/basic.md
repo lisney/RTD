@@ -278,24 +278,19 @@ Nature
 `OpenEXR multi 시 IndexOB 를 ID Mask 노드에 링크한 후 ID를 선택한다음`
 //블랜더 File Output에 레이어를 만든 후 ID Mask 노드를 링크한다
 //에팩에서는 3DChennel에서 EXtracter 효과에서 선택한다
+
 <br>
-
-
-
-
-
-
-
-
-
 
 기타 팁
 -----------
-`나무 Arbaro 실행방법`
-//cd <arbaro directory> 
- java -jar arbaro_gui.jar
 
-`Clipping Border 단면 보기  //Edit Mode에서 Alt +B`
+`나무 Arbaro 실행방법`
+```
+//cd <arbaro directory> 
+//java -jar arbaro_gui.jar
+```
+
+`Clipping Border 단면 보기 Edit Mode에서 Alt +B`
 View>Clipping Border 단면 보기
 
 `Emulate 3 Button Mouse`
@@ -318,23 +313,385 @@ View>Clipping Border 단면 보기
 
 `stl파일 정리 팁`
 //에디트모드에서 del
-//limited Dissolve 선택
-//3Dprint ToolBox에서 Make Manifold 한다
-
+//limited Dissolve 선택  
+3Dprint ToolBox에서 Make Manifold 한다  
 <br>
-VertexPaint
----------------
 
-///뷰포트에서 보려면 프로퍼티패널에서 Shading>TexturedSolid를 체크해준다
-1.붓 선택
+VertexPaint
+------------  
+뷰포트에서 보려면 프로퍼티패널에서 Shading>TexturedSolid를 체크해준다  
+1.붓 선택  
 //Set Brush Number : 명령어 brush.active_index_set
 //숫자를 정해준 후 Mode에 vertex_paint 를 넣어준다
 
-2.Fill Color(paint.vertex_color_set)
+2.Fill Color(paint.vertex_color_set)  
 //Shift + K
 
-3.Color Picker(paint.sample_color)
+3.Color Picker(paint.sample_color)  
 //Sample Color 
 //단축키 s
 
-  
+단축키 세팅
+------------
+
+`⓿Interface `: Auto Depth(줌 억제기능 해제,&&Fly Mode Shift + F 해제시 버그) 체크/Auto Perspective 체크
+
+`메뉴사이즈 조정(Alt + R-Mouse)` //View2D->명령어 view2d.zoom->단축키 설정
+
+`input : UserPreferences77/Select With : Left / zoomStyle : Horizontal`
+//Select Shortest Path :with Ctrl Key
+//6 : MATERIAL - RENDERED 단축키 설정
+//Inset face : i 단축키 설정
+//Curve : Set Handle Typee 단축키 v로 설정(기존 오른 마우스키)
+
+`외부 Addon` : blender-sculpt-tools-master-1 > 현재 bool tool 기본 애드온이다
+
+`Carver Addon` : 뉴커팅툴
+
+`Wrangler` : Ctrl + Shift +클릭, Ctrl + R클릭 , Ctrl + T
+
+```
+⓵3Dview>mesh 카테고리 mesh.select_mode 명령어
+//edit 모드에서 vertex, edge, face 전환(단축키 1,2,3)
+//image 카테고리에도 같은 방식으로 생성한다(UV에디터에서도 적용시키기 위함)
+
+//View > Top :넘패드 7, front : 넘패드 1, right : 3, left : 9 
+ortho : 7, Align view>Align Active Camera to view(ctrl + alt + 0), Align view to Active : shift + Numpad 7
+```
+
+`Hide 단축키 설정` ; 오브젝트, 메쉬(에디트)모드에 'h', 'shift + h', 'alt + h'
+
+```
+⓶Transform 단축키 설정
+//메뉴의 transform > tralslate 단축키를 Alt + w로설정한다
+//Preferences>Input에서 key-binding에서 ‘alt w’로 검색하여 기존의 Alt +w를(Clear Translate) Ctrl + w로 바꾼다)
+//나머지 rotate, scale도 같은 방법으로 바꾼다
+```
+
+`Extrude : 기본 alt x` 
+//메뉴설정 ; wm.call_menu 명령어>Name: VIEW3D_MT_edit_mesh_extrude(ctl +alt + x)
+
+```
+⓷mesh.knife_tool -> 단축키 k 
+**블랜더 Knife 자동으로 잘라내는 에러
+--Knife Tool Modal Map > Add New, Add Cut 선택 한 후 'Any'를 선택한다.(Left,아래 모든 기능이 체크되어있다)
+
+⓸선택한 면만 잘림 단축키 추가 -> shift + k
+//명령어:mesh.knife_tool -> only select 체크
+
+⓹숏컷 만들기//오른클릭으로 안되는 메뉴의 숏컷
+//Add New > wm.call_menu 입력하면 우측하단에 나오는 입력란에 메뉴를 써넣는다
+(예 Hooks : VIEW3D_MT_hook)
+**참고
+//enum 배열 선택 토글은 wm.context_toggle_enum
+//명령어 space_data.XXX  이후에 값을 입력한다
+//pivot Point 전환
+//command;wm.context_toggle_enum
+///context Attributes;space_data.pivot_point/value1;CURSOR, value2;BOUNDING_BOX_CENTER
+
+⓺블랜더WeightPaintMode_ShiftSelect
+Short description of error
+ In order to select a bone during weight paint mode, the "maya" shortcut is SHIFT+Click on the bone.
+ But in order for this to work, I have to first unchecked the :
+File/user preferences/input/3D view/Weight Paint/WeightPaintSampleGroup
+ (Because it uses the same short cut)
+And then, I have to add the following shortcut (like for blender shortcut):
+- File/user preferences/input/3D view/3D view (global)/Add new => view3d.select + case shift + Click left + center + object
+Because this initial shortcut does'nt seem to work :
+File/user preferences/input/3D view/3D view (global)/Select or Deselect All (Shift Select Mouse)
+//////////////////////////////////////////////////
+셋드라이버 지정 시 Error:Python auto-exection disabled에러
+// 이건 임시방편이고 아래 방법이 좋다///일단 파일로 저장한 후>Update Dependencies 버튼을 클릭하면 상단에 Auto-run disabled에서 Reload Trusted를 클릭하면 된다
+////아래방법>>..User Preferences에서 이전버전에서는 System에 있었던 Auto Run Python Scripts가 File 탭에 존재하니..이걸 체크해주면 된다.
+
+⓻mesh.shortest_path_pick 단축키 Mesh 카테고리에 추가한다음
+
+⓼엣지 루프/링 선택 ctrl + alt + right/left M클릭
+
+```
+<br>
+
+기타단축키
+----------
+```
+Edge Crease 단축키 설정하기 -> '.'
+타이어 만들기/link Dupe & Mirror 적용 > Ctrl + M
+
+View All 단축키 'A' 3D커서 센터로 리셋 설정
+//Preperence 에서 'Center' 체크한다
+
+**Slide 단축키
+//alt + W(무브)단축키 후 'G'키를 누르면 슬라이딩한다
+
+Rip (Fill)
+//단축키로 설정해 놓는다 'v', 립필 ->Alt + v
+// Path 셀렉트>> 립필 >> G키 조합 GOOD
+
+오클루드 지오메트리 버튼 토글 (뒤 쪽 버텍스 선택)
+//Open preferences and under Input > 3d View > Mesh section click on the “Add” button.
+ Enter " wm.context_toggle" into first empty input box.
+ Map a key you wish to use instead of occlude geometry button.
+ In the second input box bellow (Contex Attrib) add a line: space_data.use_occlude_geometry
+
+Snap ; shift + s
+Set origin ; shift + ctrl + alt + c 로(블렌더 단축키와 같게) 설정한다
+
+Ctrl + B
+//view3d.render_border
+//Camera Only 체크 시 카메라뷰(ctrl + 0)에서만 박스렌더 지원
+
+Weight Paint 모드 시 shift + 본 선택 토글(선택 시 토글 해제되지 않는 문제)
+//3D View > Activate/Select 에서 Extend 체크를 풀고, Toggle Selection 체크한다
+
+와콤설정 Circle Select Mode
+//Brush Size : 마우스 휠 ->태블릿 휠 설정
+//Left 버튼 : 선택, Middle 버튼 선택 : 해제
+
+Maya Shift 선택 기능 에러
+//Blender 기본 셀렉터 명령 view3d.select 으로 바꾼다(바꾸기보단 추가하는게 더 낫다^^)
+//3D View의 Select or Deselect All 메뉴에서 Shift Select Mouse에
+//기존 명령을 view3d.select 로 바꾼 후 Toggle Selection 체크한다
+
+UV Editor 에서 3D커서(2D커서) 세팅
+//Set 2D Cursor 설정을 바꾼다(기존 C + rightMouse) : uv.cursor_set   -Mouse : Action Mouse
+UV Editor 에서 Lassor Select 방법 : Ctrl,Shift등 아무 조합키와 함께 가운데 버튼
+
+F5 (마우스 커서 위치) 순간이동키^^
+//properties Region/Tool Shelf/Header를 오른쪽(위)과 왼쪽(아래)으로 이동
+
+Shading 모드 단축키 바꾸기(5,6)
+첫번째 항목 Value : wm.context_toggle_enum(토글키 만들기)
+Value : MATERIAL, TEXTURED(대문자)
+Context Attribute : space_data.viewport_shade(반영할 속성은)
+
+⓽스컬핑 브러시 단축키 설정
+**Draw Curve(커브의 EditMode에서 베벨값, Shift+Right(ActionMouse)로 드랙. curve.draw, WaitForInput 체크X 
+//paint.brush_select  
+//가령 키보드 M에 마스크브러시를 설정한다면.
+//Sculp Tool에서 마스크를 선택한다.
+//Toggle 은 키를 반복해서 누르면 이전 브러시로 돌아간다.
+
+스컬핑브러시 라소 마스크 단축키 설정
+//paint.mask_lasso_gesture
+//shift+ctrl+레프트마우스
+
+//Dynatopo 와 Symmetry XYZ 단축키 설정하기
+//sculpt.dynamic_topology_toggle(ctrl + D)//wm.context_toggle//tool_settings.sculpt.use_symmetry_x
+Edge Crease 단축키 설정하기 -> '.'
+타이어 만들기/link Dupe & Mirror 적용 > Ctrl + M
+
+View All 단축키 'A' 3D커서 센터로 리셋 설정
+//Preperence 에서 'Center' 체크한다
+
+**Slide 단축키
+//alt + W(무브)단축키 후 'G'키를 누르면 슬라이딩한다
+
+Rip (Fill)
+//단축키로 설정해 놓는다 'v', 립필 ->Alt + v
+// Path 셀렉트>> 립필 >> G키 조합 GOOD
+
+오클루드 지오메트리 버튼 토글 (뒤 쪽 버텍스 선택)
+//Open preferences and under Input > 3d View > Mesh section click on the “Add” button.
+ Enter " wm.context_toggle" into first empty input box.
+ Map a key you wish to use instead of occlude geometry button.
+ In the second input box bellow (Contex Attrib) add a line: space_data.use_occlude_geometry
+
+Snap ; shift + s
+Set origin ; shift + ctrl + alt + c 로(블렌더 단축키와 같게) 설정한다
+
+Ctrl + B
+//view3d.render_border
+//Camera Only 체크 시 카메라뷰(ctrl + 0)에서만 박스렌더 지원
+
+Weight Paint 모드 시 shift + 본 선택 토글(선택 시 토글 해제되지 않는 문제)
+//3D View > Activate/Select 에서 Extend 체크를 풀고, Toggle Selection 체크한다
+
+와콤설정 Circle Select Mode
+//Brush Size : 마우스 휠 ->태블릿 휠 설정
+//Left 버튼 : 선택, Middle 버튼 선택 : 해제
+
+Maya Shift 선택 기능 에러
+//Blender 기본 셀렉터 명령 view3d.select 으로 바꾼다(바꾸기보단 추가하는게 더 낫다^^)
+//3D View의 Select or Deselect All 메뉴에서 Shift Select Mouse에
+//기존 명령을 view3d.select 로 바꾼 후 Toggle Selection 체크한다
+
+UV Editor 에서 3D커서(2D커서) 세팅
+//Set 2D Cursor 설정을 바꾼다(기존 C + rightMouse) : uv.cursor_set   -Mouse : Action Mouse
+UV Editor 에서 Lassor Select 방법 : Ctrl,Shift등 아무 조합키와 함께 가운데 버튼
+
+F5 (마우스 커서 위치) 순간이동키^^
+//properties Region/Tool Shelf/Header를 오른쪽(위)과 왼쪽(아래)으로 이동
+
+Shading 모드 단축키 바꾸기(5,6)
+첫번째 항목 Value : wm.context_toggle_enum(토글키 만들기)
+Value : MATERIAL, TEXTURED(대문자)
+Context Attribute : space_data.viewport_shade(반영할 속성은)
+
+⓽스컬핑 브러시 단축키 설정
+**Draw Curve(커브의 EditMode에서 베벨값, Shift+Right(ActionMouse)로 드랙. curve.draw, WaitForInput 체크X 
+//paint.brush_select  
+//가령 키보드 M에 마스크브러시를 설정한다면.
+//Sculp Tool에서 마스크를 선택한다.
+//Toggle 은 키를 반복해서 누르면 이전 브러시로 돌아간다.
+
+스컬핑브러시 라소 마스크 단축키 설정
+//paint.mask_lasso_gesture
+//shift+ctrl+레프트마우스
+
+//Dynatopo 와 Symmetry XYZ 단축키 설정하기
+//sculpt.dynamic_topology_toggle(ctrl + D)//wm.context_toggle//tool_settings.sculpt.use_symmetry_x
+
+```
+![image](https://user-images.githubusercontent.com/30430227/130591252-a5b39f6e-0918-49b3-8dd0-9af8ab73b24e.png)
+
+```
+⓾Mesh Select Mode::
+Edit 모드에서 마우스 오른버튼으로 3D커서를 사용하기 위해서는
+Mesh>Call Menu 중에
+Name 'VIEW3D_MT_edit_mesh_select_mode'를 비활성하거나 단축키를 바꾸면 된다
+(블랜더 기본 단축키 Ctrl + Tab)
+
+⓫Grease Pencil
+//Sculpt strokes 단축키 설정한다 Shift + E
+
+⓬노드 
+연결 선 끊기
+//Ctrl 홀드 상태에서 자른다
+//Compositing Node에서 Ctrl +Shift 클릭 View 노드가 생기며 (랜더)이미지가 배경에 드롭한다
+BackDrop 무브
+//Node Editor(Global) > Background Image Move에서 Alt를 Ctrl로 바꾼다
+//node.backimage_move
+
+Node 자동연결
+//연결할 노드들을 선택한 후 'F'
+
+⓭텍스처페인트
+텍스처페인트 Stroke MethodMode 단축키 설정 (블렌더 기본 e->)
+//imagePaint 하위메뉴 생성
+//wm.context_menu_enum, tool_settings.image_paint.brush.stroke_method
+
+텍스처페인트 아이드로퍼 단축키(블렌더 기본 s; 마야기본 right Mouse)
+//image Panit 하위메뉴
+//paint.sample_color
+
+텍스처페인트 시 Shadeless//display Mode : texture
+//오른쪽 프로퍼티 메뉴에서 Shading탭에서 Shadeless체크
+
+텍스처페인트 양방향 칠하기
+//Option > Ccclude, Normal 체크를 푼다
+
+특정영역만(마스킹) 칠하기
+//Edit 모드 : 페이스 선택 > Texture Paint 모드에서 
+```
+![image](https://user-images.githubusercontent.com/30430227/130591345-cb9252ab-24df-4d11-9518-82ad2431eb89.png)
+
+```
+⓮Node Wrangler
+//ctrl + shift + 클릭 : output
+//ctrl + right Mouse Drag - 연결
+//ctrl + t : 텍스처 맵 생성
+//alt + right Drag : Node Mix(블렌더 단축키모드에서만 된다)
+
+⓯트래킹 Solve : Create Plane Track 마커 이동단축키 R-마우스 설정
+Clip>Clip Editor>Add New 후 
+clip.slide_plane_marker 명령 입력 Mouse : Action 선택
+
+⓰Grease Pencil
+//Border Select - 기존 b -> 드랙
+//Border Select >Type : Tweak/left/Any로 바꾼다
+//브러쉬 사이즈 단축키
+//Radial Control : B와 shift + B로 바꾼다
+구리스펜 에티트모드 시 단축키
+//스컬프트 툴 단축키 설정(shift + R-mouse)
+//wm.context_menu_enum
+//Context Attribute : tool_settings.gpencil_sculpt.tool(파이썬 명령라인)
+
+구리스펜 Alt키 기능(전체선택) 해제
+//Alt + L-Mouse키가 전체선택으로 기본설정되어 있다
+
+⓱인터페이스 팁
+//패널 드래그 : 패널 한번에 닫기
+//Ctrl + 패널 클릭 :해당 패널만 열기
+//Shift + 패널 클릭 : 패널 핀
+//머티리얼 아이콘 드랙 : 머티리얼 적용
+//여러 오브젝트를 동시에 조작 : 여러 오브젝트 선택 > Alt + 슬라이드 드랙, 모디파이 값 입력
+
+⓲Video Sequence Editor에서 화면 프리징
+//Speed Contrrol ; Multiply Speed : 0 ; Stretch to input strip length 체크 해제
+//Strip : Slip Strip Control (블렌더 단축키 :s, 단축키 설정해준다)
+클립 해상도로 세팅
+//Video Sequence Editor > Strip > Set Render Size
+
+다양한 사이즈 이미지 편집하기
+//클립 선택 프로퍼티 > Image offset 체크 > Add > Effect Strip : Transform
+
+Proxy
+//타임라인 속성 탭에서 Proxy 체크 : 25%등 선택
+//Strip > Rebuild Proxy
+//비디오시퀀스에디터 속성 택에서 View Setting > Proxy render size에서 선택한다
+```
+<br>
+
+문제해결
+----------
+
+`툴쉘프에서 생성 시 세팅 패널이 그레이로 비활성일 때`
+//Globla Undo 체크
+
+`IME를 사용하지 않습니다 문제..`
+--제어판>시계,언어 및 국가별 옵션>언어>고급설정  바로가기 키 변경
+입력언어간 ctrl + shift 설정을 '없음'으로 바꾼다
+
+`UnDo 키가 안먹힐 때`..Preference 에서 Global Undo를 체크한다.
+
+`Display Only Render 체크 시 물체가 사라지는 현상`
+//실수로 Duplication 을 누르면 사라진다 -None로 바꾼다
+
+`오토스무스 안먹히는 현상`
+//Go to Properties editor > Data panel > Geometry Data and click on Clear Custom Split Normals Data to re-enable the angle setting.
+
+`PreStyle 안먹힐 때`
+//씬에 카메라가 없을 경우 카메라를 생성하면 된다
+
+### blender2.79
+
+```
+# shift 조절자 드래그 XZ축 고정 이동(내 프리셋은 되지 않는다)
+//view3d.manipulator > Planar Constraint 기능이다 ;; 기존 Manipulator에서 shift 조합키를 빼고, 
+//새로운 Maniplator에서 Confirm on Release 와 Planar constraint를 체크한다
+# Ctrl + Alt + C : 전체 데이터 셋 복사 xyz 복사
+# Interface > Display : Scale
+# UV tools 
+# Cycle 프로젝트 라이트
+# Cut Knife
+# Particle Copy to other Object
+```
+
+`Armature`
+//Recalculator 본의 축방향을 바꿈
+
+`Vertex > ConnectVertex`
+//더이상 나이프툴로 고생할 필요없다..나이프는 나이프로
+
+`Node Wrangler Mix 안될 때`
+//단축키 Node Editor > Mix Nodes 에서 Alt 체크를 풀면 Right 마우스로 기능하게된다지요
+
+`Weight Transform`
+//Source Layers : By Name
+
+![image](https://user-images.githubusercontent.com/30430227/130591652-a191c48e-383d-4d4e-88cf-e1b744f3ae74.png)
+
+`Bone 숨기기(Armature) 설정 바꿀 것`
+//armature.hide
+//단축키 설정 바꾸기(Pose 모드에서도 설정을 바꾼다)
+
+`DopeSheet에서 색상 적용`
+//Pose Mode Pose모양(Data) 탭에서 Bone Group 설정
+
+![image](https://user-images.githubusercontent.com/30430227/130591729-c532924a-40bc-4074-873a-5409187b17e0.png)
+
+`Driver>Expression`
+radians(sin(frame/30))*180// 시간이 지남에 따라 +-180로 주기 회전한다
+
+
+
