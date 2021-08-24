@@ -198,6 +198,7 @@ Tip
 Filp Horizontal
 --------------------
 ![image](https://user-images.githubusercontent.com/30430227/130606647-1165434a-328b-459e-ad27-edae006dfb54.png)
+` Edit mode 에서 선택한 후 드로우 모드에서 F7`
 
 
 
