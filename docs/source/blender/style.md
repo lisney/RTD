@@ -119,6 +119,18 @@
 
 >BackfaceCulling
 
+### 평면 얼굴
+![image](https://user-images.githubusercontent.com/30430227/130608808-a6f88753-8e52-4a7a-8619-49ade63942c7.png)  
+![image](https://user-images.githubusercontent.com/30430227/130609121-e5a3e172-fee6-4e24-84b7-ed3c98d79aec.png)
+
+![image](https://user-images.githubusercontent.com/30430227/130608889-118fd5c8-ef3c-40c5-8741-138e278b813c.png)  
+`복사할 면 선택`
+
+![image](https://user-images.githubusercontent.com/30430227/130609029-21b01a6e-4c2f-4016-899c-1b8982462323.png)  
+`붙여넣을 면 선택`
+
+
+
 
 
 
