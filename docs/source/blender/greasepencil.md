@@ -191,7 +191,8 @@ Tip
 
 기존 Ctrl + C는 안먹힌다 > Object 메뉴  
 ![image](https://user-images.githubusercontent.com/30430227/129989694-bbbb5b20-4f56-491a-a5a4-65568dadb014.png)
-새로운 커브가 생성된다 > 심플리파이 기능이 없으므로 Checker Deselect 후 Invert, Delete
+
+새로운 커브가 생성된다 > 심플리파이 기능이 없으므로 Checker Deselect 후 Invert, Delete  
 ![image](https://user-images.githubusercontent.com/30430227/129989804-0235ef7f-f6d6-4a29-ab8a-abf253d13058.png)
 
 
