@@ -943,3 +943,12 @@ I open the file again and adjusted the Emission parameter in the Principled BDSF
 :: 생성된 Attribute노드를 Emission 에 연결함
 ```
 
+` alt + space`
+//Object Editmode toggle
+
+`alt + F11`
+ 전체화면 Toggle window fullscreen
+
+`2.80, Transfer Weight option`
+//is consolidated into Transfer Mesh Data, and now located under Object// Relations//Transfer Mesh Data
+//선택 순서가 기존과 반대다. 대상을 먼저 선택하고 원본을 선택한다
