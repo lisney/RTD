@@ -122,3 +122,7 @@ Attribute Node
 ![image](https://user-images.githubusercontent.com/30430227/130223704-226b1154-c9d3-4edd-b493-e648322384db.png)
 ![image](https://user-images.githubusercontent.com/30430227/130223728-d8049b87-f292-4d1d-a644-5b0257b734eb.png)
 
+### Edge Split
+![image](https://user-images.githubusercontent.com/30430227/131116762-51a726be-fefa-4995-b867-e79bbf0a3e9d.png)  
+![image](https://user-images.githubusercontent.com/30430227/131116818-f5987a4f-1e4d-4310-b6c1-7c947a2f5a6e.png)
+
