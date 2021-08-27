@@ -122,4 +122,17 @@ Time Scale: 3, Viscosity: 0.02 후 다시 Bake > Mesh Bake
 
 <br>
 
+모델 붙이기
+-----------
+Solidify Modifier  
+![image](https://user-images.githubusercontent.com/30430227/131121994-08c91f70-7815-42d9-a73b-a716c4c9a958.png)
+![image](https://user-images.githubusercontent.com/30430227/131122038-a009529b-f7a2-4f77-adee-fb417d4717d0.png)
+
+Mesh Deform  
+![image](https://user-images.githubusercontent.com/30430227/131122151-cd6cd192-b0f7-4ec2-aa5f-8e42058e5800.png)
+![image](https://user-images.githubusercontent.com/30430227/131122177-5ff30cbb-8f71-4eda-974a-b43d22e903a1.png)
+
+Shrinkwarp  
+![image](https://user-images.githubusercontent.com/30430227/131122526-a7f78dc9-47c5-457d-8d5e-817d694560d1.png)
+![image](https://user-images.githubusercontent.com/30430227/131122502-34a59c1b-7793-43d7-9d21-cdb5f7f5c76b.png)
 
