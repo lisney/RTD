@@ -22,11 +22,15 @@ Rectangle Light(Cycles)
 7. 볼륨 강도  
 ![image](https://user-images.githubusercontent.com/30430227/130893613-77b85cf4-ba9c-408f-9390-685e26d222a9.png)
 
-8. 라이트 패스
+8. 라이트 패스(투명)  
 ![image](https://user-images.githubusercontent.com/30430227/131054252-4e8fd3aa-7f0b-4eea-ae14-9cdce9150fa1.png)  
 ![image](https://user-images.githubusercontent.com/30430227/131054325-f6ab8a94-e285-4a16-a91a-c3cba65974d1.png)
 
-9. 
+9. 라이트 패스(카메라)  
+![image](https://user-images.githubusercontent.com/30430227/131054465-4903d517-6bf1-4219-9af5-d29fba6177a8.png)  
+![image](https://user-images.githubusercontent.com/30430227/131054486-ba8689fb-d545-4a3d-ae40-158b857159cd.png)
+
+10. 
 
 
  
