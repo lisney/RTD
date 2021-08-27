@@ -64,5 +64,19 @@ Normal Falloff 끈다(위 on, 아래 off)
 ![image](https://user-images.githubusercontent.com/30430227/131061055-11c3d765-cf3f-4d44-9f2a-dff370563cd2.png)
 ![image](https://user-images.githubusercontent.com/30430227/131061076-b1d7eb70-f15c-4a92-82b7-c99c0415dd07.png)
 
+무기 
+------
+![image](https://user-images.githubusercontent.com/30430227/131061216-5551ba86-9c29-4952-9f64-1157c51aadb2.png)  
+참고이미지  
+![image](https://user-images.githubusercontent.com/30430227/131061490-ec09744d-ff03-4250-ab14-997c72ae1a28.png)  
+![image](https://user-images.githubusercontent.com/30430227/131061583-2911c1d6-20ae-45dc-b5a5-4807df80c536.png)  
+![image](https://user-images.githubusercontent.com/30430227/131061703-548a00e3-f886-4be8-aea9-a74fe7fb3621.png)  
+![image](https://user-images.githubusercontent.com/30430227/131061922-d1492c56-bb27-4a3d-9814-803b27533d92.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/131066258-12b4478a-b409-49d0-a037-d86852290d01.png)  
+![image](https://user-images.githubusercontent.com/30430227/131066399-e5f7e37d-b8b9-45ac-b3f3-0020d88b4d0b.png)  
+![image](https://user-images.githubusercontent.com/30430227/131066443-135261b6-8ce4-4403-a540-84afaa16a237.png)
+subdivide > Loop:Circle > Scale > Inset Faces > Move  
+![image](https://user-images.githubusercontent.com/30430227/131066854-91b5da2e-ea1c-4511-8cd6-62bdadf4dbcd.png)  
 
 
