@@ -21,3 +21,12 @@ Rectangle Light(Cycles)
 
 7. 볼륨 강도  
 ![image](https://user-images.githubusercontent.com/30430227/130893613-77b85cf4-ba9c-408f-9390-685e26d222a9.png)
+
+8. 라이트 패스
+![image](https://user-images.githubusercontent.com/30430227/131054252-4e8fd3aa-7f0b-4eea-ae14-9cdce9150fa1.png)  
+![image](https://user-images.githubusercontent.com/30430227/131054325-f6ab8a94-e285-4a16-a91a-c3cba65974d1.png)
+
+9. 
+
+
+ 
