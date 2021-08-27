@@ -78,5 +78,7 @@ Normal Falloff 끈다(위 on, 아래 off)
 ![image](https://user-images.githubusercontent.com/30430227/131066443-135261b6-8ce4-4403-a540-84afaa16a237.png)
 subdivide > Loop:Circle > Scale > Inset Faces > Move  
 ![image](https://user-images.githubusercontent.com/30430227/131066854-91b5da2e-ea1c-4511-8cd6-62bdadf4dbcd.png)  
+참고이미지
+![image](https://user-images.githubusercontent.com/30430227/131066915-cb4693a5-b897-4a69-bee8-3f840cd86eb8.png)  
 
 
