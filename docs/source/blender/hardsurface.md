@@ -82,3 +82,14 @@ subdivide > Loop:Circle > Scale > Inset Faces > Move
 ![image](https://user-images.githubusercontent.com/30430227/131066915-cb4693a5-b897-4a69-bee8-3f840cd86eb8.png)  
 
 
+로봇 
+-------
+![image](https://user-images.githubusercontent.com/30430227/131068556-f605b570-113a-4b53-b536-ebfc57c98465.png)  
+![image](https://user-images.githubusercontent.com/30430227/131068680-d850c89e-adcb-4125-9e72-866d4ca3316e.png)  
+![image](https://user-images.githubusercontent.com/30430227/131068771-4df5130d-1eb7-428c-bb87-7a471b34e1d9.png)  
+![image](https://user-images.githubusercontent.com/30430227/131068856-a94702ab-d0b0-4d1c-b301-319838021ac3.png)  
+![image](https://user-images.githubusercontent.com/30430227/131069044-4b9e5a30-a8d2-4fc3-a356-121e79814ff3.png)  
+![image](https://user-images.githubusercontent.com/30430227/131069158-34798283-8bd7-47f5-b167-eddf45e08d3d.png)  
+6face Dup > Edit
+![image](https://user-images.githubusercontent.com/30430227/131069258-1faade70-e966-444f-a746-626362219950.png)  
+
