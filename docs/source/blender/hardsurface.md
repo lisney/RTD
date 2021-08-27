@@ -92,4 +92,7 @@ subdivide > Loop:Circle > Scale > Inset Faces > Move
 ![image](https://user-images.githubusercontent.com/30430227/131069158-34798283-8bd7-47f5-b167-eddf45e08d3d.png)  
 6face Dup > Edit
 ![image](https://user-images.githubusercontent.com/30430227/131069258-1faade70-e966-444f-a746-626362219950.png)  
+참고이미지 
+![image](https://user-images.githubusercontent.com/30430227/131069385-cee83675-f705-43ef-965b-0433e3ff66bd.png)
+
 
