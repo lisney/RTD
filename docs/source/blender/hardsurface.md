@@ -36,5 +36,33 @@ Spaceship
 Edge Crease > Subdivision > Displace Modifier 회색 텍스처 생성  
 ![image](https://user-images.githubusercontent.com/30430227/131058030-700ea62c-4b5c-43d2-aa13-92dbb49a5860.png)  
 ![image](https://user-images.githubusercontent.com/30430227/131058545-08456e66-86d3-49df-8dea-fab2d9606fea.png)  
+![image](https://user-images.githubusercontent.com/30430227/131060500-725f9276-9897-42ec-aeab-b8c988cc1b05.png)  
+Normal Falloff 끈다(위 on, 아래 off)  
+![image](https://user-images.githubusercontent.com/30430227/131060560-18a603ae-9880-4afb-8559-e99f3c9f1741.png)
+
+
+```
+⓭텍스처페인트
+텍스처페인트 Stroke MethodMode 단축키 설정 (블렌더 기본 e->)
+//imagePaint 하위메뉴 생성
+//wm.context_menu_enum, tool_settings.image_paint.brush.stroke_method
+
+텍스처페인트 아이드로퍼 단축키(블렌더 기본 s; 마야기본 right Mouse)
+//image Panit 하위메뉴
+//paint.sample_color
+
+텍스처페인트 시 Shadeless//display Mode : texture
+//오른쪽 프로퍼티 메뉴에서 Shading탭에서 Shadeless체크
+
+텍스처페인트 양방향 칠하기
+//Option > Ccclude, Normal 체크를 푼다
+
+특정영역만(마스킹) 칠하기
+//Edit 모드 : 페이스 선택 > Texture Paint 모드에서 
+```
+![image](https://user-images.githubusercontent.com/30430227/130591345-cb9252ab-24df-4d11-9518-82ad2431eb89.png)  
+![image](https://user-images.githubusercontent.com/30430227/131061055-11c3d765-cf3f-4d44-9f2a-dff370563cd2.png)
+![image](https://user-images.githubusercontent.com/30430227/131061076-b1d7eb70-f15c-4a92-82b7-c99c0415dd07.png)
+
 
 
