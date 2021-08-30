@@ -95,4 +95,22 @@ subdivide > Loop:Circle > Scale > Inset Faces > Move
 참고이미지 
 ![image](https://user-images.githubusercontent.com/30430227/131069385-cee83675-f705-43ef-965b-0433e3ff66bd.png)
 
+Wall
+-----
+Curve Deform 은 +Y방향이 바깥 방향  
+![image](https://user-images.githubusercontent.com/30430227/131318210-b723622b-d527-4d7c-a765-245e1571f538.png)  
+![image](https://user-images.githubusercontent.com/30430227/131318440-36cbf097-03f0-4c9e-bd65-b06044f71be7.png)  
+![image](https://user-images.githubusercontent.com/30430227/131318562-bffd21f4-ca78-4f0e-af04-96361f071f9e.png)  
+![image](https://user-images.githubusercontent.com/30430227/131318821-3710b168-ab96-411a-a714-ca01ad6df236.png)  
+오른쪽 박스는 Solidify  
+![image](https://user-images.githubusercontent.com/30430227/131318918-82d405a7-5745-4eb3-b95b-1cfadde59164.png)  
+
+Apply All  
+![image](https://user-images.githubusercontent.com/30430227/131319153-732ded12-2237-40e8-9b0a-3075cbc2fbe3.png)  
+
+Convert to Curve 후  
+![image](https://user-images.githubusercontent.com/30430227/131319371-dc5a6926-93fa-4473-910e-60d42cb50b63.png)  
+![image](https://user-images.githubusercontent.com/30430227/131319425-b80c2d82-e401-4d71-9d80-45599a7c078c.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/131319477-851d2de2-7d17-4c1c-8d2f-246c6d64996c.png)
 
