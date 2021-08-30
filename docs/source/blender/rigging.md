@@ -45,4 +45,15 @@ Visual Transform(부모 상대적 위치 벗어남) 후 키프레임(Transform, 
 ![image](https://user-images.githubusercontent.com/30430227/131271790-325a724d-a069-4818-98f8-57f4bc3bd93e.png)
 
 
+Transfer Weights
+------------------
+- 몸과 옷을 따로 웨이트 적용  
+몸을 먼저 본에 적용한 후  
+옮길 오브젝트(옷같은)는 Empty 적용  
+![image](https://user-images.githubusercontent.com/30430227/131273429-604cf4e5-2316-4f13-b9ec-c9979f571cca.png)  
+
+몸 선택 후 옷 선택 후 Weight Paint 모드  
+![image](https://user-images.githubusercontent.com/30430227/131273759-1ce4dd4e-1a92-4223-b638-13f7216fadfb.png)  
+![image](https://user-images.githubusercontent.com/30430227/131273848-9755f8ae-5fe2-4ada-b6d9-693b19e7afe6.png)  
+
 
