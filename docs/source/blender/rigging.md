@@ -41,7 +41,7 @@ Visual Transform(부모 상대적 위치 벗어남) 후 키프레임(Transform, 
 ![image](https://user-images.githubusercontent.com/30430227/131271315-e9dd8ead-3d61-4685-9cef-f7d1e1625aef.png)  
 ![image](https://user-images.githubusercontent.com/30430227/131271358-21f0d3fe-351a-454d-812d-9baea1b32be4.png)  
 
-다음 타킷도 마찬가지 
+다음 타킷도 마찬가지  
 ![image](https://user-images.githubusercontent.com/30430227/131271790-325a724d-a069-4818-98f8-57f4bc3bd93e.png)
 
 
