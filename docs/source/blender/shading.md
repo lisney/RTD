@@ -30,7 +30,25 @@ Rectangle Light(Cycles)
 ![image](https://user-images.githubusercontent.com/30430227/131054465-4903d517-6bf1-4219-9af5-d29fba6177a8.png)  
 ![image](https://user-images.githubusercontent.com/30430227/131054486-ba8689fb-d545-4a3d-ae40-158b857159cd.png)
 
-10. 
+<br>
 
+파장 
+-------
+![image](https://user-images.githubusercontent.com/30430227/131340763-e21be114-ee2a-4164-8732-f1cfe9117d69.png)  
+![image](https://user-images.githubusercontent.com/30430227/131340914-e13d6fed-7832-483b-bed6-bedf2a090ef7.png)  
+![image](https://user-images.githubusercontent.com/30430227/131341112-ab97158f-a968-4173-ac35-9a974623ce45.png)  
+애니  
+![image](https://user-images.githubusercontent.com/30430227/131341213-f1a69515-cc81-4894-8ae5-86e4c6a34877.png)  
 
- 
+<br>
+
+하프톤 
+-------
+![image](https://user-images.githubusercontent.com/30430227/131341841-447346e8-0bbe-46a9-9c2e-e6519b66743b.png)  
+![image](https://user-images.githubusercontent.com/30430227/131342082-de30e6ec-3794-4569-a146-660369040c70.png)  
+Mix   
+![image](https://user-images.githubusercontent.com/30430227/131342020-3fd0d158-fb3e-44f5-af56-36b671a6cd4a.png)  
+Factor  
+![image](https://user-images.githubusercontent.com/30430227/131342296-7106b5c8-ce38-49a2-92d8-54621bfb2d0b.png)  
+![image](https://user-images.githubusercontent.com/30430227/131342331-f723e089-caed-4548-bd05-077b1c7b47ca.png)  
+
