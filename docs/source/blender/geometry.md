@@ -126,3 +126,14 @@ Attribute Node
 ![image](https://user-images.githubusercontent.com/30430227/131116762-51a726be-fefa-4995-b867-e79bbf0a3e9d.png)  
 ![image](https://user-images.githubusercontent.com/30430227/131116818-f5987a4f-1e4d-4310-b6c1-7c947a2f5a6e.png)
 
+<br>
+
+Sine
+--------
+point > Array  
+![image](https://user-images.githubusercontent.com/30430227/131647211-508d92f2-c626-4aa3-8564-b48be474f66b.png)  
+![image](https://user-images.githubusercontent.com/30430227/131647865-27af23ea-8473-415c-8a17-2cb23797fdcf.png)  
+수정  
+![image](https://user-images.githubusercontent.com/30430227/131648462-881a3951-0a9e-41d4-9192-b8a974e047c4.png)  
+
+
