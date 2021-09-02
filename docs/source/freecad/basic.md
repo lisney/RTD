@@ -39,4 +39,15 @@ BASIC
 
 ![image](https://user-images.githubusercontent.com/30430227/131791737-46b5d4b8-b279-46e7-90c4-40e7fe5a5764.png)  
 
+<br>
+
+파라메트릭-Alias
+------------------
+Spreadsheet 작업대 > 수치셀의 Alias 가 파라미터이다  
+![image](https://user-images.githubusercontent.com/30430227/131802727-4c09dafc-e73e-42a0-b5fe-4fa457c455c9.png)  
+  
+시트명이 객체명  
+`시트명.Alias명`  
+![image](https://user-images.githubusercontent.com/30430227/131802975-ecdeb743-1f0b-4114-9048-18a62aefcb85.png)  
+![image](https://user-images.githubusercontent.com/30430227/131803218-31486d60-6f5c-4c90-858c-84a6501ad637.png)  
 
