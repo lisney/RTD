@@ -43,11 +43,13 @@ BASIC
 
 파라메트릭-Alias
 ------------------
+![image](https://user-images.githubusercontent.com/30430227/131803448-280762e7-ae6e-470a-8da5-44ca3ca4e195.png)  
+
 Spreadsheet 작업대 > 수치셀의 Alias 가 파라미터이다  
 ![image](https://user-images.githubusercontent.com/30430227/131802727-4c09dafc-e73e-42a0-b5fe-4fa457c455c9.png)  
   
 시트명이 객체명  
-`시트명.Alias명`  
+`입력방법: 시트명.Alias명`  
 ![image](https://user-images.githubusercontent.com/30430227/131802975-ecdeb743-1f0b-4114-9048-18a62aefcb85.png)  
 ![image](https://user-images.githubusercontent.com/30430227/131803218-31486d60-6f5c-4c90-858c-84a6501ad637.png)  
 
