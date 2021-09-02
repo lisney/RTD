@@ -53,3 +53,9 @@ Spreadsheet 작업대 > 수치셀의 Alias 가 파라미터이다
 ![image](https://user-images.githubusercontent.com/30430227/131802975-ecdeb743-1f0b-4114-9048-18a62aefcb85.png)
 ![image](https://user-images.githubusercontent.com/30430227/131803218-31486d60-6f5c-4c90-858c-84a6501ad637.png)  
 
+보이는 형식을 정할 수도 있다  
+![image](https://user-images.githubusercontent.com/30430227/131804267-a28032e9-23de-4861-90a9-587fb29ebfee.png)  
+![image](https://user-images.githubusercontent.com/30430227/131804401-50931f43-f95c-48cd-ac6d-4c9289569376.png)  
+
+
+
