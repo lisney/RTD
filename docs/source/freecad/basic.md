@@ -50,6 +50,6 @@ Spreadsheet 작업대 > 수치셀의 Alias 가 파라미터이다
   
 시트명이 객체명  
 `입력방법: 시트명.Alias명`  
-![image](https://user-images.githubusercontent.com/30430227/131802975-ecdeb743-1f0b-4114-9048-18a62aefcb85.png)  
+![image](https://user-images.githubusercontent.com/30430227/131802975-ecdeb743-1f0b-4114-9048-18a62aefcb85.png)
 ![image](https://user-images.githubusercontent.com/30430227/131803218-31486d60-6f5c-4c90-858c-84a6501ad637.png)  
 
