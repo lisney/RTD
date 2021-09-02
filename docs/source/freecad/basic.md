@@ -33,3 +33,10 @@ BASIC
 > 점을 중심으로 하는 작업평면 생성
 ```
 
+7. Pad로 겹친 오브젝트 합치기  
+![image](https://user-images.githubusercontent.com/30430227/131791690-e69957e2-c31c-41f8-99cb-c606c08e7686.png)
+![image](https://user-images.githubusercontent.com/30430227/131791762-d4511337-ee34-4975-a056-884d288aff54.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/131791737-46b5d4b8-b279-46e7-90c4-40e7fe5a5764.png)  
+
+
