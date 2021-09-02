@@ -19,3 +19,16 @@ BASIC
 3. 색상이나 위치 바꾸기  
 `좌측 아래 View, Data 콤보창에서 작업 혹은 변형 조절자 보이게 하려면 Part 오른클릭 Transform 선택`  
 
+4. 치수 구속 대신 참조 치수 생성  
+![image](https://user-images.githubusercontent.com/30430227/131782080-41dd83a4-b94d-4340-9a02-d6fbe01bd68f.png)  
+`버튼 클릭 후 생성 - 색상이 파랗다`  
+
+5. Construction Mode - 가상선 생성  
+![image](https://user-images.githubusercontent.com/30430227/131782455-7d8a157b-ed44-4528-af9c-3aadad83e4fd.png)  
+
+6. Datom 평면 사용 - 무게 중심에 점 생성  
+```
+면을 선택하고 Datom 도형 중 점을 선택한다 > 센터에 점을 생성한다 > Tree View에서 면과 점을 선택 후 Datom Plane(사각형) 선택
+> 점을 중심으로 하는 작업평면 생성
+```
+
