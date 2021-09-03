@@ -57,5 +57,27 @@ Spreadsheet 작업대 > 수치셀의 Alias 가 파라미터이다
 ![image](https://user-images.githubusercontent.com/30430227/131804267-a28032e9-23de-4861-90a9-587fb29ebfee.png)  
 ![image](https://user-images.githubusercontent.com/30430227/131804401-50931f43-f95c-48cd-ac6d-4c9289569376.png)  
 
+Curves Workbench -addOn
+-------------------
+1. 포인트 추가  
+`Segment 선택 > 키보드 'i' `  
+![image](https://user-images.githubusercontent.com/30430227/131985690-80b8a6b1-b1ed-44b8-980e-0b5c1e44737c.png)  
+
+2. 직선으로 정렬  
+`포인트 혹은 세그먼트 선택 > 키보드 'p'`  
+![image](https://user-images.githubusercontent.com/30430227/131986156-9d84adc1-25b9-4d38-9f79-fbc97f557376.png)  
+
+3. 포인트 커브에 스냅  
+`선택 후 키보드 's'`  
+![image](https://user-images.githubusercontent.com/30430227/131986918-c20dff11-8caa-487a-99c3-0002b3badd96.png)  
+
+4. 라인 생성  
+`esc 편집모드 벗어난 후 두 점을 선택 후 line 아이콘 클릭`  
+![image](https://user-images.githubusercontent.com/30430227/131987612-d437f217-5124-4256-9b41-fd29a8656a19.png)  
+<br>
+
+`커브를 잇는 커브 생성: 두 커브 선택 후 B-Spline 선택`  
+![image](https://user-images.githubusercontent.com/30430227/131988245-bcfcb467-5db1-43f5-b912-b716ffc34563.png)  
+
 
 
