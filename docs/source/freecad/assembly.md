@@ -17,6 +17,15 @@ Part 에 Body을 만든 후 로컬축도 생성한다
 ![image](https://user-images.githubusercontent.com/30430227/131964359-7dfca9f7-626e-454d-9ceb-f258399be424.png)  
 
 3. Parent Part 세팅  
-![image](https://user-images.githubusercontent.com/30430227/131966175-4287ae4a-e3a8-4afd-9251-7b4a9bd3d732.png)  
+![image](https://user-images.githubusercontent.com/30430227/131966802-8905b5f9-c94d-4448-adaf-05eca6199201.png)    
 
-4. 
+4. Part 불러오기  
+![image](https://user-images.githubusercontent.com/30430227/131966929-a91aa23c-6a92-4da5-a0a1-f0960fc95542.png)  
+![image](https://user-images.githubusercontent.com/30430227/131966946-05afbdec-ec76-488c-8bb8-a78756e10ede.png)  
+Rotate한다  
+![image](https://user-images.githubusercontent.com/30430227/131967025-9709f427-b5fa-4abf-a5ad-e5893a39d3c1.png)
+
+5. 추가 Part 붙이기  
+![image](https://user-images.githubusercontent.com/30430227/131967309-68a45981-1cf5-4463-a9e4-cd501d0bc1c3.png)  
+![image](https://user-images.githubusercontent.com/30430227/131967340-3d3b56a2-534f-4fe4-ac7c-df17dcf53644.png)  
+
