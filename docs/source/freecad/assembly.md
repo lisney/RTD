@@ -29,3 +29,16 @@ Rotate한다
 ![image](https://user-images.githubusercontent.com/30430227/131967309-68a45981-1cf5-4463-a9e4-cd501d0bc1c3.png)  
 ![image](https://user-images.githubusercontent.com/30430227/131967340-3d3b56a2-534f-4fe4-ac7c-df17dcf53644.png)  
 
+6. Add Variable  
+![image](https://user-images.githubusercontent.com/30430227/131981241-d09b6619-7290-433a-9460-a9a03e998297.png)  
+![image](https://user-images.githubusercontent.com/30430227/131981401-e344eeee-8563-4ff5-8cd5-99ef9b7e3d76.png)  
+
+7. Formula editor  
+Variable 적용
+![image](https://user-images.githubusercontent.com/30430227/131981874-8e30bda6-b74c-4c6d-ba75-b48d119fe138.png)  
+![image](https://user-images.githubusercontent.com/30430227/131982021-5faaa6a3-dc89-4b67-9d3e-e0bc0ed3bdb8.png)  
+
+8. Animator  
+![image](https://user-images.githubusercontent.com/30430227/131982084-b670f49b-31a1-4950-a4e8-8112caccbd25.png)  
+![image](https://user-images.githubusercontent.com/30430227/131982232-3aa779a5-83ee-481d-97b9-2c21278996b6.png)  
+
