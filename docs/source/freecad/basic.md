@@ -11,6 +11,9 @@ BASIC
 `Image Workbench`  
 ![image](https://user-images.githubusercontent.com/30430227/132084141-cda0c451-d4ce-46cc-b149-08a3ac0dfcaf.png)
 
+4. 카메라 clipping 문제  
+![image](https://user-images.githubusercontent.com/30430227/132088006-49a2f788-4a14-4c8f-a4dc-acce6fa02604.png)  
+`단축키 '
 
 스케치
 --------
