@@ -7,6 +7,10 @@ BASIC
 `show report...on error, ...on warning 체크해제`  
 ![image](https://user-images.githubusercontent.com/30430227/131781121-c186f8fa-a93c-4beb-8122-109e10ea2daa.png)  
 
+3. Image Plane  
+`Image Workbench`  
+![image](https://user-images.githubusercontent.com/30430227/132084141-cda0c451-d4ce-46cc-b149-08a3ac0dfcaf.png)
+
 
 스케치
 --------
@@ -79,5 +83,14 @@ Curves Workbench -addOn
 `커브를 잇는 커브 생성: 두 커브 선택 후 B-Spline 선택`  
 ![image](https://user-images.githubusercontent.com/30430227/131988245-bcfcb467-5db1-43f5-b912-b716ffc34563.png)  
 
+5. 두 방향 스케치 커브에 교차하는 새 커브 생성  
+![image](https://user-images.githubusercontent.com/30430227/132084910-419bb887-2a73-49f6-9b7f-2d69b240d9b6.png)  
 
+6. Sweep Profile on 2 rails  
+![image](https://user-images.githubusercontent.com/30430227/132086167-ed509ddd-e211-4a62-b89c-b69485d760c2.png)  
+![image](https://user-images.githubusercontent.com/30430227/132086179-a9bc9324-2d66-4119-b630-9ee74d47ac96.png)  
 
+```
+4개의 sketch 를 생성한다 > 2개로 평면을 생성한다(part WB) 
+> Sweep 2 rails 로 pointCrowd생성(cuve WB) > Approximate points to NURBS curve or surface
+```
