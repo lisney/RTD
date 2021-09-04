@@ -108,3 +108,16 @@ Curves Workbench -addOn
 ![image](https://user-images.githubusercontent.com/30430227/132086253-1da1a365-70d6-4836-a699-cd600f41fbb5.png)  
 ![image](https://user-images.githubusercontent.com/30430227/132086232-0ed85f83-d8d7-432a-924c-6e0e8be1fcbf.png)  
 
+
+7. Sketch on Surface  
+![image](https://user-images.githubusercontent.com/30430227/132088235-2dea01d7-09bf-46de-9df4-ddc0a984c0d2.png)  
+![image](https://user-images.githubusercontent.com/30430227/132088219-acf33af5-5a6b-47c3-804c-0bbdac77a42e.png)  
+```
+감쌀 면을 선택하고 Map a sketch on a surface(Rhino Unroll비슷)
+생성된 Sketch 영역에 얼굴을 그린다
+면과 Sketch를 선택하고 Map...surface 클릭
+```
+두께 주기  
+![image](https://user-images.githubusercontent.com/30430227/132088385-82e15890-0d92-4c49-8ca1-1aefe3475a69.png)
+
+
