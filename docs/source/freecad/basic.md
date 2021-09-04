@@ -88,6 +88,9 @@ Curves Workbench -addOn
 
 6. Sweep Profile on 2 rails  
 
+![image](https://user-images.githubusercontent.com/30430227/132086167-ed509ddd-e211-4a62-b89c-b69485d760c2.png)
+![image](https://user-images.githubusercontent.com/30430227/132086179-a9bc9324-2d66-4119-b630-9ee74d47ac96.png)  
+
 - 4개의 sketch 를 생성한다
 - 2개로 평면을 생성한다(part WB)
 - Sweep 2 rails 로 pointCrowd생성(cuve WB)
@@ -96,7 +99,4 @@ Curves Workbench -addOn
 ![image](https://user-images.githubusercontent.com/30430227/132086261-14fd865b-772b-4544-8a55-a7097d31794c.png)  
 ![image](https://user-images.githubusercontent.com/30430227/132086253-1da1a365-70d6-4836-a699-cd600f41fbb5.png)  
 ![image](https://user-images.githubusercontent.com/30430227/132086232-0ed85f83-d8d7-432a-924c-6e0e8be1fcbf.png)  
-
-![image](https://user-images.githubusercontent.com/30430227/132086167-ed509ddd-e211-4a62-b89c-b69485d760c2.png)
-![image](https://user-images.githubusercontent.com/30430227/132086179-a9bc9324-2d66-4119-b630-9ee74d47ac96.png)  
 
