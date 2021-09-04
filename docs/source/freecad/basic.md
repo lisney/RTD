@@ -15,6 +15,10 @@ BASIC
 ![image](https://user-images.githubusercontent.com/30430227/132088006-49a2f788-4a14-4c8f-a4dc-acce6fa02604.png)  
 `단축키 '
 
+5. 단면 보기  
+![image](https://user-images.githubusercontent.com/30430227/132088500-43b73b5e-262b-49c0-9cf3-2e26b1e8149e.png)  
+
+
 스케치
 --------
 1. 자동으로 현재 위치에 치수 컨스트레인트 생성  
