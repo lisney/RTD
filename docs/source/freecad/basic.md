@@ -18,6 +18,9 @@ BASIC
 5. 단면 보기  
 ![image](https://user-images.githubusercontent.com/30430227/132088500-43b73b5e-262b-49c0-9cf3-2e26b1e8149e.png)  
 
+6. 면 생성  
+`Part WB`  
+![image](https://user-images.githubusercontent.com/30430227/132113914-d098b8cb-ca49-46ea-9d18-0201e8b03083.png) 
 
 스케치
 --------
