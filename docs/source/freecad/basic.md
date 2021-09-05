@@ -161,3 +161,9 @@ Datum Plane
 ![image](https://user-images.githubusercontent.com/30430227/132113778-8bf7e9f1-e91f-4454-90b0-6b9e8367bd1f.png)  
 
 
+Part WB
+---------
+1. Create Premitives   
+![image](https://user-images.githubusercontent.com/30430227/132117414-edcd716e-7815-41fa-af18-f4a9b4cf4866.png)  
+![image](https://user-images.githubusercontent.com/30430227/132117469-f524fe87-566c-43bd-9c18-9a55836f6858.png)  
+
