@@ -124,4 +124,20 @@ Curves Workbench -addOn
 두께 주기  
 ![image](https://user-images.githubusercontent.com/30430227/132088385-82e15890-0d92-4c49-8ca1-1aefe3475a69.png)
 
+Datum Plane
+-------------
+
+1. Pad 길이에 따라 자동으로 위치 조정  
+![image](https://user-images.githubusercontent.com/30430227/132113509-07f35247-92fb-4026-9893-012d70d4bdbf.png)
+![image](https://user-images.githubusercontent.com/30430227/132113514-562f26c0-c54b-428c-8c4f-836a1de6a255.png)  
+`Pad를 선택하고 Datum Plane 클릭`  
+![image](https://user-images.githubusercontent.com/30430227/132113466-22257fdd-7e34-453f-84b2-ff746cbaddbb.png)  
+![image](https://user-images.githubusercontent.com/30430227/132113485-d5aa59ac-9ee5-47dd-9090-6875ea60c834.png)  
+
+2. 세 점을 기준으로 평면 생성  
+![image](https://user-images.githubusercontent.com/30430227/132113590-f624fd7c-5531-4c76-ae0c-9a7eed7662ad.png)
+![image](https://user-images.githubusercontent.com/30430227/132113589-f2e3e8dd-eeac-42a8-8502-1d7a4c2f6dd0.png)  
+`평면을 기준으로 part를 나눌 수도 있음`  
+![image](https://user-images.githubusercontent.com/30430227/132113778-8bf7e9f1-e91f-4454-90b0-6b9e8367bd1f.png)  
+
 
