@@ -22,6 +22,23 @@ BASIC
 `Part WB`  
 ![image](https://user-images.githubusercontent.com/30430227/132113914-d098b8cb-ca49-46ea-9d18-0201e8b03083.png) 
 
+7. Slice Parts  
+`절단 면 생성`  
+![image](https://user-images.githubusercontent.com/30430227/132114590-c0beba67-81a1-4f12-9e15-54d711cb60d9.png)  
+
+`절단할 위치로 이동`  
+![image](https://user-images.githubusercontent.com/30430227/132114614-85e0878d-cd15-4742-bf70-402595c9b361.png)
+![image](https://user-images.githubusercontent.com/30430227/132114624-de223dc6-358d-4dbc-9c25-e8cf10996fa7.png)  
+
+`part WB > Solid`  
+![image](https://user-images.githubusercontent.com/30430227/132114637-2f5069f1-1ba8-4b22-a449-9ec26d8720e9.png)  
+
+`Pad와 절단면 선택 > Slice Apart`  
+![image](https://user-images.githubusercontent.com/30430227/132114700-3968f379-cc5e-4d11-8d42-9ced8e951117.png)
+![image](https://user-images.githubusercontent.com/30430227/132114673-0366476c-c2fa-4a33-a9af-f7bdb8a5374b.png)  
+
+
+
 스케치
 --------
 1. 자동으로 현재 위치에 치수 컨스트레인트 생성  
