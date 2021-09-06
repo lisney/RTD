@@ -38,6 +38,13 @@ BASIC
 ![image](https://user-images.githubusercontent.com/30430227/132114673-0366476c-c2fa-4a33-a9af-f7bdb8a5374b.png)  
 
 
+8. STL 익스포트  
+Mesh Design WB(OPENSCAD 설치 필요)  
+![image](https://user-images.githubusercontent.com/30430227/132222919-1b2298c4-fdae-4926-af71-a4e0d2fdbfaf.png)  
+오른클릭  
+![image](https://user-images.githubusercontent.com/30430227/132222972-6f9b553a-e8f6-493d-81cd-1bb6f03b1a15.png)  
+
+
 
 스케치
 --------
