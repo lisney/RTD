@@ -45,6 +45,18 @@ Mesh Design WB(OPENSCAD 설치 필요)
 ![image](https://user-images.githubusercontent.com/30430227/132222972-6f9b553a-e8f6-493d-81cd-1bb6f03b1a15.png)  
 
 
+9. STL -> Solid  
+partWB Create Shape  
+![image](https://user-images.githubusercontent.com/30430227/132225681-c428a7d2-1eac-4219-b5ba-1ca9dcf72efa.png)  
+![image](https://user-images.githubusercontent.com/30430227/132225726-33c7e9d6-18d4-439b-87b7-f0a1036ba3f3.png)
+![image](https://user-images.githubusercontent.com/30430227/132225773-373b5139-f689-4dd0-add3-6cd9695bbae8.png)  
+Convert Solid  
+![image](https://user-images.githubusercontent.com/30430227/132225489-8ab87ec9-9cbb-4d4e-a7bb-3053a1d94ddd.png)  
+Refine  
+![image](https://user-images.githubusercontent.com/30430227/132226068-10d46b1b-4e08-4f5e-a1c7-a75bf869f4ce.png)  
+
+
+
 
 스케치
 --------
