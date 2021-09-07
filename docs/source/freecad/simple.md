@@ -143,6 +143,25 @@ Array
 8. 마무리(보케토>어레이>모깍기)  
 ![image](https://user-images.githubusercontent.com/30430227/132272827-abce5dba-12cd-41d4-8bdd-6b3588ee005b.png)  
 
+칼 자루 
+-----------
+1. 2 스케치  
+![image](https://user-images.githubusercontent.com/30430227/132279356-6171f199-7cb1-4eba-b8ff-c8d000629519.png)  
+
+2. 스케치  
+![image](https://user-images.githubusercontent.com/30430227/132282271-180a7252-4eee-4b85-acc9-8098f4a9e69a.png)  
+  
+3. 스케치  
+![image](https://user-images.githubusercontent.com/30430227/132282364-9ff54a80-1114-435b-a4bb-96b86988f19d.png)  
+
+4. Create Array Curve(Curved Shapes WB)  
+바닥라인 먼저 선택 후 2 라인 선택  
+![image](https://user-images.githubusercontent.com/30430227/132282636-21c25c95-5ad2-4fcb-8740-ba41183031a5.png)  
+![image](https://user-images.githubusercontent.com/30430227/132282572-728b5942-3817-49c7-958a-b2d453796a93.png)  
+![image](https://user-images.githubusercontent.com/30430227/132282731-19329162-96fb-4446-9dad-1fb41329b0c2.png)  
+![image](https://user-images.githubusercontent.com/30430227/132282746-a7f0d23a-b459-4e56-a405-725eca6db9ac.png)  
+
+
 
 
 
