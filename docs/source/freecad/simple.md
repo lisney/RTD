@@ -101,4 +101,49 @@ Ring
 
 1. SetAlias-easyAlias Macro  
 ![image](https://user-images.githubusercontent.com/30430227/132267726-a6bb6bd7-b5ac-4e60-86fa-23b3a217353f.png)
+![image](https://user-images.githubusercontent.com/30430227/132268849-0095f0e0-bb18-461e-a16f-f4c5802545e9.png)  
+
+2. 스케치  
+![image](https://user-images.githubusercontent.com/30430227/132269693-5d5c1753-2b93-4c2e-906f-1a76a421b53f.png)  
+![image](https://user-images.githubusercontent.com/30430227/132270198-1cd0d596-25d7-4a3b-913b-17da35b72cba.png)  
+
+3. 혁명  
+![image](https://user-images.githubusercontent.com/30430227/132270280-a1673a76-7bc5-4632-ab22-455321dad657.png)  
+
+4. 스케치  
+![image](https://user-images.githubusercontent.com/30430227/132270424-68c44fcb-d116-45ba-bbe1-7b0b7f348480.png)  
+![image](https://user-images.githubusercontent.com/30430227/132270458-7332be4e-6aca-4b43-b095-141b7f9841c0.png)  
+![image](https://user-images.githubusercontent.com/30430227/132270716-ffa19ef2-d861-427a-b612-97327218bb36.png)  
+![image](https://user-images.githubusercontent.com/30430227/132270768-2184a666-481a-4a06-a67b-a2295de2c2b9.png)  
+
+5. 보게토  
+ThrroughAll  
+![image](https://user-images.githubusercontent.com/30430227/132270877-f46578f0-a2c1-45c8-bb2e-f0e2da783854.png)
+스케치 z위치 수정  
+![image](https://user-images.githubusercontent.com/30430227/132271040-b3d56340-98bd-471a-ae75-4d7dc45d364d.png)
+![image](https://user-images.githubusercontent.com/30430227/132271077-cafa403e-c508-4978-bbcd-3d56c9d4c6ea.png)  
+![image](https://user-images.githubusercontent.com/30430227/132271098-bf89af15-049f-4ad3-bc9f-a6baa0658ae6.png)  
+
+5. 스케치  
+![image](https://user-images.githubusercontent.com/30430227/132271455-dd82a918-5311-4eaf-b25d-e944957a4520.png)
+![image](https://user-images.githubusercontent.com/30430227/132271424-291307f5-10a4-4a31-883d-98a725e4d14a.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/132271684-2b8cfe42-0372-4e74-8f3f-ea35b7c41bc9.png)  
+![image](https://user-images.githubusercontent.com/30430227/132272133-69ec532d-9f01-49db-b745-ab7f5604865d.png)  
+
+6. 보케토  
+![image](https://user-images.githubusercontent.com/30430227/132272178-0d3f113c-9f2c-4e13-bd28-74a451b10274.png)  
+Array  
+![image](https://user-images.githubusercontent.com/30430227/132272288-e8fd1265-be76-4820-ad6a-9b7b648ab7bd.png)  
+
+7. 스케치  
+![image](https://user-images.githubusercontent.com/30430227/132272375-bc104c06-39dd-4903-8c7e-5084b57d7e15.png)  
+![image](https://user-images.githubusercontent.com/30430227/132272481-51adf876-9b66-452a-bacb-f08900b06157.png)  
+
+8. 마무리(보케토>어레이>모깍기)  
+![image](https://user-images.githubusercontent.com/30430227/132272827-abce5dba-12cd-41d4-8bdd-6b3588ee005b.png)  
+
+
+
+
 
