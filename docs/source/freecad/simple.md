@@ -145,7 +145,7 @@ Array
 
 칼 자루 
 -----------
-1. 2 스케치  
+1. 2 스케치(직선과 곡선 커브를 가진-직선커브는 같은 위치, 직선커브는 호 모양으로 바꾸어도된다)  
 ![image](https://user-images.githubusercontent.com/30430227/132279356-6171f199-7cb1-4eba-b8ff-c8d000629519.png)  
 
 2. 스케치  
@@ -160,6 +160,14 @@ Array
 ![image](https://user-images.githubusercontent.com/30430227/132282572-728b5942-3817-49c7-958a-b2d453796a93.png)  
 ![image](https://user-images.githubusercontent.com/30430227/132282731-19329162-96fb-4446-9dad-1fb41329b0c2.png)  
 ![image](https://user-images.githubusercontent.com/30430227/132282746-a7f0d23a-b459-4e56-a405-725eca6db9ac.png)  
+
+
+5. 패드 생성  
+![image](https://user-images.githubusercontent.com/30430227/132322354-91082abb-6fb1-4c2d-a498-4ff66d807b3e.png)  
+slice apart(partWB)  
+![image](https://user-images.githubusercontent.com/30430227/132322576-bd97559a-ea47-43eb-87e9-71b50905a998.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/132325694-151b97f3-1907-4f1d-b232-129aaa7fb9f2.png)  
 
 
 
