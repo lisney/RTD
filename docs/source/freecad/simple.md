@@ -99,6 +99,6 @@ Ring
 파라메트릭 테이프 홀더
 ------------------------
 
-1. 매크로  
+1. SetAlias-easyAlias Macro  
 ![image](https://user-images.githubusercontent.com/30430227/132267726-a6bb6bd7-b5ac-4e60-86fa-23b3a217353f.png)
 
