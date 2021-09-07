@@ -96,6 +96,9 @@ Ring
 ![image](https://user-images.githubusercontent.com/30430227/132161421-9a963d5f-dd66-471e-aa5d-51b8df357c58.png)  
 
 
+파라메트릭 테이프 홀더
+------------------------
 
-
+1. 매크로  
+![image](https://user-images.githubusercontent.com/30430227/132267726-a6bb6bd7-b5ac-4e60-86fa-23b3a217353f.png)
 
