@@ -169,8 +169,20 @@ slice apart(partWB)
 
 ![image](https://user-images.githubusercontent.com/30430227/132325694-151b97f3-1907-4f1d-b232-129aaa7fb9f2.png)  
 
+<br>
 
+Knurling 1
+------------
+1. 스케치 원기둥  
+![image](https://user-images.githubusercontent.com/30430227/132425586-00646532-080b-49ce-b35d-a14a6ab79313.png)  
 
+2. 스케치  
+![image](https://user-images.githubusercontent.com/30430227/132425771-a09a985c-fcaa-4b09-bb15-0dd44ad8a78a.png)  
 
+3. Helix 컷    
+![image](https://user-images.githubusercontent.com/30430227/132426110-156665d9-4630-49b1-a23c-995a9485f994.png)  
 
+4. MultiTransform  
+![image](https://user-images.githubusercontent.com/30430227/132426303-c714f3cd-7798-49e4-956e-00d3b0f5dc76.png)  
+![image](https://user-images.githubusercontent.com/30430227/132427718-4063ab9f-bdac-418f-9b06-660927141778.png)  
 
