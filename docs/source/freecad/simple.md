@@ -213,3 +213,9 @@ Tractor Tire
 5. Sketch 이동(바디를 이동하면 패턴축도 바뀐다) 후 패턴  
 ![image](https://user-images.githubusercontent.com/30430227/132451844-794a9838-a929-48aa-a336-3569c1a80fe0.png)  
 
+
+6. Array(DraftWB), Boolean(PartWB)  
+![image](https://user-images.githubusercontent.com/30430227/132489757-26dc490b-0d39-479d-b609-25385f866898.png)  
+
+
+
