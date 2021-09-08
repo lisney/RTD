@@ -186,3 +186,30 @@ Knurling 1
 ![image](https://user-images.githubusercontent.com/30430227/132426303-c714f3cd-7798-49e4-956e-00d3b0f5dc76.png)  
 ![image](https://user-images.githubusercontent.com/30430227/132427718-4063ab9f-bdac-418f-9b06-660927141778.png)  
 
+
+Tractor Tire
+--------------
+
+1. 스케치  
+![image](https://user-images.githubusercontent.com/30430227/132449601-b6a465ab-d9ba-4040-91e6-40ee8bba67bf.png)  
+`미러복사`  
+![image](https://user-images.githubusercontent.com/30430227/132449644-f3a0db94-7016-4a99-9a44-b691b12481b0.png)  
+
+
+2. 혁명  
+![image](https://user-images.githubusercontent.com/30430227/132449700-733afb7b-9afb-49e7-b636-240f0b00d277.png)  
+
+
+3. 스케치  
+![image](https://user-images.githubusercontent.com/30430227/132450542-591bb3c3-f348-4264-a910-fadb29c92b32.png)  
+
+
+4. 3번 스케치 별도 바디로 복사  
+`Plane은 복사하지 않는다`
+![image](https://user-images.githubusercontent.com/30430227/132451260-f1be71d0-88ca-439b-bc7f-f691a9d439e6.png)  
+`Paste 한 스케치를 선택하고 Body버튼 클릭 후 붙일려는 Plane을 선택하면된다`  
+
+
+5. Sketch 이동(바디를 이동하면 패턴축도 바뀐다) 후 패턴  
+![image](https://user-images.githubusercontent.com/30430227/132451844-794a9838-a929-48aa-a336-3569c1a80fe0.png)  
+
