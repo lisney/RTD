@@ -56,6 +56,12 @@ Refine
 ![image](https://user-images.githubusercontent.com/30430227/132226068-10d46b1b-4e08-4f5e-a1c7-a75bf869f4ce.png)  
 
 
+10. Shape Binder  
+`Body 간 프로젝션 연결`  
+![image](https://user-images.githubusercontent.com/30430227/132498404-acdfacb5-5fb1-4a61-9259-7431f26de805.png)  
+![image](https://user-images.githubusercontent.com/30430227/132498346-f849c298-1b8d-4a3c-91fb-ba5294194b7d.png)
+![image](https://user-images.githubusercontent.com/30430227/132498365-079c17a5-5b96-4e84-bac6-ab2e8ade13d9.png)  
+
 
 
 스케치
