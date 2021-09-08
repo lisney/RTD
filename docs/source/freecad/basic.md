@@ -61,6 +61,10 @@ Refine
 ![image](https://user-images.githubusercontent.com/30430227/132498404-acdfacb5-5fb1-4a61-9259-7431f26de805.png)  
 ![image](https://user-images.githubusercontent.com/30430227/132498346-f849c298-1b8d-4a3c-91fb-ba5294194b7d.png)
 ![image](https://user-images.githubusercontent.com/30430227/132498365-079c17a5-5b96-4e84-bac6-ab2e8ade13d9.png)  
+`Create subobject shape binder-원본 object를 따라온다(sub-object 포지션 변경할 수 있다)`  
+![image](https://user-images.githubusercontent.com/30430227/132498863-4de265f9-5a06-43be-a710-274de409a1ce.png)  
+![image](https://user-images.githubusercontent.com/30430227/132498884-a19d1811-9e8d-46ad-8b85-315eea9386da.png)  
+
 
 
 
