@@ -54,6 +54,23 @@ Particle
 ![image](https://user-images.githubusercontent.com/30430227/132637233-e4173620-62b7-4795-8d27-f162b04f6c1d.png)  
 `gravity : off`  
 ![image](https://user-images.githubusercontent.com/30430227/132637285-8d5c1a56-40a1-4d6a-a046-28742ada57d3.png)  
+`Add Empty > Add Force Field(Turblence)`  
+
+
+4. Make Instances Real > Physics  
+![image](https://user-images.githubusercontent.com/30430227/132638156-b878e0d3-fd91-4ff6-bc0e-a0f54f80048f.png)
+
+5. DOF  
+`Empty`  
+![image](https://user-images.githubusercontent.com/30430227/132640532-97483d54-7010-4f4b-af62-f3598053d881.png)  
+`Camera`  
+![image](https://user-images.githubusercontent.com/30430227/132640575-78a1521f-acec-49e6-bbdf-1ae940bf7e6d.png)  
+
+6. 배경 노이즈  
+![image](https://user-images.githubusercontent.com/30430227/132641110-c6ec4407-c990-4f26-ac12-872b039c1270.png)  
+![image](https://user-images.githubusercontent.com/30430227/132641151-0c92428b-0d8d-4c95-b83e-8f1b020f8cf2.png)  
+
+
 
 
 
