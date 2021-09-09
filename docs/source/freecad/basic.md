@@ -66,6 +66,19 @@ Refine
 ![image](https://user-images.githubusercontent.com/30430227/132498884-a19d1811-9e8d-46ad-8b85-315eea9386da.png)  
 
 
+11. Drarf on Face(PartDesignWB)  
+![image](https://user-images.githubusercontent.com/30430227/132604819-7ae0131c-1baf-487f-a8a4-5a2e2574b94c.png)  
+![image](https://user-images.githubusercontent.com/30430227/132604841-6198df68-8fa3-449c-808a-aad2d1c40518.png)
+![image](https://user-images.githubusercontent.com/30430227/132604860-0546fcbb-b8ea-43cf-b665-e10385740176.png)  
+
+12. Sweep 꼬임(partWB)  
+![image](https://user-images.githubusercontent.com/30430227/132610006-8ea7ee67-ea0b-4e89-88e7-6f9b5d722db7.png)  
+![image](https://user-images.githubusercontent.com/30430227/132610019-1e977797-4dd4-43ae-8203-331e1442461a.png)  
+![image](https://user-images.githubusercontent.com/30430227/132610489-882f4220-e101-4e66-9250-8f3e97e5af04.png)  
+![image](https://user-images.githubusercontent.com/30430227/132610471-7f668e44-59ad-48a8-85eb-ad986b55b4d5.png)  
+
+
+
 
 
 스케치
