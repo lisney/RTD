@@ -71,6 +71,57 @@ Particle
 ![image](https://user-images.githubusercontent.com/30430227/132641151-0c92428b-0d8d-4c95-b83e-8f1b020f8cf2.png)  
 
 
+모래 디졸브  
+------------
+1. Boolean  
+![image](https://user-images.githubusercontent.com/30430227/132645309-f340857c-02fc-478b-b36e-fb4d611eaa95.png)  
+![image](https://user-images.githubusercontent.com/30430227/132645445-454dc3ae-7ae7-477e-86f4-6549242c6aeb.png)  
+![image](https://user-images.githubusercontent.com/30430227/132645529-dfb77fd4-0e9f-46c6-b4f2-76af0bcb9f76.png)  
+
+2. Keyframe  
+`position & Rotation`  
+![image](https://user-images.githubusercontent.com/30430227/132646009-22fa7f26-fafe-4cb9-8926-922d91938ec6.png)  
+`Box 회전하며 내려오는 애니`  
+![image](https://user-images.githubusercontent.com/30430227/132646276-85ab740b-373f-481f-b4bd-509937467314.png)  
+
+3. 파티클 용 Slice  
+`수지와 Box 복사`  
+![image](https://user-images.githubusercontent.com/30430227/132647827-daa7def6-8273-4857-a0bb-a285e03af50b.png)  
+![image](https://user-images.githubusercontent.com/30430227/132647974-c3deabef-e354-4b4c-90c7-3799dabcd83c.png)  
+
+
+4. 파티클  
+![image](https://user-images.githubusercontent.com/30430227/132648588-d34d9d8b-05fe-4ae2-9620-3bbcff910630.png)  
+`Volume, Random, 파티클 똥 제거 Use Modifier Stack`  
+![image](https://user-images.githubusercontent.com/30430227/132650561-c2b6c248-6ffe-4584-8d24-f8c521a6f33f.png)
+![image](https://user-images.githubusercontent.com/30430227/132648743-dd4c6eeb-7931-4867-a887-2f0c3d4da5d8.png)  
+
+
+5. Gravity(9.8 -> 1)  
+`공중에 잠시 멈추다 떨어지는 것 같다`  
+![image](https://user-images.githubusercontent.com/30430227/132650119-e84ef694-643e-4eae-8366-682753948139.png)  
+
+
+6. 포스가 함께  
+![image](https://user-images.githubusercontent.com/30430227/132651255-ca343eb4-b033-4f0c-a318-67ffd0148840.png)  
+
+
+
+7. 파티클 메쉬  
+![image](https://user-images.githubusercontent.com/30430227/132651543-e66d22af-7080-4a4d-9ccb-666c6ba0e7f5.png)  
+![image](https://user-images.githubusercontent.com/30430227/132651740-3e0a4458-ecf4-4535-b1d0-908dc7cea993.png)  
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
