@@ -217,5 +217,77 @@ Tractor Tire
 6. Array(DraftWB), Boolean(PartWB)  
 ![image](https://user-images.githubusercontent.com/30430227/132489757-26dc490b-0d39-479d-b609-25385f866898.png)  
 
+<br> 
+
+쿨링팬
+---------
+1. 원기둥  
+![image](https://user-images.githubusercontent.com/30430227/132611939-f4d3e616-a466-4bc6-b88e-5a41faf93615.png)  
+
+2. 2 스케치(두 번째 날개는 기존 스케치를 복사한 후 변형)  
+`복사`  
+![image](https://user-images.githubusercontent.com/30430227/132612163-51c1abff-2314-47c7-97a2-42ea72ad6dc6.png)  
+`변형 콤보`  
+![image](https://user-images.githubusercontent.com/30430227/132612335-9c260aa8-37ee-4ae0-bc0b-3641c60f0a54.png)  
+
+3. 로프트  
+![image](https://user-images.githubusercontent.com/30430227/132616134-878bce75-98cc-4ecf-b924-c59e96a3292a.png)  
+
+
+4. new body 스케치  
+![image](https://user-images.githubusercontent.com/30430227/132616415-47c5abaa-2081-4147-88c6-9665e3e0b5ab.png)  
+![image](https://user-images.githubusercontent.com/30430227/132616519-877fc30b-c897-4c8b-a7e2-f3660cc7dbdd.png)  
+
+
+5. Slice  
+![image](https://user-images.githubusercontent.com/30430227/132617390-c4332b82-ea02-4a30-9df2-9211b9fd14ff.png)  
+
+
+6. Slice 파트 body에 넣기  
+`파트를 선택한 후 body 버튼 클릭`  
+![image](https://user-images.githubusercontent.com/30430227/132617541-496ac4ec-1b3e-41cf-bae7-8add5ab25e3a.png)  
+
+
+7. 볼트(FastenersWB)  
+![image](https://user-images.githubusercontent.com/30430227/132618084-10a584c6-017e-4cb8-8f34-22fe8ee07d12.png)  
+
+
+8. 색상  
+![image](https://user-images.githubusercontent.com/30430227/132618247-13961a11-b3b3-4641-8cf6-e2c13cff5326.png)  
+![image](https://user-images.githubusercontent.com/30430227/132618267-b7d02442-5d47-4bfa-ba2f-ce3e7e7e7768.png)  
+
+
+9. 컴파운드(partWB)  
+![image](https://user-images.githubusercontent.com/30430227/132618364-ff73498f-9a01-4d7a-9e0f-ee1a5a96dda3.png)  
+![image](https://user-images.githubusercontent.com/30430227/132618386-879faac1-6120-4f31-90a5-11e4ee2473ab.png)
+![image](https://user-images.githubusercontent.com/30430227/132618401-fbd7bd33-2554-43f0-8619-e6113fce2c59.png)  
+
+
+10. 파트 생성  
+![image](https://user-images.githubusercontent.com/30430227/132618526-1d8da556-1dc1-48ff-9e9f-d742b45efffd.png)  
+
+
+11. 회전 변수 생성  
+![image](https://user-images.githubusercontent.com/30430227/132618852-ff42ab2f-b9e8-4a4f-a2d4-78668409e351.png)  
+![image](https://user-images.githubusercontent.com/30430227/132618912-ee47352f-a806-40ca-b35c-48893f42ffb4.png)
+![image](https://user-images.githubusercontent.com/30430227/132618881-715315a3-f3f1-443a-88f6-dea210e304f3.png)  
+
+12. 로컬축 생성  
+![image](https://user-images.githubusercontent.com/30430227/132619194-a7d11f81-b0e0-483e-bf5c-34027ae5293f.png)  
+![image](https://user-images.githubusercontent.com/30430227/132619212-0c2cd8b7-4ba2-4017-aa2a-17810d28a695.png)  
+
+
+13. Assembly 컨테이너 생성  
+![image](https://user-images.githubusercontent.com/30430227/132619867-d544f0d3-7cea-4149-96d7-0ea72677155e.png)  
+![image](https://user-images.githubusercontent.com/30430227/132620344-7aae2d11-54bb-4c12-82d2-7337d651b1f4.png)  
+![image](https://user-images.githubusercontent.com/30430227/132620542-d5371e74-bdab-447c-bf10-e212281ad4e7.png)  
+
+14. Animate Assembly  
+![image](https://user-images.githubusercontent.com/30430227/132620518-90c1d175-d221-4efd-9c7f-ab081f068889.png)  
+![image](https://user-images.githubusercontent.com/30430227/132620587-4e458211-7538-43f4-9781-b525030f4f67.png)  
+
+
+
+
 
 
