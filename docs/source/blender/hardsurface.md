@@ -119,3 +119,19 @@ Convert to Curve 후
 ![image](https://user-images.githubusercontent.com/30430227/131319833-3b52c76a-d575-4f6f-b958-1cbaec6e47ea.png)  
 
 
+Simple Wire
+--------------
+1. Poke  
+![image](https://user-images.githubusercontent.com/30430227/133006867-d1a31bac-94da-4f5d-a52e-74bbcdbc6858.png)
+![image](https://user-images.githubusercontent.com/30430227/133006877-1a7bd510-2716-48bb-90f0-0b2502c4338e.png)  
+
+2. Tris to Quads  
+![image](https://user-images.githubusercontent.com/30430227/133006889-24e19fab-0d60-4f32-a424-673764e323d5.png)  
+
+
+3. Wireframe  
+![image](https://user-images.githubusercontent.com/30430227/133006917-78db93c2-b93b-4445-9642-c575226c6d15.png)  
+
+
+
+
