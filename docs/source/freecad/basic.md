@@ -114,6 +114,12 @@ Refine
 
 <br>
 
+8. Sketch 상태보기 Validate Sketch  
+Tree View 상태에서 스케치 선택 > Validate Sketch  
+![image](https://user-images.githubusercontent.com/30430227/133008472-4e71e796-5c08-4ac8-a3c2-f9593672757a.png)
+![image](https://user-images.githubusercontent.com/30430227/133008495-3e2cde84-9df9-49fa-a076-65fbb3ac732d.png)  
+
+
 파라메트릭-Alias
 ------------------
 ![image](https://user-images.githubusercontent.com/30430227/131803448-280762e7-ae6e-470a-8da5-44ca3ca4e195.png)  
