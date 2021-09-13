@@ -32,5 +32,13 @@ Physics
 ![image](https://user-images.githubusercontent.com/30430227/133079189-290fd4a4-abb8-4cbc-b28c-fc512f10cb43.png)  
 
 
+3. pin  
+`Gravity: 0, Pressure: 10`  
+![image](https://user-images.githubusercontent.com/30430227/133079496-c2c46db7-4ae0-4b28-bf42-aab2386585d4.png)
+![image](https://user-images.githubusercontent.com/30430227/133080230-49eda33e-7f43-439b-a9ed-8bb6d5603dc2.png)  
+
+
+
+
 
 
