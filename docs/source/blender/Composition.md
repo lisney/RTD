@@ -24,7 +24,7 @@ Volumetric
 
 
 
-Glass Refraction Alpha
+Glass Refraction with Alpha
 --------------------------
 `Transmission, ScreenSpace Refraction`  
 ![image](https://user-images.githubusercontent.com/30430227/133032463-c3596062-183f-44a2-9158-0a5b2e756d50.png)
