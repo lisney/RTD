@@ -60,3 +60,21 @@ Factor
 ![image](https://user-images.githubusercontent.com/30430227/133017778-6f957e90-dafb-4489-ad0f-d01e4d81f560.png)  
 
 
+텍스처 랜덤 반복  
+----------------
+1. Voronoi 패턴 
+![image](https://user-images.githubusercontent.com/30430227/133054085-8b67bbcb-2c92-4b07-b111-0822d8e57c56.png)  
+![image](https://user-images.githubusercontent.com/30430227/133054147-3c185656-30a9-43c1-a5fe-3401f55d5307.png)  
+
+
+2. 경계 마스크 
+![image](https://user-images.githubusercontent.com/30430227/133054261-14f84e1f-97c8-4b4d-a8f1-053783d605cc.png)  
+![image](https://user-images.githubusercontent.com/30430227/133054282-2daf95e3-a255-43dd-a66b-c9f08ca5217e.png)  
+
+3. 믹스  
+
+
+
+
+
+
