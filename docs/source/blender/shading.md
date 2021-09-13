@@ -74,6 +74,14 @@ Factor
 3. 믹스  
 
 
+Anisotropic 
+---------------
+![image](https://user-images.githubusercontent.com/30430227/133103705-575855f1-7de4-4d59-a362-b578eb37af9b.png)  
+![image](https://user-images.githubusercontent.com/30430227/133103786-1ad7bd62-aed2-4167-a8da-d4f73ccd918e.png)  
+
+
+
+
 
 
 
