@@ -26,6 +26,8 @@ Sculpt
 `Join 2 Meshes- Sculpt Texture의 Rake 방향은 세로이다`  
 ![image](https://user-images.githubusercontent.com/30430227/132806663-41e23944-af68-43ff-ad01-72f9ded03245.png)  
 ![image](https://user-images.githubusercontent.com/30430227/132806688-a604fea7-4a54-44ef-9de9-a11459f23295.png)  
+`Texture Coodinate 대신 Geometry`  
+![image](https://user-images.githubusercontent.com/30430227/133007245-b3f6f757-c487-48a8-a044-42c347615768.png)  
 
 
 ![image](https://user-images.githubusercontent.com/30430227/132809767-20046b5f-5fb4-45cd-a4d8-25d2d41134e0.png)  
