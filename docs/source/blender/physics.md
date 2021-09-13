@@ -18,4 +18,19 @@ Physics
 ` vertex parent, 자식선택 > 부모선택 > EditMode`
 
 
+베게 
+------
+1. 박스  
+
+![image](https://user-images.githubusercontent.com/30430227/133077761-3b357d8a-f3c5-4587-90ce-e6e35b5f5d77.png)
+![image](https://user-images.githubusercontent.com/30430227/133077721-b658f21c-4751-4226-a979-8ace8bce9646.png)  
+![image](https://user-images.githubusercontent.com/30430227/133078239-d4e167e6-1ca4-4f1e-ab71-3914fdcd461f.png)  
+
+
+2.  큐션  
+`바닥 Softbody $ Cloth Friction: 50, 공으로 눌러 모양 만듬`  
+![image](https://user-images.githubusercontent.com/30430227/133079189-290fd4a4-abb8-4cbc-b28c-fc512f10cb43.png)  
+
+
+
 
