@@ -47,6 +47,31 @@ Motion Graphics
 `![image](https://user-images.githubusercontent.com/30430227/133048378-fa79eaf8-581c-4ab5-88c7-c9ef53177e6d.png)  
 
 7. Material  
+![image](https://user-images.githubusercontent.com/30430227/133063813-37439324-7fd4-4595-b214-318948c95ac1.png)  
+
+`Gradient`  
+![image](https://user-images.githubusercontent.com/30430227/133063892-9dbdf081-b3b7-4d52-9f15-2be09e486b45.png)  
+![image](https://user-images.githubusercontent.com/30430227/133063926-76a2c440-9e8a-4178-a45d-06de9f0d8afb.png)  
+
+
+`Noise`  
+![image](https://user-images.githubusercontent.com/30430227/133064255-b166b42d-e050-4e1f-8231-149450d4a043.png)  
+![image](https://user-images.githubusercontent.com/30430227/133064274-a8b44de2-6dbb-45e2-a3df-4bc315c55d67.png)  
+
+
+`Wave`  
+![image](https://user-images.githubusercontent.com/30430227/133065461-fe0e1e98-4442-4a02-8295-c3f175f6d219.png)  
+![image](https://user-images.githubusercontent.com/30430227/133065489-3ada20ea-380c-49bb-8dad-7787754fa759.png)  
+
+
+
+
+
+
+
+
+
+
 
 
 
