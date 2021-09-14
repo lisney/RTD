@@ -225,6 +225,32 @@ Morph Particles
 ![image](https://user-images.githubusercontent.com/30430227/133200079-80ca0904-9e46-46f8-ab34-8c034af38e24.png)  
 
 
+3. Fluid -> Sphere  
+`Damping`  
+![image](https://user-images.githubusercontent.com/30430227/133242416-bf5a049d-9ff7-4915-a47b-9dd3d1ed5118.png)
+![image](https://user-images.githubusercontent.com/30430227/133242443-c3c2ce2d-9e91-4ada-9bb0-d6892e4b198a.png)  
+
+`Fluid`  
+![image](https://user-images.githubusercontent.com/30430227/133242372-306c2631-ec38-4abf-9de5-5de1dc5dfc01.png)
+![image](https://user-images.githubusercontent.com/30430227/133242344-ac9591e5-a5cc-47b7-9bcf-b1c696dcc750.png)  
+
+`Interaction Radius`  
+![image](https://user-images.githubusercontent.com/30430227/133242620-9117d5aa-5e6f-429e-8491-303251ad2fc8.png)
+![image](https://user-images.githubusercontent.com/30430227/133242677-9524ecb8-c776-4c23-8d92-b640cd6f8ba7.png)  
+
+`Physics: None`  
+![image](https://user-images.githubusercontent.com/30430227/133242874-53328412-de95-40d9-a2df-610cc7f24c24.png)
+![image](https://user-images.githubusercontent.com/30430227/133242800-64fd3fe1-954a-49bb-973b-63eeed889988.png)  
+
+`Keyed`  
+![image](https://user-images.githubusercontent.com/30430227/133242925-c269d40b-b1db-4348-8559-69b04b8e1f94.png)
+![image](https://user-images.githubusercontent.com/30430227/133243363-6548a149-7061-4348-8d1d-e6df471104fe.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/133243409-5b6fa49b-58c4-4cc4-becc-9fd13cceb049.png)
+![image](https://user-images.githubusercontent.com/30430227/133243439-a53ab445-7850-4b08-92ae-cb94c8dc754d.png)  
+
+
+
 
 
 
