@@ -136,3 +136,37 @@ Shrinkwarp
 ![image](https://user-images.githubusercontent.com/30430227/131122526-a7f78dc9-47c5-457d-8d5e-817d694560d1.png)
 ![image](https://user-images.githubusercontent.com/30430227/131122502-34a59c1b-7793-43d7-9d21-cdb5f7f5c76b.png)
 
+
+심플 주름 
+-----------
+1. 실린더  
+![image](https://user-images.githubusercontent.com/30430227/133176983-02435897-f3a1-4808-ad60-7075a8eaa695.png)
+`Subdivision > Displace`  
+![image](https://user-images.githubusercontent.com/30430227/133177810-e3293d6a-05c9-40ba-92f8-72957fc57d0f.png)
+![image](https://user-images.githubusercontent.com/30430227/133177832-50019bcd-27e7-43d6-bdb7-a2dabf5beafb.png)
+
+
+2. Displace 세팅  
+![image](https://user-images.githubusercontent.com/30430227/133177937-720a6026-4428-4ec0-9a4c-fef524ebaf59.png)
+![image](https://user-images.githubusercontent.com/30430227/133177968-6bcc7029-f876-4cf3-92f6-0054c3232cf5.png)  
+![image](https://user-images.githubusercontent.com/30430227/133178022-8d2e5bd3-a3ba-4714-b704-a89e13776f9a.png)  
+
+
+3. Bending  
+![image](https://user-images.githubusercontent.com/30430227/133178201-019d2b46-215e-44cd-b140-b77250f73db2.png)
+![image](https://user-images.githubusercontent.com/30430227/133178233-52ffd463-a970-463f-9944-e737a65ce0ef.png)  
+
+
+4. Weight  
+![image](https://user-images.githubusercontent.com/30430227/133178351-32a0afc0-cdca-4102-87f5-30df5c88c4a9.png)
+![image](https://user-images.githubusercontent.com/30430227/133178373-aa7830eb-f601-4165-aa2d-a8c1578b33dd.png)  
+
+5. Displace Weight  
+![image](https://user-images.githubusercontent.com/30430227/133178450-51bae730-a1c6-4389-a7b7-6d2bcc781a7e.png)
+
+
+
+
+
+
+
