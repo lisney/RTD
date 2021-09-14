@@ -167,6 +167,27 @@ Vertex Weight Proximity
 ![image](https://user-images.githubusercontent.com/30430227/133184833-e4345f62-df60-4769-80be-f5e25ecbbd22.png)
 ![image](https://user-images.githubusercontent.com/30430227/133184849-6633b4f8-2d5f-4cc4-b2b3-c2176972c14e.png)  
 
+`Curve Deform > Array`  
+![image](https://user-images.githubusercontent.com/30430227/133185279-9abe2c52-c618-4aaa-9ccc-712844820863.png)
+![image](https://user-images.githubusercontent.com/30430227/133185450-40ceeb4d-d89f-4ade-af14-46ec7853ece2.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/133185404-b015b34d-8ba3-4691-8495-967037677b2e.png)  
+
+`Convert Mesh > Shape Keys`  
+![image](https://user-images.githubusercontent.com/30430227/133185716-73679966-077c-4d5f-9b21-311dd4e2e0c1.png)
+![image](https://user-images.githubusercontent.com/30430227/133185786-c995f199-227e-4e90-a069-7024b52eaaa2.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/133185852-227ccf29-78fd-41fb-8934-c967d89a6695.png)  
+![image](https://user-images.githubusercontent.com/30430227/133185870-1e56661e-fa86-4723-8c90-8014fece2b7a.png)
+![image](https://user-images.githubusercontent.com/30430227/133185928-2fcf5dc8-3e18-4c22-aea0-afc82166b890.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/133186169-c617870a-45d6-4aa1-ae13-c453e59938c2.png)  
+
+
+
+
+
+
 
 
 
