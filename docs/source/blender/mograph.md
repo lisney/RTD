@@ -184,6 +184,26 @@ Vertex Weight Proximity
 ![image](https://user-images.githubusercontent.com/30430227/133186169-c617870a-45d6-4aa1-ae13-c453e59938c2.png)  
 
 
+5. 물방울  
+![image](https://user-images.githubusercontent.com/30430227/133192085-47788dee-8e3e-4775-9a20-64562065a57b.png)  
+`Shape Keys`  
+![image](https://user-images.githubusercontent.com/30430227/133192206-60dfbbf9-0e7f-4125-90e0-f0b4e5caf33a.png)
+![image](https://user-images.githubusercontent.com/30430227/133192222-2d9e6a7e-a3e4-4df1-8bd8-18008ffeeac9.png)  
+
+
+6. Bar  
+![image](https://user-images.githubusercontent.com/30430227/133192843-903b3817-23de-4217-93da-08cd74c58a29.png)  
+![image](https://user-images.githubusercontent.com/30430227/133192862-36050f71-1790-445e-a25f-0186a0ff20d6.png)  
+`Array > Loose Parts`  
+![image](https://user-images.githubusercontent.com/30430227/133192922-720f64d1-5cc9-466f-972a-aea878a2ce53.png)
+![image](https://user-images.githubusercontent.com/30430227/133192958-3ffa1fd8-c78e-4f38-89fa-75005d1f19e1.png)  
+
+
+
+
+
+
+
 
 
 
