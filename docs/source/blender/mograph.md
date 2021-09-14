@@ -120,6 +120,30 @@ Vertex Weight Proximity
 ![image](https://user-images.githubusercontent.com/30430227/133182136-2dade5ae-a03b-43ea-b56e-b01edb61bdc8.png)  
 
 
+마름모 애니
+------------
+![image](https://user-images.githubusercontent.com/30430227/133183202-91513f7b-6b27-47a8-9a87-286d00b37c4e.png)  
+
+1. Cirlce  
+![image](https://user-images.githubusercontent.com/30430227/133183295-79c523d3-d42d-42cb-9e49-450670119af8.png)
+![image](https://user-images.githubusercontent.com/30430227/133183345-e30d58c8-838f-49c6-8fa8-fb4ff70e41ae.png)  
+
+`Convert Mesh > Subdivide`  
+![image](https://user-images.githubusercontent.com/30430227/133183411-ccbc586a-3eec-42de-8ec1-002515ff7511.png)  
+
+`Convert Curve`  
+![image](https://user-images.githubusercontent.com/30430227/133183480-d7ebf2f6-72d6-4e9b-b3dd-a682bb379eec.png)
+![image](https://user-images.githubusercontent.com/30430227/133183500-aca5c719-d23f-41e2-88b0-8b58831ecf97.png)  
+
+`bevel Object`  
+![image](https://user-images.githubusercontent.com/30430227/133183592-e51e5c66-bf21-4402-85a1-69fdbaeea664.png)
+![image](https://user-images.githubusercontent.com/30430227/133183634-25da6f9b-4dd8-4c0d-a244-c641b21d2bbe.png)  
+
+`Animation`  
+![image](https://user-images.githubusercontent.com/30430227/133183706-abffaced-7b83-41ec-8a7e-1e634876d4b9.png)  
+![image](https://user-images.githubusercontent.com/30430227/133183725-54db68e5-888b-4eac-baa8-57adac66fc55.png)
+![image](https://user-images.githubusercontent.com/30430227/133183744-16868926-0543-495c-9f33-b3a9ceb78b8e.png)  
+
 
 
 
