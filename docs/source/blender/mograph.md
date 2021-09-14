@@ -198,11 +198,15 @@ Vertex Weight Proximity
 ![image](https://user-images.githubusercontent.com/30430227/133192922-720f64d1-5cc9-466f-972a-aea878a2ce53.png)
 ![image](https://user-images.githubusercontent.com/30430227/133192958-3ffa1fd8-c78e-4f38-89fa-75005d1f19e1.png)  
 
+7. Animation Commotion(AddOn)  
+`전체 선택 > 좌에서 우 Animation`  
+![image](https://user-images.githubusercontent.com/30430227/133196177-caa97c7f-b77b-47fb-8080-62227ed14509.png)  
 
+`Animation`  
+![image](https://user-images.githubusercontent.com/30430227/133194530-ac786dcc-c1e1-45f5-836e-d1ea531e992f.png)  
 
-
-
-
+`Random Offset Animation`  
+![image](https://user-images.githubusercontent.com/30430227/133196284-bf7437bd-4372-4f1a-ad26-4da5e1b4e3a6.png)  
 
 
 
