@@ -144,6 +144,30 @@ Vertex Weight Proximity
 ![image](https://user-images.githubusercontent.com/30430227/133183725-54db68e5-888b-4eac-baa8-57adac66fc55.png)
 ![image](https://user-images.githubusercontent.com/30430227/133183744-16868926-0543-495c-9f33-b3a9ceb78b8e.png)  
 
+<br>
+
+원 애니 
+---------
+1. 커브와 판  
+![image](https://user-images.githubusercontent.com/30430227/133184164-bb0f99ba-0722-4fae-99ff-8375a23af6d1.png)  
+
+
+2. Curve Modifier  
+![image](https://user-images.githubusercontent.com/30430227/133184249-3ee592dc-8ef5-4186-b019-911c79e8f245.png)
+![image](https://user-images.githubusercontent.com/30430227/133184223-273d89cc-5997-4b27-8da3-9d54cfa1e557.png)  
+`단축 키`  
+![image](https://user-images.githubusercontent.com/30430227/133184649-02a9088f-db55-48bf-95ab-9fccdb66fd0a.png)
+
+3. Array  
+![image](https://user-images.githubusercontent.com/30430227/133184440-f81f9c41-f549-455a-8231-c5d0b1fad95e.png)
+![image](https://user-images.githubusercontent.com/30430227/133184478-26ad7569-d524-43db-880d-f9a16311f667.png)  
+
+
+4. 꽃 잎  
+![image](https://user-images.githubusercontent.com/30430227/133184833-e4345f62-df60-4769-80be-f5e25ecbbd22.png)
+![image](https://user-images.githubusercontent.com/30430227/133184849-6633b4f8-2d5f-4cc4-b2b3-c2176972c14e.png)  
+
+
 
 
 
