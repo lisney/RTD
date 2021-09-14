@@ -99,4 +99,27 @@ Sci-Fi UI
 ![image](https://user-images.githubusercontent.com/30430227/133174930-5933ca2e-ca63-4a33-b380-620391c87a59.png)  
 ![image](https://user-images.githubusercontent.com/30430227/133175217-9f8a5cc3-74fc-4153-b8ce-fc7e4fac2684.png)  
 
+<br>
+
+
+Vertex Weight Proximity 
+---------------------------
+1. Mesh  
+![image](https://user-images.githubusercontent.com/30430227/133180700-5231044e-9500-4d53-9462-13e6c575ffd0.png)
+![image](https://user-images.githubusercontent.com/30430227/133180747-8ac10330-f114-4166-8008-f31278fba983.png)  
+![image](https://user-images.githubusercontent.com/30430227/133180782-cff19ed0-332b-4c52-83b8-27473a3185f2.png)  
+
+
+2. Particle-hair  
+![image](https://user-images.githubusercontent.com/30430227/133181711-cf0acd20-c751-4164-ab74-151e2c1765ff.png)  
+![image](https://user-images.githubusercontent.com/30430227/133181787-ee3698bf-dd8f-4571-b9f2-bd2929b0b515.png)
+![image](https://user-images.githubusercontent.com/30430227/133181736-a65ae0c1-61f7-4224-b6e1-952593c58f23.png)  
+
+`Instance Object`  
+![image](https://user-images.githubusercontent.com/30430227/133182060-1b868167-a718-4b6e-9488-3377ab69d947.png)  
+![image](https://user-images.githubusercontent.com/30430227/133182136-2dade5ae-a03b-43ea-b56e-b01edb61bdc8.png)  
+
+
+
+
 
