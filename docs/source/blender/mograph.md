@@ -63,23 +63,40 @@ Motion Graphics
 ![image](https://user-images.githubusercontent.com/30430227/133065461-fe0e1e98-4442-4a02-8295-c3f175f6d219.png)  
 ![image](https://user-images.githubusercontent.com/30430227/133065489-3ada20ea-380c-49bb-8dad-7787754fa759.png)  
 
+<br>
+
+Sci-Fi UI
+------------
+1. Plane  
+![image](https://user-images.githubusercontent.com/30430227/133172694-26c8ebd8-a1b1-45db-810e-f47927c3a46f.png)  
+
+2. Array, SimpleDeform  
+![image](https://user-images.githubusercontent.com/30430227/133172905-8c6a6ae1-246e-467e-a2f9-c8688140e2f0.png)
+![image](https://user-images.githubusercontent.com/30430227/133172921-4900db32-c945-4329-aa45-6dfca9aa1f1e.png)  
 
 
+3. Duplicate  
+![image](https://user-images.githubusercontent.com/30430227/133173090-af358b1b-5874-45f2-a172-374fb7032161.png)  
 
 
+4. Modeling  
+![image](https://user-images.githubusercontent.com/30430227/133173341-cbc1ff22-2dc0-440d-b780-c03ef920f5ae.png)  
+`Split: 단축키'y'`  
+![image](https://user-images.githubusercontent.com/30430227/133173465-e1c9c8f0-ff6e-40e0-a4d0-af395accc17e.png)
+![image](https://user-images.githubusercontent.com/30430227/133173713-b6ff2bee-ecaf-458a-9cdd-097c01c711b9.png)  
+![image](https://user-images.githubusercontent.com/30430227/133173796-69ade00c-7c2b-47a2-ba9a-ad62a845633d.png)  
+![image](https://user-images.githubusercontent.com/30430227/133173997-55f21d6d-c910-43df-8cc3-fe98af3d8e32.png)  
+![image](https://user-images.githubusercontent.com/30430227/133174302-2ad3b777-d3a3-473e-a546-6fae9dfb7233.png)
+![image](https://user-images.githubusercontent.com/30430227/133174365-ac9b50c6-9034-4e8c-aedd-ed573286daa2.png)  
+![image](https://user-images.githubusercontent.com/30430227/133174465-9c1e7f57-6c59-415f-9789-33499df73f9e.png)
+![image](https://user-images.githubusercontent.com/30430227/133174505-c0bc8ba3-060c-43cf-bb47-3da71edbe6dc.png)  
+![image](https://user-images.githubusercontent.com/30430227/133174539-00633c73-cdb4-4ddb-aea2-78156677ac44.png)  
+`참고`  
+![image](https://user-images.githubusercontent.com/30430227/133174967-1099d8e3-b778-4afd-a871-e6efd4968cfb.png)  
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+5. Copy Location  
+![image](https://user-images.githubusercontent.com/30430227/133174930-5933ca2e-ca63-4a33-b380-620391c87a59.png)  
+![image](https://user-images.githubusercontent.com/30430227/133175217-9f8a5cc3-74fc-4153-b8ce-fc7e4fac2684.png)  
 
 
