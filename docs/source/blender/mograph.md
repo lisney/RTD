@@ -208,6 +208,21 @@ Vertex Weight Proximity
 `Random Offset Animation`  
 ![image](https://user-images.githubusercontent.com/30430227/133196284-bf7437bd-4372-4f1a-ad26-4da5e1b4e3a6.png)  
 
+<br>
+
+Morph Particles
+-----------------
+1. Physics Type::Keyed  
+`3개 도형에 동일한 파티클 적용, 하나 생성 후 나머지에 Ctrl + L`  
+![image](https://user-images.githubusercontent.com/30430227/133198093-9fcb9d72-d411-4b0c-9688-5ee2459e1f0b.png)
+![image](https://user-images.githubusercontent.com/30430227/133197787-fb5adeb9-6e0d-48b0-9ca6-20a75c3693a6.png)  
+
+`큐브에 파티클 적용(Lifetime 전체 이동 시간)-기존 파티클의 위치에서 방출된다`  
+![image](https://user-images.githubusercontent.com/30430227/133197977-66b931e6-edfe-4512-9b20-30eb51dbd467.png)  
+
+
+2. Use Timming  
+![image](https://user-images.githubusercontent.com/30430227/133200079-80ca0904-9e46-46f8-ab34-8c034af38e24.png)  
 
 
 
