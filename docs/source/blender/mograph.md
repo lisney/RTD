@@ -292,16 +292,38 @@ Laser Cutting
 ![image](https://user-images.githubusercontent.com/30430227/133377516-a87879f1-247c-4f74-9f37-d886a1143a02.png)  
 
 
-4. Add Dynamic Paint 새기는 맵  
+5. Add Dynamic Paint 새기는 맵(No Dry)  
 ![image](https://user-images.githubusercontent.com/30430227/133378696-be65fd58-a73d-4279-900c-24e771eb2a4d.png)
 ![image](https://user-images.githubusercontent.com/30430227/133378719-d97bb3b1-30bc-4bbc-bb9c-9107717fc3fa.png)  
 
-`Path 건너뛰기`  
+`Path 건너뛰기 - 레이저광선도 랜더 키프레임으로 토글한다`  
 ![image](https://user-images.githubusercontent.com/30430227/133378887-a2e0fd8b-00ed-469b-811a-b5d32a1a4b56.png)  
 `Sub Steps & Scale Influence Keyframes`  
-![image](https://user-images.githubusercontent.com/30430227/133379077-fc09e1f8-f18a-4cfa-a9e1-4a696dde59fe.png)
+![image](https://user-images.githubusercontent.com/30430227/133379280-21baf15b-6239-41e1-87da-1e455688ee67.png)
 ![image](https://user-images.githubusercontent.com/30430227/133379094-cb5bb060-5626-4fb9-bfb8-7f9cbc06c09b.png)  
 
+`Displace Modifier`  
+![image](https://user-images.githubusercontent.com/30430227/133381260-71e82d0c-f445-4c01-8bd6-cd147be0d2b3.png)
+![image](https://user-images.githubusercontent.com/30430227/133381280-46612d58-49c5-4b11-817f-c3503cdb0581.png)  
+
+
+6. 불꽃 공  
+![image](https://user-images.githubusercontent.com/30430227/133382511-d14a07b2-e6c4-4e27-857e-e0ffebaaf121.png)  
+`Life Time, Rotation 체크,  
+![image](https://user-images.githubusercontent.com/30430227/133382721-2db20c4e-dff7-4b83-a93e-115373b089ba.png)
+![image](https://user-images.githubusercontent.com/30430227/133382975-b883e5b2-d382-4b81-b7d1-4ea29069cb59.png)  
+
+
+7. Texture  
+![image](https://user-images.githubusercontent.com/30430227/133387067-8341aea5-a094-4112-b4c3-19478779326e.png)  
+![image](https://user-images.githubusercontent.com/30430227/133387221-5b4587c7-3207-4dda-a838-08e4ed5471b8.png)  
+
+
+8. 합성 Images  
+`View Layer`  
+![image](https://user-images.githubusercontent.com/30430227/133388098-11062643-bc37-4c2a-b924-04715be2d1b2.png)
+![image](https://user-images.githubusercontent.com/30430227/133387386-f2bbb346-205e-46b1-9cd5-efaa59670e3b.png)  
+![image](https://user-images.githubusercontent.com/30430227/133388014-1e6a6a93-c195-4ff4-97ea-d225bcc4be52.png)  
 
 
 
