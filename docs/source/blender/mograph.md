@@ -270,13 +270,30 @@ Laser Cutting
 ![image](https://user-images.githubusercontent.com/30430227/133375681-1cb04227-ccf5-430e-ab6d-59a3a3146b2c.png)  
 
 3. Dynamic Paint  
-`Canvas Image Sequence`  
+`Canvas Image Sequence, Dry: 모션트레일 효과?`  
 ![image](https://user-images.githubusercontent.com/30430227/133375843-c91db134-a8bd-4a14-a763-d0982761d669.png)
 ![image](https://user-images.githubusercontent.com/30430227/133376247-a4f00ae3-34ca-496f-842a-ab29fb9e7c65.png)  
 
 
 `UV map`  
-![image](https://user-images.githubusercontent.com/30430227/133376143-5aabd4da-08fe-400f-b7da-f60a102f4a6b.png)  
+![image](https://user-images.githubusercontent.com/30430227/133376143-5aabd4da-08fe-400f-b7da-f60a102f4a6b.png)
+![image](https://user-images.githubusercontent.com/30430227/133376653-e73f5a1a-a4bf-4a96-a132-067c14a3282d.png)  
+
+`Brush`  
+![image](https://user-images.githubusercontent.com/30430227/133376701-3d6835b5-2c24-415e-8e43-04c96937a8dc.png)
+![image](https://user-images.githubusercontent.com/30430227/133376811-cef4b866-425b-4a0e-9d11-9b8283dae04a.png)  
+
+`Bake Image Sequence`  
+![image](https://user-images.githubusercontent.com/30430227/133376892-f55a42b2-1519-4bf1-8bd4-2179254c42c2.png)  
+
+
+4. Texture  
+![image](https://user-images.githubusercontent.com/30430227/133377476-b50ba133-d334-479a-8d44-c13469b55e61.png)
+![image](https://user-images.githubusercontent.com/30430227/133377516-a87879f1-247c-4f74-9f37-d886a1143a02.png)  
+
+
+
+
 
 
 
