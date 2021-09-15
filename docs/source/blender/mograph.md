@@ -269,8 +269,8 @@ Laser Cutting
 ![image](https://user-images.githubusercontent.com/30430227/133375515-7dc2ef06-959f-411c-a096-c0c67b3230a0.png)
 ![image](https://user-images.githubusercontent.com/30430227/133375681-1cb04227-ccf5-430e-ab6d-59a3a3146b2c.png)  
 
-3. Dynamic Paint  
-`Canvas Image Sequence, Dry: 모션트레일 효과?`  
+3. Dynamic Paint 이동 맵  
+`Canvas Image Sequence, Sub-Steps: 모션트레일 효과?`  
 ![image](https://user-images.githubusercontent.com/30430227/133375843-c91db134-a8bd-4a14-a763-d0982761d669.png)
 ![image](https://user-images.githubusercontent.com/30430227/133376247-a4f00ae3-34ca-496f-842a-ab29fb9e7c65.png)  
 
@@ -290,6 +290,17 @@ Laser Cutting
 4. Texture  
 ![image](https://user-images.githubusercontent.com/30430227/133377476-b50ba133-d334-479a-8d44-c13469b55e61.png)
 ![image](https://user-images.githubusercontent.com/30430227/133377516-a87879f1-247c-4f74-9f37-d886a1143a02.png)  
+
+
+4. Add Dynamic Paint 새기는 맵  
+![image](https://user-images.githubusercontent.com/30430227/133378696-be65fd58-a73d-4279-900c-24e771eb2a4d.png)
+![image](https://user-images.githubusercontent.com/30430227/133378719-d97bb3b1-30bc-4bbc-bb9c-9107717fc3fa.png)  
+
+`Path 건너뛰기`  
+![image](https://user-images.githubusercontent.com/30430227/133378887-a2e0fd8b-00ed-469b-811a-b5d32a1a4b56.png)  
+`Sub Steps & Scale Influence Keyframes`  
+![image](https://user-images.githubusercontent.com/30430227/133379077-fc09e1f8-f18a-4cfa-a9e1-4a696dde59fe.png)
+![image](https://user-images.githubusercontent.com/30430227/133379094-cb5bb060-5626-4fb9-bfb8-7f9cbc06c09b.png)  
 
 
 
