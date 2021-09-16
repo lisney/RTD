@@ -226,6 +226,10 @@ Image WB
 
 2. 스케일  
 ![image](https://user-images.githubusercontent.com/30430227/133528571-5f043b93-303b-4632-9838-356fd7892f5b.png)  
+`측정`  
+![image](https://user-images.githubusercontent.com/30430227/133528684-47882de7-0dd4-45cd-84f0-4f3f201edccc.png)  
+
+
 
 
 
