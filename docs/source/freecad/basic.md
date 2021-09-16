@@ -215,3 +215,17 @@ Part WB
 ![image](https://user-images.githubusercontent.com/30430227/132117414-edcd716e-7815-41fa-af18-f4a9b4cf4866.png)  
 ![image](https://user-images.githubusercontent.com/30430227/132117469-f524fe87-566c-43bd-9c18-9a55836f6858.png)  
 
+
+<br>
+
+Image WB
+-------------
+1. 생성  
+![image](https://user-images.githubusercontent.com/30430227/133528467-78773412-a824-468e-be76-9ae708dc6eaf.png)  
+
+
+2. 스케일  
+![image](https://user-images.githubusercontent.com/30430227/133528571-5f043b93-303b-4632-9838-356fd7892f5b.png)  
+
+
+
