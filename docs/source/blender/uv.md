@@ -34,3 +34,24 @@ Live Unwrap 연습
  ![image](https://user-images.githubusercontent.com/30430227/133556925-790a9ed7-34ca-4ac3-9824-30fdf1d03f5b.png)
 ![image](https://user-images.githubusercontent.com/30430227/133556956-9395d842-7eaf-4e3c-a016-8fbdfdf5cbea.png)  
 
+
+UV맵 자동 패턴
+----------------
+`Correct Face Attribute`  
+![image](https://user-images.githubusercontent.com/30430227/133557300-94029cec-46c4-4e36-8fdb-f76086fb3a38.png)  
+`extrude`  
+![image](https://user-images.githubusercontent.com/30430227/133557491-42a13e26-577b-4438-bad3-e02e673f939d.png)  
+`Vertex Move`  
+![image](https://user-images.githubusercontent.com/30430227/133557660-39b1a748-837b-43e8-83e8-1b1fcc61882f.png)  
+
+
+매핑 Shader
+-------------
+`Texture Coordinate UV->Object, Texture Node Fla->Box, 경계부분 부드럽게 Blend 값 높인다`  
+![image](https://user-images.githubusercontent.com/30430227/133558276-21f9775a-26eb-441f-a92d-826597e9978d.png)  
+
+
+
+
+
+
