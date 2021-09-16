@@ -230,6 +230,29 @@ Image WB
 ![image](https://user-images.githubusercontent.com/30430227/133528684-47882de7-0dd4-45cd-84f0-4f3f201edccc.png)  
 
 
+3. Mixed curve  
+`Curves WB`  
+![image](https://user-images.githubusercontent.com/30430227/133534743-fd8e3100-a36b-4ea4-ae1f-d650b2a91384.png)  
+![image](https://user-images.githubusercontent.com/30430227/133534786-e7e6aef4-5f2a-4a1b-97b4-06227b39d884.png)
+![image](https://user-images.githubusercontent.com/30430227/133534765-a5062565-6237-4a09-aba4-89a770356f0e.png)  
+
+4. B-Spline Display  
+![image](https://user-images.githubusercontent.com/30430227/133531206-673ddba3-a812-487d-8c83-8921dd854e33.png)  
+`Sketcher > B-Spline Tool > `  
+![image](https://user-images.githubusercontent.com/30430227/133531343-8d58546a-6b8c-4afc-84e0-0e7df0d270ba.png)  
+
+
+5. 스케치  
+![image](https://user-images.githubusercontent.com/30430227/133548022-f4d85548-9a74-4eae-855e-cb6495f195e4.png)  
+
+
+6. Freehand B-Spline  
+`Curves WB > 초록색 선택 후`  
+![image](https://user-images.githubusercontent.com/30430227/133548278-15efb4db-cd33-4fbe-a372-94891432b2e0.png)
+![image](https://user-images.githubusercontent.com/30430227/133548233-57dcfa89-36ea-49d8-b33e-a9d47b9359d7.png)  
+
+7. 
+
 
 
 
