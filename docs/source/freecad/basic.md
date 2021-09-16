@@ -78,6 +78,8 @@ Refine
 ![image](https://user-images.githubusercontent.com/30430227/132610471-7f668e44-59ad-48a8-85eb-ad986b55b4d5.png)  
 
 
+13. 그룹  
+![image](https://user-images.githubusercontent.com/30430227/133550529-3d616d88-d58b-46a0-87ec-f8e103b284fc.png)  
 
 
 
@@ -191,6 +193,16 @@ Curves Workbench -addOn
 ```
 두께 주기  
 ![image](https://user-images.githubusercontent.com/30430227/132088385-82e15890-0d92-4c49-8ca1-1aefe3475a69.png)
+
+
+8. 커브를 점으로  
+![image](https://user-images.githubusercontent.com/30430227/133550053-0bce726f-4a55-4de8-8c5a-b4ac817312fb.png)
+![image](https://user-images.githubusercontent.com/30430227/133550101-afe2b49e-f0f4-4c0e-8977-b21836a03ecf.png)  
+`선택한 점을 커브로`  
+![image](https://user-images.githubusercontent.com/30430227/133550237-dc943c7e-5a29-42e9-9084-b3e1dba9f6fc.png)
+![image](https://user-images.githubusercontent.com/30430227/133550207-f94c9344-76ed-495f-9f33-81a81718b673.png)  
+
+
 
 Datum Plane
 -------------
