@@ -60,6 +60,18 @@ Snow Material
 
 
 
+Rain Drop 
+-------------
+![image](https://user-images.githubusercontent.com/30430227/133740715-529b139d-203c-47d8-850d-fac1307bdfb8.png)  
+
+`Subdivide, Dynamic Paint::Canavs::Wave::Damping: 0.01`  
+![image](https://user-images.githubusercontent.com/30430227/133740906-01409523-4c80-45b6-aae5-ba39dbd3ea95.png)
+![image](https://user-images.githubusercontent.com/30430227/133740836-48be5d63-67cd-44c7-8061-21db8134b84b.png)  
+
+`Particle::Object, Dynamic Paint::Brush`  
+![image](https://user-images.githubusercontent.com/30430227/133740965-fda526d0-e812-4301-a33d-6c54855bce9a.png)  
+![image](https://user-images.githubusercontent.com/30430227/133741110-b047cbe0-136b-4b20-92b4-ae7560f80dbc.png)  
+
 
 
 
