@@ -73,5 +73,25 @@ Rain Drop
 ![image](https://user-images.githubusercontent.com/30430227/133741110-b047cbe0-136b-4b20-92b4-ae7560f80dbc.png)  
 
 
+Ocean
+----------
+1. Resolution Viewport: 22, Choppiness(변동성): 0.6  
+![image](https://user-images.githubusercontent.com/30430227/133741677-4b23d780-623c-4b52-9aa9-241d79cee809.png)  
+
+2. Foam  
+![image](https://user-images.githubusercontent.com/30430227/133743988-0e723bce-44d2-469d-9350-0332619102e0.png)
+![image](https://user-images.githubusercontent.com/30430227/133743892-7d578b4b-58df-4d21-8429-99f0762439e1.png)  
+
+`Subtract Noise Textue(Clamp 체크)`  
+![image](https://user-images.githubusercontent.com/30430227/133744145-7bde7c60-0932-43e8-a08b-d5128f918ffc.png)
+
+`환경 맵 적용, Principled BSDF::Transmission: 1, IOR: 1.333`  
+![image](https://user-images.githubusercontent.com/30430227/133744499-76e4fe57-ad8b-4989-92dc-4431b419f5b9.png)  
+![image](https://user-images.githubusercontent.com/30430227/133744420-995b5d11-b77e-4b26-a644-43abf8897b77.png)  
+
+
+
+
+
 
 
