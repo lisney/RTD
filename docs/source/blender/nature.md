@@ -35,3 +35,31 @@ Fast Clouds
 ![image](https://user-images.githubusercontent.com/30430227/132819904-220d8f87-5690-4606-903c-2147bf759758.png)
 
 
+
+Snow Material 
+--------------
+1. Weight Paint  
+![image](https://user-images.githubusercontent.com/30430227/133707886-8f25828e-96b3-4cce-a464-1683b188d794.png)  
+
+
+2. Subdivide, Displace  
+`Voronoi`  
+![image](https://user-images.githubusercontent.com/30430227/133708154-7e4d8eab-59dc-4645-93db-6da4be36b720.png)
+![image](https://user-images.githubusercontent.com/30430227/133708135-d8b7caeb-7287-45ac-92d1-ee4b5dd4d196.png)  
+
+3. Subdivide, Displace 추가  
+`Wood:: Band Noise:: size: 0.01`  
+![image](https://user-images.githubusercontent.com/30430227/133708468-2ea832bd-ca74-44c9-a8f2-569027101f12.png)
+![image](https://user-images.githubusercontent.com/30430227/133708519-52f8baf4-5bd1-4df9-a27f-8f4976b76c52.png)
+![image](https://user-images.githubusercontent.com/30430227/133708542-f441cf0a-cdbc-40de-9329-e3581896321b.png)  
+
+4. Shading  
+`World Map, Subsurface: 1, Transmission: 0.5, Blend Mode: Alpha Blend`  
+![image](https://user-images.githubusercontent.com/30430227/133709114-dceaf8cb-034e-460c-9f5d-30f115985d39.png)
+![image](https://user-images.githubusercontent.com/30430227/133709152-90a5cd0d-5838-4382-99a4-94e573276f06.png)  
+
+
+
+
+
+
