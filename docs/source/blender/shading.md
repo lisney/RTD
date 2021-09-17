@@ -81,6 +81,15 @@ Anisotropic
 
 
 
+Abstract Animation Loop
+-------------------------
+![image](https://user-images.githubusercontent.com/30430227/133734320-cf62333c-8a85-4f6a-9835-385d03cba9d9.png)  
+![image](https://user-images.githubusercontent.com/30430227/133734352-2ba62c25-f49a-4617-b6b4-0b0429bea5d4.png)  
+
+`ColorRamp Animation`  
+![image](https://user-images.githubusercontent.com/30430227/133734448-7db52cad-d5f1-4157-b518-71f3a39211e4.png)
+![image](https://user-images.githubusercontent.com/30430227/133734410-1531c23a-7c6d-485d-94a7-779004d61e49.png)  
+
 
 
 
