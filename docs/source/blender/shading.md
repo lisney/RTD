@@ -91,7 +91,7 @@ Abstract Animation Loop
 ![image](https://user-images.githubusercontent.com/30430227/133734410-1531c23a-7c6d-485d-94a7-779004d61e49.png)  
 
 
-골드, 실버, 브론즈 
+금속 
 -------------------
 1.Gold  
 `Color: #ffc125`  
@@ -119,6 +119,44 @@ Abstract Animation Loop
 `Color: #b87333,  old: #cd7f32`  
 ![image](https://user-images.githubusercontent.com/30430227/133871901-f74c1245-b42c-4fb8-9ea3-6e673fab1165.png)
 ![image](https://user-images.githubusercontent.com/30430227/133871947-3802d824-b565-4705-9f5d-8d8952c2082b.png)  
+
+
+4. Steel  
+`Noise - Bump`  
+![image](https://user-images.githubusercontent.com/30430227/133872096-2ee22679-7695-4b90-ab24-b003636f0433.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/133872088-d20b780b-9feb-4bfc-b856-bd9f5d0a0864.png)
+![image](https://user-images.githubusercontent.com/30430227/133872091-5a1d6504-ce0d-4430-86bb-b61e0e9749ea.png)  
+
+
+5. Brushed Steel  
+```
+거리 입력은 블렌더 장치에서 가장 높은 범프의 '높이'입니다. 강도 입력은 높이 맵의 전체 스케일입니다. 
+```
+![image](https://user-images.githubusercontent.com/30430227/133872247-a68b4831-ac3e-4afe-9f71-71daf67730cc.png)  
+![image](https://user-images.githubusercontent.com/30430227/133872252-5b2bb342-e32b-4a36-962a-6abb0589b2ca.png)  
+
+
+네온사인 
+------------
+1. 글자  
+![image](https://user-images.githubusercontent.com/30430227/133872523-598a4f4c-80f9-4aa1-8454-b0ea8f116032.png)  
+
+2. Light Probe  
+![image](https://user-images.githubusercontent.com/30430227/133872587-cf863cf7-fab9-4bbe-b3ac-10c8ed8f8ed9.png)  
+![image](https://user-images.githubusercontent.com/30430227/133872616-f88dc25f-bff4-495f-b4de-17c23d41afa2.png)  
+
+3. Bake Indirect Light  
+![image](https://user-images.githubusercontent.com/30430227/133872724-d7598bec-e77b-4de0-a784-da99e635933d.png)  
+
+4. Add Point Light  
+![image](https://user-images.githubusercontent.com/30430227/133872829-b4fb48cc-dffc-4db9-ace4-38f9a150330c.png)  
+
+
+
+
+
+
 
 
 
