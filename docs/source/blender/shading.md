@@ -148,6 +148,8 @@ Abstract Animation Loop
 
 3. Bake Indirect Light  
 ![image](https://user-images.githubusercontent.com/30430227/133872724-d7598bec-e77b-4de0-a784-da99e635933d.png)  
+![image](https://user-images.githubusercontent.com/30430227/133872852-aecb6b0c-0b7e-49e9-8f5f-41c9b8cc366d.png)  
+
 
 4. Add Point Light  
 ![image](https://user-images.githubusercontent.com/30430227/133872829-b4fb48cc-dffc-4db9-ace4-38f9a150330c.png)  
