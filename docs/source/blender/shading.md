@@ -117,7 +117,9 @@ Abstract Animation Loop
 
 3. Cooper  
 `Color: #b87333,  old: #cd7f32`  
-![image](https://user-images.githubusercontent.com/30430227/133871901-f74c1245-b42c-4fb8-9ea3-6e673fab1165.png)  
+![image](https://user-images.githubusercontent.com/30430227/133871901-f74c1245-b42c-4fb8-9ea3-6e673fab1165.png)
+![image](https://user-images.githubusercontent.com/30430227/133871947-3802d824-b565-4705-9f5d-8d8952c2082b.png)  
+
 
 
 
