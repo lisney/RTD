@@ -91,6 +91,34 @@ Abstract Animation Loop
 ![image](https://user-images.githubusercontent.com/30430227/133734410-1531c23a-7c6d-485d-94a7-779004d61e49.png)  
 
 
+골드, 실버, 브론즈 
+-------------------
+1.Gold  
+`Color: #ffc125`  
+![image](https://user-images.githubusercontent.com/30430227/133871680-2896cc4e-3e3d-49e9-bb48-68cc3e57472a.png)  
+
+`랜더 모드에서 Scene World 끄기`  
+![image](https://user-images.githubusercontent.com/30430227/133871707-89faef57-01f0-4cac-a070-5bad8966add7.png)  
+
+
+`Metallic, Roughness`  
+![image](https://user-images.githubusercontent.com/30430227/133871726-67718f69-bc6d-460b-b845-3d75bf9d34e8.png)
+![image](https://user-images.githubusercontent.com/30430227/133871809-87868f2c-11a0-486c-a9de-79e03ae2969e.png)  
+ 
+ 
+`Screen Space Reflections::Max Roughness`  
+![image](https://user-images.githubusercontent.com/30430227/133871770-3941d944-944a-4819-ae41-cf80287d4e86.png)
+![image](https://user-images.githubusercontent.com/30430227/133871780-25cf2be2-138b-4e46-b46e-c78659600502.png)  
+
+
+2. Silver  
+`Color: #c0c0c0`  
+![image](https://user-images.githubusercontent.com/30430227/133871853-ae94dd3a-b5fa-432b-80e4-fdd0ac99a5d3.png)  
+
+3. Cooper  
+`Color: #b87333,  old: #cd7f32`  
+![image](https://user-images.githubusercontent.com/30430227/133871901-f74c1245-b42c-4fb8-9ea3-6e673fab1165.png)  
+
 
 
 
