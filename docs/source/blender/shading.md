@@ -156,6 +156,29 @@ Abstract Animation Loop
 
 
 
+에너지 링 
+----------
+![image](https://user-images.githubusercontent.com/30430227/133916804-ab051b9e-990a-4179-a3dd-45f26b863b76.png)  
+![image](https://user-images.githubusercontent.com/30430227/133916812-36e13e2c-c8e7-4b9f-b0a9-db583823e67b.png)  
+
+`Voronoi`  
+![image](https://user-images.githubusercontent.com/30430227/133917135-79b60b81-92b0-434d-adcf-dc194cd8c603.png)  
+![image](https://user-images.githubusercontent.com/30430227/133917139-a312e4ce-9a3f-4169-aba3-26b883c8f253.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/133917147-5f31080c-50e7-4d99-961b-765ab0d235e0.png)
+![image](https://user-images.githubusercontent.com/30430227/133917146-f5d82343-5261-4b1e-aef0-daaa290c3826.png)  
+
+`에너지 FX`  
+![image](https://user-images.githubusercontent.com/30430227/133917254-9805aaed-a2cd-406e-8605-ee5846c2e731.png)
+![image](https://user-images.githubusercontent.com/30430227/133917271-65d0f187-3cef-4a96-807f-9178421c4225.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/133917359-c0db1977-302d-415e-83e0-0d15289e8d62.png)
+![image](https://user-images.githubusercontent.com/30430227/133917365-bbafe2b1-4dd2-432d-a232-9d5613a289dc.png)  
+
+
+
+
+
 
 
 
