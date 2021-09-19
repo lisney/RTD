@@ -327,6 +327,31 @@ Laser Cutting
 
 
 
+소화제
+----------
+![image](https://user-images.githubusercontent.com/30430227/133917918-af2389a9-9c82-4a51-bc80-8a08e03423a5.png)
+![image](https://user-images.githubusercontent.com/30430227/133917928-cae32d6c-35e4-48ad-a431-c9387e308429.png)  
+
+`Cast > Dynamic Paint > Wireframe`  
+![image](https://user-images.githubusercontent.com/30430227/133917979-eb3f567f-2f38-42cc-8337-94fc9b557fc9.png)
+![image](https://user-images.githubusercontent.com/30430227/133917996-cc0652f1-c7d8-4f61-9cd2-d682ffd4cbd5.png)
+![image](https://user-images.githubusercontent.com/30430227/133918003-6534a3f9-0805-4e06-ad8e-150907d987fb.png)  
+
+`Box:: Object Center: Smooth`  
+![image](https://user-images.githubusercontent.com/30430227/133918045-8000f9c2-3b6e-4a75-a771-0ece9106cf2f.png)
+![image](https://user-images.githubusercontent.com/30430227/133918051-674fe987-f054-4405-b5cb-5a69ecccf3ac.png)  
+
+
+`Materail`  
+![image](https://user-images.githubusercontent.com/30430227/133918011-9a0a5230-5caf-4778-8c69-b2b6d2cf47ae.png)  
+![image](https://user-images.githubusercontent.com/30430227/133918017-beea26ee-614b-4d1e-a112-ee77dd39033c.png)  
+
+
+
+
+
+
+
 
 
 
