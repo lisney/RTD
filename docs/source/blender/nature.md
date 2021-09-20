@@ -90,6 +90,23 @@ Ocean
 ![image](https://user-images.githubusercontent.com/30430227/133744420-995b5d11-b77e-4b26-a644-43abf8897b77.png)  
 
 
+먹구름  
+---------
+`Ocena`  
+![image](https://user-images.githubusercontent.com/30430227/134004609-b5f627a6-7fc6-4fde-8a53-05a118b89358.png)  
+![image](https://user-images.githubusercontent.com/30430227/134004648-a27c8e17-86b0-4b39-9297-d703e545ee9a.png)  
+
+`Select Boundary Loop, Scale Z: 0`  
+![image](https://user-images.githubusercontent.com/30430227/134005041-ef95b9c5-8d26-46fe-a7c9-ad2de2ec9c5a.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/134005136-6708544c-2e87-4510-8e26-f9065357b8d2.png)  
+`Area/Sun Light`  
+![image](https://user-images.githubusercontent.com/30430227/134008283-fe61d468-c5b8-48ff-a031-8ba06955d792.png)  
+![image](https://user-images.githubusercontent.com/30430227/134008324-12a7af52-f674-4be1-9d74-b6631798b949.png)  
+
+
+
+
 
 
 
