@@ -378,6 +378,19 @@ Volume
 
 
 
+사라짐  
+-------
+![image](https://user-images.githubusercontent.com/30430227/133984456-dbd12b82-f1bd-4a8d-8950-1617b8a555ea.png)  
+![image](https://user-images.githubusercontent.com/30430227/133984557-bed764e4-4b85-4485-b005-b13cc6e2ba3d.png)  
+
+`그룸 활용`  
+![image](https://user-images.githubusercontent.com/30430227/133984869-564401df-b6af-4d03-9c89-9fde684302e8.png)  
+![image](https://user-images.githubusercontent.com/30430227/133985159-433284ae-f8a2-40aa-9755-53626331a8b3.png)  
+
+
+
+
+
 
 
 
