@@ -96,7 +96,7 @@ Ocean
 ![image](https://user-images.githubusercontent.com/30430227/134004609-b5f627a6-7fc6-4fde-8a53-05a118b89358.png)  
 ![image](https://user-images.githubusercontent.com/30430227/134004648-a27c8e17-86b0-4b39-9297-d703e545ee9a.png)  
 
-`Select Boundary Loop, Scale Z: 0`  
+`Select Boundary Loop, Scale Z: 0, Z 두께 얇게`  
 ![image](https://user-images.githubusercontent.com/30430227/134005041-ef95b9c5-8d26-46fe-a7c9-ad2de2ec9c5a.png)  
 
 ![image](https://user-images.githubusercontent.com/30430227/134005136-6708544c-2e87-4510-8e26-f9065357b8d2.png)  
