@@ -176,6 +176,11 @@ ctrl + 마우스 휠 => 다각형
 ![image](https://user-images.githubusercontent.com/30430227/127955179-7eae9741-0ef3-4299-84d4-9c6be9ea042b.png)  
 ![image](https://user-images.githubusercontent.com/30430227/127955148-fd3f6869-a037-498d-856c-5e4abe275046.png)
 
+`Line Art Modifier`  
+![image](https://user-images.githubusercontent.com/30430227/134098709-9c76f22f-7d90-430a-862b-da7e9d5aedc9.png)
+![image](https://user-images.githubusercontent.com/30430227/134099034-5f549d78-90f8-4e5c-b1ea-3d2820c91788.png)  
+
+
 `자동차 와이프 회전`
 // #cos(frame) -> cos(frame*pi/20)  
 ![image](https://user-images.githubusercontent.com/30430227/127959774-67560b78-4fc4-4573-8a71-c9375f3e9ed4.png)
