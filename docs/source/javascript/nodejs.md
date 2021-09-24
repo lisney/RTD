@@ -419,7 +419,9 @@ const http = require('http') // http 모듈을 불러온다
 const server = http.createServer((request, response)=>{
     console.log(request.url) // '/xxx' 주소
     console.log(request.method) 
-    if(request.url ==='/'){ // 주소가 '/'이면
+    if(request.url ==='/'){ 
+        res.writeHead(200, {'Content-Type': 'text/html; charset=utf-8'}) //브라우저 한글 깨질 시
+                                 // 주소가 '/'이면
         response.write('Hello') // 서버의 응답, express에선 response.send('text')하면 된다
         response.end()  // 응답 끝
     }else{
