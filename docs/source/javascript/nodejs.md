@@ -690,6 +690,12 @@ server.get('/contact',(req,res)=>{
 
  /api/user 주소를 입력하면(요청하면) json데이터로 응답한다
 
+`Chrome JSON Viewer 애드온 설치`  
+![image](https://user-images.githubusercontent.com/30430227/134854171-c1ab9dcf-ae85-4877-88ea-aab598e67381.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/134854089-0624ae63-2b17-44d2-8e09-7b5391ec0c6f.png)  
+
+
 ```
 const express = require('express')
 
