@@ -508,6 +508,9 @@ server.get('/',(req,res)=>{
 server.listen(3000, ()=>{
     console.log('The server is running on Port 3000!')
 })
+
+(추가) 서버 ip 주소
+server.listen(3000,'192.168.0.33',()=>{}
 ```
 
 html랜더링 Template Engine 'handlebars' /{{}} 컬리브라켓
