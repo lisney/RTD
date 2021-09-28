@@ -3,7 +3,7 @@ Assembly
 
 로컬축 생성
 --------------
-Part 에 Body을 만든 후 로컬축도 생성한다 
+Part 에 Body을 만든 후 로컬축도 생성한다  
 ![image](https://user-images.githubusercontent.com/30430227/131959924-a75168bf-22a5-4491-997b-4053f4f446cc.png)  
 
 <br>
