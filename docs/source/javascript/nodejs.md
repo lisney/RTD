@@ -806,6 +806,44 @@ server.put('/api/user/:id',(req, res)=>{
     }
 })
 ```
+`... 확산연산자(spread operator)`  
+```
+# 배열 분해
+const [apple, ...notApple] = ['🍎', '🙌', '♨', '🚀']
+console.log(notApple)  //  ['🙌', '♨', '🚀']
+
+# 배열의 중복값 제거
+const fruit = ['🍎', '🙌', '♨', '🙌', '🚀', '🙌', '🚀']
+const uFruit = [...new Set(fruit)]
+console.log(uFruit) // ['🍎', '🙌', '♨', '🚀']
+
+# 배열의 합집합 - 병합 후 중복제거(set)
+fruitA = ['🍎', '🙌', '♨']
+fruitB = ['🙌', '♨', '🚀']
+
+union = [...new Set([...fruitA + ...fruitB])]
+console.log(union) // ['🍎', '🙌', '♨', '🚀']
+
+# 다른 '배열'의 요소를 앞에 추가(push는 뒤에 추가)
+fruit.unshift(['🙌', '♨']
+console.log(fruit) // ['🙌', '♨','🍎', '🙌', '♨', '🙌', '🚀', '🙌', '🚀']
+
+## slice를 사용하여 배열을 복사하는 방법
+fruitC = fruit.slice()
+
+# 배열에서 최대/최소값 찾기
+const price = [23,54,33,77]
+
+minPrice = Math.min(...price)
+minPrice = Math.max(...price)
+
+## 숫자배열 정렬
+price.sort((a,b)=>a-b) //오름차순
+price.sort((a,b)=>b-a) //내림차순
+
+```
+
+
 > server.put > ... Rest Operator 사용
 
 ```
@@ -820,6 +858,11 @@ server.delete('/api/user/:id', (req, res)=>{
 })
 ```
 > server.delete > splice(접합, 결혼)
+```
+A = B.splice(i,N)
+배열 B에서 인덱스 i부터 N개만큼 잘라낸 후 붙여서 배열 B에 저장하고, 잘라낸 요소를 A에 저장한다
+
+```
 
 ### 파일업로드 multer 미들웨어
 
