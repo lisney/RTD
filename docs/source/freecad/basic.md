@@ -268,6 +268,15 @@ Image WB
 `Curve WB 에러난다?`  
 
 
+TEXT 
+-------
+Create Shape from text...  
+![image](https://user-images.githubusercontent.com/30430227/135064231-31928327-05ab-4cd1-8874-011cd86ce1cf.png)  
+
+extrude  
+![image](https://user-images.githubusercontent.com/30430227/135064293-393eecfa-7ca5-4b8f-93e1-fc73ca44e35e.png)  
+![image](https://user-images.githubusercontent.com/30430227/135064333-6682e6cd-faa0-4d46-aea0-f69a67ffc751.png)  
+
 
 
 
