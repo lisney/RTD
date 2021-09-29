@@ -841,6 +841,10 @@ minPrice = Math.max(...price)
 price.sort((a,b)=>a-b) //오름차순
 price.sort((a,b)=>b-a) //내림차순
 
+## 문자배열 정렬
+fruit.sort((a,b)=>a>b?1:a<b?-1:0) //오름차순
+fruit.sort((a,b)=>a>b?-1:a<b?1:0) //내림차순
+
 ```
 
 
