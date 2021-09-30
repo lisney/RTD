@@ -245,6 +245,41 @@ Curves Workbench -addOn
 ![image](https://user-images.githubusercontent.com/30430227/135400650-1c1aebdf-469d-4a2d-a53f-65be45a01d73.png)
 
 
+14. Blend Surface  
+`면과 선을 동시에 선택 후`  
+![image](https://user-images.githubusercontent.com/30430227/135413984-6787b8ec-9897-4a4b-9eaf-0ec0bf5d5dea.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/135413918-bb6fb497-a73c-4448-9dfb-3a943243c46b.png)
+![image](https://user-images.githubusercontent.com/30430227/135413950-dab5e93b-2140-49f9-8e03-56feb4fb671e.png)  
+
+
+15. Discretize(이산화):선을 점으로 나눈다  
+![image](https://user-images.githubusercontent.com/30430227/135414378-167b01bd-8f78-47e2-b65e-6f65bfc580f2.png)  
+![image](https://user-images.githubusercontent.com/30430227/135414534-ed25c0f9-f702-4251-b7f1-d7955ae64066.png)  
+![image](https://user-images.githubusercontent.com/30430227/135414917-cff64e67-b0f6-4bd7-9a86-bfa1face3702.png)
+![image](https://user-images.githubusercontent.com/30430227/135414947-1a59388a-1d73-4a47-9a76-876017fb70c4.png)  
+
+`Segment Surface UV 방향으로 면을 나눈다 (Discretize Edge를 기준으로)`  
+![image](https://user-images.githubusercontent.com/30430227/135415058-82bcde03-4b21-454d-aae3-dda1887a75df.png)  
+![image](https://user-images.githubusercontent.com/30430227/135415548-157fbeec-debc-48a6-b7e0-6e0db4069edf.png)  
+`Knots VProvider 버튼 클릭`  
+![image](https://user-images.githubusercontent.com/30430227/135415626-136ba594-20c4-45a6-8165-7f4717547467.png)  
+![image](https://user-images.githubusercontent.com/30430227/135415670-5a7b616f-e91c-43f2-9649-782cee9713a2.png)  
+![image](https://user-images.githubusercontent.com/30430227/135415814-a468e9d9-a20e-4c25-8c4a-eaaafe6ffd57.png)  
+`결과`  
+![image](https://user-images.githubusercontent.com/30430227/135416307-1eae50e0-8f3a-45f8-9867-416c9dd5a008.png)  
+
+`Discretized Edge Number를 바꾸어본다`  
+![image](https://user-images.githubusercontent.com/30430227/135416575-7b7d52b8-ebc3-4cf6-bf53-ee055c1a9cba.png)
+![image](https://user-images.githubusercontent.com/30430227/135416600-4532af56-bb0a-4f82-a61f-f63c62105881.png)  
+
+
+
+
+
+
+
+
 Datum Plane
 -------------
 
