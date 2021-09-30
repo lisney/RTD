@@ -304,8 +304,40 @@ Curves Workbench -addOn
 `Create Freehand B-spline, 선택 포인트를 연결하는 커브 생성`  
 ![image](https://user-images.githubusercontent.com/30430227/135444799-a958e763-e028-4c93-a238-d281acd3176c.png)  
 
+`점 추가 'i' 후 선에 스냅`  
+![image](https://user-images.githubusercontent.com/30430227/135444975-5f7c58b7-146b-4aad-a78b-1aa3ed6a2be2.png)
+![image](https://user-images.githubusercontent.com/30430227/135445001-35877be2-b12d-4e47-8f8e-be9b0398a7fa.png)  
 
+`iso 커브 -> Free 커브(join Curve) -> Trim 커브(SplitCurve)`  
+![image](https://user-images.githubusercontent.com/30430227/135445748-4396b2e4-a1ee-4d7d-9a36-a79abcd1d93f.png)  
+`SplitCurve Value [50%] -> []`  
+![image](https://user-images.githubusercontent.com/30430227/135445815-80392079-b86f-4719-88e7-399f0291412c.png)  
 
+`Cutting Objects 선택(트림)`  
+![image](https://user-images.githubusercontent.com/30430227/135446115-dd5af2ca-e54f-45f1-a795-8c34aa545c97.png)  
+
+`join Curve`  
+![image](https://user-images.githubusercontent.com/30430227/135446407-75907a27-5a16-4c8e-8214-7994572950d4.png)
+![image](https://user-images.githubusercontent.com/30430227/135446421-abdf713d-c2f0-4783-b954-ea0eef0db284.png)  
+
+`Trim Face w Curve`  
+![image](https://user-images.githubusercontent.com/30430227/135446951-cdad4d1e-03c1-42aa-b643-ee3130f912b2.png)  
+![image](https://user-images.githubusercontent.com/30430227/135446975-cb06dc3d-76da-4605-8d03-5177968aee49.png)  
+
+`트림 예 `  
+![image](https://user-images.githubusercontent.com/30430227/135447352-0e09658e-86f7-4d09-a629-86bd4ce992f9.png)  
+`커브와 남길 면 선택`  
+![image](https://user-images.githubusercontent.com/30430227/135448189-ecad7b99-66f5-4f28-b6e8-813b82c036a3.png)
+![image](https://user-images.githubusercontent.com/30430227/135448243-81ccbf98-5a4a-4f7e-9a91-963a1a2db4b0.png)  
+
+`짧을 때`  
+![image](https://user-images.githubusercontent.com/30430227/135448495-83639d6a-6d61-4648-a699-8818adfe6639.png)  
+![image](https://user-images.githubusercontent.com/30430227/135448579-e370019b-3898-4ea2-842c-bfe7ec566288.png)
+
+![image](https://user-images.githubusercontent.com/30430227/135448538-9c4c8572-e356-491d-912a-198266915e6a.png)  
+![image](https://user-images.githubusercontent.com/30430227/135448679-48737ef2-1d1e-445a-b864-b3e371f46b2d.png)  
+![image](https://user-images.githubusercontent.com/30430227/135448705-8d8130e0-8f73-46a8-8cf2-00d24e4646a1.png)  
+![image](https://user-images.githubusercontent.com/30430227/135448816-3a18c325-5cdd-410e-b62e-6af1e69d06bf.png)  
 
 
 
