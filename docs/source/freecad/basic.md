@@ -122,6 +122,12 @@ Tree View 상태에서 스케치 선택 > Validate Sketch
 ![image](https://user-images.githubusercontent.com/30430227/133008495-3e2cde84-9df9-49fa-a076-65fbb3ac732d.png)  
 
 
+9. 선의 센터에 고정  
+![image](https://user-images.githubusercontent.com/30430227/135397554-c931df5e-e29d-46e8-add0-29f861823ef0.png)  
+![image](https://user-images.githubusercontent.com/30430227/135397625-2e331782-c07d-44f6-8c93-ae3388fc1ce0.png)
+![image](https://user-images.githubusercontent.com/30430227/135397646-cb9485ae-7582-48b2-9a74-f1ffc1355ba1.png)  
+
+
 파라메트릭-Alias
 ------------------
 ![image](https://user-images.githubusercontent.com/30430227/131803448-280762e7-ae6e-470a-8da5-44ca3ca4e195.png)  
@@ -213,10 +219,30 @@ Curves Workbench -addOn
 ![image](https://user-images.githubusercontent.com/30430227/135375876-3810db31-4d7e-4bd8-8814-9b8f7eed395c.png)  
 
 
-10. 2D Offset(PartWB)  
+10. 2D Offset & 스케치로 변환(PartWB, DraftWB)  
 `to Sketch for Copy, DraftWB`  
 ![image](https://user-images.githubusercontent.com/30430227/135378893-dd884fd3-cb0f-47d8-9e81-20b191e850d7.png)
 ![image](https://user-images.githubusercontent.com/30430227/135378937-399780eb-6a48-4df4-ab89-47bf97e555cd.png)  
+
+11. 서피스를 커브로 Downgrade(Draft WB)  
+![image](https://user-images.githubusercontent.com/30430227/135388253-bc40db90-7361-4dac-8cdc-4cf7dd1c83b9.png)  
+![image](https://user-images.githubusercontent.com/30430227/135388299-2c8e70c0-71a7-4e83-a624-bb6062d6d3bf.png)
+![image](https://user-images.githubusercontent.com/30430227/135388317-f57d6f02-c480-4d54-9dd2-cc920391aad0.png)  
+
+12. Seam 이동 Splite(Curves WB)  
+`Split 더블클릭 후 점 이동, Split curve도 모델에서 라인 추출할 수(join curve)`  
+![image](https://user-images.githubusercontent.com/30430227/135389404-689384e6-6645-4445-8085-59e900142ca5.png)
+![image](https://user-images.githubusercontent.com/30430227/135389424-3316ef30-0c0c-4c59-9e75-7271dd6eb661.png)  
+
+
+13. 서포트 평면  
+`두 커브를 선택한 포인트를 잇는 길이의 사각형 생성`  
+![image](https://user-images.githubusercontent.com/30430227/135400159-3549e369-36ea-428d-95ee-2f975553b77a.png)  
+![image](https://user-images.githubusercontent.com/30430227/135400429-2594d04e-121f-4563-8736-ba6aaff4718f.png)
+![image](https://user-images.githubusercontent.com/30430227/135400454-a7b1f3f4-6406-48cb-8671-c8c7c9ea97a0.png)  
+`평면 위 스케치는 Sketcher WB에서(Part Design WB에서하면 파트로 들어가버린다)`  
+`Loft`  
+![image](https://user-images.githubusercontent.com/30430227/135400650-1c1aebdf-469d-4a2d-a53f-65be45a01d73.png)
 
 
 Datum Plane
