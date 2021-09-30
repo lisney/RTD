@@ -176,6 +176,9 @@ Curves Workbench -addOn
 - 4개의 sketch 를 생성한다
 - 2개로 평면을 생성한다(part WB)
 - Sweep 2 rails 로 pointCrowd생성(cuve WB)
+`분리된 커브는 먼저 이어준다- join Curve는 모델에서 커브를 추출할 때도 사용 `  
+![image](https://user-images.githubusercontent.com/30430227/135375611-7037a957-d521-48aa-8c9e-f5cce3122a9a.png)  
+
 - Approximate points to NURBS curve or surface
 
 ![image](https://user-images.githubusercontent.com/30430227/132086261-14fd865b-772b-4544-8a55-a7097d31794c.png)  
@@ -202,6 +205,18 @@ Curves Workbench -addOn
 ![image](https://user-images.githubusercontent.com/30430227/133550237-dc943c7e-5a29-42e9-9084-b3e1dba9f6fc.png)
 ![image](https://user-images.githubusercontent.com/30430227/133550207-f94c9344-76ed-495f-9f33-81a81718b673.png)  
 
+
+9. 불린(Fusion)한 모델의 한 면을 분리  
+`분리할 면(들)을 선택`  
+![image](https://user-images.githubusercontent.com/30430227/135375735-ffc05617-2545-405e-8765-ee33d3b29e1b.png)  
+![image](https://user-images.githubusercontent.com/30430227/135375763-673a8729-21c8-43b1-a9ca-49928044b21d.png)
+![image](https://user-images.githubusercontent.com/30430227/135375876-3810db31-4d7e-4bd8-8814-9b8f7eed395c.png)  
+
+
+10. 2D Offset(PartWB)  
+`to Sketch for Copy, DraftWB`  
+![image](https://user-images.githubusercontent.com/30430227/135378893-dd884fd3-cb0f-47d8-9e81-20b191e850d7.png)
+![image](https://user-images.githubusercontent.com/30430227/135378937-399780eb-6a48-4df4-ab89-47bf97e555cd.png)  
 
 
 Datum Plane
