@@ -274,6 +274,22 @@ Curves Workbench -addOn
 ![image](https://user-images.githubusercontent.com/30430227/135416600-4532af56-bb0a-4f82-a61f-f63c62105881.png)  
 
 
+16. 멀티 로프트  
+![image](https://user-images.githubusercontent.com/30430227/135429259-e6c7eedc-8148-434f-94f5-a8ae33b10bbb.png)  
+
+`extrude(PartWB)`  
+![image](https://user-images.githubusercontent.com/30430227/135429445-19073b14-c444-4bdc-b602-018e8dd087af.png)  
+
+`번식 DraftWB`  
+![image](https://user-images.githubusercontent.com/30430227/135429563-41c910de-dd56-4bb1-b17c-16bddea1ee00.png)  
+![image](https://user-images.githubusercontent.com/30430227/135429722-cbd402d4-28ed-48c2-badc-9d85e97fa2e9.png)  
+
+`Loft(CurvesWB)`  
+![image](https://user-images.githubusercontent.com/30430227/135429817-bfc9628e-0668-409c-afe0-8f8b55235d99.png)  
+![image](https://user-images.githubusercontent.com/30430227/135429854-a7dd7cec-87a0-48ef-b11d-3163d56b2dba.png)  
+
+
+
 
 
 
