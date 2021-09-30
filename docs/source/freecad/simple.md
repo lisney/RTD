@@ -288,6 +288,49 @@ Tractor Tire
 
 
 
+파이프 연결 
+--------------
+1. Segment Surface(Curves WB)  
+![image](https://user-images.githubusercontent.com/30430227/135417322-90334afd-5eee-4f0c-8bcd-db6efaa053ae.png)  
+![image](https://user-images.githubusercontent.com/30430227/135417371-7ef8b373-7040-4a62-ad7b-aa46215d1fd6.png)  
+
+
+2. Discretize(Number: 4)  
+![image](https://user-images.githubusercontent.com/30430227/135419913-6ec065dc-9c6d-4dfa-a1fb-0b94c3a84503.png)  
+![image](https://user-images.githubusercontent.com/30430227/135419942-102fdbcb-f9bf-42c4-89c3-9a3ed6baa90d.png)  
+![image](https://user-images.githubusercontent.com/30430227/135420059-31b36724-a20e-41a7-b9bb-756f9d0b8ff8.png)  
+
+
+3. Segment  
+![image](https://user-images.githubusercontent.com/30430227/135418153-5a307950-0bd1-4e2d-bbe9-01b6efe23a1b.png)  
+![image](https://user-images.githubusercontent.com/30430227/135420358-f3f73975-557e-4d54-9486-3e21799926cd.png)  
+`hide 기존 실린더(Discretized 자식)`  
+![image](https://user-images.githubusercontent.com/30430227/135420490-ef038749-6784-40d6-8ab1-268e355f4a07.png)  
+
+
+4. Blend Surface(curvesWB)  
+![image](https://user-images.githubusercontent.com/30430227/135420783-209d276c-04c4-4077-beb3-a128a7fa9434.png)  
+![image](https://user-images.githubusercontent.com/30430227/135420872-ee6b46e7-9e47-4283-af65-fc27344c3b83.png)  
+
+
+5. Create Surface(SurfaceWB)  
+![image](https://user-images.githubusercontent.com/30430227/135421064-2668a98d-5974-4b1e-881f-16e27f1946d6.png)  
+`세 라인을 선택한다...에러가...`  
+
+`사용방법`  
+![image](https://user-images.githubusercontent.com/30430227/135422645-7f150352-3508-4abf-82e7-023fa236e623.png)  
+![image](https://user-images.githubusercontent.com/30430227/135422710-b14c90d9-17df-4456-928b-a45dd3ec89c3.png)  
+![image](https://user-images.githubusercontent.com/30430227/135423893-5db54011-ac73-4bd2-bc87-90bbecb74eda.png)
+![image](https://user-images.githubusercontent.com/30430227/135423931-0f77c96e-e562-40a1-ac51-d8a0d74b53e7.png)  
+
+
+6. 면을 솔리드로  
+`어쨌든 모든 면을 선택한 후 `
+![image](https://user-images.githubusercontent.com/30430227/135424069-dc7743e2-e5a2-4717-afc2-0931a9ef5a32.png)  
+
+
+
+
 
 
 
