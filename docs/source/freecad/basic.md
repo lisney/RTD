@@ -83,6 +83,16 @@ Refine
 
 
 
+14. Boolean Fragments  
+![image](https://user-images.githubusercontent.com/30430227/136197610-de8d8aa8-e4a4-446e-9074-e08a3fe53354.png)  
+
+`Create Copy`  
+![image](https://user-images.githubusercontent.com/30430227/136197647-5cbff359-979b-456b-9364-4796ce880507.png)  
+![image](https://user-images.githubusercontent.com/30430227/136197709-86a1f740-3307-4f18-b270-52f64650322a.png)
+![image](https://user-images.githubusercontent.com/30430227/136197738-9aa770f5-e919-44e9-a44d-986b24c511b9.png)  
+
+
+
 스케치
 --------
 1. 자동으로 현재 위치에 치수 컨스트레인트 생성  
