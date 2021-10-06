@@ -343,6 +343,23 @@ Tractor Tire
 ![image](https://user-images.githubusercontent.com/30430227/136187853-62602cda-7206-4670-a249-dbe70dd042d5.png)  
 
 
+갈고리  
+----------
+1. Datum  
+![image](https://user-images.githubusercontent.com/30430227/136193026-4e76d357-d124-44a7-80f2-e6f43c5fde47.png)
+![image](https://user-images.githubusercontent.com/30430227/136193043-4798fa34-64d3-4511-9b9c-4ebaf6451c4a.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/136193119-fe44e330-977a-425a-89b9-36deddad5bd1.png)
+![image](https://user-images.githubusercontent.com/30430227/136193191-94f7686d-1df0-4991-b613-91b5d72a6894.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/136194474-c21b832e-fe7c-49e7-8534-d31b02f6f0a1.png)
+![image](https://user-images.githubusercontent.com/30430227/136194497-a26774e3-4d0e-4f1b-989c-a1cc31071324.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/136194520-b0909c93-cb86-47c5-8699-ad03e689b34f.png)  
+
+
+
+
 
 
 
