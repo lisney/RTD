@@ -329,6 +329,21 @@ Tractor Tire
 ![image](https://user-images.githubusercontent.com/30430227/135424069-dc7743e2-e5a2-4717-afc2-0931a9ef5a32.png)  
 
 
+12각형 
+--------
+1. 스케치  
+![image](https://user-images.githubusercontent.com/30430227/136187568-3cf7000c-4991-4965-bf90-8e8b87df5b93.png)  
+
+2. Datum 비행기  
+![image](https://user-images.githubusercontent.com/30430227/136187669-c9e5d204-8ba4-43b5-8e3e-b34a92009ab1.png)
+![image](https://user-images.githubusercontent.com/30430227/136187729-26d59f5e-95e4-4d9d-97aa-30ff1918c0e9.png)  
+
+3. Datum 뱅기  
+![image](https://user-images.githubusercontent.com/30430227/136187811-c15826ad-28c4-49b4-81d8-f5deedc8f0c6.png)
+![image](https://user-images.githubusercontent.com/30430227/136187853-62602cda-7206-4670-a249-dbe70dd042d5.png)  
+
+
+
 
 
 
