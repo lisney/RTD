@@ -133,7 +133,7 @@ Refine
 ![image](https://user-images.githubusercontent.com/30430227/136135301-c754a1c3-039b-459e-acee-e227b06cebf8.png)
 ![image](https://user-images.githubusercontent.com/30430227/136135288-d764d83e-12b5-44a8-9cc0-06c22a1837f1.png)  
 
-`평면 센터에 구 놓기 `  
+`평면 센터에 구 파기 `  
 ![image](https://user-images.githubusercontent.com/30430227/136146095-1d0f8110-c30f-4bdc-a20c-45364d1912d2.png)  
 ![image](https://user-images.githubusercontent.com/30430227/136146110-64032ee0-2832-4105-b27e-250a772abe4b.png)  
 
