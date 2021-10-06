@@ -107,6 +107,12 @@ Refine
 > Tree View에서 면과 점을 선택 후 Datom Plane(사각형) 선택
 > 점을 중심으로 하는 작업평면 생성
 ```
+![image](https://user-images.githubusercontent.com/30430227/136124489-60b3b393-60cc-4a98-ac2b-0911c8932318.png)
+![image](https://user-images.githubusercontent.com/30430227/136124495-bb345404-7f38-4824-9788-9f1e56948a2f.png)  
+`소수점`  
+![image](https://user-images.githubusercontent.com/30430227/136124578-36a473ec-648f-4af4-bd0a-c0799a30569a.png)  
+
+
 
 7. Pad로 겹친 오브젝트 합치기  
 ![image](https://user-images.githubusercontent.com/30430227/131791690-e69957e2-c31c-41f8-99cb-c606c08e7686.png)
