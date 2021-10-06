@@ -123,6 +123,22 @@ Refine
 ![image](https://user-images.githubusercontent.com/30430227/136125024-4001b53e-6a95-46b8-9b27-9333245e0611.png)  
 
 
+`경사면- 점(notSeam) > 면`  
+![image](https://user-images.githubusercontent.com/30430227/136135191-9b3a74dc-2659-4720-b3d5-71b7151172be.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/136135109-2c9674ba-5ada-46d8-8cb6-9451b8fe6a50.png)
+![image](https://user-images.githubusercontent.com/30430227/136135147-1702ee4c-4915-42f1-aeef-ddb54418fdbc.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/136135178-c9d308e2-8137-4608-8f93-9938dc4c6e86.png)  
+![image](https://user-images.githubusercontent.com/30430227/136135301-c754a1c3-039b-459e-acee-e227b06cebf8.png)
+![image](https://user-images.githubusercontent.com/30430227/136135288-d764d83e-12b5-44a8-9cc0-06c22a1837f1.png)  
+
+`평면 센터에 구 놓기 `  
+![image](https://user-images.githubusercontent.com/30430227/136146095-1d0f8110-c30f-4bdc-a20c-45364d1912d2.png)  
+![image](https://user-images.githubusercontent.com/30430227/136146110-64032ee0-2832-4105-b27e-250a772abe4b.png)  
+
+
+
 
 7. Pad로 겹친 오브젝트 합치기  
 ![image](https://user-images.githubusercontent.com/30430227/131791690-e69957e2-c31c-41f8-99cb-c606c08e7686.png)
