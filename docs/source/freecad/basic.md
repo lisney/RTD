@@ -138,6 +138,11 @@ Refine
 ![image](https://user-images.githubusercontent.com/30430227/136146110-64032ee0-2832-4105-b27e-250a772abe4b.png)  
 
 
+`Array Line(Line Datum)`  
+![image](https://user-images.githubusercontent.com/30430227/136176505-e0419087-d03d-4d19-aae5-e4d7ef317d9b.png)
+![image](https://user-images.githubusercontent.com/30430227/136176531-84b63e88-a496-4923-85e7-52321b2752cd.png)  
+![image](https://user-images.githubusercontent.com/30430227/136176893-51aeac55-4207-4918-bba0-f63d73329f66.png)  
+
 
 
 7. Pad로 겹친 오브젝트 합치기  
