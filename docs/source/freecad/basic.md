@@ -469,6 +469,69 @@ extrude
 ![image](https://user-images.githubusercontent.com/30430227/135064333-6682e6cd-faa0-4d46-aea0-f69a67ffc751.png)  
 
 
+Manipulator WB(Addon)  
+------------------------
+`독립적인 Datum 생성이 가능한 모양`  
+1. 트리 그룹 생성  
+![image](https://user-images.githubusercontent.com/30430227/136337746-753037b4-61bf-4019-b5a6-16a35bc74bec.png)  
+
+2. Datum Plane 편집모드 진입  
+![image](https://user-images.githubusercontent.com/30430227/136338008-80ccd5d0-a30c-4698-89c8-922c66a0cb0f.png)  
+![image](https://user-images.githubusercontent.com/30430227/136338500-11300ffb-5cef-4c38-a5cd-337a1d0b0399.png)  
+
+`Sketch`  
+![image](https://user-images.githubusercontent.com/30430227/136338752-a036f943-6bc0-4006-ba76-abd10a0c8303.png)  
+
+3. 추가 Datum 뱅기 생성(Manipulator WB)  
+`점과 벽면 선택`  
+![image](https://user-images.githubusercontent.com/30430227/136339226-fbc4b873-19a9-4c3f-b934-4a166f2d0c8a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/136339196-818d07a5-25f8-45d4-997e-cf62d66ced6a.png)  
+
+`Sketch(SketcherWB)`  
+![image](https://user-images.githubusercontent.com/30430227/136373194-3687504e-0dbc-49e5-a335-ed663d426b6d.png)  
+
+`Gordon(network,CurvesWB)`  
+![image](https://user-images.githubusercontent.com/30430227/136373490-4f09dfe5-2643-4fd7-92f4-af7643e89c62.png)  
+
+
+4. BooleanFragments(PartWB)  
+![image](https://user-images.githubusercontent.com/30430227/136374251-59be4880-2083-4aaf-a457-0114c586ab63.png)  
+
+`Create Shape > Shell from faces(PartWB)`  
+![image](https://user-images.githubusercontent.com/30430227/136374552-c313b066-9bf9-4306-be56-ac2e959cd2ac.png)
+![image](https://user-images.githubusercontent.com/30430227/136374618-a9dc24ce-6f77-482c-a075-78995a637e0a.png)  
+
+5. Analyzes  
+![image](https://user-images.githubusercontent.com/30430227/136374885-75a1a883-781b-4082-954e-572e6ab7ca32.png)  
+
+
+6. Solid  
+![image](https://user-images.githubusercontent.com/30430227/136375156-b21b16e4-b1ac-45e5-954d-dec0ef858649.png)  
+![image](https://user-images.githubusercontent.com/30430227/136375220-baeb3d0c-0663-49f0-9437-42ced7c70701.png)
+![image](https://user-images.githubusercontent.com/30430227/136375239-c2417567-1a01-4dc2-a22e-ff6789264dab.png)  
+
+`Shell from faces`  
+![image](https://user-images.githubusercontent.com/30430227/136375408-bf743785-a6f7-4014-aeec-0721759055d5.png)  
+
+
+`Solid from shell`  
+
+7. Cross Sections(PartWB)  
+![image](https://user-images.githubusercontent.com/30430227/136375924-db007055-4aec-4edb-b261-8783b3a09d30.png)  
+![image](https://user-images.githubusercontent.com/30430227/136378840-0dcb3e7b-1a03-4de5-9105-831805b0f0b6.png)  
+
+
+8. Upgrade(Draft WB)  
+![image](https://user-images.githubusercontent.com/30430227/136379056-edfdb1e6-4197-4e37-a37f-1143d77927a8.png)  
+![image](https://user-images.githubusercontent.com/30430227/136379068-51b5d627-ec3e-43b4-832b-a4a57dde024e.png)  
+
+`extrude(PartWB)`  
+![image](https://user-images.githubusercontent.com/30430227/136379483-01f36f88-18ef-4703-89fa-cca5937e7650.png)  
+
+`Make Compound 하나로`  
+![image](https://user-images.githubusercontent.com/30430227/136379621-1629511b-5e7e-4a65-b07c-b87c794ab6b4.png)  
+
 
 
 
