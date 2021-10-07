@@ -103,6 +103,35 @@ Time Scale: 3, Viscosity: 0.02 후 다시 Bake > Mesh Bake
 > Rotate > Salce.Y: 0.6 > Shift + g > dissolve vertices
 <br>
 
+
+소파  
+-------
+
+`Poke`  
+![image](https://user-images.githubusercontent.com/30430227/136467692-f1494448-8503-491c-abcd-e90739611829.png)  
+
+`tri to Quad`  
+![image](https://user-images.githubusercontent.com/30430227/136467567-b14602fe-e063-4d5d-a269-e1e6813d724e.png)  
+
+`Poke twice`  
+![image](https://user-images.githubusercontent.com/30430227/136467422-8dd212b4-bdb8-4f59-a6a0-59d700b9a0c4.png)  
+
+`Bevel`  
+![image](https://user-images.githubusercontent.com/30430227/136467332-b2330a87-9e60-48a4-83d6-1e1f94938d43.png)  
+
+`Extrude`  
+![image](https://user-images.githubusercontent.com/30430227/136467243-8f13bd7e-dd6e-4e60-bf01-b4a4241a81fc.png)
+![image](https://user-images.githubusercontent.com/30430227/136467184-d01f992d-13a2-499b-b2a5-edcc510a1c66.png)  
+
+
+`Scale individual Origins`  
+![image](https://user-images.githubusercontent.com/30430227/136466995-267aeadf-a75d-4617-a2b9-54ecb1dfb773.png)
+
+![image](https://user-images.githubusercontent.com/30430227/136466936-0b420cf5-9435-43cf-acd6-3de04d61558c.png)  
+
+
+
+
 랜덤 램프
 ------------
 ![image](https://user-images.githubusercontent.com/30430227/121127701-23a1f200-c865-11eb-8cba-0c5999650bbd.png)  
