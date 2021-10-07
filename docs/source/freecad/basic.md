@@ -92,6 +92,13 @@ Refine
 ![image](https://user-images.githubusercontent.com/30430227/136197738-9aa770f5-e919-44e9-a44d-986b24c511b9.png)  
 
 
+15. 표면 디테일  
+`Preferences > Part design > Shape View 에서 세팅 가능, 다음은 개별 파트 세팅 값 조절`  
+![image](https://user-images.githubusercontent.com/30430227/136320638-75d07a9b-a526-47ba-8d3b-7beb4fc59983.png)  
+![image](https://user-images.githubusercontent.com/30430227/136320736-a7718ffb-0de3-41e5-b9c5-96bcf3f16f09.png)
+![image](https://user-images.githubusercontent.com/30430227/136320657-ca35cb42-56cf-422d-86e9-7f5677c9f1d2.png)  
+
+
 
 스케치
 --------
