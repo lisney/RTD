@@ -358,10 +358,32 @@ Tractor Tire
 ![image](https://user-images.githubusercontent.com/30430227/136194520-b0909c93-cb86-47c5-8699-ad03e689b34f.png)  
 
 
+철수저  
+---------
+1. 스케치(Solid로 할 것)  
+![image](https://user-images.githubusercontent.com/30430227/136482851-6e899d47-934c-4d07-a12c-9c7c9b0e5271.png)  
 
+2. Draft 평면  
+![image](https://user-images.githubusercontent.com/30430227/136482900-c44eaa42-ed10-4d4f-aa2d-afa1497ec069.png)  
 
+`B-spline`  
+![image](https://user-images.githubusercontent.com/30430227/136483109-82289aa0-076e-448e-a359-eb250406f5f2.png)  
 
+`Draft 평면 offset > B-spline`  
+![image](https://user-images.githubusercontent.com/30430227/136483205-95029419-4e3d-4dc6-a24c-c8a31e51ca5a.png)  
+![image](https://user-images.githubusercontent.com/30430227/136483258-983bec22-4c68-40dd-88da-f7fd6045751d.png)  
 
+3. Loft(Part WB)  
+![image](https://user-images.githubusercontent.com/30430227/136483390-ecc41634-3c12-4b19-957b-5b2be4cb68ae.png)  
+
+`Slice Apart`  
+![image](https://user-images.githubusercontent.com/30430227/136484625-617e63f8-740c-4297-9e7d-48b49eb52dee.png)  
+![image](https://user-images.githubusercontent.com/30430227/136484643-51e5ca08-c249-4a12-9c57-d36c246bbc16.png)  
+
+4. Boolean(Intersection)  
+`move 후 intersection`  
+![image](https://user-images.githubusercontent.com/30430227/136484821-95019302-cae3-475d-8b40-856bb129a998.png)  
+![image](https://user-images.githubusercontent.com/30430227/136484840-0d8800b3-10e1-4039-9fb7-1001a5c9cd61.png)  
 
 
 
