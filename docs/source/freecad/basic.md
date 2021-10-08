@@ -536,6 +536,12 @@ Manipulator WB(Addon)
 ![image](https://user-images.githubusercontent.com/30430227/136379621-1629511b-5e7e-4a65-b07c-b87c794ab6b4.png)  
 
 
+9. 커브 회전 축(로컬)  
+![image](https://user-images.githubusercontent.com/30430227/136492607-f58b65c1-ea4c-42bd-9437-671bfb47231f.png)  
+![image](https://user-images.githubusercontent.com/30430227/136492652-19c7ce92-3ba9-473e-8ac3-c87252667548.png)
+![image](https://user-images.githubusercontent.com/30430227/136492686-76445fc3-e46f-4a50-ad1c-9ebba0be946b.png)  
+
+
 
 
 
