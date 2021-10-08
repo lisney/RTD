@@ -387,4 +387,43 @@ Tractor Tire
 
 
 
+뫼비우스띠  
+----------------
+1. PartWB방법  
+`2 Sketch(2Arcs) > Geometry Primitive > Line`  
+
+![image](https://user-images.githubusercontent.com/30430227/136506087-d5bc682f-6ced-48b4-a429-6aaba804c65b.png)  
+![image](https://user-images.githubusercontent.com/30430227/136506296-e57436cd-5f78-4ae3-a0a2-c87d8f6c5b5b.png)  
+
+`Sketch`  
+![image](https://user-images.githubusercontent.com/30430227/136506544-f017a569-ac53-4004-aec7-e055f62f7d7a.png)  
+
+
+`Mixed Curve`  
+![image](https://user-images.githubusercontent.com/30430227/136506675-484babb9-6be3-496a-8811-7f0311f62ab3.png)  
+![image](https://user-images.githubusercontent.com/30430227/136506726-c1d32f9e-811f-4525-9a48-ef099a3ab63b.png)
+![image](https://user-images.githubusercontent.com/30430227/136506743-b1287702-e225-4f2f-81e5-0211be5cab5c.png)  
+
+`Sketch Arc & Line > Mixed Curve`  
+![image](https://user-images.githubusercontent.com/30430227/136507506-a13593b2-82a6-4076-8199-884818542f72.png)
+![image](https://user-images.githubusercontent.com/30430227/136507535-fffb2e94-ce94-4b52-834b-0e087fa67583.png)  
+
+`2 Sketch`  
+![image](https://user-images.githubusercontent.com/30430227/136507822-60768279-c044-4b69-864b-0394967d9aed.png)
+![image](https://user-images.githubusercontent.com/30430227/136508105-db0ed936-f624-492c-b96c-5578e36f8dcd.png)  
+
+`Surface`  
+![image](https://user-images.githubusercontent.com/30430227/136508241-4a6443cb-35e3-468d-ba37-803f8d732d0b.png)  
+![image](https://user-images.githubusercontent.com/30430227/136508265-19d7d652-c434-4d3f-9801-a964833db7ca.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/136508835-bb4a86a5-b3d8-4025-9b48-6e3e1eee3381.png)  
+
+
+
+
+
+
+
+
+
 
