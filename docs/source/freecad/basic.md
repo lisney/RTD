@@ -182,6 +182,9 @@ Tree View 상태에서 스케치 선택 > Validate Sketch
 ![image](https://user-images.githubusercontent.com/30430227/135397646-cb9485ae-7582-48b2-9a74-f1ffc1355ba1.png)  
 
 
+10. Sketch WB  
+`스케치 mirror, merge 메뉴 추가`  
+
 파라메트릭-Alias
 ------------------
 ![image](https://user-images.githubusercontent.com/30430227/131803448-280762e7-ae6e-470a-8da5-44ca3ca4e195.png)  
@@ -531,6 +534,7 @@ Manipulator WB(Addon)
 
 `Make Compound 하나로`  
 ![image](https://user-images.githubusercontent.com/30430227/136379621-1629511b-5e7e-4a65-b07c-b87c794ab6b4.png)  
+
 
 
 
