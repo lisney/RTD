@@ -389,7 +389,7 @@ Tractor Tire
 
 뫼비우스띠  
 ----------------
-1. PartWB방법  
+1. PartWB 방법  
 `2 Sketch(2Arcs) > Geometry Primitive > Line`  
 
 ![image](https://user-images.githubusercontent.com/30430227/136506087-d5bc682f-6ced-48b4-a429-6aaba804c65b.png)  
@@ -417,6 +417,43 @@ Tractor Tire
 ![image](https://user-images.githubusercontent.com/30430227/136508265-19d7d652-c434-4d3f-9801-a964833db7ca.png)  
 
 ![image](https://user-images.githubusercontent.com/30430227/136508835-bb4a86a5-b3d8-4025-9b48-6e3e1eee3381.png)  
+
+
+
+2. DraftWB 방법  
+`Constranit`  
+![image](https://user-images.githubusercontent.com/30430227/136509273-11050b26-76f6-4146-ac1b-2b40999090f8.png)
+![image](https://user-images.githubusercontent.com/30430227/136509596-c51cdc70-42b9-406a-8379-cd0473ec4a57.png)  
+
+
+`Line`  
+![image](https://user-images.githubusercontent.com/30430227/136509685-8ba8c075-cae6-45ea-8a2c-f7488a9e565e.png)  
+![image](https://user-images.githubusercontent.com/30430227/136509730-e2bd2cb2-28d8-4ddb-a275-756b657bf2b5.png)  
+![image](https://user-images.githubusercontent.com/30430227/136510111-f68de57d-f577-4130-b172-5084fc805212.png)  
+
+`Add Line(Y 축 고정 단축키 'y')`  
+![image](https://user-images.githubusercontent.com/30430227/136510354-756135c2-8741-431d-a4ba-a2eccf1d5e0e.png)  
+
+
+`Arc`  
+![image](https://user-images.githubusercontent.com/30430227/136510436-717eeaf6-7345-424e-82b3-e647db3daeb7.png)  
+![image](https://user-images.githubusercontent.com/30430227/136510519-695b1b93-74a7-4194-a7dc-ca66f636d6a1.png)  
+
+
+![image](https://user-images.githubusercontent.com/30430227/136511005-35b5ad9f-31e6-4c0a-b4ff-b69e134fb1c2.png)  
+
+`나머지 두 호`  
+![image](https://user-images.githubusercontent.com/30430227/136511956-20ae83ad-40a7-4e2a-97cc-b7a73735d6a8.png)
+![image](https://user-images.githubusercontent.com/30430227/136511974-d734780c-37f6-4267-956a-3f7033dfb9e8.png)  
+
+`Surface(PartWB)::앞 예와 같은 방법`  
+
+3. Thickness 문제?  
+`Offset 3D`  
+
+
+
+
 
 
 
