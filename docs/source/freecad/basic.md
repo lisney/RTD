@@ -207,12 +207,8 @@ Tree View 상태에서 스케치 선택 > Validate Sketch
 `Utility to Sweep`  
 ![image](https://user-images.githubusercontent.com/30430227/136515474-6f05482a-b9b3-477f-8e4a-ead97884cd6f.png)  
 
-
-
-
-
-
-
+`미러링`  
+![image](https://user-images.githubusercontent.com/30430227/136515704-1400afe7-b2c6-4550-af98-e5f2046620af.png)  
 
 
 
