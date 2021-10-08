@@ -185,6 +185,37 @@ Tree View 상태에서 스케치 선택 > Validate Sketch
 10. Sketch WB  
 `스케치 mirror, merge 메뉴 추가`  
 
+
+11. 반 리본 그리기  
+![image](https://user-images.githubusercontent.com/30430227/136514090-49ed3627-d159-46ca-85c4-bb0ed29cfef0.png)  
+![image](https://user-images.githubusercontent.com/30430227/136514137-4436f425-32e9-43b0-9e58-ee574b84b041.png)  
+
+`Mixed Curve`  
+![image](https://user-images.githubusercontent.com/30430227/136514337-12fcb048-2ef8-4a81-be76-1df910a668c4.png)
+![image](https://user-images.githubusercontent.com/30430227/136514371-84329c82-35eb-4e18-b3ec-28d21323aba3.png)  
+
+`Geometry Primitive > Circle(PartWB)` 
+![image](https://user-images.githubusercontent.com/30430227/136514900-71505286-2aa5-4b81-8f76-07b4a4af082e.png)
+![image](https://user-images.githubusercontent.com/30430227/136514651-679c9756-f430-49d8-9486-5eccf0c88462.png)  
+
+
+`작업평면 > 커브와 끝 점 선택`  
+![image](https://user-images.githubusercontent.com/30430227/136514731-893c84ef-68ea-41e2-8447-e87e5eaf076b.png)  
+![image](https://user-images.githubusercontent.com/30430227/136515052-100adbef-dca0-443f-86cf-c61cc39f9834.png)  
+![image](https://user-images.githubusercontent.com/30430227/136515141-93464db4-d342-48b1-964a-109ae0d20875.png)  
+
+`Utility to Sweep`  
+![image](https://user-images.githubusercontent.com/30430227/136515474-6f05482a-b9b3-477f-8e4a-ead97884cd6f.png)  
+
+
+
+
+
+
+
+
+
+
 파라메트릭-Alias
 ------------------
 ![image](https://user-images.githubusercontent.com/30430227/131803448-280762e7-ae6e-470a-8da5-44ca3ca4e195.png)  
