@@ -569,6 +569,41 @@ Manipulator WB(Addon)
 ![image](https://user-images.githubusercontent.com/30430227/136492686-76445fc3-e46f-4a50-ad1c-9ebba0be946b.png)  
 
 
+사용자 정의 버튼  
+------------------
+
+`Viewport 추가`  
+![image](https://user-images.githubusercontent.com/30430227/136734622-2aee269c-2dcf-4ffc-aac6-773e1539b443.png)
+
+
+1. 파이썬 콘솔 패널(View>Pannels)  
+![image](https://user-images.githubusercontent.com/30430227/136733265-0efb3f55-28d8-48de-a87f-2f3a8e66cb08.png)  
+
+
+2. 명령줄 복사  
+![image](https://user-images.githubusercontent.com/30430227/136733350-7be45e51-1777-49d7-a954-2addb1ab3034.png)  
+
+3. 매크로 생성  
+![image](https://user-images.githubusercontent.com/30430227/136733437-c64c9010-c387-460a-9828-dfbd019f34e7.png)  
+
+`매크로 실행`  
+![image](https://user-images.githubusercontent.com/30430227/136734157-30b86317-0d18-4848-917a-8db0b0a5b1e0.png)  
+
+4. 매크로 아이콘  
+![image](https://user-images.githubusercontent.com/30430227/136734367-80321d0d-6558-43a8-b759-5fa8971e3f54.png)  
+
+5. 아이콘 등록  
+![image](https://user-images.githubusercontent.com/30430227/136734500-2ddbab7c-3233-4e81-a16f-a13f111db1ee.png)  
+
+
+
+
+
+
+
+
+
+
 
 
 
