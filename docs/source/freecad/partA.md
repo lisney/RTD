@@ -62,6 +62,56 @@ Part Design A
 
 
 
+화분모양  
+----------
+
+1. 리볼브(PartWB)  
+`Solid:true`  
+![image](https://user-images.githubusercontent.com/30430227/136887421-64f14a29-9462-41fc-8499-a6c1ed237f90.png)  
+
+`Helix`  
+![image](https://user-images.githubusercontent.com/30430227/136887861-a84320bc-18d2-482e-9205-b9c837ed54fa.png)  
+![image](https://user-images.githubusercontent.com/30430227/136887875-e8cec475-79ff-43db-b5ba-92be7ea287f8.png)  
+
+
+2. 스케치(line, Sketcher WB)  
+![image](https://user-images.githubusercontent.com/30430227/136888092-bd3002e1-9516-4ab6-b4f7-074e45fc0721.png)  
+
+`Sweep(PartWB)`  
+![image](https://user-images.githubusercontent.com/30430227/136888297-2f8900ce-4128-4347-8e9d-81a824749eca.png)  
+![image](https://user-images.githubusercontent.com/30430227/136888335-c8609d8f-6b77-4994-a926-dc8ed44fd310.png)  
+
+
+3. Intersection(PartWB)  
+![image](https://user-images.githubusercontent.com/30430227/136888519-2d8ae312-a953-412a-a98e-2809b2f65492.png)  
+
+
+4. Datum Line > Datum Plane  
+`Sketcher`  
+![image](https://user-images.githubusercontent.com/30430227/136889205-1b0f4aab-2051-40f4-a82d-983159cd66a9.png)  
+
+`Sweep`  
+![image](https://user-images.githubusercontent.com/30430227/136889568-cfa880f6-7fd4-4e5f-914d-3cb1d61e4b61.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/136889375-30258950-f882-470e-b5c3-724e1235d7f4.png)  
+
+
+5. Polar Pattern(DraftWB)  
+`Array`  
+![image](https://user-images.githubusercontent.com/30430227/136889892-56fd4c46-12ae-44a6-a178-3ce4c6595684.png)  
+![image](https://user-images.githubusercontent.com/30430227/136889911-66cbf22e-788f-4373-9d7d-e66c23745926.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/136889958-136744d5-565c-459d-88b6-aaa8ddabd8cd.png)  
+
+
+
+
+
+
+
+
+
+
 
 
 
