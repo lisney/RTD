@@ -205,6 +205,24 @@ Abstract Animation Loop
 ![image](https://user-images.githubusercontent.com/30430227/133989644-05dc772d-96c8-496b-a76c-f517e6bfa275.png)  
 
 
+실크 헤어  
+------------
+
+1. 커브(Extrude)  
+![image](https://user-images.githubusercontent.com/30430227/136890855-0e2788c6-f8e7-4354-8cf0-70faf4ef3eb3.png)  
+
+
+2. Shading  
+`Vector Transform(Z) > Separate(X) > Noise`  
+![image](https://user-images.githubusercontent.com/30430227/136893751-307c53b1-608b-416a-a128-96940876a407.png)  
+![image](https://user-images.githubusercontent.com/30430227/136893784-777693b2-1482-4ad6-ace8-2fbcd854033f.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/136894267-5a26d1b4-8167-40f6-ab7f-e324036e171a.png)  
+
+
+
+
+
 
 
 
