@@ -38,6 +38,38 @@ Part Design A
 
 
 
+타워  
+-----
+
+1. 스케치  
+![image](https://user-images.githubusercontent.com/30430227/136879039-2aa292e6-0c48-479f-93bd-f53d0b110695.png)  
+![image](https://user-images.githubusercontent.com/30430227/136879662-7f4e66cc-d8ee-4e07-ab28-05132f7461fd.png)  
+![image](https://user-images.githubusercontent.com/30430227/136881146-fb8fd25d-808a-40a9-9bc5-0031e9167ee0.png)  
+
+
+2. Pad  
+![image](https://user-images.githubusercontent.com/30430227/136881225-9878dcc3-291d-4425-944b-b9daf670d815.png)  
+
+
+3. Copy & Transform(Part WB)  
+![image](https://user-images.githubusercontent.com/30430227/136881519-5cc02605-0cde-4761-a8d9-2a1eefdde148.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/136881637-e225034e-e141-4e23-9db0-7ea8f227acc8.png)  
+
+4. Intersection  
+![image](https://user-images.githubusercontent.com/30430227/136881753-ef1fe95a-ca3f-4e97-b7bb-3b8969aace93.png)  
+![image](https://user-images.githubusercontent.com/30430227/136881766-701eb696-7a11-435c-9e20-71c5bfd9e586.png)  
+
+
+
+
+
+
+ 
+
+
+
+
 
 
  
