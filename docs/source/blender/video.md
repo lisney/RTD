@@ -57,4 +57,20 @@ Tool패널의 Blade면도칼 단축키 해제할 것 (Remove ShortCut)
 `대상 먼저 선택 후  선택한다`  
 ![image](https://user-images.githubusercontent.com/30430227/137083928-c2367dd1-721e-4a9a-a990-0a68d62f2ef9.png)  
 
+16. Mask  
+`랜더 해상도로 바꿈 Image Editor > Mask 모드 > Render REsult 선택 `  
+![image](https://user-images.githubusercontent.com/30430227/137091324-f54f9fcd-daf9-4979-ba7d-20cfe24c938a.png)  
 
+`랜더 시 별도 창이 안뜨게  Preferences > Interface > Editors > Temporary Editors`  
+![image](https://user-images.githubusercontent.com/30430227/137091855-4bc7a7e3-d33b-4cd3-986c-a0b8789e5a8b.png)  
+
+`Add Square > 'B' 포인트 선택, Alt - S 페더, Ctrl -클릭 포인트 추가, 'V' 베지어 핸들`  
+
+![image](https://user-images.githubusercontent.com/30430227/137093521-008e304b-5119-4468-a017-43b575834b81.png)  
+![image](https://user-images.githubusercontent.com/30430227/137093881-6633229e-36d0-4af6-8f8b-463039dcb068.png)  
+
+
+
+
+
+# Zoom In/Out : 넘패드에서 자판으로 바꾸기 View2D의 단축키 바꾼다
