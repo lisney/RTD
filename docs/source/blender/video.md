@@ -5,7 +5,12 @@ Sequencer
 ----------------------
 
 1. Split (단축키 지정: k)  
-`Hold Split 절단 위치 이미지가 `  
+
+```
+자를 때 마우스 포인트 위치가 타임인디케이터 좌측이면 좌측 클립이 자동 선택됨
+Hold Split 절단 위치 이미지 홀드 (단축키 지정: shift + k)
+Tool패널의 Blade면도칼 단축키 해제할 것 (Remove ShortCut)
+```
 
 2. Frame Selected (NumpadPeriod)  
 
