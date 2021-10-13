@@ -53,3 +53,8 @@ Tool패널의 Blade면도칼 단축키 해제할 것 (Remove ShortCut)
 ![image](https://user-images.githubusercontent.com/30430227/137075264-632ca7e7-278e-4fec-ad77-414c1e3fcc5f.png)  
 
 
+16. Modifier Copy(단축키 설정 Alt - L)  
+`대상 먼저 선택 후  선택한다`  
+![image](https://user-images.githubusercontent.com/30430227/137083928-c2367dd1-721e-4a9a-a990-0a68d62f2ef9.png)  
+
+
