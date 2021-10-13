@@ -337,7 +337,7 @@ Curves Workbench -addOn
 ![image](https://user-images.githubusercontent.com/30430227/135413950-dab5e93b-2140-49f9-8e03-56feb4fb671e.png)  
 
 
-15. Discretize(이산화):선을 점으로 나눈다  
+Discretize(이산화):선을 점으로 나눈다  
 ![image](https://user-images.githubusercontent.com/30430227/135414378-167b01bd-8f78-47e2-b65e-6f65bfc580f2.png)  
 ![image](https://user-images.githubusercontent.com/30430227/135414534-ed25c0f9-f702-4251-b7f1-d7955ae64066.png)  
 ![image](https://user-images.githubusercontent.com/30430227/135414917-cff64e67-b0f6-4bd7-9a86-bfa1face3702.png)
@@ -356,6 +356,29 @@ Curves Workbench -addOn
 `Discretized Edge Number를 바꾸어본다`  
 ![image](https://user-images.githubusercontent.com/30430227/135416575-7b7d52b8-ebc3-4cf6-bf53-ee055c1a9cba.png)
 ![image](https://user-images.githubusercontent.com/30430227/135416600-4532af56-bb0a-4f82-a61f-f63c62105881.png)  
+
+15. Blend Solid  
+
+![image](https://user-images.githubusercontent.com/30430227/137168554-bfefaf06-d0ae-405d-8932-2f9fff4ff7a0.png)  
+`면과 두 선을 선택한다-선의 선택 순서가 방향이다`  
+![image](https://user-images.githubusercontent.com/30430227/137168861-aa394000-e46e-41b3-9f5c-e645cef169e1.png)  
+
+`Continuity 2 -> 0`  
+![image](https://user-images.githubusercontent.com/30430227/137169200-8876c8b9-dc6b-4032-881b-d0e72b270c78.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/137169016-ee3788d7-efc7-4ec3-907a-ead3bab222ee.png)
+![image](https://user-images.githubusercontent.com/30430227/137169083-32243e9f-a12c-4f04-808f-f5eff37fa75b.png)  
+
+`Pad 끼리는 안된다`  
+![image](https://user-images.githubusercontent.com/30430227/137169570-7019ac90-dfc7-4f23-a03d-a91042a6a26d.png)  
+
+`Pad -> Compound(PartWB)`  
+![image](https://user-images.githubusercontent.com/30430227/137169711-700a2986-0520-44e0-9ea8-74e21f0c3f3c.png)  
+![image](https://user-images.githubusercontent.com/30430227/137169928-7c0fef75-877f-4074-b53c-3c88e37d5e18.png)  
+
+
+
+
 
 
 16. 멀티 로프트  
