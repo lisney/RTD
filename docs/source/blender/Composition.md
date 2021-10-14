@@ -50,6 +50,48 @@ F12 랜더 시 Bloom 효과 안보임
 ![image](https://user-images.githubusercontent.com/30430227/137238242-d79a6145-4326-4fa9-9ee3-c316b7c92769.png)  
 
 
+Depth 맵 조절
+------------
+![image](https://user-images.githubusercontent.com/30430227/137240423-85aa8d9b-2880-41b8-bc9d-6c0a70eef792.png)  
+
+
+랜더 레이어 
+------------
+`Add View Layer`  
+![image](https://user-images.githubusercontent.com/30430227/137240887-f9c4df01-8b90-486b-bf61-96ee62935b40.png)  
+
+`New Collection 에 제외할 박스 넣고 체크 해제(현재 뷰레이어에서는 랜더되지 않는다`  
+![image](https://user-images.githubusercontent.com/30430227/137241002-bac59ec3-175e-44dc-bc7c-8a80b7c4bae0.png)  
+
+`Compositor Editor`  
+![image](https://user-images.githubusercontent.com/30430227/137241144-607eb5e3-a897-4b50-b00e-73540d715a89.png)
+![image](https://user-images.githubusercontent.com/30430227/137241168-5e88c2e9-8ecc-4ef6-a5f8-156e8cbe9dfb.png)  
+
+
+랜더 패스 추가
+---------------
+`View Layer 패널에서 Normal 체크하면`  
+![image](https://user-images.githubusercontent.com/30430227/137241327-ba159a00-b68e-48b6-a968-b8aa5c1b694d.png)  
+
+`컴포지션 에디터 랜더 레이어 노드에 추가된다`  
+![image](https://user-images.githubusercontent.com/30430227/137241413-37857c47-b0b4-485c-a806-9f3225fc87dd.png)  
+ 
+
+EXR 랜더  
+-----------
+![image](https://user-images.githubusercontent.com/30430227/137243329-c3ea4d7b-da05-485d-b329-e0ad6fe09cbb.png)  
+
+`AE에서`  
+![image](https://user-images.githubusercontent.com/30430227/137243355-bc3792f5-47a4-48c6-b5db-6d12250fb2dd.png)  
+
+
+Blender to AE Addon
+-----------------------
+`AE > File > Script`  
+![image](https://user-images.githubusercontent.com/30430227/137243541-c82f07a4-f65f-47b6-a0ae-183e862aeb15.png)  
+
+
+
 
 
 
