@@ -113,8 +113,53 @@ Rack Focus 포커스 이동
 
 
 
-카메라 Shake
----------------
+카메라 Shake(Dolly Cam Rig)
+-----------------------
+
+`(화면 기준, 실재 카메라는 반대 방향으로 이동)1frame 내려갔다 > 2frame 올라갔다 > 2frame 내려갔다 > 2frame 제자리에`  
+![image](https://user-images.githubusercontent.com/30430227/137286262-3755aa0b-fb31-4e31-b317-31710aa7a8c8.png)  
+![image](https://user-images.githubusercontent.com/30430227/137286762-04477180-98c1-48ed-8267-d8b8591a8860.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/137286960-3b50d1fa-8ec5-4224-a8c9-2847ea4f8c16.png)  
+
+`프리뷰 Range 단축키 'p' - 비디오 시퀀서 에디터에서 설정(View >)`  
+![image](https://user-images.githubusercontent.com/30430227/137287182-614dd921-7cc4-4e1a-a98d-5b51ceb596ef.png)  
+
+`Graph 에디터 Select Keyframe > 단축키 'v'`  
+![image](https://user-images.githubusercontent.com/30430227/137287504-5488c4c0-8645-4d57-9bf0-847c0a4212eb.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/137287326-c35cd123-de9b-4b41-ae90-10ba4f987148.png)  
+![image](https://user-images.githubusercontent.com/30430227/137287546-9cd4d9a9-830d-4803-aa7e-e0508fb4c829.png)  
+
+`더 강하게`  
+![image](https://user-images.githubusercontent.com/30430227/137288523-dcdcc7c2-ac5f-4b81-8180-2981e6537d8e.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/137289176-a0524ba3-f2b5-4c9a-9bc0-20eafda0123c.png)  
+
+
+
+핸드 헬드(Dolly Cam Rig) 
+-------------------------
+![image](https://user-images.githubusercontent.com/30430227/137289909-1c01fc3a-aa68-4790-88ab-f315b5e40e81.png)  
+![image](https://user-images.githubusercontent.com/30430227/137290024-de4972b2-20de-4bd0-8652-c9d80277531c.png)  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
