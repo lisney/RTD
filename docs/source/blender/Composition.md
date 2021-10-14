@@ -84,6 +84,14 @@ EXR 랜더
 `AE에서`  
 ![image](https://user-images.githubusercontent.com/30430227/137243355-bc3792f5-47a4-48c6-b5db-6d12250fb2dd.png)  
 
+`32bit Color`  
+![image](https://user-images.githubusercontent.com/30430227/137244466-5581de15-0aca-4917-b376-c7eeea0d0c11.png)  
+![image](https://user-images.githubusercontent.com/30430227/137244484-4a844500-8f4c-4164-bd25-e4618ef69416.png)  
+
+`Depth Layer 사용하기 Exposure`  
+![image](https://user-images.githubusercontent.com/30430227/137244550-c1976754-f40f-49d6-bcf1-72b2c5a8bbd0.png)  
+![image](https://user-images.githubusercontent.com/30430227/137244705-ec0a9139-49b5-4a70-b278-91855fbad43f.png)  
+
 
 Blender to AE Addon
 -----------------------
