@@ -1,4 +1,4 @@
-Addon
+Camera
 ==========
 
 
@@ -47,7 +47,10 @@ AddCamera Rigs Addon
 ![image](https://user-images.githubusercontent.com/30430227/137262207-99e62a95-007b-4063-8cd4-0372039a3055.png)  
 
 
-`DOF`  
+Basic
+--------
+
+`DOF - 십자 기즈모 드래그 가능`  
 ![image](https://user-images.githubusercontent.com/30430227/137264512-0ed047d6-96b2-4113-afcb-a0b2213a1b91.png)  
 ![image](https://user-images.githubusercontent.com/30430227/137264549-322d30cc-2714-41ae-a1ce-2f95a62ddc43.png)  
 
@@ -57,7 +60,7 @@ AddCamera Rigs Addon
 ![image](https://user-images.githubusercontent.com/30430227/137265716-cfbff90b-b7b0-4ce8-9b73-3d109781eedd.png)  
 
 
-6. Active Camera  
+1. Active Camera  
 `카메라 선택 후 View > Cameras `  
 ![image](https://user-images.githubusercontent.com/30430227/137266879-70546d62-b102-417e-9300-2c09343215ed.png)  
 
@@ -65,8 +68,32 @@ AddCamera Rigs Addon
 ![image](https://user-images.githubusercontent.com/30430227/137267415-0415f9f0-9c97-43ea-b9e5-cf116a93701e.png)  
 
 
-7. Focal Length - 역삼각형 드래그  
+2. Focal Length - 역삼각형 드래그  
 ![image](https://user-images.githubusercontent.com/30430227/137267716-def52993-7cc9-4b97-8866-156dab65ef51.png)  
+
+
+3. Walk 네비게이션  
+`View > Navigation`  
+![image](https://user-images.githubusercontent.com/30430227/137268276-61077dc7-5264-4356-a928-d962d6a78218.png)  
+
+`키보드 방향 키 사용 가능, 속도조절 마우스 - 휠`  
+
+
+4. Tilt Shift 효과  
+`Shift`  
+![image](https://user-images.githubusercontent.com/30430227/137279814-bea31515-9831-4778-891e-e079f0686fdc.png)
+![image](https://user-images.githubusercontent.com/30430227/137279906-81bded14-5294-4004-a597-f37052651483.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/137279855-9a412e48-9872-4d55-a2de-441a845e5ad0.png)
+![image](https://user-images.githubusercontent.com/30430227/137279996-2771fa7d-c0e7-4612-b506-ff28810e77ca.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/137280074-dabda36d-14c4-41ab-be92-d7013aa0981b.png)
+
+
+
+5. 
+
+
 
 
 
