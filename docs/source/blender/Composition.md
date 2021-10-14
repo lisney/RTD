@@ -38,6 +38,20 @@ Glass Refraction with Alpha
 ![image](https://user-images.githubusercontent.com/30430227/133033214-466dd447-defb-49bc-b408-b834339303a2.png)  
 
 
+Viewport 배경 검게(Studio Background)
+----------------------------------------
+`Gray -> Black, Preferences>Themes>Theme Space> GradientColors`  
+![image](https://user-images.githubusercontent.com/30430227/137238087-310bfb9f-45b0-42db-994b-a95e503ffd20.png)  
+
+
+F12 랜더 시 Bloom 효과 안보임  
+----------------
+`View layer 패널 > Bloom 체크`  
+![image](https://user-images.githubusercontent.com/30430227/137238242-d79a6145-4326-4fa9-9ee3-c316b7c92769.png)  
+
+
+
+
 
 
 
