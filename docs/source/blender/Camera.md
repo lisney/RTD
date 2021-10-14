@@ -140,20 +140,30 @@ Rack Focus 포커스 이동
 
 핸드 헬드(Dolly Cam Rig) 
 -------------------------
+
 ![image](https://user-images.githubusercontent.com/30430227/137289909-1c01fc3a-aa68-4790-88ab-f315b5e40e81.png)  
 ![image](https://user-images.githubusercontent.com/30430227/137290024-de4972b2-20de-4bd0-8652-c9d80277531c.png)  
 
 
+`무브 > 오른 클릭`  
+![image](https://user-images.githubusercontent.com/30430227/137292557-a4106567-1c71-4859-bfe0-889aad06520c.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/137292505-82879bf0-c918-4f71-935c-61fa8fed84ce.png)
+![image](https://user-images.githubusercontent.com/30430227/137292637-ddcb4365-a212-44a2-ae39-d44de730fc1d.png)  
 
 
+`커브 에디터 > Re Calculate`  
+![image](https://user-images.githubusercontent.com/30430227/137293117-75569391-4ae2-4400-8f7f-15297732dd36.png)
+![image](https://user-images.githubusercontent.com/30430227/137293167-878a4bd0-3dd5-49ba-aad0-01a6d6ed99bd.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/137293241-ebadacb5-252d-465c-a3f2-83185f13b264.png)  
 
 
+`안쪽 원 선택 > Normal Mode > Rotation 키 > Noise Modifierii`  
+![image](https://user-images.githubusercontent.com/30430227/137294663-2b58c963-dff6-4345-b76c-9cb0331acd05.png)
+![image](https://user-images.githubusercontent.com/30430227/137300204-61a4c0f4-5444-4141-abef-4cab19b233aa.png)  
 
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/30430227/137300650-7f797d20-4273-45d2-a1b3-5f0d2baa300d.png)  
 
 
 
