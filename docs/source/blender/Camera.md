@@ -79,7 +79,9 @@ Basic
 `키보드 방향 키 사용 가능, 속도조절 마우스 - 휠`  
 
 
-4. Tilt Shift 효과  
+Tilt Shift 효과  
+-------------------
+
 `Shift`  
 ![image](https://user-images.githubusercontent.com/30430227/137279814-bea31515-9831-4778-891e-e079f0686fdc.png)
 ![image](https://user-images.githubusercontent.com/30430227/137279906-81bded14-5294-4004-a597-f37052651483.png)  
@@ -91,7 +93,32 @@ Basic
 
 
 
-5. 
+Rack Focus 포커스 이동  
+------------------------
+
+![image](https://user-images.githubusercontent.com/30430227/137281489-5e46051c-661f-4cc5-ba1c-6023cc621744.png)
+![image](https://user-images.githubusercontent.com/30430227/137281543-8f2c00b1-7a95-4997-90de-168d02080f0f.png)  
+
+`Display limits`   
+![image](https://user-images.githubusercontent.com/30430227/137281941-9e548415-2ee3-44ad-9724-40efa98d317a.png)
+
+
+`Shading 모드에서 DOF 활성`  
+![image](https://user-images.githubusercontent.com/30430227/137281848-ecb73e97-bd2a-4595-9be4-bab7691951be.png)  
+![image](https://user-images.githubusercontent.com/30430227/137281884-63022453-cbff-46cf-8fe6-202e036ee436.png)  
+
+`랙 포커스`  
+![image](https://user-images.githubusercontent.com/30430227/137282185-bb7711e7-b433-4ba2-a714-6f3b43f83eab.png)
+![image](https://user-images.githubusercontent.com/30430227/137282229-24324df0-6373-4c61-a4c1-aff30561aed3.png)  
+
+
+
+카메라 Shake
+---------------
+
+
+
+
 
 
 
