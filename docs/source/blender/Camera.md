@@ -166,7 +166,59 @@ Rack Focus 포커스 이동
 ![image](https://user-images.githubusercontent.com/30430227/137300650-7f797d20-4273-45d2-a1b3-5f0d2baa300d.png)  
 
 
+Motion Blur(Cycle - Raytrace)
+--------------------------------
 
+1. Rendering 방식  
+
+`Render Property 패널`  
+![image](https://user-images.githubusercontent.com/30430227/137306627-703e0ca8-85c1-4d00-9635-51ca37d43e36.png)  
+
+
+
+2. Post Render 방식  
+
+`View Layer Property 패널`  
+![image](https://user-images.githubusercontent.com/30430227/137306958-005055ce-c861-4cbc-83bf-c90972a5ba04.png)  
+
+
+`Compositor 에디터 > Filter > Vector Blur`  
+![image](https://user-images.githubusercontent.com/30430227/137307059-c7ea00a5-612c-44f8-a306-1943531bf7a7.png)  
+![image](https://user-images.githubusercontent.com/30430227/137307126-359ec69a-ec45-465e-a807-75e76276d094.png)  
+
+
+
+
+Motion Blur(EEVEE - Realtime)
+-------------------------------
+`Render Property 패널`  
+![image](https://user-images.githubusercontent.com/30430227/137307287-77c92e12-5c7a-4ea2-be93-d0df32e8a804.png)  
+
+
+
+Pollow Path  
+-------------
+
+`카메라와 커브 선택`  
+![image](https://user-images.githubusercontent.com/30430227/137307442-06d44861-b58e-4598-bc41-9eb3706cf556.png)  
+
+
+`Pollow Path`  
+![image](https://user-images.githubusercontent.com/30430227/137307550-6b391b5d-82d4-495c-9751-612682629d25.png)  
+
+
+`Transform > Clear Location/Rotation`  
+![image](https://user-images.githubusercontent.com/30430227/137307950-e5ace4f3-5284-4220-92c6-609f50752d85.png)
+
+
+`카메라 > Clear Parent Inverse `  
+![image](https://user-images.githubusercontent.com/30430227/137307653-9c39f943-f857-4354-b0da-621d1d8dee6a.png)  
+
+
+
+
+카메라 리깅 
+--------------
 
 
 
