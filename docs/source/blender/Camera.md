@@ -215,24 +215,25 @@ Pollow Path
 ![image](https://user-images.githubusercontent.com/30430227/137307653-9c39f943-f857-4354-b0da-621d1d8dee6a.png)  
 
 
+`속도 조절 등 수동 키프레이밍 / 커브 에디터에서 Modifier 삭제`  
+![image](https://user-images.githubusercontent.com/30430227/137309164-9bea376f-c0e4-4bca-a0f0-2a7d1eeae130.png)  
+
+
+`키프레임`  
+![image](https://user-images.githubusercontent.com/30430227/137309291-884f5236-cc37-4e5c-a7f3-ca9036a4c688.png)  
+
+
+`커브 에디터에서 편집`  
+![image](https://user-images.githubusercontent.com/30430227/137309389-3d93cb3b-c31f-4636-9510-1bc749163060.png)  
+
 
 
 카메라 리깅 
 --------------
+`Track to Constraint`  
+![image](https://user-images.githubusercontent.com/30430227/137309611-30fee550-9067-4df3-b2ef-1baaa39f8e4f.png)  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/30430227/137309814-62dae93d-0d2a-4154-93f5-854cfa7f97bd.png)  
 
 
 
