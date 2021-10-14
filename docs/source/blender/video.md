@@ -20,6 +20,7 @@ Tool패널의 Blade면도칼 단축키 해제할 것 (Remove ShortCut)
 `Up key 는 기존 keyframe 이동단축키로 설정되어 있는데 이를 끈다`  
 
 5. 작업영역 Range(Frame, Rander)  
+`Set Preview Range 단축키 지정 'p'(타임라인 에디터에서도 작동된다)`  
 ![image](https://user-images.githubusercontent.com/30430227/137090165-cd93dd8a-d48f-4dd6-adb0-1d879dce67af.png)  
 
 6. Show Seconds/frame Toggle (Ctrl-T)  
