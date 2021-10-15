@@ -54,7 +54,7 @@ ProjectA
 
 4. Driver 대용 Transformation Constraint  
 
-`Local Space - 기존 위치가 0`  
+`Local Space - 선택 위치가 0`  
 ![image](https://user-images.githubusercontent.com/30430227/137477994-c276d0a8-5ea8-4207-80bd-3bf314835889.png)  
 ![image](https://user-images.githubusercontent.com/30430227/137478088-ca95a394-197f-4a40-9146-7dbab666638d.png)  
 
@@ -63,6 +63,19 @@ ProjectA
 ![image](https://user-images.githubusercontent.com/30430227/137478228-75893cdc-f5a5-46d3-8e8d-ada26eca85a1.png)  
 
 ![image](https://user-images.githubusercontent.com/30430227/137478272-86f535fd-5ab9-4695-a42a-dc8d3e13c743.png)  
+
+
+`Transformation 을 추가하여 X 위치에 따라 Z 위치가 이동하게 하여 붓 끝의 중력 효과를 줄 수도 있다`  
+
+
+5. 브러시 Limit Constraint(기존 로컬 위치)  
+![image](https://user-images.githubusercontent.com/30430227/137481496-b76f2a42-edbd-4025-b6b4-5057414d54ce.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/137481605-645c3f39-644d-40e1-b57d-87b817c8c7c2.png)  
+![image](https://user-images.githubusercontent.com/30430227/137481638-f158fdc1-e115-4490-9a6b-631638ea26f0.png)  
+
+
+
 
 
 
