@@ -211,7 +211,8 @@ Pollow Path
 ![image](https://user-images.githubusercontent.com/30430227/137307950-e5ace4f3-5284-4220-92c6-609f50752d85.png)
 
 
-`카메라 > Clear Parent Inverse `  
+`카메라 > Clear Parent Inverse(부모의 원점만 제거, 자신의 원점으로 이동)`  
+`Parent without Inverse 는 자신의 원점이 아닌 부모의 원점으로 이동`  
 ![image](https://user-images.githubusercontent.com/30430227/137307653-9c39f943-f857-4354-b0da-621d1d8dee6a.png)  
 
 
