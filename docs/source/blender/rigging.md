@@ -57,3 +57,32 @@ Transfer Weights
 ![image](https://user-images.githubusercontent.com/30430227/131273848-9755f8ae-5fe2-4ada-b6d9-693b19e7afe6.png)  
 
 
+
+카메라 드라이브 
+---------------
+1. Copy as New Driver  
+![image](https://user-images.githubusercontent.com/30430227/137431840-fcefb907-7949-495e-95fa-e3bba085ef5f.png)  
+![image](https://user-images.githubusercontent.com/30430227/137431983-f6ce03da-d296-4e38-9f72-6c6a04a2e33d.png)  
+
+
+
+2. Paste Driver  
+![image](https://user-images.githubusercontent.com/30430227/137432066-41102168-5e40-46e6-8bdd-b77ea49b8fcb.png)  
+![image](https://user-images.githubusercontent.com/30430227/137432103-09b0f0c7-f1b4-416b-97bf-a3d2052046c0.png)  
+
+
+3. Edit Driver  
+![image](https://user-images.githubusercontent.com/30430227/137432233-b78a4edd-967f-49dd-9255-fb904083033a.png)  
+![image](https://user-images.githubusercontent.com/30430227/137433397-5c048be0-f398-4dc4-a8d3-d948ed2a33e6.png)
+![image](https://user-images.githubusercontent.com/30430227/137433465-cab7d1cc-c717-49af-aa30-95d422ae2955.png)  
+
+`카메라 다가가면 X-방향으로 비킨다`  
+![image](https://user-images.githubusercontent.com/30430227/137433537-f46e6271-0411-4864-8cdb-0115e92c2c6b.png)  
+
+
+
+
+
+
+
+
