@@ -116,7 +116,7 @@ Time Scale: 3, Viscosity: 0.02 후 다시 Bake > Mesh Bake
 `Poke twice`  
 ![image](https://user-images.githubusercontent.com/30430227/136467422-8dd212b4-bdb8-4f59-a6a0-59d700b9a0c4.png)  
 
-`Bevel`  
+`Bevel > Face 모드로 전환`  
 ![image](https://user-images.githubusercontent.com/30430227/136467332-b2330a87-9e60-48a4-83d6-1e1f94938d43.png)  
 
 `Extrude`  
