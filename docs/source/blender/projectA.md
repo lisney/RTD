@@ -76,6 +76,55 @@ ProjectA
 
 
 
+6. 브러쉬 각도 조절  
+`Track Constraint :: Object > Track >`  
+![image](https://user-images.githubusercontent.com/30430227/137672592-1d678d07-5606-46a3-8a8a-cb2d62203abe.png)
+![image](https://user-images.githubusercontent.com/30430227/137672773-5571f93d-9a59-4846-9e49-6503a896fa3a.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/137672646-b578bc6a-52b5-4660-8ec2-0e93a1ab1ee8.png)  
+![image](https://user-images.githubusercontent.com/30430227/137672670-8c202149-11d6-4d6d-b009-5563414751a4.png)  
+
+
+7. 메인컨트롤  
+![image](https://user-images.githubusercontent.com/30430227/137672972-649e8cc0-858e-4e1a-93d1-bae2ebde9938.png)  
+
+`Parent`  
+![image](https://user-images.githubusercontent.com/30430227/137673053-1bb68ace-6f35-4540-8f56-73e4ceeb1c57.png)  
+![image](https://user-images.githubusercontent.com/30430227/137673241-d001a2ed-e5d1-4d1f-848c-07f77aab3bce.png)  
+
+
+8. 페인트 메쉬  
+`Hair 메쉬를 복사해서`  
+![image](https://user-images.githubusercontent.com/30430227/137679081-7d5b9133-86c5-4a72-b36a-91ce93af7d5d.png)  
+![image](https://user-images.githubusercontent.com/30430227/137679106-1c508bc5-156d-40dd-a4eb-926dfb191e27.png)
+![image](https://user-images.githubusercontent.com/30430227/137679133-fe47cb1b-6ab0-4955-b283-9cce9be17a55.png)  
+
+
+`Parent to Bone`  
+![image](https://user-images.githubusercontent.com/30430227/137680800-1fe47582-2aeb-4231-bf15-590c861e93da.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/137680775-5f3a692d-0881-4fc7-adf7-e647dd8072a0.png)  
+
+
+
+9. Dynamic Paint  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
