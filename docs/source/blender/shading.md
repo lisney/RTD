@@ -223,6 +223,65 @@ Abstract Animation Loop
 
 
 
+Random 텍스처  
+-----------------
+
+1. Object Info Node(Random:0~1)  
+![image](https://user-images.githubusercontent.com/30430227/137813768-05559734-ca37-4291-8954-f1d45b7c0e78.png)  
+
+`0~1 -> 1~12`  
+![image](https://user-images.githubusercontent.com/30430227/137813923-94ecbb66-eeb2-4de1-8502-d2df2456adc6.png)  
+
+
+2. Less than - MixRGB  
+![image](https://user-images.githubusercontent.com/30430227/137814348-41745494-51bd-4783-91b6-11a106654ed3.png)  
+![image](https://user-images.githubusercontent.com/30430227/137814369-a77134ca-a8a5-4ba8-9477-65ce1360cc6b.png)  
+
+`연장`  
+![image](https://user-images.githubusercontent.com/30430227/137814444-0bae89cc-bde7-4f5e-aa51-8e40767cca93.png)  
+![image](https://user-images.githubusercontent.com/30430227/137814474-70abf22b-f736-4976-8567-841e8a526ff9.png)  
+
+
+`12개`  
+![image](https://user-images.githubusercontent.com/30430227/137815244-4c77137d-1400-4ef7-ae86-efd50ee9e167.png)  
+
+
+`Snap Node 정수단위 증가`  
+![image](https://user-images.githubusercontent.com/30430227/137815425-4de4ffd4-88cd-48b1-adc8-fc9be1e34471.png)  
+
+
+
+3. 그룹  
+
+`Snap Number`  
+
+![image](https://user-images.githubusercontent.com/30430227/137815808-c40c50c9-199d-4b54-ad5d-819ae139fa5e.png)  
+
+
+`Color`  
+![image](https://user-images.githubusercontent.com/30430227/137815941-bc9e42f4-1080-45d6-aafa-8beb5ffe159d.png)  
+![image](https://user-images.githubusercontent.com/30430227/137816039-5aba356e-15be-40ee-9c6d-b37b3764d69f.png)  
+
+
+![image](https://user-images.githubusercontent.com/30430227/137816160-eeb8a3ce-d55e-4bc7-b62c-14f4d71b5b20.png)  
+
+
+4. Texture 연결  
+![image](https://user-images.githubusercontent.com/30430227/137816445-63e800a8-def1-4c61-ac5d-95a09439a129.png)  
+![image](https://user-images.githubusercontent.com/30430227/137816461-9141b63b-f323-4b3f-8e09-987aaa6a4e38.png)  
+
+
+
+
+
+
+
+
+
+
+
+ 
+
 
 
 
