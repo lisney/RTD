@@ -5,8 +5,8 @@ Sculpt
 ![image](https://user-images.githubusercontent.com/30430227/132807187-8b34137b-813f-473d-9968-6c7564d5e77d.png)  
 
 
-2. Hide Show(Face Sets 커서 위치에서 단축키 누르면 사라진다)  
-`기존 단축키 'H' 에 sculpt.face_set_change_visibility`  
+2. Hide Show FaceSets 단축키(블렌더 기본 단축키로 지정)  
+`Maya 단축키 'H' 를 sculpt.face_set_change_visibility 로 바꿈`  
 ![image](https://user-images.githubusercontent.com/30430227/137685503-a5cbe01e-3cd4-408c-8ec2-3d2e363baf9e.png)  
 
 
