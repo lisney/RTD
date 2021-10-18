@@ -1,6 +1,13 @@
 Fluid 
 ======
 
+`파티클이 메쉬를 둟고 지나갈 때 Thickness, TimeStep Max 10/ Min 4`  
+![image](https://user-images.githubusercontent.com/30430227/137741517-40925858-e819-4659-9df0-4b9187b1b4f6.png)  
+![image](https://user-images.githubusercontent.com/30430227/137741602-7f206c00-055d-405f-b950-959f25a100bf.png)  
+
+
+
+
 1. Liquid  
 
 `모델 배치`  
