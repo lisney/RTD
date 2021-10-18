@@ -80,13 +80,32 @@ Texture Offset: animate
 ---------------
 
 1. Cylinder > Top 평면 복사 후 Separate > Inset , 마지막은 Merge Vertex  
+![image](https://user-images.githubusercontent.com/30430227/137719174-4bd665ff-fca9-4d6d-b060-7422986d63dd.png)  
+
 
 `Vertex Groups`  
 ![image](https://user-images.githubusercontent.com/30430227/137719356-190ab987-485c-4eef-b1b7-702c215a6d34.png)
 
 
+2. Displace - 위로 살짝 올려줌`  
 
-![image](https://user-images.githubusercontent.com/30430227/137719174-4bd665ff-fca9-4d6d-b060-7422986d63dd.png)  
+![image](https://user-images.githubusercontent.com/30430227/137719675-2d26b5ad-6398-47a0-ab50-dec760e0505c.png)  
+
+
+3. Cloth  
+4. 
+`Cloth > Pressure: 3 Gravity: 0, Shrinking Factor: -0.2`  
+![image](https://user-images.githubusercontent.com/30430227/137719759-b031d6a9-fce8-4ee9-969b-dcf144a3349d.png)  
+![image](https://user-images.githubusercontent.com/30430227/137720405-c7b44e74-5631-400d-a40a-8b07d224df71.png)  
+
+`Subdivide - 순서 Cloth 위로 올린다`  
+![image](https://user-images.githubusercontent.com/30430227/137720620-4799fe05-acc1-46f6-bfd7-d6d12ae6e686.png)  
+
+`Subdivide를 추가하면 Detail 추가됨`  
+
+
+
+
 
 
 
