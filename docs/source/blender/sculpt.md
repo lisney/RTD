@@ -10,6 +10,28 @@ Sculpt
 ![image](https://user-images.githubusercontent.com/30430227/137685503-a5cbe01e-3cd4-408c-8ec2-3d2e363baf9e.png)  
 
 
+3. 시뮬레이션 영역 - 붓 바깥 원 영역(회색)  
+`Local- 원 영역 내부/ Global- 전체 영역/ Dynamic- 로컬영역(원 영역)의 위치가 마우스 따라 변경`  
+![image](https://user-images.githubusercontent.com/30430227/137698593-40d3a536-8565-4768-b031-47f81cb393a8.png)  
+![image](https://user-images.githubusercontent.com/30430227/137698731-668aa8c4-19b4-4a0b-a91d-1e3d7b2656d1.png)  
+
+
+4. 핀 포인트(당김 점) - 마스크를 사용한다  
+![image](https://user-images.githubusercontent.com/30430227/137706169-0d141bbf-7fb5-4482-8df1-c52138acd09c.png)  
+
+`Inflate - Simulation Area > Dynamic - 효과 키울려면 Cloth Mass 줄인다`  
+![image](https://user-images.githubusercontent.com/30430227/137706509-23ffb2f2-017e-4553-a52f-d56e40876111.png)  
+
+
+`Pinch Point`  
+![image](https://user-images.githubusercontent.com/30430227/137706661-80d309ef-1dea-4f1c-a461-5865eb1e3689.png)  
+
+
+`Inflate(튀어나옴) 하지않고 센터로 집중 - Expand > Ctrl(반대) + 드래그 `  
+![image](https://user-images.githubusercontent.com/30430227/137706985-e7d1f3a4-da7b-44e6-99e9-20d176fab858.png)  
+
+
+
 
 바느질 
 --------
