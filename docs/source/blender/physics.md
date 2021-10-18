@@ -101,6 +101,9 @@ Texture Offset: animate
 `Subdivide - 순서 Cloth 위로 올린다`  
 ![image](https://user-images.githubusercontent.com/30430227/137720620-4799fe05-acc1-46f6-bfd7-d6d12ae6e686.png)  
 
+![image](https://user-images.githubusercontent.com/30430227/137722326-a149de69-b550-4bcc-9be2-d0db8fbeccf5.png)
+
+
 `Subdivide를 추가하면 Detail 추가됨`  
 
 
