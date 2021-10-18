@@ -75,6 +75,18 @@ Texture Offset: animate
 
 
  
+ 
+ Puffy Cloth 
+---------------
+
+1. Cylinder > Top 평면 복사 후 Separate > Inset , 마지막은 Merge Vertex  
+
+`Vertex Groups`  
+![image](https://user-images.githubusercontent.com/30430227/137719356-190ab987-485c-4eef-b1b7-702c215a6d34.png)
+
+
+
+![image](https://user-images.githubusercontent.com/30430227/137719174-4bd665ff-fca9-4d6d-b060-7422986d63dd.png)  
 
 
 
