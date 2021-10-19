@@ -100,6 +100,13 @@ Blender to AE Addon
 `AE > File > Script`  
 ![image](https://user-images.githubusercontent.com/30430227/137243541-c82f07a4-f65f-47b6-a0ae-183e862aeb15.png)  
 
+`주의!!포지션 마커의 Alpha가 0다`  
+
+```
+3D 포지션 2D로 변환  
+L = thisComp.layer("Null 1");
+L.toComp(L.anchorPoint);
+```
 
 
 
