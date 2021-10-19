@@ -256,6 +256,11 @@ Line Art Tip
 ![image](https://user-images.githubusercontent.com/30430227/137902874-7e540bc9-95a2-4f95-a4fe-952766c0082d.png)  
 
 
+7. Edge Marks  
+`Edit Mode`  
+![image](https://user-images.githubusercontent.com/30430227/137906343-fc8a0f4e-289b-4711-afa9-46f6fc5788d9.png)  
+
+
 
 
 
