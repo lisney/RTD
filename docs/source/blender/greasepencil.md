@@ -207,3 +207,57 @@ Filp Horizontal
 
 
 
+Line Art Tip
+----------------
+
+1. Create Stroke  
+![image](https://user-images.githubusercontent.com/30430227/137897981-ba9402d0-62d3-4a20-bfc2-05c0683dacd7.png)  
+
+`기본 머티리얼 생성된다 > Edit Mode > 전부 지우고 나오기`  
+
+
+2. 빈 스트로크에 Line Art Modifier 적용  
+![image](https://user-images.githubusercontent.com/30430227/137899987-c0a28d4b-4c7c-4df6-8910-ab6b8528d93c.png)  
+![image](https://user-images.githubusercontent.com/30430227/137900003-de15c483-7b40-43e7-ba7e-d1ba6da5f267.png)  
+
+`모디파이어 잠시 끄고`  
+
+
+3. 머티리얼이 있다면 스베테 제거  
+`New > Emission > 블루컬러`  
+![image](https://user-images.githubusercontent.com/30430227/137900410-49e2de6f-df26-49db-93f7-94aca87817ed.png)  
+
+`컬러 위에 커서 >Ctrl + C  > 월드 Color 에 paste`  
+![image](https://user-images.githubusercontent.com/30430227/137900663-db753b29-99ad-458c-8ac8-2e510f73621d.png)  
+
+
+
+4. 모디파이어 켠다  
+`Stroke > Use Lights 체크 해제`  
+![image](https://user-images.githubusercontent.com/30430227/137901075-940b8370-79ef-4bea-b978-ea55dbb26c58.png)  
+
+
+5. 그리드 추가  
+`Wireframe modifier`  
+![image](https://user-images.githubusercontent.com/30430227/137901767-fc26e845-34a2-460b-ac0d-1fbcf33d9d6f.png)  
+
+
+
+6. 라인 두께 타입  
+`World Space는 기본적으로 얇다`  
+![image](https://user-images.githubusercontent.com/30430227/137902552-4dc53c24-5289-4337-88bd-47d8d0665c9b.png)  
+
+`Contour 는 두껍게`  
+![image](https://user-images.githubusercontent.com/30430227/137902648-ebcc9fd9-f78a-4260-a9df-7bf53ec9afa4.png)  
+
+
+`Line Art Modifier 복사한 후`  
+![image](https://user-images.githubusercontent.com/30430227/137902808-dacc0fcf-d7f8-4df5-8504-fc1ac178a809.png)  
+![image](https://user-images.githubusercontent.com/30430227/137902874-7e540bc9-95a2-4f95-a4fe-952766c0082d.png)  
+
+
+
+
+
+
+
