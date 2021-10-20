@@ -1,6 +1,11 @@
 Modeling Issues 
 ================
 
+`Subdivide 는 지름을 줄인다 4각/8각 실린더`  
+![image](https://user-images.githubusercontent.com/30430227/138055156-98871bae-40b3-42bb-a9e0-6b4e7504d851.png)
+![image](https://user-images.githubusercontent.com/30430227/138055385-ac4614b1-4658-4a16-86f1-8ed7717f4a53.png)  
+
+
 
 도랑 
 -------
@@ -22,7 +27,10 @@ Modeling Issues
 ![image](https://user-images.githubusercontent.com/30430227/138047724-92916e2d-b7b5-4acd-a576-674f2cf0fea2.png)  
 
 
-5. Move GG  
+5. Smooth Vertex or Move GG   
+
+![image](https://user-images.githubusercontent.com/30430227/138052500-bbd9e116-ea2c-49d0-a252-a6ccfec664f5.png)
+
 ![image](https://user-images.githubusercontent.com/30430227/138047809-b894fa33-7d19-43f1-b38c-ed5340d97af8.png)  
 
 
