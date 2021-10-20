@@ -209,6 +209,7 @@ Filp Horizontal
 
 Line Art Tip
 ----------------
+`생성 방향 - 카메라 뷰 기준으로 생성`  
 
 1. Create Stroke  
 ![image](https://user-images.githubusercontent.com/30430227/137897981-ba9402d0-62d3-4a20-bfc2-05c0683dacd7.png)  
