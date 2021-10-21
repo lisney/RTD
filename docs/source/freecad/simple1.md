@@ -1,4 +1,4 @@
-Simple Example
+Simple Example A
 ==================
 
 Puzzle
