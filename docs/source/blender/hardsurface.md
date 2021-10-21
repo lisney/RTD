@@ -135,3 +135,129 @@ Simple Wire
 
 
 
+Car Body  
+--------------
+
+1. Box > Loop Cut > Mirror(Clipping 체크)  
+![image](https://user-images.githubusercontent.com/30430227/138225273-21866026-017b-4f2e-92d1-17850f466486.png)
+![image](https://user-images.githubusercontent.com/30430227/138225375-867ccc32-aa59-4ae1-9cde-c6359d2ab537.png)  
+
+
+2. Wheel 커버  
+`Bottom Face Delete > Inset(Boundary 체크해제)`  
+![image](https://user-images.githubusercontent.com/30430227/138225863-b4b9c34b-6054-44d0-b040-333c3c429981.png)  
+
+`Inset Face Move > Rip with Fill 'Ctrl - v'`  
+![image](https://user-images.githubusercontent.com/30430227/138226115-5275c288-9c35-4d2f-942e-321e350ad41d.png)  
+
+`Select Edges > Subdivide`  
+![image](https://user-images.githubusercontent.com/30430227/138226287-8ff1ffa5-e239-4875-8b14-b1f4198cb829.png)  
+![image](https://user-images.githubusercontent.com/30430227/138226322-57a1d3e7-422e-49f7-904e-be87470e9e73.png)  
+
+
+3. 보닛  
+`Edges Subdivide`  
+![image](https://user-images.githubusercontent.com/30430227/138226555-a2132bd0-eeb2-47ca-9a7a-1e0542485c17.png)  
+
+
+`Edit`  
+![image](https://user-images.githubusercontent.com/30430227/138226652-8ac4fe4b-5fec-4299-9a89-25e1e4884a8d.png)  
+![image](https://user-images.githubusercontent.com/30430227/138226750-52897d1d-f3ef-47d6-a2fa-c0dddb55c6ef.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/138227030-1e57a1c9-e45f-49e0-b568-2f6991d96191.png)  
+![image](https://user-images.githubusercontent.com/30430227/138227207-6a40ba95-c8d8-4caa-a2ea-1ae1ef9f70ea.png)  
+
+
+
+Curve Solid to Bevel  
+--------------------
+
+1. 2D Shape  
+![image](https://user-images.githubusercontent.com/30430227/138229946-51d1f137-aedf-4552-b63b-743f4698ff47.png)  
+
+`Extrude`  
+![image](https://user-images.githubusercontent.com/30430227/138230026-26957550-0cd1-40c4-839d-757da3fab6ca.png)  
+
+
+2. Bevel Modifier(+Decimate +Weld)  
+![image](https://user-images.githubusercontent.com/30430227/138230179-516acb74-9620-4dc5-8407-3c13ab900227.png)  
+![image](https://user-images.githubusercontent.com/30430227/138230203-8049af17-5bca-4eab-b9cd-168eb5cb9300.png)  
+
+
+3. Solid Modifier(+Decimate)  
+![image](https://user-images.githubusercontent.com/30430227/138230602-5780d661-855e-4b5b-91d7-66611e1219de.png)  
+![image](https://user-images.githubusercontent.com/30430227/138230644-fd074dc2-01a2-4efd-9792-3dbae610c240.png)
+![image](https://user-images.githubusercontent.com/30430227/138230664-94ce970c-9783-406a-908c-9853a232f4ca.png)  
+
+
+
+Curve Wire  
+--------------
+1. Simplify Addon(기존 커브를 복사)  
+
+`Shift - A`  
+![image](https://user-images.githubusercontent.com/30430227/138231848-b35ef8b3-764c-4b35-920b-8c2362c3b58f.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/138231618-fb639726-02fe-4a3f-8405-877c9eb9d108.png)  
+![image](https://user-images.githubusercontent.com/30430227/138232110-b052ba7f-7594-431b-8a36-980e84318342.png)  
+
+
+2. Bevel Curve  
+![image](https://user-images.githubusercontent.com/30430227/138232305-176b00ed-c764-463a-b9a3-c2d8ee2b5bca.png)  
+
+
+
+
+Bend  
+-----------
+
+1. Cutting Plane  
+
+![image](https://user-images.githubusercontent.com/30430227/138236015-ee400627-d428-4658-9f1c-3ea9c663da47.png)  
+
+`Delete Only Face`  
+![image](https://user-images.githubusercontent.com/30430227/138236142-bc5feaac-4b2c-4f89-a64e-35d2e53dbf4e.png)  
+
+`Knife Project`  
+![image](https://user-images.githubusercontent.com/30430227/138236444-3170cb29-0124-4395-8793-6ec585361a87.png)  
+
+
+2. Bend  
+`Empty Local Y-Axis`  
+![image](https://user-images.githubusercontent.com/30430227/138237990-a191efa5-80e1-499d-94c4-f75b5a33cfb8.png)  
+
+
+`Bend`  
+![image](https://user-images.githubusercontent.com/30430227/138237742-28d622f6-92c4-4a95-836c-e44531e32075.png)  
+![image](https://user-images.githubusercontent.com/30430227/138237692-3a7df872-f842-4166-81cb-79cab12eef75.png)  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
