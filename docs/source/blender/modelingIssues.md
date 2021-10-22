@@ -13,6 +13,13 @@ Modeling Issues
 1. 격자  
 ![image](https://user-images.githubusercontent.com/30430227/138047443-b9de505d-d42b-4ee7-b688-154792ca56b2.png)  
 
+`다른방법 Quad2Tri`
+
+![image](https://user-images.githubusercontent.com/30430227/138444800-d50398e8-896d-417f-90cb-72e683bd2f11.png)
+![image](https://user-images.githubusercontent.com/30430227/138444816-eea0c2cf-e844-45c4-8765-3c1e0de183f2.png)
+
+![image](https://user-images.githubusercontent.com/30430227/138444896-1d361af7-b3da-449f-8c96-b18e3c4f6b28.png)
+
 
 2. Circle Select  
 ![image](https://user-images.githubusercontent.com/30430227/138047543-32547736-7ca2-4587-a78d-45f5fae8894d.png)  
