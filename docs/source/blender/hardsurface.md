@@ -269,6 +269,192 @@ Bend
 
 
 
+실린더 모델  
+-------------
+
+1. 4방향 패턴  
+
+![image](https://user-images.githubusercontent.com/30430227/138379322-3f18dd5d-4b74-44ea-853b-2a6aabc2c7cf.png)
+![image](https://user-images.githubusercontent.com/30430227/138379365-14aba5da-1be8-482e-9b01-4a6ab378ace8.png)  
+
+
+`Duplicate Linked`  
+![image](https://user-images.githubusercontent.com/30430227/138379422-ded14f86-b0cc-40f5-a21d-8741593491ac.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/138379412-8ae99ea8-4b1c-49e6-83dc-d46b07ba0f29.png)  
+
+
+`편집`  
+![image](https://user-images.githubusercontent.com/30430227/138379504-d7b6a868-01d2-4f06-826c-8d5452cd0291.png)  
+
+
+
+2. 밴딩  
+
+![image](https://user-images.githubusercontent.com/30430227/138379562-5fe904ba-49ba-4ada-af5c-6ef1b6c17d2d.png)  
+
+`SimpleDeform`  
+![image](https://user-images.githubusercontent.com/30430227/138379738-2468ead4-a562-4d56-ab88-11f61026769d.png)  
+![image](https://user-images.githubusercontent.com/30430227/138379809-55500006-7d8b-449f-b4a0-c3e1f164d8b3.png)  
+
+`편집` 
+![image](https://user-images.githubusercontent.com/30430227/138379978-14353b23-3c3b-4e58-b33d-8535f23e99da.png)  
+![image](https://user-images.githubusercontent.com/30430227/138380114-89decb5f-8892-417a-b6b1-635ffe3a7321.png)  
+
+
+`Seam Error > Weld`  
+![image](https://user-images.githubusercontent.com/30430227/138380331-271397f0-b817-427c-965f-2c261ff7298d.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/138380180-b30e3a63-fda8-459c-9870-039c05907482.png)
+![image](https://user-images.githubusercontent.com/30430227/138380313-b76c5fcf-7675-4309-ae79-029a335b568f.png)  
+
+
+`Array > Top Modifier`  
+![image](https://user-images.githubusercontent.com/30430227/138380422-146e543d-394a-415a-9c14-3acc2adcd80b.png)  
+![image](https://user-images.githubusercontent.com/30430227/138380467-b7d4bbc6-d22f-42c6-b375-e9ccdde36e24.png)  
+
+
+
+3. Grid  
+
+![image](https://user-images.githubusercontent.com/30430227/138380760-ba698820-066c-48b6-ac25-bc7fb62fde35.png)  
+
+
+![image](https://user-images.githubusercontent.com/30430227/138380730-477e7030-2574-4da4-8c3d-20fb0ed96668.png)
+![image](https://user-images.githubusercontent.com/30430227/138380741-7bae9333-65cb-474b-a987-595af869729d.png)  
+
+
+`Move`  
+![image](https://user-images.githubusercontent.com/30430227/138380830-d901307d-ce1f-4423-a899-a832f472bb23.png)  
+
+
+`편집`  
+![image](https://user-images.githubusercontent.com/30430227/138380888-a4beb2e6-8b81-4f79-8135-f457e678ebce.png)  
+![image](https://user-images.githubusercontent.com/30430227/138381007-d04323f5-d7ca-4414-b256-b8ddcb5208c9.png)  
+
+
+![image](https://user-images.githubusercontent.com/30430227/138381076-703e0ddd-4ce7-454e-a149-b6a259b10ad7.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/138381141-2cbb1f3e-e7c8-4745-bc37-673f981338e8.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/138381312-fe6eee8f-a6a5-405c-96d6-ce1a4581c051.png)  
+
+
+
+
+커브 Deform  
+--------------
+
+1. 콘 어레이  
+![image](https://user-images.githubusercontent.com/30430227/138381593-a4fbb0c9-a1f7-45cd-840a-94d006866924.png)  
+
+`Curve Deform`  
+![image](https://user-images.githubusercontent.com/30430227/138381637-c65bc4f1-928b-450f-bf85-6991de32e6ad.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/138381739-77f7e1cb-7bcc-47bb-90f9-ad9d0c0bc837.png)  
+
+`Array`  
+![image](https://user-images.githubusercontent.com/30430227/138381859-d15e268b-3573-40a9-acb3-bae7a2fe67cd.png)
+
+![image](https://user-images.githubusercontent.com/30430227/138381679-6b1caf59-7f2c-4492-8418-834c2ba0f4fb.png)
+![image](https://user-images.githubusercontent.com/30430227/138381877-fbc89ce6-b005-42cf-8757-e5f2f6ea1d62.png)  
+
+
+
+2. 실린더 모델과 응용 예  
+
+![image](https://user-images.githubusercontent.com/30430227/138382492-84216995-d21c-4ecf-83e9-b2dbdbd9b832.png)  
+
+`Mesh to Curve`  
+![image](https://user-images.githubusercontent.com/30430227/138382564-129c867c-a55d-45bb-912f-d728695756dc.png)  
+
+
+`Curve Deform`  
+![image](https://user-images.githubusercontent.com/30430227/138382852-98fdf5c9-637f-4e11-ae66-f0ddb266e715.png)  
+
+`Curve Deform`  
+![image](https://user-images.githubusercontent.com/30430227/138382928-6102d84e-602f-4033-bc5a-e9cf0804e30c.png)
+![image](https://user-images.githubusercontent.com/30430227/138383049-3074835e-05bf-48a8-9a88-9fc690b6b5e0.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/138383312-f3e2ad1a-e7f6-434a-b0e5-46ff7340b418.png)  
+
+
+`왜곡없을려면 Array Vertex 를 Parent로`  
+
+![image](https://user-images.githubusercontent.com/30430227/138384439-ad9e6048-2019-4db9-ae3f-1793c4aabf22.png)  
+![image](https://user-images.githubusercontent.com/30430227/138384457-e489ca38-9cfe-4d1b-a0df-6c04ec7098e2.png)  
+
+
+
+ShrinkWarp 
+------------
+![image](https://user-images.githubusercontent.com/30430227/138385667-7ec22236-57ac-4bb3-bd6a-2445eb7bdc58.png)  
+
+
+`Project > Negative`  
+![image](https://user-images.githubusercontent.com/30430227/138385721-686cb597-6c77-4758-ab57-be79fccbe5b9.png)  
+
+
+
+두껍게 하기 팁(Displace)  
+-------------------------
+
+`Subdivide > Displace Modifier`  
+![image](https://user-images.githubusercontent.com/30430227/138387227-b173c1d5-ac05-42b9-b3f6-fe9200959bbc.png)  
+![image](https://user-images.githubusercontent.com/30430227/138387264-90f0ebda-0b64-4b48-a33e-5528abc9eb69.png)
+
+
+
+![image](https://user-images.githubusercontent.com/30430227/138387422-8a909205-9ac1-4d23-b21d-583fe4b2ec90.png)
+![image](https://user-images.githubusercontent.com/30430227/138387437-fb537ffc-9be3-4876-8f70-4658b26a40f2.png)  
+
+
+
+
+
+미러 Boolean
+--------------
+
+`Cylinder, Plane`  
+![image](https://user-images.githubusercontent.com/30430227/138388234-93d38d18-a694-40ca-a5d6-d7bc6d1206be.png)  
+
+
+`Plane > Solidify`  
+![image](https://user-images.githubusercontent.com/30430227/138388317-d02457f0-a4d8-494e-82ca-6c872bf808ef.png)  
+
+
+`Cylinder > Boolean Diff 'Ctrl + Shift - B' > Mirror(Plane)`  
+![image](https://user-images.githubusercontent.com/30430227/138388402-f2a9974a-4f9f-43df-8be1-aac1f1dbe77c.png)  
+
+
+`변형`  
+![image](https://user-images.githubusercontent.com/30430227/138388484-0765b745-2c22-4295-97b1-7b7dda75dc42.png)
+![image](https://user-images.githubusercontent.com/30430227/138388507-5f6d50d1-99f9-4f76-90de-19a486d78263.png)
+![image](https://user-images.githubusercontent.com/30430227/138388529-9868b2ab-5927-4c75-9aac-e27d78bafca8.png)  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
