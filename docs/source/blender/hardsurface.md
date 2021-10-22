@@ -233,6 +233,43 @@ Bend
 
 
 
+연결 Tip
+----------
+![image](https://user-images.githubusercontent.com/30430227/138376483-a030e83c-ee4f-42a2-8976-977084d4c009.png)  
+
+1. Boolean > Extrude > Vertex Group   
+![image](https://user-images.githubusercontent.com/30430227/138376695-3768a490-aed9-4588-a044-60ef34b0e234.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/138376940-9c714e65-de59-4d58-bfca-5250ca269d4a.png)
+
+
+`Move`  
+![image](https://user-images.githubusercontent.com/30430227/138376982-d2f21de8-9101-494e-8f39-6a92e15a7c3d.png)  
+
+
+2. Shrinkwarp  
+
+![image](https://user-images.githubusercontent.com/30430227/138377188-46620756-37c5-4c19-a8be-41b3875763c5.png)
+![image](https://user-images.githubusercontent.com/30430227/138377175-2d949e36-95cc-4875-9491-ba8768240940.png)  
+
+
+`WeightedNormal`  
+![image](https://user-images.githubusercontent.com/30430227/138378205-9296a661-2c8b-4136-9dfd-5a3825909538.png)  
+
+`Data Transfer`  
+![image](https://user-images.githubusercontent.com/30430227/138377857-9f183a08-19b1-4ce6-aabc-830d5f3b9f34.png)  
+![image](https://user-images.githubusercontent.com/30430227/138378002-ad617321-628f-44b1-bfc7-72e2b6bd029f.png)  
+
+
+3. Displace  
+
+![image](https://user-images.githubusercontent.com/30430227/138378606-0442d306-4590-4428-83b5-ef0beba3c453.png)  
+![image](https://user-images.githubusercontent.com/30430227/138378927-cd8b9042-016e-46ea-b493-ac35dab23dbe.png)  
+
+
+
+
+
 
 
 
