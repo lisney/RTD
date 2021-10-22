@@ -96,6 +96,12 @@ Boolean 디스플레이 문제 시
 
 
 
+Face > Intersect(Knife)
+------------------------
+`Face 모드 > 절단 파트 선택 > Intersect(Knife)`  
+
+![image](https://user-images.githubusercontent.com/30430227/138415128-c5c26b2d-1e25-47c6-ae76-11719316eaf4.png)
+![image](https://user-images.githubusercontent.com/30430227/138415177-4b4f0fbe-943d-495a-8b29-f460b92eea2a.png)
 
 
 
