@@ -45,6 +45,13 @@ Modeling Issues
 ![image](https://user-images.githubusercontent.com/30430227/138048868-c24550f8-ae3c-4111-806f-ec42f3285adc.png)  
 
 
+Mesh Analysis  
+---------------
+
+![image](https://user-images.githubusercontent.com/30430227/138389189-d291f59b-a003-49aa-a5e9-f39f3c1cd8fb.png)  
+
+![image](https://user-images.githubusercontent.com/30430227/138389168-2d743126-82ee-44d9-8682-f44dfc480247.png)  
+`Intersect - 겹침, 더블 체크`  
 
 
 
