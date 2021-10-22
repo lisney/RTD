@@ -7,8 +7,8 @@ Modeling Issues
 
 
 
-도랑 
--------
+고랑-밭/물O(도랑-논/물X) 
+----------------
 
 1. 격자  
 ![image](https://user-images.githubusercontent.com/30430227/138047443-b9de505d-d42b-4ee7-b688-154792ca56b2.png)  
