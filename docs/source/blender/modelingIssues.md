@@ -63,7 +63,26 @@ Boolean 디스플레이 문제 시
 
 
 
+면을 좌표평면에 
+----------------
+![image](https://user-images.githubusercontent.com/30430227/138409740-ccfe595f-34e4-4925-a187-a5fc205ecd3b.png)  
 
+
+`Edit mode > Orientations Normal > Add Face`  
+![image](https://user-images.githubusercontent.com/30430227/138409789-402c1783-fa8d-4e16-9e90-34269d114e32.png)
+![image](https://user-images.githubusercontent.com/30430227/138409878-47628f76-a7b9-4d57-ae90-62cf49cf0f1d.png)  
+
+
+`Select All > 후크 Ctrl - H`  
+![image](https://user-images.githubusercontent.com/30430227/138410220-b615e66d-bef9-48c7-835d-27ac333458e6.png)  
+
+
+`Apply to Transform Orientation`  
+![image](https://user-images.githubusercontent.com/30430227/138410654-eba6f30f-74db-4dd3-ba35-40e475d0318e.png)
+![image](https://user-images.githubusercontent.com/30430227/138410524-3dd9055c-4fd4-47b2-ab21-89a407d9b856.png)
+
+
+`Apply Hook > Clear Rotate/Location`  
 
 
 
