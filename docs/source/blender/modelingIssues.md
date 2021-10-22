@@ -55,6 +55,14 @@ Mesh Analysis
 
 
 
+Boolean 디스플레이 문제 시  
+-------------------------
+`boolean Addon > Wireframe 체크 끈다`  
+![image](https://user-images.githubusercontent.com/30430227/138401403-23e16c2a-4ea6-4c0a-9963-90cc3b458fc7.png)  
+
+
+
+
 
 
 
