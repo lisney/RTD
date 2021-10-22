@@ -86,5 +86,16 @@ Boolean 디스플레이 문제 시
 
 
 
+불린 메쉬 한방에 복사  
+--------------------
+`Ctrl - D > Alt - C(Mesh)`  
+![image](https://user-images.githubusercontent.com/30430227/138414031-005fbb15-65be-400b-82e6-814bb7526c66.png)
+
+![image](https://user-images.githubusercontent.com/30430227/138414086-cd6e7c0a-484a-43a5-9a18-af71f5047ca3.png)
+![image](https://user-images.githubusercontent.com/30430227/138414129-4a8b138a-4cc0-4dca-b004-95c1f296b3a6.png)
+
+
+
+
 
 
