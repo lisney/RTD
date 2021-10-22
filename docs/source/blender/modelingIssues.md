@@ -96,12 +96,41 @@ Boolean 디스플레이 문제 시
 
 
 
+
 Face > Intersect(Knife)
 ------------------------
 `Face 모드 > 절단 파트 선택 > Intersect(Knife)`  
 
 ![image](https://user-images.githubusercontent.com/30430227/138415128-c5c26b2d-1e25-47c6-ae76-11719316eaf4.png)
 ![image](https://user-images.githubusercontent.com/30430227/138415177-4b4f0fbe-943d-495a-8b29-f460b92eea2a.png)
+
+
+
+펴기 팁 
+----------
+
+1. Face Orientation 사용
+
+`Cursor to Selected > Transform Orientations > Face 선택 '+' `  
+![image](https://user-images.githubusercontent.com/30430227/138432509-f7a90f27-7a24-4b0c-94a3-2790578aa9e7.png)
+
+`pivot 3D 커서 > 면 선택 > Scale Z: 0`
+
+![image](https://user-images.githubusercontent.com/30430227/138433024-e8f803f1-f13a-4e13-82aa-cb13c415aafb.png)
+![image](https://user-images.githubusercontent.com/30430227/138432974-56112ae2-5f88-4688-b722-745670637bc4.png)
+
+<br>
+2. Loop Tools 사용
+
+`Select > Hide Unselected 'Shift-H'`  
+
+![image](https://user-images.githubusercontent.com/30430227/138433983-6fc024bc-5f45-4af7-9cdc-b2be2a9bcb1b.png)
+![image](https://user-images.githubusercontent.com/30430227/138434099-b93e8350-9524-466a-9989-e745c804b6d8.png)
+
+`Loop > Flatten`
+
+![image](https://user-images.githubusercontent.com/30430227/138434173-85539f88-a5da-4283-9b55-d1db81dec8ee.png)
+![image](https://user-images.githubusercontent.com/30430227/138434225-4e1cc275-ec86-456f-b7fd-80fd33553692.png)
 
 
 
