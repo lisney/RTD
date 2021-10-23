@@ -141,3 +141,88 @@ Face > Intersect(Knife)
 
 
 
+Knife Project 
+----------------
+
+`메쉬 사용`
+
+![image](https://user-images.githubusercontent.com/30430227/138556236-6b53be1a-2a65-455d-aa19-25375d7f9714.png)
+
+`모든 메쉬 선택 > 마지막으로 테두리 메쉬 선택 Active Mesh > Knife Project`
+
+![image](https://user-images.githubusercontent.com/30430227/138556300-c6605783-528a-4aae-9227-2e8a7dd1693e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/138556322-6970bc99-8039-4204-aebb-1b19f650a8e3.png)
+
+<br>
+
+실린더 격자 무늬 
+----------------
+
+1. Poke Fece
+
+![image](https://user-images.githubusercontent.com/30430227/138556414-f6e22813-c5b5-4616-a6aa-2382c1eae001.png)
+![image](https://user-images.githubusercontent.com/30430227/138556440-2888f715-7523-48e5-9d5d-4e3dc7fd2f43.png)
+
+![image](https://user-images.githubusercontent.com/30430227/138556506-83a085f6-d35d-4d69-a5d8-ae3664863022.png)
+
+![image](https://user-images.githubusercontent.com/30430227/138556559-7685499f-7218-40ee-8c33-8f6d52378fe8.png)
+
+![image](https://user-images.githubusercontent.com/30430227/138556585-81a6fbcb-b356-42cd-bcfb-06b7a3dc105c.png)
+
+<br>
+
+2. Decimate
+
+![image](https://user-images.githubusercontent.com/30430227/138556685-a2dd4458-13f7-4fd6-a682-68d6c09e5948.png)
+
+![image](https://user-images.githubusercontent.com/30430227/138556698-38294d9a-398f-46ff-adec-d6f6022ea9eb.png)
+![image](https://user-images.githubusercontent.com/30430227/138556716-d854d711-eeb2-4021-93b0-bae82a1c393f.png)
+
+`Insect > Extrude`
+
+![image](https://user-images.githubusercontent.com/30430227/138556821-11d10daf-7b95-43a9-915f-8f049ebbc3f7.png)
+
+![image](https://user-images.githubusercontent.com/30430227/138556831-b17decf3-add9-423d-8750-2439594233df.png)
+
+`Subdivide`
+
+![image](https://user-images.githubusercontent.com/30430227/138556871-9b1db99b-7468-4b41-8e9b-e38e83bc28fa.png)
+
+
+<br>
+
+액자 프레임 
+-------------
+
+1. Mirror
+
+![image](https://user-images.githubusercontent.com/30430227/138557416-16010fe8-0f2a-4e4d-9dd8-67fb62ed7365.png)
+
+![image](https://user-images.githubusercontent.com/30430227/138557350-45c67ccb-5fc2-4460-96e6-162dddf7d072.png)
+
+![image](https://user-images.githubusercontent.com/30430227/138557411-6f80aeab-0a73-428f-89c1-660cbe509577.png)
+
+
+2. Bend
+
+![image](https://user-images.githubusercontent.com/30430227/138557464-724bfe45-47ac-4238-8f36-13e4ac0a6350.png)
+
+![image](https://user-images.githubusercontent.com/30430227/138557496-66a18e6e-7656-4e5a-900a-2309789bdedd.png)
+
+![image](https://user-images.githubusercontent.com/30430227/138557499-74a4703f-279e-4458-b9ec-4ee598291580.png)
+
+
+3. Curve
+
+![image](https://user-images.githubusercontent.com/30430227/138557545-759af8c0-7502-4494-bec7-41d37415e0d6.png)
+
+`Mean Tilt: 45  Ctrl - T`
+
+![image](https://user-images.githubusercontent.com/30430227/138557574-ec5ab62f-e758-494e-bbfb-56e346dc4ec0.png)
+
+`Bevel Profile`
+
+![image](https://user-images.githubusercontent.com/30430227/138557882-9143491a-e335-4033-93f6-661dd1aaf0c2.png)
+
+
