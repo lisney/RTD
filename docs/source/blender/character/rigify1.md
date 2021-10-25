@@ -102,6 +102,10 @@ Rigify
 
 ![image](https://user-images.githubusercontent.com/30430227/138642647-5949df89-f531-4da7-a2b7-5fe0b34d05c8.png)
 
+`IK bone > Parent`
+
+![image](https://user-images.githubusercontent.com/30430227/138644828-e21768ef-3fc1-424f-9ccd-b1b1e385b9bd.png)
+
 `foot > Clear Parent > CopyLocation`
 
 ![image](https://user-images.githubusercontent.com/30430227/138642973-d8342d72-6027-4b73-bcde-64d771ab3f0e.png)
@@ -114,5 +118,45 @@ Rigify
 
 ![image](https://user-images.githubusercontent.com/30430227/138643252-4676b9a4-5088-4ad3-8649-78b5a3294376.png)
 ![image](https://user-images.githubusercontent.com/30430227/138643268-08b29f1a-3b3b-4e74-89c9-de1b67e6ca9b.png)
+
+`Symmetrize`
+
+![image](https://user-images.githubusercontent.com/30430227/138644419-0b10900e-5737-4772-9f52-2bc0e23fdef2.png)
+
+<br>
+
+3. Controls > Deform
+
+![image](https://user-images.githubusercontent.com/30430227/138645156-f730ba6f-53a9-4b40-b1fb-61bc25f7768b.png)
+
+`Alt 클릭, 선택한 모두에 적용`
+
+![image](https://user-images.githubusercontent.com/30430227/138645223-28c3647d-882a-405a-a65c-addeab6f8add.png)
+
+
+<br>
+
+4. Weight
+
+![image](https://user-images.githubusercontent.com/30430227/138645547-a9c55f50-2501-47a9-8b2e-984ed3d4353c.png)
+
+<br>
+
+5. Custom Shape
+
+![image](https://user-images.githubusercontent.com/30430227/138645848-fd15fb8f-74cc-414c-81cb-ab2796302800.png)
+
+![image](https://user-images.githubusercontent.com/30430227/138645882-0d78fc05-f6c0-4e61-b7aa-a3a9d762e22a.png)
+![image](https://user-images.githubusercontent.com/30430227/138645929-5fc82bca-0f9c-42f0-9603-f19b2ff323e8.png)
+
+![image](https://user-images.githubusercontent.com/30430227/138645963-e64f5f8a-968d-421a-83b5-76b83fe31fec.png)
+![image](https://user-images.githubusercontent.com/30430227/138645997-e38193e4-9d7a-42bf-99e3-918aae7a9341.png)
+
+![image](https://user-images.githubusercontent.com/30430227/138646022-b2361a30-22ac-46cc-bc78-db89cc7b60be.png)
+![image](https://user-images.githubusercontent.com/30430227/138646057-6b3e7e57-f1c8-466b-bcef-d1034a6f2d07.png)
+
+![image](https://user-images.githubusercontent.com/30430227/138646097-52e8417e-14c9-4455-96d2-78cc61c954d1.png)
+
+![image](https://user-images.githubusercontent.com/30430227/138646155-85155370-267f-4472-abb2-08f10b333755.png)
 
 
