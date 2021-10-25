@@ -75,3 +75,44 @@ Rigify
 
 ![image](https://user-images.githubusercontent.com/30430227/138627929-9041ff99-35ca-405a-baff-465856ae9235.png)
 
+<br>
+
+2. 컨트롤
+
+`extrude & Clear Parent 'IK.L'`
+
+![image](https://user-images.githubusercontent.com/30430227/138628230-b97fa6fa-cf21-4299-ae60-ea49d39a07e6.png)
+
+`IK Constraint`
+
+![image](https://user-images.githubusercontent.com/30430227/138641713-f0f9354d-1f92-4b56-92de-5cf641a2ab4a.png)
+
+`Chain Length: 2, Lock IK`
+
+![image](https://user-images.githubusercontent.com/30430227/138642125-e9b8dc75-3938-4674-a2d4-af3652ec29ac.png)
+
+`Extrud >Clear Parent > Move 'pole.L'`
+
+![image](https://user-images.githubusercontent.com/30430227/138642267-9acb220b-d13f-40e7-8961-f5dbdec1d41b.png)
+![image](https://user-images.githubusercontent.com/30430227/138642284-c70409da-aec3-420a-b45d-720e14ac9530.png)
+
+![image](https://user-images.githubusercontent.com/30430227/138642453-49075c35-e5a0-408e-a914-2edd148f17a3.png)
+
+`pole > Parent`
+
+![image](https://user-images.githubusercontent.com/30430227/138642647-5949df89-f531-4da7-a2b7-5fe0b34d05c8.png)
+
+`foot > Clear Parent > CopyLocation`
+
+![image](https://user-images.githubusercontent.com/30430227/138642973-d8342d72-6027-4b73-bcde-64d771ab3f0e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/138643093-96a62461-b3a9-4e6b-86f4-6835ed6f57ce.png)
+
+`Head/Tail: 1`
+
+![image](https://user-images.githubusercontent.com/30430227/138643237-0cccd22b-02c8-4ab6-b3fc-95a84e267e93.png)
+
+![image](https://user-images.githubusercontent.com/30430227/138643252-4676b9a4-5088-4ad3-8649-78b5a3294376.png)
+![image](https://user-images.githubusercontent.com/30430227/138643268-08b29f1a-3b3b-4e74-89c9-de1b67e6ca9b.png)
+
+
