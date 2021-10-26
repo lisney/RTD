@@ -51,9 +51,74 @@ Rigify 3
 
 ![image](https://user-images.githubusercontent.com/30430227/138853400-2232465a-51fd-4d1a-8e56-30ab1af4e580.png)
 
-`Auto Weight`
+`Auto Weight - 앞 발 이상?`
 
 ![image](https://user-images.githubusercontent.com/30430227/138853645-68921809-2583-4f3c-b69f-d6b35efee8e7.png)
 
+
+<br>
+
+고양이 인간
+------------
+
+1. Bone 
+
+![image](https://user-images.githubusercontent.com/30430227/138863352-eb15f73d-713f-4463-a81d-5c048c09146d.png)
+![image](https://user-images.githubusercontent.com/30430227/138863401-2f4563d6-7550-49af-8754-23028c108a94.png)
+
+`ear & tail 'Hide' > Delete All`
+
+![image](https://user-images.githubusercontent.com/30430227/138863666-b73d7521-f64e-4b62-8c50-e7cd04b2af9a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/138863754-958c3855-5081-41e5-acc4-c656d3e79e29.png)
+![image](https://user-images.githubusercontent.com/30430227/138863802-ff2cc168-00e9-4b94-aa00-868b8372a965.png)
+
+`In Edit Mode > Move Layer 1`
+
+![image](https://user-images.githubusercontent.com/30430227/138864043-86bb949b-416a-4910-9c42-5cd5a7576602.png)
+
+`Combine Bones Ctrl - j > Layer 'Shift - Click'`
+
+![image](https://user-images.githubusercontent.com/30430227/138864431-ffc1038e-ec34-4ae1-a61f-f31c30a26953.png)
+
+![image](https://user-images.githubusercontent.com/30430227/138864295-fc1b5ec6-83b1-403f-a3b5-20826c2e56dc.png)
+![image](https://user-images.githubusercontent.com/30430227/138864469-66435247-4405-467e-b300-5431ae5f8b14.png)
+
+`Bone Edit`
+
+![image](https://user-images.githubusercontent.com/30430227/138864782-20e12df7-5234-4f1b-8cdc-ef1d64825883.png)
+![image](https://user-images.githubusercontent.com/30430227/138865166-c012c962-cea9-4e96-bffb-6b8ee1e50fd4.png)
+
+`Tail Move > Edit, 꼬리 뼈에 뿥일 때 '/' 로컬 뷰`
+
+![image](https://user-images.githubusercontent.com/30430227/138865506-0f9954ba-cb49-437e-9c56-00cfe4befddf.png)
+
+![image](https://user-images.githubusercontent.com/30430227/138865580-724d258c-fc45-4346-8cf9-cbaf1023c621.png)
+
+![image](https://user-images.githubusercontent.com/30430227/138865971-35d5e5a1-9b5e-4b40-8131-e04b6f11f2df.png)
+
+`귀`
+
+![image](https://user-images.githubusercontent.com/30430227/138866067-a7bf2778-3e5a-4736-a68f-445d1f0c3152.png)
+![image](https://user-images.githubusercontent.com/30430227/138866161-11763f10-3dcb-4b1e-a261-6009a093236a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/138866293-5149d18c-3bed-48e8-b481-2d3e93d20d95.png)
+
+<br>
+
+2. Generate Rig
+
+`꼬리는 가능, 귀는 컨트롤이 안 생긴다`
+
+![image](https://user-images.githubusercontent.com/30430227/138866832-faad50b9-23a2-4111-9762-633f602ae095.png)
+
+
+3. 귀 뼈를 지우고 Breast 뼈를 복사하여 귀에 붙인다 > Parent to Head
+
+![image](https://user-images.githubusercontent.com/30430227/138867168-93235868-38d7-43bb-a385-cc110a54a062.png)
+
+`귀 컨트롤이 생김`
+
+![image](https://user-images.githubusercontent.com/30430227/138867384-d157972f-884f-4a00-a12a-4e12810a0b06.png)
 
 
