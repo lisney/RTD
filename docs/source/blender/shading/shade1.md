@@ -1,4 +1,4 @@
-Shading
+Shader 1
 ==============
 
 Rectangle Light(Cycles)
