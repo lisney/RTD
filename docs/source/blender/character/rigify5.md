@@ -66,3 +66,51 @@ IK는 Pin(고정) 애니메이션에 사용
 
 `Tweak 컨트롤 - 카툰 애니메이션, 근육 효과`
 
+<br>
+
+기초 포즈 - 참조이미지(Empty-Image)
+----------------------------------
+
+`Tweak Layer Off`
+
+![image](https://user-images.githubusercontent.com/30430227/139056779-fd683aeb-325f-4d45-958b-24be2a214f88.png)
+
+`팔 FK`
+
+![image](https://user-images.githubusercontent.com/30430227/139056975-0250fcfb-fe0e-4dd8-b91d-df1a4018960d.png)
+![image](https://user-images.githubusercontent.com/30430227/139057016-7f86882b-932b-4164-add9-85ca50385a1a.png)
+
+`다리 - 지탱하는 다리 - IK, 발 차는 다리 - FK`
+
+![image](https://user-images.githubusercontent.com/30430227/139057177-ab60c6aa-61da-4fdc-95cf-27b861a35bfb.png)
+![image](https://user-images.githubusercontent.com/30430227/139057215-9327b679-1032-4479-b251-34e85a49211c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139059656-359a7eb8-f7d2-4aac-abea-0d34e713e370.png)
+
+<br>
+
+1. Torso
+ 
+`Transform Ori 'Local'`
+
+![image](https://user-images.githubusercontent.com/30430227/139057446-24ced9e4-a3d0-42ce-862e-8a4279e6ae6a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139057488-64562a72-c0e8-466b-86cc-3e05930a68ab.png)
+![image](https://user-images.githubusercontent.com/30430227/139057523-39bd5231-0000-4b67-9cb3-8aec669e12e1.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139057548-2bacdc45-19f6-4090-b522-af136a5d5e29.png)
+
+<br>
+
+2. 팔 
+
+`첫 번째 방법 단축키 'R, R'`
+
+`두 번째 방법 Auto IK `
+
+![image](https://user-images.githubusercontent.com/30430227/139059850-4d271b56-6014-4646-b485-b6d8d584f7d9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139060130-13484f79-e033-4c0a-b8b5-84b010d8923b.png)
+
+
+
