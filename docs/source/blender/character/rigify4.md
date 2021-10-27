@@ -118,3 +118,139 @@ Custom Rig 1
 
 ![image](https://user-images.githubusercontent.com/30430227/139002438-9f4996d8-e445-4e0d-838b-a853468ea57d.png)
 
+<br>
+
+Custom Rig 2
+---------------
+
+1. Bone
+
+`Single Bone > Edit Mode > Delete > 'limbs.leg'`
+
+![image](https://user-images.githubusercontent.com/30430227/139008086-826bc315-5523-44aa-8946-6946250dc1b5.png)
+
+`Move > Edit`
+
+![image](https://user-images.githubusercontent.com/30430227/139008232-42335c76-805c-4abc-8dc9-153d75ccd276.png)
+![image](https://user-images.githubusercontent.com/30430227/139008267-7766b6aa-4d45-47fb-a000-7e6a969ccae2.png)
+
+`spines.basic_spine`
+
+![image](https://user-images.githubusercontent.com/30430227/139008393-d5e85329-83a2-45fd-820b-82c5c4d226d3.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139008513-00357de8-df92-4316-9cc0-e689d7824b8d.png)
+![image](https://user-images.githubusercontent.com/30430227/139008552-e581351c-b428-4883-b319-b8d7b8c19797.png)
+
+`limbs.arm`
+
+![image](https://user-images.githubusercontent.com/30430227/139008898-83ec101c-f2e0-43f3-8bf5-a0b6361ddf1f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139008919-5eb698e4-081c-49cb-8fcd-0b5d38ff83fd.png)
+
+`limbs.simple_tentacle > Delete > 'finger', 'finger1 > Edit`
+
+![image](https://user-images.githubusercontent.com/30430227/139008983-025aa61f-ac74-4347-b230-e00031b2d862.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139009027-d8490421-be0b-4e7c-a68e-d141a07833dc.png)
+![image](https://user-images.githubusercontent.com/30430227/139009292-18053cd4-8ad3-4a08-b113-63727c4926e4.png)
+
+`Duplicate`
+
+![image](https://user-images.githubusercontent.com/30430227/139009348-d0cd46c4-51ca-4c97-b017-c45f4fd86918.png)
+
+`Simmetrize`
+
+![image](https://user-images.githubusercontent.com/30430227/139010044-73e6dcde-6e74-4dad-aed6-d286f4a9b9a0.png)
+
+`spines.super_head > Dissolve Bone`
+
+![image](https://user-images.githubusercontent.com/30430227/139010218-53f55d1e-389a-4eda-bf39-159b1c0af08f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139010260-dd360a0a-005e-4de7-b4db-1522e73ab522.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139010452-ab785eae-5acc-4db5-882f-173e9170db76.png)
+![image](https://user-images.githubusercontent.com/30430227/139010473-5322aa82-6a90-441c-8edd-c0b5091297a9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139010668-b6eb5afb-9f18-4329-8145-65790257ca50.png)
+
+`Pose Mode > Connect Chain`
+
+![image](https://user-images.githubusercontent.com/30430227/139010690-6dad30ac-7114-4d8b-b69b-c313ef1b6947.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139010719-5767e11c-186a-45ef-892b-13516205b256.png)
+
+`Edit Mode > Add Bone > 'tentacle.L' > Extrude`
+
+![image](https://user-images.githubusercontent.com/30430227/139010881-8310ec27-6f60-4dfc-834f-131a2e089b56.png)
+![image](https://user-images.githubusercontent.com/30430227/139010940-ef23c5e1-64f6-4273-928b-49c05466c90d.png)
+
+`Pose Mode > limbs.simple_tentacle`
+
+![image](https://user-images.githubusercontent.com/30430227/139011072-69c278f0-8e93-4709-9383-dfe6e1f9db2a.png)
+
+`Simmetrize > Extrude`
+
+![image](https://user-images.githubusercontent.com/30430227/139011324-3aabe692-4268-4e7e-830b-bb3d60c1a568.png)
+![image](https://user-images.githubusercontent.com/30430227/139011364-4015bd9d-da98-41be-9b40-e254362afd95.png)
+
+`Add Bone > 'eye' > Rig Type: Deform Uncheck > 눈 알의 중심으로 이동 Select to Cursor(Not offset)`
+
+![image](https://user-images.githubusercontent.com/30430227/139012295-3d7f8a1b-1eba-4edf-b384-c09ab4d5b3b1.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139011628-d3c01956-6cf8-4bed-bde2-ac6bf9f318f1.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139011862-e9b5575c-d98b-4a0e-b239-74b276245116.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139012141-fd87c610-59b3-4061-acbe-7e11f0a3bb10.png)
+
+`Extrude > 'pelvis.L' > Rig Type: Control Uncheck > Simmetrize`
+
+![image](https://user-images.githubusercontent.com/30430227/139012538-302d906e-e3bb-4dd1-ae23-42066412586c.png)
+![image](https://user-images.githubusercontent.com/30430227/139012563-16caaa7a-98f0-4b96-ac37-ed05c488c087.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139012754-dd86f5e0-b7c1-4e0a-8708-0b218a206e8f.png)
+
+`Copy pelivs > Batch Rename - 펠비스, 체스트, 스컬 본은 말단 본의 변형 영역을 제한한다`
+
+![image](https://user-images.githubusercontent.com/30430227/139013190-fc1791a1-dfde-478d-a79d-c57a1b528daa.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139013312-b46c65a1-6ba7-4b47-bf04-452ce184e6d7.png)
+
+`Copy chest > Batch Rename`
+
+![image](https://user-images.githubusercontent.com/30430227/139013527-97245fa3-baeb-448f-ac91-9d174ebcf7f4.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139013561-84ff2f47-222a-48fa-9b12-d4d9b23269dd.png)
+
+`Parent`
+
+![image](https://user-images.githubusercontent.com/30430227/139013819-1bc2d354-b719-414d-9c25-f9cf501fdf73.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139013776-bf64e22e-dd3d-4a79-9c75-c092f1062d1c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139013875-abb08649-fcd5-4c9b-b8d0-12f2e3da1db5.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139013978-b813ccf7-53ef-4dad-9caa-90111c27bdfe.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139014061-3813faaf-6089-49c4-87c9-90e98e76b979.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139014129-8e6fb335-276f-4cb2-acce-edc3a64b1ecf.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139014299-28a2bf6d-4702-4974-850d-2e4dd3fdc464.png)
+
+<br>
+
+2. Generate Rig
+
+![image](https://user-images.githubusercontent.com/30430227/139014552-864e024d-23de-41e9-a2b2-0e511113d67d.png)
+
+`눈 Weight > 눈 메쉬 와 릭 쉐이프 선택 후 Pose Mode `
+
+![image](https://user-images.githubusercontent.com/30430227/139015251-7a8ceecd-74b4-4199-9366-9d776646e1c7.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139016368-fa04b9ad-12fb-4fd7-8f6b-d1d7a299379d.png)
+
+
+
+
+
