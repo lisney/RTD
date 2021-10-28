@@ -113,4 +113,9 @@ IK는 Pin(고정) 애니메이션에 사용
 ![image](https://user-images.githubusercontent.com/30430227/139060130-13484f79-e033-4c0a-b8b5-84b010d8923b.png)
 
 
+3. 포즈 
+
+![image](https://user-images.githubusercontent.com/30430227/139167175-2036afe0-7b01-4c7b-be47-327c154a08ae.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139167497-25640ed5-5c6f-4f4a-89cc-15c5c5ca34e2.png)
 
