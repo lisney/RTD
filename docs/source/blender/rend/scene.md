@@ -40,3 +40,48 @@ Gobos
 Sci-Fi
 ---------
 
+1. 바닥
+
+`Camera Position > Add Plane`
+
+![image](https://user-images.githubusercontent.com/30430227/139192751-7493bbb7-6ca3-4b1c-9d7c-9bc0325d51b2.png)
+
+`Rotate > Scale S-X-X > Back Edge Extrude > Subdivide Ctrl-5`
+
+![image](https://user-images.githubusercontent.com/30430227/139192832-8f13c762-b96f-4909-931e-f096d651c4cb.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139192888-7de80519-4685-4a56-b431-b9b02414392d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139193000-bd0efe39-37da-4f90-b346-3fb523e318dd.png)
+
+`Material - Dark blue`
+
+![image](https://user-images.githubusercontent.com/30430227/139193187-6206a0af-71c6-423e-abad-1ea9847e65a6.png)
+
+`World Shade, Area/Point Light(Blue)`
+
+![image](https://user-images.githubusercontent.com/30430227/139193696-86957cd7-2a72-4c73-940d-ad2823d8cca3.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139193932-d34df103-aaa6-4037-9dbc-8fc7e72d0099.png)
+![image](https://user-images.githubusercontent.com/30430227/139194322-067946ed-f3fa-4bd2-be4a-adf5e4ad344d.png)
+
+2. Product 재질
+
+`Ambient Occlusion`
+
+![image](https://user-images.githubusercontent.com/30430227/139196827-f60b1020-77d5-424e-9e9d-6d001a0840d3.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139196853-db51d8dc-8361-4e63-88d1-fca35549288c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139197764-41094b57-7953-4ffd-9e04-70426448790e.png)
+
+3. Camera
+
+`DOF`
+
+![image](https://user-images.githubusercontent.com/30430227/139200513-521c5d98-f979-471c-a5c9-c27dcce3cd03.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139200385-dd8a99b6-a1b1-4f0d-917b-ce1aea1a86d4.png)
+
+
+
