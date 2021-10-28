@@ -29,8 +29,25 @@ Proximity
 ![image](https://user-images.githubusercontent.com/30430227/139174082-b2d2b81e-fc9d-4e18-84b5-0c04445f1ba9.png)
 ![image](https://user-images.githubusercontent.com/30430227/139174132-b38d12fd-e7fa-4036-bc08-7444c15d02eb.png)
 
-`Shrink Rate > Color > Mix RGB`
+`Shrink Rate > Color > Mix RGB(RGB를 Vector 조절 로 사용가능)`
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/30430227/139174646-4b9e115e-59af-4570-8905-e9815b712032.png)
 ![image](https://user-images.githubusercontent.com/30430227/139174598-60ec8b4f-1bc4-4780-80fc-a433123903ff.png)
+
+`FallOff`
+
+![image](https://user-images.githubusercontent.com/30430227/139181689-7ca802b5-cea5-403b-9191-85761b989773.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139181706-998894d9-8aea-4dcb-b48b-294ae05f0c5f.png)
+
+`Instance`
+
+![image](https://user-images.githubusercontent.com/30430227/139182082-26426c99-d280-4b4a-9c2e-2d5af8f41950.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139182098-88223b94-d554-4c64-b197-f43100faf0df.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139182165-653fb62d-30d1-441c-a7ce-2401bf7ab431.png)
+
+
+
 
