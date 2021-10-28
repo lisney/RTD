@@ -50,12 +50,19 @@ Proximity
 
 <br>
 
-Rotate 
+Instance 
 ----------
+
+`Rotate`
 
 ![image](https://user-images.githubusercontent.com/30430227/139263624-1e42f283-acbe-450f-887f-31b5668fc71f.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/139263713-0b2de229-165b-4688-a3a5-434e9c376150.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/139263532-e8354f09-6727-4a22-96bd-d7f2e084f4df.png)
+
+`Scale`
+
+![image](https://user-images.githubusercontent.com/30430227/139265085-5c6da159-5930-45ac-82d8-c4c78b57d4b3.png)
+![image](https://user-images.githubusercontent.com/30430227/139265054-bb96b8e4-fe60-4f22-817e-740504aa9cc4.png)
 
