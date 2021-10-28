@@ -118,7 +118,7 @@ Rigify Weight
 
 ![image](https://user-images.githubusercontent.com/30430227/139250242-c52805fe-d2b5-4cd5-9c5b-612ebfcf7629.png)
 
-`본이든 컨트롤이든 맘껏`
+`컨트롤로 포즈를 잡은 후 본을 선택하여 페인팅한다`
 
 ![image](https://user-images.githubusercontent.com/30430227/139250288-d9fa897d-03e7-43d1-bc80-8098ccf043a0.png)
 
