@@ -345,7 +345,18 @@ Tractor Tire
 
 갈고리  
 ----------
-1. Datum  
+
+1. 2 Sketch
+
+![image](https://user-images.githubusercontent.com/30430227/139189253-da50fb4d-4908-41a1-8447-0bccef9d3a7a.png)
+![image](https://user-images.githubusercontent.com/30430227/139189208-b4112a9d-b273-47fe-9265-fb16f5e2fea8.png)
+
+`Datum Point`
+
+![image](https://user-images.githubusercontent.com/30430227/139189349-55355c55-721a-4e48-bfaa-0688722acf67.png)
+![image](https://user-images.githubusercontent.com/30430227/139189363-1b1fe6eb-78cb-4645-be99-b111f8e86b34.png)
+
+2. Datum  
 ![image](https://user-images.githubusercontent.com/30430227/136193026-4e76d357-d124-44a7-80f2-e6f43c5fde47.png)
 ![image](https://user-images.githubusercontent.com/30430227/136193043-4798fa34-64d3-4511-9b9c-4ebaf6451c4a.png)  
 
