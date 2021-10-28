@@ -79,3 +79,45 @@ Instance
 
 ![image](https://user-images.githubusercontent.com/30430227/139269203-72e22e07-80be-421c-9f7a-33e1bd218f04.png)
 
+<br>
+
+Fire Fly
+-----------
+
+1. Box > name 'emitter' > Geometry node
+
+2. Suzi > New Collection > name 'firefly'
+
+![image](https://user-images.githubusercontent.com/30430227/139270900-7ffc0bec-a5c4-4cd4-8105-0086f23497b1.png)
+
+3. Geometry Nodes
+
+`Collection 을 사용하면 Collection 내 모든 모델에 같은 Geometry Nodes효과, Distribute노드는 밀도 조절`
+
+![image](https://user-images.githubusercontent.com/30430227/139271493-61e16aba-6c1f-4e81-9381-92be7669fd98.png)
+
+`Noise Texture Node(0~1의 값) > -0.5 (-0.5~0.5)`
+
+![image](https://user-images.githubusercontent.com/30430227/139274005-0c4450c0-7007-4b81-a31b-78f96120c50d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139274124-248131dd-0406-48c9-9768-9fc1a05058b1.png)
+
+`fly Animation`
+
+![image](https://user-images.githubusercontent.com/30430227/139274422-e89628cf-e7ff-4403-a3f0-1ac85d4dbe8b.png)
+
+`Instance - Noise Texture 가 랜덤 노드와 같은 효과, Map Range 노드로 효과 키움`
+
+![image](https://user-images.githubusercontent.com/30430227/139275393-9d4b9886-9bc3-4fb8-92d6-172f63d5d8de.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139275579-402ad235-ca23-4cfe-a7d5-ecba94c3a791.png)
+
+
+`Material`
+
+![image](https://user-images.githubusercontent.com/30430227/139277441-cf6e41ae-26ab-4a73-baf5-811d6876b482.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139277511-44285ad5-86b1-4c97-8677-d97971145322.png)
+
+
+
