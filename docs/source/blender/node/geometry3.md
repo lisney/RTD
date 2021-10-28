@@ -53,7 +53,7 @@ Proximity
 Instance 
 ----------
 
-`Rotate`
+`Rotate Normal`
 
 ![image](https://user-images.githubusercontent.com/30430227/139263624-1e42f283-acbe-450f-887f-31b5668fc71f.png)
 
@@ -61,8 +61,21 @@ Instance
 
 ![image](https://user-images.githubusercontent.com/30430227/139263532-e8354f09-6727-4a22-96bd-d7f2e084f4df.png)
 
-`Scale`
+`Scale Random`
 
 ![image](https://user-images.githubusercontent.com/30430227/139265085-5c6da159-5930-45ac-82d8-c4c78b57d4b3.png)
 ![image](https://user-images.githubusercontent.com/30430227/139265054-bb96b8e4-fe60-4f22-817e-740504aa9cc4.png)
+
+
+`Proximity Scale`
+
+![image](https://user-images.githubusercontent.com/30430227/139266611-8c917735-a27f-496e-a731-454c1d6bd0bb.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139266820-cd907879-619a-4fe5-8351-8866b07e7ac6.png)
+
+`Proximity Position`
+
+![image](https://user-images.githubusercontent.com/30430227/139269113-4f26a02b-a884-4ddd-8fa8-4c1f042a0551.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139269203-72e22e07-80be-421c-9f7a-33e1bd218f04.png)
 
