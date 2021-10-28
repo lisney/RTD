@@ -48,6 +48,14 @@ Proximity
 
 ![image](https://user-images.githubusercontent.com/30430227/139182165-653fb62d-30d1-441c-a7ce-2401bf7ab431.png)
 
+<br>
 
+Rotate 
+----------
 
+![image](https://user-images.githubusercontent.com/30430227/139263624-1e42f283-acbe-450f-887f-31b5668fc71f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139263713-0b2de229-165b-4688-a3a5-434e9c376150.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139263532-e8354f09-6727-4a22-96bd-d7f2e084f4df.png)
 
