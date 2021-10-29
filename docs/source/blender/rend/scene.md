@@ -95,5 +95,23 @@ Sci-Fi
 
 ![image](https://user-images.githubusercontent.com/30430227/139439196-1fc9f167-2f8b-482a-ab07-0f40b958e7bb.png)
 
+<br>
+
+호타루 
+-----------
+
+`Film > Filter Size 값이 높으면 부드럽게 랜더링된다-안티알리어싱`
+
+![image](https://user-images.githubusercontent.com/30430227/139443408-d914e40f-389d-44e5-b44d-df3191981fa3.png)
+
+`Particle`
+
+![image](https://user-images.githubusercontent.com/30430227/139444006-032677fd-08b9-4398-b4d4-455b399839b0.png)
+![image](https://user-images.githubusercontent.com/30430227/139444074-ed10217d-6d0c-4083-92ba-49d8728bd1aa.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139444099-1ba38e3f-97f1-4895-b075-b53cfab3837c.png)
+![image](https://user-images.githubusercontent.com/30430227/139444169-8f75af64-64a8-452d-aa00-ac8b34f5e8be.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139444268-356b2077-d0f9-410a-a565-7be5e819d354.png)
 
 
