@@ -26,3 +26,12 @@ Glass
 
 ![image](https://user-images.githubusercontent.com/30430227/138906701-1b365d16-ae4d-4c6f-a827-e4bdf8fa5978.png)
 
+<br>
+
+Concrete
+-----------
+
+![image](https://user-images.githubusercontent.com/30430227/139505693-5bff0069-3937-4344-98b6-22293b247bc2.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139505751-e4e65e99-f2ba-4b2c-9e1c-85d95eab5870.png)
+
