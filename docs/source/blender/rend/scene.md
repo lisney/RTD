@@ -83,5 +83,17 @@ Sci-Fi
 
 ![image](https://user-images.githubusercontent.com/30430227/139200385-dd8a99b6-a1b1-4f0d-917b-ce1aea1a86d4.png)
 
+<br>
+
+안개 애니메이션 
+----------------
+
+`Shift - s 노드 바꿔치기`
+
+![image](https://user-images.githubusercontent.com/30430227/139439235-6c87d08a-e3d8-4880-966a-46a8b5ad4b6b.png)
+
+
+![image](https://user-images.githubusercontent.com/30430227/139439196-1fc9f167-2f8b-482a-ab07-0f40b958e7bb.png)
+
 
 
