@@ -119,5 +119,20 @@ Fire Fly
 
 ![image](https://user-images.githubusercontent.com/30430227/139277511-44285ad5-86b1-4c97-8677-d97971145322.png)
 
+<br>
 
+수지 뿔 정리 
+------------
+
+`뿔을 회전하려면 Multiply 노드를 Rotation 에 연결한다`
+
+![image](https://user-images.githubusercontent.com/30430227/139428452-03449d55-73fb-495b-8c43-511a01b81362.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139428428-da64e71d-767b-4010-b85e-fe7fcc6fc828.png)
+
+`Empty 컨트롤`
+
+![image](https://user-images.githubusercontent.com/30430227/139430777-0c0ceff7-4b71-4e32-bb45-6aa220282e74.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139430837-693d6a64-5d15-419e-ab4a-ff578cece1f5.png)
 
