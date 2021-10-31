@@ -49,5 +49,10 @@ Geometry Node 3B
 
 ![image](https://user-images.githubusercontent.com/30430227/139567684-03b45528-b426-4134-862a-945b2ab2d07a.png)
 
-`[옵션]다음 원의 사이즈 조절`
+`[옵션]Instance 원의 Index 별 사이즈 조절`
+
+![image](https://user-images.githubusercontent.com/30430227/139568234-2bf866ba-3423-4de0-bccb-8f3ad9c050ee.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139568263-9c8cdefc-580d-47a6-9ea1-656cbd5cafd8.png)
+
 
