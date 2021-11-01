@@ -1,6 +1,17 @@
 Shader 1
 ==============
 
+Dot
+----
+
+`Voronoi Texture - Distance`
+
+![image](https://user-images.githubusercontent.com/30430227/139608482-6f46850f-64f2-45c7-92a3-1d827d2c2f91.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139608492-a9e6724e-fac9-489f-8b2f-11f35ccf9bb4.png)
+
+<br>
+
 Rectangle Light(Cycles)
 -----------------
 ![image](https://user-images.githubusercontent.com/30430227/130893362-9e19c6e4-2ef4-417f-9dde-e40f7c2c0d25.png)
