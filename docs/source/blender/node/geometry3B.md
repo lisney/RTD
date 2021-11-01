@@ -85,5 +85,18 @@ Screw 효과
 
 ![image](https://user-images.githubusercontent.com/30430227/139608025-ebdbf441-b1e2-4baa-b003-3d9a9bf870c4.png)
 
+<br>
 
+Spem
+------
+
+`Wave Modifier`
+
+![image](https://user-images.githubusercontent.com/30430227/139609206-963475d9-120e-4591-996d-c3f821e34700.png)
+
+`Geometry Node`
+
+![image](https://user-images.githubusercontent.com/30430227/139609251-672b2544-0208-4795-a293-ed9f0ade1d12.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139609336-ab25b8df-6dd7-4c3c-bff2-3451632c410b.png)
 
