@@ -64,4 +64,26 @@ DNA
 
 ![image](https://user-images.githubusercontent.com/30430227/139569920-9efe1430-4156-4181-ab67-01c2dfcdcf5b.png)
 
+<br>
+
+Screw 효과
+------------
+
+![image](https://user-images.githubusercontent.com/30430227/139607359-c8ff6d0e-47bb-422b-93e2-703c92b07be3.png)
+
+`볼트형태`
+
+![image](https://user-images.githubusercontent.com/30430227/139607612-b32131d1-5b05-4078-bb49-606bc09f64ab.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139607848-210cc9ff-877d-498c-8d82-81d03e557e86.png)
+
+`Empty to Scale`
+
+![image](https://user-images.githubusercontent.com/30430227/139607961-99dbedf2-bb31-4f61-86fa-c7564e8ad978.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139607944-40e3f6c0-c24b-4392-8a5b-e59eeda66b55.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139608025-ebdbf441-b1e2-4baa-b003-3d9a9bf870c4.png)
+
+
 
