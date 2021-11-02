@@ -32,3 +32,12 @@ Geometry Node 3.0
 
 ![image](https://user-images.githubusercontent.com/30430227/139792240-ad9fcd59-a3a3-46f4-bbcc-8328f05b17e6.png)
 
+
+4. Node Socket
+
+`Ctrl - H`
+
+![image](https://user-images.githubusercontent.com/30430227/139835750-b0e6e6e5-6c9f-49d5-8dab-1a0d22817484.png)
+![image](https://user-images.githubusercontent.com/30430227/139835771-d0edee06-afab-472e-bc18-801d95b7e11e.png)
+
+
