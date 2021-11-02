@@ -40,9 +40,40 @@ Donut
 1. 빵 
 
 ![image](https://user-images.githubusercontent.com/30430227/139834284-997a9b18-a19d-4a72-aa60-291a79f34349.png)
+
 ![image](https://user-images.githubusercontent.com/30430227/139834250-6f2b5a00-5118-4f7a-a0b4-f7f73c5b2327.png)
 
 <br>
 
 2. Icing 
+
+![image](https://user-images.githubusercontent.com/30430227/139837216-7918dcf0-ce7e-401f-b2d7-36f9289c7f60.png)
+![image](https://user-images.githubusercontent.com/30430227/139837307-e26f5e98-111d-4506-bc36-d623eb94f74a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139837374-494f1d85-645f-45f6-bcd2-6966d0584cb6.png)
+
+<br>
+
+3. Sprinkles
+
+![image](https://user-images.githubusercontent.com/30430227/139843378-1c60c46c-a27e-4d16-a517-a585d8a44a36.png)
+![image](https://user-images.githubusercontent.com/30430227/139843566-d5c90649-1615-4d70-967c-fda9054b552a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139843539-66bc1607-623e-4eae-8fde-35f9e234c6d7.png)
+
+4. Material
+
+![image](https://user-images.githubusercontent.com/30430227/139843934-053f2b7d-cf52-45bd-86e4-33c845e5b099.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139844365-c4ed356d-04ab-4dc6-92e1-9b675e0ed1c4.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139844393-ca19ea8c-e6c3-473c-a108-231caa4488c0.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139845381-3624191e-6f7c-4143-a9ed-a51396967695.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139845537-3f440007-069e-4721-8208-e91fd01ee285.png)
+
+5. 랜더
+
+![image](https://user-images.githubusercontent.com/30430227/139845715-33d8ee0f-d5bb-484d-aa2b-9c1ca0db0c2a.png)
 
