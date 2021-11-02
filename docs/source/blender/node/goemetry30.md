@@ -28,3 +28,7 @@ Geometry Node 3.0
 
 3. Split Edges
 
+![image](https://user-images.githubusercontent.com/30430227/139792222-2d9466d3-3f3f-4f25-b466-f002a68483e0.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139792240-ad9fcd59-a3a3-46f4-bbcc-8328f05b17e6.png)
+
