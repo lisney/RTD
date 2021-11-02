@@ -77,3 +77,43 @@ Donut
 
 ![image](https://user-images.githubusercontent.com/30430227/139845715-33d8ee0f-d5bb-484d-aa2b-9c1ca0db0c2a.png)
 
+<br>
+
+누들누들 
+---------
+
+1. Mesh Line
+
+`Hook > Cloth`
+
+![image](https://user-images.githubusercontent.com/30430227/139947444-312b0bae-1f35-4d23-8370-63d62cc41879.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139947513-2327578a-d3f5-4437-93d7-78634fde02b8.png)
+
+`Pin Point`
+
+![image](https://user-images.githubusercontent.com/30430227/139947584-bd873bfd-8f3b-4152-9f63-2735e6fdd4c7.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139947641-c2e91028-3433-4814-93a3-f21d79c19448.png)
+
+`Geometry Node`
+
+![image](https://user-images.githubusercontent.com/30430227/139947813-541901bc-9dac-4267-9420-e3c1cbe6c183.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139947835-ea5348a9-b084-4fad-a620-b4ebb24457f2.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139948191-bf4de753-05d5-461d-be7f-8c4379e11ea6.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139948222-f15700ed-0c4c-47a5-aceb-0b7ec4164640.png)
+
+`Material`
+
+![image](https://user-images.githubusercontent.com/30430227/139949510-c0051c39-1998-4e1d-a393-1ce009bf6a53.png)
+![image](https://user-images.githubusercontent.com/30430227/139949623-e2389797-b294-447a-b2e4-11a20f9f160e.png)
+
+`반복은 Fraction`
+
+![image](https://user-images.githubusercontent.com/30430227/139950078-ca3e9c46-f13f-4e4d-98d7-35fa53b13d73.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139950177-2d00e870-ca18-4af8-956a-602c50cce2ad.png)
+
