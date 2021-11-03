@@ -70,8 +70,3 @@ Tool패널의 Blade면도칼 단축키 해제할 것 (Remove ShortCut)
 ![image](https://user-images.githubusercontent.com/30430227/137093521-008e304b-5119-4468-a017-43b575834b81.png)  
 ![image](https://user-images.githubusercontent.com/30430227/137093881-6633229e-36d0-4af6-8f8b-463039dcb068.png)  
 
-
-
-
-
-# Zoom In/Out : 넘패드에서 자판으로 바꾸기 View2D의 단축키 바꾼다
