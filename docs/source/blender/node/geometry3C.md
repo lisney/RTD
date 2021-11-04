@@ -117,3 +117,18 @@ Donut
 
 ![image](https://user-images.githubusercontent.com/30430227/139950177-2d00e870-ca18-4af8-956a-602c50cce2ad.png)
 
+<br>
+
+Ring
+-----
+
+![image](https://user-images.githubusercontent.com/30430227/140256780-ad8493a4-5662-4288-b671-4e57bf4c8631.png)
+
+![image](https://user-images.githubusercontent.com/30430227/140256756-a4ced21a-8b77-4da6-9179-d235b86815fd.png)
+
+![image](https://user-images.githubusercontent.com/30430227/140256867-49a0ae66-3b09-4257-aaa3-241de463128e.png)
+![image](https://user-images.githubusercontent.com/30430227/140256892-b50d93aa-a9f4-48f2-a5b3-1dd9822a0f63.png)
+
+
+
+
