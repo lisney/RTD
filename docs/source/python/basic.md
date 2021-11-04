@@ -57,4 +57,19 @@ endswith - 확장명 확인 <-> startswith
 
 5. 리스트
 
+```
+insert 메소드
+>movie_rank.insert(1, "슈퍼맨"); print(movie_rank)
+
+del 예약어, remove() 매서드
+> del movie_rank[3]
+> movie_rank.remove("슈퍼맨");print(movie_rank)
+
+min, max, sum, len 함수
+> min(nums)  //배열의 최솟값
+
+
+
+```
+
 
