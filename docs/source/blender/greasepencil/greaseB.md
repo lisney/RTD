@@ -29,3 +29,31 @@ GreasePencil B
 
 ![image](https://user-images.githubusercontent.com/30430227/139945581-154d12d0-b668-4477-9704-ff5c9c57563b.png)
 
+`Curve Bevel(fillGap 체크) > Convert Mesh >Remesh`
+
+![image](https://user-images.githubusercontent.com/30430227/140262191-fff5db56-065c-460f-8495-5b5d57bcf817.png)
+
+![image](https://user-images.githubusercontent.com/30430227/140262785-fd30eea6-09d6-4c9b-8749-0853bca53fc8.png)
+
+`Edit > Connected Only`
+
+![image](https://user-images.githubusercontent.com/30430227/140262897-b14f9763-03f6-41fb-b7f5-92a3171de5b3.png)
+![image](https://user-images.githubusercontent.com/30430227/140262917-6d450392-b360-4cfd-a856-59c3d3300119.png)
+
+`Apply > Visual Geometry to Mesh(Alt - C, Sculpt Dyntopo 시 Undo 에러 안생김) > Mesh to Sculpt`
+
+![image](https://user-images.githubusercontent.com/30430227/140267006-7a38db9b-4dbb-4833-abf7-14e64699a90a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/140266693-0cdd3e67-ce00-4b82-bc84-05f06ddf7129.png)
+![image](https://user-images.githubusercontent.com/30430227/140266716-2d79b939-8332-4d5f-9d80-c4be9af2359d.png)
+
+`가는 가지 스컬핑 시`
+
+![image](https://user-images.githubusercontent.com/30430227/140267132-5921747c-8734-4650-862e-6bec123f073e.png)
+
+
+
+
+
+
+
