@@ -57,6 +57,4 @@ endswith - 확장명 확인 <-> startswith
 
 5. 리스트
 
-```
 
-```
