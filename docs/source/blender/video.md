@@ -74,6 +74,7 @@ Tool패널의 Blade면도칼 단축키 해제할 것 (Remove ShortCut)
 17. Select > Side of Frame > Current Frame
 
 `단축키 지정: 2`
+`select > Channel 단축키 지정: ~`
 
 18. Swap Strips -좌/우 클립과 교체
 
