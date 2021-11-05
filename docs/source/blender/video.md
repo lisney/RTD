@@ -96,3 +96,6 @@ Power Sequencer
 
 `shift - C 한 채널의 모든 갭을 없앤다`
 
+2. Speed
+
+`Space(Play) > Ctrl - 1/2/3/4/5`
