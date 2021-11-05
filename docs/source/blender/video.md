@@ -29,7 +29,8 @@ Tool패널의 Blade면도칼 단축키 해제할 것 (Remove ShortCut)
 `shift + s Snap Strips to the Current Frame`  
 
 8. Remove Gaps (Backspace)  
-`한방에 전체 갭 삭제 Shift - Backspace`  
+`한방에 전체 갭 삭제 Shift - Backspace -> 단축키 바꿈: 5`
+`Insert Gap 단축키 지정: 1`
 
 9. 선택한 클립의 해상도를 랜더해상도로 바꿈 Set Render Size 
 ![image](https://user-images.githubusercontent.com/30430227/137072813-3d788639-7703-4b4c-9959-c3a6d8bee442.png)  
@@ -70,3 +71,16 @@ Tool패널의 Blade면도칼 단축키 해제할 것 (Remove ShortCut)
 ![image](https://user-images.githubusercontent.com/30430227/137093521-008e304b-5119-4468-a017-43b575834b81.png)  
 ![image](https://user-images.githubusercontent.com/30430227/137093881-6633229e-36d0-4af6-8f8b-463039dcb068.png)  
 
+17. Select > Side of Frame > Current Frame
+
+`단축키 지정: 2`
+
+18. Swap Strips -좌/우 클립과 교체
+
+`Alt - L/R Arrow`
+
+19. Transform Mode
+
+`상단 가운데 위치`
+
+![image](https://user-images.githubusercontent.com/30430227/140476168-21d5090d-7a3d-47ff-8c09-47b91a493e0f.png)
