@@ -85,3 +85,14 @@ Tool패널의 Blade면도칼 단축키 해제할 것 (Remove ShortCut)
 `상단 가운데 위치`
 
 ![image](https://user-images.githubusercontent.com/30430227/140476168-21d5090d-7a3d-47ff-8c09-47b91a493e0f.png)
+
+
+<br>
+
+Power Sequencer
+------------------
+
+1. Concatenate - 사슬같이 잇다
+
+`shift - C 한 채널의 모든 갭을 없앤다`
+
