@@ -68,6 +68,38 @@ del 예약어, remove() 매서드
 min, max, sum, len 함수
 > min(nums)  //배열의 최솟값
 
+Slicing
+> print(nums[1::2]) // filter 두 번째 인덱스(1)를 시작으로 2칸 건너 출력
+
+join 매써드 - 배열을 문자열로 <-> split
+> " ".join(interest)  // 배열 interest의 원소들을 공백으로 연결하고 문자열을 반환
+
+sort 매써드 - 데이터 변경, 반환값 없음
+> data.sort();print(data)
+
+```
+
+<br>
+
+6. 튜플
+
+```
+언팩킹 - list도 된다
+> a, b, c = number;print(a,b,c)
+
+1부터 100까지 짝수를 원소로 하는 튜플
+> data = tuple(range(2,100,2);print(data)
+
+```
+
+<br>
+
+7. 딕셔너리
+
+```
+별 표현식(star Expression)
+> a,b,*c = 리스트 // 리스트 중 a, b 할당하고 나머지 스베떼 c에 리스트로 할당
+
 
 
 ```
