@@ -86,6 +86,11 @@ Tool패널의 Blade면도칼 단축키 해제할 것 (Remove ShortCut)
 
 ![image](https://user-images.githubusercontent.com/30430227/140476168-21d5090d-7a3d-47ff-8c09-47b91a493e0f.png)
 
+20. Playback Jump to Endpoint
+
+`단축키 지정: Shift - Alt - L/R Arrow`
+
+![image](https://user-images.githubusercontent.com/30430227/140483461-de4ac690-b31d-4a1c-8ca0-9af9b5d4d32c.png)
 
 <br>
 
@@ -99,3 +104,4 @@ Power Sequencer
 2. Speed
 
 `Space(Play) > Ctrl - 1/2/3/4/5`
+`스피드 단축키 , .`
