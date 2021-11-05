@@ -40,4 +40,17 @@ Geometry Node 3.0
 ![image](https://user-images.githubusercontent.com/30430227/139835750-b0e6e6e5-6c9f-49d5-8dab-1a0d22817484.png)
 ![image](https://user-images.githubusercontent.com/30430227/139835771-d0edee06-afab-472e-bc18-801d95b7e11e.png)
 
+<br>
+
+5. 한글 지원?
+
+`뷰포트에서 텍스트 생성 후 폰트 추가한다> Geometry Nodes`
+
+![image](https://user-images.githubusercontent.com/30430227/140544440-eec9df27-e094-4e49-9162-ed88dd23f06c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/140544582-8f2ad833-4ff3-499b-8b55-a8e0f6c9ec31.png)
+
+`Solidify Modifier`
+
+![image](https://user-images.githubusercontent.com/30430227/140544642-3e45f808-d537-401c-938a-caa44914b064.png)
 
