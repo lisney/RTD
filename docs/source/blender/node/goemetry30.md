@@ -54,3 +54,26 @@ Geometry Node 3.0
 
 ![image](https://user-images.githubusercontent.com/30430227/140544642-3e45f808-d537-401c-938a-caa44914b064.png)
 
+<br>
+
+Capture Attribute -속성을 빼온다?!
+------------------------------------
+
+`Normal`
+
+![image](https://user-images.githubusercontent.com/30430227/140735693-1d40b17c-b233-413f-81a9-27e3f072a4e4.png)
+![image](https://user-images.githubusercontent.com/30430227/140735757-45e6ebe9-a3a1-4dc9-902a-8f1d569d24c4.png)
+
+![image](https://user-images.githubusercontent.com/30430227/140735620-7b635aff-a7c9-4eeb-9221-7d76f0e05c52.png)
+
+`Position - point: 1, face는 가운데 즉 0`
+
+![image](https://user-images.githubusercontent.com/30430227/140736525-3a2527c2-078c-4c25-98c2-e14585e9309d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/140736631-d633a8cd-b6e3-49ad-b984-187b7b0bb1bd.png)
+
+
+
+
+
+  
