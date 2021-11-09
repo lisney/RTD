@@ -1,6 +1,15 @@
 Geometry Node 3.0
 =======================
 
+```
+Shift - Ctrl(Alt) - Lclick : Viewer(Group Output)
+Shift - Rmouse - drag: 여러 노드 묶어줌 pin Point
+
+Alt - Rmouse Drag: lazy Connect
+
+```
+
+
 1. Vertex Group Input  
 
 ![image](https://user-images.githubusercontent.com/30430227/139685969-94a0c183-1a4e-42ae-9301-d712543411b6.png)
@@ -71,6 +80,31 @@ Capture Attribute -속성을 빼온다?!
 ![image](https://user-images.githubusercontent.com/30430227/140736525-3a2527c2-078c-4c25-98c2-e14585e9309d.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/140736631-d633a8cd-b6e3-49ad-b984-187b7b0bb1bd.png)
+
+<br>
+
+Convex Hull(볼록한 선체(몸, 외피))
+-----------------------------------
+
+![image](https://user-images.githubusercontent.com/30430227/140842560-5659b9e2-02cf-4dd2-a50e-0ad585cef63f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/140842591-12e711ad-818c-440f-aba6-34a68a42da27.png)
+
+<br>
+
+Noise Texture
+---------------
+
+![image](https://user-images.githubusercontent.com/30430227/140843907-de191a81-71e1-414c-98f5-c1731b839cdf.png)
+
+![image](https://user-images.githubusercontent.com/30430227/140843965-17b53898-d68c-4952-80fa-3626809bccb5.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/140844708-d6e2452f-947c-44b0-badf-bdf0439b45d8.png)
+
+![image](https://user-images.githubusercontent.com/30430227/140844726-584d5a57-f8a8-41ed-905b-449179d8af5b.png)
+
 
 
 
