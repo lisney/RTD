@@ -98,10 +98,22 @@ sort 매써드 - 데이터 변경, 반환값 없음
 
 ```
 별 표현식(star Expression)
-> a,b,*c = 리스트 // 리스트 중 a, b 할당하고 나머지 스베떼 c에 리스트로 할당
+> a,b,*c = 리스트 // 언패킹: 리스트 중 a, b 할당하고 나머지 스베떼 c에 리스트로 할당
 
+항목 추가
+> ice['죠스바'] = 1200
 
+딕셔너리 추가
+> icecream.update(new_product)
+
+zip
+> result = dict(zip(keys, vals))
 
 ```
+
+<br>
+
+8. 분기문
+
 
 
