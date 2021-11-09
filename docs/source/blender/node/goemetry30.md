@@ -108,6 +108,26 @@ Noise Texture
 ![image](https://user-images.githubusercontent.com/30430227/140844726-584d5a57-f8a8-41ed-905b-449179d8af5b.png)
 
 
+<br>
+
+String to Curves
+-----------------
+
+![image](https://user-images.githubusercontent.com/30430227/141011250-6fa8ebf8-b8ca-4e12-934b-b829c97d9b03.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141011317-6a670b34-fb97-41c0-a9d2-033e8ed7f193.png)
+
+`sine`
+
+![image](https://user-images.githubusercontent.com/30430227/141012483-32997c91-c1bd-496b-8564-14ae676362be.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141012530-3dfe785f-5cf5-4222-8567-e57af3d0f12b.png)
+
+`Attribute Statistic`
+
+![image](https://user-images.githubusercontent.com/30430227/141016335-7d7ad1cb-9745-4865-9663-6dda29ceea31.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141016635-2891a9ac-b451-41a2-97e4-7d00b855e0ca.png)
 
 
 
