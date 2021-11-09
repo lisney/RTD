@@ -5,7 +5,7 @@ Basic
 
 `실행: Ctrl - F5`
 
-`자동완성 괄호 Tab으로 나가기 Extension 'TabOut' 설치`
+> `자동완성 괄호 Tab으로 나가기 Extension 'TabOut' 설치`
 
 <br>
 
