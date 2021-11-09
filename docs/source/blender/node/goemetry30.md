@@ -37,10 +37,10 @@ Alt - Rmouse Drag: lazy Connect
 
 3. Split Edges
 
-![image](https://user-images.githubusercontent.com/30430227/139792222-2d9466d3-3f3f-4f25-b466-f002a68483e0.png)
+![image](https://user-images.githubusercontent.com/30430227/140845385-4089aaea-719a-40f3-ad18-44ec6fc1945e.png)
+![image](https://user-images.githubusercontent.com/30430227/140845414-270a009b-c3c3-44f6-b760-59ff6afb214b.png)
 
-![image](https://user-images.githubusercontent.com/30430227/139792240-ad9fcd59-a3a3-46f4-bbcc-8328f05b17e6.png)
-
+![image](https://user-images.githubusercontent.com/30430227/140845428-a52cefae-74d9-4c1c-b31f-b3498cec1f6e.png)
 
 4. Node Socket
 
