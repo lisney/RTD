@@ -193,6 +193,42 @@ Shrinkwarp
 5. Displace Weight  
 ![image](https://user-images.githubusercontent.com/30430227/133178450-51bae730-a1c6-4389-a7b7-6d2bcc781a7e.png)
 
+<br>
+
+Curtain
+--------
+
+1. imageplane
+
+`import > subdivide`
+![image](https://user-images.githubusercontent.com/30430227/141206571-755d5ec2-8326-4a9d-9973-4a5789d66256.png)
+![image](https://user-images.githubusercontent.com/30430227/141206694-d23a3d98-8b7f-4466-a22d-bf644a22366b.png)
+
+`Select Next Active:  Shift - Ctrl- + `
+
+![image](https://user-images.githubusercontent.com/30430227/141206985-d6f4b9a6-a3bc-41d0-a5b7-b542d6d180fa.png)
+![image](https://user-images.githubusercontent.com/30430227/141207030-fa3a19ba-e1cc-422b-a64c-b1b45a9b1b07.png)
+
+`Select Loop > bevel`
+
+![image](https://user-images.githubusercontent.com/30430227/141207143-3c6f5ff5-321e-40f0-ba18-dac51d1f436f.png)
+![image](https://user-images.githubusercontent.com/30430227/141207429-24e2414b-ef6b-4492-9cc3-dc841ee9f308.png)
+
+`Vertex Group(pin) > Cloth(Silk, Self Collision)`
+
+![image](https://user-images.githubusercontent.com/30430227/141207668-77aa77a0-3d3c-42cc-b7f5-aa7f2feaa1d2.png)
+
+`Torus(Collision)`
+
+![image](https://user-images.githubusercontent.com/30430227/141207763-17dfd07d-98fa-49a2-bae9-abdd25c6a27e.png)
+![image](https://user-images.githubusercontent.com/30430227/141207801-f7ac91cf-8930-41ba-9acb-96f9dbc498de.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141207969-7c9960b6-beee-47d4-b690-77d39f0fae6a.png)
+
+
+
+
+
 
 
 
