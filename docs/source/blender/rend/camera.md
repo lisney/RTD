@@ -237,6 +237,29 @@ Pollow Path
 ![image](https://user-images.githubusercontent.com/30430227/137309814-62dae93d-0d2a-4154-93f5-854cfa7f97bd.png)  
 
 
+<br>
+
+Walk Navigation
+------------------
+
+1. Auto keyframe
+
+`Walk Navigation 단축키 생성(예, Shift-F)`
+
+2. Curve Editor -Smooth Animation
+ 
+`Shift -Alt- 0 & Alt - O 여러번 누른다`
+
+
+<br>
+
+Damp Constraint - track to 가 급격한 회전을 할 때 대용
+---------------------------------------------------
+
+`볼링공을 따라가는 애니메이션 제작`
+
+> F3 > Bakr Action //키프레임 생성
+
 
 
 
