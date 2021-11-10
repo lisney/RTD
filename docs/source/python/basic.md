@@ -4,6 +4,7 @@ Basic
 1. VSCode
 
 `실행: Ctrl - F5`
+`Ctrl - D: 같은 단어 연속 `
 
 > `자동완성 괄호 Tab으로 나가기 Extension 'TabOut' 설치`
 
@@ -126,9 +127,26 @@ zip
 >    print("홀수")
 
 'if ~ in 배열' 조건문
-> if user in fruit // 딕셔너리의 경우 fruit 가 fruit.keys() 를 나타낸다
+> if user in fruit // 딕셔너리의 경우 fruit 가 fruit.keys() 를 나타낸다(items() 참조)
+
+islower()
+> if user.islower():;print(user.upper())
+
+비트코인
+import requests
+btc = requests.get("https://api.bithumb.com/public/ticker/").json()['data']
+
+키값 opening_price, closing_price, min_price,	max_price
+> print(btc["closing_price"]
+
+```
+
+<br>
+
+9. 반복문 
+
+```
 
 
 
 ```
-
