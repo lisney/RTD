@@ -115,5 +115,20 @@ zip
 
 8. 분기문
 
+```
+입력
+> user = input("입력");print(user * 2) 
 
+짝홀수 판별(if, else, elif)
+>if user % 2 == 0:
+>    print("짝수")
+>else:
+>    print("홀수")
+
+'if ~ in 배열' 조건문
+> if user in fruit // 딕셔너리의 경우 fruit 가 fruit.keys() 를 나타낸다
+
+
+
+```
 
