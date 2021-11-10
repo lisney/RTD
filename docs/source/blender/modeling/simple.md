@@ -209,7 +209,7 @@ Curtain
 ![image](https://user-images.githubusercontent.com/30430227/141206985-d6f4b9a6-a3bc-41d0-a5b7-b542d6d180fa.png)
 ![image](https://user-images.githubusercontent.com/30430227/141207030-fa3a19ba-e1cc-422b-a64c-b1b45a9b1b07.png)
 
-`Select Loop > bevel`
+`Select Loop > bevel > Subdivide`
 
 ![image](https://user-images.githubusercontent.com/30430227/141207143-3c6f5ff5-321e-40f0-ba18-dac51d1f436f.png)
 ![image](https://user-images.githubusercontent.com/30430227/141207429-24e2414b-ef6b-4492-9cc3-dc841ee9f308.png)
