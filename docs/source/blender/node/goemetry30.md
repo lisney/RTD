@@ -7,6 +7,8 @@ Shift - Rmouse - drag: 여러 노드 묶어줌 pin Point
 
 Alt - Rmouse Drag: lazy Connect
 
+뮤트 링크스(Node > Mute Links) - 단축키 설정: Ctrl - Alt - R마우스 드랙
+
 ```
 
 
@@ -145,6 +147,38 @@ UV
 ![image](https://user-images.githubusercontent.com/30430227/141046731-dadfa1cd-9996-470e-903f-cefa2908c997.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/141046818-6c9a0181-8362-4035-bcfb-3a0332fa82c0.png)
+
+<br>
+
+AlignEuler to Vector - Normal Rotate
+-------------------------------------
+
+![image](https://user-images.githubusercontent.com/30430227/141271194-5eddfee0-8e89-4ae5-9d2e-9d1d472b365b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141271335-e86944e4-5cab-421d-a643-ecdd76f0e59e.png)
+
+`Capture Attribute`
+
+![image](https://user-images.githubusercontent.com/30430227/141272167-226750b2-35c0-40b7-82b8-99b1b9429f61.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141272131-36b74208-9019-4ea5-9f8a-9630b76d78f2.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141272507-715440ef-bf3f-444b-a56b-4f3d61523904.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141275959-ad006c14-2fcd-4ba1-8347-198fff71a49c.png)
+![image](https://user-images.githubusercontent.com/30430227/141275982-d91e12f3-28d9-4c84-bdd9-a04afd6c5fb0.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141276059-05faf084-7abe-4fb7-a411-9d2cfcbc3e97.png)
+
+`Subtract - 를 연결하지 않으면 한 방향으로만 향한다`
+
+![image](https://user-images.githubusercontent.com/30430227/141277205-61ebb9c2-8acf-4267-aea2-18dfcc3bc603.png)
+![image](https://user-images.githubusercontent.com/30430227/141277564-a448520a-32e3-457f-b9e9-3b34bb9cdedc.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141277901-3fb3fa7e-5eda-4fe6-bf37-1b8d517c43fa.png)
+
+
+
 
 
 
