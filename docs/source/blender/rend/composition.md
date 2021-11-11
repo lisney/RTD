@@ -110,6 +110,11 @@ L.toComp(L.anchorPoint);
 Camera Look At
 > Transform > Auto-Orient
 
+3D 라인은 Beam 으로
+L=thisComp.layer("Origin");
+L.toComp(L.anchorPoint +[600,0,300]); //위치 오프셑
+
+
 ```
 
 
