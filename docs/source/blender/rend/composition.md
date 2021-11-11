@@ -106,6 +106,10 @@ Blender to AE Addon
 3D 포지션 2D로 변환  
 L = thisComp.layer("Null 1");
 L.toComp(L.anchorPoint);
+
+Camera Look At
+> Transform > Auto-Orient
+
 ```
 
 
