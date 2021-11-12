@@ -376,11 +376,6 @@ Discretize(이산화):선을 점으로 나눈다
 ![image](https://user-images.githubusercontent.com/30430227/137169711-700a2986-0520-44e0-9ea8-74e21f0c3f3c.png)  
 ![image](https://user-images.githubusercontent.com/30430227/137169928-7c0fef75-877f-4074-b53c-3c88e37d5e18.png)  
 
-
-
-
-
-
 16. 멀티 로프트  
 ![image](https://user-images.githubusercontent.com/30430227/135429259-e6c7eedc-8148-434f-94f5-a8ae33b10bbb.png)  
 
@@ -394,7 +389,6 @@ Discretize(이산화):선을 점으로 나눈다
 `Loft(CurvesWB)`  
 ![image](https://user-images.githubusercontent.com/30430227/135429817-bfc9628e-0668-409c-afe0-8f8b55235d99.png)  
 ![image](https://user-images.githubusercontent.com/30430227/135429854-a7dd7cec-87a0-48ef-b11d-3163d56b2dba.png)  
-
 
 
 17. Gordon(CurvesWB/NetworkCurve)  
@@ -446,6 +440,63 @@ Discretize(이산화):선을 점으로 나눈다
 ![image](https://user-images.githubusercontent.com/30430227/135448705-8d8130e0-8f73-46a8-8cf2-00d24e4646a1.png)  
 ![image](https://user-images.githubusercontent.com/30430227/135448816-3a18c325-5cdd-410e-b62e-6af1e69d06bf.png)  
 
+<br>
+
+19. Curve on Surface - Map on Surface 안먹히는 표면일 때
+
+`Extrude Curve > Offset 3D > Sketcher WB - 선택 면 위에 스케치(파란 경계 영역-Structure)`
+
+![image](https://user-images.githubusercontent.com/30430227/141388412-d4a82180-5e21-4639-adb6-e653e73b1b66.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141389211-d3dceb65-8434-4249-b1ba-0ebfd6c594ff.png)
+
+`Map Mode 클릭 - 붙일 면 선택`
+
+![image](https://user-images.githubusercontent.com/30430227/141389266-78d97464-4a23-4edb-a770-bc07f366849d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141389363-b0751bde-2d92-4183-a78e-f820f54c8f33.png)
+![image](https://user-images.githubusercontent.com/30430227/141389377-bd81c394-6b3d-4ba1-965e-ccbba5e53f3f.png)
+
+`Curves WB > 스케치 선택 > Map a sketch on a Surface`
+
+![image](https://user-images.githubusercontent.com/30430227/141389476-30959894-4b85-49ed-9502-79c0feceaf6a.png)
+![image](https://user-images.githubusercontent.com/30430227/141389467-e3ae9c8d-d347-430f-ac6a-074487e3ca3f.png)
+
+`면 선택 대신 좌표평면에 스케치할 경우 > Map Mode 선택하면 틀어지나`
+
+![image](https://user-images.githubusercontent.com/30430227/141390844-f41c8e30-29ef-4548-97bd-3072becab3ec.png)
+
+`Curves WB > 붙일 면 선택 후 Sketch 선택 > Map on Surface 하면 된다`
+
+![image](https://user-images.githubusercontent.com/30430227/141390952-a1a10cea-2483-4828-9432-6362a6ac2056.png)
+![image](https://user-images.githubusercontent.com/30430227/141391010-b1d46ee9-8cb1-432b-bdf4-39357b428c1b.png)
+
+`Sketch_On_surface::Thickness`
+
+![image](https://user-images.githubusercontent.com/30430227/141391176-0b365a34-1658-4ecb-82cf-b93cf1c38f69.png)
+![image](https://user-images.githubusercontent.com/30430227/141391160-3c6e1f5c-a5e5-4f3b-9514-c274b4fe6cc0.png)
+
+`Part > Cube > Sketch_On_Surface:: Extra objects`
+
+![image](https://user-images.githubusercontent.com/30430227/141391679-cd9e80f7-de13-4d53-bde9-e796e059f28c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141391765-c0ac4a3f-420f-4d24-88bd-291de756676d.png)
+![image](https://user-images.githubusercontent.com/30430227/141391787-a79ff389-406b-4828-a740-e004afdb415b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141391861-fe6e3e82-e2f5-439f-9f3a-a8d4532779d8.png)
+
+`반구의 경우 Sphere >  Cross Section > 구와 평면 선택 Slice Apart`
+
+![image](https://user-images.githubusercontent.com/30430227/141392321-2dad78d3-c7c6-4962-a7e0-9ef6f122ce1f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141392256-7e028c3a-72c8-4db6-b953-6fbf1f8ba62f.png)
+![image](https://user-images.githubusercontent.com/30430227/141392356-bae5d5e2-30ee-4ae2-9a60-b8850a654b40.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141392524-f7eb5df2-6c44-48b0-87d8-3b37281d9fbc.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141392785-4426f694-bd7a-4cd4-b7d6-f4a68e59bf2e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141392940-27e560e7-9443-45c2-aad2-83e60ac59572.png)
 
 
 Datum Plane
