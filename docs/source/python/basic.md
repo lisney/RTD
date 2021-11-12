@@ -146,7 +146,12 @@ btc = requests.get("https://api.bithumb.com/public/ticker/").json()['data']
 9. 반복문 
 
 ```
+리스트의 반복문
+> for i in range(len(price_list)) // 인덱스 i, 항목 price_list[i]
+enumerate > for i, item in enumerate(price_list) // 인텍스 i, 항목 item
 
-
+리스트 역순
+> for i in apart[::-1] // range(시작, 종 -1, 변위)
 
 ```
+
