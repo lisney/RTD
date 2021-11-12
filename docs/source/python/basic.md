@@ -1,6 +1,143 @@
 Basic
 =======
 
+> 이전 학습
+
+```
+# 2, 3 버전 따로 실행 설정(명령창에서 python2 혹은 python3으로 실행하면 됨)
+
+검색창에서 cmd 검색 -> 명령프롬프트 우클릭 -> 관리자 권한으로 실행 후
+
+Python 2.7 버전은
+mklink c:\windows\python2.exe C:\Python27\python.exe
+ 
+Python 3.7 버전은
+mklink c:\windows\python3.exe C:\Users\whdmf\AppData\Local\Programs\Python\Python37-32\python.exe
+이렇게 설정 해주면 된다.
+
+예) mklink c:\windows\python2.exe [ Python2 경로 ]
+mklink c:\windows\python3.exe [ Python3 경로 ]
+
+# Django 설치
+	pip install django
+
+# Django 실행
+	django-admin startproject web_prj(프로젝트 명)
+	cd web_prj
+	python manage.py runserver(서버 실행)
+
+# 파이참이 python(.py)파일을 인식하지 못할 때
+실수로 텍스트 파일 myfilename을 (를) 이름을 myfilename.py 버전으로 바꾸었지만 확장명을 변경 한 후에도 텍스트 파일 형식을 유지했습니다.
+
+File > Settings > Editor > File Types > Text로 이동
+Registered Patterns 아래 목록에서 새로운 myfilename.py를 찾았습니다.
+- 버튼으로 목록에서 제거하십시오
+Ok를 클릭하십시오.
+
+## f-String
+
+날짜
+import datetime
+date = datetime.datetime.now()
+print(f'{date:%Y년 %m월 %d일}은 {date:%A}입니다')
+
+빈공간
+print(f'{500:*<+10}') // :, *(채울 문자), <>(오른쪽,왼쪽), +(부호붙임)
+>>+500******
+
+print(f'{5000000000000:+,}')
+>>+5,000,000,000,000
+
+print(f'{500000000076600:^<+30,}')
+>>+500,000,000,076,600^^^^^^^^^^
+
+print(f'{5/3:.2f}') // 소수점 표시, .2(소수점 2번째 자리까지)
+>>1.67
+
+## 집합(set)
+.add()
+.remove()
+&, |, -(intersection, Union, Difference)
+
+## round(값, 반올림할 소수점 자리)
+
+## random  모듈
+random.shuffle(리스트) 
+random.sample(리스트, 갯수)
+random.randint(2, 10), random.randrange(A, B)
+
+## 문자열 채우기
+.zfill()
+.ljust(채울공간), .rjust()
+
+## tkinter JPG 이미지 불러오기(기본 PhotoImage는 JPG 못불러온다)
+
+## 파일 검색 및 폴더 열기 한방에 os.walk
+import os
+
+for root, dirs, files in os.walk(r'c:\users\3dprinter\desktop\files'):
+    for file in files:
+        if 'ply' in file:
+            print(file, root)
+            os.startfile(root)
+
+## Django 로컬 서버 휴대폰에서 열기
+settings.py
+ALLOWED_HOSTS =['192.168.1.200'] 또는 IP 주소가 무엇이든.
+==서버 주소는 데스크탑의 주소를 사용한다(ipconfig로 확인가능)
+
+## 한 줄 서버
+index.html 이 있는 폴더에 가서
+	python -m http.server 실행
+Address already in use 이라는 에러가 난다면, 다른 포트번호를 입력
+	python -m http.server 8080
+
+## 파이썬 심플 서버
+import http.server
+import socketserver
+
+handler = http.server.SimpleHTTPRequestHandler
+
+with socketserver.TCPServer(('',8080),handler) as httpd:
+    print('Server listening on port 8080')
+    httpd.serve_forever()
+
+## 명령행으로 프로그램 인자값 받기 - sys.argv
+어느 언어나 프로그램 실행시 명령행을 통해 필요한 인자값(Arguments Value)을 받을 수 있는 방법을 제공합니다. 자바나 C언어 등 에서도 main 메서드를 통해 명령행 매개변수를 받는 방법을 제공하는것과 같습니다.
+
+파이썬에는 명령행을 받기위해 sys 라이브러리를 import 해주어야 합니다.
+import sys                                                                                
+
+sys.argv 는 배열입니다. sys.argv[0]에는 기본적으로 python 실행파일의 경로가 담겨있기 때문에 sys.argv 배열의 길이는 기본적으로 1입니다.
+
+print(len(sys.argv))                                                                 
+print(sys.argv[0]) 
+
+## Emmet 언어설정
+Ctrl + ,
+검색에 emmet 한 후
+Edit in setting.json에서
+
+"emmet.extensionsPath": "c:/lee"
+
+한 후
+
+해당 폴더에 
+snippets.json 파일을 생성 후
+
+{
+       "variables": {
+           "lang": "ko"
+       },
+       "html": {
+           "snippets": {
+               "!": "!!!+html[lang=${lang}]>(head>meta[charset=UTF-8]+title{Document})+body"
+           }
+       }
+}
+
+```
+
 1. VSCode
 
 `실행: Ctrl - F5`
