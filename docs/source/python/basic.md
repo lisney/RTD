@@ -290,5 +290,15 @@ enumerate > for i, item in enumerate(price_list) // 인텍스 i, 항목 item
 리스트 역순
 > for i in apart[::-1] // range(시작, 종 -1, 변위)
 
+2차원 배열에 저장
+> result =[]; // for i in data: sub=[]; //하위 for j in i: sub.append()// result.append(sub)
+
 ```
+
+10. 함수 
+
+```
+
+```
+
 
