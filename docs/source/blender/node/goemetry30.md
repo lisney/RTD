@@ -161,8 +161,6 @@ AlignEuler to Vector - Normal Rotate
 
 ![image](https://user-images.githubusercontent.com/30430227/141272167-226750b2-35c0-40b7-82b8-99b1b9429f61.png)
 
-![image](https://user-images.githubusercontent.com/30430227/141272131-36b74208-9019-4ea5-9f8a-9630b76d78f2.png)
-
 ![image](https://user-images.githubusercontent.com/30430227/141272507-715440ef-bf3f-444b-a56b-4f3d61523904.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/141275959-ad006c14-2fcd-4ba1-8347-198fff71a49c.png)
