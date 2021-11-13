@@ -76,6 +76,22 @@ Cell Fracture
 ![image](https://user-images.githubusercontent.com/30430227/141615506-eb1790df-d94b-4e70-ad5b-4ee64dff7274.png)
 
 
+밀어내기 - Rigid Body 수동 조작
+------------------------------
+
+`Animate 체크 > 포지션 키프레임`
+
+![image](https://user-images.githubusercontent.com/30430227/141653781-2c3def84-8b8b-4f97-a762-8d0c8df2d0af.png)
+![image](https://user-images.githubusercontent.com/30430227/141653794-d6272887-f617-4a95-9b04-edd2513e54d3.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141653803-22659d54-8796-4ed6-8dec-61bf6590ad38.png)
+![image](https://user-images.githubusercontent.com/30430227/141653815-6dd15737-fd11-426d-86cc-d92dfb052bd7.png)
+
+`부딪히기 전까진 고대로 있기`
+
+![image](https://user-images.githubusercontent.com/30430227/141653827-a6bb2d2c-9bdd-44cd-b34c-a5c752e6a425.png)
+
+
 
 
 
