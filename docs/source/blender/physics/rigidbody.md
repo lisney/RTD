@@ -69,6 +69,12 @@ Cell Fracture
 
 ![image](https://user-images.githubusercontent.com/30430227/141607727-ef71a4d1-15f1-4904-9562-db20e5e488a0.png)
 
+> 잠깐! 떨어지는 순간 박스와 조각 컬렉션을 바꿔치기 랜더링 시 Collection 은 랜더링 On/Off 키가 안먹힌다
+
+`Collection > R-mouse > Instance to Scene - 인스턴스 컬렉션은 키프레임이 된다`
+
+![image](https://user-images.githubusercontent.com/30430227/141615506-eb1790df-d94b-4e70-ad5b-4ee64dff7274.png)
+
 
 
 
