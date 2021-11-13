@@ -184,6 +184,15 @@ AlignEuler to Vector - Normal Rotate
 
 ![image](https://user-images.githubusercontent.com/30430227/141277901-3fb3fa7e-5eda-4fe6-bf37-1b8d517c43fa.png)
 
+<br>
+
+이미지 텍스쳐 
+-------------
+
+![image](https://user-images.githubusercontent.com/30430227/141647041-f1736b2b-c30d-4308-96ab-63def92351b5.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141647055-05299da8-49fc-4a14-84f4-376ff75b81de.png)
+
 
 
 
