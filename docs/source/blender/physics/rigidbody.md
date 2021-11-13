@@ -63,6 +63,11 @@ Cell Fracture
 ![image](https://user-images.githubusercontent.com/30430227/141607521-000c040b-0fba-4470-b7d9-be9e4b891068.png)
 ![image](https://user-images.githubusercontent.com/30430227/141607527-0c4f6839-3578-44d4-b915-f030401ad2f5.png)
 
+`Rigidbody > Add Active`
+
+![image](https://user-images.githubusercontent.com/30430227/141607685-bff558dd-92ed-4645-a698-4881ac0dc2f7.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141607727-ef71a4d1-15f1-4904-9562-db20e5e488a0.png)
 
 
 
