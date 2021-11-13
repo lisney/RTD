@@ -10,7 +10,16 @@ Alt - Rmouse Drag: lazy Connect
 뮤트 링크스(Node > Mute Links) - 단축키 설정: Ctrl - Alt - R마우스 드랙
 
 ```
+> Vertex Group
 
+`빈 Output 핀을 끌어 Selection에 연결하면 자동생성된다`
+
+![image](https://user-images.githubusercontent.com/30430227/141642085-03624556-80a6-4957-82fb-1a2d4352d715.png)
+
+`십자가를 눌러 디폴트값을 삭제하고 빈 곳을 눌러 나오는 리스트에서 Vertex Group 을 선택하면 된당`
+
+![image](https://user-images.githubusercontent.com/30430227/141642142-05e69415-31e4-489b-911e-3f98bc65d9fe.png)
+![image](https://user-images.githubusercontent.com/30430227/141642163-1df0eb0a-031c-4b4d-96e4-c20a6f6edfd5.png)
 
 1. Vertex Group Input  
 
