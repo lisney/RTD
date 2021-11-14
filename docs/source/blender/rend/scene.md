@@ -114,4 +114,12 @@ Sci-Fi
 
 ![image](https://user-images.githubusercontent.com/30430227/139444268-356b2077-d0f9-410a-a565-7be5e819d354.png)
 
+<br>
+
+Starwars Light
+---------------
+
+`Area Light(Disk) > Scale Y > Copy > Parent to Empty > Rotate Empty`
+
+![image](https://user-images.githubusercontent.com/30430227/141679066-e09ea7dc-240b-4216-a94c-0dca04b35aee.png)
 
