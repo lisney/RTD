@@ -129,6 +129,15 @@ Ring
 ![image](https://user-images.githubusercontent.com/30430227/140256867-49a0ae66-3b09-4257-aaa3-241de463128e.png)
 ![image](https://user-images.githubusercontent.com/30430227/140256892-b50d93aa-a9f4-48f2-a5b3-1dd9822a0f63.png)
 
+<br>
+
+Separate
+-------------
+
+![image](https://user-images.githubusercontent.com/30430227/141681253-785e1b27-d7e8-41ba-a2fe-1c51b145f2dd.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141681262-254b53bc-86a9-471e-90f7-f0e807e6af65.png)
+
 
 
 
