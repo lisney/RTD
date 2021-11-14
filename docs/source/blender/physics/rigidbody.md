@@ -91,7 +91,26 @@ Cell Fracture
 
 ![image](https://user-images.githubusercontent.com/30430227/141653827-a6bb2d2c-9bdd-44cd-b34c-a5c752e6a425.png)
 
+<br>
 
+그대로 멈춰라
+-------------
+
+```
+> Apply Visual Transform - 시믈레이션 된 위치에 고정
+
+센터 구 Passive
+Force Field : -500
+Gravity: 0
+```
+
+![image](https://user-images.githubusercontent.com/30430227/141677995-8fecd0bb-5dd4-49aa-b7a7-061ee3fa926e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141677961-8cb1b26b-155b-4991-8a23-ca23b15593fc.png)
+
+`작은 구 추가`
+
+![image](https://user-images.githubusercontent.com/30430227/141678036-de5999ae-2be3-454a-ac8b-55eb94074159.png)
 
 
 
