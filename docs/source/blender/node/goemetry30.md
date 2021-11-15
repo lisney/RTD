@@ -207,12 +207,9 @@ AlignEuler to Vector - Normal Rotate
 도자기 
 --------
 
-![image](https://user-images.githubusercontent.com/30430227/141771651-3cfe8133-66e3-4844-b6b5-3d13176ea488.png)
-![image](https://user-images.githubusercontent.com/30430227/141771680-56e36c16-7f88-423b-aadf-61cef2b192ea.png)
+![image](https://user-images.githubusercontent.com/30430227/141787498-c8e3b67e-20e0-4fd6-a774-02794c14fafc.png)
 
-`Map Range: 0~2 -> 0~1 로 해도 `
-
-![image](https://user-images.githubusercontent.com/30430227/141771769-4208b9bf-1cd3-40f5-9fe2-f4b835fb12c1.png)
+![image](https://user-images.githubusercontent.com/30430227/141787548-c253be34-86cf-4326-ba6d-44d67f16a0c2.png)
 
 
 
