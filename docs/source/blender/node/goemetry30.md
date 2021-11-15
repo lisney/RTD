@@ -217,6 +217,18 @@ AlignEuler to Vector - Normal Rotate
 
 ![image](https://user-images.githubusercontent.com/30430227/141787548-c253be34-86cf-4326-ba6d-44d67f16a0c2.png)
 
+<br>
+
+쉴드 Normalize - vertex와 object 잇는 선 Vector 
+-----------------------------------------------
+
+`Dot Product - 내적(각도), Cross Product - 외적(법선)`
+
+![image](https://user-images.githubusercontent.com/30430227/141800587-d358de6f-4cf8-4955-8039-b4eee9b73755.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141800624-85dfa373-3b7a-42b9-9b90-d4c3017f8b86.png)
+
+
 
 
 
