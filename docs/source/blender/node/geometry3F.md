@@ -29,11 +29,54 @@ Knot Mographic
 
 ![image](https://user-images.githubusercontent.com/30430227/141999307-d8e3eb99-cc2e-4dff-960c-2b46eb734524.png)
 
-`점의 갯수와 인덱스 값`
+`점의 갯수와 인덱스 값 - value 대신 integer`
 
 ![image](https://user-images.githubusercontent.com/30430227/141999621-7c684cb9-6e06-42ac-8f34-35fa6c3cd2f6.png)
 
 <br>
 
 2. 입체 
+
+![image](https://user-images.githubusercontent.com/30430227/142000834-97f4f8fe-272c-4e00-9621-c41151aaeaec.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142000876-9304affe-3cc3-4ed8-b6cd-a0bb8aa9499b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142002129-6a951c4c-ec33-457d-b23b-fac44594e40f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142002076-0317b167-d18f-46c8-add8-f4ea4191a81e.png)
+
+`Node Group`
+
+![image](https://user-images.githubusercontent.com/30430227/142002462-4dad3c2c-7d13-4a42-84ab-4b0e2ede2d99.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142002986-28a55ccd-982e-4dc3-85d3-e0124841afc4.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142003023-4528f429-1719-4ac3-94f7-b9719d21c4f8.png)
+
+<br>
+
+3. Shading
+
+`Parameter`
+
+![image](https://user-images.githubusercontent.com/30430227/142005430-f0224f03-6e18-48be-9e8b-36d79288dcf7.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142004376-aa405a4e-1288-45a1-b174-bdccad300c51.png)
+
+`Shader`
+
+![image](https://user-images.githubusercontent.com/30430227/142005492-25786ced-6069-417f-ad75-044d99e1f5bc.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142005567-ab65b850-55f9-48f8-920f-0cadaee17921.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142006798-cfbab0d9-778e-4177-a335-86ed555881c2.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142006921-42ba5b06-23f1-47e7-a1e3-1430fd3999e9.png)
+
+<br>
+
+4. Wireframe Modifier
+
+![image](https://user-images.githubusercontent.com/30430227/142007431-08a0fb78-9afc-451f-92d1-394a81a1c0c4.png)
+![image](https://user-images.githubusercontent.com/30430227/142007343-bb14ff66-dfa0-4086-a4a6-cf135af9e109.png)
 
