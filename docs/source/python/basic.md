@@ -385,6 +385,41 @@ print(os.getcwd()) //현재 디렉토리
 12. 클래스 
 
 ```
+class Human:
+    def __init__(self):  //생성자
+        print("응애응애")
+	
+areum = Human()  //객체 생성, areum은 Human클래스의 인스턴스다
+
+
+// 생성자
+class Human:
+    def __init__(self, name, age, sex):
+        self.name = name
+	self.age = age
+	self.sex = sex
+areum = Human("브러신",25,"남자")
+print(areum.name)
+
+
+//출력 매소드
+def who(self):
+    print(f"이름: {self.name}")
+
+
+//입력 매소드
+def setInfo(self, name, age):
+    self.name = name
+    self.age = age
+    
+
+//소멸자
+def __del__(self):
+    print(f"{self.이름}의 죽음을 알리지마라")
+
+del areum   //소멸
+
+
 
 
 ```
