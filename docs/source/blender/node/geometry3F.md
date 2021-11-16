@@ -80,3 +80,32 @@ Knot Mographic
 ![image](https://user-images.githubusercontent.com/30430227/142007431-08a0fb78-9afc-451f-92d1-394a81a1c0c4.png)
 ![image](https://user-images.githubusercontent.com/30430227/142007343-bb14ff66-dfa0-4086-a4a6-cf135af9e109.png)
 
+<br>
+
+와이어 메쉬 
+-----------
+
+1. Mesh Density 
+
+![image](https://user-images.githubusercontent.com/30430227/142076163-2b4b4ae2-b3c5-48b7-bb0a-932bbbbddecd.png)
+
+`Geometry Nodes`
+
+![image](https://user-images.githubusercontent.com/30430227/142076303-ad53d531-4879-4e60-8964-5856ffadd027.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142076377-51724bbe-28d4-4380-a86e-a93b32f6ca9f.png)
+
+`Modifier`
+
+![image](https://user-images.githubusercontent.com/30430227/142076461-32771e20-d68e-481b-bb76-050dd9e11937.png)
+
+<br>
+
+2. 새 노드 메쉬
+
+![image](https://user-images.githubusercontent.com/30430227/142076648-a4ff5adb-b588-4fee-8dcd-631424113eab.png)
+![image](https://user-images.githubusercontent.com/30430227/142076748-6773916d-c6de-4768-88ff-ceb650724ada.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142076683-31f3d108-daa1-4cef-81a2-4142113d2c83.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142076844-e5eab403-e9bd-4681-859a-6a2505cc9004.png)
