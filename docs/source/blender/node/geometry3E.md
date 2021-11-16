@@ -89,3 +89,34 @@ Plexus
 
 ![image](https://user-images.githubusercontent.com/30430227/141865354-69d211d1-86b4-4819-8cd1-ab361c5e299b.png)
 
+<br>
+
+깃털 
+----------
+
+1. 모델링 
+
+`Plane > Subdivision > Copy > Move Z > 위 아래 다른 머티리얼`
+
+![image](https://user-images.githubusercontent.com/30430227/141928835-f6ee6dd4-713a-4f4c-8874-29d78a433ab9.png)
+
+2. Geometry Nodes 
+
+![image](https://user-images.githubusercontent.com/30430227/141928874-a6b183dd-b656-4053-aa1e-95b42c19fc24.png)
+
+`Rotate Euler > X-축값`
+
+![image](https://user-images.githubusercontent.com/30430227/141928937-909a46cb-9acf-4043-9b9c-7d2b81ba463d.png)
+
+3. 컨트롤러 추가 Empty
+
+![image](https://user-images.githubusercontent.com/30430227/141929406-16c55d8b-ee85-4b44-9d32-63a5d59f50a3.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141929455-2e0a7521-afac-483f-b200-255f5b4c8dc4.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141929602-117d41c4-ce1f-4b13-9cdb-82d83b0743e0.png)
+
+
+
+
+
