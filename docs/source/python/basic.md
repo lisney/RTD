@@ -335,8 +335,56 @@ def convert_int(c):
 
 print(convert_int("1,234,567"))
 
-//
+```
+
+<br>
+
+11. 모듈 
+
+```
+// 핸재 시간 출력 -  datetime
+import datetime
+print(datetime.datetime.now())
+
+// 5일 간 날짜 출력 - timedelta
+import datetime
+now = datetime.datetime.now()
+for i in range(5,0,-1):
+    delta = datetime.delta(days=i)
+    date = now-delta
+    print(date)
+
+// 타임 문자열로 포멧팅 - strftime, "18:35:01"
+import datetime
+now = datetime.datetime.now()
+print(now.strftime("%H:%M:%S"))
+
+// 문자열 타임포멧 변환 - datetime.datetime.strptime(파싱)
+import datetime
+day = "2020-05-04"
+form = datetime.datetime.strptime(day, "%Y-%m-%d")
+print(form)
+
+//1초에 한 번 sleep(1)
+import time, datetime
+
+while True:
+    now = datetime.datetime.now()
+    print(now)
+    time.sleep(1)
+
+
+// os 모듈
+import os
+print(os.getcwd()) //현재 디렉토리
+
+```
+
+<br>
+
+12. 클래스 
 
 ```
 
 
+```
