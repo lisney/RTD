@@ -298,6 +298,44 @@ enumerate > for i, item in enumerate(price_list) // 인텍스 i, 항목 item
 10. 함수 
 
 ```
+//세 개의 숫자를 입력받아 가장 큰 수를 출력하는 함수
+def print_max(a,b,c):
+    max = 0
+    if a>max:
+        max=a
+    if b>max:
+        max=b
+    if c>max:
+        max=c
+    print max
+
+
+//문자열을 입력받아 역순으로 출력
+def print_reverse(a):
+    print(a[::-1])
+
+//딕셔너리에서 키 값만 출력하는 함수
+def print_keys(a):
+    for key in a.keys():
+        print(key)
+	
+	
+//입력 문자열을 다섯 글자씩 출력하는 함수
+def print_5xn(c):
+    num = round(len(c)/5)
+    for i in range(num +1):
+        print(c[i*5:i*5+5])
+
+print_5xn("아이엠어보이유알어걸")
+
+
+//문자열을 숫자로 출력하는 함수 "1,234,567"
+def convert_int(c):
+    return int(c.replace(',',''))
+
+print(convert_int("1,234,567"))
+
+//
 
 ```
 
