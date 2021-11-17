@@ -103,6 +103,18 @@ Fusion360
 
 ![image](https://user-images.githubusercontent.com/30430227/142092121-a9519e59-101d-40de-8cf5-8389ff4822df.png)
 
+<br>
+
+숫가락
+-------
+
+![image](https://user-images.githubusercontent.com/30430227/142156081-ab3d336a-f1ee-4d50-9bd9-3724327c89ac.png)
+
+`Patch > Interior Rails`
+
+![image](https://user-images.githubusercontent.com/30430227/142156128-c9e271ec-5a16-45a8-aeb7-1323d63650f5.png)
+![image](https://user-images.githubusercontent.com/30430227/142156592-abfd3376-7a3c-468c-b6e6-e2bf80c3afb9.png)
+
 
 
 
