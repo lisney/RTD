@@ -217,6 +217,10 @@ AlignEuler to Vector - Normal Rotate
 
 ![image](https://user-images.githubusercontent.com/30430227/141787548-c253be34-86cf-4326-ba6d-44d67f16a0c2.png)
 
+![image](https://user-images.githubusercontent.com/30430227/142188631-4e799d6c-1e9c-403e-8b6d-d3e50b638de7.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142188693-c4b94cc2-b447-4759-b0bb-ebe19f64c985.png)
+
 <br>
 
 쉴드 Normalize - vertex와 object 잇는 선 Vector 
