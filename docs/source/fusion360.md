@@ -79,7 +79,7 @@ Fusion360
 
 ![image](https://user-images.githubusercontent.com/30430227/142089070-ef25a795-8b17-4fa8-8f92-8ddd5e38a256.png)
 
-7. 스케치 > 프로젝트
+7. 스케치 > 프로젝트: Along vector, 세로 라인 선택
 
 ![image](https://user-images.githubusercontent.com/30430227/142089269-146c19a8-0fc3-4eae-b509-54f763ab4b75.png)
 
