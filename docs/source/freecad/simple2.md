@@ -133,6 +133,29 @@ PipeShell
 ![image](https://user-images.githubusercontent.com/30430227/142223448-dc987f3f-ea22-4577-b1fb-f91532301af1.png)
 ![image](https://user-images.githubusercontent.com/30430227/142223572-ae99809a-7bf8-429d-b99b-22b849acca2b.png)
 
+`점 추가 'i' > 변형`
+
+![image](https://user-images.githubusercontent.com/30430227/142224345-8a1089fb-2c72-4ba0-a6e1-f0cbe96c8d8a.png)
+
+`커브 선택 > Profile PipeShell`
+
+![image](https://user-images.githubusercontent.com/30430227/142225664-521d5c2a-469a-406e-a8ca-b3f8234dd808.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142225714-a9567d0f-e6b4-47eb-9042-990733a92681.png)
+
+`Profile 과 스케치 선택 > Pipeshell sweep`
+
+![image](https://user-images.githubusercontent.com/30430227/142225829-643926e2-373a-4d8a-ade7-3aea2a2290c0.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142225950-259ff2fb-1844-4f14-bf9d-023e505a6a8f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142226036-f0c98036-ba75-4301-82f9-235ff150c52e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142226397-39d850f4-d91a-4ebe-b609-bd4c759a37d9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142226422-1c2ba9a1-a6aa-4e7a-a40b-29749384b07b.png)
+
+
 
 
 
