@@ -419,7 +419,45 @@ def __del__(self):
 
 del areum   //소멸
 
+--------------------------------------------------
+은행계좌 Account Class - 입력(name, balance-잔금), 자동생성(bank="SC은행", account_number="000-00-000000"(랜덤넘버)
+-------------------------------------------------------------------
+import random
 
+class Account:
+    def __init__(self, name, balance):
+        self.name = name
+	self.balance = balance
+	
+	num1 = random.randint(0,999)
+	num2 = random.randint(0,99)
+	num3 = random.randint(0,999999)
+	
+	num1 = str(num1).zfill(3)
+	num2 = str(num2).zfill(2)
+	num3 = str(num3).zfill(6)
+	
+	self.account_number = f"{num1}-{num2}{num3}"
+
+kim = Account("김민수", 100)
+----------------------------------------------------------------------
+
+// 클래스 변수 - 계좌 수 카운트
+account_count = 0
+....
+__init__ 매서드에서
+Account.account_count += 1
+
+// 클래스 변수 사용 매서드
+def get_account_num(cls):
+    print(cls.account_count)
+
+// 입금 매서드
+def deposit(self, amount):
+    if amount >= 1:
+        self.balance += amount
+
+// 
 
 
 ```
