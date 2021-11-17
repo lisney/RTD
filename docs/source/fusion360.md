@@ -97,6 +97,8 @@ Fusion360
 
 9. 패턴
 
+`Suppress - 막다 : 인스턴스를 체크해제하면 생성이 되지  `
+
 ![image](https://user-images.githubusercontent.com/30430227/142089366-71778973-cdd3-46c2-a7d2-e9a52270aab4.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/142092121-a9519e59-101d-40de-8cf5-8389ff4822df.png)
