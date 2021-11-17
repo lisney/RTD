@@ -443,7 +443,7 @@ kim = Account("김민수", 100)
 ----------------------------------------------------------------------
 
 // 클래스 변수 - 계좌 수 카운트
-account_count = 0
+account_count = 0  // __init__ 에 카운트를 넣을려면 self.account_count 변수를 만든다
 ....
 __init__ 매서드에서
 Account.account_count += 1
@@ -457,7 +457,14 @@ def deposit(self, amount):
     if amount >= 1:
         self.balance += amount
 
-// 
+// 파이썬 콤마 추가/제거 방법
+num1 = 1234567890
+num2 = "1234567890원"
+
+print(f"{format(num1,',')}원)
+print(num2[:-1].replace(',',''))
+
+
 
 
 ```
