@@ -4,6 +4,37 @@ Procedure Shader
 기초
 -----
 
+1. 좌표
+
+`Object`
+
+![image](https://user-images.githubusercontent.com/30430227/142349778-778ce88e-1f8e-4685-a37d-9d93e502b0c8.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142349677-a26286b4-deb3-411e-aad0-5e6c27ba1e4f.png)
+
+`Greater Than`
+
+![image](https://user-images.githubusercontent.com/30430227/142350028-6c4da287-90a6-47f9-935a-b448eb590339.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142350041-b00f473b-987f-4f42-8598-da41e6452116.png)
+
+`Compare`
+
+![image](https://user-images.githubusercontent.com/30430227/142350141-a8d0250b-d2b4-4aec-9c95-8d6645e2a625.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142350316-1a7d5bbe-17e0-49e6-aeed-6683609d1c25.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142350418-345286ac-5300-49a9-8d57-1e505c1e3ede.png)
+
+`Group > 파라미터`
+
+![image](https://user-images.githubusercontent.com/30430227/142350741-45956b0c-f7f8-4188-b79f-bc062db7515e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142350868-c0710dbc-5b1a-4746-8936-ec753990315a.png)
+
+
+
+
 
 
 <br>
