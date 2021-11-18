@@ -229,6 +229,49 @@ Curtain
 
 ![image](https://user-images.githubusercontent.com/30430227/141208141-2502e0d4-9cae-4993-9392-3de4debbcd48.png)
 
+<br>
+
+패트병 
+------
+
+`12각형 > Bevel`
+
+![image](https://user-images.githubusercontent.com/30430227/142402045-14349d7d-659d-4c17-a327-d797c54a4628.png)
+![image](https://user-images.githubusercontent.com/30430227/142402115-8a4a5de9-468e-4cbb-a78c-0be4be54d884.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142402482-b8a0c5cd-b65f-4e44-bc01-5afe4321d430.png)
+![image](https://user-images.githubusercontent.com/30430227/142402515-6769f237-6900-4032-936e-b76735412b92.png)
+
+`Merge > subdivide`
+
+![image](https://user-images.githubusercontent.com/30430227/142403171-0e69e5a0-ae0f-4890-a58c-32ab718f6f5f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142403354-db7afffe-500c-4451-90cb-8b4c58132052.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142403408-d5759143-0897-4fa5-8bb6-af359f26b18c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142403437-162782f1-4648-4134-81b7-edcce9739975.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142403965-eb00e338-dfe6-48f5-afec-b48e31b51e51.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142404346-5228967f-3d05-44ed-9bdb-f5d5def9bdce.png)
+
+`오목하게 > 4등분 > Mirror > Subdivision`
+
+![image](https://user-images.githubusercontent.com/30430227/142404522-e3e313c0-9ebf-4003-94da-97755b41c065.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142404681-3d4c089d-e0a1-4c88-bd68-cdb0f5506781.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142405216-6e69a725-73ed-43f0-baa6-75eef9bcbc6b.png)
+
+`디테일`
+
+![image](https://user-images.githubusercontent.com/30430227/142405820-daa182ad-a9c4-4d54-88b2-4babd00b9d06.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142406256-1ed00bf3-0a0d-4c5d-9df9-71dd94f8e15b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142406817-4e5850e1-e554-44d3-a7e9-ef0aa76041f5.png)
+
 
 
 
