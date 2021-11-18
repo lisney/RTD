@@ -483,6 +483,7 @@ bicycle = 자전차(2, 100, "시마노")
 
 print(bicycle.바퀴)
 -------------------------------------------------------------------
+```
 
 <br>
 
@@ -494,6 +495,7 @@ f = open("c:/users/3dprinter/desktop/매수종목.txt", mode="wt", encoding="utf
 f.write("364845\n")
 f.close()
 
+# 매수종목1.txt 내용 "005930 삼성전자" ...
 
 // csv 쓰기
 import csv
@@ -507,10 +509,65 @@ writer.writerow(["삼성전자", "003724",15.64])
 f.close()
 
 
-// txt 파일 읽기
- f = open
+// 매수종목.txt 파일 읽어 배열 lines에 저장하기 
+ f = open("c:/users/3dprinter/desktop/매수종목.txt",encoding="utf-8")
+ lines = f.readlines()
+ 
+ codes = []
+ 
+ for line in lines:
+     code = line.strip() # \n 지움
+     codes.append(code)
+ 
+ print(codes)
+ 
+ f.close()
 
 
+// 매수종목1.txt 파일 -> 딕셔너리 저장
+...생략
+data ={}
+
+for line in lines:
+    line = line.strip()
+    k,v = line.split()
+    data[k] = v
+    
+print(data)
+f.close()
+
+
+//예외처리 ZeroDivisionError
+try:
+    4/0
+except ZeroDividsionError:
+    print("0으로 나눌려고?")
+
+
+//Index 에러 메시지 변수로 바인딩
+data = [1,2,3]
+
+try:
+    for i in range(5):
+        print(data[i])
+	
+except IndexError as e:
+    print(e)
+    
+
+// try, except, else, finally 구조
+per = ["10.31", "", "8.00"]
+
+for i in per:
+    try:
+        print(float(i))
+    except:
+        print(0)
+    else:
+        print("clean data")
+    finally:
+        print("변환 완료")
+ 
 ```
 
 
