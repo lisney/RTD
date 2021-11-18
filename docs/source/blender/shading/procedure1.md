@@ -32,10 +32,13 @@ Procedure Shader
 
 ![image](https://user-images.githubusercontent.com/30430227/142350868-c0710dbc-5b1a-4746-8936-ec753990315a.png)
 
+2. Compare 
 
+![image](https://user-images.githubusercontent.com/30430227/142356067-a53ef19c-4dda-428f-8e56-10f87c591a7e.png)
 
+![image](https://user-images.githubusercontent.com/30430227/142356293-0cca640c-ca69-40d1-acc1-1f5a37d9f4bd.png)
 
-
+![image](https://user-images.githubusercontent.com/30430227/142356415-d2da960b-4ce2-4cf9-a390-89fb723a3804.png)
 
 <br>
  
@@ -83,5 +86,58 @@ Procedure Shader
 ![image](https://user-images.githubusercontent.com/30430227/142337370-9286bf5b-650b-4e32-8a15-bf025bedee30.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/142337385-43a72b11-8b6f-4540-850f-9aa21da93ebb.png)
+
+<br>
+
+사라지다
+----------
+
+![image](https://user-images.githubusercontent.com/30430227/142357118-96cc3804-aad2-4d8f-b90f-81901f57daa9.png)
+
+`드라이버 Empty > Copy as Driver(Location X) > Paste to Less Than Threshold`
+
+![image](https://user-images.githubusercontent.com/30430227/142357245-57d54396-4636-4920-a34c-7fe300a85e58.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142357469-d3dd96b3-19b6-4c1b-b2a1-c288560980d7.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142357709-99440ba7-8a7c-442d-8552-938d332c28bd.png)
+
+`Noise Texture`
+
+![image](https://user-images.githubusercontent.com/30430227/142357931-7ed8043d-6144-45a7-8deb-793785f4ea3c.png)
+
+`Plane > 파티클 - instance plane`
+
+![image](https://user-images.githubusercontent.com/30430227/142358616-bfef02f7-122b-43b2-a3a2-f88e76cf2352.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142358714-0048425e-ffe6-46f6-82bc-93a282780af0.png)
+![image](https://user-images.githubusercontent.com/30430227/142358753-bac553a0-371b-44da-8109-2d7a8edf0342.png)
+
+`포스-wind`
+
+![image](https://user-images.githubusercontent.com/30430227/142359037-a21075cf-dbf7-4b1b-8a78-6efd4e16e9ba.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142359066-879bd616-c829-4e6e-a7e1-00ae2d9c5323.png)
+
+`Particle과 Empty 선택 > 0 frame 키프레임 애니메이션 `
+
+![image](https://user-images.githubusercontent.com/30430227/142360134-835fdebb-618d-4a5d-bbab-81052c00b7d0.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142359883-c1cc07a3-a3d9-4006-b4d7-d9525f5b438b.png)
+![image](https://user-images.githubusercontent.com/30430227/142360097-2116c92c-f3d6-4f5c-b5c3-1fc96e450baa.png)
+
+`Emitter Plane Transform 키프레임`
+
+![image](https://user-images.githubusercontent.com/30430227/142361011-d4d864ab-52b1-4dc2-b9c8-a50d3122a5f6.png)
+![image](https://user-images.githubusercontent.com/30430227/142361118-a258c578-f6e1-46cd-98e2-36b3104a8d7e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142361312-a1e80a1a-8250-4ef0-bfbc-3fd8b9a0ef25.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142361323-c2ed53de-9a34-49a8-b958-c3f0ea896209.png)
+
+
+
+
+
 
 
