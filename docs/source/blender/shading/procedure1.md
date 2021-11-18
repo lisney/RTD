@@ -247,6 +247,8 @@ Procedure Shader
 스테인글래스
 ------------
 
+![image](https://user-images.githubusercontent.com/30430227/142412786-0cf82ba1-b307-4f67-8b12-a1d84ec194be.png)
+
 `Voronoi`
 
 ![image](https://user-images.githubusercontent.com/30430227/142407716-32bb3acf-0d80-424a-90a1-ae0f26778d78.png)
@@ -292,32 +294,6 @@ Procedure Shader
 ![image](https://user-images.githubusercontent.com/30430227/142412657-5b6538d7-ef9c-4107-8f95-4880cc4a82db.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/142412694-9408e9a4-ce6a-4be7-b37e-ca6def44123b.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
