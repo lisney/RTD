@@ -32,6 +32,8 @@ Procedure Shader
 
 ![image](https://user-images.githubusercontent.com/30430227/142350868-c0710dbc-5b1a-4746-8936-ec753990315a.png)
 
+<br>
+
 2. Compare 
 
 ![image](https://user-images.githubusercontent.com/30430227/142356067-a53ef19c-4dda-428f-8e56-10f87c591a7e.png)
@@ -41,7 +43,47 @@ Procedure Shader
 ![image](https://user-images.githubusercontent.com/30430227/142356415-d2da960b-4ce2-4cf9-a390-89fb723a3804.png)
 
 <br>
- 
+
+3. Fraction 
+
+![image](https://user-images.githubusercontent.com/30430227/142362780-7afd318d-8c5b-4861-a7d2-ffb705e953dc.png)
+
+`Snap //Generated 0~1 - 1/1, Object -1~1 - 1/2`
+
+![image](https://user-images.githubusercontent.com/30430227/142363028-96760151-1164-450b-a241-058fe85af012.png)
+
+`래디얼 와이프 Arctan2`
+
+![image](https://user-images.githubusercontent.com/30430227/142364301-5e65a203-015d-4bfe-91b3-0297dab29843.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142364578-98cf0797-7e0d-4692-9655-921fa3c34a3c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142365636-53b46942-39d9-43d5-baa1-87f4840994e7.png)
+
+`Distance`
+
+![image](https://user-images.githubusercontent.com/30430227/142367127-eb0bd9b2-730d-4ea3-8da6-0ca5dd48d415.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142367324-ae40bbe8-2762-46d9-8c67-f048e5531f71.png)
+
+`Group > Fraction`
+
+![image](https://user-images.githubusercontent.com/30430227/142367788-4227f408-3381-4959-96e0-0fe119a22290.png)
+
+`그룹 노드 수정 > Multiply X 값은 정수라야 나선이 이어진다`
+
+![image](https://user-images.githubusercontent.com/30430227/142369280-ea64bd9a-ef6e-4305-9530-64cf94cb15ff.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142369154-6d117398-c778-4d69-ae16-2c1617e5b42e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142369462-c97c8d55-e65c-4cfb-87bd-fcf74786ad9d.png)
+
+`Multiply Y 값이 0`
+
+![image](https://user-images.githubusercontent.com/30430227/142369684-8a439b9c-f3bf-4724-b8e9-36475b46058e.png)
+
+<br>
+
 녹슬다
 -------
 
@@ -89,7 +131,7 @@ Procedure Shader
 
 <br>
 
-사라지다
+먼지와 함께 사라지다
 ----------
 
 ![image](https://user-images.githubusercontent.com/30430227/142357118-96cc3804-aad2-4d8f-b90f-81901f57daa9.png)
@@ -134,6 +176,12 @@ Procedure Shader
 ![image](https://user-images.githubusercontent.com/30430227/142361312-a1e80a1a-8250-4ef0-bfbc-3fd8b9a0ef25.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/142361323-c2ed53de-9a34-49a8-b958-c3f0ea896209.png)
+
+<br>
+
+지페 무늬
+-----------
+
 
 
 
