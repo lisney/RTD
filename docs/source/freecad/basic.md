@@ -669,6 +669,70 @@ Manipulator WB(Addon)
 5. 아이콘 등록  
 ![image](https://user-images.githubusercontent.com/30430227/136734500-2ddbab7c-3233-4e81-a16f-a13f111db1ee.png)  
 
+<br>
+
+Sheet Metal 워크벤치 Addon
+------------------------------
+
+1. Sketch
+
+![image](https://user-images.githubusercontent.com/30430227/142387359-1cec5324-e73a-4c8c-9c33-e34965738c5b.png)
+
+`Pad > Mirror`
+
+![image](https://user-images.githubusercontent.com/30430227/142387446-b757f30c-510e-4487-a190-0f585e78d077.png)
+
+`절곡선 스케치`
+
+![image](https://user-images.githubusercontent.com/30430227/142387628-78556006-6959-4cad-b7f8-56c37787a19b.png)
+
+<br>
+
+2. Sheet Metal WB
+
+`뷰포트!에서 면 선택(해야 활성된다) 후 Sketch 선택`
+
+![image](https://user-images.githubusercontent.com/30430227/142387981-e02ff8cb-c8cd-4753-8bc7-94ec3f5b2341.png)
+
+`Fold`
+
+![image](https://user-images.githubusercontent.com/30430227/142388107-72c9f9ec-8902-44c4-9ee1-467763f95925.png)
+![image](https://user-images.githubusercontent.com/30430227/142388162-e976672e-9870-4828-856a-e52e5a6b15b9.png)
+
+`기존 라인 선택 > 돌출 절곡 > 수정`
+
+![image](https://user-images.githubusercontent.com/30430227/142388483-659d50d2-54f2-4160-91f3-30e465c57f77.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142388436-a21fa295-274c-4f10-8696-43285faefad1.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142392243-23f8ce11-2c91-4fe0-a43b-f3b30c24af41.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142392386-9b53d171-5f0a-44ad-b630-3b15058efb32.png)
+
+3. 펴기
+
+`면 선택 > Flatten`
+
+![image](https://user-images.githubusercontent.com/30430227/142392688-5ce12be2-45f5-4caf-8da8-956fb1e7d9bf.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142392838-8730d700-ede0-409c-aa5f-bb7ee1747098.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142392935-22c2c195-64e6-4600-9b16-2f6376f1451c.png)
+
+`Unfold 모델과 Unfold_Sketch 가 생성된다`
+
+![image](https://user-images.githubusercontent.com/30430227/142392979-9c6be462-5ce4-42eb-8d66-1872937b0974.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142393255-9f1120b5-4e27-4f20-9ccb-a585412b9605.png)
+
+
+
+
+
+
+
+
+
 
 
 
