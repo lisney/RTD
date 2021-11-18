@@ -247,6 +247,64 @@ Procedure Shader
 스테인글래스
 ------------
 
+`Voronoi`
+
+![image](https://user-images.githubusercontent.com/30430227/142407716-32bb3acf-0d80-424a-90a1-ae0f26778d78.png)
+![image](https://user-images.githubusercontent.com/30430227/142407746-9a340807-459e-45d3-9432-3ed3c112c3a1.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142407785-3c98a1f1-3a0f-4ac2-9c00-af8146f6ef86.png)
+
+`타일`
+
+![image](https://user-images.githubusercontent.com/30430227/142408361-22eaad07-134f-4e89-8c2e-d53a7881f63a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142408889-575a6061-c0ff-4f37-8930-8f4ce6f69eab.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142408976-cc9cb9b1-3602-4c1a-832d-6b1e24625ffa.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142409341-9ec1331d-dfed-4004-b5f5-0f3b4053c759.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142409369-2d94ebbf-6e22-4851-89ee-c65055a68599.png)
+![image](https://user-images.githubusercontent.com/30430227/142409861-6121775a-b89b-4250-80c9-a874386b3ad0.png)
+
+`월드맵 Light Path > Camera - 카메라에서 나오는 광선에 맞으면 1 안맞으면 0, 환경맵 0(안보임)`
+
+![image](https://user-images.githubusercontent.com/30430227/142410861-c72a9f34-5082-4cc3-af55-79caf402dc68.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142410494-0e0b99ba-168c-4f86-acb4-2fea154277aa.png)
+
+`Image Texture 세팅`
+
+![image](https://user-images.githubusercontent.com/30430227/142411501-fc73cd9f-2893-4c76-aa89-3eb4daa47043.png)
+![image](https://user-images.githubusercontent.com/30430227/142411534-23bc43c3-ff8d-48ff-b594-3c60b29a4b0f.png)
+
+`Glass BSDF Transparent BSDF`
+
+![image](https://user-images.githubusercontent.com/30430227/142411932-fbd8fc1e-1286-4db4-9b8e-9dac3321a6c8.png)
+
+`믹스 Shader`
+
+![image](https://user-images.githubusercontent.com/30430227/142412167-5e5c0e95-b31e-4c1f-90ac-9aca37154aff.png)
+
+`거터 부드럽게 Power`
+
+![image](https://user-images.githubusercontent.com/30430227/142412278-cb23c4a3-15fc-4ca4-b6cb-2be9a42544b8.png)
+![image](https://user-images.githubusercontent.com/30430227/142412657-5b6538d7-ef9c-4107-8f95-4880cc4a82db.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142412694-9408e9a4-ce6a-4be7-b37e-ca6def44123b.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
