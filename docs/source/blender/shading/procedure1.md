@@ -182,6 +182,75 @@ Procedure Shader
 지페 무늬
 -----------
 
+`모자이크 - Vector Snap`
+
+![image](https://user-images.githubusercontent.com/30430227/142370292-18dc6b15-d71d-4d9e-98ff-4b82e03b437b.png)
+![image](https://user-images.githubusercontent.com/30430227/142370336-86f494cd-b747-4917-8a22-2406176b8f67.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142370353-fa3b6f41-830d-4e54-9a73-74e2216c8dc4.png)
+
+`Vector Fraction`
+
+![image](https://user-images.githubusercontent.com/30430227/142370936-566a8b29-f9fc-44bf-b463-e2355d1b41a9.png)
+
+`웨이브 - Sine`
+
+![image](https://user-images.githubusercontent.com/30430227/142371576-17e598e8-6a2d-456e-922d-6865450c15af.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142372001-f0b81028-6520-403d-88eb-c8199d52d2ad.png)
+
+`적용`
+
+![image](https://user-images.githubusercontent.com/30430227/142372097-b316189f-cf75-4790-835d-00a834e029ac.png)
+![image](https://user-images.githubusercontent.com/30430227/142372128-3fd34e1d-8def-49df-85a1-8e7f1056d1eb.png)
+
+`조정`
+
+![image](https://user-images.githubusercontent.com/30430227/142372335-db84def0-3131-4d05-acf6-a7981b0502a0.png)
+![image](https://user-images.githubusercontent.com/30430227/142372364-14136ada-a327-4d96-ac56-3a0f619363f9.png)
+
+`스케일`
+
+![image](https://user-images.githubusercontent.com/30430227/142372499-096316df-66d9-40cc-8b85-81eb3c7b639b.png)
+![image](https://user-images.githubusercontent.com/30430227/142372522-40484bf8-c0a8-4918-a4b8-ce0194c0272c.png)
+
+`복사> X- Y 교체`
+
+![image](https://user-images.githubusercontent.com/30430227/142372826-c588e729-f876-43b4-972f-35295d6c12e5.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142373837-b2adaf7e-6c2f-4e78-9309-ed7762cf8d9c.png)
+
+`가로 세로 MixRGB`
+
+![image](https://user-images.githubusercontent.com/30430227/142374337-a3431905-c9c6-4719-bce1-06970a98e66d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142374382-84f0a8da-917c-4bd3-865d-1e41bcbdb3e2.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142374539-00fb5fad-0ea5-4741-9382-833edc883210.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142375186-f4d25c2f-dde0-4b2f-aaba-8050a8070733.png)
+
+`회전`
+
+![image](https://user-images.githubusercontent.com/30430227/142375352-f527cc98-0f26-4bd5-a232-46311e8a3bab.png)
+
+`컬러`
+
+![image](https://user-images.githubusercontent.com/30430227/142375724-3705e29e-d86e-43f1-ba51-964e57d9b773.png)
+
+`잡티 - Noise Texture`
+
+![image](https://user-images.githubusercontent.com/30430227/142376659-94f4758b-18f7-4f1d-99a5-c9f78a19228b.png)
+
+
+
+
+
+
+
+
+
+
 
 
 
