@@ -495,9 +495,22 @@ f.write("364845\n")
 f.close()
 
 
+// csv 쓰기
+import csv
+
+f = open("c:/users/3dprinter/desktop/매수종목.csv", mode="wt", encoding="cp949", newline="") #newline='' 자동줄바꿈 안함
+
+writer = csv.writer(f)
+writer.writerow(["종목명","종목코드","PER"])
+writer.writerow(["삼성전자", "003724",15.64])
+
+f.close()
+
+
+// txt 파일 읽기
+ f = open
+
 
 ```
 
 
-
-```
