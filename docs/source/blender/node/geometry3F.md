@@ -109,3 +109,58 @@ Knot Mographic
 ![image](https://user-images.githubusercontent.com/30430227/142076683-31f3d108-daa1-4cef-81a2-4142113d2c83.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/142076844-e5eab403-e9bd-4681-859a-6a2505cc9004.png)
+
+<br>
+
+전봇대
+-------
+
+1. Bezier Curve > Geometry Node
+
+`모델링 > Curve Edit > Extrude`
+
+![image](https://user-images.githubusercontent.com/30430227/142615831-83f040a9-6027-49d0-8e6a-a711c0040f17.png)
+
+`랜덤 회전 - `
+
+![image](https://user-images.githubusercontent.com/30430227/142615988-646104c7-a03d-4aea-a508-3874d4cef5af.png)
+
+> 레이아웃 프레임: 선택 > Ctrl - J
+> 레이아웃 벗어나기: 선택 > Alt - P
+
+<br>
+
+2. 전선 
+
+![image](https://user-images.githubusercontent.com/30430227/142618477-ba1547c4-8563-4e19-b941-c9ab8b28e5d3.png)
+
+`기존 커브 위치를 박스 약간 오른쪽 Position > 회전 Position:  축은 Sample Curve(Position Out)에서 회전값은 Add(Vector Out) `
+
+![image](https://user-images.githubusercontent.com/30430227/142618967-40706233-b978-43d3-bded-4e4a2bd64165.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142618858-155db1ef-3509-42e6-85e6-1e00ec9afcd9.png)
+
+`커브 추가`
+
+![image](https://user-images.githubusercontent.com/30430227/142619320-f5ceaf5d-d3fb-4eb5-ab9f-ddf4ae014ae8.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142619362-69629201-afa7-4570-9ae6-34dead7ca9f4.png)
+
+`쳐짐 - 커브 Geometry > Subdivide Curve > Set Position(Selection: 기존 점은 0, Subdivision Point는 0보다 크다)`
+
+![image](https://user-images.githubusercontent.com/30430227/142621111-7abddff7-c380-43e1-9a9d-211b13ee1cd8.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142621070-2446fd62-1805-4a20-aaed-9ececc463bc1.png)
+
+`거리에 따라 쳐짐- 멀어지면 쳐짐 0`
+
+![image](https://user-images.githubusercontent.com/30430227/142622096-29ac2bdf-65b5-4e4d-b4ff-32f98142fb85.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142622126-d244f630-12f8-4eba-b45b-3b165ec2b0f2.png)
+
+
+
+
+
+
+
