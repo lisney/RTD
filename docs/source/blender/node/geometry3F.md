@@ -158,6 +158,12 @@ Knot Mographic
 
 ![image](https://user-images.githubusercontent.com/30430227/142622126-d244f630-12f8-4eba-b45b-3b165ec2b0f2.png)
 
+`랜덤 커브`
+
+![image](https://user-images.githubusercontent.com/30430227/142622907-ee7c3d71-ea81-4df1-9dee-7d5d781790a0.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142622943-4713e60f-fefe-40d6-835a-af703b61f365.png)
+
 
 
 
