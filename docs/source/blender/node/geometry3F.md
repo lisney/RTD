@@ -223,9 +223,33 @@ Knot Mographic
 
 `위 아래 줄 연결 로프 Modulo`
 
-![image](https://user-images.githubusercontent.com/30430227/142752313-02189578-e228-419d-8863-7bbc4b67068d.png)
+![image](https://user-images.githubusercontent.com/30430227/142752456-a1d0dd53-868f-4a2c-b1d2-4dc033ab1521.png)
 
-![image](https://user-images.githubusercontent.com/30430227/142752322-c5d978fd-ac77-4b03-ad75-d07da39930b7.png)
+![image](https://user-images.githubusercontent.com/30430227/142752466-85740969-714d-46b9-a769-2840a5fc05d5.png)
+
+`연결 변경`
+
+![image](https://user-images.githubusercontent.com/30430227/142752516-4dcfc030-d4eb-476e-bb95-21e4cf6d5d57.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142752510-bf1189d8-659e-446f-8ec2-40f249586119.png)
+
+`Curve to mesh - Curve Radius 적용`
+
+![image](https://user-images.githubusercontent.com/30430227/142752740-4b7ce40d-c771-4c6f-8546-b3f4726c311a.png)
+
+4. 매듭 
+
+`Torus Knot`
+
+![image](https://user-images.githubusercontent.com/30430227/142752805-79350bd6-c002-47c1-baec-73745528df2a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142752818-a62ec78f-60b5-49d9-8205-7abb066fb62a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142752871-5308a9cd-38a4-4939-ae54-a8766b1b635b.png)
+
+
+
+
 
 
 
