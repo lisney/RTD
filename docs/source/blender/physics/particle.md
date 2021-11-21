@@ -111,6 +111,22 @@ Particle
 ![image](https://user-images.githubusercontent.com/30430227/132651543-e66d22af-7080-4a4d-9ccb-666c6ba0e7f5.png)  
 ![image](https://user-images.githubusercontent.com/30430227/132651740-3e0a4458-ecf4-4535-b1d0-908dc7cea993.png)  
 
+<br>
+
+Curve Force Field
+-------------
+
+1. 커브를 선택 > Force 적용 - Shape Curve 가 활성
+
+![image](https://user-images.githubusercontent.com/30430227/142744922-468ed196-96a8-48b2-961c-3eda38eed52d.png)
+
+2. Curve Guide 타입 - Meal Radius 에 영향받는다(Ctrl -Alt -S)
+
+![image](https://user-images.githubusercontent.com/30430227/142744974-1c4e5c20-87f1-4645-8485-972a3da95ea6.png)
+
+`Particle Life Time 동안 커프 끝에 도달한다`
+
+
 
 
 
