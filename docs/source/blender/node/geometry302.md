@@ -47,5 +47,13 @@ Position Selection
 
 ![image](https://user-images.githubusercontent.com/30430227/142760749-3b3e20e9-4069-42af-88c9-afbfdc836d3d.png)
 
+<br>
 
+베타 서포터 - raycaster 
+----------------------
 
+![image](https://user-images.githubusercontent.com/30430227/142764151-146c91c4-3533-44fa-a895-1766635ccae0.png)
+
+`Normal Z - 아래로 향한 오버행 선택 > Cube > Set Position - 스케일 원짐 > Instance 스케일 - Raytrace Distance`
+
+![image](https://user-images.githubusercontent.com/30430227/142764439-51caedbc-4257-404a-a4c3-2ddd1d0b288b.png)
