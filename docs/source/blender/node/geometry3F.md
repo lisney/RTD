@@ -195,8 +195,37 @@ Knot Mographic
 
 ![image](https://user-images.githubusercontent.com/30430227/142751174-94b9e3d0-6c5e-4c64-b648-6a4b34057415.png)
 
+3. 2 로프
 
+![image](https://user-images.githubusercontent.com/30430227/142751365-08acf3e2-deee-45bd-ab8c-c5ce26766e04.png)
 
+![image](https://user-images.githubusercontent.com/30430227/142751372-f978d33f-dee4-46d8-8736-a9bba4e6d9fe.png)
+
+`랜덤 로프 추가 - Subdivide 수치 늘림`
+
+![image](https://user-images.githubusercontent.com/30430227/142751406-c4cda883-8da2-46f9-bb65-1ea000b4053a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142751413-eaff84d5-3cea-4a65-bb6a-1053b857eb78.png)
+
+`부드럽게`
+
+![image](https://user-images.githubusercontent.com/30430227/142751584-a5e5328f-0b71-4662-9158-8c178aafb5fd.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142751588-d8568b8f-fddf-4ce1-ac85-10fe4c57b566.png)
+
+3. 손잡이 
+
+`기본 로프 복사`
+
+![image](https://user-images.githubusercontent.com/30430227/142751656-691f1570-b457-4516-afe2-7940955a1dba.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142751665-aaeac0bd-c3a7-424d-b6cc-5e3d856800ce.png)
+
+`위 아래 줄 연결 로프 Modulo`
+
+![image](https://user-images.githubusercontent.com/30430227/142752313-02189578-e228-419d-8863-7bbc4b67068d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142752322-c5d978fd-ac77-4b03-ad75-d07da39930b7.png)
 
 
 
