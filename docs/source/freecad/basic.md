@@ -210,6 +210,10 @@ Tree View 상태에서 스케치 선택 > Validate Sketch
 `미러링`  
 ![image](https://user-images.githubusercontent.com/30430227/136515704-1400afe7-b2c6-4550-af98-e5f2046620af.png)  
 
+12. 연속으로 그리기 모드 - 기본은 체크되어 있는데...
+
+![image](https://user-images.githubusercontent.com/30430227/142757705-83a917d6-9535-486a-9419-a5c968ba77e1.png)
+![image](https://user-images.githubusercontent.com/30430227/142757694-b719af72-21c3-4cd7-b7a3-e533972ed8ac.png)
 
 
 파라메트릭-Alias
