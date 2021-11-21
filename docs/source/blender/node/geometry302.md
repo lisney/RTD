@@ -14,3 +14,11 @@ Geometry Node 3.0 Basic 2
 ![image](https://user-images.githubusercontent.com/30430227/142209849-1152a833-6929-4e8a-a9c4-f2cc68a76bb0.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/142209878-c6ce4ad2-5433-49ce-9fd8-0c53a3036b18.png)
+
+
+<br>
+
+Normalize
+-----------
+
+
