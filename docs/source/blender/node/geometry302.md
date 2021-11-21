@@ -38,5 +38,14 @@ Normalize
 ![image](https://user-images.githubusercontent.com/30430227/142745723-feb3fb0e-6308-4c84-baad-8757d72281d8.png)
 ![image](https://user-images.githubusercontent.com/30430227/142745767-2f14aec9-2f45-432f-92c7-22b594790084.png)
 
+<br>
+
+Position Selection 
+---------------------
+
+![image](https://user-images.githubusercontent.com/30430227/142760747-512c8e2c-a831-43f4-8b8c-211e3f79a8c5.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142760749-3b3e20e9-4069-42af-88c9-afbfdc836d3d.png)
+
 
 
