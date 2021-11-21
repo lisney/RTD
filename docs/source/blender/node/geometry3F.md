@@ -168,6 +168,34 @@ Knot Mographic
 
 ![image](https://user-images.githubusercontent.com/30430227/142622943-4713e60f-fefe-40d6-835a-af703b61f365.png)
 
+<br>
+
+
+줄다리
+-------
+
+0. 이론 Mesh Line > Index 0 ~ X => 0 ~ 1
+
+![image](https://user-images.githubusercontent.com/30430227/142749672-d4143b23-e8e4-4309-8c3c-2d67fd667610.png)
+![image](https://user-images.githubusercontent.com/30430227/142749677-e84b939b-77f6-4031-b5cf-a57b497179e6.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142749679-44d87c45-cb96-4f25-aec0-f817875cc4f3.png)
+
+1. 쳐진 커브 
+
+`2 Empty > Line > Subdivide Curve > Sine Curve`
+
+![image](https://user-images.githubusercontent.com/30430227/142751085-2a21959b-3d8e-46ea-9a03-03d52b75980a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142751114-e1c56999-da3f-41c6-90ab-08cf171804ac.png)
+
+2. 계단 
+
+![image](https://user-images.githubusercontent.com/30430227/142751171-dfef7bb3-a5ab-45b5-8658-227667f14b2a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142751174-94b9e3d0-6c5e-4c64-b648-6a4b34057415.png)
+
+
 
 
 
