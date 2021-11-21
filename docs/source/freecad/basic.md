@@ -725,6 +725,34 @@ Sheet Metal 워크벤치 Addon
 
 ![image](https://user-images.githubusercontent.com/30430227/142393255-9f1120b5-4e27-4f20-9ccb-a585412b9605.png)
 
+<br>
+
+4. 돌출 절곡 
+
+`Sketch`
+
+![image](https://user-images.githubusercontent.com/30430227/142753623-5c7ce052-3ddc-49a4-b102-afa2ecdca744.png)
+
+`Sheet metal WB`
+
+![image](https://user-images.githubusercontent.com/30430227/142753631-4e8fb774-81db-4885-8ff9-d35d996bb686.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142753640-2a221889-ec2f-4e0d-bcd6-d76c11c43cce.png)
+
+`Sketcher WB > Part WB`
+
+![image](https://user-images.githubusercontent.com/30430227/142753660-6fb8fc13-46df-448b-adfa-5547468199d8.png)
+![image](https://user-images.githubusercontent.com/30430227/142753670-f4493e92-df26-432f-a2a4-09ec458d7744.png)
+
+`Sheet Metal WB`
+
+![image](https://user-images.githubusercontent.com/30430227/142753688-9ee35d53-729f-4f24-8812-a5bf4887a87b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142753677-280f5dfe-f7fc-4337-95f3-fbce155b184e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142753685-a2750caf-0aac-440c-8278-d51101a81bc7.png)
+
+
 
 
 
