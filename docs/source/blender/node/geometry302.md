@@ -21,4 +21,22 @@ Geometry Node 3.0 Basic 2
 Normalize
 -----------
 
+`벡터의 시작점은 (0,0) 방향은 대상의 Location`
+
+![image](https://user-images.githubusercontent.com/30430227/142745614-3bf0e92c-ec14-45f9-8792-3c7b78500411.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142745662-1b769a6e-a480-49c5-a1c2-8467443b436d.png)
+
+`그룹 Input`
+
+![image](https://user-images.githubusercontent.com/30430227/142745688-0d490141-5c68-4af2-9f86-f23cd47e1641.png)
+
+`Relative`
+
+![image](https://user-images.githubusercontent.com/30430227/142745761-3538ddd0-6f38-4396-ad97-4faa7cf31a84.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142745723-feb3fb0e-6308-4c84-baad-8757d72281d8.png)
+![image](https://user-images.githubusercontent.com/30430227/142745767-2f14aec9-2f45-432f-92c7-22b594790084.png)
+
+
 
