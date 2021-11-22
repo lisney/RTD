@@ -3,6 +3,11 @@ PYGAME
 
 > // 연산 - 나눈 후 소수점 이하 버림
 
+<br>
+
+사과 피하기 
+-----------------
+
 1. 방향키로 이미지 제어하기
 
 ```
@@ -47,4 +52,87 @@ while True:
 pygame.quit()
 
 ```
+
+<br>
+
+2. 사과 떨어트리기
+
+![image](https://user-images.githubusercontent.com/30430227/142822746-3b95d5f0-b0d7-47be-934a-673c47715962.png)
+
+```
+import pygame
+import random
+
+pygame.init()
+screen = pygame.display.set_mode((600,800))
+clock = pygame.time.Clock()
+pygame.key.set_repeat(500,30)
+
+# 점수
+small_font = pygame.font.SysFont('malgungothic', 36)
+score =0
+
+# 소녀
+girl_load = pygame.image.load('python/4g2.jpg')
+girl_scale = pygame.transform.scale(girl_load,(100,100))
+
+girl = girl_scale.get_rect()
+girl.centerx = 300
+girl.bottom = 800
+
+# 폭탄
+apple_load = pygame.image.load('python/apple.png')
+apple_scale = pygame.transform.scale(apple_load,(100,100))
+
+apples = []
+
+for i in range(3):
+    apple = apple_scale.get_rect(top=-100)
+    apple.left = random.randint(0, 600 - apple.width)
+    apples.append(apple)
+
+while True:
+    screen.fill((0,25,55))
+
+    event = pygame.event.poll()
+
+    if event.type == pygame.QUIT:
+        break
+    elif event.type == pygame.KEYDOWN:
+        if event.key == pygame.K_LEFT:
+            girl.left -= 5
+            
+        elif event.key == pygame.K_RIGHT:
+            girl.left += 5
+            
+    if girl.left < 0:
+        girl.left = 0
+    elif girl.right > 600:
+        girl.right = 600
+        
+    for apple in apples:
+        apple.top += 5
+        if apple.top > 800:
+            apples.remove(apple)
+            apple = apple_scale.get_rect(left=random.randint(0,600-apple.width), top =-100)
+            # apple.left = random.randint(0,600-apple.width)
+            # apple.top = -100
+            apples.append(apple)
+            score += 1
+            
+    screen.blit(girl_scale, girl)
+    
+    for apple in apples:
+        screen.blit(apple_scale, apple)
+        
+    score_image = small_font.render(f"점수 {score}", True,(255,255,0))
+    screen.blit(score_image,(10,10))
+    
+    pygame.display.update()
+    clock.tick(30)
+
+pygame.quit()
+
+```
+
 
