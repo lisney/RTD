@@ -267,6 +267,65 @@ Knot Mographic
 
 ![image](https://user-images.githubusercontent.com/30430227/142836527-084ab998-108a-4806-b20b-fb2098765a8f.png)
 
+<br>
+
+2. Geometry Nodes
+
+![image](https://user-images.githubusercontent.com/30430227/142849549-9ee029fa-1dce-41a6-ac70-b2c141ee8eda.png)
+![image](https://user-images.githubusercontent.com/30430227/142849590-9a5ff259-b543-456d-96ce-2bf1b05b4783.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142849808-261c61dd-dce5-4874-ace4-264a18d92c69.png)
+
+`Attribute Statistic`
+
+![image](https://user-images.githubusercontent.com/30430227/142850285-dfddc16c-caa7-4c3b-ad6b-703189965e10.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142850331-789a2757-db36-4036-8e42-ed4eb1420d01.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142850834-a0ce1512-cba2-4cf0-bf7f-bd8550e4bd0f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142850937-2efc4e09-5f9e-47ca-89fc-edf1187fbb1b.png)
+
+`Pattern - Mesh Line`
+
+![image](https://user-images.githubusercontent.com/30430227/142851099-d8ab338e-ef6a-4e4f-b992-90cc80fdbc0a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142851234-ea1f14bf-89bc-469c-8645-bc903e43a0d5.png)
+
+`Random Value -  Divide 사용 #frame 키애니메이션(200 frame => 1)`
+
+![image](https://user-images.githubusercontent.com/30430227/142852026-952ae22e-47bb-4e8a-8f3e-e56c493d2cdc.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142852043-2c459fdf-128b-4475-b461-0bb614ddd0c3.png)
+
+`Set Curve Radius`
+
+![image](https://user-images.githubusercontent.com/30430227/142852929-5f6a29e1-ad56-40a4-94e6-7e54cb225769.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142852956-9b260ce2-0292-4cea-84dd-248094848254.png)
+
+<br>
+
+3. 머티리얼
+
+![image](https://user-images.githubusercontent.com/30430227/142853385-ef505565-5046-4470-b293-f2f65df02e0f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142853429-d689539a-aaa6-46b9-bf26-53b51f8ce9e5.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142854167-eb85303a-458d-445b-8da2-ec38ee80a9c6.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142854195-52e15c63-b5bc-435a-af33-71cf2421c7af.png)
+
+<br>
+
+4. 실~짱 - Ico Sphere
+
+![image](https://user-images.githubusercontent.com/30430227/142854866-fdec1c83-d337-4e09-992c-f59c3b010cef.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142854970-9e9c8da8-2abc-465f-88ef-231773632466.png)
+
+
+
 
 
 
