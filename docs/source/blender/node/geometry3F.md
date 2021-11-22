@@ -247,7 +247,25 @@ Knot Mographic
 
 ![image](https://user-images.githubusercontent.com/30430227/142752871-5308a9cd-38a4-4939-ae54-a8766b1b635b.png)
 
+<br>
 
+니트 
+-------
+
+1. 커브 모델링 
+
+![image](https://user-images.githubusercontent.com/30430227/142836039-58ea3f86-11f9-4f08-9ec1-826a6f62ef3d.png)
+![image](https://user-images.githubusercontent.com/30430227/142836173-8958c5ee-e15a-45ae-b15f-1493e863241e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142836125-a76a0981-574a-47d8-a1f1-e236c5767658.png)
+![image](https://user-images.githubusercontent.com/30430227/142836193-b8c3b5d1-7bac-463d-84c2-82b1bd54672b.png)
+
+`Rotate > Subdivide > Edit`
+
+![image](https://user-images.githubusercontent.com/30430227/142836355-a02d860b-ddae-4815-98b0-5c82a9beebe7.png)
+![image](https://user-images.githubusercontent.com/30430227/142836462-3b013402-ed18-4641-a0b7-faf943ea1d56.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142836527-084ab998-108a-4806-b20b-fb2098765a8f.png)
 
 
 
