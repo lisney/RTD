@@ -756,6 +756,43 @@ Sheet Metal 워크벤치 Addon
 
 ![image](https://user-images.githubusercontent.com/30430227/142753685-a2750caf-0aac-440c-8278-d51101a81bc7.png)
 
+<br>
+
+4. 상자 - Part Design WB에서 시작
+
+`Miter Angle -마이터 조인트 앵글`
+
+![image](https://user-images.githubusercontent.com/30430227/142938487-08d948ed-dc1c-4d09-bff5-c65c40909f2b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142938519-7bb3a7fd-c7ab-476e-ab55-dbd5a040df39.png)
+
+`겹친다 > Offset - 공차 필요`
+
+![image](https://user-images.githubusercontent.com/30430227/142938796-22ecd0e8-c4fc-4136-9ddf-9e5c57efde9f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142939028-f7363779-c3f7-448d-81e9-c2e2200a3433.png)
+![image](https://user-images.githubusercontent.com/30430227/142939109-3aed17de-44d2-4159-a3d8-61a0393de20a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142939146-b6f6d26f-ad4e-4ad1-a97a-7e98e236cef0.png)
+
+`연결` 
+
+![image](https://user-images.githubusercontent.com/30430227/142939455-72bebb3f-ecab-4ce1-80cb-a6988f357f0c.png)
+![image](https://user-images.githubusercontent.com/30430227/142939703-1e969e31-fce8-46db-8ec1-5f7d7554d754.png)
+
+`홀 Sketch > Pocket > Refine 해야 Fillet 됨`
+
+![image](https://user-images.githubusercontent.com/30430227/142940248-3f71f330-fb3e-4c07-b965-6ed82fcb82fc.png)
+![image](https://user-images.githubusercontent.com/30430227/142940326-29ad0b67-86ea-4ba5-a7a0-86b95e3f0459.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142940954-f5b6382f-7312-4e95-8f80-abb166b4f334.png)
+
+`UNfold`
+
+![image](https://user-images.githubusercontent.com/30430227/142941138-9dee5d8c-3bcf-4589-b255-66dc6eb17bda.png)
+![image](https://user-images.githubusercontent.com/30430227/142941986-460770d9-9913-41b0-b541-09fe65f70fd6.png)
+
+
 
 
 
