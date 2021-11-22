@@ -57,3 +57,31 @@ Position Selection
 `Normal Z - 아래로 향한 오버행 선택 > Cube > Set Position - 스케일 원짐 > Instance 스케일 - Raytrace Distance`
 
 ![image](https://user-images.githubusercontent.com/30430227/142764439-51caedbc-4257-404a-a4c3-2ddd1d0b288b.png)
+
+<br>
+
+베타 서포터 - 커브형식
+---------------------
+
+![image](https://user-images.githubusercontent.com/30430227/142790330-71e0e1d5-d575-4bfa-9dfb-ec124402a131.png)
+
+`BezierCurve > Raycast > Curve to Mesh`
+
+![image](https://user-images.githubusercontent.com/30430227/142790373-57eb8fef-dacd-4834-b388-161c4c04f5f9.png)
+![image](https://user-images.githubusercontent.com/30430227/142790460-b4bd2f17-6ad1-4205-91f0-b28fcd32a0b4.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142798041-3b949a3e-a4c7-405b-a7a1-0a320aa3489a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142798074-bbd3801d-58d3-4604-b1d8-09b188586119.png)
+
+`바닥면 선택 > Set Position > 불린 컷`
+
+![image](https://user-images.githubusercontent.com/30430227/142790330-71e0e1d5-d575-4bfa-9dfb-ec124402a131.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142798268-fbd25687-075d-4b3f-a666-37986251c559.png)
+
+
+
+
+
+
