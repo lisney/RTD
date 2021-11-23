@@ -79,6 +79,14 @@ Transfer Weights
 `카메라 다가가면 X-방향으로 비킨다`  
 ![image](https://user-images.githubusercontent.com/30430227/137433537-f46e6271-0411-4864-8cdb-0115e92c2c6b.png)  
 
+<br>
+
+Image Size -가로세로비 
+--------------------------
+
+`Boolean Intersect > 상하좌우 vertex Hook > 오른쪽 위 Hook선택 > X- Copy Driver -오른쪽 아래 붙여넣기 > Y-Copy Driver - 왼쪽 위 붙여넣기`
+
+![image](https://user-images.githubusercontent.com/30430227/143068897-6489699e-d8fa-4af9-9e59-79ba8a509dea.png)
 
 
 
