@@ -97,6 +97,10 @@ Position Selection
 ![image](https://user-images.githubusercontent.com/30430227/142962604-d12d61bf-92c5-47f6-aaf6-a2e7ea022369.png)
 ![image](https://user-images.githubusercontent.com/30430227/142962625-390b2696-617c-4e71-865a-ff9cb9b6d216.png)
 
+`조건문 - X위치 비교 Less Than > Switch`
+
+![image](https://user-images.githubusercontent.com/30430227/142970663-d4bb1577-0369-4463-a673-e1a7673000a4.png)
+
 
 
 
