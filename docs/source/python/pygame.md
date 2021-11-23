@@ -238,6 +238,9 @@ while True:
 pygame.quit()
 ```
 
+<br>
+
+2. 
 
 
 참고 
