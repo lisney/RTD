@@ -52,6 +52,17 @@ UV맵 자동 패턴
 
 
 
+UV Warp
+---------
+
+`좌측 아래가 (0,0) 우측 위가 (1,1) - Empty 를 (0,0)점에 놓고 Empty1 을 움직여 좌하 위치를 잡는다 > Empty1의 스케일/로테이트를 조정한다`
+
+![image](https://user-images.githubusercontent.com/30430227/143064003-bbffd81c-0055-46b7-aeb9-010724857a01.png)
+![image](https://user-images.githubusercontent.com/30430227/143064170-6327b347-c297-4fc9-b2b5-3fa55e96b160.png)
+
+
+
+
 
 
 
