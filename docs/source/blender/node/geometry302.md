@@ -80,6 +80,19 @@ Position Selection
 
 ![image](https://user-images.githubusercontent.com/30430227/142798268-fbd25687-075d-4b3f-a666-37986251c559.png)
 
+<br>
+
+3점 포인트 좌표
+--------------
+
+![image](https://user-images.githubusercontent.com/30430227/142960906-d5cdc4ad-7d03-461b-866d-1e4959a6abef.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142960949-d0c1cfe6-4e70-44f0-9505-ed49c535a85f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142961121-c8b82b7e-d214-41b7-a845-763d928b16bf.png)
+![image](https://user-images.githubusercontent.com/30430227/142961138-df290237-484b-4d3b-b1a7-44df70ff9544.png)
+
+
 
 
 
