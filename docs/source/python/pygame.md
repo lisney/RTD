@@ -175,6 +175,66 @@ while True:
 pygame.quit()
 
 ```
+<br>
+
+사기리 클릭 게임 
+-------------------
+
+1. 랜덤 위치 클릭 - 마우스 호버
+
+```
+import pygame
+import random
+
+pygame.init()
+screen = pygame.display.set_mode((600, 800))
+clock = pygame.time.Clock()
+
+BLACK = 0,0,0
+
+image_load = pygame.image.load('python/4g2.jpg')
+image_scale = pygame.transform.scale(image_load,(94,94))
+images =[]
+
+rand_x = [0,1,2,3,4,5]
+rand_y = [0,1,2,3,4,5,6,7]
+
+for i in range(7):
+    image = image_scale.get_rect()
+    image.left = (image_scale.get_width()+6) * random.choice(rand_x)
+    image.top = (image_scale.get_height()+6) * random.choice(rand_y)
+    images.append(image)
+
+
+while True:
+    screen.fill(BLACK)
+
+    event = pygame.event.poll()
+    if event.type == pygame.QUIT:
+        break
+    elif event.type == pygame.MOUSEBUTTONDOWN:
+        print(event.pos)
+        for i,image in enumerate(images):
+            if image.collidepoint(event.pos):
+                print(f"{i}번 사기리")
+                print(image)
+                
+    elif event.type == pygame.MOUSEMOTION:
+        pygame.mouse.set_system_cursor(pygame.SYSTEM_CURSOR_ARROW)
+        for image in images:
+            if image.collidepoint(event.pos):
+                pygame.mouse.set_system_cursor(pygame.SYSTEM_CURSOR_HAND)
+        
+    
+    for image in images:
+        screen.blit(image_scale, image)
+        
+        
+    pygame.display.update()
+    clock.tick(30)
+
+pygame.quit()
+```
 
 
 
