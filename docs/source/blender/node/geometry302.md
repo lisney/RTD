@@ -101,7 +101,17 @@ Position Selection
 
 ![image](https://user-images.githubusercontent.com/30430227/142970663-d4bb1577-0369-4463-a673-e1a7673000a4.png)
 
+<br>
 
+Switch - hide/show
+--------------------
+
+![image](https://user-images.githubusercontent.com/30430227/143079816-72901cab-76b4-4ff8-adc4-530a70a865be.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143079748-5fdecdee-a16a-481c-8870-3ef2e7524c4a.png)
+![image](https://user-images.githubusercontent.com/30430227/143079780-51837dcf-8961-4f54-be73-47e182a4a30d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143079994-cccc38da-2f31-49de-9520-d4eea55e2dc0.png)
 
 
 
