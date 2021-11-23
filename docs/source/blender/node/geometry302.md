@@ -92,7 +92,10 @@ Position Selection
 ![image](https://user-images.githubusercontent.com/30430227/142961194-2bcd3a46-2f9b-477b-941d-fc87a7548297.png)
 ![image](https://user-images.githubusercontent.com/30430227/142961138-df290237-484b-4d3b-b1a7-44df70ff9544.png)
 
+`X-축의 위치가 음의 방향이면 위치가 틀어진다 `
 
+![image](https://user-images.githubusercontent.com/30430227/142962604-d12d61bf-92c5-47f6-aaf6-a2e7ea022369.png)
+![image](https://user-images.githubusercontent.com/30430227/142962625-390b2696-617c-4e71-865a-ff9cb9b6d216.png)
 
 
 
