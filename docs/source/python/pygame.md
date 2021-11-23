@@ -180,6 +180,8 @@ pygame.quit()
 사기리 클릭 게임 
 -------------------
 
+![image](https://user-images.githubusercontent.com/30430227/142984277-28211742-f1ea-49df-acc2-5a57dc874871.png)
+
 1. 랜덤 위치 클릭 - 마우스 호버
 
 ```
