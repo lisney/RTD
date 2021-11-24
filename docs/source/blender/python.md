@@ -67,8 +67,52 @@ _PATH_TO_BLENDER_ 블렌더 설치 패스
 
 ![image](https://user-images.githubusercontent.com/30430227/143222173-f50c90af-b4b3-44b7-8ff5-9b2b63c6959f.png)
 
+-------------
 
+코딩
+-------
 
+1. 랜덤 생성 
+
+`context 변할 수 있는 설정 prop- 속성값(Context의 하위개념?)`
+
+![image](https://user-images.githubusercontent.com/30430227/143227607-87f0feb0-9a2e-4d71-83a3-b51b12828d33.png)
+
+```
+import bpy
+
+from random import randint
+
+for i in range(5):
+    x = randint(-3, 3)
+    y = randint(-3, 3)
+    z = randint(-3, 3)
+    bpy.ops.mesh.primitive_monkey_add(location=(x,y,z))
+    bpy.ops.object.modifier_add(type='SUBSURF')
+    bpy.context.object.modifiers['Subdivision'].render_levels = 3
+    bpy.context.object.modifiers['Subdivision'].levels = 3
+```
+
+<br>
+
+2. 패널 
+
+![image](https://user-images.githubusercontent.com/30430227/143232485-320921ac-fcdc-4c8f-ac40-f73da7189ed5.png)
+
+```
+import bpy
+
+class CrayPanel(bpy.types.Panel):
+    bl_label = "블랜더 패널"
+    bl_space_type = 'PROPERTIES' 
+    bl_region_type ='WINDOW'   # properties창 그룹의
+    bl_context = 'collection'  # collection 탭(콘텐스트)에 생긴다
+ 
+    def draw(self, context):
+        self.layout.row().label(text='블렌더의 세계', icon='WORLD_DATA')
+
+bpy.utils.register_class(CrayPanel)
+```
 
 
 
