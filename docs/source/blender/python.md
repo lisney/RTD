@@ -48,7 +48,11 @@ VSCode
 ![image](https://user-images.githubusercontent.com/30430227/143221230-38deef53-99f6-4aa1-bcf0-b9dce1303404.png)
 ![image](https://user-images.githubusercontent.com/30430227/143221196-739b449e-6e88-4bd8-a474-597eece0de0d.png)
 
-`.Vscode 폴더(닫았다 열면 자동생성?) setting.json`
+`추가 - 파이썬 맞춤법 검사기? > Shift - Ctrl - P > Pyline 선택 > .Vscode 폴더 자동으로 생긴다`
+
+![image](https://user-images.githubusercontent.com/30430227/143222173-f50c90af-b4b3-44b7-8ff5-9b2b63c6959f.png)
+
+`.Vscode/setting.json`
 
 ![image](https://user-images.githubusercontent.com/30430227/143221398-c7b95e44-a405-4e23-894f-8fa0e300e31c.png)
 
@@ -62,10 +66,6 @@ VSCode
 
 _PATH_TO_BLENDER_ 블렌더 설치 패스
 ```
-
-`추가 - 파이썬 맞춤법 검사기? > Shift - Ctrl - P > Pyline 선택`
-
-![image](https://user-images.githubusercontent.com/30430227/143222173-f50c90af-b4b3-44b7-8ff5-9b2b63c6959f.png)
 
 -------------
 
