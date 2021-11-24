@@ -112,3 +112,27 @@ Curve to Surface
 
 ![image](https://user-images.githubusercontent.com/30430227/143318113-d74b0fe3-7ff7-4794-9dbc-081521780e91.png)
 
+3. 한방에 
+
+`Draft WB > Text > 컨텍스트 수정 > to Sketch > 바운더리 Construction Mode Change`
+
+![image](https://user-images.githubusercontent.com/30430227/143319623-fc654466-9b89-46bf-9547-1f6eccbaae4c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143319685-3e90452c-3bc3-47cb-a205-776d65d3e2f9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143319762-12da1a8a-0ad6-4387-9b12-025cabb8343b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143319785-9e2f73b3-b69d-405b-8cc5-59dfb58c6b87.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143320028-47b14c4b-1fff-4006-b099-26fb8243c687.png)
+
+
+`Curves WB > 실린더 면 선택, 스케치 선택 > Mat to Sketch - 안된다 > 수동으로 `
+
+![image](https://user-images.githubusercontent.com/30430227/143320537-4cc27310-e471-4b66-9ba8-2c517fed13f3.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143320568-f43a4ab1-5637-419b-a563-95195d348fc4.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143320325-78125ab1-a7a5-47f4-b589-f8dc0d89d1ed.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143320679-4c3a2063-a5a7-41ec-94d9-48335c77198b.png)
