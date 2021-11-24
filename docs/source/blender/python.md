@@ -24,4 +24,13 @@ VSCode
 
 ![image](https://user-images.githubusercontent.com/30430227/143178095-5b29430d-8f22-49d8-bd78-e97a6b1aa092.png)
 
+4. Blender Start
+
+![image](https://user-images.githubusercontent.com/30430227/143178232-c0eddc37-3f5d-4240-b084-213a6062ffd2.png)
+
+-------------------------------------------------------------------------------------
+
+5. 그냥 블렌더 실행시키고 .py파일 연다
+
+`VSCode에서 편집하고 블렌더에서 파일 갱신하면 된다`
 
