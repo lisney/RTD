@@ -114,6 +114,119 @@ class CrayPanel(bpy.types.Panel):
 bpy.utils.register_class(CrayPanel)
 ```
 
+----
+- @ 데코레이션
 
+`@ 데코함수명 - 다음에 오는 함수를 데코함수로 장식`
+```
+import datetime
 
+def datetime_decorator(func):
+    def decorated():
+        print(datetime.datetime.now())
+        func()
+        print(datetime.datetime.now())
+    return decorated
+
+@datetime_decorator
+def main_function_1():
+    print("MAIN FUNCTION 1 START")
+
+@datetime_decorator
+def main_function_2():
+    print("MAIN FUNCTION 2 START")
+    
+main_function_1()
+main_function_2()
+```
+
+`*args, **kwargs 여러 개의 인수`
+
+```
+def full_name(*names):
+    for name in names:
+        print(name[0],name[1:3], end=' ')
+    print('\n')
+    
+full_name('이천수','안정환')
+full_name('이천수')
+```
+
+`클래스 사용`
+```
+import datetime
+
+class DatetimeDecorator:
+    def __init__(self,f):
+        self.func = f
+        
+    def __call__(self,*args,**kwargs):
+        print(datetime.datetime.now())
+        self.func(*args, **kwargs)
+        print(datetime.datetime.now())
+
+class MainClass:
+    @DatetimeDecorator
+    def main_function_10():
+        print('Function 1 start')
+        
+    @DatetimeDecorator
+    def main_function_20():
+        print('Function 2 start')
+
+my = MainClass()
+    
+my.main_function_10()
+my.main_function_20()
+```
+
+-----
+
+3. 오브젝트 패널 
+
+```
+import bpy
+
+class HelloWorld(bpy.types.Panel):
+    bl_label = '헬로월드'
+    bl_idname = 'OBJECT_PT_hello'
+    bl_space_type = 'PROPERTIES'
+    bl_region_type = 'WINDOW'
+    bl_context = 'object'
+    
+    def draw(self, context):
+        layout = self.layout
+        obj = context.object
+        row = self.layout.row() 
+        
+        row.label(text='Hello World!', icon='WORLD_DATA')
+        row = layout.row() #\n 개행
+
+        row.label(text='Active object is:'+obj.name) #  현재 선택한 오브젝트 이름
+        row = layout.row()
+
+        row.operator('mesh.primitive_cube_add') # 명령 실행 버튼
+        row = layout.row()
+        
+        row.operator('object.modifier_add').type="SUBSURF"   
+
+def register():
+    bpy.utils.register_class(HelloWorld)
+
+def unregister():
+    bpy.utils.unregister_class(HelloWorld)
+
+if __name__ == '__main__':
+    register()
+```
+
+> 블렌더 시작 스크립트 파일 폴더
+
+![image](https://user-images.githubusercontent.com/30430227/143384264-ed749f53-57bd-49d7-ae9c-140d8ac77f8c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143384308-126525a0-ff3a-4c26-86ea-9249a643ed5e.png)
+
+<br>
+
+4. 
 
