@@ -266,7 +266,32 @@ Bend
 ![image](https://user-images.githubusercontent.com/30430227/138378606-0442d306-4590-4428-83b5-ef0beba3c453.png)  
 ![image](https://user-images.githubusercontent.com/30430227/138378927-cd8b9042-016e-46ea-b493-ac35dab23dbe.png)  
 
+4. 추가 
 
+![image](https://user-images.githubusercontent.com/30430227/143451738-ff2bb3dc-519b-4f1a-9df7-3df67e6e163b.png)
+
+`Extrude > Scale > Bevel`
+
+![image](https://user-images.githubusercontent.com/30430227/143452793-040b5b02-c082-468e-891a-78e7835457ee.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143452888-abae8966-2e48-4a18-835f-6ef08be9484f.png)
+
+`Vertex Weight  > Shrinkwarp`
+
+![image](https://user-images.githubusercontent.com/30430227/143453115-5b52c682-1fac-46b8-be9e-373d1072717e.png)
+![image](https://user-images.githubusercontent.com/30430227/143453151-176ee2b5-b485-49aa-99b1-227b1ca25752.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143453810-e65228a4-303c-47d2-b134-9e16983a0568.png)
+
+`Data Transfer Modifier > Outline Check OFF`
+
+![image](https://user-images.githubusercontent.com/30430227/143454724-e601e7b3-0c10-4840-8c55-574cba41c2e5.png)
+![image](https://user-images.githubusercontent.com/30430227/143454755-b44548ba-bf8f-4f9b-b74b-deb9f8ea1765.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143454917-bba16809-f258-45a0-90da-10a12b414f6c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143454451-3d6044ea-8175-4afd-b324-52c448ed7a0d.png)
+![image](https://user-images.githubusercontent.com/30430227/143454981-3c2ac0d4-d8fe-4bac-ba3d-9b070f0503fc.png)
 
 
 실린더 모델  
