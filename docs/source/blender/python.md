@@ -95,7 +95,7 @@ for i in range(5):
 
 <br>
 
-2. 패널 
+2. 패널 - bpy.types.Panel
 
 ![image](https://user-images.githubusercontent.com/30430227/143232485-320921ac-fcdc-4c8f-ac40-f73da7189ed5.png)
 
@@ -229,5 +229,69 @@ if __name__ == '__main__':
 
 <br>
 
-4. 
+4. 실행 - bpy.types.Operator
+
+![image](https://user-images.githubusercontent.com/30430227/143427068-a6ebeb88-692e-44d0-be04-0aab17ff7ff3.png)
+
+```
+import bpy
+
+# print 내장 콘솔 출력 - 한글 지원
+# def print(data):
+#     window=bpy.context.window_manager.windows[0]
+#     screen = window.screen
+#     for area in screen.areas:
+#         if area.type == 'CONSOLE':
+#             bpy.ops.console.scrollback_append(
+#                 {'window': window, 'screen': screen, 'area': area},
+#                 text=str(data))
+
+class CustomArrayOperator(bpy.types.Operator):
+    # 오퍼레이터 아이디값[
+    bl_idname = "object.custom_draw"
+    # 팝업창 이름
+    bl_label = "Arr 배열 복사"
+
+    # 속성 정의
+    x_repeat : bpy.props.IntProperty(name="갯수")
+
+    def invoke(self, context, event):
+        wm = context.window_manager
+        return wm.invoke_props_dialog(self)
+
+    def draw(self, context):
+        layout = self.layout
+        
+        # 행 추가
+        row = layout.row()
+        # 입력 항목 - 속성 매칭
+        row.prop(self, "x_repeat")
+        
+    def execute(self, context):    
+        
+        selected_objects=bpy.context.selected_objects
+        if len(selected_objects) == 0:
+            self.report({'ERROR'}, "오브젝트를 선택하세요")
+            return {'FINISHED'}
+
+        org_name=selected_objects[0].name;
+
+        for x in range(1, self.x_repeat + 1):
+            bpy.data.objects[org_name].select_set(True)
+            bpy.ops.object.duplicate_move(
+                OBJECT_OT_duplicate={"mode":'TRANSLATION'},
+                TRANSFORM_OT_translate={"value":(x * 4, 0, 0)})
+            bpy.ops.object.select_all(action='DESELECT')
+
+        self.report({'INFO'}, "오브젝트가 복사되었습니다.")
+        
+        return {'FINISHED'}
+
+bpy.utils.register_class(CustomArrayOperator)
+
+# test call
+bpy.ops.object.custom_draw('INVOKE_DEFAULT')
+```
+
+
 
