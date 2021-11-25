@@ -209,6 +209,7 @@ class HelloWorld(bpy.types.Panel):
         row = layout.row()
         
         row.operator('object.modifier_add').type="SUBSURF"   
+        # row.operator('object.subdivision_set') # 상동 기능, F3 키 명령어 팝업에서 () 제거
 
 def register():
     bpy.utils.register_class(HelloWorld)
