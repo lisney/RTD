@@ -292,6 +292,21 @@ bpy.utils.register_class(CustomArrayOperator)
 # test call
 bpy.ops.object.custom_draw('INVOKE_DEFAULT')
 ```
+```
+- bpy.data.objects[org_name].select_set(True)
+오브젝트는 복사를 하고 나면 복사한 오브젝트로 선택이 옮겨져 버립니다.
+그래서 복사전 항상 원본을 선택
 
+- bpy.ops.object.select_all(action='DESELECT')
+복사 후에는 선택이 마지막 오브젝트로 가 있을 겁니다. 선택을 취소
+
+- bpy.ops.object.custom_draw('INVOKE_DEFAULT')
+클래스의 invoke 함수가 실행되고 invoke 는 draw 를 실행해서 다이얼로그를 보여준 다음,
+OK 버튼을 누르면 execute() 함수가 실행되는 거지요.
+```
+
+<br>
+
+5. 
 
 
