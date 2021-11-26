@@ -187,5 +187,57 @@ Proximity
 
 ![image](https://user-images.githubusercontent.com/30430227/143537464-eb94f46e-dedb-4cb2-a7a6-3d7c3bd169d7.png)
 
+<br>
+
+UV Map
+---------
+
+1. 불러오기
+
+`Vector Math`
+
+![image](https://user-images.githubusercontent.com/30430227/143571401-ee2aad2c-3ae1-489b-b800-851e287cdf51.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143571512-81da2e1e-349e-4487-bcda-a9602fee36ec.png)
+![image](https://user-images.githubusercontent.com/30430227/143571584-856bb3c1-8aa0-42ab-ad46-9590191607b9.png)
+
+`내보내기`
+
+![image](https://user-images.githubusercontent.com/30430227/143571713-4475d1cc-734d-4afb-92c8-dd1e70245a51.png)
+![image](https://user-images.githubusercontent.com/30430227/143571749-86e7806e-6f69-4b82-8ade-5d77d8bf7c2f.png)
+
+2. Subdividion Surface 기존 UV 적용과 비교
+
+![image](https://user-images.githubusercontent.com/30430227/143572134-ee47ca5f-bcce-4e36-bd34-d899ee1f75f3.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143572314-31dada10-dbf7-4d12-881c-85036b138d92.png)
+![image](https://user-images.githubusercontent.com/30430227/143572452-e1ea25ef-0f4e-4423-aa27-ed18b8717b8c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143572563-d391cdeb-2ef6-4ed8-ae0f-8b31b5359c35.png)
+
+`수정`
+
+![image](https://user-images.githubusercontent.com/30430227/143572858-94985f3d-7658-48fd-9aa5-51a5af01e22d.png)
+![image](https://user-images.githubusercontent.com/30430227/143572826-562a0d04-5134-4664-83cc-9749fe11b493.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143573182-d7d75dfc-9554-49b9-a608-1f7627d82f4b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143573345-0f7c6ee7-3ded-4d55-aa54-129f42638ddd.png)
+
+`Proxy 아웃`
+
+![image](https://user-images.githubusercontent.com/30430227/143573540-f8bcd09a-e7e6-46d7-a713-3271ad4acbb3.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143573600-5250f12b-4585-4853-80cd-ddb811fc3b27.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143573998-ddbf091d-673c-45b1-b083-9bdf682c6629.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143574053-9ece2954-0e1f-4bc5-b31b-f54d57be179f.png)
+
+
+
+
+
+
 
 
