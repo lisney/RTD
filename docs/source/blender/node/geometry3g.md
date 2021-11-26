@@ -33,4 +33,14 @@ Mograph - Transition
 
 ![image](https://user-images.githubusercontent.com/30430227/143587069-51b022d4-8738-4773-b7dd-4f7f13f65605.png)
 
+`Delete Geometry`
+
+![image](https://user-images.githubusercontent.com/30430227/143591357-231daa56-fe9e-4a86-aec6-1f0b5883e2ff.png)
+
+`조금 수정 - Add 따로`
+
+![image](https://user-images.githubusercontent.com/30430227/143591166-bb75d78f-b347-4a09-b989-7447d4786f88.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143591222-c839d62d-3b8c-4b94-a6a1-e3693a67be80.png)
+
 
