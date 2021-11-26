@@ -168,7 +168,7 @@ Proximity
 
 ![image](https://user-images.githubusercontent.com/30430227/143553073-e6e79951-a8e9-481e-8003-75f03802dd4f.png)
 
-`Rotate Euler`
+`Align Eular to Vector 추가 > Rotate Euler`
 
 ![image](https://user-images.githubusercontent.com/30430227/143553573-1ce32b10-85c9-4aea-83de-1b25fab00395.png)
 
