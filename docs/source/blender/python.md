@@ -374,4 +374,108 @@ bpy.utils.register_class(C_OPER)
 bpy.utils.register_class(C_PANEL)
 ```
 
+<br>
 
+6. 애드온
+
+```
+# bl_info - 애드온을 위한 변수
+
+bl_info = {
+    "name": "CraySpin",
+    "author": "Cray",
+    "version": (0, 1, 0),
+    "blender": (2, 80, 0),
+    "location": "View3D > Sidebar > cray",
+    "description": "오브젝트 배열 복사 애드온 샘플코드",
+    "category": "CrayTool",
+}
+
+###################
+import bpy
+
+def print(*datas):
+    window=bpy.context.window_manager.windows[0]
+    screen = window.screen
+    for area in screen.areas:
+        if area.type == 'CONSOLE':
+            for data in datas:
+                bpy.ops.console.scrollback_append(
+                    {'window': window, 'screen': screen, 'area': area},
+                    text=str(data))
+
+class CRAYSPIN_PROPERTY(bpy.types.PropertyGroup):
+    x_repeat: bpy.props.IntProperty(name="X반복", default=0)
+    y_repeat: bpy.props.IntProperty(name="Y반복", default=0)
+
+class CRAYSPIN_PT_panel(bpy.types.Panel):
+    bl_label = "크레이 스핀 도구창"
+    bl_category = "크레이"
+    bl_space_type = "VIEW_3D"
+    bl_region_type = "UI"
+
+    def draw(self, context):
+        row = self.layout.row()
+        row.label(text="선택 오브젝트 : ", icon='OBJECT_DATA')
+        box = self.layout.box()
+        obj = context.object
+        if obj is not None:
+          box.label(text=obj.name, icon='KEYFRAME')
+          
+        row = self.layout.row()
+        row.prop(context.scene.crayspin_property, "x_repeat")
+        row = self.layout.row()
+        row.prop(context.scene.crayspin_property, "y_repeat")
+        
+        row = self.layout.row()
+        row.operator("cray.spinoperator", text="복사")
+    
+class CRAYSPIN_Operator(bpy.types.Operator):
+    bl_idname = 'cray.spinoperator'
+    bl_label = 'cray.spinoperator'
+
+    def execute(self, context):        
+        print(context.scene.crayspin_property.x_repeat, context.scene.crayspin_property.y_repeat)
+        
+        selected_objects=bpy.context.selected_objects
+        if len(selected_objects) == 0:
+            self.report({'ERROR'}, "오브젝트를 선택하세요")
+            return {'FINISHED'}
+
+        org_name=selected_objects[0].name;
+                
+        for x in range(0, context.scene.crayspin_property.x_repeat + 1):
+            for y in range(0, context.scene.crayspin_property.y_repeat + 1):
+                if x==0 and y==0:        continue
+                bpy.data.objects[org_name].select_set(True)
+                bpy.ops.object.duplicate_move(
+                    OBJECT_OT_duplicate={"mode":'TRANSLATION'},
+                    TRANSFORM_OT_translate={"value":(x * 4, y * 4, 0)})
+                bpy.ops.object.select_all(action='DESELECT')
+
+        self.report({'INFO'}, "오브젝트가 복사되었습니다.")
+        
+        return {'FINISHED'}
+    
+classes = (
+   CRAYSPIN_PROPERTY,
+   CRAYSPIN_PT_panel,
+   CRAYSPIN_Operator,
+)
+
+
+def register():
+    for cls in classes:
+        bpy.utils.register_class(cls)
+    bpy.types.Scene.crayspin_property = bpy.props.PointerProperty(type=CRAYSPIN_PROPERTY)
+
+# unregister함수 - 애드온 체크해제 할 때 실행
+def unregister():
+    for cls in classes:
+        bpy.utils.unregister_class(cls)
+    del bpy.types.Scene.crayspin_property
+
+# 블렌더 실행할 때 해당 스크립트 실행을 막는다.(main이 아니므로) 자체적으로 실행해야 실행된다.(실행할 때 main이다) 
+if __name__ == "__main__":
+    register()
+```
