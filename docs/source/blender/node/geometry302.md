@@ -147,6 +147,19 @@ Proximity
 
 ![image](https://user-images.githubusercontent.com/30430227/143518677-873688e3-9c87-45fa-bf55-6ba5a6543b60.png)
 
+![image](https://user-images.githubusercontent.com/30430227/143540202-462892ed-2b85-41b9-82e2-02454fb87aac.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143540232-389ae498-d47d-47d6-92aa-168889f7a53e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143539961-36bea0e7-38bc-4476-9468-eb687f561849.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143540001-beba61f2-a0b7-4fb0-8b55-ac8a04f6fe5b.png)
+
+`참고`
+
+![image](https://user-images.githubusercontent.com/30430227/143537432-f936b1bc-13c8-4351-8ae3-dcd7fd16dc54.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143537464-eb94f46e-dedb-4cb2-a7a6-3d7c3bd169d7.png)
 
 
 
