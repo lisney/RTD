@@ -189,6 +189,18 @@ Proximity
 
 <br>
 
+3. 고랑
+
+![image](https://user-images.githubusercontent.com/30430227/143581157-5d3c3763-b248-4aeb-98cc-f463d56d2ab7.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143581396-6bcfc255-ce2b-45eb-b760-55a28af819a6.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143581435-2f329359-6138-403e-889d-b635473cc633.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143581203-69c4bc8e-d2e6-4fe3-aa07-2aaae41355d2.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143581239-ada775bf-e293-4be0-a82e-837ee0f110f9.png)
+
 UV Map
 ---------
 
