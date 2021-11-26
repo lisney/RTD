@@ -307,6 +307,71 @@ OK 버튼을 누르면 execute() 함수가 실행되는 거지요.
 
 <br>
 
-5. 
+5. 프로퍼티, 패널, 오퍼레이터 클래스 복합 
+
+![image](https://user-images.githubusercontent.com/30430227/143569098-54cdcfb2-b183-46e3-b80c-82f8194ad475.png)
+
+```
+import bpy
+
+class C_PROP(bpy.types.PropertyGroup):
+    x_repeat: bpy.props.IntProperty(name="X반복", default=0)
+    y_repeat: bpy.props.IntProperty(name="Y반복", default=0)
+
+class C_PANEL(bpy.types.Panel):
+    bl_label = "VIEW 3D"
+    bl_category = "브러시"
+    bl_space_type = "VIEW_3D"
+    bl_region_type = "UI"
+
+    def draw(self, context):
+        row = self.layout.row()
+        row.label(text="오브젝트 : ", icon='OBJECT_DATA')
+        box = self.layout.box()
+        obj = context.object
+        if obj is not None:
+          box.label(text=obj.name, icon='KEYFRAME')
+          
+        row = self.layout.row()
+        row.prop(context.scene.c_prop, "x_repeat")
+        row = self.layout.row()
+        row.prop(context.scene.c_prop, "y_repeat")
+        
+        row = self.layout.row()
+        row.operator("cray.spin", text="복사")
+    
+class C_OPER(bpy.types.Operator):
+    bl_idname = 'cray.spin'
+    bl_label = 'cray.spinoperator'
+
+    def execute(self, context):        
+        print(context.scene.c_property.x_repeat, context.scene.c_property.y_repeat)
+        
+        selected_objects=bpy.context.selected_objects
+        if len(selected_objects) == 0:
+            self.report({'ERROR'}, "오브젝트를 선택하세요")
+            return {'FINISHED'}
+
+        org_name=selected_objects[0].name;
+                
+        for x in range(context.scene.c_prop.x_repeat + 1):
+            for y in range(context.scene.c_prop.y_repeat + 1):
+                if x==0 and y==0:
+                    continue
+                bpy.data.objects[org_name].select_set(True)
+                bpy.ops.object.duplicate_move(
+                    OBJECT_OT_duplicate={"mode":'TRANSLATION'},
+                    TRANSFORM_OT_translate={"value":(x * 4, y * 4, 0)})
+                bpy.ops.object.select_all(action='DESELECT')
+
+        self.report({'INFO'}, "오브젝트가 복사되었습니다.")
+        
+        return {'FINISHED'}
+    
+bpy.utils.register_class(C_PROP)
+bpy.types.Scene.c_prop = bpy.props.PointerProperty(type=C_PROP)
+bpy.utils.register_class(C_OPER)
+bpy.utils.register_class(C_PANEL)
+```
 
 
