@@ -324,6 +324,55 @@ Knot Mographic
 
 ![image](https://user-images.githubusercontent.com/30430227/142854970-9e9c8da8-2abc-465f-88ef-231773632466.png)
 
+<br>
+
+IVY 
+-----
+
+1. Geometry Node
+
+![image](https://user-images.githubusercontent.com/30430227/143515921-64b2e045-3881-495b-a786-d6034faace08.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143515959-8aba58a5-f7f0-47bc-99ba-f3fae80c76d1.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143515981-59fde93d-c63d-4e99-8e32-94e0b87d5eb9.png)
+
+`커브 영역 확장`
+
+![image](https://user-images.githubusercontent.com/30430227/143516002-97027cc5-f5d2-4c8f-ac48-266c82c26421.png)
+
+2. 연결 구 생성 - Collection
+
+![image](https://user-images.githubusercontent.com/30430227/143516091-05f49b9c-4a98-48e8-a30f-51c7ac068cc3.png)
+![image](https://user-images.githubusercontent.com/30430227/143516291-c5d15d77-f667-4f7a-8fbd-74cf5171c631.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143516274-62cacf9c-4c73-4b2f-917b-8a6f9ce8b520.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143516433-1f623b71-4c08-486f-b602-d7beb5c5fd71.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143516456-2a7ca6af-37ec-4fbb-9f0c-4ecc11b5ef98.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143516623-e27e9729-be8b-4e3b-b7b6-b53ef824c4fe.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143516842-6d05d9c1-2c99-4e48-9943-9606090c6d43.png)
+
+`Noise`
+
+![image](https://user-images.githubusercontent.com/30430227/143517048-042bb1d7-c8b6-4b8a-b4e5-e0086143af14.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143517081-0285226f-6823-46dc-a294-4463e56c5b47.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143517365-b52d273a-c339-40e1-83fe-6630d1a0acb5.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143517394-7983fe19-3421-4de8-a346-97786c590751.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143517415-2d7fdf89-797b-49cf-a8a8-fe485c00f698.png)
+![image](https://user-images.githubusercontent.com/30430227/143517492-2a3d753c-b9c6-4e82-a6df-5c0fcdef596d.png)
+
+
+
+
+
 
 
 
