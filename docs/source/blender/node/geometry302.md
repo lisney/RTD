@@ -137,6 +137,8 @@ Position
 Proximity
 ----------
 
+1. 영향을 빛으로 받다
+
 `Plane > Geometry Nodes`
 
 ![image](https://user-images.githubusercontent.com/30430227/143518483-5869c807-8611-403a-9a4c-e955807f987e.png)
@@ -154,6 +156,24 @@ Proximity
 ![image](https://user-images.githubusercontent.com/30430227/143539961-36bea0e7-38bc-4476-9468-eb687f561849.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/143540001-beba61f2-a0b7-4fb0-8b55-ac8a04f6fe5b.png)
+
+<br>
+
+2. 트랙 투 - 나만 바라봐
+
+`Align Euler to Vector X or Y`
+
+![image](https://user-images.githubusercontent.com/30430227/143552887-20e8b195-809c-4613-88b0-90cac989df1d.png)
+![image](https://user-images.githubusercontent.com/30430227/143552992-7c08758a-ae9b-4129-9084-c253e198e042.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143553073-e6e79951-a8e9-481e-8003-75f03802dd4f.png)
+
+`Rotate Euler`
+
+![image](https://user-images.githubusercontent.com/30430227/143553573-1ce32b10-85c9-4aea-83de-1b25fab00395.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143553693-4b47d923-bda3-4ade-91d0-96d2c184782f.png)
+
 
 `참고`
 
