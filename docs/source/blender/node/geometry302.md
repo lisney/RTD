@@ -132,6 +132,21 @@ Position
 
 ![image](https://user-images.githubusercontent.com/30430227/143515400-a02210a5-f92f-4afc-a828-3347b8435eca.png)
 
+<br>
+
+Proximity
+----------
+
+`Plane > Geometry Nodes`
+
+![image](https://user-images.githubusercontent.com/30430227/143518483-5869c807-8611-403a-9a4c-e955807f987e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143518506-457b38c3-fcf8-46b7-aaff-b40619d1c8c0.png)
+
+`Icosphere > Relative > Geometry Proximity`
+
+![image](https://user-images.githubusercontent.com/30430227/143518677-873688e3-9c87-45fa-bf55-6ba5a6543b60.png)
+
 
 
 
