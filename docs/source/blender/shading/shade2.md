@@ -97,6 +97,85 @@ Fuzzy Fabric
 
 ![image](https://user-images.githubusercontent.com/30430227/139508922-08b12bf0-eb09-41bb-8fc6-7537d7f94318.png)
 
+<br>
+
+Glitch - 미끌어지다(독일어), 화면등의 오류
+------------------------------------------
+
+1. Modeling
+
+`IcoSphere > Subdiv > Displace(cloud, Empty) > keyframe(sine)`
+
+![image](https://user-images.githubusercontent.com/30430227/143680062-0afd1131-d904-4ae5-8015-65f7033bc3f1.png)
+
+<br>
+
+2. Shading
+
+`Layer Weight -Noise > Emission Strengh`
+
+![image](https://user-images.githubusercontent.com/30430227/143680240-e4676faa-1d1f-4da7-b50b-2a4a8e480a22.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143680243-e9187596-3960-4afe-8228-fdfbf9cdaa97.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143680279-cce5f10f-0aa6-4583-8f59-f555c49c7d4c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143680310-72c21943-d941-4df9-81cc-9671f0f05c41.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143680596-225ea857-5e9e-4f62-89a7-94225682cc51.png)
+![image](https://user-images.githubusercontent.com/30430227/143680589-65a9b33d-f369-4f1f-a3ee-1fa6338c66c0.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143680620-70edf196-3dc5-406b-9200-ff6da9dbb387.png)
+![image](https://user-images.githubusercontent.com/30430227/143680544-1fd855f8-1ace-4c40-b64f-212854043b8c.png)
+
+`Noise > BaseColor, Emission Color 에 연결`
+
+![image](https://user-images.githubusercontent.com/30430227/143680735-44248661-7c61-432c-bc1a-2eb0e15d94ec.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143680750-3605528d-b5d2-4f02-b64a-e6aec4975a5e.png)
+
+`Result`
+
+![image](https://user-images.githubusercontent.com/30430227/143680802-53448572-a6bc-4b7e-a1c6-c4cfff769396.png)
+
+<br>
+
+3. Detail
+
+`Emission 강도- Multiply`
+
+![image](https://user-images.githubusercontent.com/30430227/143680948-9bae1506-6755-4501-a78a-3beb1aae969a.png)
+
+`두께 영역 분리 - Displace: Midlevel 높인다`
+
+![image](https://user-images.githubusercontent.com/30430227/143681084-44c3f2f5-c3eb-4cc8-a6af-39232c40a5cc.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143681130-fa662ae7-9b27-421e-99dc-20f6f39706ae.png)
+
+`Color Mix - 두꺼운 부분 검게`
+
+![image](https://user-images.githubusercontent.com/30430227/143681229-bdae83d9-10b9-4edb-8cb9-d8db45022a48.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143681238-3750d26f-03b5-4382-a07d-3f6ec7236502.png)
+
+`Result - Displace 등 조정`
+
+![image](https://user-images.githubusercontent.com/30430227/143681492-09cf350d-bd0f-4aa9-958f-7393e90af3c3.png)
+
+`Displace Modifer 추가 > Cloud 텍스처 세팅 > Midlevel:0`
+
+![image](https://user-images.githubusercontent.com/30430227/143681773-5600b274-8cca-4a71-a47c-74b07879a2c8.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143681779-c6391a3e-2f84-46db-a210-e59755dce62e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143681818-008b5ec0-47cf-41ec-83bd-408ff6dacfd6.png)
+
+`두께 세팅 반대로 - 튀어나오는 쪽에 Color`
+
+![image](https://user-images.githubusercontent.com/30430227/143681995-f8dfd3a5-cb3d-4eb4-aaef-dd1ed8c45ee0.png)
+
+
+
 
 
 
