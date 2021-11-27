@@ -43,4 +43,15 @@ Mograph - Transition
 
 ![image](https://user-images.githubusercontent.com/30430227/143591222-c839d62d-3b8c-4b94-a6a1-e3693a67be80.png)
 
+<br>
+
+Text Rotate
+-------------
+
+`노드 연결 단축키: 'f'`
+
+![image](https://user-images.githubusercontent.com/30430227/143663470-a61ae999-d176-40aa-84b3-ffabc5f41e0b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143663514-b82c77d6-fc37-40d7-b8ef-7209d776f174.png)
+
 
