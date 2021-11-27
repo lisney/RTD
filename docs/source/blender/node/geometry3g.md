@@ -54,4 +54,28 @@ Text Rotate
 
 ![image](https://user-images.githubusercontent.com/30430227/143663514-b82c77d6-fc37-40d7-b8ef-7209d776f174.png)
 
+<br>
+
+체인
+------
+
+`Plane`
+
+![image](https://user-images.githubusercontent.com/30430227/143678768-2ee9914a-1d22-4bf7-8288-1b0593a9f334.png)
+![image](https://user-images.githubusercontent.com/30430227/143678776-3efa88a2-e23a-4bbd-9e99-047eb4826154.png)
+
+`Subdivide`
+
+![image](https://user-images.githubusercontent.com/30430227/143678786-61f2387c-9db3-487a-8d63-9734394f176d.png)
+![image](https://user-images.githubusercontent.com/30430227/143678804-cd3eab26-e4b8-4b70-bcea-75a15659cdcc.png)
+
+`Geometry Nodes`
+
+![image](https://user-images.githubusercontent.com/30430227/143678599-a41f82aa-d48a-4d6c-bc89-2c673c7d303b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143678628-a7fdad63-f0cb-45af-a445-f1e71cb2261d.png)
+
+`Bezier Curve 로도 된다`
+
+![image](https://user-images.githubusercontent.com/30430227/143678743-bb9a77e5-9403-4d16-b5bb-64fb4478c6c7.png)
 
