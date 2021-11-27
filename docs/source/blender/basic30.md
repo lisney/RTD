@@ -33,6 +33,25 @@ Curve
 
 ![image](https://user-images.githubusercontent.com/30430227/142765859-8a211177-a517-4373-9e2e-65460432db91.png)
 
+<br>
 
+Asset Brouser 
+--------------
 
+`끌어다 놓기만 하면, 애니메이션 포즈도 된단다`
+
+![image](https://user-images.githubusercontent.com/30430227/143679278-50e4df69-b0a5-4c0e-adbb-4cd5a47a9cb2.png)
+
+<br>
+
+Addon 추천
+------------
+
+1. tri-lighting
+
+![image](https://user-images.githubusercontent.com/30430227/143679350-dd56bc35-d1c0-4625-8dc0-625d5b71fef0.png)
+
+2. Real Snow 
+
+![image](https://user-images.githubusercontent.com/30430227/143679718-2d22cc79-f7bf-457e-a554-c799750e8a07.png)
 
