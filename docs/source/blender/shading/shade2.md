@@ -192,6 +192,14 @@ Glitch - 미끌어지다(독일어), 화면등의 오류
 
 ![image](https://user-images.githubusercontent.com/30430227/143682981-6aaf4b22-4c3f-4c49-b296-9a81f34f7960.png)
 
+`컬러`
+
+![image](https://user-images.githubusercontent.com/30430227/143683188-4c37d7cf-13cd-4da7-8305-2ac52ff4b1ca.png)
+
+`IcoSphere > Displace Animation > Texture 변경 > IOR 값 키프레임(3 값 1일 때 글자 나타남)`
+
+![image](https://user-images.githubusercontent.com/30430227/143683212-a93e9cd2-6132-41b9-9a94-b49e57c8af04.png)
+
 
 
 
