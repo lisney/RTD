@@ -174,6 +174,23 @@ Glitch - 미끌어지다(독일어), 화면등의 오류
 
 ![image](https://user-images.githubusercontent.com/30430227/143681995-f8dfd3a5-cb3d-4eb4-aaef-dd1ed8c45ee0.png)
 
+<br>
+
+글리치 
+-------
+
+![image](https://user-images.githubusercontent.com/30430227/143682729-154893bf-816d-4dbc-8194-431a5c1226c4.png)
+
+`IcoSphere > Material -glass > ScreenSpace Refraction`
+
+![image](https://user-images.githubusercontent.com/30430227/143682801-7f79c523-d01d-47ab-88cd-03edddf606b9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143682941-09c064c9-a972-4a7e-9185-51c33f7604f3.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143682948-c658d778-737d-4232-b1ab-1e31a3c1eb4d.png)
+![image](https://user-images.githubusercontent.com/30430227/143682959-bdf429a6-f7ae-4aca-ad4b-84c364af4236.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143682981-6aaf4b22-4c3f-4c49-b296-9a81f34f7960.png)
 
 
 
