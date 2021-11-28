@@ -295,6 +295,46 @@ Procedure Shader
 
 ![image](https://user-images.githubusercontent.com/30430227/142412694-9408e9a4-ce6a-4be7-b37e-ca6def44123b.png)
 
+<br>
+
+3 팁
+----
+
+1. 타일 
+
+![image](https://user-images.githubusercontent.com/30430227/143764983-29701ff4-f799-428a-bc56-cbf1cd1b82b6.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143764998-d8dab339-899a-4ad4-abae-5a69c2ff9059.png)
+
+2. Linear Light
+
+![image](https://user-images.githubusercontent.com/30430227/143765218-f5514b84-148c-4e1c-a0ed-fb15a1e9f6a4.png)
+![image](https://user-images.githubusercontent.com/30430227/143765226-fc665115-a624-4483-b16a-89ed68537cd0.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143765234-a951dcd1-c0f0-4f14-a027-4e0174e36471.png)
+
+3. 블러 
+
+`RGB = XYZ - X 패닝`
+
+![image](https://user-images.githubusercontent.com/30430227/143765411-cd35978e-7ee2-4768-b00c-d741750a93e3.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143765416-d684489c-bfda-439f-931f-34a3f71d7ed2.png)
+
+`Random Factor -> X`
+
+![image](https://user-images.githubusercontent.com/30430227/143765441-66d99299-a02b-475d-b27e-e6f56bca12c8.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143765444-3cdb4a0e-f2e6-42ea-a313-743e51e7d177.png)
+
+`Random Color`
+
+![image](https://user-images.githubusercontent.com/30430227/143765520-6f9d5d2b-251a-445e-a6ee-1e655d5b5785.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143765528-fb469741-5b71-4c7a-a533-c91fc0caa4d8.png)
+
+
+
 
 
 
