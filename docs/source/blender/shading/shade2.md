@@ -200,6 +200,20 @@ Glitch - 미끌어지다(독일어), 화면등의 오류
 
 ![image](https://user-images.githubusercontent.com/30430227/143683212-a93e9cd2-6132-41b9-9a94-b49e57c8af04.png)
 
+<br>
+
+매직 Sheld
+------------
+
+![image](https://user-images.githubusercontent.com/30430227/143733591-835db577-cebb-4ad7-bc11-0636e7895a0a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143733625-29714806-3ce1-4358-aecc-4bd0110192a4.png)
+
+`Animation - Noise Add`
+
+![image](https://user-images.githubusercontent.com/30430227/143733733-571675ab-cff0-4b3a-852f-8f3498a8bad3.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143733750-c5790b39-6d7f-4efa-92f5-7a0c3a59f3ac.png)
 
 
 
