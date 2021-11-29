@@ -126,7 +126,53 @@ IntegralBetween-적분차
 ![image](https://user-images.githubusercontent.com/30430227/143825032-b4f4d3f1-64cc-4d9f-9813-de5fbea39719.png)
 ![image](https://user-images.githubusercontent.com/30430227/143825158-3dc83952-9c24-4f73-96d3-98e7ac1b2af4.png)
 
+<br>
 
+태극기 
+------
+
+![image](https://user-images.githubusercontent.com/30430227/143829993-987b0b6b-9010-4603-a135-7b9ab78ca12a.png)
+
+`6 X 4 다각형 > 대각선 긋기 > 중심과 반지름 > 부채꼴(채움 반원)`
+
+![image](https://user-images.githubusercontent.com/30430227/143829161-8e263cf8-cbbf-4b1e-9715-f384149a37a9.png)
+
+`중점 > 내 원 그리기`
+
+![image](https://user-images.githubusercontent.com/30430227/143829224-d06b8f98-0759-4be9-8618-5759491b5418.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143829540-e8436d89-e25b-4296-8b74-9a54ed11fca6.png)
+
+<br>
+
+구와 XY평면을 교차하는 원을 밑면으로하는 원뿔 
+-----------------------------------------
+
+![image](https://user-images.githubusercontent.com/30430227/143832501-0f754afd-1be7-4915-b9c8-5c4d05460e8e.png)
+
+`구 그리기 - x^(2)+y^(2)+z^(2)-6 x+4 y-4 z+11=0`
+
+![image](https://user-images.githubusercontent.com/30430227/143831015-0da1a5d8-d79b-47dc-b95f-e45a4eabdf3f.png)
+
+`교선 > 중점`
+
+![image](https://user-images.githubusercontent.com/30430227/143831195-b54fb7a5-8c08-447d-b2ce-6c830a0a393b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143831227-e6add0ec-acd2-48e0-a17e-c721b653803c.png)
+![image](https://user-images.githubusercontent.com/30430227/143831320-8d5df609-1da9-4aa9-a5f3-b50d379cbdd3.png)
+
+`수직선 > 교점`
+
+![image](https://user-images.githubusercontent.com/30430227/143831395-898c0e32-c64d-426c-959d-a8db80f09e09.png)
+![image](https://user-images.githubusercontent.com/30430227/143831769-4a3795bb-77a1-4c57-ae3d-47859d571f2a.png)
+
+`뿔로 끌어올리기`
+
+![image](https://user-images.githubusercontent.com/30430227/143831935-db9f9a0f-3b7f-4e2e-aca0-5c2dc70732c2.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143831982-937e99d9-c002-42dd-ab7b-7d43c7732d49.png)
+
+<br>
 
 
 
