@@ -24,10 +24,12 @@ IntegralBetween-적분차
 
 <br>
 
-확률계산기 
+확률분포 
 ---------
 
-`우상단 3점 아이콘 클릭 > 분포표 - 1시그마(배수), -1~1 면적 0.6827 `
+![image](https://user-images.githubusercontent.com/30430227/143809609-fd314034-5906-443e-a6fa-5fafbf71145f.png)
+
+`우상단 3점 아이콘 클릭 > 확륙계산기 - 1시그마(배수), -1~1 면적 0.6827 `
 
 ![image](https://user-images.githubusercontent.com/30430227/143809297-776b1ea0-7266-4091-a916-3f091615d2eb.png)
 
@@ -38,4 +40,19 @@ IntegralBetween-적분차
 `Y축 Scale > 기하창 이동 > Y축 드래그`
 
 ![image](https://user-images.githubusercontent.com/30430227/143809514-39bdc658-afcd-4875-bffa-b86f9d788f14.png)
+
+`적분 추가- integral(f,-2,2)`
+
+![image](https://user-images.githubusercontent.com/30430227/143809911-f9137ea0-2293-476b-bdba-f8b919a28932.png)
+![image](https://user-images.githubusercontent.com/30430227/143809932-5a48c80c-36e0-44f1-85e9-e16103bcfe8d.png)
+
+`Y축 이동, 눈금 간격 - 빈 곳 클릭`
+
+![image](https://user-images.githubusercontent.com/30430227/143810016-1cde0eb0-7410-4b99-b264-60d172d327c6.png)
+
+> 무한대 표시  입력상자 'inf'
+
+
+
+
 
