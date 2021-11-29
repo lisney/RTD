@@ -1,6 +1,18 @@
 Geogebra
 ==========
 
+기초 
+------
+
+1. 무한대 표시 - 입력상자 'inf'
+
+2. 면적 - integral
+
+3. 다갹형 - polygon({(...),(...),(...)}), 정다각형 polygon((...),(...),4)
+
+
+<br>
+
 IntegralBetween-적분차
 ------------------
 
@@ -50,7 +62,37 @@ IntegralBetween-적분차
 
 ![image](https://user-images.githubusercontent.com/30430227/143810016-1cde0eb0-7410-4b99-b264-60d172d327c6.png)
 
-> 무한대 표시  입력상자 'inf'
+<br>
+
+피타고라스 
+---------
+
+1. 직접 그리기
+
+`삼각형 - 다각형 > 사각형 - 정다각형`
+
+![image](https://user-images.githubusercontent.com/30430227/143814587-62d7d00e-336c-45c0-a200-da3ca43468d9.png)
+
+2. 수식 입력하기
+
+`점 A, B, C > polygon({A,B,C}) > polygon(B,A,4) ...`
+
+3. 다른 직각 삼각형
+
+`점 A, B > 주어진 크기의 각 > B와 A' 잇는 직선 > X축과 교점 C > A,B,C를 잇는 다각형 그리기`
+
+![image](https://user-images.githubusercontent.com/30430227/143815870-dc5a59f5-56aa-412a-8990-4b4442197576.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143815851-3ebc4a91-4ead-449a-9e3a-349f3d49dfe8.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143815968-d8e39b0f-1961-4d20-861d-64f679457aa0.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143816184-6b34114e-c680-4455-bf48-14d26c3dcc8f.png)
+
+
+
+
+
 
 
 
