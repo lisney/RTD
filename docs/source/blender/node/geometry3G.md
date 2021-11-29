@@ -84,6 +84,10 @@ Text Rotate
 새싹 - Sprout
 ----------------
 
+`Quadratic Bezier > Trim Curve `
 
+![image](https://user-images.githubusercontent.com/30430227/143853835-7a1b2bf1-fb15-422f-8dfe-2dac24a75dff.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143853944-bbb4a88a-802b-43ab-8c70-b5990f5ebced.png)
 
 
