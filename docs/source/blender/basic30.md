@@ -1,6 +1,11 @@
 Basic
 ======
 
+1. 입력값 한 방에 바꿀 때 한 값만 따로입력 - 전체 값 입력 후 TAB 후 값 입력
+
+![image](https://user-images.githubusercontent.com/30430227/143843704-774493bb-d855-4411-9a40-3478f3fc5e19.png)
+![image](https://user-images.githubusercontent.com/30430227/143843850-924c2d31-244c-4dc2-bf50-eb1cc5337181.png)
+
 
 Sculp
 -------
@@ -54,4 +59,5 @@ Addon 추천
 2. Real Snow 
 
 ![image](https://user-images.githubusercontent.com/30430227/143679718-2d22cc79-f7bf-457e-a554-c799750e8a07.png)
+
 
