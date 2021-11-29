@@ -89,6 +89,48 @@ IntegralBetween-적분차
 
 ![image](https://user-images.githubusercontent.com/30430227/143816184-6b34114e-c680-4455-bf48-14d26c3dcc8f.png)
 
+<br>
+
+`세 변의 길이를 알 때`
+
+![image](https://user-images.githubusercontent.com/30430227/143818526-17de6b00-2522-44ba-809d-5e8ebaae3d48.png)
+
+<br>
+
+삼각뿔 
+------
+
+![image](https://user-images.githubusercontent.com/30430227/143825537-61ab2333-c3db-4730-a692-8df6df144b92.png)
+
+`바닥에 세 점 A, B, C 찍거나 수식입력하기 > 다갹형 그리기`
+
+![image](https://user-images.githubusercontent.com/30430227/143823900-5de89efa-3fbf-441d-908e-dc815bbd09a2.png)
+![image](https://user-images.githubusercontent.com/30430227/143823966-9fb549c1-f306-4b9e-8d34-6893bc143725.png)
+
+`각뿔 - D 점을 입력 > 다각형 선택 > D점 선택`
+
+![image](https://user-images.githubusercontent.com/30430227/143824674-2eb08276-d384-4d85-b619-a6af81f49d00.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143824082-3b673516-96ce-4bb6-85f9-df6686529551.png)
+![image](https://user-images.githubusercontent.com/30430227/143824720-ea16c901-2cff-4e71-b6f6-f3aa01676072.png)
+
+`수직선 > 접점 > 선분 그리기 > 기존 수직선 제거 > 각도 표시`
+
+![image](https://user-images.githubusercontent.com/30430227/143824835-f4d1e14f-da6a-4a55-ba1e-68e834e21f01.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143824871-f201426d-18f3-4e80-abee-ad2841485662.png)
+![image](https://user-images.githubusercontent.com/30430227/143824970-bbb16293-d0f5-4773-ab6d-9a463f86dfe1.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143825130-53c0ae7f-fe93-4681-8469-977f35d85ed5.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143825032-b4f4d3f1-64cc-4d9f-9813-de5fbea39719.png)
+![image](https://user-images.githubusercontent.com/30430227/143825158-3dc83952-9c24-4f73-96d3-98e7ac1b2af4.png)
+
+
+
+
+
+
 
 
 
