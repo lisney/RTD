@@ -479,3 +479,23 @@ def unregister():
 if __name__ == "__main__":
     register()
 ```
+
+<br>
+
+UI 배끼기
+---------
+
+`기존 UI요소 오른클릭 > Edit Source`
+
+![image](https://user-images.githubusercontent.com/30430227/144031741-baba0d90-a098-466a-8104-f22ae1709866.png)
+
+`해당 스크립트 명령줄을 가리킨다`
+
+![image](https://user-images.githubusercontent.com/30430227/144031808-5bffcf54-9afe-4759-adbf-925e41ce96ad.png)
+
+`복사해서 자신의 Py에 붙여넣기 - 변수도 같이 복사한다`
+
+![image](https://user-images.githubusercontent.com/30430227/144032096-dbcb5815-82d8-4579-91f0-3ba499eb8286.png)
+
+![image](https://user-images.githubusercontent.com/30430227/144032290-ff18a6bf-cc74-47a7-88ad-a591eccdca90.png)
+
