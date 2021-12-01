@@ -565,7 +565,248 @@ for i in readout:
     bpy.context.object.data.body = i[0]
 ```
 
+<br>
 
+모델링
+------
 
+`URBANBASE TECH BLOG 참조`
 
+1. 모듈 
 
+```
+-bpy.data –블렌더 프로그램에서 모델링한 것을 저장할 때, .blend 파일에 저장되는 데이터들을 다루는 모듈 –점/선/면으로 정의된 mesh, 색/거칠기/매끄러움 등 물체의 재질을 표현하는 material, mesh/material/texture 등의 정보를 포함하는 하나의 물체 자체를 표현하는 object 등을 포함
+
+-bpy.context –현재 블렌더의 컨텍스트에 대한 데이터들(활성화된 창에 대한 데이터들)을 다루는 모듈 –선택된 object들이나 현재 scene과 같은 데이터
+
+-bpy.ops –사용자가 GUI 상에서 블렌더와 상호작용하는 모든 행위에 대한 operation을 다루는 모듈 –object를 조작하는 행위들을 bpy.ops를 통해 스크립트에서 구현이 가능
+
+import bpy
+from mathutils import Vector
+from math import inf, radians
+import os
+# bpy, mathutils 블렌더 모듈
+```
+
+2. 함수 생성
+
+```
+reset_blender_data – 스크립트 실행 전에 불필요한 데이터들을 삭제하는 함수
+create_cube – 인자로 받은 위치와 사이즈를 통해 직육면체를 생성하고 배치하는 함수
+set_object_color_rgba – 블렌더 object의 색을 설정하는 함수
+get_boundary_info – 블렌더 object를 감싸는 bounding box의 정보를 계산하여 반환하는 함수
+create_floor_plane – 블렌더 object 밑에 바닥면을 생성하는 함수
+create_camera – 특정 물체를 바라보는 카메라 object를 생성하는 함수
+create_sunlight – 태양광에 해당하는 조명 object를 생성하는 함수
+save_image_with_gpu – 렌더링에 사용할 엔진 설정 – 해상도 설정 – 인자로 받은 경로에 렌더링 결과 사진을 저장
+```
+
+`코딩`
+
+```
+def reset_blender_data():
+    for bpy_data_iter in (
+            bpy.data.objects,
+            bpy.data.meshes,
+            bpy.data.lights,
+            bpy.data.cameras,
+            bpy.data.materials
+    ):
+        for id_data in bpy_data_iter:
+            bpy_data_iter.remove(id_data)
+            
+def create_cube(location, scale):
+    bpy.ops.mesh.primitive_cube_add(size=1.0)
+    cube_object = bpy.context.active_object
+    cube_object.name = "cube"
+    cube_object.location = location
+    cube_object.scale = scale
+    return cube_object        
+    
+def set_object_color_rgba(blender_object, color):
+    material = bpy.data.materials.new(name=blender_object.name)
+    material.use_nodes = True
+
+    principled_bsdf_node = material.node_tree.nodes['Principled BSDF']
+    principled_bsdf_node.inputs['Base Color'].default_value = color
+
+    blender_object.data.materials.append(material)
+    
+    
+def get_boundary_info(blender_object):
+    bpy.context.view_layer.update()
+
+    min_point = [inf, inf, inf]
+    max_point = [-inf, -inf, -inf]
+
+    boundary_points = [blender_object.matrix_world @
+                       Vector(point) for point in blender_object.bound_box]
+    for point in boundary_points:
+        for i in range(3):
+            if point[i] > max_point[i]:
+                max_point[i] = point[i]
+            if point[i] < min_point[i]:
+                min_point[i] = point[i]
+
+    center_point = []
+    boundary_length = []
+    for i in range(3):
+        center_point.append((min_point[i]+max_point[i])/2)
+        boundary_length.append(max_point[i]-min_point[i])
+
+    boundary_info = {
+        "min_point": min_point,
+        "max_point": max_point,
+        "center_point": center_point,
+        "boundary_length": boundary_length
+    }
+
+    return boundary_info
+# 생성한 큐브 밑에 바닥면을 생성할 때 필요한 정보를 구하기 위해 만든 함수입니다. 
+# 블렌더는 object의 bound_box 속성에서 해당 object를 감싸는 bounding box의 8개 정점에 대한 정보를 제공합니다. 하지만 이 정보들은 모델 좌표계 기준의 좌표이기 때문에 이를 월드 좌표계로의 변환이 필요합니다.
+
+모델 좌표계를 월드 좌표계로 변환해주는 월드 변환 행결은 object의 matrix_world 속성을 통해 알 수 있습니다. 블렌더에서는 효율성을 위해 object의 transform이 변경되어도 바로 matrix_world 속성을 다시 계산하여 갱신하지 않습니다. 따라서 사용자는 bpy.context.view_layer.update()를 호출하여 갱신을 요청해야 matrix_world 속성이 갱신됩니다.
+
+갱신한 matrix_world에 bounding box의 각 정점을 곱하면 해당 정점의 월드 좌표계를 구할 수 있습니다. @는 mathutils에서 제공하는 연산으로 행렬 및 벡터의 곱하기 연산을 의미합니다. 정점들의 월드 좌표계를 이용하여 최소값, 최대값, 중점, 길이를 계산하면 해당 정보들을 딕셔너리로 반환해줍니다.  
+
+def create_floor_plane(blender_object):
+    boundary_info = get_boundary_info(blender_object)
+    min_point = boundary_info["min_point"]
+    center_point = boundary_info["center_point"]
+
+    plane_position = (center_point[0], center_point[1], min_point[2])
+    plane_scale = (20, 20, 1)
+
+    bpy.ops.mesh.primitive_plane_add()
+    plane_object = bpy.context.active_object
+    plane_object.name = "floor plane"
+    plane_object.location = plane_position
+    plane_object.scale = plane_scale
+    
+# 바닥면의 x,y좌표는 object의 중심의 x,y좌표와 일치시켜주고, z좌표는 object의 z좌표 중 가장 작은 값으로 설정해 줍니다. scale의 경우 카메라 화면에 꽉 차도록 제가 임의로 설정
+
+def create_camera(location, target_vector):
+    camera_data = bpy.data.cameras.new("Main Camera")
+    camera_data.lens = 50
+
+    camera_object = bpy.data.objects.new("Main Camera", camera_data)
+    camera_object.location = location
+
+    scene = bpy.context.scene
+    scene.collection.objects.link(camera_object)
+    scene.camera = camera_object
+
+    # lookAt the target point
+    if not isinstance(target_vector, Vector):
+        target_vector = Vector(target_vector)
+	
+	camera_location = camera_object.location
+    direction = target_vector - location
+    quat = direction.to_track_quat('-Z', 'Y')
+    camera_object.rotation_euler = quat.to_euler()
+
+    return camera_object
+    
+# 우선 bpy.data.cameras.new 함수를 사용하여 카메라 데이터를 생성합니다. 카메라 데이터는 카메라 시점에 대한 데이터들을 가지고 있는데, 투영 방법(평행, 원근)이나 가시 부피과 관련된 데이터들이 있습니다.
+
+bpy.data.objects.new 함수를 사용하여 생성한 카메라 데이터를 지니는 blender object를 생성합니다. 이 object를 카메라 객체라고 부르겠습니다.
+
+카메라 객체의 location 속성을 인자로 받은 location으로 설정하여 카메라 객체의 위치를 설정합니다. 생성한 카메라 객체를 현재 씬에 추가하고 씬의 메인 카메라로 설정해야 합니다.
+
+bpy.context.scene는 현재 씬을 가리키는데, 현재 씬에 대해서 collection.objects.link 메소드를 통해 생성한 카메라 객체를 추가해줍니다. 그리고 현재 씬의 camera 속성을 카메라 객체로 설정해주면 씬의 메인 카메라가 설정됩니다.
+
+마지막으로 카메라가 target_vector를 향하도록 회전을 해주어야 합니다. 카메라가 바라 보는 방향인 direction을 계산해야 하는데, mathutils의 Vector를 사용하기 위해 튜플형의 location 변수를 그대로 사용하지 않고, camera_object.location를 direction 계산 시에 사용합니다.
+
+카메라가 생성되면 디폴트 값으로 -Z축을 바라보며 up-vector는 Y축 방향이 됩니다. 그래서 카메라가 바라보아야 하는 direction에 대해서 to_track_quat(‘-Z’, ‘Y’) 함수를 이용하면 카메라 transform의 회전값을 구할 수 있습니다.
+
+이 회전값은 쿼터니안 각이기 때문에, 오일러 각을 사용하여 카메라의 회전값을 설정하기 위하여 to_euler()를 통해 쿼터니안을 오일러로 변환해 각도를 설정합니다.
+
+def create_sunlight():
+    light_data = bpy.data.lights.new(name="sun", type="SUN")
+    light_data.energy = 4.5
+
+    light_object = bpy.data.objects.new(
+        name="sun", object_data=light_data
+    )
+    light_object.rotation_euler = (radians(20), radians(30), radians(-20))
+
+    scene = bpy.context.scene
+    scene.collection.objects.link(light_object)
+
+    return light_object
+    
+# 여기서는 간단하게 빛의 세기만을 설정합니다.광원 object를 만드는 과정은 카메라 object를를 만드는 것과 똑같습니다. 다만 방향성 광원의 경우 광원의 방향만 중요하기 때문에 위치 대신 회전값을 설정하였습니다.
+
+def save_image_with_gpu(resolution, file_path, file_name):
+    scene = bpy.context.scene
+
+    scene.render.resolution_x = resolution
+    scene.render.resolution_y = resolution
+
+    scene.render.engine = 'CYCLES'
+    scene.cycles.device = 'GPU'
+    scene.cycles.denoiser = 'NLM'
+    scene.cycles.use_denoising = True
+
+    # set Cycles add-on
+    cycles_preferences = bpy.context.preferences.addons['cycles'].preferences
+    cycles_preferences.compute_device_type = "CUDA"
+
+    for devices in cycles_preferences.get_devices():
+        for device in devices:
+            if device.type == "CUDA":
+                device.use = True
+            else:
+                device.use = False
+
+    if not os.path.exists(file_path):
+        os.makedirs(file_path)
+	
+	# output setting
+    scene.render.image_settings.file_format='PNG'
+    scene.render.filepath = os.path.join(file_path, file_name)
+	
+	# rendering
+    bpy.ops.render.render(write_still=True)
+    
+ # 여기서는 Cycles 엔진을 사용하여 렌더링하며, Nvidia GPU가 있다는 가정하에 gpu를 이용하여 렌더링 속도를 빠르게 하였습니다.
+ 해상도에 해당하는 x축 픽셀수와 y축 픽셀수는 scene.render에서 설정하는데 여기서는 정사각형 형태로 설정하였습니다.
+ scene.cycles에서는 GPU 설정 및 잡음 제거를 위한 설정을 해줍니다.
+그리고 GPU 사용 설정을 위해서는 추가적으로 Cycles 애드온도 설정이 필요하기 때문에, bpy.context.preferences.addons[‘cycles’].preferences를 통해 애드온 설정을 따로 해주었습니다.
+scene.render.image_settings 에서는 저장할 아웃풋 이미지의 포멧 및 압축률과 같은 설정을 할 수 있는데 여기서는 단순히 png 형식으로 저장하도록 설정하였습니다.
+scene.render에서 저장할 디렉토리를 설정하고, 마지막으로 bpy.ops.render.render를 통해 렌더링 및 위에서 설정한 형식으로 결과물을 저장합니다.   
+      
+```
+
+<br>
+
+3. Main 함수 
+
+```
+if __name__ == "__main__":
+    reset_blender_data()
+
+    cube_loc = (0, 0, 0)
+    cube_size = (2, 1, 3)
+    cube_color = (0.8, 0.35, 0.29, 1.0)
+    cube_obj = create_cube(cube_loc, cube_size)
+    set_object_color_rgba(cube_obj, cube_color)
+
+    create_floor_plane(cube_obj)
+
+    camera_loc = (4.5, 6, 5)
+    create_camera(camera_loc, cube_loc)
+
+    create_sunlight()
+
+    save_image_with_gpu(1024, "D://", "Test")
+```
+
+<br>
+
+4. 실행
+
+```
+blender --background --python <스크립트 절대 경로>
+blender --background --python D:\test.py
+```
