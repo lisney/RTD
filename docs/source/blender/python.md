@@ -499,3 +499,73 @@ UI 배끼기
 
 ![image](https://user-images.githubusercontent.com/30430227/144032290-ff18a6bf-cc74-47a7-88ad-a591eccdca90.png)
 
+<br>
+
+CSV 그래프 
+-----------
+
+1. import csv
+
+```
+import csv
+
+with open('c:/users/3dprinter/desktop/sample.csv') as f:
+    readout = list(csv.reader(f))
+    print(readout)  #  시스템 콘솔에서 확인
+```
+
+2. 바 생성 > Cube 생성 후 info 창에서 파이썬 명령 복사
+
+![image](https://user-images.githubusercontent.com/30430227/144152726-ac4bfe53-54ad-4348-b55a-87741fd42f2d.png)
+
+```
+import csv
+import bpy
+
+bar_space = 1.5
+bar_width = 1
+
+with open('c:/users/3dprinter/desktop/sample.csv') as f:
+    readout = list(csv.reader(f))
+    # print(readout)
+    
+for i in readout:
+    placement = readout.index(i) # 인덱스
+    bpy.ops.mesh.primitive_cube_add(size=1)
+    new_bar = bpy.context.object # 현재 선택된 오브젝트
+    
+    for vert in new_bar.data.vertices:
+        vert.co[1] += 0.5 # y방향으로, co[0]- X 방향 # Y 축 원점 -> 바닥
+        vert.co[0] += placement*bar_space + 0.5 # X 축 원점 -> 좌측
+        
+    new_bar.scale = (bar_width, float(i[1]), 1)
+```
+
+3. 텍스트 생성 
+
+![image](https://user-images.githubusercontent.com/30430227/144155031-a5f63b3c-f8d4-4c86-9b76-5a3589cb04f3.png)
+
+```
+for i in readout:
+    placement = readout.index(i)
+    bpy.ops.mesh.primitive_cube_add(size=1)
+    new_bar = bpy.context.object
+    
+    for vert in new_bar.data.vertices:
+        vert.co[1] += 0.5 # y방향으로, co[0]- X 방향
+        vert.co[0] += placement*bar_space + 0.5
+        
+    new_bar.scale = (bar_width, float(i[1]), 1)
+    
+    bpy.ops.object.text_add()
+    bpy.context.object.data.align_x = 'RIGHT'
+    bpy.context.object.data.align_y = 'CENTER'
+    bpy.ops.transform.rotate(value=-1.5708)
+    bpy.ops.transform.translate(value=(placement*bar_space + 0.5, -0.4, 0))
+    bpy.context.object.data.body = i[0]
+```
+
+
+
+
+
