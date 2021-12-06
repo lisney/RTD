@@ -901,3 +901,55 @@ for i in range(0,500):
     ob.keyframe_insert(data_path='location', index=-1)
     frame_number+=1
 ```
+
+<br>
+
+2. 사인
+
+![image](https://user-images.githubusercontent.com/30430227/144807165-7d5a9d3a-ccb6-4316-97c2-5773e1e5c57a.png)
+
+```
+import bpy
+import math as m
+
+ob = bpy.data.objects['Cube'] # bpy.context.active_object
+frame_number = 0
+x =0
+y =0
+
+for i in range(0,500):
+    bpy.context.scene.frame_set(frame_number)
+    x+=.3
+    y+=.3
+    ob.location = (x,10*m.sin(y/3)+10,0)
+    ob.keyframe_insert(data_path='location', index=-1)
+    frame_number+=1
+```
+
+<br>
+
+3. 나선 
+
+![image](https://user-images.githubusercontent.com/30430227/144808637-7b87f597-f646-428e-8c29-d41938d926cd.png)
+
+```
+import bpy
+import math as m
+
+ob = bpy.data.objects['Cube'] # bpy.context.active_object
+frame_number = 0
+
+n =20
+r =10
+x =0
+
+for i in range(0,250):
+    bpy.context.scene.frame_set(frame_number)
+    angle = ((i*m.pi)/n)
+    y = r*m.cos(angle)
+    z = r*m.sin(angle)
+    ob.location = (x,y,z)
+    ob.keyframe_insert(data_path='location', index=-1)
+    frame_number +=1
+    x+=0.4
+```
