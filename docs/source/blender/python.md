@@ -874,3 +874,30 @@ if __name__ == '__main__':
     cube_obj = create_cube((2,2,0),(2,1,3))
     set_object_color_rgba(cube_obj, (0.8,0.35,0.29,1.0))
 ```
+
+<br>
+
+수학 
+-----
+
+1. 직선 
+
+![image](https://user-images.githubusercontent.com/30430227/144806380-7b184d51-c45c-4679-8385-ec6b407a1666.png)
+
+```
+import bpy
+import math as m
+
+ob = bpy.data.objects['Cube'] # bpy.context.active_object
+frame_number = 0
+x =0
+y =0
+
+for i in range(0,500):
+    bpy.context.scene.frame_set(frame_number)
+    x+=.3
+    y+=.3
+    ob.location = (x,y,0)
+    ob.keyframe_insert(data_path='location', index=-1)
+    frame_number+=1
+```
