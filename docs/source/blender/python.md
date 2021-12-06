@@ -835,7 +835,7 @@ def create_cube(location,scale):
     cube_object.location = location
     cube_object.scale = scale
     bpy.context.view_layer.update() # 매트릭스 갱신
-    boundary_points = [cube_object.matrix_world @ Vector(point) for point in cube_object.bound_box] # 바운딩박스 8개 점 리스트
+    boundary_points = [cube_object.matrix_world @ Vector(point) for point in cube_object.bound_box] # 바운딩박스 8개 점 리스트, 파이썬 컴프리핸션(포함)
     
     # create_floor
     center_point = []
