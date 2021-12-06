@@ -6,6 +6,15 @@ Basic
 ![image](https://user-images.githubusercontent.com/30430227/143843704-774493bb-d855-4411-9a40-3478f3fc5e19.png)
 ![image](https://user-images.githubusercontent.com/30430227/143843850-924c2d31-244c-4dc2-bf50-eb1cc5337181.png)
 
+<br>
+
+2. Show ID
+
+![image](https://user-images.githubusercontent.com/30430227/144799109-a3246372-7118-40db-b7c2-1a77d9dc2e55.png)
+![image](https://user-images.githubusercontent.com/30430227/144799197-936e18b7-99cd-4e03-b738-f672cb13690c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/144799151-10c2783f-fe13-4436-87fa-619bcba386e4.png)
+
 
 Sculp
 -------
