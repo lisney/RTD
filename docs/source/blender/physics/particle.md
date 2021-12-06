@@ -1,6 +1,17 @@
 Particle
 ============
 
+1. life Time 파이클 사이즈
+
+![image](https://user-images.githubusercontent.com/30430227/144852453-d9fabb10-00ca-4c71-95c1-bc4ff53229a5.png)
+
+`Texture > Blend > Influence(Size) > Mapping(Strand/Particle) > Color(ColorRamp) `
+
+![image](https://user-images.githubusercontent.com/30430227/144852536-190c655c-20d7-4e19-8ca9-7d6b8112957d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/144852825-cbdbb252-ae84-4867-8352-1959e7cd86a7.png)
+
+
 라인 튜브 
 ----------
 1. ico Sphere  
