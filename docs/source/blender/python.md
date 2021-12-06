@@ -810,3 +810,67 @@ if __name__ == "__main__":
 blender --background --python <스크립트 절대 경로>
 blender --background --python D:\test.py
 ```
+
+<br>
+
+테스트
+------
+
+```
+import bpy
+from mathutils import Vector
+from math import inf, radians
+import os
+
+def reset_blender_data():
+    for bpy_data_iter in (bpy.data.objects, bpy.data.meshes, bpy.data.cameras):
+        for id_data in bpy_data_iter:
+            bpy_data_iter.remove(id_data)
+            
+ 
+def create_cube(location,scale):
+    bpy.ops.mesh.primitive_cube_add() 
+    cube_object = bpy.context.active_object
+    cube_object.name = 'cube'
+    cube_object.location = location
+    cube_object.scale = scale
+    bpy.context.view_layer.update() # 매트릭스 갱신
+    boundary_points = [cube_object.matrix_world @ Vector(point) for point in cube_object.bound_box] # 바운딩박스 8개 점 리스트
+    
+    # create_floor
+    center_point = []
+    for i in range(3):
+        center_point.append((boundary_points[0][i] + boundary_points[6][i])/2)
+    
+    plane_position = (center_point[0], center_point[1], boundary_points[0][2])
+    plane_scale = (20,20,1)
+    
+    bpy.ops.mesh.primitive_plane_add(location=plane_position)
+    plane_object = bpy.context.active_object
+    plane_object.name = 'floor plane'
+    # plane_object.locaton = plane_position
+    plane_object.scale=plane_scale # location은 적용되나 scale은 생성 시 적용되지 않는다?
+    bpy.context.view_layer.update() # 매트릭스 갱신
+        
+    print(center_point)
+    
+    return cube_object
+
+def set_object_color_rgba(blender_object, color):
+    material = bpy.data.materials.new(name=blender_object.name)
+    material.use_nodes = True
+
+    principled_bsdf_node = material.node_tree.nodes['Principled BSDF']
+    principled_bsdf_node.inputs['Base Color'].default_value = color
+
+    blender_object.data.materials.append(material)
+
+def get_boundary_info(blender_object):
+    bpy.context.view_layer.update()
+           
+if __name__ == '__main__':
+    reset_blender_data()
+    
+    cube_obj = create_cube((2,2,0),(2,1,3))
+    set_object_color_rgba(cube_obj, (0.8,0.35,0.29,1.0))
+```
