@@ -1,7 +1,7 @@
 Basic
 ======
 
-1. 입력값 한 방에 바꿀 때 한 값만 따로입력 - 전체 값 입력 후 TAB 후 값 입력
+1. 입력값 한 방에 바꿀 때 한 값만 따로입력 - 전체 선택 후 TAB 하며 값 입력
 
 ![image](https://user-images.githubusercontent.com/30430227/143843704-774493bb-d855-4411-9a40-3478f3fc5e19.png)
 ![image](https://user-images.githubusercontent.com/30430227/143843850-924c2d31-244c-4dc2-bf50-eb1cc5337181.png)
@@ -14,6 +14,23 @@ Basic
 ![image](https://user-images.githubusercontent.com/30430227/144799197-936e18b7-99cd-4e03-b738-f672cb13690c.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/144799151-10c2783f-fe13-4436-87fa-619bcba386e4.png)
+
+<br>
+
+3. Data Transfer Modifier
+
+`Edit Mode`
+
+![image](https://user-images.githubusercontent.com/30430227/145022194-cd514eff-6064-4af6-b65c-84b463e0b3ad.png)
+![image](https://user-images.githubusercontent.com/30430227/145022060-5de96eb2-b23e-4950-ac90-af6051803f53.png)
+
+![image](https://user-images.githubusercontent.com/30430227/145022627-db9df6e3-e620-4ba7-aa57-217a1e4edd04.png)
+
+`Weight Paint Mode 상태에서 Modifier Mapping 을 바꾸어 본다`
+
+![image](https://user-images.githubusercontent.com/30430227/145024053-a5968020-e583-4af6-a28a-42b018275d02.png)
+![image](https://user-images.githubusercontent.com/30430227/145024222-d49ae928-0dee-4a42-925e-6d824246ff45.png)
+
 
 
 Sculp
