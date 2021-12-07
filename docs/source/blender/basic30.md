@@ -31,6 +31,15 @@ Basic
 ![image](https://user-images.githubusercontent.com/30430227/145024053-a5968020-e583-4af6-a28a-42b018275d02.png)
 ![image](https://user-images.githubusercontent.com/30430227/145024222-d49ae928-0dee-4a42-925e-6d824246ff45.png)
 
+<br>
+
+4. Duplicate Link 깨는 법 
+
+![image](https://user-images.githubusercontent.com/30430227/145061318-84b4ee5d-4365-41e2-b813-5ab36b0eda9b.png)
+
+`갯수가 많을 때`
+
+![image](https://user-images.githubusercontent.com/30430227/145061454-0c11b232-25ef-4083-b7af-4f5598d04fb2.png)
 
 
 Sculp
