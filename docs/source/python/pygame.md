@@ -88,6 +88,111 @@ pygame.quit()
 ```
 <br>
 
+```
+import pygame
+
+pygame.init()
+
+screen = pygame.display.set_mode((480, 640))
+
+# FPS
+clock = pygame.time.Clock()
+
+# 화면 타이틀 설정
+pygame.display.set_caption('Nado Game')
+
+background = pygame.image.load('H:/my_project/4g2.jpg')
+
+#사기리
+girl_load = pygame.image.load('H:/my_project/4g2.jpg')
+girl = pygame.transform.scale(girl_load, (70,70))
+girl_rect = girl.get_rect()
+girl_rect.centerx = 240
+girl_rect.bottom = 640
+
+# 사과
+apple_load = pygame.image.load('H:/my_project/apple.png')
+apple = pygame.transform.scale(apple_load,(100,100))
+apple_rect = apple.get_rect()
+apple_rect.centerx = 400
+apple_rect.bottom =640
+
+# 폰트
+game_font = pygame.font.SysFont('malgungothic', 40)
+
+# 시간
+total_time = 10
+
+start_ticks = pygame.time.get_ticks()
+
+# 이동할 좌표
+to_x = 0
+to_y = 0
+
+# 이동속도
+girl_speed = 0.3
+
+# 이벤트 루프
+running = True
+
+while running:
+    dt = clock.tick(30)
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+            
+        if event.type == pygame.KEYDOWN: # 키가 눌러졌는지 확인
+            if event.key ==pygame.K_LEFT: # 캐릭터를 왼쪽으로- 한 번만 실행되는데?
+                to_x -= girl_speed
+            elif event.key == pygame.K_RIGHT:
+                to_x += girl_speed
+                
+        if event.type == pygame.KEYUP:
+            if event.key == pygame.K_LEFT or event.key == pygame.K_RIGHT:
+                to_x = 0
+    
+    # 경계값 처리
+    if girl_rect.left <0:
+        girl_rect.left =0
+    elif girl_rect.right >480:
+        girl_rect.right=480
+    # screen.blit(background, (0,0)) # 배경 그리기
+    screen.fill((0,0,200))
+    
+    # 위치이동
+    girl_rect.centerx += to_x * dt
+    
+    # 충돌처리
+ 
+    if girl_rect.colliderect(apple_rect):
+        print('출동')
+        running = False
+
+    # 경과시간
+    elapsed_time = (pygame.time.get_ticks() - start_ticks)/1000
+    
+    timer = game_font.render(f"남은 시간: {str(int(total_time - elapsed_time))}", True, (255,255,0))
+
+    # 그리기
+    screen.blit(apple, apple_rect)
+
+    screen.blit(girl, girl_rect)
+    
+    screen.blit(timer, (10,10))
+    
+    
+
+    pygame.display.update()
+    # print(f"FPS: {str(clock.get_fps())}")
+
+pygame.time.delay(2000) # 2 초 정도 대기 후 종료
+
+pygame.quit()
+```
+
+<br>
+
 사기리 클릭 게임 
 -------------------
 
