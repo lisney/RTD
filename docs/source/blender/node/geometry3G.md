@@ -99,3 +99,35 @@ Text Rotate
 
 ![image](https://user-images.githubusercontent.com/30430227/144708596-c3a2abd4-1521-42de-98cb-af0800cf9381.png)
 
+<br>
+
+파도 
+-----
+
+`Plane > Subdivision(7, Optimal Display & Use Limit Surface 체크 해제)`
+
+![image](https://user-images.githubusercontent.com/30430227/145156333-2d1f340a-ba49-4c23-b77a-ce885609fb81.png)
+
+![image](https://user-images.githubusercontent.com/30430227/145156512-8b47934f-53f7-43cd-862c-63efec308e55.png)
+
+`Add Noise`
+
+![image](https://user-images.githubusercontent.com/30430227/145157595-ab080845-1cff-433a-a236-841ce9b4d1d2.png)
+
+![image](https://user-images.githubusercontent.com/30430227/145157617-f4ccfd66-8f25-47fb-b348-5ac1c3843288.png)
+
+`Detail - Multiply 추가`
+
+![image](https://user-images.githubusercontent.com/30430227/145157742-e783b02c-9dba-41c5-a09d-14b9fcf08be6.png)
+
+![image](https://user-images.githubusercontent.com/30430227/145157796-1f5d661e-a01d-4b1a-8331-73a48092e3af.png)
+
+`재질`
+
+![image](https://user-images.githubusercontent.com/30430227/145158175-778c03c7-0fdf-470e-86bd-884228281ed4.png)
+![image](https://user-images.githubusercontent.com/30430227/145158326-ba91cf8a-03be-4334-b4e0-9b3c2b38757f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/145158356-e54e0273-0a4d-4ccb-b965-65bf5087b55c.png)
+
+
+
