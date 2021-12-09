@@ -11,7 +11,12 @@ Glass Addon
 
 `C:\Users\3DPrinter\AppData\Roaming\FreeCAD\Mod\Glass GlassGui.py - 설정파일`
 
-`Preferences > DockWindows > TreeView > 불린 True`
+`Preferences > DockWindows > TreeView > 불린 True > ComboView > False`
+
+`View > Panels > Property view`
+
+![image](https://user-images.githubusercontent.com/30430227/145389752-ce73961d-b6e9-4d61-aa48-4c0eabce657e.png)
+
 
 ![image](https://user-images.githubusercontent.com/30430227/145344812-a7738122-a8f5-451f-b0ce-b72e71e1a85b.png)
 
