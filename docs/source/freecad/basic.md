@@ -1,7 +1,33 @@
 BASIC
 =======
+
+Glass Addon
+----------------
+
+![image](https://user-images.githubusercontent.com/30430227/145343494-f2a7ad4e-edbe-4c3f-b36d-ce7328b4a901.png)
+
+`Preferences > MainWindow > 오른클릭 >New Boolean Item 'ClearMenuBar'`
+`애드온 Glass, IconThemes, Assembly4 설치`
+
+`C:\Users\3DPrinter\AppData\Roaming\FreeCAD\Mod\Glass GlassGui.py - 설정파일`
+
+`Preferences > DockWindows > TreeView > 불린 True`
+
+![image](https://user-images.githubusercontent.com/30430227/145344812-a7738122-a8f5-451f-b0ce-b72e71e1a85b.png)
+
+`Combo View 를 오른쪽으로 이동`
+
+`체크하고 스타일/컬러 등 설정한다`
+
+![image](https://user-images.githubusercontent.com/30430227/145344986-87fa7e2b-b36d-4b34-9d14-d942b44e7de6.png)
+
+`ParameterEditor > MainWindow > StyleSheet`
+
+
 1. UI 컬러-Style sheet  
-![image](https://user-images.githubusercontent.com/30430227/131780961-02d097a0-22f2-48e0-bbca-710de3ad50fd.png)  
+![image](https://user-images.githubusercontent.com/30430227/131780961-02d097a0-22f2-48e0-bbca-710de3ad50fd.png)
+
+
 
 2. 마야 단축키 지정 시 Middel 클릭 Report View 안뜨게  
 `show report...on error, ...on warning 체크해제`  
