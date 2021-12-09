@@ -380,7 +380,10 @@ Tractor Tire
 `B-spline`  
 ![image](https://user-images.githubusercontent.com/30430227/136483109-82289aa0-076e-448e-a359-eb250406f5f2.png)  
 
-`Draft 평면 offset > B-spline`  
+`Draft 평면 offset(오프셋 값을 입력한 후 Side버튼 클릭' > B-spline`  
+
+![image](https://user-images.githubusercontent.com/30430227/145311969-4e90bd2b-e858-4b24-ac34-d06be72fe22f.png)
+
 ![image](https://user-images.githubusercontent.com/30430227/136483205-95029419-4e3d-4dc6-a24c-c8a31e51ca5a.png)  
 ![image](https://user-images.githubusercontent.com/30430227/136483258-983bec22-4c68-40dd-88da-f7fd6045751d.png)  
 
