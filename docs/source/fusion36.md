@@ -62,7 +62,7 @@ Fusion360
 
 ![image](https://user-images.githubusercontent.com/30430227/145965819-500e164a-5b3f-4c2b-af0b-bbddbed00127.png)
 
-`릴리프 - 절곡 시 옆 부분이 같이 휘어짐 방지`
+`릴리프 - 절곡 시 옆 부분이 같이 꺾임 방지`
 
 ![image](https://user-images.githubusercontent.com/30430227/145965931-d919f733-fce9-4057-8cf0-25ee93fe56d2.png)
 
