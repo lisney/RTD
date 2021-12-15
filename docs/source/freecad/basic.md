@@ -823,6 +823,36 @@ Sheet Metal 워크벤치 Addon
 ![image](https://user-images.githubusercontent.com/30430227/142941138-9dee5d8c-3bcf-4589-b255-66dc6eb17bda.png)
 ![image](https://user-images.githubusercontent.com/30430227/142941986-460770d9-9913-41b0-b541-09fe65f70fd6.png)
 
+<br>
+
+오프셋 
+------
+
+![image](https://user-images.githubusercontent.com/30430227/146130553-5081c5ed-b805-4d29-bb3c-914f3fdb24f0.png)
+
+`2D Offset(Part WB)`
+
+![image](https://user-images.githubusercontent.com/30430227/146130661-7b507080-3e3c-4d47-9a42-df6aacc30754.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146130702-6de10d3f-8585-4b43-90f8-87ba26dbe73f.png)
+
+`Blend Curve(Curves WB)`
+
+![image](https://user-images.githubusercontent.com/30430227/146131001-2dc7ede6-b94e-49f4-83bb-f2ad9af8e2cf.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146130745-33572450-e6ec-4aff-8075-a9a241d1147a.png)
+![image](https://user-images.githubusercontent.com/30430227/146130953-21abd91d-22e1-476e-9c0c-cd9b8bc3523a.png)
+
+`Upgrade(Draft WB)`
+
+![image](https://user-images.githubusercontent.com/30430227/146131065-5cbdfa22-4b47-476e-8903-ecdedebd568f.png)
+![image](https://user-images.githubusercontent.com/30430227/146131097-9eeb8ac3-76c1-4099-98f7-f0809347f079.png)
+
+`Wire를 바로 Sketch로 변환하면 안된다? > JoinCurve(Curves WB) > Convert Sketch(Draft WB)`
+
+![image](https://user-images.githubusercontent.com/30430227/146131304-172517bc-cbaa-4ea0-85e3-74a84494014d.png)
+
+
 
 
 
