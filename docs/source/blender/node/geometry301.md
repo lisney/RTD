@@ -42,7 +42,7 @@ Alt - Rmouse Drag: lazy Connect
 
 ![image](https://user-images.githubusercontent.com/30430227/139708547-b61a9830-0e31-4c4d-95f2-9788e11ca64d.png)
 
-![image](https://user-images.githubusercontent.com/30430227/139708863-0dcf2051-b2ad-4f1d-a92d-6f226aea5e8f.png)
+![image](https://user-images.githubusercontent.com/30430227/146123239-afd4147e-7098-4123-9071-d3f119ad253b.png)
 
 <br>
 
@@ -50,10 +50,8 @@ Alt - Rmouse Drag: lazy Connect
 
 ![image](https://user-images.githubusercontent.com/30430227/140845385-4089aaea-719a-40f3-ad18-44ec6fc1945e.png)
 ![image](https://user-images.githubusercontent.com/30430227/140845414-270a009b-c3c3-44f6-b760-59ff6afb214b.png)
-![image](https://user-images.githubusercontent.com/30430227/140908731-0acd9098-c60d-488b-8843-dfd94e2de9fd.png)
 
-![image](https://user-images.githubusercontent.com/30430227/140845428-a52cefae-74d9-4c1c-b31f-b3498cec1f6e.png)
-![image](https://user-images.githubusercontent.com/30430227/140908765-27bacc8b-ceb8-4150-bd62-b58b10daaf1a.png)
+![image](https://user-images.githubusercontent.com/30430227/146123713-03e2ad25-a4ee-4ce6-9a6e-6d39793b054c.png)
 
 4. Node Socket
 
@@ -70,7 +68,7 @@ Alt - Rmouse Drag: lazy Connect
 
 ![image](https://user-images.githubusercontent.com/30430227/140544440-eec9df27-e094-4e49-9162-ed88dd23f06c.png)
 
-![image](https://user-images.githubusercontent.com/30430227/140544582-8f2ad833-4ff3-499b-8b55-a8e0f6c9ec31.png)
+![image](https://user-images.githubusercontent.com/30430227/146124117-76d8e692-8489-4208-83b5-f8ee5a8112e7.png)
 
 `Solidify Modifier`
 
@@ -84,15 +82,14 @@ Capture Attribute -속성을 빼온다?!
 `Normal`
 
 ![image](https://user-images.githubusercontent.com/30430227/140735693-1d40b17c-b233-413f-81a9-27e3f072a4e4.png)
-![image](https://user-images.githubusercontent.com/30430227/140735757-45e6ebe9-a3a1-4dc9-902a-8f1d569d24c4.png)
 
-![image](https://user-images.githubusercontent.com/30430227/140735620-7b635aff-a7c9-4eeb-9221-7d76f0e05c52.png)
+![image](https://user-images.githubusercontent.com/30430227/146124624-5cee5b30-6675-499c-a101-13e86932cd99.png)
 
-`Position - point: 1, face는 가운데 즉 0`
+![image](https://user-images.githubusercontent.com/30430227/146124596-5ab28130-ceee-412f-8bc3-ed2c6b822914.png)
 
-![image](https://user-images.githubusercontent.com/30430227/140736525-3a2527c2-078c-4c25-98c2-e14585e9309d.png)
+![image](https://user-images.githubusercontent.com/30430227/146124911-ec68d12d-a24e-4636-ac8c-5cd52523c7f7.png)
 
-![image](https://user-images.githubusercontent.com/30430227/140736631-d633a8cd-b6e3-49ad-b984-187b7b0bb1bd.png)
+![image](https://user-images.githubusercontent.com/30430227/146124829-cef3263d-05fc-4dd1-966c-e2c56a33bb38.png)
 
 <br>
 
