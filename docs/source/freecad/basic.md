@@ -825,8 +825,8 @@ Sheet Metal 워크벤치 Addon
 
 <br>
 
-오프셋 
-------
+오프셋(PartWB) 
+--------------
 
 ![image](https://user-images.githubusercontent.com/30430227/146130553-5081c5ed-b805-4d29-bb3c-914f3fdb24f0.png)
 
@@ -851,6 +851,15 @@ Sheet Metal 워크벤치 Addon
 `Wire를 바로 Sketch로 변환하면 안된다? > JoinCurve(Curves WB) > Convert Sketch(Draft WB)`
 
 ![image](https://user-images.githubusercontent.com/30430227/146131304-172517bc-cbaa-4ea0-85e3-74a84494014d.png)
+
+<br>
+
+`오프셋(DraftWB) - 뭔가 다른 결과가!`
+
+![image](https://user-images.githubusercontent.com/30430227/146131786-ea09c069-71ca-42e7-a21b-d01b9d12d5b3.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146131747-f267e100-25f1-47bd-979a-44c2d1f4aa41.png)
+![image](https://user-images.githubusercontent.com/30430227/146131838-77fcef1a-81dc-4bde-a5f1-7097dc8b098a.png)
 
 
 
