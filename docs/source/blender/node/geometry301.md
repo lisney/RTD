@@ -243,6 +243,14 @@ Area Node
 
 ![image](https://user-images.githubusercontent.com/30430227/146118800-00cda3b7-95c5-4649-84c4-e75117b3eaab.png)
 
+<br>
+
+Geometry to Instance
+---------------------
+
+![image](https://user-images.githubusercontent.com/30430227/146120199-7c651828-89cc-437a-a196-d6d30d5d745d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146120186-e87f3290-107c-4dad-b86f-0556f26ca000.png)
 
 
 
