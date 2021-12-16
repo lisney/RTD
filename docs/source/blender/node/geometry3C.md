@@ -30,7 +30,7 @@ Voronoi 블럭
 
 ![image](https://user-images.githubusercontent.com/30430227/139770338-a0e42cde-86cb-44ff-9f16-375b366a7f96.png)
 
-![image](https://user-images.githubusercontent.com/30430227/139770327-7febb0b3-93c5-485d-9647-422ef3954e32.png)
+![image](https://user-images.githubusercontent.com/30430227/146299181-78a1b321-d636-4409-ac90-b5171633bacb.png)
 
 <br>
 
