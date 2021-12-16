@@ -8,6 +8,10 @@ Mograph - Transition
 
 ![image](https://user-images.githubusercontent.com/30430227/143584972-7b595d45-54d4-434e-a71e-6cba7748dd9f.png)
 
+`위 다른 방법`
+
+![image](https://user-images.githubusercontent.com/30430227/146342509-63b3ac63-b992-4b47-9e6d-353e8a5ff7aa.png)
+
 `Proximity > Mix input Color Change`
 
 ![image](https://user-images.githubusercontent.com/30430227/143585499-3b731f83-7b9d-4007-8225-12832c39a603.png)
