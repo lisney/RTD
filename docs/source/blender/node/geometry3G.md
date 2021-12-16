@@ -97,7 +97,7 @@ Text Rotate
 
 ![image](https://user-images.githubusercontent.com/30430227/144708458-f78a1cc1-3951-4d89-98dd-36599cae91d2.png)
 
-![image](https://user-images.githubusercontent.com/30430227/144708596-c3a2abd4-1521-42de-98cb-af0800cf9381.png)
+![image](https://user-images.githubusercontent.com/30430227/146309669-637ff988-dcbf-4600-af07-85cf2b2b1c18.png)
 
 <br>
 
