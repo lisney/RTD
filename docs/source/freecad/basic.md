@@ -861,6 +861,32 @@ Sheet Metal 워크벤치 Addon
 ![image](https://user-images.githubusercontent.com/30430227/146131747-f267e100-25f1-47bd-979a-44c2d1f4aa41.png)
 ![image](https://user-images.githubusercontent.com/30430227/146131838-77fcef1a-81dc-4bde-a5f1-7097dc8b098a.png)
 
+<br>
+
+해치 
+-----
+
+![image](https://user-images.githubusercontent.com/30430227/146639752-88a1308d-6676-4a24-8604-f09bbd073264.png)
+
+1. Sketch  >Sweep(Part WB) > Extrude > Split Object
+
+![image](https://user-images.githubusercontent.com/30430227/146639855-437a002a-1570-48f3-8c40-dd2f0c0738cd.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146639833-ddf6d153-c905-40bc-a8e9-b6d5963c90d0.png)
+![image](https://user-images.githubusercontent.com/30430227/146639839-fd5b8532-51c7-453b-9df5-875e46614f5f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146639882-afaac035-d374-4581-9da1-9897cb47fc14.png)
+
+2. Mirror(Part wB)
+
+![image](https://user-images.githubusercontent.com/30430227/146639921-2481be60-0164-4674-98c0-3ee6786ebbe6.png)
+![image](https://user-images.githubusercontent.com/30430227/146639927-f31d6b99-2708-44ec-81a2-0e9fce6a0632.png)
+
+3. Upgrade(Draft WB) > 3D Offset(PartWB)
+
+
+
+
 
 
 
