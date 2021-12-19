@@ -111,7 +111,40 @@ Logic Brick
 
 ![image](https://user-images.githubusercontent.com/30430227/146665729-93d93772-e7b5-4f29-909b-1d4d6c78928a.png)
 
+<br>
 
+6. 죽고 살고 - Message 유언을 남기다
+
+`카메라 세팅 - 로직 삭제, Unparent`
+
+![image](https://user-images.githubusercontent.com/30430227/146666171-a6950e3b-959f-434e-b7c9-9845bca6946e.png)
+
+`Logic Block`
+
+![image](https://user-images.githubusercontent.com/30430227/146666224-5450cb94-985c-4bc7-bc74-551e7212d531.png)
+
+`박스 복사 > 이름 'BobNEW' > New Collection으로 이동`
+
+![image](https://user-images.githubusercontent.com/30430227/146666241-5d68fdf8-f413-4acf-9ab2-4c207bdcbda0.png)
+
+`Empty 생성 > Logic Block`
+
+![image](https://user-images.githubusercontent.com/30430227/146666292-17b3c53d-bca2-4660-926b-6a602eb14db2.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146666390-db600ecc-a356-47e0-a4d4-ae1d8c34e7aa.png)
+
+
+
+
+55. Camera Targets
+
+`Track 메뉴 > 카메라, 대상 선택 후`
+
+![image](https://user-images.githubusercontent.com/30430227/146665938-eb64bd99-026b-4d27-80bd-7dc46ac06dde.png)
+
+<br>
+
+7. 
 
 
 
