@@ -19,4 +19,34 @@ Logic Brick
 
 ![image](https://user-images.githubusercontent.com/30430227/146663318-a9423e76-e58a-4746-b377-080c6670e719.png)
 
+<br>
+
+2. 캐릭터 카메라 
+
+`Physics > Charactor`
+
+![image](https://user-images.githubusercontent.com/30430227/146663637-848e170f-f12b-42b5-80da-dbe253181a24.png)
+![image](https://user-images.githubusercontent.com/30430227/146663645-0a655683-9ef9-4cc2-8749-8b234085060e.png)
+
+`Logic Brick - 좌우`
+
+![image](https://user-images.githubusercontent.com/30430227/146663670-492bdb58-e7c6-48fe-8ff6-56c5362280bf.png)
+
+`Camera -  상하`
+
+![image](https://user-images.githubusercontent.com/30430227/146663684-6ac08789-82d9-4bdd-af9a-3eb7c6bb0ed4.png)
+
+`Camera > Parent(Box)`
+
+![image](https://user-images.githubusercontent.com/30430227/146663749-8e17e4e6-803f-4fee-8e27-8ff3cea31ee4.png)
+
+`박스 > Logic Block > Move Forward`
+
+![image](https://user-images.githubusercontent.com/30430227/146664056-d0b6525d-1315-4fe0-8584-5d8916967e32.png)
+
+
+
+
+
+
 
