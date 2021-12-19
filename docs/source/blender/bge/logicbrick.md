@@ -52,7 +52,7 @@ Logic Brick
 
 <br>
 
-3. Collision
+3. Collision & Screen
 
 `Scene > Camera`
 
@@ -63,7 +63,7 @@ Logic Brick
 
 ![image](https://user-images.githubusercontent.com/30430227/146664978-f17564e7-5eb5-4a1e-b0dc-7291d5f70ee9.png)
 
-`재질 충돌: Add Suzy > Add Material`
+`충돌1(재질): Add Suzy > Add Material`
 
 ![image](https://user-images.githubusercontent.com/30430227/146665111-d1ccff68-5441-4372-9326-2523e829e4f7.png)
 ![image](https://user-images.githubusercontent.com/30430227/146665121-421ceb63-49dc-4274-ba7e-2b378e78d5dc.png)
@@ -74,11 +74,44 @@ Logic Brick
 
 ![image](https://user-images.githubusercontent.com/30430227/146665194-ef14299e-2904-4e89-98f2-57b6f46a9289.png)
 
-`프로퍼티 충돌: Suzy > Add Game Property > 박스 Collision M/p 끄고 -> Property 명 입력`
+`충돌2(프로퍼티): Suzy > Add Game Property > 박스 Collision M/p 끄고 -> Property 명 입력`
 
 ![image](https://user-images.githubusercontent.com/30430227/146665251-7d43aeb5-c717-479e-ad20-85c72cb3f1b8.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/146665281-47ff9a36-bfb6-4396-a131-3f614b098726.png)
+
+<br>
+
+4. 버튼 
+
+`씬 ScreenLose > Create Button`
+
+![image](https://user-images.githubusercontent.com/30430227/146665443-71b958c0-8b8b-4d6a-842d-0d388cb1bb76.png)
+![image](https://user-images.githubusercontent.com/30430227/146665440-3ea3ec9e-f664-4af8-bbc5-33de76f99168.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146665499-29b9c0fd-1e64-48be-b0d9-cb20c999b4c9.png)
+
+`씬 SceneGame > Mouse cursor Visiblity`
+
+![image](https://user-images.githubusercontent.com/30430227/146665515-3532c3b9-abc1-4596-b78b-1b89708ccca2.png)
+
+<br>
+
+5. 왔다리 갔다리 - State & Movement
+
+`Suzy 선택 > State 추가`
+
+![image](https://user-images.githubusercontent.com/30430227/146665608-4cd7d59c-b247-42fb-a664-34f0e833808f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146665670-1d011061-3397-45e6-8abc-d18c2ed7a413.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146665678-5f6b37ba-33b9-43ed-b8d8-cba022c1e898.png)
+
+`2초 후 State 변경하기`
+
+![image](https://user-images.githubusercontent.com/30430227/146665729-93d93772-e7b5-4f29-909b-1d4d6c78928a.png)
+
+
 
 
 
