@@ -136,3 +136,29 @@ Curve to Surface
 ![image](https://user-images.githubusercontent.com/30430227/143320325-78125ab1-a7a5-47f4-b589-f8dc0d89d1ed.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/143320679-4c3a2063-a5a7-41ec-94d9-48335c77198b.png)
+
+<br>
+
+Fomula 모델링
+-------------
+
+`Sketch`
+
+![image](https://user-images.githubusercontent.com/30430227/146666810-33f69e85-3a54-4ec7-ac10-04a1029b0005.png)
+
+`Pad > 윗 면 선택 >Sketch > Fomula editor`
+
+![image](https://user-images.githubusercontent.com/30430227/146666854-a1cb4b21-9761-4816-90f5-91fc70710e0c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146666858-58627b17-d2ea-47bf-86eb-576a5307f8fe.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146667666-e8c1d985-1af7-4e6e-8427-92a75f56ed16.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146667687-76a4629f-91cd-4613-90c3-2f113a3a8629.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146667726-147fe000-510c-4c27-9386-f126030aaee3.png)
+
+
+
+
+
