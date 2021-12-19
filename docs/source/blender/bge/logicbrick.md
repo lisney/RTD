@@ -40,9 +40,15 @@ Logic Brick
 
 ![image](https://user-images.githubusercontent.com/30430227/146663749-8e17e4e6-803f-4fee-8e27-8ff3cea31ee4.png)
 
-`박스 > Logic Block > Move Forward`
+`박스 > Logic Block > Move`
 
-![image](https://user-images.githubusercontent.com/30430227/146664056-d0b6525d-1315-4fe0-8584-5d8916967e32.png)
+![image](https://user-images.githubusercontent.com/30430227/146664739-519a6428-7342-4c2d-9341-699e3fe2097a.png)
+
+`Jump Setting`
+
+![image](https://user-images.githubusercontent.com/30430227/146664751-3e9a982b-356a-4303-8716-e90fdc418708.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146664761-39208405-dc35-4c32-a1e2-a937c579c74e.png)
 
 
 
