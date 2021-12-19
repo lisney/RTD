@@ -50,6 +50,37 @@ Logic Brick
 
 ![image](https://user-images.githubusercontent.com/30430227/146664761-39208405-dc35-4c32-a1e2-a937c579c74e.png)
 
+<br>
+
+3. Collision
+
+`Scene > Camera`
+
+![image](https://user-images.githubusercontent.com/30430227/146664883-a81b91eb-6292-4b8f-bc3d-8133dd463961.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146664971-d898d983-5f25-4ea2-978f-a89c49ce4f85.png)
+![image](https://user-images.githubusercontent.com/30430227/146665070-6c5572e9-3195-43a9-8986-e978196952c7.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146664978-f17564e7-5eb5-4a1e-b0dc-7291d5f70ee9.png)
+
+`재질 충돌: Add Suzy > Add Material`
+
+![image](https://user-images.githubusercontent.com/30430227/146665111-d1ccff68-5441-4372-9326-2523e829e4f7.png)
+![image](https://user-images.githubusercontent.com/30430227/146665121-421ceb63-49dc-4274-ba7e-2b378e78d5dc.png)
+
+`Logic Brick > Add Sensors > Collision`
+
+![image](https://user-images.githubusercontent.com/30430227/146665161-ac4a4801-44b1-4d41-8f68-7e5f53379409.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146665194-ef14299e-2904-4e89-98f2-57b6f46a9289.png)
+
+`프로퍼티 충돌: Suzy > Add Game Property > 박스 Collision M/p 끄고 -> Property 명 입력`
+
+![image](https://user-images.githubusercontent.com/30430227/146665251-7d43aeb5-c717-479e-ad20-85c72cb3f1b8.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146665281-47ff9a36-bfb6-4396-a131-3f614b098726.png)
+
+
 
 
 
