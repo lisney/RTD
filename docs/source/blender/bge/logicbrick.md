@@ -181,7 +181,24 @@ Logic Brick
 
 <br>
 
-9. 
+9. HUD
+
+![image](https://user-images.githubusercontent.com/30430227/146707920-bc025a6b-bc03-4abd-9f5f-2537cc800aff.png)
+
+`Message To 대상 지움`
+
+![image](https://user-images.githubusercontent.com/30430227/146707981-f2cb64f9-e911-42a0-ad9f-9d9f8cf7d2eb.png)
+
+`New Camera 'HUDcam' > New Text 'Counter' > Node Block > 새 Colloction으로 이동`
+
+![image](https://user-images.githubusercontent.com/30430227/146711079-49b45c63-958c-4986-b282-9217a715e6e3.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146711099-77496ddc-c990-4f85-a072-9dedfd723f95.png)
+
+
+
+
+
 
 
 
