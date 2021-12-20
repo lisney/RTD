@@ -113,7 +113,7 @@ Logic Brick
 
 <br>
 
-6. 죽고 살고 - Message 유언을 남기다
+6. 죽고 살고 - Message(유언) 남기고 Spawn
 
 `카메라 세팅 - 로직 삭제, Unparent`
 
@@ -133,6 +133,55 @@ Logic Brick
 
 ![image](https://user-images.githubusercontent.com/30430227/146666390-db600ecc-a356-47e0-a4d4-ae1d8c34e7aa.png)
 
+<br>
+
+7. 슈팅 
+
+`Empty > Parent ;  양파링 생성 > Motion > New Collection`
+
+![image](https://user-images.githubusercontent.com/30430227/146696861-14806f0b-51b8-4ace-a72c-c82d74df8cf5.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146696938-f3782fa0-e764-4894-a52e-e9e7bcd2735f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146696961-4744ebb1-f191-4a31-b1ae-4b0a24ffc060.png)
+
+`Empty > Node Brick`
+
+![image](https://user-images.githubusercontent.com/30430227/146698177-a5036a2e-8c7a-4315-ba4c-15d1d51988c0.png)
+
+`Ring 수정`
+
+![image](https://user-images.githubusercontent.com/30430227/146699090-17c74c47-0252-47bd-aea2-61c8b8258890.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146699357-59aa722e-1583-4e5f-b421-75cbfea522ae.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146699384-8bca9c7e-9694-45a2-9087-1b1b4f73ac2f.png)
+
+<br>
+
+8. 동전 줍기
+
+`New Empty 'Counter' > Add GAme Property`
+
+![image](https://user-images.githubusercontent.com/30430227/146704651-4013e039-bb26-4458-bd60-98cd6e3f147d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146704723-fb9cd676-85a0-43cb-b31b-ee40bcaff50b.png)
+
+`Box > Add Game Property 'bob'`
+
+![image](https://user-images.githubusercontent.com/30430227/146704692-cbf22ad2-0dbe-42b0-bbe2-56bcb0870920.png)
+
+`수지 충돌 > 메시지`
+
+![image](https://user-images.githubusercontent.com/30430227/146704784-f13a276e-a1a5-4663-a7f8-84dbdc82871a.png)
+
+`Counter > Node Block `
+
+![image](https://user-images.githubusercontent.com/30430227/146704843-a42a0317-6fab-4588-94b8-1838cbba2652.png)
+
+<br>
+
+9. 
 
 
 
