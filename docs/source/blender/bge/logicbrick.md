@@ -203,12 +203,50 @@ Logic Brick
 
 ![image](https://user-images.githubusercontent.com/30430227/146712013-ae97a1d2-9954-44a3-b132-3186fd3457b0.png)
 
+`Health Bar; Plane > Shape Key > Keyframe`
+
+![image](https://user-images.githubusercontent.com/30430227/146714551-f8db1bdf-dee3-4be6-8b7b-5900c981b7d5.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146714562-03eaf4c6-263e-494e-a442-86ad15effd7b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146715046-3e4bde98-30b3-490a-a865-fa9d83fedbcf.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146715532-faa586b0-7611-41fb-a695-f6a072f380ce.png)
+
+`박스 충돌 > Message 'ouch'`
+
+![image](https://user-images.githubusercontent.com/30430227/146716044-54ec9641-108f-44c4-88c1-99eb4b560553.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146716078-fec9979d-7858-467a-ab16-7c64d6a0fe49.png)
+
+`Plane - 액션 명은`
+
+![image](https://user-images.githubusercontent.com/30430227/146716202-297a50ad-9de4-44b6-8c69-950fd51540c3.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146716375-8bd1c16f-83a0-4a54-8a4a-f272022b472a.png)
+
+
+
+
+
+
 
 
 
 <br>
 
-10. 
+10. 애니메이션 
+
+![image](https://user-images.githubusercontent.com/30430227/146713021-8e4af2e6-ca89-497a-a1eb-52595a5c1fa9.png)
+
+`Action Editor`
+
+![image](https://user-images.githubusercontent.com/30430227/146713067-387cc575-62aa-4f80-86f3-d0072ab13cbb.png)
+![image](https://user-images.githubusercontent.com/30430227/146713059-fad3446e-ff0f-4bf1-9a56-f0428fe1d9f3.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146713090-bb188d39-d7a2-40d3-858d-cabff22febe8.png)
+
+
 
 
 
