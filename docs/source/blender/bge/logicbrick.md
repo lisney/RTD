@@ -225,7 +225,41 @@ Logic Brick
 
 ![image](https://user-images.githubusercontent.com/30430227/146716375-8bd1c16f-83a0-4a54-8a4a-f272022b472a.png)
 
-``
+`Ammo - Empty > Add GAme Property 'ammo'`
+
+![image](https://user-images.githubusercontent.com/30430227/146762348-3fb572ba-892e-4c2e-9ae1-42daffd48d3f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146760936-8003bd73-3a0a-45e2-b289-a15210b2f822.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146762536-05493a3a-cc72-4984-843c-08082a1ef7ee.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146762464-31502195-6d37-429d-95b0-b0b46d4b16e6.png)
+
+'HUD'
+
+![image](https://user-images.githubusercontent.com/30430227/146762169-55f1d35f-0803-48f6-809c-3ba971d1eafa.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146762191-461a4098-f5c9-4dda-a785-69d5ad35caa9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146762210-f0cfadbf-c95c-4986-9ee9-f50e3e184a24.png)
+
+`부딛히면 총알 refill`
+
+![image](https://user-images.githubusercontent.com/30430227/146762759-84d84338-a282-43c8-9dc6-d27d3c683674.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146762917-4182324f-0b93-4fa0-9a6e-78212e3e12b8.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146763244-921fc639-2d29-4a39-a26b-feb1b91f32ca.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146763736-d971efa1-4689-4219-9897-40a1656b4c64.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146763763-a26ed25d-f036-48ee-8a39-49cc75a93357.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146763792-589421ea-74d5-427c-9ede-52720691062c.png)
+
+
+
+
 
 
 
