@@ -257,6 +257,32 @@ Logic Brick
 
 ![image](https://user-images.githubusercontent.com/30430227/146763792-589421ea-74d5-427c-9ede-52720691062c.png)
 
+<br>
+
+10. 도마레 
+
+`New Cam > New Text > Convert Mesh > New Collection 'PauseHUD'`
+
+![image](https://user-images.githubusercontent.com/30430227/146854475-c44f785e-5276-4de7-ac1e-6ac9cb9e8073.png)
+![image](https://user-images.githubusercontent.com/30430227/146854499-77e96500-fe7c-4dea-9518-a1459976e837.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146854770-18c4f6a9-fe30-440e-8721-a4aae0e9c553.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146855214-068ebf4e-2d72-41e9-b7d0-9a9cf89a082c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146856050-37002920-5ee8-443f-915c-509d9a5fbd15.png)
+
+`텍스트 이동; GameCamera > 컬렉션 멤버는 Hide시킨다`
+
+![image](https://user-images.githubusercontent.com/30430227/146856106-776ef8d9-06b2-4a3f-b489-24269056aeb2.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146856192-63d8a030-c708-4763-91a2-783e3ca8a443.png)
+
+
+
+
+
+
 
 
 
