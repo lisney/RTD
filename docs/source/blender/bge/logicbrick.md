@@ -272,11 +272,11 @@ Logic Brick
 
 ![image](https://user-images.githubusercontent.com/30430227/146856050-37002920-5ee8-443f-915c-509d9a5fbd15.png)
 
-`텍스트 이동; GameCamera > 컬렉션 멤버는 Hide시킨다`
+`텍스트 이동; GameCamera > Keyboard 'Tab' 체크`
 
 ![image](https://user-images.githubusercontent.com/30430227/146856106-776ef8d9-06b2-4a3f-b489-24269056aeb2.png)
 
-![image](https://user-images.githubusercontent.com/30430227/146856192-63d8a030-c708-4763-91a2-783e3ca8a443.png)
+![image](https://user-images.githubusercontent.com/30430227/146858548-e3adfd11-9481-429b-8dc3-1ea9b72549b9.png)
 
 
 
