@@ -158,6 +158,34 @@ Fomula 모델링
 
 ![image](https://user-images.githubusercontent.com/30430227/146667726-147fe000-510c-4c27-9386-f126030aaee3.png)
 
+<br>
+
+`자동 홀 패턴`
+
+![image](https://user-images.githubusercontent.com/30430227/146851077-208fa8ea-00dd-4642-b866-09b5e21c98a7.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146851113-2a630810-34b1-4f82-88d0-bbb520603fd4.png)
+
+`Linear Pattern`
+
+![image](https://user-images.githubusercontent.com/30430227/146851153-394e2b34-724c-4322-8228-246ca3020299.png)
+
+`Sketch.Constraints.sideLength - Sketch001.Constraints.offset*2`
+
+![image](https://user-images.githubusercontent.com/30430227/146851228-e1d0c635-6c82-432d-b16c-fc2d4401f234.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146851420-644afd11-7665-4ae7-bf85-98b1f60184c3.png)
+
+`Sketch.Constraints.sideLength/25`
+
+![image](https://user-images.githubusercontent.com/30430227/146851530-d54722b7-7f66-4b1d-bfa7-9d1075621b70.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146851616-ce7de1d3-37ba-4662-bcdf-76b99bb90673.png)
+
+`Fillet`
+
+
+
 
 
 
