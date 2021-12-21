@@ -184,6 +184,12 @@ Fomula 모델링
 
 `Fillet`
 
+![image](https://user-images.githubusercontent.com/30430227/146852309-279d4a25-b43c-4c16-b580-c75daeab66ef.png)
+
+`Parametric`
+
+![image](https://user-images.githubusercontent.com/30430227/146852337-af1e3457-6419-4242-b7f0-9b70b37e8526.png)
+
 
 
 
