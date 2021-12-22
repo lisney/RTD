@@ -278,6 +278,84 @@ Logic Brick
 
 ![image](https://user-images.githubusercontent.com/30430227/146858548-e3adfd11-9481-429b-8dc3-1ea9b72549b9.png)
 
+<br>
+
+11. 랜덤 
+
+![image](https://user-images.githubusercontent.com/30430227/146917900-61371ccc-ae72-445b-8f20-f4bcf9a3bf0b.png)
+
+`Add Cone(Spawn 용) > Add Game Property 'fred' > `
+
+![image](https://user-images.githubusercontent.com/30430227/146916260-e2793be0-8302-4e7c-8c2e-e72e65e4e547.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146916287-a9784fc3-f271-4574-893c-7c7c1fe72ea9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146916767-22debbd9-acae-40b2-ac80-8329edfb2541.png)
+
+`Add Cube > Add Game Property(충돌용 이름)> New Collection`
+
+![image](https://user-images.githubusercontent.com/30430227/146916827-aaf6b1f4-fb93-414a-9010-c86de87b225d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146917455-4ea05ecc-b849-4d14-a2f0-58e38ed336d3.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146916953-9efcf2eb-bb6b-42d9-a8e5-7cf2f2bd6d9e.png)
+
+`Cone`
+
+![image](https://user-images.githubusercontent.com/30430227/146917585-648deb0d-b6bb-4d39-ac9e-027dad1c1d90.png)
+
+`배치 > 각 콘마다 Random Seed 다르게`
+
+![image](https://user-images.githubusercontent.com/30430227/146917698-aae020b8-c47b-4648-9506-7b1219470b22.png)
+
+<br>
+
+12. 텍스트 필드
+
+`입력`
+
+![image](https://user-images.githubusercontent.com/30430227/147025232-883c9743-559b-4116-ad57-03b30bb079ed.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147025265-5f49fa80-aef4-45e5-ad0a-8af98e93bdc7.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147025277-e56ffd92-d584-48cf-a00d-064fb52a0aed.png)
+
+`텍스트 박스`
+
+![image](https://user-images.githubusercontent.com/30430227/147025656-8daca19a-9a10-4937-8bc8-7ead81a24c81.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147025738-0ccec785-5876-4e5b-9ed0-0c69f158897e.png)
+
+`카메라 > 입력 수정`
+
+![image](https://user-images.githubusercontent.com/30430227/147026110-95b1f803-3d06-471d-8879-82a8671629dc.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147025835-40386520-25f1-44a2-abf8-0ae811d1940f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147026045-5ec28cf0-525b-4834-9c55-628563c3409e.png)
+
+`Enter 버튼`
+
+![image](https://user-images.githubusercontent.com/30430227/147026403-a03f253c-734b-4959-9dea-84e9e55d310c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147026426-01836e5a-7961-44fe-b820-26b1dfb02f4b.png)
+
+`입력 내용 비교`
+
+![image](https://user-images.githubusercontent.com/30430227/147027109-ce9ab01e-a52b-4a31-a4fe-dd5a712f2fe0.png)
+
+`추가 Placehold > 기존 텍스트 내용만 지운다음 그 위치에 텍스트`
+
+![image](https://user-images.githubusercontent.com/30430227/147027515-0619989d-311d-45a0-9707-b3b0383375e5.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147027723-42341d92-2541-4dae-b4bf-3333df022282.png)
+
+
+
+
+
+
+
 
 
 
