@@ -351,29 +351,11 @@ Logic Brick
 ![image](https://user-images.githubusercontent.com/30430227/147027723-42341d92-2541-4dae-b4bf-3333df022282.png)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <br>
 
-10. 애니메이션 
+13. 팁
+
+`애니메이션 `
 
 ![image](https://user-images.githubusercontent.com/30430227/146713021-8e4af2e6-ca89-497a-a1eb-52595a5c1fa9.png)
 
@@ -384,23 +366,11 @@ Logic Brick
 
 ![image](https://user-images.githubusercontent.com/30430227/146713090-bb188d39-d7a2-40d3-858d-cabff22febe8.png)
 
-
-
-
-
-
-
-
-55. Camera Targets
-
-`Track 메뉴 > 카메라, 대상 선택 후`
-
-![image](https://user-images.githubusercontent.com/30430227/146665938-eb64bd99-026b-4d27-80bd-7dc46ac06dde.png)
-
 <br>
 
-7. 
+`Camera Targets > Track 메뉴 > 카메라, 대상 선택 후`
 
+![image](https://user-images.githubusercontent.com/30430227/146665938-eb64bd99-026b-4d27-80bd-7dc46ac06dde.png)
 
 
 
