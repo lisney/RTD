@@ -133,5 +133,18 @@ Text Rotate
 
 ![image](https://user-images.githubusercontent.com/30430227/145158356-e54e0273-0a4d-4ccb-b965-65bf5087b55c.png)
 
+<br>
+
+염주 
+----
+
+![image](https://user-images.githubusercontent.com/30430227/147225522-19ed58fe-fbb9-4acc-a573-8bfb5872973f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147225721-cf94602b-44af-4524-aa54-24e21d9d6e38.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147225799-8db24597-9682-4b9a-8817-f7828a831f83.png)
+
+
+
 
 
