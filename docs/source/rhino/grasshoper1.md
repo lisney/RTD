@@ -62,4 +62,21 @@ Grasshopper 1
 랜덤 커브 
 ----------
 
+![image](https://user-images.githubusercontent.com/30430227/147297114-39ba15eb-8bca-4e3f-b03b-74e1013c4d27.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147297162-ac1f841b-de95-4ee2-83fe-31c2d9d9d5e6.png)
+
+`그룹 쉐이프 바꾸기`
+
+![image](https://user-images.githubusercontent.com/30430227/147297194-78383663-ec6e-4ccb-a334-7c8ccd9266a1.png)
+
+<br>
+
+무지개 
+------
+
+![image](https://user-images.githubusercontent.com/30430227/147298514-0573aefd-754d-48de-916e-7dd032604601.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147298644-272810f6-46c7-45ef-827a-6fc7b6de6f99.png)
+
 
