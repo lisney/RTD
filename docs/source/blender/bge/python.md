@@ -139,6 +139,32 @@ def rotation(cont):
 
 6. 키보드 
 
+`Reflection Plane/CubeMap > Bake - CubeMap은 삭제해도 되더라`
+
+![image](https://user-images.githubusercontent.com/30430227/147197170-2fb6128c-d408-459c-a098-f16ee9148828.png)
+
+```
+from bge import logic, events
+
+keyboard = logic.keyboard
+
+def function(cont):
+    own = cont.owner
+    
+    if key_space(events.SPACEKEY):
+        own.applyForce([0,0,20], False)
+        
+    if key_w(events.WKEY):
+        own.applyForce([0,0,200], True)
+    
+def key_space(key):
+    return keyboard.events[key] == logic.KX_INPUT_ACTIVE # 누르고 있는 동안
+
+def key_w(key):
+    return keyboard.events[key] == logic.KX_INPUT_JUST_ACTIVATED # 한 번에 한 번
+```
+
+![image](https://user-images.githubusercontent.com/30430227/147197221-ee5852d0-b42f-4dd1-9998-ca291660ab82.png)
 
 
 
