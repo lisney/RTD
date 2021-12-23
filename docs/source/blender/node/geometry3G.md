@@ -140,6 +140,8 @@ Text Rotate
 
 ![image](https://user-images.githubusercontent.com/30430227/147225522-19ed58fe-fbb9-4acc-a573-8bfb5872973f.png)
 
+`Random Per Island - Cycles에서만 작동한다(Realize Instances 필요)`
+
 ![image](https://user-images.githubusercontent.com/30430227/147225721-cf94602b-44af-4524-aa54-24e21d9d6e38.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/147225799-8db24597-9682-4b9a-8817-f7828a831f83.png)
