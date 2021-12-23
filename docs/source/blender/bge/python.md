@@ -166,6 +166,82 @@ def key_w(key):
 
 ![image](https://user-images.githubusercontent.com/30430227/147197221-ee5852d0-b42f-4dd1-9998-ca291660ab82.png)
 
+<br>
+
+7. 구슬이 몇 개 있는지 거리 기준으로 찾기- getDistanceTo(obj)
+
+![image](https://user-images.githubusercontent.com/30430227/147204950-11da7b31-325e-4248-9a9e-a63d71d90a59.png)
+![image](https://user-images.githubusercontent.com/30430227/147204180-70b26002-8acc-43bb-9f47-53f14aea30ab.png)
+
+`Debug Properties 체크 > Add Game Property 'items_around' - 느낌표버튼 체크해야 뷰포트에 표시된다`
+
+![image](https://user-images.githubusercontent.com/30430227/147204331-41c06e3b-426c-49cc-a95d-f8c259337ea2.png)
+![image](https://user-images.githubusercontent.com/30430227/147204208-36979f33-40de-4a45-a59b-9c4f13e07784.png)
+
+```
+추가 함수
+def count_close_objects(obj, property, distance):
+    scene = obj.scene
+    count = 0
+    for o in scene.objects:
+        dist = obj.getDistanceTo(o)
+        if dist <= distance and property in o: # property는 대상의 Game Property다
+            count += 1
+    return count
+```
+
+`구슬 > Add Game Property > function 함수 수정`
+
+![image](https://user-images.githubusercontent.com/30430227/147204646-0228f3f3-225c-4d18-868e-05cfc31b79cc.png)
+
+```
+def function(cont):
+    own = cont.owner
+    
+    own['items_around'] = count_close_objects(own, 'item', 4) # 이 라인 추가 
+    ...
+  
+```
+
+<br>
+
+8. 총 빼고/넣기 - 애니메이션
+
+![image](https://user-images.githubusercontent.com/30430227/147207138-a93177ac-ba36-4f97-a2dc-6703e5eb2961.png)
+
+`Action Editor > Physics: No Collision> Parent(기존 큐브)`
+
+![image](https://user-images.githubusercontent.com/30430227/147207180-384b026c-4ccd-44cb-9e49-3eb8c410ee4a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147207578-e32adeef-2d00-4073-8187-c41a510333a4.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147208952-43968405-cd24-476f-bc96-35f36d44255a.png)
+
+
+```
+def draw_gun(obj, gunname, length, input):
+    scene = obj.scene
+    gun = scene.objects[gunname]
+    if input:
+        if gun['draw'] < length:
+            gun['draw'] += 1
+    else:
+        if gun['draw'] > 0:
+            gun['draw'] -= 1
+            
+function함수 수정
+    aim = key_space(events.SPACEKEY)    
+    draw_gun(own, 'Gun', 30, aim) #스페이스 누르고 있는 동안 +, 손 떼면 -(역)애니메이션
+```
+
+![image](https://user-images.githubusercontent.com/30430227/147210111-d43593ba-32cb-433f-b0d4-47fcf99c2773.png)
+
+
+
+
+
+
+
 
 
 
