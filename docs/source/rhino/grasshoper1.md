@@ -150,6 +150,32 @@ Grasshopper 1
 
 <br>
 
+디스턴스 
+--------
+
+![image](https://user-images.githubusercontent.com/30430227/147347231-78867da2-af3d-4f5b-8fd1-8e7c09862373.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147347276-23bf70d4-bb94-41dc-a09d-4837c2789b50.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147347376-b69124ea-ecf0-48aa-96be-22401a38f713.png)
+![image](https://user-images.githubusercontent.com/30430227/147347433-5a5b466e-a784-40cb-adf1-a9414399706d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147347539-4ee4de4a-da60-4c77-950e-adbc58ea2be1.png)
+![image](https://user-images.githubusercontent.com/30430227/147347575-53f6132c-b34b-41f9-8cec-b4ebd3b5f3c4.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147348199-01164e69-dc21-4640-b190-6841e7a0cb9c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147348231-cac704ca-1f5e-486e-a3af-32c2b681c258.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147348512-b2d0601f-edb9-4380-9d0e-f4794388f670.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147348559-663683d9-6346-4d4e-b30d-a6d9b8d7a524.png)
+
+<br>
+
+
 도메인 
 -------
 
