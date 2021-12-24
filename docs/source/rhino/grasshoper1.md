@@ -50,6 +50,31 @@ Grasshopper 1
 
 <br>
 
+벡터
+-----
+
+
+
+
+<br>
+
+도메인 
+-------
+
+![image](https://user-images.githubusercontent.com/30430227/147309244-f0b7bc33-adae-4dad-aaf9-aff9c5dd9d99.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147309687-3c63105f-606c-40e4-bf5a-d45dc6b88883.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147309882-c32ca24d-60ec-4304-ba70-da69bcec650a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147310386-8566d904-2159-46cb-8e1e-874d4259aca9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147310413-db103cdb-4866-425d-8972-e1a1d4c613f7.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147310611-dac6ac56-5ae1-4bd6-adec-b1f9fdc6602e.png)
+
+<br>
+
 로프트 
 -------
 
@@ -94,7 +119,7 @@ Grasshopper 1
 
 ![image](https://user-images.githubusercontent.com/30430227/147305865-99e191cc-cb5c-429c-8de7-b5c4ed3f0f28.png)
 
-![image](https://user-images.githubusercontent.com/30430227/147305889-5e1f6030-2a73-4ab7-8c92-bb38fbca0237.png)
+![image](https://user-images.githubusercontent.com/30430227/147306670-e59d82b2-1082-471e-8850-120e3195f243.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/147305956-4595ba97-f53e-451a-b8ea-c066847b9b20.png)
 
@@ -107,6 +132,78 @@ Grasshopper 1
 ![image](https://user-images.githubusercontent.com/30430227/147306511-0053fe9a-35a6-47a7-a281-e1771f01074d.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/147306490-08c9c0f1-988a-461f-adbc-96e9f1afcf3d.png)
+
+`랜덤 오프셋`
+
+![image](https://user-images.githubusercontent.com/30430227/147308467-1d2dd2aa-f68c-4b34-a786-1890c0583f03.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147308600-52649823-2e8e-4725-b20f-98445d58340d.png)
+
+`두께 - Flatten 하고 베이크하면 분리된다`
+
+![image](https://user-images.githubusercontent.com/30430227/147306979-255f2169-5d3d-4267-9c8f-1052d9e66b03.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147306957-a5e30aac-6c69-4e61-abd4-af0fde57c218.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147307233-4e5e3040-9f43-424c-a2af-bdcc41096eda.png)
+
+`파이썬`
+
+![image](https://user-images.githubusercontent.com/30430227/147308969-6c76eba5-e7b9-4474-afc2-c259f8cd5a4a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147308787-56bb241f-39b0-4a65-8813-247c578af1ba.png)
+
+`UV`
+
+![image](https://user-images.githubusercontent.com/30430227/147314883-b6df6fa3-bd29-4e45-a9bb-e906170c01d9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147314864-3a180125-436f-4357-be4c-ca57242dc37c.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147315227-e6e0ccb5-b72b-459d-99e4-0b13b5a736be.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147315233-0e4b8f26-7c0c-461b-8ed4-1b8a683ac379.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147315401-905dc4f5-0484-4c5b-b20c-b9df8b126acc.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147315410-853e335c-f2b2-4ee8-89eb-e644d8fec621.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147315487-ed4027b8-6dac-4328-99d1-fef30f666968.png)
+![image](https://user-images.githubusercontent.com/30430227/147315502-a7a5d72b-171f-426d-8084-6c5194869ad2.png)
+
+<br>
+
+`대각선`
+
+![image](https://user-images.githubusercontent.com/30430227/147316500-6bd86425-6b2d-43ec-94a9-ca085b0ebfa5.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147316590-c77155dc-ca82-46ca-81e9-28843c163d2b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147316691-2ddd5696-3c78-4818-8b1a-ace366699854.png)
+![image](https://user-images.githubusercontent.com/30430227/147316762-bfcb8c29-2fed-4acc-a80f-a958a4f69cb1.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147317111-a2291c62-0f67-42d6-a950-5e69d30c7e37.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147317233-f0c86d24-1440-4f61-9188-1508f4b544d3.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147317798-27a13c39-1d67-4323-9544-e59a1889ca2b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147317838-18b813b2-06a2-4b5a-b745-f8d1f59dfb70.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147318243-cc121be1-b528-406a-86d4-280ab7cb893f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147318487-ade34fcf-d25c-4d94-a6fd-90af94037bc8.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147320589-2b099408-565a-4e01-adcc-6337f6aa6da8.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147320686-9d586538-74fb-4dad-a999-b8eb75fcfc46.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147320716-c74d5bae-4329-471b-8fbd-43cb17bbbd87.png)
 
 
 
