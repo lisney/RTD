@@ -53,8 +53,57 @@ Grasshopper 1
 벡터
 -----
 
+![image](https://user-images.githubusercontent.com/30430227/147324947-0167bd88-c598-46a6-891b-ee5d559c9a21.png)
 
+![image](https://user-images.githubusercontent.com/30430227/147324979-2b2686ec-531f-412c-8859-b2777d250f89.png)
 
+![image](https://user-images.githubusercontent.com/30430227/147325397-4278957f-7538-48b8-b815-a76301d1968d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147325411-4103aab9-e508-4d72-8f96-9d06b57cc4e9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147325463-4ff94c28-9dc7-44f3-9099-86208e83d188.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147326349-6666e625-3fcf-447d-a2f1-bbbcf4ae3162.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147326361-aee2cf64-39cb-497a-a945-69314802a842.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147326961-d981a669-49e6-4db3-9934-5166c82421a8.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147326970-28ab3b68-35a1-47b6-a194-1afc8f9a1fa9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147327315-fdc9f755-2334-40f4-bb40-12ccfb2c7d31.png)
+
+<br>
+
+트리구조 이해 
+------------
+
+`Graft: 방 들어가, Flatten: 방 나와`
+
+![image](https://user-images.githubusercontent.com/30430227/147328602-483f6309-ec4a-4c10-b338-b23bfdc91f91.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147328802-e83c7c32-6b27-4da8-8def-f2106d7fd9a1.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147328924-77415f39-cfd7-4d1f-962c-056db9a48182.png)
+![image](https://user-images.githubusercontent.com/30430227/147328947-e1f0ff01-ec39-49f9-bd69-22b4fd7609f4.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147329981-d8c358ad-7867-4452-9677-c3dd2bfa5809.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147329952-a73d324f-fdf1-4b8d-973e-97c88b15156f.png)
+
+`ParameterViewer = TreeStatistics`
+
+![image](https://user-images.githubusercontent.com/30430227/147330117-6a776612-218e-4e39-846e-67079254b3dd.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147331377-9a2706f8-3c51-4f83-87a8-dc3915fb2d7e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147331654-2af7c00f-f73e-44ec-a67f-b193ae9b0dc6.png)
 
 <br>
 
