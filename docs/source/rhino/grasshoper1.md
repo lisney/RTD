@@ -86,10 +86,14 @@ Grasshopper 1
 
 ![image](https://user-images.githubusercontent.com/30430227/147328802-e83c7c32-6b27-4da8-8def-f2106d7fd9a1.png)
 
+`각 가지(방)마다 인덱싱(잡아 냄)`
+
 ![image](https://user-images.githubusercontent.com/30430227/147328924-77415f39-cfd7-4d1f-962c-056db9a48182.png)
 ![image](https://user-images.githubusercontent.com/30430227/147328947-e1f0ff01-ec39-49f9-bd69-22b4fd7609f4.png)
 
 <br>
+
+`가지를 인덱싱하기`
 
 ![image](https://user-images.githubusercontent.com/30430227/147329981-d8c358ad-7867-4452-9677-c3dd2bfa5809.png)
 
@@ -104,6 +108,45 @@ Grasshopper 1
 ![image](https://user-images.githubusercontent.com/30430227/147331377-9a2706f8-3c51-4f83-87a8-dc3915fb2d7e.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/147331654-2af7c00f-f73e-44ec-a67f-b193ae9b0dc6.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147332712-d92eda30-7576-4742-a6d3-45a938fdeeb1.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147332776-65e0830f-c680-4388-9f5e-61ac5549237c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147332792-91619431-bc73-4ecd-8f23-6ac551e0bcee.png)
+![image](https://user-images.githubusercontent.com/30430227/147332817-023b7287-cea8-481f-89ab-79b93dc28145.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147332939-e647e5ef-acb1-41b6-8c82-d2fc01713463.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147334093-b09fd703-f295-47ba-a5e3-6e9d628a2fd6.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147334148-816a1db5-266b-4b81-be07-36db3531d39d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147334478-f872711c-aba6-4979-85c4-016e30712e41.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147334509-1181e700-b25f-4124-9f68-ddf16a619217.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147335467-38c664da-d1f1-4f67-92bd-de105ab603b9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147335566-7b554e7e-1e81-4053-afad-e25d4d23d670.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147335943-a2141397-79dc-48e2-90c2-dc3c836add22.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147335922-76990fbd-e55b-4f81-ba16-e3cad5c27ae2.png)
+
+`Attract Point`
+
+![image](https://user-images.githubusercontent.com/30430227/147336235-7892d3f7-7cd6-415f-a715-8501dcb72039.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147335970-20a600a7-53dd-4a4b-b6c8-e7f17dd6ab71.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147336199-522089f5-fe50-4bdc-a616-fef28c53ddae.png)
 
 <br>
 
