@@ -38,13 +38,15 @@ Grasshopper 1
 
 ![image](https://user-images.githubusercontent.com/30430227/147296153-2b604d8e-8b2a-4a3b-8115-359e2d0319d8.png)
 
-15. 복사 - 노드선택 >Alt-드랙
+15. 복사 - 노드선택 >Alt 키 누름
 16. 퀵이미지에디터 Ctrl-Shift-q
 
 15. Preview 토글 Ctrl-Q
 16. 노드 연결
 
 `추가 Shift-드랙, 빼기 Ctrl-연결선따라드랙, `
+
+17. Panel - 더블클릭 " 또는 //
 
 <br>
 
@@ -78,5 +80,34 @@ Grasshopper 1
 ![image](https://user-images.githubusercontent.com/30430227/147298514-0573aefd-754d-48de-916e-7dd032604601.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/147298644-272810f6-46c7-45ef-827a-6fc7b6de6f99.png)
+
+<br>
+
+서피스
+----------
+
+![image](https://user-images.githubusercontent.com/30430227/147305305-26b78186-5153-40f8-a15d-ecd50a6161ce.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147305377-c5e1ccb7-d712-4a21-bf20-b2c9ce2b66b2.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147305865-99e191cc-cb5c-429c-8de7-b5c4ed3f0f28.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147305889-5e1f6030-2a73-4ab7-8c92-bb38fbca0237.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147305956-4595ba97-f53e-451a-b8ea-c066847b9b20.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147305988-6744d9a3-114a-43dd-9d2e-5469e4feb944.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147306551-744bca36-e398-4c64-af7f-2270aeb608cd.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147306511-0053fe9a-35a6-47a7-a281-e1771f01074d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147306490-08c9c0f1-988a-461f-adbc-96e9f1afcf3d.png)
+
+
 
 
