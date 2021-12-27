@@ -182,6 +182,11 @@ Sort
 
 ![image](https://user-images.githubusercontent.com/30430227/147331654-2af7c00f-f73e-44ec-a67f-b193ae9b0dc6.png)
 
+`선택과 제외`
+
+
+
+
 <br>
 
 ![image](https://user-images.githubusercontent.com/30430227/147332712-d92eda30-7576-4742-a6d3-45a938fdeeb1.png)
@@ -205,6 +210,8 @@ Sort
 
 <br>
 
+`입체 패턴`
+
 ![image](https://user-images.githubusercontent.com/30430227/147335467-38c664da-d1f1-4f67-92bd-de105ab603b9.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/147335566-7b554e7e-1e81-4053-afad-e25d4d23d670.png)
@@ -222,6 +229,11 @@ Sort
 ![image](https://user-images.githubusercontent.com/30430227/147336199-522089f5-fe50-4bdc-a616-fef28c53ddae.png)
 
 <br>
+
+![image](https://user-images.githubusercontent.com/30430227/147427154-0835ffff-3592-4587-86ea-b317234899fa.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147427211-261b01ff-1710-4fb5-88c9-20694fd05aab.png)
+
 
 디스턴스 
 --------
@@ -266,6 +278,13 @@ Sort
 
 <br>
 
+![image](https://user-images.githubusercontent.com/30430227/147426406-01ebb7c1-719f-467c-8a63-89dbdc59be5e.png)
+![image](https://user-images.githubusercontent.com/30430227/147426546-ff15a13e-ad19-413e-a5b8-26add252294c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147426591-067904fb-79d9-46e0-a7a4-664ed3609772.png)
+
+<br>
+
 로프트 
 -------
 
@@ -274,6 +293,12 @@ Sort
 `Group(Ctrl-G) > Lable`
 
 ![image](https://user-images.githubusercontent.com/30430227/147294276-fb4b7915-f407-4c7f-900b-5ad061e8d7d1.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147426180-7844a554-f114-4021-adbd-dfe595a7345f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147426196-607f6eb8-18d9-4154-9048-40408085cbe0.png)
 
 <br>
 
