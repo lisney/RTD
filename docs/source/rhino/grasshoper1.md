@@ -1,6 +1,12 @@
 Grasshopper 1
 =================
 
+`bifocals 설치위치 > 아이콘 안뜰 시 파일 속성에서 허용 체크`
+
+![image](https://user-images.githubusercontent.com/30430227/147423543-06b181b9-ba3a-46de-919d-d345ea7b31b4.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147423575-b959e846-88dd-4f98-afb2-e0d18727b334.png)
+
 1. 노드 위치찾기 Ctrl-Alt-클릭
 2. 노드 연결 옮기기 Ctrl-Shift-드랙
 3. 여러 노드를 선택하면 정렬 아이콘 활성
@@ -80,9 +86,67 @@ Grasshopper 1
 데이터 매칭 
 ---------
 
+![image](https://user-images.githubusercontent.com/30430227/147423759-25f4c4c5-14a5-4b3e-b6d8-a51dd113e00f.png)
 
+![image](https://user-images.githubusercontent.com/30430227/147423765-61f46f2f-7c6f-42ea-afd2-19a8cefddff4.png)
 
+![image](https://user-images.githubusercontent.com/30430227/147423802-bec362f2-7e1e-450e-828d-170a82cb0738.png)
 
+![image](https://user-images.githubusercontent.com/30430227/147423811-cdbe05b7-2ddc-4069-bdaf-3c76dcb16daa.png)
+![image](https://user-images.githubusercontent.com/30430227/147423835-982d98bb-00a1-4c75-bb85-69ebfeeaa4b3.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147424011-82a11690-f5e6-47eb-9e42-73a69ade6f79.png)
+
+`Shortest List - 데이터가 작은 쪽에 맞춤`
+
+![image](https://user-images.githubusercontent.com/30430227/147423932-c34d14e9-0c5b-45fc-9825-5e80e145b164.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147423924-9f1ae4b1-803b-4eef-b044-fcd49dd3c944.png)
+
+<br>
+
+Sort
+-----
+
+![image](https://user-images.githubusercontent.com/30430227/147424150-705eceb0-00f2-44aa-8a72-75ebc2b764e9.png)
+![image](https://user-images.githubusercontent.com/30430227/147424155-76a9b321-1c42-4cdd-b733-b78ecc55fbc8.png)
+
+`가장 큰 원 선택하기`
+
+![image](https://user-images.githubusercontent.com/30430227/147424367-2ef55956-23e7-4caf-9cfd-e7c8e0825caa.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147424377-382c191f-882a-459e-bfdd-0ba2a279729b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147424517-e3d79f1c-a0aa-476c-a176-e7f938e15be0.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147424533-5a75ee02-a76e-405f-9755-b6e06325340d.png)
+
+`Sort Along Curve`
+
+![image](https://user-images.githubusercontent.com/30430227/147424800-ff0d65f8-f818-42dc-a7fe-62793dba955e.png)
+![image](https://user-images.githubusercontent.com/30430227/147424806-cd673776-6998-4a7b-88b2-c876cb4f59b3.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147424818-b154c744-01bd-4875-a295-328ad6f06377.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147424954-4425bfab-5fbc-4761-8fd7-18b18c4c515a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147424958-64ed24f2-7ad7-475e-861a-71a993c3db25.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147425011-deadee04-68f0-459d-9abc-35f88849b94b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147425016-fcdcc557-98f6-440d-ad69-ff8951a4c929.png)
+
+`Sort Along Curve 2`
+
+![image](https://user-images.githubusercontent.com/30430227/147425206-19d19cd6-919e-45dc-bf1e-4242a8483457.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147425218-9d84e49c-97da-4c93-bd1b-2f796bac1db1.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147425387-94366b3f-4314-43c4-a52b-656aeff304c9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147425398-38a9ecb7-4121-4c9e-9db7-5ea18b33c047.png)
 
 <br>
 
