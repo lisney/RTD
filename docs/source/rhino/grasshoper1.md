@@ -56,6 +56,41 @@ Grasshopper 1
 
 <br>
 
+파라미터 
+--------
+
+`커브 점으로 자르기 - Shatter`
+
+![image](https://user-images.githubusercontent.com/30430227/147432859-db4d6db9-4ea4-48fb-8b41-48e4f78cbf98.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147432967-3e05eae5-37eb-4a20-bfd0-8554c03ebedf.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147433033-782f5b27-f2b4-4d78-be19-dcaf0d400a08.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147432872-8a3fea8e-36b9-4588-8ebe-7796cb38a130.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147433222-7250ec78-97a9-4a05-ab65-55fbfb58964f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147433260-cec93d07-b098-436a-ad8b-7557fa046c42.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147435734-08e58795-98b2-4437-8d35-db1c96f841c2.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147435802-3892a001-8538-44ba-b1ad-d1efd5f3db20.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147435756-cac1389d-d1cd-4e7e-a5a6-cf9a38c7e6c5.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147436139-1dae38ff-dde8-4945-aedc-50ed9e96c49e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147436190-70c9aa7b-a436-4c68-8735-70b9d88aecc0.png)
+
+<br>
+
 벡터
 -----
 
@@ -150,6 +185,39 @@ Sort
 
 <br>
 
+`리스트 트림`
+
+![image](https://user-images.githubusercontent.com/30430227/147436379-658d67d5-e096-4347-90cb-7205cae26883.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147436532-2df58ae4-9b08-4b97-a629-bc2c39e7b77f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147436497-023341ca-1599-457f-8c81-51751fe1858f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147436606-cf150e65-eaed-4011-8863-41b220dab5e7.png)
+
+<br>
+
+`Split List`
+
+![image](https://user-images.githubusercontent.com/30430227/147436692-07925c4f-f512-40da-a71e-0a99507bfcee.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147436700-510d2f5f-c84d-4b4c-8357-bb4d6dce2c34.png)
+
+<br>
+
+`Explode Tree - 방 분리`
+
+![image](https://user-images.githubusercontent.com/30430227/147437077-5613eaaf-a18b-4699-b5d3-40fd7bd47e32.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147437452-e8145bb1-d6ae-42e9-852e-91d609f89164.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147437504-4670a374-3da1-4859-8370-f73476187960.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147437529-9073d574-46be-410e-ab7d-505bf8fa6dad.png)
+![image](https://user-images.githubusercontent.com/30430227/147437542-7015c37f-f6a2-47ed-9feb-1473521af4a2.png)
+
+<br>
+
 트리구조 이해 
 ------------
 
@@ -184,8 +252,50 @@ Sort
 
 `선택과 제외`
 
+![image](https://user-images.githubusercontent.com/30430227/147428036-be423f6e-b571-4ced-a57a-b890d0eb4baa.png)
 
+![image](https://user-images.githubusercontent.com/30430227/147428044-78c4cef9-5400-400d-9cc5-e631fbd837b2.png)
 
+![image](https://user-images.githubusercontent.com/30430227/147428196-78de0f33-1bbb-48c1-a0c5-90a8bb8485d1.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147428208-3fc58df1-9e4c-44af-ad3d-0d4e8b9b2e7c.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147428289-6004c81f-3b71-47f7-9507-84d608a094f1.png)
+![image](https://user-images.githubusercontent.com/30430227/147428273-8bbfe77a-daf0-4358-86d3-2939d6c8f5f8.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147428428-903bab16-4e73-4c8a-9cdd-f82f87f5748a.png)
+
+<br>
+
+`Partition List`
+
+![image](https://user-images.githubusercontent.com/30430227/147432015-d979bdb8-fde2-4560-9529-df0d5df22672.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147432032-89db46ba-d3f6-4f04-8b9a-15751d782839.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147432291-12a02ae9-e9c3-4ecb-920a-fa36b84546ee.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147432302-33da84a3-a399-46f2-9409-c49636d64fae.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147432324-b639ec93-47a6-4e43-b0f9-f5dc8841b73a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147432342-16352d65-6b7f-4d0a-8081-fcca3a997ef1.png)
+
+<br>
+
+`Random Split List(LunchBox)`
+
+![image](https://user-images.githubusercontent.com/30430227/147429592-e34b41fc-eab3-4de2-aca3-c6d6f0d39636.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147429616-da2e1b58-984c-477c-9756-a54e504cc1be.png)
 
 <br>
 
