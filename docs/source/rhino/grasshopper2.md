@@ -92,6 +92,33 @@ Grasshopper 2
 
 ![image](https://user-images.githubusercontent.com/30430227/147530790-57234820-b66e-4f34-8466-fa6859b913e6.png)
 
+<br>
+
+6. 보로노이 시리즈 
+
+`Weaver Bird`
+
+![image](https://user-images.githubusercontent.com/30430227/147532025-309f2d59-211f-45a3-82fb-30b93eb5c987.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147532089-62f5a73c-33ee-40a2-bf1e-d99d988d9cd3.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147532937-ecc58b1c-afd9-4b9f-b0a8-c73fed5af284.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147533011-3ef0f315-564e-4588-8027-b5992ca6ed89.png)
+
+<br>
+
+`Spiral > Extrude(Ctrl-Alt-Drag) > 위 아래 스케일 조절` 
+
+![image](https://user-images.githubusercontent.com/30430227/147533612-3c4ca628-3f82-46af-8924-b3a45af179f8.png)
+
+`Surface Morph`
+
+![image](https://user-images.githubusercontent.com/30430227/147535083-29e46eab-d308-4234-a817-580ff7e56fe4.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147535198-0f187197-e24d-416d-9c9a-fbb06efbe920.png)
 
 
 
