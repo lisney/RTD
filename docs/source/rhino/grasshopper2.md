@@ -78,6 +78,22 @@ Grasshopper 2
 
 ![image](https://user-images.githubusercontent.com/30430227/147519169-f3f6b96a-8bee-4d7b-b924-b58903854111.png)
 
+<br>
+
+5. 악어 무늬 
+
+![image](https://user-images.githubusercontent.com/30430227/147530466-30a03444-b0cf-4571-b613-c7d122fa6265.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147530513-fc6f06da-2e91-4291-a6b2-9421f0e5f7e0.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147530736-5868912e-4c4a-47c7-9621-33fb47960eaf.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147530790-57234820-b66e-4f34-8466-fa6859b913e6.png)
+
+
+
 
 
 
