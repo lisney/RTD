@@ -120,6 +120,28 @@ Grasshopper 2
 
 ![image](https://user-images.githubusercontent.com/30430227/147535198-0f187197-e24d-416d-9c9a-fbb06efbe920.png)
 
+<br>
+
+7. 마름모 표면
+
+`외벽, 내벽, 층`
+
+![image](https://user-images.githubusercontent.com/30430227/147551384-0f2a5b48-5b3b-4e0d-a32b-af791bbc79b7.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147551548-74968ec0-c569-4fd2-ac49-cd9ee3fffba9.png)
+
+`마름모`
+
+![image](https://user-images.githubusercontent.com/30430227/147551948-f5ef567d-bf97-4f3b-9ea0-c5cd14e3a165.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147551805-96bc2c36-7bea-4c7e-8e8b-bcc086f3f83e.png)
+
+
+
+
+
+
+
 
 
 
