@@ -46,6 +46,40 @@ Grasshopper 2
 
 ![image](https://user-images.githubusercontent.com/30430227/147470726-e127e6b4-bf4e-4e71-91d3-526cfb99417e.png)
 
+<br>
+
+4. 박스 몰프 
+
+![image](https://user-images.githubusercontent.com/30430227/147516778-a1783c98-4d0a-4d75-81b9-aaeac217c80e.png)
+
+`패턴 박스`
+
+![image](https://user-images.githubusercontent.com/30430227/147516817-dbdc6119-28d0-4f47-9217-d2e3148b91e1.png)
+
+`패턴 서피스`
+
+![image](https://user-images.githubusercontent.com/30430227/147516887-4b3005b1-3307-48bf-81ac-03e02e2dc0b9.png)
+
+`SurfaceBox > Box Morph`
+
+![image](https://user-images.githubusercontent.com/30430227/147516937-c2523993-14ac-4d54-ac73-6161076544f3.png)
+
+`다른 방법 - SurfaceBox 에 바로 적용하는 방법, Plane3Points 지운다`
+
+![image](https://user-images.githubusercontent.com/30430227/147518311-6217f36e-6aab-4891-92b4-b430ea3e0f40.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147518407-ddd8c993-25c3-46b0-8c2c-e4a7adb49394.png)
+
+<br>
+
+`Loft 서피스에 바로 연결한다`
+
+![image](https://user-images.githubusercontent.com/30430227/147519129-8d6ff44d-dfdc-4579-9771-a4f254ab9652.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147519169-f3f6b96a-8bee-4d7b-b924-b58903854111.png)
+
+
+
 
 
 
