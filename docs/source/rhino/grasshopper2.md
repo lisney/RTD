@@ -140,7 +140,23 @@ Grasshopper 2
 
 <br>
 
-8. 
+8. 런치박스 심 없애기 
+
+![image](https://user-images.githubusercontent.com/30430227/147563682-3be21298-f221-449a-84a7-64de8478b041.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147563749-98a1f0db-e905-4d39-858c-07e9a6bdce27.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147563798-56f2ef92-33eb-43e9-bbc8-33ab78b6ae22.png)
+
+<br>
+
+`미완성`
+
+<br>
+
+9. 메쉬 화병
+
+
 
 
 
