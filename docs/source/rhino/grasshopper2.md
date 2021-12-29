@@ -156,6 +156,16 @@ Grasshopper 2
 
 9. 메쉬 화병
 
+![image](https://user-images.githubusercontent.com/30430227/147615948-cc68e79d-4f2f-4a2d-bd1b-b39d6ce3fade.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147615960-835a0273-612b-4d14-ad4a-5c6d0873fe2b.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147616235-ce8299e7-dd11-48c4-b4ac-9d6be5184ee3.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147616243-d9bed152-9800-4a8f-8050-e5ee52f71295.png)
+
 
 
 
