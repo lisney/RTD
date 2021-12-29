@@ -67,6 +67,32 @@ MeshEdit Tool Component
 
 ![image](https://user-images.githubusercontent.com/30430227/147631174-0d6fbb8a-af68-423f-8181-3b4ff295638e.png)
 
+<br>
+
+`Mesh`
+
+![image](https://user-images.githubusercontent.com/30430227/147631560-6bfeb944-f695-4587-b2d0-ab64cbb9fce8.png)
+![image](https://user-images.githubusercontent.com/30430227/147631547-23f7ec28-33bb-483b-9dc6-2f67e74425b4.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147631660-f227ef76-5f34-470b-8842-aa023d303c01.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147632686-e28c17f3-a6e5-48dc-92ed-1f03b410d23d.png)
+
+<br>
+
+`wbJoin`
+
+![image](https://user-images.githubusercontent.com/30430227/147631729-0d94527d-9c8a-43c5-897e-da9cf4a91e2a.png)
+![image](https://user-images.githubusercontent.com/30430227/147631745-35b69359-2516-44bd-bbf5-835ee3b3ea53.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147633197-31e10ce3-76be-46bc-95de-ead812cdd240.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147633236-6149ed14-c2c4-49f6-85cb-827ea89e6b99.png)
+
 
 
 
