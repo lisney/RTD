@@ -1,6 +1,32 @@
 Rhino 1
 ==============
 
+서피스 위로 
+-----------
+
+`면 분석 - 면의 시작 위치`
+
+![image](https://user-images.githubusercontent.com/30430227/147724229-e61e6507-b724-4ad4-a1e1-00bb0a625baf.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147724255-bb4a6d39-ae2f-44b6-9acd-39735b6a8c74.png)
+
+`Unroll > SoftEditSrf > Surface Along Surface`
+
+![image](https://user-images.githubusercontent.com/30430227/147724500-beaecd35-9c13-4ed7-8b05-6216b5600d52.png)
+![image](https://user-images.githubusercontent.com/30430227/147724514-85b79281-8cb7-4735-970b-beebf978e676.png)
+
+<br>
+
+`Unroll이 안되는 형태는 스패싱 or UV Curve > Surface Along Surface`
+
+![image](https://user-images.githubusercontent.com/30430227/147724667-2e7360ab-939c-4fb6-b5e0-a1369bd81d27.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147724763-1d04f521-5dd3-4268-9901-025e0cd990cb.png)
+
+
+
+
+
 자동차 
 --------
 
@@ -64,6 +90,8 @@ Rhino 1
 ![image](https://user-images.githubusercontent.com/30430227/147723594-af161cd5-055d-49e5-8192-fe43bb84e8c7.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/147723675-4a5c502d-4ba3-4ae0-b519-21e2b1ea47d6.png)
+
+<br>
 
 
 
