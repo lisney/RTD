@@ -1,8 +1,15 @@
 Rhino 1
 ==============
 
-서피스 위로 
------------
+1. Button Editor 
+
+`Shift 홀드 버튼 위 > 마우스 오른 클릭`
+
+![image](https://user-images.githubusercontent.com/30430227/147726228-97882e7e-a1bc-4f16-add5-a551768afbf4.png)
+
+<br>
+
+2. 서피스 위로 
 
 `면 분석 - 면의 시작 위치`
 
@@ -25,8 +32,7 @@ Rhino 1
 
 <br>
 
-연속성 G1/G2/G3 - Position/Tangency/Curvature
---------------------
+3. 연속성 G1/G2/G3 - Position/Tangency/Curvature
 
 ![image](https://user-images.githubusercontent.com/30430227/147724969-3c257da3-b130-481c-99fc-69a1a483742f.png)
 
@@ -51,6 +57,132 @@ Rhino 1
 `G2, G3의 컨트롤 포인트 수`
 
 ![image](https://user-images.githubusercontent.com/30430227/147725595-1fbeb7a3-92ff-4b1d-b89c-a1273966e4d3.png)
+
+<br>
+
+4. 필렛 - Disapearing Edges
+
+`Split Planar Face > Extrude Face > Fillet `
+
+![image](https://user-images.githubusercontent.com/30430227/147726639-295b44f1-72df-4a14-99ee-88dcc4eb054f.png)
+![image](https://user-images.githubusercontent.com/30430227/147726654-3145ffc7-60e4-49d2-89da-602a364d45de.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147726685-a32c8734-bd69-4fc1-8c82-d203883f63f0.png)
+![image](https://user-images.githubusercontent.com/30430227/147726705-96001f5e-b44f-4142-bd4b-fe2812ebd7e7.png)
+![image](https://user-images.githubusercontent.com/30430227/147726719-2351cfef-7a14-4928-a04e-5c81fccf1ff0.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147726851-14e4d6ea-0419-4c45-af34-7bc7e54ecc09.png)
+
+<br>
+
+`Explode > Split(Iso Curve)`
+
+![image](https://user-images.githubusercontent.com/30430227/147726984-c9a0cf98-c5fe-4589-8c1b-f81d803045fa.png)
+![image](https://user-images.githubusercontent.com/30430227/147726992-fe003431-9674-4971-b5a2-2834e9e07bbc.png)
+
+<br>
+
+`Show Edges > Merge Edge`
+
+![image](https://user-images.githubusercontent.com/30430227/147727064-1bdd669f-af62-422d-9dd2-e329c0d40d98.png)
+![image](https://user-images.githubusercontent.com/30430227/147727120-809a2bae-6f78-4f6f-a5f6-1a620d2137c6.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147727101-72fb3496-97a9-4dc7-9b49-b4c5db4349d0.png)
+![image](https://user-images.githubusercontent.com/30430227/147727142-7fda261f-2539-48cb-81b7-a26a8c7e5e6b.png)
+
+<br>
+
+`Blend PerPendicular - 두 면을 잇는 커브를 그림`
+
+![image](https://user-images.githubusercontent.com/30430227/147727187-5ea5009d-4600-4195-9c71-81bbb24176ca.png)
+![image](https://user-images.githubusercontent.com/30430227/147727237-3c3ad5a9-1683-4a2f-8f42-0fcdfbbaf24d.png)
+
+<br>
+
+`Network Surface > 뷰 고정 > Trim > 뷰 전환 > Network Surface`
+
+![image](https://user-images.githubusercontent.com/30430227/147727364-03765e6f-4b19-47e9-9b8f-e00d565b303b.png)
+![image](https://user-images.githubusercontent.com/30430227/147727390-fa688b48-f7ff-491a-9537-8f20eea96f6c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147727430-a4a80ebe-ffc1-48bc-b523-1f3caf7304e6.png)
+![image](https://user-images.githubusercontent.com/30430227/147727490-43598314-03b6-4502-bf9d-ca2826aac6eb.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147727589-e23f9bc3-83ee-4f7c-8f2a-2b1ac8cc0317.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147727706-a30dbfc4-5891-4fee-95fb-ac9bc2746f37.png)
+![image](https://user-images.githubusercontent.com/30430227/147727607-b76236ba-dc98-4dc3-844d-de1fb51f641a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147727771-54d57f9e-cdd0-4d12-8a31-dcd2f812cbfc.png)
+
+<br>
+
+5. 파인 형태 
+
+![image](https://user-images.githubusercontent.com/30430227/147728160-be5bb022-456f-4741-ab6e-552c7cf9e017.png)
+
+`Morror > Joint > Delete Center Point > Trim`
+
+![image](https://user-images.githubusercontent.com/30430227/147728168-ee1437c2-85bf-45a0-bb95-03e6169e538b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147728251-951e1b42-e172-4afe-8b93-4b99a1dd92cb.png)
+![image](https://user-images.githubusercontent.com/30430227/147728297-aadedf8e-679d-4ac1-bddd-e35f85bf2308.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147728334-b2e56947-7f78-476c-866f-b658a9b5384c.png)
+
+<br>
+
+`Curve > Sweep 1 Rail > Remove Knot`
+
+![image](https://user-images.githubusercontent.com/30430227/147728408-10ff49ff-253f-4481-9895-9a80bf60f8dc.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147728534-0576c418-9372-47fd-9eee-4791fba8a5b1.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147728565-978a1ac8-29e0-4aef-b778-e32afaa75da6.png)
+![image](https://user-images.githubusercontent.com/30430227/147728589-fea6798f-eb43-423f-a58b-b27ce19620fe.png)
+
+<br>
+
+`분석 > Match Surface` 
+
+![image](https://user-images.githubusercontent.com/30430227/147728693-c25d7ae7-1956-4416-9200-c6a955c30ba9.png)
+![image](https://user-images.githubusercontent.com/30430227/147728758-354da73c-136c-4aa6-8042-60eeaee1d56a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147728813-2c8dff89-6b70-4e06-9c4e-88a74e90ba99.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147728875-b1d7dade-8336-47d8-9511-380e7afedad6.png)
+![image](https://user-images.githubusercontent.com/30430227/147728901-e3a0c122-65d2-4b4a-a168-57b8ff35903f.png)
+
+<br>
+
+`Offset Curve > Rebuild Curve > Trim`
+
+![image](https://user-images.githubusercontent.com/30430227/147728990-22db08fd-96e0-492e-b7af-9018797acd10.png)
+![image](https://user-images.githubusercontent.com/30430227/147729070-2567ab44-14fc-413e-a2aa-010b316e06b8.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147729088-72db0cff-f940-4911-8bb4-c10da3cc3b56.png)
+
+<br>
+
+`Blend Surface > Add Shapes > 양 끝 면 Match Surface`
+
+![image](https://user-images.githubusercontent.com/30430227/147729334-0f8fa6e0-1152-4a9d-89a0-4c7908ccb935.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147729290-22e48ccb-28f6-402d-b9ab-6d946abb9e6f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147729377-5a242816-0643-4546-9d6e-0d925ee59f97.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147729419-6ebbd43e-24de-4b93-9b2a-29c851935b13.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147729605-39fc5885-abeb-47d8-9d6c-89ed5be6d5eb.png)
+
+<br>
+
+골프공 
+------
+
+
 
 
 
