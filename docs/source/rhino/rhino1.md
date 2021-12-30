@@ -253,6 +253,96 @@ Rhino 1
 
 1. 나눔 가습기 
 
+`다각형(30) > Explode > Duplicate Edge > Rebuild(10)`
+
+![image](https://user-images.githubusercontent.com/30430227/147736008-f0c674bb-77c8-49f1-8d98-6971bf66da1e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147735981-748164e9-2cf6-4f5e-a920-e8cee17b7750.png)
+![image](https://user-images.githubusercontent.com/30430227/147736073-e3d661c9-1860-4476-859b-139b36625b24.png)
+
+<br>
+
+`Curve > Extrude > Scale > Mirror > Curve, Revolution`
+
+![image](https://user-images.githubusercontent.com/30430227/147736168-820d0f25-166d-41dd-bee5-ae965d67f85c.png)
+![image](https://user-images.githubusercontent.com/30430227/147736257-5fc09fd2-5b95-4942-9460-afedac0c085a.png)
+![image](https://user-images.githubusercontent.com/30430227/147736489-41bd4fe7-66ec-4f2e-908e-be2a8e09bdec.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147736716-96589913-2949-45e2-aec5-08f0f0bb0356.png)
+![image](https://user-images.githubusercontent.com/30430227/147736777-ccfbc566-5ee2-440a-9632-69c4af32a801.png)
+![image](https://user-images.githubusercontent.com/30430227/147736822-8ca82f69-4423-4a1a-9fdb-775772adc94b.png)
+
+<br>
+
+`Polar Array`
+
+![image](https://user-images.githubusercontent.com/30430227/147736976-644c9866-f4e2-4a23-a07a-32d3a8376f2d.png)
+
+<br>
+
+2. 손잡이 1
+
+`바닥 커브 > 레일 커브 > Sweep 2 Rail > 2 Trim Curve > `
+
+![image](https://user-images.githubusercontent.com/30430227/147737138-a1f14f71-38b0-45ea-a941-0984735ad894.png)
+![image](https://user-images.githubusercontent.com/30430227/147737155-09ab456a-f05f-4a88-9aea-aa8cbe6f5dba.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147737267-7d8e8f00-530d-4228-ade2-1da4df3bdab1.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147737471-d2a725d4-2c58-48e9-bfe1-d9a3ba945ddf.png)
+![image](https://user-images.githubusercontent.com/30430227/147737510-1c7f7e6b-d314-457c-ac6d-22c58fc8cc67.png)
+
+<br>
+
+`Sweep 2 Rail`
+
+![image](https://user-images.githubusercontent.com/30430227/147737612-40860046-37a2-4c9e-992a-a96736cd49e2.png)
+![image](https://user-images.githubusercontent.com/30430227/147737656-0e4bad9b-05e4-4bc6-990a-84c853cca066.png)
+
+<br>
+
+`WireCut`
+
+![image](https://user-images.githubusercontent.com/30430227/147737725-87cd6b42-7048-4324-ae07-82c5c41498db.png)
+![image](https://user-images.githubusercontent.com/30430227/147737812-5d6a00cf-4ecc-4859-9e9c-eac4f4a3e9f7.png)
+
+<br>
+
+3. 손잡이 2
+
+![image](https://user-images.githubusercontent.com/30430227/147738215-c0a30067-955c-4d06-9f73-ac779e9e1ece.png)
+![image](https://user-images.githubusercontent.com/30430227/147738856-bf57587e-ab07-40bd-b406-7b3c11ae4159.png)
+
+`Network Curve`
+
+![image](https://user-images.githubusercontent.com/30430227/147738969-4ff16324-258a-4835-8dd9-744179fa9e53.png)
+
+<br>
+
+`Body > Trim`
+
+![image](https://user-images.githubusercontent.com/30430227/147742310-0a4ba5cd-360b-4a5d-87e2-25524915122c.png)
+![image](https://user-images.githubusercontent.com/30430227/147742470-d8afbb4b-8175-48bd-9ae6-48f8cc3d97a3.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147742506-ede2039d-7196-4dba-a6c7-bb1c122741d4.png)
+![image](https://user-images.githubusercontent.com/30430227/147742553-e080d3cb-cd06-4ada-9d5b-c986dd1a5346.png)
+
+<br>
+
+4. 다우니 
+
+
+
+
+
+
+
+
+
 
 
 
