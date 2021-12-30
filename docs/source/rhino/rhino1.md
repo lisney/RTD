@@ -179,13 +179,85 @@ Rhino 1
 
 <br>
 
-골프공 
-------
+6. 골프공 
+
+`Duplicate Edge > Rebuild(Degree:1) > Lines > Project Curve > Rebuild Curve(위 반구만)`
+
+![image](https://user-images.githubusercontent.com/30430227/147729983-3dcd79f2-0ad3-4775-b6ff-a4b505d801c9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147730081-4a27e4ea-6d6e-45a5-87ef-664d1473f070.png)
+![image](https://user-images.githubusercontent.com/30430227/147730101-df5138fc-afe3-463e-8c84-6498393a3807.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147730141-8882b79a-68ff-41c7-946d-1e080cb10bd5.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147730323-3b02191e-34d4-46b3-b0c8-fca1529c2089.png)
+
+`Orient On Surface`
+
+![image](https://user-images.githubusercontent.com/30430227/147730550-040c4458-7186-41c0-bc38-4e20ac9c9d33.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147730565-287c843f-a43a-4168-8f73-aa11fd5e0adf.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147730613-6aaee0f4-6fa7-4cb7-b0cc-ee661ba26966.png)
+![image](https://user-images.githubusercontent.com/30430227/147730871-fab1c507-f352-4e20-94f1-f14557d4ce40.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147730973-6de3988f-8a4d-4f5b-8001-10333ca286e6.png)
+
+<br>
+
+7. Y 파이프 
+
+`Curve > Pipe > Trim`
+
+![image](https://user-images.githubusercontent.com/30430227/147731300-6998f260-1989-4a9e-9106-0b56ff577285.png)
+![image](https://user-images.githubusercontent.com/30430227/147731395-b618e83f-e2ad-4615-bfc0-b5fe9ec26cdf.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147731551-c5b7983e-0a3d-4c6a-b2e5-aae0e43e7260.png)
+
+<br>
+
+`Ajustable Curve Blend(Tangency) > Extract IsoCurve > Offset On Surface > Aj Crv Blend`
+
+![image](https://user-images.githubusercontent.com/30430227/147731708-ca50c0d4-ce44-493b-bf5f-37d235531689.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147731736-20650de0-8335-4b50-9913-b559f6bd8185.png)
+![image](https://user-images.githubusercontent.com/30430227/147731798-a099061d-882e-4421-91c4-4620eb06beeb.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147731984-022ffa4b-2c0b-4e6d-a1ff-21d9877b2a93.png)
+![image](https://user-images.githubusercontent.com/30430227/147732051-6875d732-a289-4c6c-b89a-091a5234d798.png)
+
+<br>
+
+`Extrude > Split Edge(Point) > Network Surface > Join > Patch(Join 안될 시UV spans 수 높여본다) `
+
+![image](https://user-images.githubusercontent.com/30430227/147732120-b965b38d-6c54-41b4-86bb-25c21ffab58e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147732293-1740047f-ac7e-4b73-89ff-42b29c507e59.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147732436-75bd4353-fe19-45a1-b009-f2223adf0ebf.png)
+![image](https://user-images.githubusercontent.com/30430227/147732453-ede5564d-6fb6-4dbc-a5fa-2708060e30b3.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147732648-de7e04f2-8c8f-464e-9d93-c047d64f9870.png)
+![image](https://user-images.githubusercontent.com/30430227/147732723-249d0c61-b7bb-4420-8baf-e01404c3bc65.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147733141-b7977ab0-a1df-4b01-9257-31bb901dbb77.png)
+
+<br>
+
+병 모델링 
+-----------
+
+1. 나눔 가습기 
 
 
 
 
 
+<br>
 
 자동차 
 --------
