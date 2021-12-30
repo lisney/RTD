@@ -1,6 +1,60 @@
 Grasshopper 3
 =============
 
+Pufferfish - Component
+---------------------
+
+`명령 'SoftEditSrf'`
+
+![image](https://user-images.githubusercontent.com/30430227/147713542-8cfdca7c-d156-42aa-8b30-5b681f626198.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147713566-5eea152b-6092-4e0e-bca8-40d44ef29a2b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147713573-51b237ea-eaaf-488d-af66-4b31f2c47b43.png)
+
+<br>
+
+`Pattern Mesh > Bake > 명령 'Orient3Point'`
+
+![image](https://user-images.githubusercontent.com/30430227/147714203-8442364a-dd18-4583-9cee-82a0cff7a3ae.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147714238-e86bce3e-5f79-47c2-b1ae-2583da51a303.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147714299-42cda6c3-002f-41fd-b283-98eed53a6521.png)
+
+<br>
+
+`Grasshopper > Set Multiple Curves > Bounding Box`
+
+![image](https://user-images.githubusercontent.com/30430227/147714404-0ed4ed87-d7ce-40c8-bb90-3e9d03324824.png)
+![image](https://user-images.githubusercontent.com/30430227/147714431-36a79cd7-dcd3-464a-bb4a-f299aff0ac2c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147714395-9dadfd5b-241e-4c3f-9cee-b6d16d57df68.png)
+
+<br>
+
+`Twisted Box Through Surfaces`
+
+![image](https://user-images.githubusercontent.com/30430227/147714701-86ed9de3-b73e-4942-bb3a-374c67b00af8.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147714710-c5272fbf-d828-4379-8d0d-8f0c058a8192.png)
+
+`Dendro - Component`
+
+![image](https://user-images.githubusercontent.com/30430227/147715511-2ea60d4d-b1f4-4bb1-9303-b78935afd701.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147715520-c83d3cdd-beb9-4b95-acd6-e00e093cd192.png)
+
+<br>
+
+`Pull 포인트`
+
+![image](https://user-images.githubusercontent.com/30430227/147716025-23f922d4-f919-4a9e-9270-8400ce9baec9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147715990-7bf9e952-8567-4546-ac9c-a9f9f1127b37.png)
+
+<br>
+
 미들솔
 --------
 
