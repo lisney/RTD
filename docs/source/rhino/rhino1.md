@@ -26,15 +26,17 @@ Rhino 1
 ![image](https://user-images.githubusercontent.com/30430227/147721457-a5c37ebe-ebd4-4dab-aa79-a20d740b541f.png)
 ![image](https://user-images.githubusercontent.com/30430227/147721471-39ebcad2-2aea-4429-b03c-75917cbb6959.png)
 
-`Duplicate Edge > Join > Sub Curve > Ajust Curve Blend`
+`Duplicate Edge > Join > Sub Curve > Ajust Curve Blend > Join`
 
 ![image](https://user-images.githubusercontent.com/30430227/147721937-7a87915b-6769-4b3d-8e96-45c581477e84.png)
-
 
 ![image](https://user-images.githubusercontent.com/30430227/147721780-88854714-4f5e-442e-9929-268f904ebf4f.png)
 ![image](https://user-images.githubusercontent.com/30430227/147721796-52d6ad5e-6a3f-4bf4-8887-0e88203c3856.png)
 
-![image](https://user-images.githubusercontent.com/30430227/147722004-4202500f-8132-452c-9036-5db1c1deee10.png)
+![image](https://user-images.githubusercontent.com/30430227/147722403-8ed8b7e4-802e-4db8-8aaf-ae648ab188ec.png)
+![image](https://user-images.githubusercontent.com/30430227/147722551-8cdabef7-b79e-4b5b-8a18-5d8fec243483.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147722660-6e6b35f5-d108-4c8e-a84e-9d4aa5d05429.png)
 
 <br>
 
@@ -42,6 +44,32 @@ Rhino 1
 
 ![image](https://user-images.githubusercontent.com/30430227/147722128-e9b05dfe-1614-4084-a10b-114936ab910a.png)
 ![image](https://user-images.githubusercontent.com/30430227/147722152-1bd56d5b-c895-4b69-9bf8-7431e0b59cbe.png)
+
+<br>
+
+`Mirror > Join > Network Surface`
+
+![image](https://user-images.githubusercontent.com/30430227/147723057-e2b1ca62-71ce-4df6-82a2-c006f7814547.png)
+![image](https://user-images.githubusercontent.com/30430227/147723066-4f741829-bdb4-436b-aa80-0188cdb293b3.png)
+
+<br>
+
+`Side > Split(Point) > Patch`
+
+![image](https://user-images.githubusercontent.com/30430227/147723382-6c0267ba-f423-42d7-9087-5c17b59875f1.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147723524-39b33c38-c891-4767-8273-96a5c8544d7b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147723577-4a5674b6-cbea-4ffd-aeb5-37dd3f04d02d.png)
+![image](https://user-images.githubusercontent.com/30430227/147723594-af161cd5-055d-49e5-8192-fe43bb84e8c7.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147723675-4a5c502d-4ba3-4ae0-b519-21e2b1ea47d6.png)
+
+
+
+
+
+
 
 
 
