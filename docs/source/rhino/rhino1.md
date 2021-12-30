@@ -23,6 +23,34 @@ Rhino 1
 
 ![image](https://user-images.githubusercontent.com/30430227/147724763-1d04f521-5dd3-4268-9901-025e0cd990cb.png)
 
+<br>
+
+연속성 G1/G2/G3 - Position/Tangency/Curvature
+--------------------
+
+![image](https://user-images.githubusercontent.com/30430227/147724969-3c257da3-b130-481c-99fc-69a1a483742f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147725248-ae573d81-d5bf-4889-b9f4-da80f54caaee.png)
+![image](https://user-images.githubusercontent.com/30430227/147725173-1e9a8570-1643-40dc-920e-88d238ca1267.png)
+
+<br>
+
+`Fillet`
+
+![image](https://user-images.githubusercontent.com/30430227/147725321-d140f059-9fd1-4651-9492-685157b9314c.png)
+![image](https://user-images.githubusercontent.com/30430227/147725304-875698a9-fb0f-402f-980e-588f3eb5b639.png)
+
+<br>
+
+`Ajust Curve Blend`
+
+![image](https://user-images.githubusercontent.com/30430227/147725127-25c79b9b-e57b-4e49-b4e5-56880c96675c.png)
+
+<br>
+
+`G2, G3의 컨트롤 포인트 수`
+
+![image](https://user-images.githubusercontent.com/30430227/147725595-1fbeb7a3-92ff-4b1d-b89c-a1273966e4d3.png)
 
 
 
