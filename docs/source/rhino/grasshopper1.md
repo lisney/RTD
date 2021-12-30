@@ -531,6 +531,43 @@ Sort
 
 ![image](https://user-images.githubusercontent.com/30430227/147320716-c74d5bae-4329-471b-8fbd-43cb17bbbd87.png)
 
+<br>
+
+Path Mapper
+-------------
+
+`Simplify, Flatten, Graft, Flip Matrix, Remove or Add a Branch`
+
+![image](https://user-images.githubusercontent.com/30430227/147712451-bb95f2cb-6de6-4852-9e80-b9f34b6e0406.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147712599-ce3b4463-981e-430e-a955-a6135ec46696.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147712416-5e971d0c-0374-4c38-834b-4f878faf5ad3.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147712771-09d44484-fcc1-4b79-95a7-77dd3e85f7dd.png)
+
+<br>
+
+`리스트명, 인덱스명을 바꾸어도 같은 결과`
+
+![image](https://user-images.githubusercontent.com/30430227/147712843-8c73e012-2017-4a33-9cd2-329bb8df08d3.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147713084-47167c0f-ad7e-4866-904f-986f09b9fe3c.png)
+![image](https://user-images.githubusercontent.com/30430227/147713096-6cbffdc1-b6ea-463a-a9e7-a9fff64fbd1c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147713112-a32db01d-5dfb-4f41-b656-f071c4333e1c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147713216-70a9851f-c83a-441c-acdb-e7278c5b90cc.png)
+
+<br>
+
+`Cherry Picker`
+
+![image](https://user-images.githubusercontent.com/30430227/147713291-9c74d4c9-3d4e-415e-9d94-86c6fc2bba06.png)
+![image](https://user-images.githubusercontent.com/30430227/147713300-0e68ae58-01af-4784-adaf-5360dcc7b9c6.png)
+
 
 
 
