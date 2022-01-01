@@ -215,6 +215,18 @@ Glitch - 미끌어지다(독일어), 화면등의 오류
 
 ![image](https://user-images.githubusercontent.com/30430227/143733750-c5790b39-6d7f-4efa-92f5-7a0c3a59f3ac.png)
 
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/147842394-3601ecdf-65e0-433a-b918-2e3b6101c0a6.png)
+
+`Select Random > Assign Materials(Base:Metal, EmissionA(Blue:20), Emission(Red,1)`
+![image](https://user-images.githubusercontent.com/30430227/147842397-4d16da66-cf3f-4361-8a77-7bb8c856b28f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/147842407-3bffdb03-bca7-4b83-8e11-4b0abc7aed79.png)
+![image](https://user-images.githubusercontent.com/30430227/147842422-991c35ad-9691-404e-9707-fdb928b5d723.png)
+
+
+
 
 
 
