@@ -195,6 +195,10 @@ Logic Brick
 
 ![image](https://user-images.githubusercontent.com/30430227/146711099-77496ddc-c990-4f85-a072-9dedfd723f95.png)
 
+![image](https://user-images.githubusercontent.com/30430227/147903567-cfe69345-0ea1-4bf7-8554-910de907c55c.png)
+
+<br>
+
 `Timer`
 
 ![image](https://user-images.githubusercontent.com/30430227/146711975-f00e6beb-1d23-4af3-a525-4034118d6ce9.png)
