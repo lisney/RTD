@@ -95,4 +95,22 @@ Addon 추천
 
 ![image](https://user-images.githubusercontent.com/30430227/143679718-2d22cc79-f7bf-457e-a554-c799750e8a07.png)
 
+<br>
+
+Cycles 그림자 문제 
+---------------
+
+![image](https://user-images.githubusercontent.com/30430227/148009574-debaf2bc-0c0b-4785-9f1b-638577c04879.png)
+![image](https://user-images.githubusercontent.com/30430227/148009731-dbdd2d41-a369-49e5-997b-1007124ee12c.png)
+
+<br>
+
+`Geometry Offset 값, Subdivision, Light Radius `
+
+![image](https://user-images.githubusercontent.com/30430227/148009612-103bf8b6-c848-4c21-9870-f3609535fba8.png)
+
+![image](https://user-images.githubusercontent.com/30430227/148009707-7a839b2f-9ba2-4ea8-8f5b-5e85cf6eb710.png)
+
+
+
 
