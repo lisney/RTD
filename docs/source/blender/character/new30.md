@@ -71,7 +71,21 @@ new 3.0
 
 <br>
 
-8. Wiggle Bone - 키프레임 가능, Spring Bone - 키프레임 불가능, 자연스런 모션`
+8. Wiggle Bone - 키프레임 가능, Spring Bone - 키프레임 불가능, 자연스런 모션 - Pose Mode에서 적용해야한다`
+
+<br>
+
+9. 근육 - Shape Key 
+
+![image](https://user-images.githubusercontent.com/30430227/148206635-3eef3ade-069d-496d-aa1f-0b49a5e2695e.png)
+![image](https://user-images.githubusercontent.com/30430227/148206588-7759b645-778c-4b55-bfa1-b9e9a2d96219.png)
+
+`Shape Key > Value 오른클릭 Add Driver`
+
+![image](https://user-images.githubusercontent.com/30430227/148206750-21a32ffa-43ad-4239-bfe2-2a8879a2e092.png)
+![image](https://user-images.githubusercontent.com/30430227/148206813-629ee1c7-8f65-4186-a2f1-924b38e27ad8.png)
+
+
 
 
 
