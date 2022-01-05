@@ -1,0 +1,47 @@
+new 3.0
+========
+
+1. Custom shape 변형
+
+![image](https://user-images.githubusercontent.com/30430227/148144258-d0ac3416-a262-444d-8a49-a8446ff319f8.png)
+
+<br>
+
+2. Clear Constraint:  Ctrl-Alt-C
+
+<br>
+
+3. Bendy bone / Scale
+
+![image](https://user-images.githubusercontent.com/30430227/148144931-9218b029-727d-46c4-98dc-d7ae3b476edd.png)
+![image](https://user-images.githubusercontent.com/30430227/148144956-f72e6e7a-92a8-4654-a724-d554ced3f772.png)
+
+![image](https://user-images.githubusercontent.com/30430227/148145233-a43ac1f9-beb5-45d8-8494-f2dae4b85c20.png)
+![image](https://user-images.githubusercontent.com/30430227/148145275-29a0a708-8981-4180-8ffd-b298f729c682.png)
+
+<br>
+
+4. Pose Library - 애드온, 기본으로 설치되어 있음
+
+![image](https://user-images.githubusercontent.com/30430227/148146128-776e923a-a44c-42c6-b6fb-6d10f6c4a157.png)
+![image](https://user-images.githubusercontent.com/30430227/148146147-3aa1c775-10d0-4c39-95f8-0116b80448d8.png)
+
+<br>
+
+`Thumnail: Camera View > Pose Library `
+
+![image](https://user-images.githubusercontent.com/30430227/148146433-23552b3d-1d46-4bb3-b9c2-337fcecd46b1.png)
+![image](https://user-images.githubusercontent.com/30430227/148146418-0e3d5a6d-e69f-4e5f-999e-5a62257f154d.png)
+
+<br>
+
+5. Stretch to 컨스트레인트에 Swing(그네) 옵션 추가?
+
+![image](https://user-images.githubusercontent.com/30430227/148146939-c8fcd038-fbf3-40ff-ace2-5d97bf7cab8b.png)
+
+
+
+
+
+
+
