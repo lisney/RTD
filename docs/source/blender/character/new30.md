@@ -48,6 +48,27 @@ new 3.0
 
 ![image](https://user-images.githubusercontent.com/30430227/148148922-9e4019c3-f648-4a03-9621-4ea8b3ed416e.png)
 
+<br>
+
+7. 포니테일 - basic.copy_chain(Rigify) 
+
+![image](https://user-images.githubusercontent.com/30430227/148182797-3fd5dc7e-aa60-446d-84dd-b610a045fccd.png)
+
+<br>
+
+`Multi Rename - Ctrl-F2`
+
+![image](https://user-images.githubusercontent.com/30430227/148182907-b5f24559-962a-46fb-aa2c-e886d43eccda.png)
+
+<br>
+
+`테일본 > Move New Layer > Rig Layers 에 추가하기 - Text Editor 'rig_ui.py' 파일 수정`
+
+![image](https://user-images.githubusercontent.com/30430227/148184783-ad54789f-6247-41f6-b543-1d8dc30ec7b9.png)
+![image](https://user-images.githubusercontent.com/30430227/148185393-e4de20c7-677a-48e0-9dcb-17919871a53d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/148185364-2a5676cc-7871-4771-8e2b-5dbc1d15e163.png)
+
 
 
 
