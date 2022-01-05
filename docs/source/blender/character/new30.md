@@ -28,7 +28,7 @@ new 3.0
 
 <br>
 
-`Thumnail: Camera View > Pose Library - 키프레임이 있어야 라이브러리에 올라감`
+`Thumnail: Camera View > Pose Library - 라이브러리에 생성안될 때는 키프레임 생성`
 
 ![image](https://user-images.githubusercontent.com/30430227/148146433-23552b3d-1d46-4bb3-b9c2-337fcecd46b1.png)
 ![image](https://user-images.githubusercontent.com/30430227/148146418-0e3d5a6d-e69f-4e5f-999e-5a62257f154d.png)
