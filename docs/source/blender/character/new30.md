@@ -39,8 +39,14 @@ new 3.0
 
 ![image](https://user-images.githubusercontent.com/30430227/148146939-c8fcd038-fbf3-40ff-ace2-5d97bf7cab8b.png)
 
+<br>
 
+6. Bone Heat Weighting : failed to find solution for one or more bones. 자동 웨이트 문제
 
+`모델 복사 > Merge by Distance > Armature Deform >>`
+`원본모델 > With Empty Group > 원본/복사모델 선택 > Transform Weight(NearestFace, SourceLayer:By Name)`
+
+![image](https://user-images.githubusercontent.com/30430227/148148922-9e4019c3-f648-4a03-9621-4ea8b3ed416e.png)
 
 
 
