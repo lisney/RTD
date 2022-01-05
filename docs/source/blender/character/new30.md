@@ -69,6 +69,10 @@ new 3.0
 
 ![image](https://user-images.githubusercontent.com/30430227/148185364-2a5676cc-7871-4771-8e2b-5dbc1d15e163.png)
 
+<br>
+
+8. Wiggle Bone - 키프레임 가능, Spring Bone - 키프레임 불가능, 자연스런 모션`
+
 
 
 
