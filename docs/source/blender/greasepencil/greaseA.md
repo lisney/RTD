@@ -33,7 +33,7 @@ Basic
 1. Overlay > Guides>Floor Hide
 2. Add > Blank Grease Pencil
 3. Object 모드 > Draw 모드>
-4. Custom Colors 체크 해제(조명효과 없앰)
+4. Use Lights 체크 해제(조명효과 없앰)
 5. Layers > 'New Layer' 버튼 클릭 후 생성된 레이어 이름을 'eyeball'로 바꿈
 6. Strength(불투명도)를 1로 한 후 원을 그린다(현재 0.6, 나중에 Strength를 수정하려면 SculptMode 에서)
 7. Edit 모드에서 두께를 키운다(Alt + s)
