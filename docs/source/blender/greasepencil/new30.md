@@ -78,7 +78,28 @@ New 3.0
 
 <br>
 
-8. 
+8. Line Art Modifier - Composition Tab
+
+![image](https://user-images.githubusercontent.com/30430227/148365939-44f209a5-ec97-434f-a77f-4a31faad96c6.png)
+
+`카메라 뷰 `
+
+![image](https://user-images.githubusercontent.com/30430227/148365969-fa7378c3-d95d-4ad5-844e-183ae4a09371.png)
+
+<br>
+
+9. Vertex Weight Angle Modifier 
+
+`Add Vertex Weight > ...Modifier > `
+
+![image](https://user-images.githubusercontent.com/30430227/148366903-1c861e4f-5629-4b9c-b3ec-592c24a910ad.png)
+
+![image](https://user-images.githubusercontent.com/30430227/148366851-cc546b85-adb7-4323-9a1e-9278c738922d.png)
+![image](https://user-images.githubusercontent.com/30430227/148367032-4306406b-49a6-4eb0-80ea-3051db1c689f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/148367066-1163acef-7cc8-4ec7-a05b-33845c019e5f.png)
+
+
 
 
 
