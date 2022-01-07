@@ -15,7 +15,7 @@ Grasshopper 1
 ![image](https://user-images.githubusercontent.com/30430227/147294867-ebbd2f62-5ad2-412b-8ca6-39800b156efd.png)
 
 6. 휠 메뉴의 Find 는 긴 알고리즘작성에 유리
-7. 노드 간격 주기 Alt-드랙
+7. 노드 사이 간격 띄우기 Alt-드랙
 8. Extract Parameter로 데이터 타입 내기
 
 ![image](https://user-images.githubusercontent.com/30430227/147295191-22cdbfcf-08a5-47a5-b52d-4dca9e5cd2cb.png)
