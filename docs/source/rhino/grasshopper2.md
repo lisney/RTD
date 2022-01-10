@@ -166,6 +166,14 @@ Grasshopper 2
 
 ![image](https://user-images.githubusercontent.com/30430227/147616243-d9bed152-9800-4a8f-8050-e5ee52f71295.png)
 
+<br>
+
+10. 주름화병 
+
+![image](https://user-images.githubusercontent.com/30430227/148721726-84f5b032-e97b-43e6-9a3f-6e062a7b41d9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/148721744-a274a723-4de0-44b8-b53a-46387093edb7.png)
+
 
 
 
