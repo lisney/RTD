@@ -184,7 +184,15 @@ Grasshopper 2
 
 <br>
 
-12. 
+12. 엠보싱 패턴 
+
+![image](https://user-images.githubusercontent.com/30430227/148732981-f6587924-0cf7-4d39-a833-2944a8fe2d33.png)
+
+![image](https://user-images.githubusercontent.com/30430227/148733422-f8343077-8d59-4c73-acea-2c66d77673b1.png)
+
+![image](https://user-images.githubusercontent.com/30430227/148733455-553e3758-bb7b-49ce-ab5c-2ca197568f83.png)
+
+
 
 
 
