@@ -174,6 +174,18 @@ Grasshopper 2
 
 ![image](https://user-images.githubusercontent.com/30430227/148721744-a274a723-4de0-44b8-b53a-46387093edb7.png)
 
+<br>
+
+11. 삼각형 접힌 기둥
+
+![image](https://user-images.githubusercontent.com/30430227/148725911-94d0bf70-d96a-4c48-99a0-1b6c537b0490.png)
+
+![image](https://user-images.githubusercontent.com/30430227/148726193-e9a102f7-ea7a-46b9-82fb-f8fb3b166731.png)
+
+<br>
+
+12. 
+
 
 
 
