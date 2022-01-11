@@ -193,12 +193,24 @@ AlignEuler to Vector - Normal Rotate
 
 <br>
 
+Geometry Proximity
+-------------------
+
+![image](https://user-images.githubusercontent.com/30430227/148917642-1d29cb8f-bb97-47c9-b5ac-fb36488f3bb8.png)
+
+![image](https://user-images.githubusercontent.com/30430227/148918249-0f734404-90a1-401c-a6e7-3c71079418f9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/148918383-db587874-870d-43d3-8499-9594064ba780.png)
+
+<br>
+
 이미지 텍스쳐 
 -------------
 
 ![image](https://user-images.githubusercontent.com/30430227/141647041-f1736b2b-c30d-4308-96ab-63def92351b5.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/141647055-05299da8-49fc-4a14-84f4-376ff75b81de.png)
+
 
 <br>
 
