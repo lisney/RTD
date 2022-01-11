@@ -111,6 +111,26 @@ Cycles 그림자 문제
 
 ![image](https://user-images.githubusercontent.com/30430227/148009707-7a839b2f-9ba2-4ea8-8f5b-5e85cf6eb710.png)
 
+<br>
+
+Keyframe 
+---------
+
+1. Active Keying set - 선택한 속성에만 키프레임 적용
+
+`AutoKeyframe 시 체크해야 작동한다(Avaliable Keying set 에도 체크) `
+
+![image](https://user-images.githubusercontent.com/30430227/148859376-ed1dcff8-bb89-4b75-8a31-f01c83d49f38.png)
+![image](https://user-images.githubusercontent.com/30430227/148859406-19b1ccb5-0f5f-4cd2-950e-2c63eafbbb51.png)
+
+<br>
+
+2. Only Insert Abailable - Preferences 창에서 세팅
+
+`Available Keying set 에만 키프레임 적용`
+
+![image](https://user-images.githubusercontent.com/30430227/148860207-875baae6-e0a4-4c40-891f-4b40b60b84ef.png)
+
 
 
 
