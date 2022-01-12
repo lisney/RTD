@@ -40,14 +40,6 @@ Normalize
 
 <br>
 
-Position Selection 
----------------------
-
-![image](https://user-images.githubusercontent.com/30430227/142760747-512c8e2c-a831-43f4-8b8c-211e3f79a8c5.png)
-
-![image](https://user-images.githubusercontent.com/30430227/142760749-3b3e20e9-4069-42af-88c9-afbfdc836d3d.png)
-
-<br>
 
 베타 서포터 - raycaster 
 ----------------------
@@ -115,51 +107,11 @@ Switch - hide/show
 
 <br>
 
-Position 
----------
-
-![image](https://user-images.githubusercontent.com/30430227/143515297-a7d6eaa3-f1b5-45fc-9342-89984819079b.png)
-
-![image](https://user-images.githubusercontent.com/30430227/143515162-a918b85f-6b6b-48ae-aef5-c308160cc4aa.png)
-
-![image](https://user-images.githubusercontent.com/30430227/143515250-05227d5c-a0cd-4bc8-bfd8-6ab50d4cff5e.png)
-
-![image](https://user-images.githubusercontent.com/30430227/143515333-1fa0293f-2944-4224-85f6-203ab2064b06.png)
-
-`Compare 연결`
-
-![image](https://user-images.githubusercontent.com/30430227/143515363-2333873f-7532-4034-a7b1-9a85d0ac4381.png)
-
-![image](https://user-images.githubusercontent.com/30430227/143515400-a02210a5-f92f-4afc-a828-3347b8435eca.png)
-
-<br>
 
 Proximity
 ----------
 
-1. 영향을 빛으로 받다
-
-`Plane > Geometry Nodes`
-
-![image](https://user-images.githubusercontent.com/30430227/143518483-5869c807-8611-403a-9a4c-e955807f987e.png)
-
-![image](https://user-images.githubusercontent.com/30430227/143518506-457b38c3-fcf8-46b7-aaff-b40619d1c8c0.png)
-
-`Icosphere > Relative > Geometry Proximity`
-
-![image](https://user-images.githubusercontent.com/30430227/143518677-873688e3-9c87-45fa-bf55-6ba5a6543b60.png)
-
-![image](https://user-images.githubusercontent.com/30430227/143540202-462892ed-2b85-41b9-82e2-02454fb87aac.png)
-
-![image](https://user-images.githubusercontent.com/30430227/143540232-389ae498-d47d-47d6-92aa-168889f7a53e.png)
-
-![image](https://user-images.githubusercontent.com/30430227/143539961-36bea0e7-38bc-4476-9468-eb687f561849.png)
-
-![image](https://user-images.githubusercontent.com/30430227/143540001-beba61f2-a0b7-4fb0-8b55-ac8a04f6fe5b.png)
-
-<br>
-
-2. 트랙 투 - 나만 바라봐
+1. 트랙 투 - 나만 바라봐
 
 `Align Euler to Vector X or Y`
 
@@ -189,7 +141,7 @@ Proximity
 
 <br>
 
-3. 고랑
+2. 고랑
 
 ![image](https://user-images.githubusercontent.com/30430227/143581157-5d3c3763-b248-4aeb-98cc-f463d56d2ab7.png)
 
@@ -245,6 +197,18 @@ UV Map
 ![image](https://user-images.githubusercontent.com/30430227/143573998-ddbf091d-673c-45b1-b083-9bdf682c6629.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/143574053-9ece2954-0e1f-4bc5-b31b-f54d57be179f.png)
+
+<br>
+
+Extrude Mesh Node
+--------------------
+
+![image](https://user-images.githubusercontent.com/30430227/149046634-00ced166-7d0b-4879-a5ce-47b41cb63d13.png)
+
+![image](https://user-images.githubusercontent.com/30430227/149046754-5a705464-2d5b-4833-9493-46ed8a921566.png)
+
+![image](https://user-images.githubusercontent.com/30430227/149046893-ffd46c1d-5218-454b-a7da-a90f5ad692e8.png)
+
 
 
 
