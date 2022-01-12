@@ -34,18 +34,10 @@ Donut
 
 1. 빵 
 
-![image](https://user-images.githubusercontent.com/30430227/139834284-997a9b18-a19d-4a72-aa60-291a79f34349.png)
-
-![image](https://user-images.githubusercontent.com/30430227/139834250-6f2b5a00-5118-4f7a-a0b4-f7f73c5b2327.png)
-
-<br>
-
-2. Icing 
-
 ![image](https://user-images.githubusercontent.com/30430227/139837216-7918dcf0-ce7e-401f-b2d7-36f9289c7f60.png)
 ![image](https://user-images.githubusercontent.com/30430227/139837307-e26f5e98-111d-4506-bc36-d623eb94f74a.png)
 
-![image](https://user-images.githubusercontent.com/30430227/139837374-494f1d85-645f-45f6-bcd2-6966d0584cb6.png)
+![image](https://user-images.githubusercontent.com/30430227/149062393-32fdb735-0eb2-4813-aae9-166f560e0682.png)
 
 <br>
 
@@ -54,7 +46,7 @@ Donut
 ![image](https://user-images.githubusercontent.com/30430227/139843378-1c60c46c-a27e-4d16-a517-a585d8a44a36.png)
 ![image](https://user-images.githubusercontent.com/30430227/139843566-d5c90649-1615-4d70-967c-fda9054b552a.png)
 
-![image](https://user-images.githubusercontent.com/30430227/139843539-66bc1607-623e-4eae-8fde-35f9e234c6d7.png)
+![image](https://user-images.githubusercontent.com/30430227/149063203-2e279684-0c31-4730-a21e-c752fc8245a5.png)
 
 4. Material
 
@@ -82,35 +74,22 @@ Donut
 `Hook > Cloth`
 
 ![image](https://user-images.githubusercontent.com/30430227/139947444-312b0bae-1f35-4d23-8370-63d62cc41879.png)
-
-![image](https://user-images.githubusercontent.com/30430227/139947513-2327578a-d3f5-4437-93d7-78634fde02b8.png)
+![image](https://user-images.githubusercontent.com/30430227/139947641-c2e91028-3433-4814-93a3-f21d79c19448.png)
 
 `Pin Point`
 
+![image](https://user-images.githubusercontent.com/30430227/139947513-2327578a-d3f5-4437-93d7-78634fde02b8.png)
 ![image](https://user-images.githubusercontent.com/30430227/139947584-bd873bfd-8f3b-4152-9f63-2735e6fdd4c7.png)
-
-![image](https://user-images.githubusercontent.com/30430227/139947641-c2e91028-3433-4814-93a3-f21d79c19448.png)
 
 `Geometry Node`
 
-![image](https://user-images.githubusercontent.com/30430227/139947813-541901bc-9dac-4267-9420-e3c1cbe6c183.png)
+![image](https://user-images.githubusercontent.com/30430227/149064886-f7c86014-7690-44ca-ac9e-2f162ed00005.png)
 
-![image](https://user-images.githubusercontent.com/30430227/139947835-ea5348a9-b084-4fad-a620-b4ebb24457f2.png)
-
-![image](https://user-images.githubusercontent.com/30430227/139948191-bf4de753-05d5-461d-be7f-8c4379e11ea6.png)
-
-![image](https://user-images.githubusercontent.com/30430227/139948222-f15700ed-0c4c-47a5-aceb-0b7ec4164640.png)
+![image](https://user-images.githubusercontent.com/30430227/149064918-8a217843-63d8-48fe-a583-1898592c0c16.png)
 
 `Material`
 
-![image](https://user-images.githubusercontent.com/30430227/139949510-c0051c39-1998-4e1d-a393-1ce009bf6a53.png)
-![image](https://user-images.githubusercontent.com/30430227/139949623-e2389797-b294-447a-b2e4-11a20f9f160e.png)
-
-`반복은 Fraction`
-
-![image](https://user-images.githubusercontent.com/30430227/139950078-ca3e9c46-f13f-4e4d-98d7-35fa53b13d73.png)
-
-![image](https://user-images.githubusercontent.com/30430227/139950177-2d00e870-ca18-4af8-956a-602c50cce2ad.png)
+![image](https://user-images.githubusercontent.com/30430227/149065039-af5b4896-eebb-49f3-8f89-12bd6cda0dc3.png)
 
 <br>
 
