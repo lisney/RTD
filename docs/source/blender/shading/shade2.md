@@ -225,6 +225,22 @@ Glitch - 미끌어지다(독일어), 화면등의 오류
 ![image](https://user-images.githubusercontent.com/30430227/147842407-3bffdb03-bca7-4b83-8e11-4b0abc7aed79.png)
 ![image](https://user-images.githubusercontent.com/30430227/147842422-991c35ad-9691-404e-9707-fdb928b5d723.png)
 
+<br>
+
+홀로그램 
+----------
+
+![image](https://user-images.githubusercontent.com/30430227/149052515-66045190-6012-4590-8825-21acb3d0d976.png)
+
+![image](https://user-images.githubusercontent.com/30430227/149052532-90dd65dc-d3bf-4592-bfeb-13615fdfcd72.png)
+
+`모델과 키프레임 들어간 쉐이더 노드들 선택 후 Graph Editor > Modifiers 'Noise'`
+
+![image](https://user-images.githubusercontent.com/30430227/149052726-0a6f1516-06f7-4364-976e-698aa4fb28f7.png)
+![image](https://user-images.githubusercontent.com/30430227/149052778-4b94f100-cf59-4806-a56c-16ee3ff36300.png)
+
+
+
 
 
 
