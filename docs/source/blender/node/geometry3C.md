@@ -14,23 +14,18 @@ Voronoi 블럭
 
 `Add Decimate Modifier(Planar) > Add Geometry Node Modifier`
 
-![image](https://user-images.githubusercontent.com/30430227/139769189-831e4cc8-2e20-4295-aecb-61d69e708020.png)
+![image](https://user-images.githubusercontent.com/30430227/149057732-24b37e97-ff3b-4522-8286-d4868b732b0e.png)
+![image](https://user-images.githubusercontent.com/30430227/149057763-703f8c6b-1054-43bc-b386-fc31faa345ff.png)
 
-![image](https://user-images.githubusercontent.com/30430227/139769220-bdc5715b-650d-44bf-b89b-4ef3ccf7c9f5.png)
+![image](https://user-images.githubusercontent.com/30430227/149057790-9d04dc61-7d18-4b13-8b51-219d30cf5c44.png)
 
-![image](https://user-images.githubusercontent.com/30430227/139769240-6b778a67-26e5-4f5d-9edd-b14da227e0af.png)
-
-`벡터로 정렬-회전`
-
-![image](https://user-images.githubusercontent.com/30430227/139769646-0a683dd7-25e9-46dd-9f0a-fb860ff5b1b4.png)
-
-![image](https://user-images.githubusercontent.com/30430227/139769637-8d2a359e-64f6-4634-a48d-277f58a6a054.png)
+![image](https://user-images.githubusercontent.com/30430227/149057843-0c8ebe29-a77c-4fb6-8c18-68896afcd091.png)
 
 `Proxy Node`
 
-![image](https://user-images.githubusercontent.com/30430227/139770338-a0e42cde-86cb-44ff-9f16-375b366a7f96.png)
+![image](https://user-images.githubusercontent.com/30430227/149058098-dc982c75-2bb6-4ddc-89d9-e13235c64a28.png)
 
-![image](https://user-images.githubusercontent.com/30430227/146299181-78a1b321-d636-4409-ac90-b5171633bacb.png)
+![image](https://user-images.githubusercontent.com/30430227/149058148-6e3920bd-0e84-4005-a197-28f8970ca13e.png)
 
 <br>
 
