@@ -101,22 +101,14 @@ Spem
 `참조 텍스처 노드`
 
 ![image](https://user-images.githubusercontent.com/30430227/139713673-3aa9e968-e4f7-4882-8e2d-f633950a5e28.png)
-![image](https://user-images.githubusercontent.com/30430227/139713611-7c8b3b8d-2f5e-4118-89f8-2512ed568801.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/139713730-c6e1f1d5-e3ca-4d23-8239-82040c59cfef.png)
 
-`웨이브`
-
-![image](https://user-images.githubusercontent.com/30430227/139714249-d278be7b-3ba8-4003-acc7-7538df0d6a1c.png)
-
-![image](https://user-images.githubusercontent.com/30430227/139714439-8ba634ea-faa4-4167-9be0-842f86f85f9c.png)
-
 `회오리`
 
-![image](https://user-images.githubusercontent.com/30430227/139714893-1caf9759-1689-49e5-952e-4a8ec00a50bc.png)
+![image](https://user-images.githubusercontent.com/30430227/149055784-dcb2c093-e705-494b-b9f3-f6c7b1e2b57c.png)
 
-![image](https://user-images.githubusercontent.com/30430227/139714971-2d85f161-4328-4ce5-91db-4d6f1ac481f0.png)
+![image](https://user-images.githubusercontent.com/30430227/149056071-08cc8c76-6b80-4579-85f1-2b8de9dd982e.png)
 
-![image](https://user-images.githubusercontent.com/30430227/139715003-9447a593-f970-410c-9991-49d4bf06a566.png)
 
 
