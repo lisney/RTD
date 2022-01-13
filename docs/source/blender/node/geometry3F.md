@@ -146,10 +146,6 @@ Knot Mographic
 
 ![image](https://user-images.githubusercontent.com/30430227/142619362-69629201-afa7-4570-9ae6-34dead7ca9f4.png)
 
-`커브 추가 심플 - 첫번째 Position은 Position In 대신에 Offset In으로 심플, 두 번재 Position은 Random Rotate와 offset 노드`
-
-![image](https://user-images.githubusercontent.com/30430227/142640618-e8d78159-48b2-40b6-b751-ff5583618e18.png)
-
 `쳐짐 - 커브 Geometry > Subdivide Curve > Set Position(Selection: 기존 점은 0, Subdivision Point는 0보다 크다)`
 
 ![image](https://user-images.githubusercontent.com/30430227/142621111-7abddff7-c380-43e1-9a9d-211b13ee1cd8.png)
