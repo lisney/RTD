@@ -1,5 +1,36 @@
 Sculpt
 ========
+
+```
+Trim브러시 //Strength를 1로, Area Plane를 LOck한다 //Curve를 평평한걸로
+
+스컬핑 시 Mesh Topology, 영역 주변만 영향을 받게 //Front Faces Only를 체크한다
+
+'Gravity' //Options > Options > Gravity
+
+Area Plan Lock : 터치 평면에서만 작업가능(작업영역고정, 노말방향으로고정),
+Scrape/Peaks 는 평면으로 깍고, Flatten 은 평면을 쌓?는다
+
+ctrl + 1,2,3 섭디
+
+Blob과 Inflate 차이점 : Blob은 한방향, Inflate은 양방향
+
+##스컬핑 브러시 단축키 설정
+** Draw Curve(커브의 EditMode에서 베벨값, Shift+Right(ActionMouse)로 드랙. curve.draw, WaitForInput 체크X 
+   paint.brush_select  
+   가령 키보드 M에 마스크브러시를 설정한다면.
+   Sculp Tool에서 마스크를 선택한다.
+** Toggle 은 키를 반복해서 누르면 이전 브러시로 돌아간다.
+
+** 스컬핑브러시 라소 마스크 단축키 설정
+    paint.mask_lasso_gesture
+    shift+ctrl+레프트마우스
+
+** Dynatopo 와 Symmetry XYZ 단축키 설정하기
+    sculpt.dynamic_topology_toggle(ctrl + D)//wm.context_toggle//tool_settings.sculpt.use_symmetry_x
+    
+```
+
 1. Remesh    
 `Shift + R > Ctrl + R`  
 ![image](https://user-images.githubusercontent.com/30430227/132807187-8b34137b-813f-473d-9968-6c7564d5e77d.png)  
@@ -70,7 +101,59 @@ Sculpt
 ![image](https://user-images.githubusercontent.com/30430227/132811518-cdb76a3e-2c54-4efb-ad94-bb420c78f832.png)
 ![image](https://user-images.githubusercontent.com/30430227/132811534-8546e60b-dd61-4c28-8bc2-14f9b77e9452.png)  
 
+<br>
 
+Hardsurface퀵팁 
+---------------
+
+1. 홈파기 - Layer Brush, 한 번 파인 깊이로 고정
+
+![image](https://user-images.githubusercontent.com/30430227/149243758-665e5e29-3ef7-47ad-a3ee-5cb2b142e624.png)
+![image](https://user-images.githubusercontent.com/30430227/149243770-31de86df-5a75-44b9-b034-d6e6529f51d4.png)
+
+`Layer brush > Strength: 1 > - 모드 > Persistent 체크, 버튼 클릭 > 단축키 'e' Line`
+
+![image](https://user-images.githubusercontent.com/30430227/149243827-c6c9b858-0bc5-4a46-9afa-a7593d3b189b.png)
+![image](https://user-images.githubusercontent.com/30430227/149243852-89b0d91c-cc34-4d2f-afea-5bbc89123293.png)
+
+<br>
+
+2. Mask Brush 
+
+`Mask Feather: 1 > Strength: 2 - 분명하게 선택`
+
+![image](https://user-images.githubusercontent.com/30430227/149244342-5f1f6701-25ef-4ad6-a2ab-31d9178aac87.png)
+
+`Stroke Method 'e' > Curve 생성 'Ctrl + R-클릭' > 베지어커브 'Ctrl + R-드랙' > 브러시 사이즈 'f' > 생성 'Ctrl - L클릭'`
+
+![image](https://user-images.githubusercontent.com/30430227/149244874-11fc6eb2-7172-478f-9c41-355812f8aace.png)
+![image](https://user-images.githubusercontent.com/30430227/149244977-73a72be3-c0fa-4dd7-b5a5-7c189b754481.png)
+
+`반전 'Ctrl - i' > Move or Inflate(Mesh Filter Brush) `
+
+![image](https://user-images.githubusercontent.com/30430227/149245543-5d1d4d3c-3d7a-41cf-ab61-3eb8be96d73b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/149245522-b62a7be0-acd7-4dcc-ad01-700c905ab074.png)
+![image](https://user-images.githubusercontent.com/30430227/149245471-feb13109-99b9-4617-8226-d6536e8ab73a.png)
+
+`Shrink Mask 두 번 > Remesh 스포이드 체크 후 Paint 체크 > Smooth(Mesh Filter Brush) -L클릭 드래그`
+
+![image](https://user-images.githubusercontent.com/30430227/149245904-10363ed6-e6f8-4396-81dd-a7157d52a7f2.png)
+![image](https://user-images.githubusercontent.com/30430227/149245924-d992fbe3-0ecd-4d15-9a41-be5004235216.png)
+
+![image](https://user-images.githubusercontent.com/30430227/149245697-ada2fcdf-0cd3-4320-8472-80f007481d22.png)
+
+<br>
+
+3. Alpha Texture
+
+`Drack Dot > Mapping: Area Plane > Falloff: Constant(왼쪽 단추)`
+
+![image](https://user-images.githubusercontent.com/30430227/149246804-fb42e570-33f1-4ebf-b30b-536fea05f1aa.png)
+
+![image](https://user-images.githubusercontent.com/30430227/149246441-84ba824d-2709-4a50-996b-a59e8ae70f93.png)
+![image](https://user-images.githubusercontent.com/30430227/149246487-6d4bcfcc-c4de-4c0c-abd9-97fd0cd735c1.png)
+![image](https://user-images.githubusercontent.com/30430227/149246747-cc5c2b75-62a1-4ef7-a322-afb4b9129b03.png)
 
 
 
