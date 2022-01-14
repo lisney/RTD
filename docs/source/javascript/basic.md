@@ -24,6 +24,9 @@
     jsBook.title='파이썬'
     console.log(jsBook.title)
 </script>
+
+## ` 백틱(맞춤법 그대로 적용), ${변수}
+
 ```
 
 ## addEventListener, Form, submit
