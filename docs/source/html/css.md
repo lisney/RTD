@@ -8,6 +8,8 @@ CSS
 
 [Particle.js](https://github.com/VincentGarreau/particles.js/)
 
+[Chart.js](https://www.chartjs.org/)
+
 1. 가상요소 `:before`, `after`
 
 ```
