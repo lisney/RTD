@@ -58,4 +58,11 @@ PHP
 
 ![image](https://user-images.githubusercontent.com/30430227/149702733-18a83a85-cf32-44d4-b4c5-c0fa39ae7a9b.png)
 
+`서버 주소 바꾸기 > Config 버튼 > Listen 주소 입력-포트는 80으로 하면 주소창에 안보이게된다 > 서버 재시동 `
+
+![image](https://user-images.githubusercontent.com/30430227/149762552-d7b3141c-8ddd-4ed7-abc7-eb4369045b0f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/149762572-52b00526-2451-429d-b60d-2c398a1455c6.png)
+
+
 
