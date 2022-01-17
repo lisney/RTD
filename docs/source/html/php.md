@@ -66,4 +66,15 @@ PHP
 
 ![image](https://user-images.githubusercontent.com/30430227/149762889-391d2b8b-2864-4969-8092-62846e4025ba.png)
 
+<br>
+
+3. PHP include(partial)
+
+`기초`
+
+![image](https://user-images.githubusercontent.com/30430227/149773138-8c70a567-23b8-49ea-93c5-72d8e3787939.png)
+
+`menu.php`
+
+![image](https://user-images.githubusercontent.com/30430227/149773336-5c59db3e-2fd7-4778-bd7c-f31aec5dccb0.png)
 
