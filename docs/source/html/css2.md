@@ -424,3 +424,77 @@ form input{
 }
 ```
 
+<br>
+
+Menu
+------
+
+1. Check Box
+
+![image](https://user-images.githubusercontent.com/30430227/149825685-f6614c3a-c303-488e-b0ef-8bc7367baf62.png)
+
+```
+<form action="" id="frm">
+
+  <p>
+    Select your favorite sports
+    (<label for="sportAll">select all</label>
+    <input type="checkbox" name="dummy" id="sportAll">)
+  </p>
+  <ul>
+    <li>
+      <label for="Baseball">Baseball</label>
+      <input type="checkbox" name="sports" id="Baseball"></li>
+    </li>
+    <li>
+      <label for="Basketball">Basketball</label>
+      <input type="checkbox" name="sports" id="Basketball"></li>
+    </li>
+    <li>
+      <label for="Hockey">Hockey</label>
+      <input type="checkbox" name="sports" id="Hockey"></li>
+    </li>
+    <li>
+      <label for="Soccer">Soccer</label>
+      <input type="checkbox" name="sports" id="Soccer"></li>
+    </li>
+  </ul>
+
+</form>
+```
+
+```
+var $sportAll = $('#sportAll');
+$sportAll.change(function () {
+  var $this = $(this);
+  var checked = $this.prop('checked'); // checked 문자열 참조(true, false)
+  // console.log(checked);
+  $('input[name="sports"]').prop('checked', checked);
+
+});
+
+var boxes = $('input[name="sports"]');
+boxes.change(function () {
+  // 첫 번째 방법
+  /*
+  var selectAll = true;
+  var count = boxes.length;
+  var i = 0;
+  for (; i < count; i++) {
+    if (!boxes[i].checked) {
+      selectAll = false;
+      break;
+    }
+  }
+  */
+
+  // 두 번째 방법
+  var boxLength = boxes.length;
+  // 체크된 체크박스 갯수를 확인하기 위해 :checked 필터를 사용하여 체크박스만 선택한 후 length 프로퍼티를 확인
+  var checkedLength = $('input[name="sports"]:checked').length;
+  var selectAll = (boxLength == checkedLength);
+
+  $sportAll.prop('checked', selectAll);
+
+});
+```
