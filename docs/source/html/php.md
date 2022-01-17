@@ -74,7 +74,13 @@ PHP
 
 ![image](https://user-images.githubusercontent.com/30430227/149773138-8c70a567-23b8-49ea-93c5-72d8e3787939.png)
 
+<br>
+
 `menu.php`
 
 ![image](https://user-images.githubusercontent.com/30430227/149773336-5c59db3e-2fd7-4778-bd7c-f31aec5dccb0.png)
+
+`default.php`
+
+![image](https://user-images.githubusercontent.com/30430227/149773623-43dfc92d-2109-45d7-bc5b-800aa6058128.png)
 
