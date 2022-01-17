@@ -4,6 +4,9 @@ CSS2
 기초
 -----
 
+1. text-align 은 inline 속성에만 된다. 
+
+
 ![image](https://user-images.githubusercontent.com/30430227/149711123-244c71df-e787-424f-9c25-01de42b0941e.png)
 
 ```
