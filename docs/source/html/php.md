@@ -84,3 +84,10 @@ PHP
 
 ![image](https://user-images.githubusercontent.com/30430227/149773623-43dfc92d-2109-45d7-bc5b-800aa6058128.png)
 
+<br>
+
+`레이아웃 표`
+
+[참조사이트](https://www.kimsq.com/docs/c/dev/extension/layout)
+![image](https://user-images.githubusercontent.com/30430227/149775041-7ff04642-aada-4160-8b28-ed50ec238a7a.png)
+
