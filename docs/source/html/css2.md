@@ -429,7 +429,95 @@ form input{
 Menu
 ------
 
-1. 전체 Check Box 선택
+1. TAB Table
+
+![image](https://user-images.githubusercontent.com/30430227/149853528-1e32bb86-9bf5-4039-a332-ba4f6ba122b3.png)
+
+```
+        <input type="radio" name="tab" id="maf" checked>
+        <input type="radio" name="tab" id="stl">
+        <nav>
+            <label for="maf" class="maf">MAF Files</label>
+            <label for="stl" class="stl">STL Files</label>
+        </nav>
+        <table class="table mafTable">
+            <thead>
+                <tr>
+                    <th>
+                        <input type="checkbox" name="maf" id="allMaf" unchecked>
+                    </th>
+                    <th>No.</th>
+                    <th>File</th>
+                    <th>File Size</th>
+                    <th>Date</th>
+                    <th>Expires</th>
+                    <th>File Check</th>
+                    <th>User</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="checkbox" name="maf" checked></td>
+                    <td>1</td>
+                    <td>test.MAF</td>
+                    <td>8.5MB</td>
+                    <td>2022-01-07 16:02</td>
+                    <td>8 days left</td>
+                    <td>Valid</td>
+                    <td>Donald Trump</td>
+                </tr>
+```
+
+```
+
+#maf:checked ~ nav label.maf,
+#stl:checked ~ nav label.stl{
+    color: teal;
+    font-weight: 700;
+}
+
+section.mylist .table{
+    display: none;
+}
+
+#maf:checked ~ table.mafTable{
+    display: block;
+}
+
+#stl:checked ~ table.stlTable{
+    display: block;
+}
+
+input[type=radio]{
+    display: none;
+}
+
+
+section.mylist table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+section.mylist td, th{
+    padding: 12px 15px;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 1rem;
+}
+
+section.mylist th{
+    background: teal;
+    color: white;
+}
+
+section.mylist tbody tr:nth-child(even){
+    background:azure;
+}
+```
+
+<br>
+
+2. 전체 Check Box 선택
 
 ![image](https://user-images.githubusercontent.com/30430227/149853226-32e0ffa3-a565-4b80-97aa-12858f37e6c2.png)
 
