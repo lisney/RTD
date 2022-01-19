@@ -61,7 +61,10 @@ Blob과 Inflate 차이점 : Blob은 한방향, Inflate은 양방향
 `Inflate(튀어나옴) 하지않고 센터로 집중 - Expand > Ctrl(반대) + 드래그 `  
 ![image](https://user-images.githubusercontent.com/30430227/137706985-e7d1f3a4-da7b-44e6-99e9-20d176fab858.png)  
 
+<br>
+5. FaceSet brush
 
+`hide 단축키 'h'`
 
 
 바느질 
