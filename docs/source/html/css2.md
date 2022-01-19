@@ -18,6 +18,8 @@ CSS2
 
 `<li><a href="#" onclick="window.open('https://www.mediace3d.com/','_blank')">MediACE3D.com</a></li>`
 
+7.  <link rel="icon" type="image/x-icon" href="./images/favicon_mediace3d.png">
+
 
 ```
 <link rel="stylesheet" id="changeStyle" href="./style.css">
