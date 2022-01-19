@@ -14,6 +14,11 @@ CSS2
 
 5. css 파일 변경 
 
+6. inline javascript open window
+
+`<li><a href="#" onclick="window.open('https://www.mediace3d.com/','_blank')">MediACE3D.com</a></li>`
+
+
 ```
 <link rel="stylesheet" id="changeStyle" href="./style.css">
 
