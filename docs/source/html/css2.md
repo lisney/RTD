@@ -10,6 +10,10 @@ CSS2
 
 3. 반응형 높이값 - vw사용  height: 30vw;
 
+4. disply:none 적용 안될 때 -  display: none !important;
+
+<br>
+
 ![image](https://user-images.githubusercontent.com/30430227/149711123-244c71df-e787-424f-9c25-01de42b0941e.png)
 
 ```
