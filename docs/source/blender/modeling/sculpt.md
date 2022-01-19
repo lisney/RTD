@@ -155,6 +155,21 @@ Hardsurface퀵팁
 ![image](https://user-images.githubusercontent.com/30430227/149246487-6d4bcfcc-c4de-4c0c-abd9-97fd0cd735c1.png)
 ![image](https://user-images.githubusercontent.com/30430227/149246747-cc5c2b75-62a1-4ef7-a322-afb4b9129b03.png)
 
+<br>
+
+LineProject Brush
+-------------------
+
+![image](https://user-images.githubusercontent.com/30430227/150132796-b3ddfae7-9dee-491f-8520-9eafd2b96157.png)
+
+1.단축키
+
+`플립 : F, 이동: Space`
+
+2. 선택한 부분만 적용
+
+![image](https://user-images.githubusercontent.com/30430227/150133615-6c75484f-4ae9-434b-b6cd-334fd2201122.png)
+
 
 
 
