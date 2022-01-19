@@ -66,6 +66,11 @@ Blob과 Inflate 차이점 : Blob은 한방향, Inflate은 양방향
 
 `hide 단축키 'h'`
 
+6. 스컬핑 모델에 집중 모드 - 나머지 모델은 어둡게 보인다
+
+![image](https://user-images.githubusercontent.com/30430227/150142297-68be078e-cdb3-4128-a7c1-0ea12f91b601.png)
+
+
 
 바느질 
 --------
@@ -169,10 +174,24 @@ LineProject Brush
 
 `플립 : F, 이동: Space`
 
-2. 선택한 부분만 적용
+2. 커브 그려진 부분만 적용
 
 ![image](https://user-images.githubusercontent.com/30430227/150133615-6c75484f-4ae9-434b-b6cd-334fd2201122.png)
 
+![image](https://user-images.githubusercontent.com/30430227/150145659-d3d71e0e-42b9-4e8a-9633-a4e582e87bba.png)
+![image](https://user-images.githubusercontent.com/30430227/150145721-c99543fc-9c7d-4afc-a6d5-149dc9dda57d.png)
+
+`체크 끄면 - 연장선 상의 모든 부분에 적용`
+
+![image](https://user-images.githubusercontent.com/30430227/150145825-46bd2aa3-4dfa-4007-aacb-0ef2fd91c275.png)
+
+3. 모서리 정리 
+
+`remesh > Scrape Brush`
+
+![image](https://user-images.githubusercontent.com/30430227/150146138-509e84b5-2dbf-4636-b074-7a541df8eb4e.png)
+![image](https://user-images.githubusercontent.com/30430227/150146230-6eb891b8-7215-4b53-a452-679d99a368e6.png)
+![image](https://user-images.githubusercontent.com/30430227/150146283-220dc365-12b9-442e-a7d9-437a38e96044.png)
 
 
 
