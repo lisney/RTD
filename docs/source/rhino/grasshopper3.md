@@ -170,6 +170,12 @@ MeshEdit Tool Component
 
 ![image](https://user-images.githubusercontent.com/30430227/147648902-adde08af-bd07-4922-a154-2443003bee16.png)
 
+<br>
+
+포인트 오프셑 
+-----------
+
+![image](https://user-images.githubusercontent.com/30430227/150280942-d2c2ccf7-1bea-433d-8fca-406883d110c6.png)
 
 
 
