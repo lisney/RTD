@@ -177,6 +177,14 @@ MeshEdit Tool Component
 
 ![image](https://user-images.githubusercontent.com/30430227/150280942-d2c2ccf7-1bea-433d-8fca-406883d110c6.png)
 
+<br>
+
+원형 패턴 
+---------
+
+![image](https://user-images.githubusercontent.com/30430227/150353654-7883e5b5-a727-4c38-9086-0b13cb4c068a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/150353851-94bf3257-cc47-408b-8a3b-020c5a77dfba.png)
 
 
 
