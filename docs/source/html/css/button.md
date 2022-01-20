@@ -7,6 +7,15 @@ Button Ripple Effect
 ![image](https://user-images.githubusercontent.com/30430227/150300838-0b02da89-1c1f-4e81-a863-ff685e1878f4.png)
 
 ```
+addEventListener('click', e=>{
+let x = e.clientX - e.target.offsetLeft
+}
+clientX: 좌측 벽에서 찍은 점까지의 X거리
+target.offsetLeft: 좌측 벽에서 찍은 대상의 왼쪽까지 X거리
+
+```
+
+```
 <!DOCTYPE html>
 <html lang="ko">
 <head>
