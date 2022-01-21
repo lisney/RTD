@@ -1,6 +1,10 @@
 Button
 ==========
 
+컬러 
+----
+steelblue, dodgerblue, olive, navy, tomato, teal, violet, whitesmoke, azure, Midnightblue
+
 Button Ripple Effect
 --------------------
 
@@ -248,6 +252,102 @@ CSS - hue
     bg.addEventListener('click', ()=>{
         bg.style.backgroundColor = 'rgba('+randomColor()+','+randomColor()+','+randomColor()+','+randomColor()+')'
     })
+</script>
+</html>
+```
+
+<br>
+
+Animate Sliding 메뉴
+----------------------
+
+![image](https://user-images.githubusercontent.com/30430227/150458394-32b49ea4-9985-4260-b02a-086c9fdc3c97.png)
+
+```
+width, top 이 없음을 확인!
+        #marker{
+            position: absolute;
+            height: 50px;
+            background: dodgerblue;
+            border-radius: 5px;
+            transition: 0.5s;
+        }
+```
+
+
+![image](https://user-images.githubusercontent.com/30430227/150458151-fe8c4ec0-6c1e-4902-9b23-727829dba46d.png)
+![image](https://user-images.githubusercontent.com/30430227/150458160-d8ff1b0f-3abe-4bb1-a9f3-232fbc6e6c0a.png)
+
+```
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: midnightblue;
+        }
+        ul{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        ul li a{
+            position: relative;
+            font-size: 2em;
+            color: white;
+            display: inline-block;
+            padding: 0 20px;
+        }
+        #marker{
+            position: absolute;
+            height: 50px;
+            background: dodgerblue;
+            border-radius: 5px;
+            transition: 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <div id="marker"></div>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Team</a></li>
+    </ul>
+</body>
+<script>
+    const marker = document.querySelector('#marker')
+    const items = document.querySelectorAll('ul li a')
+
+    function indicator(e){
+        marker.style.top = e.offsetTop+'px'
+        marker.style.width = e.offsetWidth+'px'
+    }
+
+    items.forEach(item=>{
+        item.addEventListener('mousemove', event=>{
+            indicator(event.target)
+        })
+    })
+
+
 </script>
 </html>
 ```
