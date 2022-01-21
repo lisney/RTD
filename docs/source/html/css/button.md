@@ -7,6 +7,7 @@ Button Ripple Effect
 ![image](https://user-images.githubusercontent.com/30430227/150300838-0b02da89-1c1f-4e81-a863-ff685e1878f4.png)
 
 ```
+버튼 내부의 위치 찾기
 addEventListener('click', e=>{
 let x = e.clientX - e.target.offsetLeft
 }
@@ -102,4 +103,92 @@ target.offsetLeft: 좌측 벽에서 찍은 대상의 왼쪽까지 X거리
 
 <br>
 
+커서 Hover Event
+----------------
 
+![image](https://user-images.githubusercontent.com/30430227/150450583-f2474bfc-909f-40c7-9912-698d85d8ecb6.png)
+
+```
+커서 중심에 원을 두는 다른 방법
+cursor.style.left = (e.pageX - cursor.clientWidth/2) + 'px'
+
+pointer-events: none;
+기본값: auto, none - 애니효과 X
+```
+
+```
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style-type: none;
+            text-decoration: none;
+        }
+
+        body{
+            background: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        ul{
+            position:relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        ul li a{
+            position: relative;
+            display: inline-block;
+            margin: 10px 0;
+            font-size: 4em;
+            color: white;
+            transition: 0.2s;
+        }
+
+        .cursor{
+            position: fixed;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: white;
+            transition: .2s;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+            mix-blend-mode: difference;
+        }
+
+        ul li:hover ~ .cursor{
+            transform: scale(6);
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Contact</a></li>
+        <div class="cursor"></div>
+    </ul>
+</body>
+<script>
+    const cursor = document.querySelector('.cursor')
+    document.addEventListener('mousemove', (e)=>{
+        cursor.style.left = e.pageX + 'px'
+        cursor.style.top = e.pageY + 'px'
+    })
+</script>
+
+</html>
+```
