@@ -192,3 +192,62 @@ pointer-events: none;
 
 </html>
 ```
+
+<br>
+
+색상 바꾸기 hue
+-------------
+
+![image](https://user-images.githubusercontent.com/30430227/150453781-5379e448-cc37-4166-912e-d3ad1326508d.png)
+
+``
++ : 함수 반환값
+    bg.style.backgroundColor = 'rgba('+randomColor()+','+randomColor()+','+randomColor()+','+randomColor()+')'
+    bg.style.backgroundColor = `rgba( ${randomColor()},${randomColor()},${randomColor()},${randomColor()})` - `백틱 사용(=파이썬)
+CSS - hue
+    mix-blend-mode: hue;
+```
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body{
+            overflow: hidden;
+        }
+
+        img{
+            width: 100%;
+        }
+
+        #bg{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100vh;
+            mix-blend-mode: hue;
+        }
+    </style>
+</head>
+<body>
+    <img src="./images/testhand.jpg" alt="">
+    <div id="bg"></div>
+</body>
+<script>
+    const bg = document.querySelector('#bg')
+    function randomColor(){
+        return Math.floor(Math.random()*255)
+    }
+    bg.addEventListener('click', ()=>{
+        bg.style.backgroundColor = 'rgba('+randomColor()+','+randomColor()+','+randomColor()+','+randomColor()+')'
+    })
+</script>
+</html>
+```
