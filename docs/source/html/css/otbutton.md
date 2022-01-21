@@ -351,3 +351,96 @@ width, top 이 없음을 확인!
 </script>
 </html>
 ```
+
+<br>
+
+온오프 
+------
+
+![image](https://user-images.githubusercontent.com/30430227/150486669-75008549-c7c5-4d76-955e-b984f31a2cf8.png)
+
+```
+옴푹 홈
+box-shadow: inset 0 8px 60px rgba(0,0,0,0.5),inset 0 8px 8px rgba(0,0,0,0.5), inset 0 -4px 4px rgba(0,0,0,0.1);
+
+원형 버튼
+box-shadow: 0 8px 40px rgba(0,0,0,0.5), inset 0 4px 4px rgba(255,255,255,0.2), inset 0 -4px 4px rgba(255,255,255,0.2);
+```
+
+```
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: mue;
+            transition: 0.5s;
+            background: deepskyblue;
+        }
+
+        body.active{
+            background: snow;
+        }
+
+        #toggle{
+            position: relative;
+            display: block;
+            width: 320px;
+            height: 160px;
+            border-radius: 160px;
+            background: darkslategray ;
+            transition: 0.5s;
+            box-shadow: inset 0 8px 60px rgba(0,0,0,0.5),inset 0 8px 8px rgba(0,0,0,0.5), inset 0 -4px 4px rgba(0,0,0,0.1);
+            cursor: pointer;
+        }
+
+        #toggle.active{
+            background: snow;
+        }
+
+        #toggle.active .indicator{
+            left: 160px;
+        }
+
+        #toggle .indicator{
+            position: absolute;
+            width: 160px;
+            height: 160px;
+            top: 0;
+            left: 0;
+            background: linear-gradient(to bottom, dodgerblue, midnightblue);
+            border-radius: 50%;
+            transform: scale(0.9);
+            box-shadow: 0 8px 40px rgba(0,0,0,0.5), inset 0 4px 4px rgba(255,255,255,0.2), inset 0 -4px 4px rgba(255,255,255,0.2);
+            transition: 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <div id="toggle">
+        <i class="indicator"></i>
+    </div>
+</body>
+<script>
+    const body = document.querySelector('body')
+    const toggle = document.querySelector('#toggle')
+    toggle.onclick = function(){
+        toggle.classList.toggle('active')
+        body.classList.toggle('active')
+    }
+</script>
+</html>
+```
+
+
