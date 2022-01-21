@@ -443,4 +443,159 @@ box-shadow: 0 8px 40px rgba(0,0,0,0.5), inset 0 4px 4px rgba(255,255,255,0.2), i
 </html>
 ```
 
+<br>
+
+3D Flip 카드 
+------------
+
+![image](https://user-images.githubusercontent.com/30430227/150494329-fccb7bc6-4f62-448a-995c-9bee7a634135.png)
+
+```
+3D 효과
+transform-style: preserve-3d;
+transform: perspective(2000px);
+transform-origin: left;
+transform: rotateY(-180deg);
+z-index: 2;
+```
+
+```
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: teal;
+        }
+        .card{
+            position: relative;
+            width: 300px;
+            height: 400px;
+            background: white;
+            transform-style: preserve-3d;
+            transform: perspective(2000px);
+            transition: 1s;
+            box-shadow: inset 300px 0 50px rgba(0,0,0,0.15), 0 20px 20px rgba(0,0,0,0.15);
+        }
+        
+        .card:hover{
+            transform: perspective(2000px) translateX(50%);
+            box-shadow: inset 300px 0 50px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.15);
+            
+        }
+        
+        .card:hover .cover{
+            transform: rotateY(-180deg);
+        }
+        
+        .card .cover{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: white;
+            z-index: 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform-style: preserve-3d;
+            overflow: hidden;
+            transition: 1s ease-in-out;
+            transform-origin: left;
+        }
+
+        .card .cover::before{
+            content: "";
+            position: absolute;
+            width: 10px;
+            height: 150%;
+            background: white;
+            transform: rotate(36.5deg);
+            box-shadow: 0 0 0 20px tomato;
+            transition: 0.5s;
+        }
+
+        .card:hover .cover{
+            transform: rotateY(-180deg);
+        }
+
+        .card:hover .cover::before{
+            width: 0;
+            box-shadow: 0 0 0 250px tomato;
+            transform: rotate(143.5deg);
+        }
+
+        .card .cover img{
+            max-width: 100%;
+            z-index: 1;
+        }
+
+        .card .details{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            <!-- align-items: center; -->
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .card .details h3{
+            font-weight: 200;
+            margin: 5px 0;
+        }
+
+        .card .details h2{
+            font-size: 1.5em;
+            color: tomato;
+            font-weight: 600;
+        }
+
+        .card .details a{
+            display: inline-block;
+            padding: 8px 20px;
+            background: dodgerblue;
+            margin-top: 5px;
+            letter-spacing: 1px;
+            border-radius: 25px;
+            font-weight: 500;
+            color: white;
+            font-weight: 600;
+        }
+
+        .card .cover img
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="cover">
+            <img src="./images/4g3.png" alt="">
+        </div>
+        <div class="details">
+            <div>
+                <img src="./images/4g2.jpg" width="250" alt="">
+                <h3>그런 나마에노 히또 시라나이</h3>
+                <h2><sup>$</sup>4G2</h2>
+                <a href="">Buy Now</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+```
 
