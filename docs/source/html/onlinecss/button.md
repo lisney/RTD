@@ -833,3 +833,163 @@ clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 </body>
 </html>
 ```
+
+<br>
+
+Icon Hover Effects
+--------------------
+
+[ionicons](https://ionic.io/ionicons)
+
+![image](https://user-images.githubusercontent.com/30430227/150639475-e4691c48-a2ec-44f5-bb88-61acc999ffc5.png)
+
+```
+전체 클래스를 지우고 현재 요소에 클래스 추가
+        list.forEach(item=>{
+            item.classList.remove('active')
+            this.classList.add('active')
+```  
+
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style: none;
+            text-decoration: none;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: midnightblue;
+        }
+        .navigation{
+            position: relative;
+            width: 350px;
+            height: 70px;
+        }
+        .navigation ul{
+            display: flex;
+        }
+        .navigation ul li{
+            position: relative;
+            width: 70px;
+            height: 70px;
+            z-index: 1;
+            /* indicator 위로 */
+        }
+        .navigation ul li a{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        .navigation ul li a .icon{
+            position: relative;
+            line-height: 75px;
+            transition: 0.5s;
+            font-size: 30px;
+        }
+        .navigation ul li.active a .icon{
+            font-size: 20px;
+            transform: translateY(-6px);
+        }
+        .navigation ul li a .text{
+            position: absolute;
+            font-size: 12px;
+            color: white;
+            bottom: 20px;
+            font-weight: 400;
+            transition: 0.25s;
+            transform: scale(0);
+        }
+        .navigation ul li.active a .text{
+            transform: scale(1);
+        }
+        .indicator{
+            position: absolute;
+            left: 0;
+            width: 70px;
+            height: 70px;
+            border-radius: 10px;
+            transition: 0.5s;
+        }
+        .navigation ul li:nth-child(1).active ~ .indicator{
+            background: tomato;
+            box-shadow: 0 15px 25px tomato;
+            transform: translateX(calc(70px*0));
+        }
+        .navigation ul li:nth-child(2).active ~ .indicator{
+            background: tomato;
+            box-shadow: 0 15px 25px tomato;
+            transform: translateX(calc(70px*1));
+        }
+        .navigation ul li:nth-child(3).active ~ .indicator{
+            background: tomato;
+            box-shadow: 0 15px 25px tomato;
+            transform: translateX(calc(70px*2));
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <ul>
+            <li class="list active">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="airplane-outline"></ion-icon>
+                    </span>
+                    <span class="text">About</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="bicycle-outline"></ion-icon>
+                    </span>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="balloon-outline"></ion-icon>
+                    </span>
+                    <span class="text">Message</span>
+                </a>
+            </li>
+            <div class="indicator"></div>
+        </ul>
+    </div>
+</body>
+<script>
+    let list = document.querySelectorAll('.list')
+    function setActiveClass(){
+        list.forEach(item=>{
+            item.classList.remove('active')
+            this.classList.add('active')
+        })
+    }
+    list.forEach(item=>{
+        item.addEventListener('mouseover',setActiveClass)
+    })
+</script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</html>
+```
+
