@@ -706,5 +706,130 @@ Social Media Hover - with VanillaTilt.js
 
 <br>
 
+육각형 
+------
 
+![image](https://user-images.githubusercontent.com/30430227/150638190-6b5ceb11-dba8-4c45-94d5-70177ffd39d8.png)
 
+[css-clip-path-generatot](https://www.cssportal.com/css-clip-path-generator/)
+
+```
+background: radial-gradient(rgba(0,0,0,0.5),transparent,transparent);
+background: linear-gradient(45deg, dodgerblue, rgba(3,169,244,0.5));
+clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+```
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .container .hexagon{
+            position: relative;
+            width: 350px;
+            height: 400px;
+            margin: 50px 20px 70px;
+        }
+        .container .hexagon::before{
+            content: '';
+            position: absolute;
+            bottom: -70px;
+            width: 100%;
+            height: 60px;
+            background: radial-gradient(rgba(0,0,0,0.5),transparent,transparent);
+            border-radius: 50%;
+            transition: 0.5s;
+        }
+
+        .container .hexagon:hover::before{
+            opacity: .5;
+            transform: scale(0.8);
+        }
+        .container .hexagon .shape{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        }
+        .container .hexagon:hover .shape{
+            transform: translateY(-30px);
+        }
+        .container .hexagon .shape img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+        }
+        .container .hexagon .shape .content{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            text-align: center;
+            background: linear-gradient(45deg, dodgerblue, rgba(3,169,244,0.5));
+            color: white;
+            opacity: 0;
+            transition: 0.5s;
+        }
+        .container .hexagon:hover .shape .content{
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hexagon">
+            <div class="shape">
+                <img src="./p01.jpg" alt="">
+                <div class="content">
+                    <div>
+                        <h2>someone Famouse</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam dicta debitis aperiam dolores libero saepe ullam id animi nemo voluptatibus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hexagon">
+            <div class="shape">
+                <img src="./p02.jpg" alt="">
+            </div>
+        </div>
+        <div class="hexagon">
+            <div class="shape">
+                <img src="./p03.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+```
