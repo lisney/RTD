@@ -58,6 +58,61 @@ ul > li { border-width:  0  2px 2px  0  }
 `border 속성 다음에 border-width가 놓어야 한다`
 <br>
 
+5. Div 속성 
+
+`기본적으로 div는 가로너비(width)가 100% 지만, width 속성을 지정하지 않고 margin과 padding을 지정했을 때 이를 포함한 너비가 100%`
+
+![image](https://user-images.githubusercontent.com/30430227/150628505-3902efed-b557-4714-8bc4-22686d9f771f.png)
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 500px;
+            border: 1px solid #000;
+        }
+        .box div{
+            width: 100%;
+            margin: 20px;
+            padding: 20px;
+            background: dodgerblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div>width 를 지정하지 않고 margin 과 padding  을 지정하면</div>
+    </div>
+</body>
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/30430227/150628533-5e22c5e7-6734-43d2-b4a5-2cd91e7fc104.png)
+
+<br>
+
+6. Inline 속성
+
+`width, height 적용 불가, inline 요소 하위에 block 요소를 가질 수 없음, `
+
+<br>
+
+7. Float 속성
+
+```
+어울림 효과 해지 - clear:both(left,right)
+before와 :after에는 무조건 content:""; 속성이 들어가야 합니다.
+그리고 display:block을 해줘야 clear:both가 작동합니다.
+float은 "어울림" 이고 inline-block은 "글자처럼취급" 입니다. 
+```
+
+
 New
 -----
 
