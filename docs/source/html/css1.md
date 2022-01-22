@@ -10,6 +10,14 @@ CSS
 
 [Chart.js](https://www.chartjs.org/)
 
+`Css Tool Tip Disable- settings.json`
+
+```
+    "editor.quickSuggestionsDelay": 1000,
+    "editor.hover.enabled": false,
+    "editor.parameterHints": false,
+```
+
 1. 가상요소 `:before`, `after`
 
 ```
