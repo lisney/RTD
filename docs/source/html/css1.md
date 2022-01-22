@@ -112,34 +112,116 @@ before와 :after에는 무조건 content:""; 속성이 들어가야 합니다.
 float은 "어울림" 이고 inline-block은 "글자처럼취급" 입니다. 
 ```
 
-
-New
------
-
-```
-line-height : 2em;
-background:url('/images/pic_01.jpg');
-clip-path: circle(10px at center); //at 50% 20%, px등으로 위치 지정
-
-    <script>
-        var section = document.querySelector('section')
-        window.addEventListener('scroll',function(){
-            var value = window.scrollY
-            section.style.clipPath = 'circle(' + value +'px at center)'
-        })
-    </script>
-    
-background: 0% 50% / cover; `X, Y 포지션과 가득채움(cover) 속성`
-
-box-sizing : border-box 와 content-box 차이 
-
-```
-
 > http://placeimg.com/640/480/any
 
 <img src="http://placeimg.com/640/480/any">
 
 <br>
+
+8. Modal Popup - target 선택자
+
+![image](https://user-images.githubusercontent.com/30430227/150629353-a99c5d02-5952-446b-b59e-c4445d5fc1ff.png)
+![image](https://user-images.githubusercontent.com/30430227/150629348-afcb37e5-9368-472b-a4ad-bdc4c9b88c19.png)
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+        #popup{
+            display: none;
+        }
+        #popup:target{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <a href="#popup" class="opener">클릭하세요</a>
+    <div id="popup" class="layer">
+        <h2>열려라</h2>
+        <a href="#">닫혀라</a>
+    </div>
+</body>
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/30430227/150629777-45e4399b-d176-48f0-a131-4859ddd1455c.png)
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+        .layer{
+            display: none;
+            justify-content: center;
+            align-items: center;
+            background: dodgerblue;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+        .layer .box{
+            padding: 20px 20px 60px;
+            width: 500px;
+            background: white;
+            position: relative;
+        }
+        .layer .close{
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+            display: block;
+            background:#09F;
+            color:#fff;text-align:center;
+            padding:5px 20px;
+            font-size:13px;
+        }
+
+        .layer:target{
+            display: flex;
+            animation: open 0.5s;
+        }
+
+        @keyframes open{
+            from{opacity:0;} to {opacity:1;}
+        }
+    </style>
+</head>
+<body>
+    <a href="#popup" class="opener">클릭하세요</a>
+    <div id="popup" class="layer">
+        <div class="box">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore quibusdam nihil deserunt ratione optio nemo rem provident dicta facilis magni minima saepe,obcaecati eaque? Laudantium voluptatum iusto est beatae adipisci aliquam ex, doloribus blanditiis!
+            <a href="#" class="close">닫혀라</a>
+        </div>
+    </div>
+</body>
+</html>
+```
 
 Pure CSS Parallax
 -------------------
@@ -334,73 +416,6 @@ Animation 축약
 
 <br>
 
-팁 1
-------
-
-1. em
-	폰트 사이즈에 비례 ex)font-size: 16 -> 2em : 32
-
-```
- display : grid; 반응형
-	grid-template-columns: 폭 폭 폭 폭 폭;
-	grid-template-columns: repeat(5, 폭);
-	grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
-	grid-gap: 1rem;
-	cursor: pointer;
-	
-image Sprite 유니티의 아틀라스같은... 여러 이미지를 한 장에 모아 사용할 수 있다.
-	background: url('...');
-	width:
-	height:
-	background-position: -30,-50;//좌측 상단부위가 width, height 시작하는 지점
-```
-
-<br>
- 
-2. SCSS 사용
-	 vscode live sass 익스텐션 설치(liveserver 도 동시에 설치된다, 좌측 탐색기에서 오른클릭으로 openWithLiveServer실행할 수 있다)
-	 하단 상태표시줄에서 Watch Sass 클릭하면 동일명의 css가 자동생성된다.
-
-<br>
-
-3. hover 시 자식도 변형효과
-
-```
-transition : transform 0.5s
-
-:hover 자식선택자{...} // .card:hover img{transform: translateX(-10px);
-transform: rotate( 45deg ) // deg, rad, turn
-```
-
-<br>
-
-4. addEventListener 에 대한 예제 window.addEventListener('mousemove', e=>{...e.target.offsetTop...)// e는 이벤트 타겟 객체
-
-```
-	<div class="check">
-    <p>
-        <strong>
-            <span>click</span>
-        </strong>
-    </p>
-	</div>
-
-	<div id="result">색이 들어가있는 박스들을 하나씩 클릭해주세요</div>
-	
-	$("body").click(function(event){
-    $("#result").html("무엇을 클릭했을 까요? " + event.target.nodeName);
-	})
-```
-<br>
-5. css
-
-```
-	div.check{padding:10px;border:1px solid #000;margin-bottom:10px;background-color:#ffeed6;}
-	p{padding:10px;border:1px solid #000;background-color:#d6dfff;}
-	strong{padding:10px;border:1px solid #000;display:block;background-color:#d6ffdb;}
-	span{padding:10x;border:1px solid #000;display:block;background-color:#ffddd6;}
-```
-<br>
 
 이어서 메뉴
 ----------
