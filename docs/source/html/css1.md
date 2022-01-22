@@ -156,6 +156,34 @@ float은 "어울림" 이고 inline-block은 "글자처럼취급" 입니다.
 </html>
 ```
 
+<br>
+
+9. 선택자 
+
+```
+복합선택자
++ : 친구(friend) 선택
+~ : 친구들(friends) 선택
+, : 다중(multi) 선택
+:nth-child(n) : n 번째 태그 선택
+:first-child : 첫번째(first) 요소 선택
+:last-child : 마지막(last) 요소 선택
+
+기타선택자
+* : 모든 태그(all) 선택
+[attribute="value"] : 속성(attribute) 선택
+가상 선택자
+:hover 마우스 올렸을 때
+:active 마우스 누르고 있을 때
+:before 태그 맨 앞에 가상 요소 추가
+:after 태그 맨 뒤에 가상 요소 추가
+a:visited 방문 했던 링크
+a:link 방문 하지 않은 링크
+:focus 입력 포커스가 있는 상태
+:checked input이 check 된 상태
+```
+
+
 ![image](https://user-images.githubusercontent.com/30430227/150629777-45e4399b-d176-48f0-a131-4859ddd1455c.png)
 
 ```
