@@ -993,3 +993,203 @@ Icon Hover Effects
 </html>
 ```
 
+<br>
+
+Card Hover - Product
+----------------------
+
+![image](https://user-images.githubusercontent.com/30430227/150665588-194a5833-c259-461f-9b45-ee8593d0347b.png)
+![image](https://user-images.githubusercontent.com/30430227/150665595-ec933ecd-22b3-4a8b-b334-b2185a748ff0.png)
+
+```
+clip-path: circle(65% at 0 100%); - 크기 at 위치xy
+backdrop-filter: blur(15px) ;
+transition: 0.5s ease-in-out;
+visibility: visible; -반대 hidden
+text-transform: uppercase;
+```
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+        section{
+            padding: 100px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: teal;
+            overflow: hidden;
+            border: 1px solid #000;
+        }
+        section::before{
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: red;
+            clip-path: circle(65% at 100% -20%);
+        }
+        section::after{
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: dodgerblue;
+            clip-path: circle(65% at 0 100%);
+        }
+        .container{
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            z-index: 1;
+        }
+        .container .card{
+            position: relative;
+            width: 300px;
+            height: 400px;
+            margin: 20px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); 
+            backdrop-filter: blur(15px) ;
+        }
+        .container .card .imgBx{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            transition: 0.5s ease-in-out;
+            color: white;
+        }
+        .container .card:hover .imgBx{
+            transform: translateY(-50px);
+        }
+        .container .card .imgBx img{
+            max-width: 70%;
+            margin: 0 0 20px;
+            transition: 0.5s ease-in-out;
+        }
+        .container .card:hover .imgBx img{
+            transform: translate(-20px,-40px) rotate(-25deg) scale(1.4);
+        }
+        .container .card .content{
+            position: absolute;
+            bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            transition: 0.3s ease-in-out;
+            opacity: 0;
+            visibility: hidden;
+        }
+        .container .card:hover .content{
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(-30px);
+        }
+        .container .card .content .size,
+        .container .card .content .color{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 8px 20px;
+        }
+        .container .card .content h3{
+            color: white;
+            font-weight: 300;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-right: 10px;
+        }
+        .container .card .content .size span{
+            display: inline-block;
+            width: 20px;
+            height: 25px;
+            text-align: center;
+            color: black;
+            background: white;
+            border-radius: 4px;
+            margin: 0 5px;
+            box-sizing: content-box;
+            padding: 2px;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+        .container .card .content .color span{
+            width: 20px;
+            height: 20px;
+            background: red;
+            border-radius: 50%;
+            margin: 0 5px;
+            border: 2px solid white;
+            cursor: pointer;
+        }
+        .container .card .content .color span:last-child{
+            background: green;
+        }
+        .container .card .content a{
+            position: relative;
+            top: 10px;
+            display: inline-block;
+            padding: 12px 30px;
+            background: white;
+            border-radius: 40px;
+            text-transform: uppercase;
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="card">
+                <div class="imgBx">
+                    <img src="./kanna.png" alt="">
+                    <h2>Kanna</h2>
+                </div>
+                <div class="content">
+                    <div class="size">
+                        <h3>Size :</h3>
+                        <span>7</span>
+                        <span>7</span>
+                        <span>7</span>
+                    </div>
+                    <div class="color">
+                        <h3>Color :</h3>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <a href="#">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+```
