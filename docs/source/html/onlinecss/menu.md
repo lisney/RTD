@@ -270,3 +270,108 @@ object-fit: cover; - 배경 채움 - fit(영역에 가득), cover(비율에따�
 </script>
 </html>
 ```
+
+<br>
+
+Accordion 메뉴 
+-------------
+
+![image](https://user-images.githubusercontent.com/30430227/150667456-86e0f886-9c88-463c-8eef-0eec63965fd1.png)
+
+```
+top: 50%;(부모 박스센터)  transform: translateY(-50%);(박스센터) - 세로 센터 위치 
+overflow: hidden; overflow-y: auo;  - auto: Y방향 컨텐츠가 많을 경우 스크롤바 생성
+```
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: skyblue;
+        }
+        .accordion{
+            max-width: 400px;
+        }
+        .accordion .contentBx{
+            position: relative;
+            margin: 10px 20px;
+        }
+        .accordion .contentBx .label{
+            position: relative;
+            padding: 10px;
+            background: teal;
+            color: white;
+            cursor: pointer;
+        }
+        .accordion .contentBx .label::before{
+            content: '+';
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+        }
+        .accordion .contentBx.active .label::before{
+            content: '-';
+        }
+        .accordion .contentBx .content{
+            position: relative;
+            background: white;
+            height: 0;
+            overflow: hidden;
+            overflow-y: auo;
+            transition: 0.5s;
+            padding: 0 10px;
+        }
+        .accordion .contentBx.active .content{
+            height: 150px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="accordion">
+        <div class="contentBx">
+            <div class="label">List One</div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur commodi eius nesciunt soluta dicta maiores quam aut dolore qui numquam.</p>
+            </div>
+        </div>
+        <div class="contentBx">
+            <div class="label">List Two</div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur commodi eius nesciunt soluta dicta maiores quam aut dolore qui numquam.</p>
+            </div>
+        </div>
+        <div class="contentBx">
+            <div class="label">List Three</div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur commodi eius nesciunt soluta dicta maiores quam aut dolore qui numquam.</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    const contentBxs = document.querySelectorAll('.contentBx')
+    contentBxs.forEach(contentBx=>{
+        contentBx.addEventListener('click', ()=>{
+            contentBx.classList.toggle('active')
+        })
+    })
+</script>
+</html>
+```
