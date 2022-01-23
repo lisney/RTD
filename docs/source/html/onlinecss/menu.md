@@ -115,3 +115,158 @@ function show(anything){
 </script>
 </html>
 ```
+
+<br>
+
+Dropdown Profile
+-------------------
+
+![image](https://user-images.githubusercontent.com/30430227/150660316-8fd249e8-1aeb-4634-bad5-ce2d7410a820.png)
+![image](https://user-images.githubusercontent.com/30430227/150660343-b74d3992-8b7b-45f2-a836-0efa02fa69c5.png)
+
+```
+min-height: 100vh; - 기본값을 정의(기본값은 0, min-width 기본값 100%)
+border-radius: 50%; overflow: hidden; - overflow가 없으면 이미지 경계를 벗어난다
+object-fit: cover; - 배경 채움 - fit(영역에 가득), cover(비율에따라 일부 짤림), fill(비율무시)
+```
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style: none;
+            text-decoration: none;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: teal;
+        }
+        .card{
+            position: relative;
+            width: 350px;
+            height: 120px;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 50px 50px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            transition: height 0.5s ease-in-out;
+        }
+        .card.active{
+            height: 350px;
+        }
+        .card .content{
+            display: flex;
+            align-items: center;
+        }
+        .card .content .imgBx{
+            position: relative;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .card .content .imgBx img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .card .content h2{
+            margin-left: 15px;
+            font-size: 1.3em;
+            color: midnightblue;
+        }
+        .card .content h2 span{
+            font-size: 0.8em;
+            font-weight: 400;
+            color: gray;
+        }
+        .navigation{
+            position: relative;
+            top: 25px;
+            border-top: 1px solid rgba(0, 0, 0, 0.2);
+            padding: 20px 0;
+            text-transform: uppercase;
+        }
+        .navigation li{
+            margin: 15px 0;
+        }
+        .navigation li a{
+            display: flex;
+            align-items: center;
+            color: darkcyan;
+            font-size: 1.1em;
+            transition: 0.2s;
+        }
+        .navigation li a:hover{
+            color: midnightblue;
+        }
+        .toggle{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 40px;
+            height: 40px;
+            background: slategray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            z-index: 100;
+        }
+        .toggle p{
+            color: white;
+            transition: ease-in-out 0.5s;
+        }
+        .card.active .toggle p{
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="content">
+            <div class="imgBx">
+                <img src="./p02.jpg" alt="">
+            </div>
+            <h2>Sagiri<br><span>MangaSense</span></h2>
+        </div>
+        <ul class="navigation">
+            <li>
+                <a href="#">🧨 Edit Profile</a>
+            </li>
+            <li>
+                <a href="#">🎈 Inbox</a>
+            </li>
+            <li>
+                <a href="#">🥽 Settings</a>
+            </li>
+        </ul>
+        <div class="toggle">
+            <p>▽</p>
+        </div>
+    </div>
+</body>
+<script>
+    const card = document.querySelector('.card')
+    const cardToggle = document.querySelector('.toggle')
+    cardToggle.onclick = ()=>{
+        card.classList.toggle('active')
+    }
+</script>
+</html>
+```
