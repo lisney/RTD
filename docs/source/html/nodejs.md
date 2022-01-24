@@ -531,7 +531,7 @@ const hbs = require('express-handlebars')
 
 const server = express()
 
-server.engine('hbs', hbs({
+server.engine('hbs', hbs({       //수정사항 hbs.engine(..
     extname:'hbs',
     defaultLayout:'layout',
     layoutDir:__dirname+'/views/layouts', // views 템플릿 폴더
