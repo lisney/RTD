@@ -604,6 +604,8 @@ z-index: 2;
 Social Media Hover - with VanillaTilt.js
 -----------------------------------
 
+[font Awesome](https://fontawesome.com/)
+
 ![image](https://user-images.githubusercontent.com/30430227/150636018-007c76eb-fd8a-4252-b6fd-cf2b88afade4.png)
 
 ```
