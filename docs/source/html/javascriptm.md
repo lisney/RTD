@@ -13,7 +13,7 @@ const 1.선언, 초기화, 할당 -동시
 
 <br>
 
-2. 생성자 함수
+2. 생성자 함수 - 첫글자는 대문자로 할 것을 권장
 
 ```
 어떤 함수도 생성자 함수가 될 수 있다 - New붙이면
@@ -304,5 +304,128 @@ arr.map(fn) -  함수를 받아 특정 기능을 시행하고 새로운 배열�
     
 ```
 
-9. Lodash
+<br>
 
+9. 구조 분해 할당(Destructuring assignment) - 인덱스 대신 변수명으로 사용할 수 있다
+
+```
+let [a,b,c] = [1,2] //c에는 undefined가 들어간다
+let [a=3, b=4, c=5] = [1,2] //기본값을 사용하면 c=5
+
+let a =1; let b=2 //임의 변수 없이 값 바꾸기
+    let a = 1;
+    let b = 2;
+    [a,b] =[b,a]
+    console.log(b)
+
+객체 구조 분해
+    let user = {name: 'Mike', age: 30}
+    let {name, age} = user
+
+    console.log(name)
+    
+객체 구조 분해 : 새로운 변수명으로 할당    
+    let user = {name: 'Mike', age: 30}
+    let {name:userName, age:userAge} = user
+
+    console.log(userName)
+객체 구조 분해 : 기본값
+    let user = {name: 'Mike', age:30}
+    let {name, age, gender='male'} = user //user에 gender 멤버가 없다면 기본값 'gender:'male' 
+
+```
+
+<br>
+
+10. Rest Parameters(...), Spread syntax (parameter매개변수/변수, argument전달인자/인수)
+
+```
+- arguments : 함수로 넘어 온 모든 인수에 접근, Array 형태의 객체, 배열의 내장 메서드(forEach..) 없음
+    function showName(name){
+        console.log(arguments.length)
+        console.log(arguments[0])
+        console.log(arguments[1])
+    }
+
+    showName('Mike', 'Tom')
+
+
+- Rest Parameter - 내장 메서드(forEach, reduce등) 사용가능, 나머지 매개변수는 항상 맨 뒤에 있어야한다
+    function add(...numbers){
+        let result = 0
+        numbers.forEach(num=>{
+            result+= num
+        })
+        console.log(result)
+    }
+
+    add(1,2,3)
+---- let result = numbers.reduce((prev,cur)=>prev + cur) // forEach 대신 reduce
+
+- Rest prameter 사용 객체 생성자 함수
+    function User(name, age, ...skills){
+        this.name = name
+        this.age = age
+        this.skills = skills
+    }
+
+    const user1 = new User("Mike", 30, "Html", "css")
+    const user2 = new User("Tom", 20, "JS", "React")
+    const user3 = new User("Mike", 30, "English")
+    
+    console.log(user1)
+```
+
+```
+전개 구문(Spread syntax)
+
+    let arr1 = [1,2,3]
+    let arr2 = [4,5,6]
+    let result = [0, ...arr1, ...arr2, 7,8,9]
+    console.log(result)
+
+- 복제
+    let arr = [1,2,3]
+    let arr2 = [...arr]
+-------------------------
+    let user = {name:"Mike", age: 30}
+    let user2 = {...user}
+
+    user2.name = "Tom"
+
+    console.log(user.name)
+    console.log(user2.name)
+-------------------------
+- 전개 구문 arr1을 [4,5,6,1,2,3] 으로
+    let arr1 = [1,2,3]
+    let arr2 = [4,5,6]
+
+    arr2.reverse().forEach(num=>{
+        arr1.unshift(num)
+    })
+    console.log(arr1)
+    
+    arr1 = [...arr2, ...arr1] // forEach 대신 전개 구문을 사용
+   
+- 객체 생성 
+    let user = {name: "Mike"}
+    let info = {age: 30}
+    let fe = ["JS", "React"]
+    let lang = ["Korean", "Engligh"]
+
+    user = Object.assign({}, user, info, {skills:[]})
+
+    fe.forEach(item=>{
+        user.skills.push(item)
+    })
+    lang.forEach(item=>{
+        user.skills.push(item)
+    })
+
+    console.log(user)
+    
+- 나머지 매개변수 사용
+   user = {
+    ...user, ...info, skills: [...fe, ...lang]
+    } 
+```
