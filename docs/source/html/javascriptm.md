@@ -424,7 +424,7 @@ let a =1; let b=2 //임의 변수 없이 값 바꾸기
 
     console.log(user)
     
-- 나머지 매개변수 사용
+- 전개 구문 사용
    user = {
     ...user, ...info, skills: [...fe, ...lang]
     } 
