@@ -375,3 +375,128 @@ overflow: hidden; overflow-y: auo;  - auto: Y방향 컨텐츠가 많을 경우 �
 </script>
 </html>
 ```
+
+<br>
+
+Modal Popup Box
+------------------
+
+![image](https://user-images.githubusercontent.com/30430227/150738040-2c17ee89-e247-4ea3-8e55-5189bac90a12.png)
+![image](https://user-images.githubusercontent.com/30430227/150738075-9f09f2eb-e236-4a4e-b8f5-884a34c21fa0.png)
+
+```
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: dodgerblue;
+        }
+        .btn{
+            position: relative;
+            padding: 15px 20px;
+            background: white;
+            color: dodgerblue;
+            cursor: pointer;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            transition: 0.5s;
+        }
+        .btn:hover{
+            letter-spacing: 4px;
+        }
+        #popup{
+            position: fixed;
+            top: -100%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1000;
+            background: white;
+            width: 450px;
+            padding: 80px 50px 50px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+            transition: 0.5s;
+            visibility: hidden;
+        }
+        #popup.active{
+            visibility: visible;
+            top: 50%;
+        }
+        #popup .content{
+            position: relative;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #popup .content img{
+            max-width: 80px;
+        }
+        #popup .content .inputBox{
+            position: relative;
+            width: 100%;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #popup .content .inputBox input{
+            width: 100%;
+            padding: 15px;
+            outline: none;
+            font-size: 18px;
+            border: 1px solid rgba(0,0,0,0.2);
+        }
+        #popup .content .inputBox input[type="submit"]{
+            max-width: 150px;
+            background: dodgerblue;
+            color: white;
+            border: none;
+        }
+        .close{
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <a class="btn" onclick="popupToggle();">Subscribe Us</a>
+    <div id="popup">
+        <div class="content">
+            <img src="./images/4g3.png" alt="">
+            <h2>Join Our Newletter</h2>
+    "editor.quickSuggestionsDelay": 1000,
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam blanditiis voluptatem repellendus aliquid, necessitatibus error dolore recusandae atque quam iste.</p>
+            <div class="inputBox">
+                <input type="email" placeholder="Enter Email">
+            </div>
+            <div class="inputBox">
+                <input type="submit" value="Sign Up">
+            </div>
+        </div>
+        <a class="close" onclick="popupToggle()">✖</a>
+    </div>
+</body>
+<script>
+    function popupToggle(){
+        const popup = document.querySelector('#popup')
+        popup.classList.toggle('active')
+    }
+</script>
+</html>
+```
