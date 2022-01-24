@@ -465,7 +465,7 @@ server.listen(3000)
 -----------------------
 
 1. package.json 생성 // 코드 배포를 편하게  
-` npm init `
+` npm init -y `
 
 2. express 모듈 설치  
 ` npm install express  
