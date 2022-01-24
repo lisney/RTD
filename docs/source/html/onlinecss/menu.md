@@ -500,3 +500,107 @@ Modal Popup Box
 </script>
 </html>
 ```
+
+<br>
+
+Modal Popup - :target 방식
+-----------------------
+
+![image](https://user-images.githubusercontent.com/30430227/150750383-3493c3b2-eff8-41fb-af9f-b6dffc490741.png)
+![image](https://user-images.githubusercontent.com/30430227/150750448-fd36a5cf-25e6-4ae8-8c34-0a63270258b8.png)
+
+```
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+        .container{
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            background: skyblue;
+            transition: 0.5s;
+            padding: 20px;
+            z-index: 1;
+        }
+        .container .content{
+            position: relative;
+            max-width: 500px;
+            background: white;
+            padding: 10px;
+        }
+        .container .content img{
+            margin: 0 auto;
+            display: block;
+        }
+        .container .content a{
+            position: relative;
+            display: block;
+            width: 100px;
+            margin-top: 20px;
+            background: #000;
+            color: white;
+        }
+
+        .layer{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            min-height: 100vh;
+            background: rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(15px);
+            z-index: 100;
+            visibility: hidden;
+            opacity: 0;
+            transition: 0.5s;
+        }
+        .layer .box{
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 600px;
+            padding: 50px;
+            box-shadow: 0 5px 30px rgba(0,0,0,.3);
+            background: white;
+        }
+        .layer:target{
+            visibility: visible;
+            opacity: 1;
+        }
+
+
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div class="content">
+            <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, molestias!</h2>
+            <img src="./images/4g2.jpg" alt="">
+            <a href="#popup">Read More</a>
+        </div>
+    </section>
+    <section class="layer" id="popup">
+        <div class="box">
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, expedita?</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, sint!</p>
+            <a href="#">Close</a>
+        </div>
+    </section>
+</body>
+
+</html>
+```
+
+<br>
+
