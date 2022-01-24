@@ -18,6 +18,13 @@ CSS
     "editor.parameterHints": false,
 ```
 
+`HTML 파일의 CSS 주석이 이상할 때 <-- Live Sass compiler 충돌`
+
+![image](https://user-images.githubusercontent.com/30430227/150738333-bd9ef207-2203-4554-8a37-82aa1118856b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/150738676-3365ca27-3e68-45ac-9136-223544a98702.png)
+
+
 1. 가상요소 `:before`, `after`
 
 ```
