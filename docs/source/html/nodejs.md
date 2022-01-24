@@ -466,6 +466,8 @@ server.listen(3000)
 
 `express - NodeJs 서버 프레임워크, handlebars - 템플릿엔진`
 
+`Autocomplite 가 안될 때 npm install --save-dev @types/node`
+
 1. package.json 생성 // 코드 배포를 편하게  
 ` npm init -y `
 
