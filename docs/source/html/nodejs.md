@@ -520,6 +520,15 @@ server.listen(3000,'192.168.0.33',()=>{}
 html랜더링 Template Engine 'handlebars' /{{}} 컬리브라켓
 ---------------------------------------------------------
 
+```
+변경 사항
+require 대신 ES6 import 사용하기 package.json 에  "type":"module" 추가
+
+'babel-node' 에러시 - npm i @babel/node -g 설치
+```
+
+[express-handlebars](https://www.npmjs.com/package/express-handlebars)
+
 1. handlebars 설치  
 ` npm i express-handlebars`
 
