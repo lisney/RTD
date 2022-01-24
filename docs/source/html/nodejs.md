@@ -464,6 +464,8 @@ server.listen(3000)
 편한 서버 express 모듈
 -----------------------
 
+`express - NodeJs 서버 프레임워크, handlebars - 템플릿엔진`
+
 1. package.json 생성 // 코드 배포를 편하게  
 ` npm init -y `
 
