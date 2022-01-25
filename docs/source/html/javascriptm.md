@@ -578,4 +578,96 @@ update.apply(mike, [1999, "singer"]);
 상속, prototype
 ---------------
 
+`객체의 공통적인 멤버를 프로토타입으로 만들어 상속한다 - 프로토타입 체인`
+
+```
+    const car = {
+      wheels: 4,
+      drive() {
+        console.log("drive..");
+      },
+    };
+
+    const bmw = {
+      color: "red",
+      navigation: 1,
+    };
+
+    bmw.__proto__ = car;
+
+    const x5 = {
+      color: "white",
+      name: "x5",
+    };
+
+    x5.__proto__ = bmw;
+
+    console.log(x5.wheels);
+
+    for (p in x5) {
+        if(x5.hasOwnProperty(p)){ //hasOwnProperty 매써드는 객체의 프로퍼티는 true, 상속은 false 반환 
+            console.log('o', p);
+        }else{
+            console.log('x', p);
+        }
+    }
+```
+
+```
+생성자 함수 사용 프로토타입 추가 
+
+    const Bmw = function (color) {
+      this.color = color;
+    };
+
+    Bmw.prototype.wheels = 4;
+    Bmw.prototype.drive = function () {
+      console.log("drive..");
+    };
+
+    const x5 = new Bmw("red");
+    const x4 = new Bmw("blue");
+
+    x5.drive();
+```
+
+```
+- 생성자 프로토타입 다른 방법
+    Bmw.prototype = {
+        constructor: Bmw, //constructor을 명시 않으면 <생성자확인> .constructor 가 없게된다
+        wheel: 4,
+        drive(){
+            console.log("drive..")
+        },
+        navigation: 1
+    }
+```
+
+`instanceof - 해당 생성자에서 생성되었으면 true, 아니면 false 반납`
+
+```
+- 생성자 확인
+    console.log(x5 instanceof Bmw);
+    console.log(x5.constructor === Bmw);
+```
+
+```
+- 인스턴스에서 컬러를 바꿀 수 있는 생성자
+    const Bmw = function (color) {
+      this.color = color;
+    };
+
+- 인스턴스에서 컬러를 바꿀 수 없는 생성자(Closer)
+    const Bmw = function (color) {
+        const c = color;
+        this.getColor = function(){
+            console.log(c)
+        }
+    };
+----------생성--------------
+    const x5 = new Bmw("red");
+```
+
+
+
 
