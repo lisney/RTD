@@ -21,6 +21,10 @@ File > Preference > Javascript> Format:Enable 체크 헤제 >
 .prettierrc 파일을 프로젝트 최상단에 만들어 사용합니다.
 ```
 
+`TabOut - VSCode 따옴표 탭 Extension`
+
+<br>
+
 1. 변수의 생성과정 - 호이스팅
 
 ```
@@ -451,3 +455,127 @@ let a =1; let b=2 //임의 변수 없이 값 바꾸기 -> ';' 필수
     ...user, ...info, skills: [...fe, ...lang]
     } 
 ```
+
+<br>
+
+Closer - 함수와 어휘적-Lexical 환경의 조합
+-----------------------------
+
+`함수가 생성될 당시의 외부 변수를 기억, 생성 이후에도 계속 접근 가능`
+
+```
+    function makeCounter() {
+      let num = 0; //은닉화
+
+      return function () {
+        return num++;
+      };
+    }
+
+    let counter = makeCounter();
+
+    console.log(counter());
+    console.log(counter());
+```
+
+<br>
+
+setTimeout / setInterval
+-------------------------
+
+`setTimeout(함수, 시간, 인수)`
+
+```
+function showName(name){
+    console.log(name);
+}
+setTimeout(showName, 3000, 'Mike');
+```
+
+![image](https://user-images.githubusercontent.com/30430227/150924903-38433b36-a165-4a41-b8d4-e010002f2b1f.png)
+
+```
+    let num = 0;
+
+    function showName(name) {
+      console.log(`접속한지 ${num++}초가 지났습니다`);
+      if (num > 5) {
+        clearInterval(tid);
+      }
+    }
+
+    const tid = setInterval(showName, 1000);
+```
+
+<br>
+
+call, apply, bind
+------------------
+
+`call 메서드 this 특정값으로 지정`
+
+```
+    const mike = {
+      name: "Mike",
+    };
+    function showThisName() {
+      console.log(this.name);
+    }
+
+    showThisName(); //this 최상위인 window
+        //this는 '.' 앞에 있는 객체다 user.show에서  'user'이 this
+    showThisName.call(mike); //mike가 this가 된다
+
+    function update(birthYear, occupation) {
+      this.birthYear = birthYear;
+      this.occupation = occupation;
+    }
+
+    update.call(mike, 1999, "singer"); //this, 인수...
+
+    console.log(mike);
+```
+
+`apply - call은 매개변수를 직접받고, apply는 매개변수를 배열로 받는다`
+
+```
+update.apply(mike, [1999, "singer"]);
+
+예)
+    const nums = [3, 10, 1, 6, 4];
+
+    const maxNum = Math.max(...nums);
+    const minNum = Math.min.apply(null, nums);
+
+    console.log(maxNum, minNum);
+```
+
+`bind - 함수의 this 값을 정한 함수를 새로 생성`
+
+```
+    ...위 예제에 이어서
+    const updateMike = update.bine(mike);
+    updateMike(1980, "police");
+```
+```
+    const user = {
+      name: "Mike",
+      showName: function () {
+        console.log(`hello, ${this.name}`);
+      },
+    };
+
+    user.showName(); //. 점 앞의 user 이 this다
+
+    let fn = user.showName; //함수로
+
+    fn(); //this 가 없다
+    fn.call(user); //user 를 this로
+```
+
+<br>
+
+상속, prototype
+---------------
+
+
