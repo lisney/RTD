@@ -3,6 +3,24 @@ Javascript Middle
 
 `VScode edge Debugger 설치 > launch > VScode, Edge 동시에 뜸, 브라우저에서 색상 바꿈`
 
+[더 예쁜](https://prettier.io/docs/en/options.html)
+
+![image](https://user-images.githubusercontent.com/30430227/150918814-7f1d5bef-3ac1-4c29-b923-5e99f3cb0608.png)
+
+![image](https://user-images.githubusercontent.com/30430227/150919852-1c3fccf7-14a8-479b-9843-0c539d6e154a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/150919061-7440de15-d065-419f-a94a-cec3b563d79e.png)
+
+```
+File > Preference > Javascript> Format:Enable 체크 헤제 >
+> Default Formatter(Prettier - code...) > 오른 쪽 위 버튼 클릭 > settings.json 편집
+
+    "editor.formatOnSave": true,
+    
+코드 스타일을 통일해야하는 경우가 생길 때는
+.prettierrc 파일을 프로젝트 최상단에 만들어 사용합니다.
+```
+
 1. 변수의 생성과정 - 호이스팅
 
 ```
@@ -302,11 +320,9 @@ arr.map(fn) -  함수를 받아 특정 기능을 시행하고 새로운 배열�
     }, [])
 
     console.log(result)
-
-[Lodash](https://lodash.com/)    
-    
 ```
-
+[Lodash -수학함수 라이브러리](https://lodash.com/)    
+    
 <br>
 
 9. 구조 분해 할당(Destructuring assignment) - 인덱스 대신 변수명으로 사용할 수 있다
@@ -315,7 +331,7 @@ arr.map(fn) -  함수를 받아 특정 기능을 시행하고 새로운 배열�
 let [a,b,c] = [1,2] //c에는 undefined가 들어간다
 let [a=3, b=4, c=5] = [1,2] //기본값을 사용하면 c=5
 
-let a =1; let b=2 //임의 변수 없이 값 바꾸기
+let a =1; let b=2 //임의 변수 없이 값 바꾸기 -> ';' 필수
     let a = 1;
     let b = 2;
     [a,b] =[b,a]
@@ -344,7 +360,7 @@ let a =1; let b=2 //임의 변수 없이 값 바꾸기
 
 ```
 - arguments : 함수로 넘어 온 모든 인수에 접근, Array 형태의 객체, 배열의 내장 메서드(forEach..) 없음
-    function showName(name){
+    function showName(){
         console.log(arguments.length)
         console.log(arguments[0])
         console.log(arguments[1])
@@ -363,7 +379,10 @@ let a =1; let b=2 //임의 변수 없이 값 바꾸기
     }
 
     add(1,2,3)
----- let result = numbers.reduce((prev,cur)=>prev + cur) // forEach 대신 reduce
+     // forEach 대신 reduce
+---- let result = numbers.reduce((prev,cur)=>prev + cur) //화살표 함수(Prev+cur 가 리턴값이다)
+----- let result = numbers.reduce((prev,cur)=>{return prev + cur} //블록함수(직접 리턴해줘야한다)
+
 
 - Rest prameter 사용 객체 생성자 함수
     function User(name, age, ...skills){
