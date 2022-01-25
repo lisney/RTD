@@ -198,6 +198,14 @@ a:link 방문 하지 않은 링크
 :checked input이 check 된 상태
 ```
 
+<br>
+
+10. 기타 
+
+```
+단어 - word-break: keep-all(단어가 분리되지 않는다)
+
+```
 
 ![image](https://user-images.githubusercontent.com/30430227/150629777-45e4399b-d176-48f0-a131-4859ddd1455c.png)
 
