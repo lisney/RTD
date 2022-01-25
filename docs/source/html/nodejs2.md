@@ -31,6 +31,10 @@ NodeJs 2
    require 대신 ES6 import 사용하기 package.json 에  "type":"module" 추가
 
   'babel-node' 에러시 - npm i @babel/node -g 설치
+  
+   ES6에는 __dirname 변수가 없다
+    import path from 'path';
+    const __dirname = path.resolve();
 ```
 
 7. handldbars 신버전 데이터 전달
@@ -104,7 +108,40 @@ app.listen(3000);
 
 <br>
 
-4. 
+이전 버전 수정
+--------------
+
+`app.js`
+
+```
+import express from 'express';
+import { engine } from 'express-handlebars';
+import path from 'path'
+
+const __dirname = path.resolve()
+
+const app = express();
+
+app.engine('.hbs', engine({
+    extname: '.hbs',
+    defaultLayout:'layout',
+}));
+app.set('view engine', '.hbs');
+app.set('views', './views');
+
+app.use(express.static(__dirname))
+app.use((req,res,next)=>{
+    next()
+})
+
+app.get('/', (req, res) => {
+    res.render('index');
+});
+
+app.listen(3000);
+```
+
+
 
 
 
