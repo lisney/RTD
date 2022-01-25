@@ -101,6 +101,7 @@ Object.fromEntries() - entries와 반대로 배열을 객체로
 ```
 - 심볼을 사용하지 않고 멤버를 추가하면 기존 메시지에 추가되어 버린다
 - 심볼 멤버에 접근하기 위해서는 []를 사용한다
+- ` 백틱에서는 . 멤버 접근이 안된다 - []를 사용
     <!-- 기존 객체 -->
     const user ={
         name: "Mike",
@@ -245,6 +246,8 @@ arr.find(fn) - 함수 내 조건에 맞는 요소를 찾으면 멈추고 요소�
 arr.reverse() - 배열을 역순으로 재정렬
 
 arr.map(fn) -  함수를 받아 특정 기능을 시행하고 새로운 배열을 반환
+예) isAdult(true/false), id(숫자) 멤버 추가
+
     let userList =[
     {name:"Mike", age:30},
     {name:"Jane", age:27},
@@ -266,7 +269,7 @@ arr.map(fn) -  함수를 받아 특정 기능을 시행하고 새로운 배열�
     console.log(reresult)
     //split('') 하면 모든 철자로 배열 생성
     
-배열인지 확인 array.isArray() 불값 반환 - 'typeof array' 하면 객체로 반환
+배열인지 확인 Array.isArray(arr) 불린 값 반환 - 'typeof array' 하면 객체로 반환
 
 정렬 arr.sort() -배열 자체를 바꾼다, 문자로 파악하여 정렬한다, 인수로 정렬 로직을 담은 함수를 사용하여 숫자정렬
     let arr = [27, 8, 5,13]
@@ -282,7 +285,7 @@ arr.map(fn) -  함수를 받아 특정 기능을 시행하고 새로운 배열�
     }, 0)
     console.log(result)
 
-특정 요소만 추출
+특정 요소만 추출 - 나이가 19 초과하는 사람의 이름
     let userList = [
     {name:"Mike", age:30},
     {name:"Tom", age:10},
