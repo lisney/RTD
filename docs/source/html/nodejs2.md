@@ -108,8 +108,10 @@ app.listen(3000);
 
 <br>
 
-이전 버전 수정
+이전 버전 갱신
 --------------
+
+![image](https://user-images.githubusercontent.com/30430227/150892194-3f63963c-acc6-4715-b7ff-2d417762262a.png)
 
 `app.js`
 
@@ -119,6 +121,7 @@ import { engine } from 'express-handlebars';
 import path from 'path'
 
 const __dirname = path.resolve()
+const port = 3000
 
 const app = express();
 
@@ -135,11 +138,23 @@ app.use((req,res,next)=>{
 })
 
 app.get('/', (req, res) => {
-    res.render('index');
+    res.render('index',{
+        name:'Brush'
+    });
 });
 
-app.listen(3000);
+app.listen(port, ()=>{
+    console.log(`The server is running on Port ${port}`)
+});
 ```
+
+`index.hbs`
+
+```
+<h1>Example App: {{name}} </h1>
+```
+
+
 
 
 
