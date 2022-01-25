@@ -668,6 +668,33 @@ update.apply(mike, [1999, "singer"]);
     const x5 = new Bmw("red");
 ```
 
+<br>
+
+Class 클래스
+------------
+
+```
+- 생성자함수와 클래스 비교
+    const User1 = function (name, age) {
+      this.name = name;
+      this.age = age;
+    };
+    User1.prototype.showname = function () {
+      console.log(this.name);
+    };
+------클래스로 구현
+    class User2 {
+      constructor(name, age) {
+        this.name = name;
+        this.age = age;
+      }
+      showName() {
+        console.log(this.name);
+      }
+    }
+
+```
+
 
 
 
