@@ -607,6 +607,8 @@ Modal Popup - :target 방식
 Smooth Scroll
 ----------------
 
+![image](https://user-images.githubusercontent.com/30430227/151125794-bfe9bc27-bdcf-405d-9e3a-dbba0392c90d.png)
+
 ```
 ul>li*5>a[href="#sec$"]{Section $}
 section#sec$[data-text="Section $"]{내용}*5
