@@ -3,7 +3,7 @@ NodeJs 2
 
 1. Nodemon 설치
 
-`npm i -g nodemon(글로벌로 설치)`
+`npm i -g nodemon(글로벌로 설치), 실행 'nodemon start' - package.json main에 등록한 js파일 `
 
 2. VScode Autocomplition
  
@@ -121,6 +121,7 @@ import { engine } from 'express-handlebars';
 import path from 'path'
 
 const __dirname = path.resolve()
+//ES6부터는 __dirname 변수가 없다. path.resolve()는 현재 경로의 절대경로 반환, path.join()은 상대경로
 const port = 3000
 
 const app = express();
