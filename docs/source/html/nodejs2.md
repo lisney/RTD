@@ -53,6 +53,20 @@ router.get('/list',(req,res)=>{
 })
 ```
 
+8. Prettier Handlebars 파일에 적용하지 않기
+
+```
+  "[handlebars]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false
+  }
+  
+ -특정 파일에 적용하지 않기 
+  "prettier.disableLanguages": [
+    "css"
+]
+```
+
 <br>
 
 손잡이 기초
