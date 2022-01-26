@@ -204,12 +204,14 @@ pointer-events: none;
 
 ![image](https://user-images.githubusercontent.com/30430227/150453781-5379e448-cc37-4166-912e-d3ad1326508d.png)
 
-``
+```
 + : 함수 반환값
     bg.style.backgroundColor = 'rgba('+randomColor()+','+randomColor()+','+randomColor()+','+randomColor()+')'
     bg.style.backgroundColor = `rgba( ${randomColor()},${randomColor()},${randomColor()},${randomColor()})` - `백틱 사용(=파이썬)
 CSS - hue
     mix-blend-mode: hue;
+```
+
 ```
 <!DOCTYPE html>
 <html lang="ko">
