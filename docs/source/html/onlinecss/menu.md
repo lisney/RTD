@@ -604,3 +604,95 @@ Modal Popup - :target 방식
 
 <br>
 
+Smooth Scroll
+----------------
+
+```
+ul>li*5>a[href="#sec$"]{Section $}
+section#sec$[data-text="Section $"]{내용}*5
+
+- data 속성, data-text="1"
+        javascript 에서 접근 data-text
+        css 에서 접근 attr(data-text)-내용, article[data-text='1']{ ... } -선택자
+        
+- 크롬에서 scroll-behavior 안먹힐 때 chrome://flags/#smooth-scrolling  하거나 Javascript
+    <script>
+      const links = document.querySelectorAll("ul a");
+
+      for (const link of links) {
+        link.addEventListener("click", clickHandler);
+      }
+
+      function clickHandler(e) {
+        e.preventDefault();
+        const href = this.getAttribute("href");
+
+        document.querySelector(href).scrollIntoView({ behavior: "smooth" });
+      }
+    </script>
+```
+
+```
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Example App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      *{
+        margin: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+        scroll-behavior: smooth;
+      }
+     
+      section{
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      section:nth-child(odd){
+        background: tomato;
+      }
+      section:before{
+        content: attr(data-text)
+      }
+      ul{
+        width: 100%;
+        height: 50px;
+        background: slategray;
+        position: fixed;
+        top: 0;
+        display: flex;
+        justify-content: space-around;
+      }
+      ul a{
+        color: white;
+        line-height: 50px;
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="#sec1">Section 1</a></li>
+      <li><a href="#sec2">Section 2</a></li>
+      <li><a href="#sec3">Section 3</a></li>
+      <li><a href="#sec4">Section 4</a></li>
+      <li><a href="#sec5">Section 5</a></li>
+    </ul>
+
+    <section id="sec1" data-text="Section 1">내용</section>
+    <section id="sec2" data-text="Section 2">내용</section>
+    <section id="sec3" data-text="Section 3">내용</section>
+    <section id="sec4" data-text="Section 4">내용</section>
+    <section id="sec5" data-text="Section 5">내용</section>
+
+    <script>
+    </script>
+  </body>
+</html>
+```
