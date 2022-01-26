@@ -821,3 +821,138 @@ section#sec$[data-text="Section $"]{내용}*5
   </body>
 </html>
 ```
+
+Mega Menu
+-----------
+
+![image](https://user-images.githubusercontent.com/30430227/151158477-7d20b6b4-cd31-4ed3-9b27-7a3059f21685.png)
+
+```
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-decoration: none;
+      box-sizing: border-box;
+    }
+    body{
+      background: slategray;
+    }
+    nav{
+      width: 100%;
+    }
+    .megaMenu{
+      width: 100%;
+      height: 60px;
+    }
+    .megaMenu ul{
+      width: 100%;
+      height: 100%;
+      background: #000;
+      text-align: center;
+      line-height: 60px;
+      position: relative;
+    }
+    .megaMenu ul li{
+      display: inline-block;
+      margin: 0 15px;
+      padding: 0 15px;
+    }
+    .megaMenu ul li:hover{
+      background: olive;
+    }
+    .megaMenu ul li a{
+      color: white;
+      text-transform: uppercase;
+      font-weight: 800;
+      letter-spacing: 5px;
+      display: block;
+    }
+    .megaMenu ul li:hover a{
+      color: gold;
+    }
+    .megaMenu ul li .subMenu{
+      position: absolute;
+      background: tomato;
+      width: 100%;
+      left: 0;
+      top: 60px;
+      padding: 25px 15px;
+      display: flex;
+      justify-content: space-around;
+      line-height: 24px;
+      visibility: hidden;
+    }
+    .megaMenu ul li:hover .subMenu{
+      visibility: visible;
+    }
+    .megaMenu ul li .subMenu .col img{
+      width: 250px;
+      display: block;
+    }
+    .megaMenu ul li .subMenu p{
+      color: white;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="megaMenu">
+      <ul>
+        <li><a href="#">popular</a></li>
+        <li>
+          <a href="#">sports</a>
+          <div class="subMenu">
+            <div class="col">
+              <img src="./images/4g2.jpg" alt="">
+              <p>football is unconditional love</p>
+            </div>
+            <div class="col">
+              <img src="./images/4g2.jpg" alt="">
+              <p>football is unconditional love</p>
+            </div>
+            <div class="col">
+              <img src="./images/4g2.jpg" alt="">
+              <p>football is unconditional love</p>
+            </div>
+          </div>
+        </li>
+        <li><a href="#">tv shows</a></li>
+        <li><a href="#">movies</a></li>
+        <li>
+          <a href="#">music</a>
+          <div class="subMenu">
+            <div class="col">
+              <h4>the best way to predict the future is to invent it.</h4>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro fugiat saepe exercitationem ducimus, tempore officia!</p>
+            </div>
+            <div class="col">
+              <h4>the best way to predict the future is to invent it.</h4>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro fugiat saepe exercitationem ducimus, tempore officia!</p>
+            </div>
+            <div class="col">
+              <h4>the best way to predict the future is to invent it.</h4>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro fugiat saepe exercitationem ducimus, tempore officia!</p>
+            </div>
+          </div>
+        
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+</body>
+</html>
+```
+
+<br>
+
+
+
