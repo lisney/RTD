@@ -826,7 +826,11 @@ pr.then().catch().finally(function(){console.log('--- 주문 끝 ---')}) - 처�
       .then((res) => {
         console.log(res);
         console.timeEnd("경과시간");
-      });
+      })
+      .catch(console.log) 
+      //에러reject 시 실행
+      //res("3번 주문 완료"); 를 rej(new Error("err..")); 로 바꾼다
+      ;
 
 ------- Promise.all 로 실행 ------ 프로미스를 동시에 실행 모두 마치면 종료
     console.time("경과시간");
@@ -848,7 +852,74 @@ pr.then().catch().finally(function(){console.log('--- 주문 끝 ---')}) - 처�
 
 <br>
 
-17. async, await
+17. async, await 
+
+```
+- async프로미스 체이닝(then)보다 가독성이 좋다
+
+    async function getName(){ return "Mike";}
+    console.log(getName()) //프로미스로 리턴
+```
+
+```
+- await 는 async에만 사용할 수 있다. 뒤에 프로미스가 온다
+
+    async function showName()
+{
+    const result = await getName("Mike")
+    console.log(result)
+```
+
+```
+이전 예제에서 프로미스 체이닝을 async로 구현
+
+    console.log("시작");
+    console.time("경과시간");
+    async function order() {
+      const result1 = await f1();
+      const result2 = await f2(result1);
+      const result3 = await f3(result2);
+      console.log(result3);
+
+      console.timeEnd("경과시간");
+    }
+    order();
+```
+
+```
+- 에러 처리 try catch
+
+    async function order() {
+      try {
+        const result1 = await f1();
+        const result2 = await f2(result1);
+        const result3 = await f3(result2);
+        console.log(result3);
+      } catch (e) {
+        console.log(e);
+      }
+      console.timeEnd("경과시간");
+    }
+```
+
+```
+- 프로미스 All
+
+    async function order() {
+      try {
+        const result = await Promise.all([f1(), f2(), f3()]);
+        console.log(result);
+      } catch (e) {
+        console.log(e);
+      }
+      console.timeEnd("경과시간");
+    }
+```
+
+<br>
+
+18. Generator
+
 
 
 
