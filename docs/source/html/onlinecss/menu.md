@@ -378,6 +378,129 @@ overflow: hidden; overflow-y: auo;  - auto: Y방향 컨텐츠가 많을 경우 �
 
 <br>
 
+Accordion 자동닫힘 
+-------------------
+
+![image](https://user-images.githubusercontent.com/30430227/151134191-660680d6-f927-4096-b38d-2128cdcb1050.png)
+
+```
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Example App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+      }
+      section{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) ;
+      }
+      .menu{
+        width: 300px;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+      .item{
+        border-top: 1px solid teal;
+        overflow: hidden;
+      }
+
+      .btn{
+        display: block;
+        padding: 16px 20px;
+        background: dodgerblue;
+        color: white;
+        position: relative;
+      }
+      .btn:before{
+        content: '';
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        background: dodgerblue;
+        left: 20px;
+        bottom: -7px;
+        transform: rotate(45deg);
+      }
+      .smenu{
+        background: darkslategray;
+        overflow: hidden;
+        transition: max-height 0.3s;
+        max-height: 0;
+      }
+      .smenu a{
+        display: block;
+        padding: 16px 26px;
+        color: white;
+        margin: 4px 0;
+        position: relative;
+      }
+      .smenu a:before{
+        content: '';
+        position: absolute;
+        width: 6px;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: dodgerblue;
+        transition: 0.3s;
+        opacity: 0;
+      }
+      .smenu a:hover:before{
+        opacity: 1;
+      }
+
+      .item:target .smenu{
+        max-height: 10em;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <section>
+      <ul class="menu">
+        <li class="item" id="profile">
+          <a href="#profile" class="btn">🤍Profile</a>
+          <div class="smenu">
+            <a href="#">Posts</a>
+            <a href="#">Picture</a>
+          </div>
+        </li>
+        <li class="item" id="message">
+          <a href="#message" class="btn">💌Messages</a>
+          <div class="smenu">
+            <a href="#">New</a>
+            <a href="#">Sent</a>
+            <a href="#">Spam</a>
+          </div>
+        </li>
+        <li class="item" id="settings">
+          <a href="#settings" class="btn">🔅Settings</a>
+          <div class="smenu">
+            <a href="#">Password</a>
+            <a href="#">Language</a>
+          </div>
+        </li>
+        <li class="item">
+          <a href="#l" class="btn">💨Logout</a>
+        </li>
+      </div>
+    </section>
+
+  </body>
+</html>
+```
+
+
+
 Modal Popup Box
 ------------------
 
