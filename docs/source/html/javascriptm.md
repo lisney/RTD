@@ -374,7 +374,7 @@ let a =1; let b=2 //임의 변수 없이 값 바꾸기 -> ';' 필수
 
 
 - Rest Parameter - 내장 메서드(forEach, reduce등) 사용가능, 나머지 매개변수는 항상 맨 뒤에 있어야한다
-    function add(...numbers){
+    function add(...numbers){ // ...args
         let result = 0
         numbers.forEach(num=>{
             result+= num
@@ -458,8 +458,8 @@ let a =1; let b=2 //임의 변수 없이 값 바꾸기 -> ';' 필수
 
 <br>
 
-Closer - 함수와 어휘적-Lexical 환경의 조합
------------------------------
+11. Closer - 함수와 어휘적-Lexical 환경의 조합
+
 
 `함수가 생성될 당시의 외부 변수를 기억, 생성 이후에도 계속 접근 가능`
 
@@ -480,8 +480,7 @@ Closer - 함수와 어휘적-Lexical 환경의 조합
 
 <br>
 
-setTimeout / setInterval
--------------------------
+12. setTimeout / setInterval
 
 `setTimeout(함수, 시간, 인수)`
 
@@ -509,8 +508,7 @@ setTimeout(showName, 3000, 'Mike');
 
 <br>
 
-call, apply, bind
-------------------
+13. call, apply, bind
 
 `call 메서드 this 특정값으로 지정`
 
@@ -575,8 +573,8 @@ update.apply(mike, [1999, "singer"]);
 
 <br>
 
-상속, prototype
----------------
+14. 상속, prototype
+
 
 `객체의 공통적인 멤버를 프로토타입으로 만들어 상속한다 - 프로토타입 체인`
 
@@ -670,8 +668,7 @@ update.apply(mike, [1999, "singer"]);
 
 <br>
 
-Class 클래스
-------------
+15. Class 클래스
 
 ```
 - 생성자함수와 클래스 비교
@@ -694,6 +691,165 @@ Class 클래스
     }
 
 ```
+
+```
+메소드 오버라이딩 
+    class Car {
+      constructor(color) {
+        this.color = color;
+        this.wheels = 4;
+      }
+      drive() {
+        console.log("drive..");
+      }
+      stop() {
+        console.log("STOP!");
+      }
+    }
+
+    class Bmw extends Car {
+      park() {
+        cnsole.log("PARK");
+      }
+      stop() {
+        super.stop(); //부모클래스의 메소드를 사용하려면 추가
+        console.log("OFF");
+      }
+    }
+
+    const z4 = new Bmw("blue");
+```
+
+```
+- Constructor 오버라이딩 - 반드시 super 추가해줘야함(메소드오버라이딩과 차이)
+- 상속 클래스를 변경하면 
+    class Bmw extends Car {
+      constructor(color, navigation) {
+        super(color);
+        this.navigation = navigation;
+      }
+      park() {
+        cnsole.log("PARK");
+      }
+      stop() {
+        super.stop();
+        console.log("OFF");
+      }
+    }
+```
+
+16. Promise 
+
+`const pr = new Promise((resolve, reject)=>{...});  - resolve 성공 시 실행
+
+```
+판매자 코드-프로미스 생성
+const pr = new Promise((resolve, reject)=>{
+    setTimeout(()=>{resolve('OK')},3000) //성공 전달
+    //setTimeout(()=>{reject('OK')},3000) // 실패 전달
+})
+
+소비자 코드-프로미스 사용
+pr.then(function(result){ console.log(result + '가지러 가자.');}, // 성공resolve 시 실행
+    function(err){ console.log('다시 주문해 주세요');}   );  // 실패reject 시 실행
+    
+소비자 코드 -  catch문 사용해 표현
+pr.then(function(result){}).catch(function(err){}) //같은 기능, 명확하고 에러 검출 용이
+
+
+pr.then().catch().finally(function(){console.log('--- 주문 끝 ---')}) - 처리가 완료되면 항상 실행
+```
+
+```
+콜백지옥과 프로미스
+    const f1 = (callback) => {
+      setTimeout(function () {
+        console.log("1번 주문 완료");
+        callback();
+      }, 1000);
+    };
+    const f2 = (callback) => {
+      setTimeout(function () {
+        console.log("2번 주문 완료");
+        callback();
+      }, 3000);
+    };
+    const f3 = (callback) => {
+      setTimeout(function () {
+        console.log("3번 주문 완료");
+        callback();
+      }, 2000);
+    };
+
+    console.log("시작");
+    console.time("경과시간"); //경과시간 시작
+    f1(function () {
+      f2(function () {
+        f3(function () {
+          console.log("끝");
+          console.timeEnd("경과시간"); //경과시간 출력
+        });
+      });
+    });
+    
+------ 프로미스로 구현 ---
+    const f1 = () => {
+      return new Promise((res, rej) => {
+        setTimeout(function () {
+          res("1번 주문 완료");
+        }, 1000);
+      });
+    };
+    const f2 = (message) => {
+      console.log(message);
+      return new Promise((res, rej) => {
+        setTimeout(function () {
+          res("2번 주문 완료");
+        }, 3000);
+      });
+    };
+    const f3 = (message) => {
+      console.log(message);
+      return new Promise((res, rej) => {
+        setTimeout(function () {
+          res("3번 주문 완료");
+        }, 2000);
+      });
+    };
+    
+---------프로미스 체이닝으로 실행
+    console.log("시작");
+    console.time("경과시간");
+    f1()
+      .then((res) => f2(res))
+      .then((res) => f3(res))
+      .then((res) => {
+        console.log(res);
+        console.timeEnd("경과시간");
+      });
+
+------- Promise.all 로 실행 ------ 프로미스를 동시에 실행 모두 마치면 종료
+    console.time("경과시간");
+
+    Promise.all([f1(), f2(), f3()]).then((res) => {
+      console.log(res);
+      console.timeEnd("경과시간");
+    });
+    
+-------- Promise.race --- 먼저 완료된 프로미스 실행 
+- 용량이 큰 이미지를 보여줄 때 하나라도 로딩되면 보여줌
+    console.time("경과시간");
+
+    Promise.race([f1(), f2(), f3()]).then((res) => {
+      console.log(res);
+      console.timeEnd("경과시간");
+    });
+```
+
+<br>
+
+17. async, await
+
 
 
 
