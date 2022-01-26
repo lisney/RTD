@@ -918,7 +918,146 @@ pr.then().catch().finally(function(){console.log('--- 주문 끝 ---')}) - 처�
 
 <br>
 
-18. Generator
+18. Generator - 함수의 실행을 중간에 멈췄yield다가 재개next할 수 있는 기능
+
+`다른 작업을 하다가 다시 돌아와서 next() 해주면 진행이 멈줬던 부분부터 이어서 실행`
+
+```
+    function* fn() {
+      console.log(1);
+      yield 1;
+      console.log(2);
+      yield 2;
+      console.log(3);
+      yield 3;
+      return "finish";
+    }
+    const a = fn();
+    
+>> 브라우저 Console에 a.next() 입력- yield 의 '값Value'을 리턴하고 다음으로 진행
+>> {value: 'finish', done: true}
+
+>>a.return() - 바로 종료, 더이상 next가 없다
+
+>> a.throw() , try~ catch~ 문에서 catch
+```
+
+```
+iterable
+- Symbol.iterator 메서드가 있어야한다
+- Symbol.iterator 는 iterator를 반환해야한다
+
+iterator
+- next 매서드를 가진다
+- next 메서드는 value 와 done 속성을 가진 객체를 반환한다.
+- 작업이 끝나면 done 은 true 가 된다.
+
+* 배열은 iterable이다
+-------------------------------------------
+    const arr = [2, 3, 4, 5, 6];
+------------------------------------------    
+크롬 디버그 Console에서 실행
+
+console.log(arr) 실행 후 아래 prototype 내용을 보면
+- Symbol(Symbol.iterator): ƒ values() 가 있다
+
+
+const it = arr[Symbol.iterator]()
+undefined
+it.next()
+{value: 2, done: false}
+it.next()
+{value: 3, done: false}
+---------------------------------
+
+* Generator도 iterable 하므로 for(...of...)반복문이 실행된다.
+
+>> a[Symbol.iterator] 로 확인가능
+
+    function* fn() {
+      yield 4;
+      yield 5;
+      yield 6;
+    }
+
+    const a = fn();
+
+    for (let num of a) {
+      console.log(num);
+    }
+```
+
+```
+Generator Next 메소드에 인수 전달 예
+
+    function* fn() {
+      const num1 = yield "첫번째 숫자를 입력: ";
+      console.log(num1);
+
+      const num2 = yield "두번째 숫자를 입력:";
+      console.log(num2);
+
+      return num1 + num2;
+    }
+
+    const a = fn();
+    
+>> a.next(), a.next(2), a.next(5) 순서대로 입력해 테스트
+```
+
+```
+Generator 는 값을 미리 만들어 두지 않는다 while(true) 무한루프를 사용해도 필요한만큼만 생성한다
+
+    function* fn() {
+      let index = 0;
+      while (true) {
+        yield index++;
+      }
+    }
+
+    const a = fn();
+    
+>> a.next() 를 반복입력해 테스트
+```
+
+```
+- yield* 다른 Generator 를 불러온다
+
+    function* gen1() {
+      yield "W";
+      yield "o";
+      yield "r";
+      yield "l";
+      yield "d";
+    }
+
+    function* gen2() {
+      yield "Hello,";
+      yield* gen1(); //반복가능한 모든 객체가 올 수 있다
+      yield "!";
+    }
+
+    console.log(...gen2());
+```
+
+<br>
+
+기타
+-----
+
+1. for in, for of 
+
+```
+for ...in // 객체 순환, 객체의 key값 'a,b,c', 배열에 사용하면 Index를 순환(배열도 객체)
+var obj = {
+  a: 1,
+  b: 2,
+  c: 3
+};
+
+for ...of // 배열 값 순환, 객체obj에 사용하면 Error 발생
+var arr = [1, 2, 3];
+```
 
 
 
