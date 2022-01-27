@@ -11,7 +11,7 @@ Image Slider
   animation-delay: -1s; //슬라이드 각각 시간 차 -1s/1s/3s/5s(총 8초)
   
 ```
-![image](https://user-images.githubusercontent.com/30430227/151275947-a27dd2b9-99b0-441f-96e1-5ab59b960747.png)
+![image](https://user-images.githubusercontent.com/30430227/151276157-541e3481-9937-46f1-b91c-08617d412b59.png)
 
 ```
 <!DOCTYPE html>
