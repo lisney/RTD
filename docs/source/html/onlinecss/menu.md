@@ -994,7 +994,7 @@ Sign In 폼
       padding: 30px;
     }
     h2{
-      margin: 30px 0 20px;
+      margin: 30px 0;
       font-weight: lighter;
       color: white;
       font-size: 50px;
