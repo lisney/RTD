@@ -954,3 +954,86 @@ Mega Menu
 
 <br>
 
+Sign In 폼 
+------------
+
+```
+      background: url(./images/minami.jpg) 50% 50% no-repeat; // 위치 50%
+      display: table;
+      outline: none; / Input
+      border: 0; // 버튼
+```
+
+![image](https://user-images.githubusercontent.com/30430227/151346161-890792d2-38ef-4a86-b0fa-da1c314ff043.png)
+
+```
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      width: 100%;
+      min-height: 100vh;
+      background: url(./images/minami.jpg) 50% 50% no-repeat;
+      background-size: cover;
+      display: table;
+    }
+    .signin{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 5px;
+      padding: 30px;
+    }
+    h2{
+      margin: 30px 0 20px;
+      font-weight: lighter;
+      color: white;
+      font-size: 50px;
+      text-align: center;
+    }
+    input{
+      display: block;
+      width: 320px;
+      height: 50px;
+      background: rgba(0,0,0,0.3);
+      outline: none;
+      border: 1px solid rgba(0,0,0,0.5);
+      border-radius: 5px;
+      font-weight: lighter;
+      font-size: 14px;
+      margin-bottom: 10px;
+      padding-left: 10px;
+    }
+    button{
+      width: 332px;
+      height: 50px;
+      font-size: 16px;
+      background: #000;
+      color: white;
+      border: 0;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <section class="signin">
+    <form action="">
+      <h2>Sign In</h2>
+      <input type="text" placeholder="Enter Username">
+      <input type="text" placeholder="Enter Password">
+      <button class="btn">Sign In</button>
+    </form>
+  </section>
+</body>
+</html>
+```
+
