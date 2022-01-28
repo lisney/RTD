@@ -576,3 +576,73 @@ section.mylist tbody tr:nth-child(even){
             })
         })
 ```
+
+<br>
+
+그림자 이미지
+------------
+
+![image](https://user-images.githubusercontent.com/30430227/151507338-8aa5b1b6-5b77-4019-9698-c5d1664bfbf0.png)
+
+```
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body{
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    section{
+      width: 400px;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+    }
+    section .top{
+      border: 1px solid rgba(0,0,0,0.3);
+      padding: 10px;
+      text-align: justify;
+    }
+    section .btm{
+      width: 100%;
+      height: 15px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .shadowl{
+      background: url(./images/best-shadow-left.png) no-repeat;
+      background-size: cover;
+      width: 200px;
+      height: 15px;
+    }
+    .shadowr{
+      background: url(./images/best-shadow-right.png) no-repeat;
+      background-size: cover;
+      width: 200px;
+      height: 15px;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <div class="top">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio facere pariatur architecto esse modi voluptas sit consectetur, ab a non ullam. Error commodi atque inventore assumenda numquam quod doloremque sequi.</div>
+    <div class="btm">
+      <div class="shadowl"></div>
+      <div class="shadowr"></div>
+    </div>
+  </section>
+</body>
+</html>
+```
+
