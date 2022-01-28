@@ -1197,3 +1197,136 @@ text-transform: uppercase;
 </body>
 </html>
 ```
+
+<br>
+
+Box Hover Effect
+-----------------
+
+![image](https://user-images.githubusercontent.com/30430227/151489167-92730585-e786-4d17-a1b9-d5abec3f85bc.png)
+
+```
+      box-shadow: 0 0 0 400px olive; //박스 그림자는 요소에서의 수평수직 거리(오프셋), 흐릿함과 확산 정도, 색상
+      flex-wrap: wrap;
+```
+
+```
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+      box-sizing: border-box;
+    }
+    body{
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    section{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .box{
+      position: relative;
+      width: 350px;
+      padding: 40px;
+      background: white;
+      box-shadow: 0  5px 15px rgba(0,0,0,0.1);
+      border-radius: 5px;
+      margin: 20px;
+      overflow: hidden;
+      text-align: center;
+    }
+    .box:before{
+      content: '';
+      width: 50%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: rgba(255,255,255,.2);
+      z-index: 2;
+    }
+    .box .icon{
+      position: relative;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: #000;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      font-size: 40px;
+      transition: 1s;
+    }
+    .box:nth-child(1) .icon{
+      box-shadow: 0 0 0 olive;
+    }
+    .box:nth-child(1):hover .icon{
+      box-shadow: 0 0 0 400px olive;
+    }
+    .box:nth-child(2) .icon{
+      box-shadow: 0 0 0 tomato;
+    }
+    .box:nth-child(2):hover .icon{
+      box-shadow: 0 0 0 400px tomato;
+    }
+    .box .content{
+      position: relative;
+      transition: 0.5s;
+    }
+    .box:hover .content{
+      color: white;
+    }
+    .box .content h3{
+      font-size: 20px;
+      margin: 10px 0;
+    }
+    .box .content a{
+      display: inline-block;
+      margin: 30px 0 0;
+      padding: 10px 20px;
+      background: white;
+      color: #000;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+  </style>
+</head>
+<body>
+  <section>
+    <div class="box">
+      <div class="icon">01</div>
+      <div class="content">
+        <h3>Service Name</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam unde iusto eligendi nostrum non facilis vitae delectus odit ipsa quos.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+    <div class="box">
+      <div class="icon">02</div>
+      <div class="content">
+        <h3>Service Name</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam unde iusto eligendi nostrum non facilis vitae delectus odit ipsa quos.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
+```
+
+<br>
+
+
