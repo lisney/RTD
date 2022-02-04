@@ -12,6 +12,7 @@ Hold Split 절단 위치 이미지 홀드
 Tool패널의 Blade면도칼 단축키 해제할 것 (Remove ShortCut)
 
 Ctrl-Wheel(타임라인 이동), Alt - Wheel(PlayHead 이동)
+Ctrl-Click(세로 전체 선택), Alt-Click(Mute Toggle)
 Image > Scale to Fit(전체가 화면에 맞춤), Scale to Fill(이미지 잘라서 맞춤), Stretch(가로세로비 무시 맞춤)
 View > Navigation > Jump to Previous Strip - PageUp 세팅
 PlayHead 위치이 클릭 선택 - 2
