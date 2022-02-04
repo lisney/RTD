@@ -25,7 +25,7 @@ Tool패널의 Blade면도칼 단축키 해제할 것 (Remove ShortCut)
 
 6. Show Seconds/frame Toggle (Ctrl-T)  
 
-7. Slip Strip (s 공중 드래그)  
+7. Slip Strip (s 공중 드래그) - 정지화면 생성?
 `shift + s Snap Strips to the Current Frame`  
 
 8. Remove Gaps (Backspace)  
