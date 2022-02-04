@@ -26,7 +26,7 @@ select CustomerId  as ID, CustomerName as NAME from Customers; // 한글 사용 
 
 ```
 예제 Customers 데이터 테이블에서 CustomerID, CustomerName, City, country를
-각각 '아이디', '고객명', '도시', '국가' 별명으로 불러오되, City가 London 또는 Mexico 인 데이터만 불러온다
+각각 '아이디', '고객명', '도시', '국가' 별명으로 불러오되, City가 London 또는 Country가 Mexico 인 데이터만 불러온다
 정렬은 CurtomerName로 갯수는 0에서 5개로 한다.
 
 select
@@ -97,6 +97,97 @@ select 'hello' like '_h__lo'; //false
 select * from Customers
 where CustomerName like 'b%';
 
+```
+
+<br>
+
+2. 함수
 
 ```
+* Products 데이터에서 price과 Price의 반올림, 천정값을 추출
+select
+	Price,
+    round(price),
+    floor(price)
+from Products;
+
+* abs를 사용해서 OrderDetails 에서 quantity가 5보다 크고 15보다 작은 데이터 추출
+(|x| < 5 ->   -5 < x < 5, :: 5는 최대최소, x-a 의 a는 센터값 즉 10을 기준으로 +-5)
+select * from OrderDetails
+where abs(quantity - 10) < 5;
+
+* truncate 소수점 이하/이상 삭제/0으로 채움
+- Products에서 price가 12.XX인(소수점 무시) 데이터 추출
+select * from Products
+where truncate(price,0)=12;
+
+* 문자열 합치기
+select concat('Hello',' ','This is ', 2002)
+select concat_ws('-', 2002, 8, 15, 'AM');
+select concat('O-ID: ', orderid) from Orders;
+select concat_ws(' ', firstname, lastname) as FullName from Employees;
+
+* 문자열 자르기
+select
+	left('ABCDEFG',3),
+	right('ABCDEFG',3),
+	substr('ABCDEFG',3,3),
+	substr('ABCDEFG',-4,2);
+
+* Orders 데이터에서 orderdate의 년월일 값을 각각  Year, Month, Day 행으로 추출
+select 
+	orderdate,
+    left(orderdate, 4) as Year,
+    substr(orderdate, 6, 2) as Month,
+    right(orderdate, 2) as Day
+from Orders;
+
+* 문자열 길이
+select
+	length('안녕하세요'),
+	char_length('안녕하세요');//한글 길이
+
+* trim 잘라내기
+select
+	concat('|',trim(' Hello '),'|');
+	
+* pad 채우기
+select
+	lpad('ABC',5,'*'),
+   	rpad('ABC',5,'*');
+
+* replace 바꾸기
+select
+	replace('맥도날드에서 맥도날드 햄버거를 먹었다.','맥도날드','버거킹');
+	
+* instr 문자열 찾기(위치 인덱스)
+select
+	instr('ABCDE', 'BC');
+	
+** 문자열의 첫번째 단어가 철자가 6보다 작은 데이터 추출
+
+select * from Customers
+where instr(customername, ' ') between 1 and 6;
+
+* cast 자료형 변환
+select
+	'01' = '1',
+    convert('01', decimal) = convert('1', decimal);
+```
+
+<br>
+
+3. 시간/날짜 함수
+
+
+
+
+
+
+
+
+
+
+```
+
 
