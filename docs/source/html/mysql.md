@@ -171,7 +171,7 @@ where instr(customername, ' ') between 1 and 6;
 
 * cast 자료형 변환
 select
-	'01' = '1',
+    '01' = '1',
     convert('01', decimal) = convert('1', decimal);
 ```
 
@@ -179,15 +179,82 @@ select
 
 3. 시간/날짜 함수
 
+```
+select curdate(), curtime(), now();
 
+* 문자열을 날짜/시간 데이터로 변환
+select
+    date('2021-6-21'),
+    time('01:22');
+    time('2021-6-21 01:22');
 
+* Orders 데이터 orderdate 행 사용 추출 예
+select
+	orderdate,
+    year(orderdate) as YEAR,
+    monthname(orderdate) as MONTHNAME
+from Orders;
 
+* 예
+select
+    OrderDate,
+    concat(
+        concat_ws(
+            '/', year(orderdate),month(orderdate),day(orderdate)
+            ),' ', upper(left(dayname(orderdate),3))
+        )
+ from Orders;
 
+* 월요일만 추출
+select * from Orders
+where weekday(orderdate) = 0;
 
+* 날짜 더하기/빼기 AddDate Interval
+select
+    adddate('2021-06-20', interval 2 month),
+    adddate('2021-06-20', interval -4 day);
+    
+* 날짜 경과 DateDiff
+select
+   OrderDate,
+   Now(),
+   datediff(now(),orderdate)
+from Orders;
 
+* date_format()
+select
+    date_format(now(), '%Y년 %m월 %d일 %p %h시 %i분 %s초');
 
+* AM/PM을 오전/오후 로 변환
+select replace(
+    replace(
+        date_format(now(), '%Y년 %m월 %d일 %p %h시 %i분 %s초'),
+        'AM', '오전'
+        ), 'PM','오후');
 
+* IF
+select if(1 > 2, '1은 2보다 크다.','1은 2보다 작다.');
+
+* case
+select
+    case
+        when -1 > 0 then '-1은 양수다.'
+        when -1 = 0 then '-1은 0이다.'
+        else '-1은 음수다.'
+    end;
 
 ```
+
+<br>
+
+
+
+
+
+
+
+
+
+
 
 
