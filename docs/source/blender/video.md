@@ -13,6 +13,8 @@ Tool패널의 Blade면도칼 단축키 해제할 것 (Remove ShortCut)
 
 Ctrl-Wheel(타임라인 이동), Alt - Wheel(PlayHead 이동)
 Image > Scale to Fit(전체가 화면에 맞춤), Scale to Fill(이미지 잘라서 맞춤), Stretch(가로세로비 무시 맞춤)
+
+Preference > Navigation >Zoom to Mouse Position 체크
 ```
 
 2. Frame Selected (NumpadPeriod)  
