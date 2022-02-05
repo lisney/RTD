@@ -16,6 +16,7 @@ Ctrl-Click(세로 전체 선택), Alt-Click(Mute Toggle), Shift-s 선택물(클�
 Image > Scale to Fit(전체가 화면에 맞춤), Scale to Fill(이미지 잘라서 맞춤), Stretch(가로세로비 무시 맞춤)
 View > Navigation > Jump to Previous Strip - PageUp 세팅
 PlayHead 위치이 클릭 선택 - 2
+Effect Strip 복사 -  이팩트 Dup 'D' > 대상 선택, 복사한 이팩트 선택 'R' - Reassign Input
 
 Preference > Navigation >Zoom to Mouse Position 체크
 ```
