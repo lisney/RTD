@@ -12,11 +12,16 @@ Hold Split 절단 위치 이미지 홀드
 Tool패널의 Blade면도칼 단축키 해제할 것 (Remove ShortCut)
 
 Ctrl-Wheel(타임라인 이동), Alt - Wheel(PlayHead 이동)
-Ctrl-Click(세로 전체 선택), Alt-Click(Mute Toggle), Shift-s 선택물(클립,시작,끝)을 PlayHead로  
+Ctrl-Click(세로 전체 선택), Alt-Click(Mute Toggle)
+
 Image > Scale to Fit(전체가 화면에 맞춤), Scale to Fill(이미지 잘라서 맞춤), Stretch(가로세로비 무시 맞춤)
 View > Navigation > Jump to Previous Strip - PageUp 세팅
-PlayHead 위치이 클릭 선택 - 2
+PlayHead 위치의 클립 선택 - 2(Select>Side of Frame>Current Frame), 3(Strip>Split) , 4(Erase Strip), 5(Remove All Gap)
 Effect Strip 복사 -  이팩트 Dup 'D' > 대상 선택, 복사한 이팩트 선택 'R' - Reassign Input
+
+선택한 클립 PlayHead 위치로 이동 - Shift-s(Strip>Transform>Snap Strips to the Current Frame
+선택한 클립을 랜더 영역으로 View>Range>Set Frame Range to Strips - 단축키 지정 '\'
+선택한 클립의 해상도로 랜더 해상도 맞춤 - Strip>Movie Strip>Set Render Size
 
 Preference > Navigation >Zoom to Mouse Position 체크
 ```
