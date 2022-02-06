@@ -232,7 +232,7 @@ select replace(
         'AM', '오전'
         ), 'PM','오후');
 
-* IF
+* IF(A,B,C) -A조건, B참일 때(ifnull(A,B) - null일 때 A)
 select if(1 > 2, '1은 2보다 크다.','1은 2보다 작다.');
 
 * case
@@ -247,6 +247,104 @@ select
 
 <br>
 
+4. 조건에 따라 그룹으로 묶기
+
+```
+* Group - 파이썬의 집합set과 비슷(중복되지않는다)
+select Country from Customers group by country;
+
+select country, city, concat_ws(', ',City,country)
+from Customers
+group by Country, city;
+
+* 날짜그룹마다 주문 갯수
+select
+count(*), orderdate // count - 행의 숫자합(* Null까지 센다)
+from Orders
+group by orderdate;
+
+* 카테고리 ID마디 최대, 최소, 중간값, 평균값 추출
+select categoryid,
+max(price) as MaxPrice,
+min(price) as MinPrice,
+truncate((max(price)-min(price))/2, 2) as MedianPrice,
+truncate(avg(price), 2) as AveragePrice
+from Products
+group by categoryid;
+
+* Customers 테이블에서 country, city 그룹의 갯수
+select
+concat_ws(', ', city, country) as Location,
+count(customerID) // count(*) - Null 포함
+from Customers
+group by country, city;
+with rollup;
+
+* with rollup - 마지막 열에 갯수의 합
+
+* having - 그룹 후 데이터의 조건(where 는 그룹 전 데이터에 사용)
+select
+count(*) as Count, Orderdate
+from Orders
+where orderdate > date('1996-12-31')
+group by orderdate
+having count > 2;
+
+having averageprice between 20 and 30 and medianprice < 40; // 위 중간,평균 쿼리문에 추가해본다
+
+* distinct 별개의 - 그룹처럼 중복은 제거하나 순서정렬은 하지않고 그대로 추출 -group 보다 처리가 빠르다
+select distinct categoryid
+from Products;
+
+//distinct 정렬
+select distinct country
+from Customers
+order by country;
+
+//group와 함께 사용 - 국가별 도시 갯수
+select country, count(distinct city)// 중복된 city 제거
+from Customers
+group by country;
+
+```
+
+Selection 깊게 파기
+--------------------
+
+1. 비상관 서브쿼리
+
+```
+* ()사용
+select categoryid, categoryname, description,
+(select ProductName from Products where productid =1)
+from Categories;
+
+* 가격의 평균보다 적은 product를 추출
+select * from Products
+where Price < (select avg(price) from Products);
+
+* (Products 에서 Chais 인) categoryid (1)인 데이터를 추출
+select categoryID, categoryName, description
+from Categories
+where categoryID = (select categoryid from Products where productname = 'Chais');
+
+* 서브쿼리가 하나이상의 값을 추출하는 경우 '=' 대신 'in' 사용
+select categoryID, categoryName, description
+from Categories
+where categoryID in (select categoryid from Products where price > 50);
+
+* All
+select * from Products
+where price > all(select price from Products where categoryid =2);
+// 서브쿼리의 categoryid가 2인 가격 모두 보다 큰 가격을 가진 자료 추출)
+
+* Any
+select categoryid, categoryName, description
+from Categories
+where CategoryID = any
+(select categoryid from Products where price > 50);
+// any 를 in으로 바꿔도 같은 결과?
+```
 
 
 
