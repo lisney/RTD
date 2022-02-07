@@ -16,7 +16,8 @@ Ctrl-Click(세로 전체 선택), Alt-Click(Mute Toggle)
 
 Image > Scale to Fit(전체가 화면에 맞춤), Scale to Fill(이미지 잘라서 맞춤), Stretch(가로세로비 무시 맞춤)
 View > Navigation > Jump to Previous Strip - PageUp 세팅
-PlayHead 위치의 클립 선택 - 2(Select>Side of Frame>Current Frame), 3(Strip>Split) , 4(Erase Strip), 5(Remove All Gap), 1(Add Gap)
+PlayHead 위치의 클립 선택 - 2(Select>Side of Frame>Current Frame), 3(Strip>Split)
+, 4(Erase Strip), 5(Remove All Gap), 1(Add Gap), 스트랩 확장: 스트랩 선택 > 'e'
 Effect Strip 복사 -  이팩트 Dup 'D' > 대상 선택, 복사한 이팩트 선택 'R' - Reassign Input
 
 선택한 클립 PlayHead 위치로 이동 - Shift-s(Strip>Transform>Snap Strips to the Current Frame
