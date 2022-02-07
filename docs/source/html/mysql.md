@@ -5,6 +5,23 @@ MySQL
 
 <br>
 
+```
+* 데이터베이스 계층
+인스턴스(OS에서는 프로세스) > 복수의 데이터베이스 > 복수의 스키마(틀, 계층폴더구조) > 복수의 테이블
+// MySQL 은 데이터베이스와 스키마를 동일한 것으로 간주하여 계층 차이를 두지 않는다.
+```
+
+![image](https://user-images.githubusercontent.com/30430227/152715736-f83d18f0-ebd4-46ac-87b3-cf7d928f47a7.png)
+
+![image](https://user-images.githubusercontent.com/30430227/152715847-7ba75931-ad69-4bdc-a128-494a60f0b6cb.png)
+
+<br>
+
+`TestDB 다운로드 > 압축 푼 폴더에서 cmd > mysql -u root -p < employees.sql `//employees는 용량이 크다, 첨엔 world로 테스트
+
+[TestDB 설치](https://dev.mysql.com/doc/index-other.html)
+
+
 XAMPP & MariaDB
 ----------------
 
@@ -48,6 +65,7 @@ create database testDB;
 
 * 데이터베이스 보기
 show databases;
+show tables; // 테이블 목록 보기
 
 * 데이터베이스 삭제
 drop database testDB;
