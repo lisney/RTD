@@ -570,7 +570,7 @@ left join Suppliers S on C.city = S.city and C.country = S.Country;
 
 <br>
 
-2. 이전 SQL 을 사용해보기
+2. 이전 장의 SQL 을 테스트해보기
 
 3. 윈도우 PowerShell 마우스 오른 클릭 사용하기 - 그냥 Shift-MouseRight 버튼
 
@@ -585,6 +585,21 @@ left join Suppliers S on C.city = S.city and C.country = S.Country;
 
 `C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe -NoExit -Command Set-Location -LiteralPath '%L'`
 
+<br>
 
+4. 테이블 만들고 데이터 입력하기
+
+```
+* 데이터베이스Schima 생성
+create schema `mydatabase` default character set utf8mb4 collate utf8mb4_general_ci; //따옴표가 아니라 백틱이다
+
+* 새로 생성한 데이터베이스스키마를 더블 클릭 > 테이블 생성
+create table people(
+	person_id int,
+    person_name varchar(10),
+    age tinyint,
+    birthday date
+);
+```
 
 
