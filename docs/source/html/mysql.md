@@ -3,6 +3,43 @@ MySQL
 
 [테스트 사이트W3DSchools](https://www.w3schools.com/mysql/trymysql.asp?filename=trysql_select_all)
 
+<br>
+
+XAMPP & MariaDB
+----------------
+
+[XAMPP Apache + MariaDB + PHP + Perl](https://www.apachefriends.org/index.html)
+
+```
+* MariaDB 접속
+c:\xampp\mysql\bin>mysql -u root -p
+
+* 데이터 추출 - password가 없다
+select host, user, password from user;
+
+* 암호설정
+alter user 'root'@'localhost' identified by 'brush';
+alter user 'root'@'127.0.0.1' identified by 'brush';
+alter user 'root'@'::1' identified by 'brush';
+
+* 갱신 - 신규 사용자 등록 후에도 실행
+flush privileges; //특권,권한 - 현재 사용중인 MySQL의 캐시를 지우고 새로운 설정을 적용
+
+* 신규 사용자
+create user brush@localhost identified by 'brush';
+create user brush@127.0.0.1 identified by 'brush';
+//delete from user where user = 'pma';// 사용자 삭제
+
+* 권한 추가
+GRANT ALL PRIVILEGES ON [DB이름].[테이블] TO tank@127.0.0.1 IDENTIFIED BY 'p@ssw0rd'; GRANT ALL PRIVILEGES ON [DB이름].[테이블] TO tank@localhsot IDENTIFIED BY 'p@ssw0rd';
+
+출처: https://mansukim.tistory.com/entry/xampp-mysql-설정 [Mansu.Kim]
+
+```
+
+
+
+
 `--주석`
 
 ```
