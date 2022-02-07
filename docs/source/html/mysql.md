@@ -53,11 +53,7 @@ drop database testDB;
 * 데이터베이스 사용
 use test; // 프롬프터가 MariaDB [test] 로 바뀜
 
-
-
 ```
-
-
 
 `--주석`
 
