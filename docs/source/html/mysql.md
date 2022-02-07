@@ -76,6 +76,20 @@ use test; // 프롬프터가 MariaDB [test] 로 바뀜
 
 <br>
 
+[MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
+
+`+를 눌러 데이터베이스를 추가한다 > Connection Name은 아무거나, Password 'Store in Vault'버튼 >Test Connection`
+
+![image](https://user-images.githubusercontent.com/30430227/152735599-9231c503-043c-4811-8445-0496e57bc283.png)
+
+`Schemas 탭 > world 스키마 > Tables >City 오른 클릭 > Select Row 선택 > 주르르`
+
+![image](https://user-images.githubusercontent.com/30430227/152735965-e24ea321-e36a-4bc5-83ad-967bb404eada.png)
+
+<br>
+
+```
+
 얄코의 Mysql
 -----------
 
