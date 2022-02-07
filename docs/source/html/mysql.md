@@ -17,7 +17,7 @@ MySQL
 
 <br>
 
-`TestDB 다운로드 > 압축 푼 폴더에서 cmd > mysql -u root -p < employees.sql `//employees는 용량이 크다, 첨엔 world로 테스트
+`TestDB 다운로드 > 압축 푼 폴더에서 cmd > mysql -u root -p < employees.sql `//employees는 용량이 크다, 첨엔 world로 테스트`
 
 [TestDB 설치](https://dev.mysql.com/doc/index-other.html)
 
@@ -78,7 +78,7 @@ use test; // 프롬프터가 MariaDB [test] 로 바뀜
 
 [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
 
-`+를 눌러 데이터베이스를 추가한다 > Connection Name은 아무거나, Password 'Store in Vault'버튼 >Test Connection`
+`(XAMPP MySQL서버실행) +를 눌러 DB 추가 > Connection Name은 아무거나, Password 'Store in Vault'버튼 >Test Connection`
 
 ![image](https://user-images.githubusercontent.com/30430227/152735599-9231c503-043c-4811-8445-0496e57bc283.png)
 
@@ -87,8 +87,6 @@ use test; // 프롬프터가 MariaDB [test] 로 바뀜
 ![image](https://user-images.githubusercontent.com/30430227/152735965-e24ea321-e36a-4bc5-83ad-967bb404eada.png)
 
 <br>
-
-```
 
 얄코의 Mysql
 -----------
@@ -553,7 +551,39 @@ select ifnull(C.CustomerName, '-- NO Customer --')
 ,ifnull(C.City, S.City), ifnull(C.Country, S.Country)
 from Customers C
 left join Suppliers S on C.city = S.city and C.country = S.Country;
+
 ```
+
+<br>
+
+데이터베이스 생성 - MySQL Workbench 사용
+---------------------------------------
+
+1. 샘플 DB 다운 및 불러오기
+
+[Sakila DB](https://dev.mysql.com/doc/index-other.html)
+
+`압축 풀고 > schema.sql먼저 불러온다 > 실행 > 좌측 Schemas 탭에서 갱신버튼 클릭 > data.sql도 같은 방법`
+
+![image](https://user-images.githubusercontent.com/30430227/152737999-5fc242ed-8105-4026-b44f-5ae14c53d137.png)
+![image](https://user-images.githubusercontent.com/30430227/152738143-06e5a5f8-6137-4f52-99d4-776630bb88e6.png)
+
+<br>
+
+2. 이전 SQL 을 사용해보기
+
+3. 윈도우 PowerShell 마우스 오른 클릭 사용하기
+
+`컴퓨터\HKEY_CLASSES_ROOT\Directory\shell > 새로만들기 키 'powershellmenu'`
+
+![image](https://user-images.githubusercontent.com/30430227/152740579-9fb51eba-7156-43f4-9492-5ab3085a4a0e.png)
+![image](https://user-images.githubusercontent.com/30430227/152741320-47278fa2-e744-4071-8966-073ffccde7c5.png)
+
+`하위 키 추가 > 값 입력(명령어)`
+
+![image](https://user-images.githubusercontent.com/30430227/152741187-a7f72170-9e53-4667-850e-321cc17e59e9.png)
+
+`C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe -NoExit -Command Set-Location -LiteralPath '%L'`
 
 
 
