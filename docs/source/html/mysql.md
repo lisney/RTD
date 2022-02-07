@@ -39,6 +39,7 @@ create user brush@127.0.0.1 identified by 'brush';
 // 해당 사용자로 DB에 접속 cmd창에서 'mysql -h호스트명 -u계정명 -p DB명'
 // mysql -h127.0.0.1 -ubrush -p test > 실행하면 암호 묻는다
 // 정상 접속됬는지 확인 'select version();'
+```
 
 ```
 * 데이터베이스 생성
@@ -52,10 +53,12 @@ drop database testDB;
 
 * 데이터베이스 사용
 use test; // 프롬프터가 MariaDB [test] 로 바뀜
-
 ```
 
-`--주석`
+<br>
+
+얄코의 Mysql
+-----------
 
 ```
 * SELECT ... from ...; //import ...from ...와 비슷
