@@ -572,7 +572,7 @@ left join Suppliers S on C.city = S.city and C.country = S.Country;
 
 2. 이전 SQL 을 사용해보기
 
-3. 윈도우 PowerShell 마우스 오른 클릭 사용하기
+3. 윈도우 PowerShell 마우스 오른 클릭 사용하기 - 그냥 Shift-MouseRight 버튼
 
 `컴퓨터\HKEY_CLASSES_ROOT\Directory\shell > 새로만들기 키 'powershellmenu'`
 
