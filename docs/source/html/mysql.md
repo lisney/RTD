@@ -12,7 +12,7 @@ XAMPP & MariaDB
 
 ```
 * MariaDB 접속
-c:\xampp\mysql\bin>mysql -u root -p
+c:\xampp\mysql\bin>mysql -u root -p 
 
 * 데이터 추출 - password가 없다
 select host, user, password from user;
@@ -30,13 +30,32 @@ create user brush@localhost identified by 'brush';
 create user brush@127.0.0.1 identified by 'brush';
 //delete from user where user = 'pma';// 사용자 삭제
 
-* 권한 추가
-GRANT ALL PRIVILEGES ON [DB이름].[테이블] TO tank@127.0.0.1 IDENTIFIED BY 'p@ssw0rd'; GRANT ALL PRIVILEGES ON [DB이름].[테이블] TO tank@localhsot IDENTIFIED BY 'p@ssw0rd';
-
-출처: https://mansukim.tistory.com/entry/xampp-mysql-설정 [Mansu.Kim]
+* 권한 추가 - 해당 DB에 접근할 수 있는 권한
+> grant all privileges on db이름.* to 계정명@'%' identified by '비밀번호';
+> grant all privileges on db이름.* to 계정명@'localhost' identified by '비밀번호';
+> flush privileges;```
+// 계정명@'%' : 해당 계정이 모든 클라이언트에서 접근 가능
+// 계정명@'localhost' : 해당 계정이 localhost(본인 pc)에서만 접근 가능
+// 해당 사용자로 DB에 접속 cmd창에서 'mysql -h호스트명 -u계정명 -p DB명'
+// mysql -h127.0.0.1 -ubrush -p test > 실행하면 암호 묻는다
+// 정상 접속됬는지 확인 'select version();'
 
 ```
+* 데이터베이스 생성
+create database testDB;
 
+* 데이터베이스 보기
+show databases;
+
+* 데이터베이스 삭제
+drop database testDB;
+
+* 데이터베이스 사용
+use test; // 프롬프터가 MariaDB [test] 로 바뀜
+
+
+
+```
 
 
 
@@ -382,6 +401,7 @@ where CategoryID = any
 (select categoryid from Products where price > 50);
 // any 를 in으로 바꿔도 같은 결과?
 ```
+
 
 
 
