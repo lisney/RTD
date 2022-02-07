@@ -462,13 +462,84 @@ from Products P1
 where Price < (select avg(price) from Products P2 where P2.categoryid = P1.categoryid);
 
 * EXISTS/NOT EXISTS
+// 가격이 80이상인 CategoryID, CategoryName 추출, 주석은 가격
+select categoryid, categoryName
+-- ,(select max(P.price) from Products P
+-- where P.categoryid = C.categoryid
+-- )as MaxPrice
+from Categories C
+where exists(select * from Products P where P.categoryid = C.categoryid and P.price > 80);
 ```
 
+<br>
 
+Join - 여러 테이블 조립
+-----------------------
 
+1. JOIN - 내부 조인
 
+```
+* Categories 테이블에 Products 테이블 Join
+select * from Categories C
+join Products P // JOIN
+on C.categoryid = P.categoryID; // Join의 기준 조건
 
+* ambiguous(모호한) 주의!
+//두 테이블 중 한 쪽에만 있는 컬럼은 C.CategoryName을 CategoryName으로 표기해도 괜찮으나
+//C.CategoryID는 CategoryID로 하면 에러가 난다
+select C.CategoryID, C.CategoryName, P.ProductName
+from Categories C
+join Products P
+on C.categoryid = P.categoryid;
 
+* 복합 예
+select concat(P.productname, ' by ', S.suppliername) as Product, S.Phone, P.Price
+from Products P
+join Suppliers S on P.Supplierid = S.supplierid
+where Price > 50
+order by ProductName;
+
+* 여러 테이블 JOIN
+select C.CategoryID, C.CategoryName, P.ProductName, O.OrderDate, D.Quantity
+from Categories C
+join Products P on C.Categoryid = P.categoryid
+join OrderDetails D on P.Productid = D.productid
+join Orders O on O.orderid = D.orderid;
+
+* 그루핑
+select C.CategoryName, min(O.orderdate) as FirstOrder
+, max(O.orderdate) as LastOrder, sum(D.quantity) as TotalQuantity
+from Categories C
+join Products P on C.categoryid = P.categoryid
+join OrderDetails D on P.productid = D.productid
+join Orders O on O.orderid = D.orderid
+group by C.Categoryid;
+```
+
+<br>
+
+2. LEFT/RIGHT OUTER JOIN - 외부조인
+// 반대쪽에 데이터가 있든 없든(NULL), 선택된 방향에 있으면 출력
+
+```
+select E1.employeeid, concat_ws(' ', E1.firstname, E1.lastname) as Employee
+,E2.employeeid, concat_ws(' ', E2.firstname, E2.lastname) as NextEmployee
+from Employees E1
+left join Employees E2 on E1.employeeid + 1 = E2.employeeid
+// left outer에서 outer생략가능, left대신 right도 테스트해본다 
+order by E1.employeeid;
+
+select C.CustomerName, S.SupplierName, C.City, C.Country
+from Customers C
+left join Suppliers S on C.city and C.country = S.Country;//left 대신 right도 해본다
+
+//IFNULL 사용 예
+select ifnull(C.CustomerName, '-- NO Customer --')
+,ifnull(S.SupplierName, '-- NO Supplier --')
+,ifnull(C.City, S.City), ifnull(C.Country, S.Country)
+from Customers C
+left join Suppliers S on C.city = S.city and C.country = S.Country;
+```
 
 
 
