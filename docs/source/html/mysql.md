@@ -420,7 +420,49 @@ where CategoryID = any
 // any 를 in으로 바꿔도 같은 결과?
 ```
 
+<br>
 
+2. 상관 서브쿼리 - 서브쿼리와 본 쿼리가 상관있게 맞물려 돌아간다
+
+```
+* 본 테이블에는 없는 CategoryName을 서브테이블에서 가져온다(categoryId를 사용하여)
+select productid, productName,
+(select categoryname from Categories C // Categoryes 를 C로 사용한다(별명)
+where C.categoryid = P.categoryid // 맞물린다
+)as categroyName
+from Products P;
+
+* SupplierName, Country, City와
+// Cistomers 테이블과 상관있는 국가의 Customers 수, 국가와 도시명이 중복된 Customer 수를 추출
+select supplierName, country, city,
+(select count(*) from Customers C
+where C.country = S.country
+)as CustomersInTheCountry,
+(select count(*) from Customers C
+where C.country = S.Country and C.city = S.city
+)as CustomersInTheCity
+from Suppliers S;
+
+* 카테고리 별로 최고가와 평균가 추출
+select CategoryID, CategoryName,
+(select max(price) from Products P
+where P.categoryid = C.categoryid
+)as MaximumPrice,
+(select avg(price)from Products P
+where P.categoryid = C.categoryid
+)as AveragePrice
+from Categories C;
+
+* 가격이 평균가 보다 낮은 ProductID, ProductName, CategroyID, Price를 추출
+// 하나의 테이블을 본 쿼리와 서브 쿼리에 사용 - 주석(--)부분은 평균가 필드
+select ProductID, ProductName, CategoryID, Price
+-- ,(select abg(price) from Products P2
+-- where P2.categoryid = P1.categoryid)
+from Products P1
+where Price < (select avg(price) from Products P2 where P2.categoryid = P1.categoryid);
+
+* EXISTS/NOT EXISTS
+```
 
 
 
