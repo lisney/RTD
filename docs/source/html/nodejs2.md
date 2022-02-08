@@ -140,12 +140,12 @@ const port = 3000
 
 const app = express();
 
-app.engine('.hbs', engine({
-    extname: '.hbs',
-    defaultLayout:'layout',
+app.engine('hbs', engine({
+    extname: 'hbs',
+    defaultLayout:'layout', //기본 레이아웃인 main.hbs 대신 사용할 레이아웃명 
 }));
-app.set('view engine', '.hbs');
-app.set('views', './views');
+app.set('view engine', 'hbs');
+app.set('views', './views'); //기본 views폴더 대신 사용할 경로 지정시 사용
 
 app.use(express.static(__dirname))
 app.use((req,res,next)=>{
