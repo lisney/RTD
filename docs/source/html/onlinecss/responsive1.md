@@ -1,6 +1,31 @@
 Responsive 1
 =============
 
+<br>
+
+시맨틱 태그 - 웸페이지 구조 나누기
+--------------------------------
+
+```
+header -머리말
+nav - 메뉴
+figure - 동영상, 사진 등
+main - 본문
+aside - 본문과 연관성 적은 외부영역
+section - 특정 영역 구분
+article - 기사나 개별 콘텐츠
+footer - 꼬리말 영역
+```
+
+![image](https://user-images.githubusercontent.com/30430227/152896459-fd6e8861-c2c9-446e-b1a4-5ca047f333da.png)
+
+<br>
+
+<br>
+
+첫번째 페이지 
+-------------
+
 ![image](https://user-images.githubusercontent.com/30430227/151502178-0d27c579-0dff-40ed-acc9-8b571f09b3e1.png)
 ![image](https://user-images.githubusercontent.com/30430227/151502248-718c0cf3-96d4-43f8-ae8b-97628ec94c13.png)
 
