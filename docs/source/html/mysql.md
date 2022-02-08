@@ -630,6 +630,41 @@ value(3,'존 스미스',30, '1991-03-01'),
 ```
 
 ```
-* 
+* 테이블 생성 시 제약
+create table people(
+person_id int auto_increment primary key, //auto_increment(자동으로 행 번호), primary key(중복입력불가,Null불가)
+//primary key(기본키)- 테이블마다 하나만 가능, 기복적으로 인덱스 생성(빠른 검색), 보통 auto_increment와 함께 사용
+person_name varchar(10) not null,//not null(빈 값 입력 불가)
+nickname varchar(10) unique not null,//unique(중복 입력 불가)
+age tinyint unsigned,//unsigned(+-사인 안됨, 양수만 가능)
+is_married tinyint default 0//값 입력 없을 시 기본값
+);
+//워크벤치에서 입력해본다(apply해야 저장된다)
+```
+
+<br>
+
+5. 삭제(delete)와 변경(update)
+
+```
+delete from businesses where status = 'CLS';//행 전체 삭제
+truncate businesses;//테이블 초기화
+
+//변경
+update menus set menu_name ='삼선짜장' where menu_id =12;
+
+update menus
+set menu_name ='열정떡볶이',
+kilocalories = 492.78,
+price = 5000
+where
+fk_business)id = 4//foreign key(외래 키) - 테이블 간 연결키
+and menu_name = '국물떡볶이';
+```
+
+6.기타 
+
+```
+트랜잭션 - 함께가 아니면 하지 않아!
 ```
 
