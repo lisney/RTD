@@ -169,6 +169,120 @@ app.listen(port, ()=>{
 <h1>Example App: {{name}} </h1>
 ```
 
+<br>
+
+MySQL
+------
+
+1. 설치
+
+`npm i mysql`
+
+2. 연결하기 
+
+```
+import mysql from "mysql";
+
+const con = mysql.createConnection({
+  host: "localhost",
+  user: "root",
+  password: "brush",
+});
+
+con.connect((err) => {
+  if (err) throw err;
+  console.log("Connected");
+});
+
+* 암호보안
+//db-config.json
+{"host":"localhost", "user","root", "password":"brush","database":"express_db"}
+
+//require 사용하기 - JSON 파일 import 지원안한다(assert 로 잘 안된다)
+import { createRequire } from "module";
+const require = createRequire(import.meta.url);
+
+const db_config = require("./db-config.json");
+
+//사용하기 - 2.연결하기 내용 수정
+const con = mysql.createConnection({
+  host: db_config.host,
+  user: db_config.user,
+  password: db_config.password,
+});
+```
+
+3. 쿼리 사용하기 - .query 메소드
+
+```
+* db 생성 - 생성 후 생성코드는 삭제
+con.connect((err) => {
+  if (err) throw err;
+  console.log("Connected");
+  con.query("create database express_db", (err, result) => {
+    if (err) throw err; //throw - 강제 예외처리
+    console.log("database created");
+  });
+});
+
+* db 연결
+const con = mysql.createConnection({
+  host: db_config.host,
+  user: db_config.user,
+  password: db_config.password,
+  database: "express_db",
+});
+
+* 테이블 생성 
+con.connect((err) => {
+  if (err) throw err;
+  console.log("Connected");
+  const sql =
+    "create table users (id int not null primary key auto_increment, name varchar(255) not null, email varchar(255) not null)";
+  con.query(sql, (err, result) => {
+    if (err) throw err;
+    console.log("table created");
+  });
+});
+
+* MySQL 워크벤치를 이용해 데이터 입력
+
+* 데이터 추출
+con.connect((err) => {
+  if (err) throw err;
+  console.log("Connected");
+  const sql = "select * from users";
+  con.query(sql, (err, result) => {
+    if (err) throw err;
+    console.log(result);//인덱스 0의 email만 보기 > console.log(result[0].email);
+  });
+});
+
+* 브라우저로 보내기 
+app.get("/", (req, res) => {
+  const sql = "select * from users";
+  con.query(sql, (err, result, fields) => {
+    if (err) throw err;
+    console.log(result);
+    res.send(result);
+  });
+  
+* 데이터 입력해보기
+con.connect((err) => {
+  if (err) throw err;
+  console.log("Connected");
+  const sql = "insert into users(name,email) values('Kevin','k@ke.com')";
+  con.query(sql, (err, result, fields) => {
+    if (err) throw err;
+    console.log(result);
+  });
+});
+
+```
+
+<br>
+
+4. 입력폼 작성
 
 
 
