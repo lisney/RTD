@@ -284,6 +284,68 @@ con.connect((err) => {
 
 4. 입력폼 작성
 
+```
+* index.hbs
+<h1>입력폼</h1>
+<form action="/" method="POST">
+    <label for="">이름</label>
+    <input type="text" name="name"><br>
+    <label for="">메일</label>
+    <input type="text" name="email"><br>
+    <button type="submit">보내기</button>
+</form>
+
+* 브라우저에서 들어온 데이터 처리 미들웨어 - body-parser 기능 내장
+app.use(express.urlencoded({extended:true}));
+// app.js 이렇게 수정
+app.get("/", (req, res) => {
+  res.render("index", {});
+});
+
+app.post("/", (req, res) => {
+  res.send(req.body);
+});
+
+* 데이터베이스에 Insert하기
+app.post("/", (req, res) => {
+  const sql = "insert into users set ?";
+  con.query(sql, req.body, (err, result, fields) => {
+    if (err) throw err;
+    console.log(result);
+    res.send("등록이 완료"); //res.redirect("/") 해당 경로로 되돌아감
+  });
+});
+
+* 템플릿 엔진 사용
+app.get("/", (req, res) => {
+  const sql = 'select * from users';
+  con.query(sql, (err,result,fields)=>{
+    if(err) throw err;
+    res.render('index',{users:result})
+  })
+});
+
+//index.hbs
+<table>
+    <tr>
+        <th>이름</th>
+        <th>이메일</th>
+        <th>수정</th>
+        <th>삭제</th>
+    </tr>
+    {{#each users}}
+    <tr>
+        <td>{{this.name}} </td>
+        <td>{{this.email}} </td>
+        <td><a href="/edit/{{this.id}}">수정</a> </td>
+        <td><a href="/delete/{{this.id}}">삭제</a> </td>
+    </tr>
+    {{/each}}
+</table>
+```
+
+![image](https://user-images.githubusercontent.com/30430227/152928825-c5306584-89e0-4af3-8b5b-8bd0f5a20053.png)
+
 
 
 
