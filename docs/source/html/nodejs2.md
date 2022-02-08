@@ -204,8 +204,8 @@ const require = createRequire(import.meta.url);
 
 const db_config = require("./db-config.json");
 
-//사용하기 - 2.연결하기 내용 수정
-const con = mysql.createConnection({
+//사용하기 - 2.연결하기 내용 수정 
+const con = mysql.createConnection({ //con = connection
   host: db_config.host,
   user: db_config.user,
   password: db_config.password,
@@ -295,6 +295,7 @@ con.connect((err) => {
     <button type="submit">보내기</button>
 </form>
 
+
 * 브라우저에서 들어온 데이터 처리 미들웨어 - body-parser 기능 내장
 app.use(express.urlencoded({extended:true}));
 // app.js 이렇게 수정
@@ -306,9 +307,12 @@ app.post("/", (req, res) => {
   res.send(req.body);
 });
 
+
 * 데이터베이스에 Insert하기
+//INSERT INTO table (a, b, c) VALUES (1,2,3)를 INSERT INTO table SET a=1, b=2, c=3 로 대체할 수 있다
+
 app.post("/", (req, res) => {
-  const sql = "insert into users set ?";
+  const sql = "insert into users set ?";//물음표 (?) 삽입하면 값 배열로 대체됨
   con.query(sql, req.body, (err, result, fields) => {
     if (err) throw err;
     console.log(result);
@@ -316,7 +320,9 @@ app.post("/", (req, res) => {
   });
 });
 
-* 템플릿 엔진 사용
+
+
+* 템플릿 엔진 사용 - lean() 안써도 에러안난다^^
 app.get("/", (req, res) => {
   const sql = 'select * from users';
   con.query(sql, (err,result,fields)=>{
@@ -324,6 +330,7 @@ app.get("/", (req, res) => {
     res.render('index',{users:result})
   })
 });
+
 
 //index.hbs
 <table>
@@ -346,8 +353,128 @@ app.get("/", (req, res) => {
 
 ![image](https://user-images.githubusercontent.com/30430227/152928825-c5306584-89e0-4af3-8b5b-8bd0f5a20053.png)
 
+<br>
 
+5. 수정과 삭제
 
+```
+app.get("/delete/:id", (req, res) => {
+  const sql = "delete from users where id = ?";
+  con.query(sql, [req.params.id], (err, result, fields) => {
+    if (err) throw err;
+    console.log(result);
+    res.redirect("/");
+  });
+});
+
+* edit.hbs
+<h1>업데이트 폼</h1>
+
+<form action="/update/{{user.0.id}}" method="POST">
+    <label for="">이름</label>
+    <input type="text" name="name" value="{{user.0.name}}"><br>
+    <label for="">메일</label>
+    <input type="text" name="name" value="{{user.0.email}}"><br>
+    <button type="submit">업데이트</button>
+</form>
+```
+
+6. 전체 코드
+
+```
+import express from "express";
+import { engine } from "express-handlebars";
+import path from "path";
+import mysql from "mysql";
+
+import { createRequire } from "module";
+const require = createRequire(import.meta.url);
+const db_config = require("./db-config.json");
+
+const con = mysql.createConnection({
+  host: db_config.host,
+  user: db_config.user,
+  password: db_config.password,
+  database: "express_db",
+});
+
+con.connect((err) => {
+  if (err) throw err;
+  console.log("Connected");
+});
+
+const __dirname = path.resolve();
+
+const port = 3000;
+
+const app = express();
+
+app.engine(
+  "hbs",
+  engine({
+    extname: "hbs",
+    defaultLayout: "main",
+  })
+);
+
+app.set("view engine", "hbs");
+app.set("views", "./views");
+
+// app.use(express.urlencoded({ extended: true }));
+app.use(express.static(__dirname));
+app.use((req, res, next) => {
+  next();
+});
+
+app.get("/", (req, res) => {
+  const sql = "select * from users";
+  con.query(sql, (err, result, fields) => {
+    if (err) throw err;
+    res.render("index", { users: result });
+  });
+});
+
+app.get("/delete/:id", (req, res) => {
+  const sql = "delete from users where id = ?";
+  con.query(sql, [req.params.id], (err, result, fields) => {
+    if (err) throw err;
+    console.log(result);
+    res.redirect("/");
+  });
+});
+
+app.get("/edit/:id", (req, res) => {
+  const sql = "select * from users where id = ?";
+  con.query(sql, [req.params.id], (err, result, fields) => {
+    if (err) throw err;
+    console.log(result);
+    res.render("edit", { user: result });
+  });
+});
+
+app.post("/update/:id", (req, res) => {
+  const sql = `update express_db, users set ? where id = ${req.params.id}`;
+  con.query(sql, req.body, (err, result, fields) => {
+    if (err) throw err;
+    console.log(result);
+    res.redirect("/");
+  });
+});
+
+app.post("/", (req, res) => {
+  const sql = "insert into users set ?";
+  con.query(sql, req.body, (err, result, fields) => {
+    if (err) throw err;
+    console.log(result);
+    res.redirect("/");
+  });
+});
+
+app.listen(port, () => {
+  console.log(`The Server is Running on Port ${port}`);
+});
+
+```
 
 
 
