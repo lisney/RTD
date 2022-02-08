@@ -600,6 +600,36 @@ create table people(
     age tinyint,
     birthday date
 );
+
+* 테이블 변경
+alter table people rename to friends,//테이블명
+change column person_id person_id tinyint,//형 변경
+change column person_name person_nickname varchar(10),//컬럼명 변경
+drop column birthday,//컬럼 삭제
+add column is_married tinyint after age;//age컬럼 다음에 컬럼 추가
+
+* 테이블 삭제
+drop table friends;
 ```
 
+```
+* 데이터 추가
+insert into people
+value(1,'홍길동',21,'2000-01-31');
+
+//특정 컬럼에만 추가
+insert into people
+(person_id, person_name, birthday)
+value(2,'임꺽정','2000-01-31');
+
+//여러 데이터 추가
+insert into people
+value(3,'존 스미스',30, '1991-03-01'),
+(4,'하루히',30,'1990-01-01'),
+(5,'황비홍',24,'1997-10-30');
+```
+
+```
+* 
+```
 
