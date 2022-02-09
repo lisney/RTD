@@ -242,7 +242,7 @@ con.connect((err) => {
 
 * 암호보안
 //db-config.json
-{"host":"localhost", "user","root", "password":"brush","database":"express_db"}
+{"host":"localhost", "user":"root", "password":"brush","database":"express_db"}
 
 //require 사용하기 - JSON 파일 import 지원안한다(assert 로 잘 안된다)
 import { createRequire } from "module";
