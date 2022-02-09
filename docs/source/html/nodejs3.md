@@ -67,3 +67,20 @@ app.listen(port, () => {
 nodnode;
 
 ```
+
+<br>
+
+Nodejs-UserManagement-Express-Hbs-MySQL-main 설치
+------------------------------------------
+
+```
+* a.env
+DB_HOST = localhost
+DB_NAME = usermanagement_tut
+DB_USER = root
+DB_PASS = password
+
+* install
+$ npm install
+$ npm start
+```
