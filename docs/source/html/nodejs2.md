@@ -29,6 +29,7 @@ NodeJs 2
 
 ```
    require 대신 ES6 import 사용하기 package.json 에  "type":"module" 추가
+   기존 require 방식 사용 시 "type": "commonjs"로 명기할 수 있다.
 
   'babel-node' 에러시 - npm i @babel/node -g 설치
   
