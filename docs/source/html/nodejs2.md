@@ -466,7 +466,8 @@ app.engine(
 app.set("view engine", "hbs");
 app.set("views", "./views");
 
-// app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 app.use(express.static(__dirname));
 app.use((req, res, next) => {
   next();
@@ -494,12 +495,12 @@ app.get("/edit/:id", (req, res) => {
   con.query(sql, [req.params.id], (err, result, fields) => {
     if (err) throw err;
     console.log(result);
-    res.render("edit", { user: result });
+    res.render("edit-user", { result });
   });
 });
 
 app.post("/update/:id", (req, res) => {
-  const sql = `update express_db, users set ? where id = ${req.params.id}`;
+  const sql = `update users set ? where id = ${req.params.id}`;
   con.query(sql, req.body, (err, result, fields) => {
     if (err) throw err;
     console.log(result);
@@ -519,6 +520,7 @@ app.post("/", (req, res) => {
 app.listen(port, () => {
   console.log(`The Server is Running on Port ${port}`);
 });
+
 
 ```
 
