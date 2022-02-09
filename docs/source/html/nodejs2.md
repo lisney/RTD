@@ -36,7 +36,50 @@ NodeJs 2
    ES6에는 __dirname 변수가 없다
     import path from 'path';
     const __dirname = path.resolve();
+    
+* Require 사용하기 
+import { createRequire } from "module";
+const require = createRequire(import.meta.url);
+const db_config = require("./db-config.json");
+
+* __dirname 사용하기
+import path from 'path';
+const __dirname = path.resolve();
+
+* dotenv
+import "dotenv/config.js";
+또는
+// loadEnv.js
+import dotenv from 'dotenv';
+dotenv.config()
+
+// index.js
+import './loadEnv';
+import express from 'express';
+let x = process.env.David;
+console.log(x);
+
+* import router file
+export const myRouteHandler = async (req, res) => {
+   ...
+};
+import { myRouteHandler } from "./myModule";
+app.post('/exampleroute', myRouteHandler)
+----------------------------------------
+또는
+import express from 'express';
+export const router = express.Router();
+
+router.post('/exampleroute', async (req, res) => {
+   ...
+});
+import { router } from "./myModule";
+app.use("/", router);
+
 ```
+
+
+
 
 7. handldbars 신버전 데이터 전달
 
@@ -67,6 +110,8 @@ router.get('/list',(req,res)=>{
     "css"
 ]
 ```
+
+
 
 <br>
 
