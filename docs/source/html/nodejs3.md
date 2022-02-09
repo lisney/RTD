@@ -2,6 +2,7 @@ NodeJs 3
 ==========
 
 [부트스트랩](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
+[부트스트랩 아이콘CDN](https://icons.getbootstrap.com/#usage)
 
 <br>
 
@@ -21,5 +22,48 @@ npm install --save-dev nodemon //nodemon start 로 실행한다 하지만
 ```
 <br>
 
-Application Middleware
----------------------
+전체코드 
+--------
+
+```
+import express from "express";
+import { engine } from "express-handlebars";
+import path from "path";
+import mysql from "mysql";
+import dotenv from "dotenv";
+import { createRequire } from "module";
+const require = createRequire(import.meta.url);
+
+dotenv.config();
+// import 'dotenv/config.js';
+
+const __dirname = path.resolve();
+const port = 3000;
+
+const app = express();
+
+app.engine(
+  "hbs",
+  engine({
+    extname: "hbs",
+  })
+);
+app.set("view engine", "hbs");
+
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+app.use(express.static(__dirname));
+app.use((req, res, next) => {
+  next();
+});
+
+const routes = require("./server/routes/user");
+app.use("/", routes);
+
+app.listen(port, () => {
+  console.log(`Listening on port ${port}`);
+});
+
+nodnode;
+
+```
