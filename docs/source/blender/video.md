@@ -26,6 +26,8 @@ Effect Strip 복사 -  이팩트 Dup 'D' > 대상 선택, 복사한 이팩트 �
 선택한 클립의 해상도로 랜더 해상도 맞춤 - Strip>Movie Strip>Set Render Size
 
 Preference > Navigation >Zoom to Mouse Position 체크
+
+Ctrl - M : Render Animation
 ```
 
 2. Frame Selected (NumpadPeriod)  
