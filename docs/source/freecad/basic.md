@@ -1,8 +1,44 @@
 BASIC
 =======
 
+Color
+----------
+
+![image](https://user-images.githubusercontent.com/30430227/153317734-4a30a9a5-9a6a-4fef-8c86-021ec73c3181.png)
+![image](https://user-images.githubusercontent.com/30430227/153318071-cfa9ac4e-2d99-414a-afb4-03cb225354ba.png)
+
+![image](https://user-images.githubusercontent.com/30430227/153318475-9937723f-d690-4c39-8ec8-ef213d08bd37.png)
+![image](https://user-images.githubusercontent.com/30430227/153318518-346d0321-dfe0-4c32-9328-38d837e3442d.png)
+![image](https://user-images.githubusercontent.com/30430227/153318535-f12b5824-f561-48f3-8d06-04d32dc791af.png)
+
+![image](https://user-images.githubusercontent.com/30430227/153319828-9dcfc0e4-d907-4d62-8a7a-a72a08201bd6.png)
+![image](https://user-images.githubusercontent.com/30430227/153319854-abeb5335-572c-47c6-828b-24d445cd5d9b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/153319266-bb90fffe-e7f4-48ad-8e57-adbff7998b37.png)
+![image](https://user-images.githubusercontent.com/30430227/153319285-428c358c-a2af-4169-90ba-22b464dd73a9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/153318871-4c437a37-3321-426d-bbf4-870aff4cbd6f.png)
+![image](https://user-images.githubusercontent.com/30430227/153318839-905f9e97-ba0d-4460-b340-e4e87ad3ca08.png)
+![image](https://user-images.githubusercontent.com/30430227/153321728-ca74edd2-1836-4cc2-9382-1670f33ef02f.png)
+
+`마우스 오버`
+![image](https://user-images.githubusercontent.com/30430227/153321806-32df1b54-ca33-4051-8df7-3baffec109ae.png)
+![image](https://user-images.githubusercontent.com/30430227/153321762-33bd8d76-046c-447b-8a32-545f69e58e53.png)
+
+![image](https://user-images.githubusercontent.com/30430227/153320244-8fd85eb5-469b-4ef2-9d6e-3c2768002b8c.png)
+![image](https://user-images.githubusercontent.com/30430227/153320223-0c61e272-8581-41a3-ad44-de5da8e79f95.png)
+
+![image](https://user-images.githubusercontent.com/30430227/153321232-8800afe5-47da-4c93-83c1-dcf36dc1fb9e.png)
+![image](https://user-images.githubusercontent.com/30430227/153321193-e2c45d9b-4e9a-4b57-9e4f-71843e06f448.png)
+
+![image](https://user-images.githubusercontent.com/30430227/153320848-8bd728be-51ae-435b-9cd0-01367a68924a.png)
+
+
 Glass Addon
 ----------------
+
+![image](https://user-images.githubusercontent.com/30430227/153317641-2a8cd343-295a-4b99-9f8f-4a4a6e6eb1ca.png)
+
 
 ![image](https://user-images.githubusercontent.com/30430227/145343494-f2a7ad4e-edbe-4c3f-b36d-ce7328b4a901.png)
 
