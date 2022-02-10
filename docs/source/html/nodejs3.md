@@ -394,6 +394,8 @@ $ npm start
 회원가입, 로그인
 --------------
 
+[참조사이트](https://codeshack.io/basic-login-system-nodejs-express-mysql/)
+
 ![image](https://user-images.githubusercontent.com/30430227/153364585-74bccbce-b8a4-4a73-a321-1bedfa33bf71.png)
 
 1. SQL
