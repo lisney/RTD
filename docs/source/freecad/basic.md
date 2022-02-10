@@ -73,6 +73,18 @@ C:\Program Files\FreeCAD 0.19\data\Gui\Stylesheets
 VS Color Picker -Hex Color 편집
 ```
 
+![image](https://user-images.githubusercontent.com/30430227/153324344-e7cd6745-a068-4331-ac38-01c5f3cb3579.png)
+![image](https://user-images.githubusercontent.com/30430227/153324363-614748e1-8289-4d32-8593-362579e6e3bc.png)
+![image](https://user-images.githubusercontent.com/30430227/153324411-cfec8f99-2261-4105-bf20-49bb9bace98e.png)
+![image](https://user-images.githubusercontent.com/30430227/153324439-b516abe3-55eb-42ec-9fe6-714f3f6c7009.png)
+
+![image](https://user-images.githubusercontent.com/30430227/153324953-27ec4888-0b2a-4d98-be17-f7da3a894b9b.png)
+![image](https://user-images.githubusercontent.com/30430227/153324582-b92a9b65-2a79-47aa-86f1-f8f91637b96c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/153325928-311e4d0d-ba28-4d60-a7b0-e2474e6241d2.png)
+![image](https://user-images.githubusercontent.com/30430227/153325955-d6fcbaf9-ffec-4b65-9c7e-88f21ec7929d.png)
+
+
 
 2. 마야 단축키 지정 시 Middel 클릭 Report View 안뜨게  
 `show report...on error, ...on warning 체크해제`  
