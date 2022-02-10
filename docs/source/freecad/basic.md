@@ -68,6 +68,10 @@ Glass Addon
 1. UI 컬러-Style sheet  
 ![image](https://user-images.githubusercontent.com/30430227/131780961-02d097a0-22f2-48e0-bbca-710de3ad50fd.png)
 
+```
+C:\Program Files\FreeCAD 0.19\data\Gui\Stylesheets
+VS Color Picker -Hex Color 편집
+```
 
 
 2. 마야 단축키 지정 시 Middel 클릭 Report View 안뜨게  
