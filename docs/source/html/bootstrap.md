@@ -146,7 +146,7 @@ Bootstrap
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0"> //marginend(좌/우정렬의 끝)-2, margin-large-0
                         <li class="nav-item">
                             <a href="#" class="nav-link active" aria-current="page">Home</a>
                         </li>
