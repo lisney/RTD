@@ -19,8 +19,12 @@ npm install --save-dev nodemon //nodemon start 로 실행한다 하지만
     "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
- 
 ```
+```
+* package.json
+  "type": "module"
+```
+
 <br>
 
 ![image](https://user-images.githubusercontent.com/30430227/153152900-0ce070ab-1a32-410b-b1a4-dfa5a1a4c2a4.png)
@@ -384,3 +388,190 @@ DB_PASS = password
 $ npm install
 $ npm start
 ```
+
+<br>
+
+회원가입, 로그인
+--------------
+
+![image](https://user-images.githubusercontent.com/30430227/153364585-74bccbce-b8a4-4a73-a321-1bedfa33bf71.png)
+
+1. SQL
+
+![image](https://user-images.githubusercontent.com/30430227/153357837-07dc307a-7902-4327-bdb5-23bdc246a530.png)
+
+```
+CREATE DATABASE IF NOT EXISTS `nodelogin` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `nodelogin`;
+
+CREATE TABLE IF NOT EXISTS `accounts` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(50) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+INSERT INTO `accounts` (`id`, `username`, `password`, `email`) VALUES (1, 'test', 'test', 'test@test.com');
+```
+
+<br>
+
+2. .env
+
+```
+DB_HOST = localhost
+DB_NAME = nodelogin
+DB_USER = root
+DB_PASS = brush
+```
+
+<br>
+
+3. app.js
+
+```
+import mysql from "mysql";
+import express from "express";
+import session from "express-session";
+import { engine } from "express-handlebars";
+import path from "path";
+import { createRequire } from "module";
+import dotenv from "dotenv";
+
+dotenv.config();
+
+const require = createRequire(import.meta.url);
+const __dirname = path.resolve();
+const port = 3000;
+
+const connect = mysql.createConnection({
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASS,
+  database: process.env.DB_NAME,
+});
+
+const app = express();
+
+app.engine(
+  "hbs",
+  engine({
+    extname: "hbs",
+  })
+);
+
+app.set("view engine", "hbs");
+
+app.use(
+  session({
+    secret: "secret",
+    resave: true,
+    saveUninitialized: true,
+  })
+);
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+app.use(express.static(__dirname));
+app.use((req, res, next) => {
+  next();
+});
+
+app.get("/", (req, res) => {
+  res.render("login");
+});
+
+app.listen(port, () => {
+  console.log(`The Server is Running on Port ${port}`);
+});
+
+
+
+```
+
+<br>
+
+4. login.hbs
+
+```
+<div class="login">
+    <h1>Login</h1>
+    <form action="/auth" method="post">
+        <label for="username">
+            <i class="bi bi-alarm"></i>
+        </label>
+        <input type="text" name="username" placeholder="Username" id="username" required>
+        <label for="password">
+            <i class="bi bi-mailbox2"></i>
+        </label>
+        <input type="password" name="password" placeholder="Password" id="password" required>
+        <input type="submit" value="Login">
+    </form>
+</div>
+```
+
+<br>
+
+5. style.css
+
+```
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: slategray;
+}
+
+.login {
+  width: 400px;
+  background: white;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  margin: 100px auto;
+}
+.login h1 {
+  text-align: center;
+  color: slategray;
+  font-size: 24px;
+  padding: 20px 0;
+  border-bottom: 1px solid lightblue;
+}
+.login form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+.login form label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: dodgerblue;
+  color: white;
+}
+.login form input[type="password"],
+.login form input[type="text"] {
+  width: 310px;
+  height: 50px;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.login form input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  margin-top: 30px;
+  background: dodgerblue;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  transition: 0.2s;
+}
+.login form input[type="submit"]:hover {
+  background: deepskyblue;
+}
+```
+
