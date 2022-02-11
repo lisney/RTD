@@ -67,13 +67,15 @@ import { myRouteHandler } from "./myModule";
 app.post('/exampleroute', myRouteHandler)
 ----------------------------------------
 또는
+//router.js
 import express from 'express';
 export const router = express.Router();
 
-router.post('/exampleroute', async (req, res) => {
-   ...
+router.get("/", async (req, res) => {
+  res.render("login");
 });
-import { router } from "./myModule.js";
+//app.js
+import { router } from "./router.js"; // .js 붙여줘야 인식?
 app.use("/", router);
 
 ```
