@@ -430,29 +430,17 @@ DB_PASS = brush
 
 <br>
 
-3. app.js
+3. app.js, router.js(/routers/router.js)
 
 ```
-import mysql from "mysql";
 import express from "express";
-import session from "express-session";
 import { engine } from "express-handlebars";
 import path from "path";
 import { createRequire } from "module";
-import dotenv from "dotenv";
-
-dotenv.config();
 
 const require = createRequire(import.meta.url);
 const __dirname = path.resolve();
 const port = 3000;
-
-const connect = mysql.createConnection({
-  host: process.env.DB_HOST,
-  user: process.env.DB_USER,
-  password: process.env.DB_PASS,
-  database: process.env.DB_NAME,
-});
 
 const app = express();
 
@@ -465,29 +453,83 @@ app.engine(
 
 app.set("view engine", "hbs");
 
-app.use(
+app.use(express.static(__dirname));
+app.use((req, res, next) => {
+  next();
+});
+
+import { router } from "./routers/router.js";
+app.use("/", router);
+
+app.listen(port, () => {
+  console.log(`The Server is Running on Port ${port}`);
+});
+```
+
+```
+import mysql from "mysql";
+import session from "express-session";
+import dotenv from "dotenv";
+import express from "express";
+export const router = express.Router();
+
+dotenv.config();
+
+const connect = mysql.createConnection({
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASS,
+  database: process.env.DB_NAME,
+});
+
+router.use(
   session({
     secret: "secret",
     resave: true,
     saveUninitialized: true,
   })
 );
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
-app.use(express.static(__dirname));
-app.use((req, res, next) => {
-  next();
-});
 
-app.get("/", (req, res) => {
+router.use(express.urlencoded({ extended: true }));
+router.use(express.json());
+
+router.get("/", async (req, res) => {
   res.render("login");
 });
 
-app.listen(port, () => {
-  console.log(`The Server is Running on Port ${port}`);
+router.post("/auth", (req, res) => {
+  let username = req.body.username;
+  let password = req.body.password;
+  if (username && password) {
+    connect.query(
+      "select * from accounts where username = ? and password = ?",
+      [username, password],
+      (err, results, fields) => {
+        if (err) throw error;
+        if (results.length > 0) {
+          req.session.loggedin = true;
+          req.session.username = username;
+          res.redirect("/home");
+        } else {
+          res.send("Incorrect Username and/or Password!");
+        }
+        res.end();
+      }
+    );
+  } else {
+    res.send("Please enter Username and Password!");
+    res.end();
+  }
 });
 
-
+router.get("/home", (req, res) => {
+  if (req.session.loggedin) {
+    res.send("Welcome back, " + req.session.username + "!");
+  } else {
+    res.send("Please login to view this page!");
+  }
+  res.end();
+});
 
 ```
 
