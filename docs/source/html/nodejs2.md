@@ -73,7 +73,7 @@ export const router = express.Router();
 router.post('/exampleroute', async (req, res) => {
    ...
 });
-import { router } from "./myModule";
+import { router } from "./myModule.js";
 app.use("/", router);
 
 ```
