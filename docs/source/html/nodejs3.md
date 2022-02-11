@@ -621,7 +621,7 @@ body {
 
 <br>
 
-회원가입
+인증 
 --------
 
 1. MySQL Workbench
@@ -691,4 +691,9 @@ body {
 - token 인증 방식을 사용
 ```
 
+<br>
 
+Session 인증
+------------
+
+[참고사이트](https://millo-l.github.io/Nodejs-passport-session-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/)
