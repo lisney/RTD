@@ -619,3 +619,23 @@ body {
 }
 ```
 
+<br>
+
+회원가입
+--------
+
+1. MySQL Workbench
+
+![image](https://user-images.githubusercontent.com/30430227/153522325-099819f6-a94d-41f8-9f1f-c07fc5ad69f1.png)
+![image](https://user-images.githubusercontent.com/30430227/153522344-c095c648-e92a-4e6d-ab0e-ce57e79a18a8.png)
+
+![image](https://user-images.githubusercontent.com/30430227/153522392-db35f09a-72c8-4c99-8131-12c8b1df0b59.png)
+![image](https://user-images.githubusercontent.com/30430227/153522436-b9746fd8-0b1e-41ad-9777-4d19bf531452.png)
+
+![image](https://user-images.githubusercontent.com/30430227/153522531-c5e747ec-fb1d-4ae0-8ae4-70b295606cca.png)
+![image](https://user-images.githubusercontent.com/30430227/153522583-54084354-b543-4624-abe6-56f358a69356.png)
+
+
+
+
+
