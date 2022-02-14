@@ -702,6 +702,8 @@ Session 인증
 
 1. Memory 세션
 
+![image](https://user-images.githubusercontent.com/30430227/153786786-d2b858ad-61c2-47e6-a463-272763c11315.png)
+
 ```
 import express from "express";
 import { engine } from "express-handlebars";
@@ -710,8 +712,13 @@ import { createRequire } from "module";
 
 const require = createRequire(import.meta.url);
 
-const session = require("express-session");
+const session = require("express-session"); 
 const MemoryStore = require("memorystore")(session);
+
+// ES6 방식
+// import session from 'express-session' 해도 된다
+// import memorystore from 'memorystore'; const memoryStore = memorystore(session) 해도 된다
+
 
 const __dirname = path.resolve();
 const port = 3000;
@@ -722,7 +729,7 @@ app.use(
   session({
     secret: "secret key",
     resave: false,
-    sveUninitialized: true,
+    saveUninitialized: true,
     store: new MemoryStore({
       checkPeriod: 86400000,
     }),
@@ -749,3 +756,35 @@ app.listen(port, () => {
   console.log(`The Server is Running on Port ${port}`);
 });
 ```
+
+<br>
+
+2. File 세션
+
+![image](https://user-images.githubusercontent.com/30430227/153786933-fb1d8456-4580-42d9-8ca5-21ff5c711e41.png)
+
+```
+- session의 데이터를 파일 형태로 디스크에 저장
+- DB보다는 속도가 빠르지만 memory 방식보다는 속도가 느리다. memory에 비해 디스크가 저장 공간이 훨씬 여유롭다는 장점
+const FileStore = require("session-file-store")(session);
+
+app.use(
+  session({
+    secret: "secret key",
+    resave: false,
+    saveUninitialized: true,
+    store: new FileStore(),
+  })
+);
+
+// ES6 방식
+// import filestore from "session-file-store";
+// const FileStore = filestore(session);
+
+```
+
+<br>
+
+3. Passport 세션
+
+
