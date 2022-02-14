@@ -790,4 +790,327 @@ app.use(
 `sequelize 시퀄라이즈- nodejs에서 mysql을 쉽게 다룰 수 있도록 도와주는 라이브러리,ORM(Object-relational Mapping)-SQL없이 DB사용`
 
 
+```
+import express from "express";
+const app = express();
 
+import passport from "passport";
+import localstrategy from "passport-local";
+const LocalStrategy = localstrategy.Strategy;
+import crypto from "crypto";
+
+import { engine } from "express-handlebars";
+
+import mysql from "mysql";
+import session from "express-session";
+import mysqlstore from "express-mysql-session";
+const MySQLStore = mysqlstore(session);
+//페이스북, 트위터 같은 소셜 로그인이 아니라 local에서 로그인 기능 구현을 위해 사용
+
+// import { createRequire } from "module";
+// const require = createRequire(import.meta.url);
+
+import path from "path";
+const __dirname = path.resolve();
+
+const port = 3000;
+
+import dotenv from "dotenv";
+dotenv.config();
+
+const connection = mysql.createConnection({
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASS,
+  database: process.env.DB_NAME,
+  multipleStatements: true,
+});
+connection.connect((err) => {
+  if (!err) {
+    console.log("Connected");
+  } else {
+    console.log("Connection Failed");
+  }
+});
+
+app.engine(
+  "hbs",
+  engine({
+    extname: "hbs",
+  })
+);
+
+app.set("view engine", "hbs");
+
+// 사용자 쿠키 생성, 다음에 사용자가 사이트를 방문할 때 쿠키를 확인하고 세션ID와 유효한지 검사
+app.use(
+  session({
+    key: "session_cookie_name",
+    secret: "session_cookie_secret",
+    store: new MySQLStore({
+      host: process.env.DB_HOST,
+      port: port,
+      user: process.env.DB_USER,
+      database: "cookie_user",
+    }),
+    resave: false,
+    saveUninitialized: false,
+    cookie: {
+      maxAge: 1000 * 60 * 60 * 24,
+    },
+  })
+);
+
+// Passport  초기화 및 session 연결
+app.use(passport.initialize());
+app.use(passport.session());
+
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
+app.use(express.static(__dirname));
+
+// passport.serializeUser((user, done) => done(null, user));
+
+// passport.deserializeUser(function (id, done) {
+//   done(null, id);
+// });
+
+const customFields = {
+  usernameField: "uname",
+  passwordField: "pw",
+};
+
+//사용자 유효성 판단(사용자 로그인 시 호출), validPassword메서드 사용 해 MySQL id/pass와 비교한다
+const verifyCallback = (username, password, done) => {
+  connection.query(
+    "select * from users where username =?",
+    [username],
+    (err, results, fields) => {
+      if (err) return done(err);
+
+      if (results.length == 0) {
+        return done(null, false);
+      }
+      const isValid = validPassword(password, results[0].hash, results[0].salt);
+      user = {
+        id: results[0].id,
+        username: results[0].username,
+        hash: results[0].hash,
+        salt: results[0].salt,
+      };
+      if (isValid) {
+        return done(null, user);
+      } else {
+        return done(null, false);
+      }
+    }
+  );
+};
+
+const strategy = new LocalStrategy(customFields, verifyCallback);
+passport.use(strategy);
+
+// serializeUser - 사용자의 정보 객체를 세션에 아이디로 저장
+passport.serializeUser((user, done) => {
+  console.log("inside serialize");
+  done(null, user.id);
+});
+
+// deserializeUser - 세션에 저장한 아이디를 통해 사용자 정보 객체를 불러옴
+passport.deserializeUser(function (userId, done) {
+  console.log("deserializeUser" + userId);
+  connection.query(
+    "select * from users where id =?",
+    [userId],
+    (err, results) => {
+      done(null, results[0]);
+    }
+  );
+});
+
+//로그인 시 입력한 암호를 암호화하여 DB암호와 비교, 같으면 true 반환
+function validPassword(password, hash, salt) {
+  var hashVerify = crypto
+    .pbkdf2Sync(password, salt, 10000, 60, "sha512")
+    .toString("hex");
+  return hash === hashVerify;
+}
+
+//암호화(사용자 등록 시 호출), 먼저 암호패키지를 사용해 암호 salt를 생성한다>암호salt를 사용해 암호에 대한 hash를 생성
+function genPassword(password) {
+  var salt = crypto.randomBytes(32).toString("hex");
+  var genhash = crypto
+    .pbkdf2Sync(password, salt, 10000, 60, "sha512")
+    .toString("hex");
+  return { salt: salt, hash: genhash };
+}
+
+// 사용자가 인증되었는지 여부 확인, false를 반환하면 '/notAuthorized' 경로로 리디렉션된다
+function isAuth(req, res, next) {
+  if (req.isAuthenticated()) {
+    next();
+  } else {
+    res.redirect("/notAuthorized");
+  }
+}
+
+// 사용자가 관리자인지 여부 확인
+function isAdmin(req, res, next) {
+  if (req.isAuthenticated() && req.user.isAdmin == 1) {
+    next();
+  } else {
+    res.redirect("/notAuthorizedAdmin");
+  }
+}
+
+// 사용자 이름이 이미 데이터베이스에 있는지 확인, 존재하면 '/userAlreadyExists'로 그렇지 않으면 사용자를 등록한 다음'/login' 경로로 리디렉션
+function userExists(req, res, next) {
+  connection.query(
+    "select * from users where username=?",
+    [req.body.uname],
+    (err, results, fields) => {
+      if (err) {
+        console.log("Error");
+      } else if (results.length > 0) {
+        res.redirect("/userAlreadyExists");
+      } else {
+        next();
+      }
+    }
+  );
+}
+
+app.get("/", (req, res, next) => {
+  res.send("<h1>Home</h1><p>Please <a href='/register'>register</a>");
+});
+
+app.get("/login", (req, res, next) => {
+  res.render("login");
+});
+
+app.get("/logout", (req, res, next) => {
+  req.logout();
+  res.redirect("/protected-route");
+});
+
+app.get("/login-success", (req, res, next) => {
+  res.send(
+    '<p>You successfully logged in. --> <a href="/protected-toute">Go to protected route</a></p>'
+  );
+});
+
+app.get("/login-failure", (req, res) => {
+  res.send("You entered the wrong id/password.");
+});
+
+app.get("/register", (req, res) => {
+  console.log("inside get");
+  res.render("register");
+});
+
+app.post("/register", userExists, (req, res, next) => {
+  console.log("Inside post");
+  console.log(req.body.pw);
+  const saltHash = genPassword(req.body.pw);
+  console.log(saltHash);
+  const salt = saltHash.salt;
+  const hash = saltHash.hash;
+
+  connection.query(
+    "insert into users(username,hash,salt,isAdmin) values(?,?,?,0)",
+    [req.body.uname, hash, salt],
+    (err, results, fields) => {
+      if (err) {
+        console.log("Error");
+      } else {
+        console.log("Successfully Entered");
+      }
+    }
+  );
+  res.redirect("/login");
+});
+
+app.post(
+  "/login",
+  passport.authenticate("local", {
+    failureRedirect: "/login-failure",
+    successRedirect: "/login-success",
+  })
+);
+
+app.get("/protected-route", isAuth, (req, res, next) => {
+  res.send(
+    '<h1>You are authenticated</h1><p><a href="/logout">Logout and reload</a></p>'
+  );
+});
+
+app.get("/admin-route", isAdmin, (req, res, next) => {
+  res.send(
+    '<h1>You are admin</h1><p><a href="/logout">Logout and reload</a></p>'
+  );
+});
+
+app.get("/notAuthorized", (req, res, next) => {
+  console.log("Inside get");
+  res.send(
+    '<h1>You are not authorized to view the resource</h1><p><a href="/login">Retry Login</a></p>'
+  );
+});
+
+app.get("/notAuthorizedAdmin", (req, res, next) => {
+  console.log("Inside get");
+  res.send(
+    '<h1>You are not authorized to view the resource as you are not the admin of the page </h1><p><a href="/login">Retry to Login as admin</a></p>'
+  );
+});
+
+app.get("/userAlreadyExists", (req, res, next) => {
+  console.log("Inside get");
+  res.send(
+    '<h1>Sorry This username is taken</h1><p><a href="/register">Register with different username</a></p>'
+  );
+});
+
+app.listen(port, () => {
+  console.log(`The Server is Running on Port ${port}`);
+});
+
+```
+
+```
+* register.hbs
+
+<div class="login">
+    <h1>Register</h1>
+    <form action="/register" method="post">
+        <label for="username">
+            <i class="bi bi-alarm"></i>
+        </label>
+        <input type="text" name="uname" placeholder="UserID" id="id">
+        <label for="password">
+            <i class="bi bi-mailbox2"></i>
+        </label>
+        <input type="password" name="pw" placeholder="Password" id="password">
+        <small>Already a member ? <a href="/login">Go and log in</a> </small>
+        <input type="submit" value="Register">
+    </form>
+</div>
+
+* login.hbs
+<div class="login">
+    <h1>Login</h1>
+    <form action="/login" method="post">
+        <label for="username">
+            <i class="bi bi-alarm"></i>
+        </label>
+        <input type="text" name="uname" placeholder="UserID" id="id">
+        <label for="password">
+            <i class="bi bi-mailbox2"></i>
+        </label>
+        <input type="password" name="pw" placeholder="Password" id="password">
+        <small>Not a member yet <a href="/register">Join us</a> </small>
+        <input type="submit" value="Login">
+    </form>
+</div>
+```
