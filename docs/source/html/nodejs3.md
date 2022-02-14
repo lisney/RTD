@@ -787,4 +787,7 @@ app.use(
 
 3. Passport 세션
 
+`sequelize 시퀄라이즈- nodejs에서 mysql을 쉽게 다룰 수 있도록 도와주는 라이브러리,ORM(Object-relational Mapping)-SQL없이 DB사용`
+
+
 
