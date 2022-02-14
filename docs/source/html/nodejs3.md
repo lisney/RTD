@@ -697,3 +697,55 @@ Session 인증
 ------------
 
 [참고사이트](https://millo-l.github.io/Nodejs-passport-session-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/)
+
+`npm install express-session memorystore session-file-store express-mysql-session`
+
+1. Memory 세션
+
+```
+import express from "express";
+import { engine } from "express-handlebars";
+import path from "path";
+import { createRequire } from "module";
+
+const require = createRequire(import.meta.url);
+
+const session = require("express-session");
+const MemoryStore = require("memorystore")(session);
+
+const __dirname = path.resolve();
+const port = 3000;
+
+const app = express();
+
+app.use(
+  session({
+    secret: "secret key",
+    resave: false,
+    sveUninitialized: true,
+    store: new MemoryStore({
+      checkPeriod: 86400000,
+    }),
+    cookie: { maxAge: 86400000 },
+  })
+);
+
+app.use(express.static(__dirname));
+app.use((req, res, next) => {
+  next();
+});
+
+app.get("/", (req, res) => {
+  console.log(req.session);
+  if (req.session.num === undefined) {
+    req.session.num = 1;
+  } else {
+    req.session.num += 1;
+  }
+  res.send(`View: ${req.session.num}`);
+});
+
+app.listen(port, () => {
+  console.log(`The Server is Running on Port ${port}`);
+});
+```
