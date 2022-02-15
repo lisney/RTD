@@ -789,6 +789,11 @@ app.use(
 
 `sequelize 시퀄라이즈- nodejs에서 mysql을 쉽게 다룰 수 있도록 도와주는 라이브러리,ORM(Object-relational Mapping)-SQL없이 DB사용`
 
+```
+특별한 점이 있다면 passport를 app.use(passport.initialize())해서 반드시 초기화를 해야 한다는 점이다. 물론 세션을 사용하기 때문에 app.use(passport.session())도 반드시 초기화해야 한다.
+- serializeUser란 로그인을 성공한 user의 정보를 session에 저장하는 함수이고,
+- deserializeUser는 페이지에 방문하는 모든 client에 대한 정보를 req.user 변수에 전달해주는 함수이다. 따라서, req.user로 해당 user가 로그인을 한 유저인지 또한 어떤 user인지에 대한 정보를 각각의 요청들에서 넘겨받을 수 있게 된다.
+```
 
 ```
 import express from "express";
