@@ -766,6 +766,8 @@ app.listen(port, () => {
 ```
 - session의 데이터를 파일 형태로 디스크에 저장
 - DB보다는 속도가 빠르지만 memory 방식보다는 속도가 느리다. memory에 비해 디스크가 저장 공간이 훨씬 여유롭다는 장점
+- session.save() 세션이 저장된 후에 실행되는 함수(파일 저장 속도가 느려 반응이 늦을 경우)
+
 const FileStore = require("session-file-store")(session);
 
 app.use(
@@ -868,7 +870,8 @@ app.get("/welcome", (req, res) => {
 
 app.get("/logout", (req, res) => {
   console.log(req.session.displayName);
-  req.session.destroy();
+  //delete req.session.displayName;
+  req.session.destroy(); // delete 와 같은 기능
   res.redirect("welcome");
 });
 
