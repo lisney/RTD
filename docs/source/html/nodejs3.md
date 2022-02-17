@@ -872,13 +872,7 @@ app.get("/logout", (req, res) => {
   res.redirect("welcome");
 });
 
-let users = [
-  {
-    username: "egoing",
-    password: "111",
-    displayName: "Brush",
-  },
-];
+const users = [];
 
 app.post("/register", (req, res) => {
   const user = {
@@ -887,7 +881,12 @@ app.post("/register", (req, res) => {
     displayName: req.body.displayName,
   };
   users.push(user);
-  res.send(users);
+  req.session.displayName = req.body.username;
+  req.session.save(() => {
+    //session.save() 세션이 저장된 후에 실행되는 함수
+    console.log(users);
+    res.redirect("/welcome");
+  });
 });
 
 app.get("/register", (req, res) => {
@@ -895,20 +894,15 @@ app.get("/register", (req, res) => {
 });
 
 app.post("/login", (req, res) => {
-  var user = {
-    username: "egoing",
-    password: "111",
-    displayName: "Brush",
-  };
-  let uname = req.body.username;
-  let pwd = req.body.password;
-
-  if (uname === user.username && pwd === user.password) {
-    req.session.displayName = user.displayName;
-    res.redirect("/welcome");
-  } else {
-    res.send('Who are you? <a href ="/login">login</a>');
+  const uname = req.body.username;
+  const pwd = req.body.password;
+  for (let i = 0; i < users.length; i++) {
+    if (uname === users[i].username && pwd === users[i].password) {
+      req.session.displayName = users[i].displayName;
+      return res.redirect("/welcome");
+    }
   }
+  res.send('Who are you? <a href ="/login">login</a>');
 });
 
 app.get("/login", (req, res) => {
