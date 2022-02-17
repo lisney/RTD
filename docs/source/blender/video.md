@@ -19,6 +19,7 @@ Tool패널의 Blade면도칼 단축키 해제할 것 (Remove ShortCut)
 
 Ctrl-Wheel(타임라인 이동), Alt - Wheel(PlayHead 이동)
 Ctrl-Click(세로 전체 선택), Alt-Click(Mute Toggle)
+- 타임라인 스트랩 센터로 이동(Alt-PgUP)
 
 Image > Scale to Fit(전체가 화면에 맞춤), Scale to Fill(이미지 잘라서 맞춤), Stretch(가로세로비 무시 맞춤)
 View > Navigation > Jump to Previous Strip - PageUp 세팅
@@ -27,7 +28,8 @@ PlayHead 위치의 클립 선택 - 2(Select>Side of Frame>Current Frame), 3(Stri
 Effect Strip 복사 -  이팩트 Dup 'D' > 대상 선택, 복사한 이팩트 선택 'R' - Reassign Input:
 
 정지화면(Hold/Freeze Frame) - Effect Strip > Speed > Frame Number or Multiply => 0
-- Speed Effect 적용 전 Meta Strip(Ctrl-G) 으로 변환해야한다
+# Speed Effect: Meta Strip(Ctrl-G) 으로 변환 > Multiply(속도조절), Strecth(스트랩 길이에 맞춰 속도), Length(시작~끝 %, 타임리맵)
+# Audio Speed는 Pitch 값으로 조절
 
 선택한 클립 PlayHead 위치로 이동 - Shift-s(Strip>Transform>Snap Strips to the Current Frame
 선택한 클립을 랜더 영역으로 View>Range>Set Frame Range to Strips - 단축키 지정 '\'
