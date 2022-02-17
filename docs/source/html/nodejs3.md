@@ -785,6 +785,145 @@ app.use(
 
 <br>
 
+`MySQL 세션`
+
+```
+import express from "express";
+const app = express();
+
+import { engine } from "express-handlebars";
+
+import session from "express-session";
+
+// import filestore from "session-file-store";
+// const FileStore = filestore(session);
+
+import mysqlstore from "express-mysql-session";
+const MySQLStore = mysqlstore(session);
+
+// import { createRequire } from "module";
+// const require = createRequire(import.meta.url);
+
+// const FileStore = require("session-file-store")(session);
+
+import path from "path";
+const __dirname = path.resolve();
+
+const port = 3000;
+
+import dotenv from "dotenv";
+dotenv.config();
+
+app.engine(
+  "hbs",
+  engine({
+    extname: "hbs",
+  })
+);
+
+const options = {
+  host: "localhost",
+  port: 3306,
+  user: "root",
+  password: "brush",
+  database: "session_test",
+};
+
+app.set("view engine", "hbs");
+
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
+
+app.use(express.static(__dirname));
+
+app.use(
+  session({
+    key: "session_cookie_name",
+    secret: "283hehksfuse7@dfd", // 쿠기 정보, 알아보기 힘들게 작성한다
+    resave: false, // true하면 변경사항이 없을 시에도 세션을 저장한다
+    saveUninitialized: false, // 새로 생성된 세션에 아무 작업이 없을 경우도 저장한다
+    store: new MySQLStore(options),
+  })
+);
+
+app.get("/count", (req, res) => {
+  if (req.session.count) {
+    req.session.count++;
+  } else {
+    req.session.count = 1;
+  }
+  res.send(`count : ${req.session.count}`);
+});
+
+app.get("/welcome", (req, res) => {
+  if (req.session.displayName) {
+    res.send(`
+    <h1>Hello, ${req.session.displayName} </h1>
+    <a href='/logout'>logout</a>
+    `);
+  } else {
+    res.render("home");
+  }
+});
+
+app.get("/logout", (req, res) => {
+  console.log(req.session.displayName);
+  req.session.destroy();
+  res.redirect("welcome");
+});
+
+let users = [
+  {
+    username: "egoing",
+    password: "111",
+    displayName: "Brush",
+  },
+];
+
+app.post("/register", (req, res) => {
+  const user = {
+    username: req.body.username,
+    password: req.body.password,
+    displayName: req.body.displayName,
+  };
+  users.push(user);
+  res.send(users);
+});
+
+app.get("/register", (req, res) => {
+  res.render("register");
+});
+
+app.post("/login", (req, res) => {
+  var user = {
+    username: "egoing",
+    password: "111",
+    displayName: "Brush",
+  };
+  let uname = req.body.username;
+  let pwd = req.body.password;
+
+  if (uname === user.username && pwd === user.password) {
+    req.session.displayName = user.displayName;
+    res.redirect("/welcome");
+  } else {
+    res.send('Who are you? <a href ="/login">login</a>');
+  }
+});
+
+app.get("/login", (req, res) => {
+  res.render("login");
+});
+
+app.listen(port, () => {
+  console.log(`The Server is Running on Port ${port}`);
+});
+
+```
+
+<br>
+
+
 3. Passport 세션
 
 `sequelize 시퀄라이즈- nodejs에서 mysql을 쉽게 다룰 수 있도록 도와주는 라이브러리,ORM(Object-relational Mapping)-SQL없이 DB사용`
