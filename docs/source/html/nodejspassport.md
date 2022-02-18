@@ -937,3 +937,36 @@ app.listen(port, () => {
 ```
 
 <br>
+
+암호화 
+------
+
+```
+* 해시 - 암호를 암호화된 데이터로 변환
+* 다이제스트digest - 해시에 의해 암호화된 데이터
+* 단방향 해시 - 다이제스트의 복호화 즉 원본데이터를 구할 수 없는 해시함수(SHA, MD, HAS, WHIRLPOOL...)
+* 동일한 암호명에는 동일한 다이제스트가 생성된다(단점)
+* 단방향 해시 함수 보완 기법 - 키-스크레칭(다이제스트를 여러번 해싱한다), 솔트(해시함수를 돌리기 전에 임의 문자를 뿌리는 것)
+```
+
+1. 비밀번호 암호화 하기(기본) - 같은 결과가 나온다(레인보우 방식)
+
+```
+import crypto from "crypto";
+
+const createHashedPassword = (password) => {
+  return crypto.createHash("sha512").update(password).digest("base64");
+};
+//createHash: 알고리즘, update: 암호화할 비밀번호, digest: 인코딩방식
+console.log(createHashedPassword("1234"));
+console.log(createHashedPassword("1234"));
+console.log(createHashedPassword("1234"));
+```
+
+<br>
+
+2. 암호에 소금 뿌리기
+
+```
+
+```
