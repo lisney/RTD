@@ -40,6 +40,10 @@ Preference > Navigation >Zoom to Mouse Position 체크
 Ctrl - M : Render Animation
 ```
 
+`비디오 역재생 - Meta Strip > Reverse Frames 체크`
+
+![image](https://user-images.githubusercontent.com/30430227/154629015-8dd17880-dd35-4b6d-9ebd-d55ad928ec9b.png)
+
 2. Frame Selected (NumpadPeriod)  
 
 3. Frame All (Home - 단축키 안먹힐 때 체크해제 > 다시 체크)  
