@@ -768,3 +768,172 @@ app.listen(port, () => {
     </form>
 </div>
 ```
+
+<br>
+
+Egoing Session
+---------------
+
+1. MultiUser 세션
+
+`app.js`
+
+```
+import express from "express";
+const app = express();
+
+import { engine } from "express-handlebars";
+
+import session from "express-session";
+
+// import filestore from "session-file-store";
+// const FileStore = filestore(session);
+
+import mysqlstore from "express-mysql-session";
+const MySQLStore = mysqlstore(session);
+
+// import { createRequire } from "module";
+// const require = createRequire(import.meta.url);
+
+// const FileStore = require("session-file-store")(session);
+
+import path from "path";
+const __dirname = path.resolve();
+
+const port = 3000;
+
+import dotenv from "dotenv";
+dotenv.config();
+
+app.engine(
+  "hbs",
+  engine({
+    extname: "hbs",
+  })
+);
+
+const options = {
+  host: "localhost",
+  port: 3306,
+  user: "root",
+  password: "brush",
+  database: "session_test",
+};
+
+app.set("view engine", "hbs");
+
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
+
+app.use(express.static(__dirname));
+
+app.use(
+  session({
+    key: "session_cookie_name",
+    secret: "283hehksfuse7@dfd", // 쿠기 정보, 알아보기 힘들게 작성한다
+    resave: false, // true하면 변경사항이 없을 시에도 세션을 저장한다
+    saveUninitialized: false, // 새로 생성된 세션에 아무 작업이 없을 경우도 저장한다
+    store: new MySQLStore(options),
+  })
+);
+
+app.get("/count", (req, res) => {
+  if (req.session.count) {
+    req.session.count++;
+  } else {
+    req.session.count = 1;
+  }
+  res.send(`count : ${req.session.count}`);
+});
+
+app.get("/welcome", (req, res) => {
+  if (req.session.displayName) {
+    res.send(`
+    <h1>Hello, ${req.session.displayName} </h1>
+    <a href='/logout'>logout</a>
+    `);
+  } else {
+    res.render("home");
+  }
+});
+
+app.get("/logout", (req, res) => {
+  console.log(req.session.displayName);
+  delete req.session.displayName;
+  // req.session.destroy();
+  res.redirect("welcome");
+});
+
+const users = [];
+
+app.post("/register", (req, res) => {
+  const user = {
+    username: req.body.username,
+    password: req.body.password,
+    displayName: req.body.displayName,
+  };
+  users.push(user);
+  req.session.displayName = req.body.username;
+  req.session.save(() => {
+    //session.save() 세션이 저장된 후에 실행되는 함수
+    console.log(users);
+    res.redirect("/welcome");
+  });
+});
+
+app.get("/register", (req, res) => {
+  res.render("register");
+});
+
+app.post("/login", (req, res) => {
+  const uname = req.body.username;
+  const pwd = req.body.password;
+  for (let i = 0; i < users.length; i++) {
+    if (uname === users[i].username && pwd === users[i].password) {
+      req.session.displayName = users[i].displayName;
+      return res.redirect("/welcome");
+    }
+  }
+  res.send('Who are you? <a href ="/login">login</a>');
+});
+
+app.get("/login", (req, res) => {
+  res.render("login");
+});
+
+app.listen(port, () => {
+  console.log(`The Server is Running on Port ${port}`);
+});
+```
+
+`register.hbs, home.hbs`
+
+```
+<div class="login">
+    <h1>Register</h1>
+    <form action="/register" method="post">
+        <label for="username">
+            <i class="bi bi-alarm"></i>
+        </label>
+        <input type="text" name="username" placeholder="UserID" id="id">
+        <label for="password">
+            <i class="bi bi-mailbox2"></i>
+        </label>
+        <input type="password" name="password" placeholder="Password" id="password">
+        <input type="text" name="displayName" placeholder="displayName">
+        <small>Already a member ? <a href="/login">Go and log in</a> </small>
+        <input type="submit" value="Register">
+    </form>
+</div>
+```
+```
+    <h1>Welcome</h1>
+    <ul>
+    <li><a href='/login'>Login</a></li>
+    <li><a href='/register'>Register</a></li>
+    </ul>
+
+  <a href="/logout">logout</a>
+```
+
+<br>
