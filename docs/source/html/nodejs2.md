@@ -25,6 +25,11 @@ NodeJs 2
     app.use(express.json())
 ```
 
+```
+* flash - 사용자에게 메시지 띄워주는 미들웨어
+express-flash: connect-flash와 같은기능을 하는 
+```
+
 6. ES6 이상 문법 사용 - require 대신 import
 
 ```
