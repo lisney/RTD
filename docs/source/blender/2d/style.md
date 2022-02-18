@@ -151,7 +151,7 @@ Water Ripple
 
 <br>
 
-Ghibli Style 구름
+Ghibli Style 구름 텍스처
 ---------------
 
 `VectorCurve(똥모양) > Gradient(QSphere,구름 입체) 3 Voronoi(구름 디테일) > 추가 Gradient(Sphere,구름 내부 그림자)`
@@ -159,6 +159,14 @@ Ghibli Style 구름
 ![image](https://user-images.githubusercontent.com/30430227/154645837-5e965329-aa7f-4b50-8ee6-829c88c5820a.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/154646548-546537ef-c2dc-4f50-86f7-c9515bd46521.png)
+
+<br>
+
+번개공격 텍스처
+------------
+
+
+
 
 
 
