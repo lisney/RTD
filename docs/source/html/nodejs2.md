@@ -28,6 +28,21 @@ NodeJs 2
 6. ES6 이상 문법 사용 - require 대신 import
 
 ```
+* import {}
+
+- ap.js
+const a = 1;
+const b = 2;
+export { a }; //a와 c는 {}로 import해야한다. 변수명이 같게 써야한다.
+export const c = 3; //선언과 동시에 할당한 한 변수는 import 시 {}안에 써야한다
+export default b; // b는 기본 변수, {}없이 받으며...변수명이 달라도(d) 괜찮다 
+
+- main.js
+import d, { a, c as e } from "./ap.js";
+console.log(a, d, e);
+```
+
+```
    require 대신 ES6 import 사용하기 package.json 에  "type":"module" 추가
    기존 require 방식 사용 시 "type": "commonjs"로 명기할 수 있다.
 
