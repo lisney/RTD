@@ -165,6 +165,23 @@ Ghibli Style 구름 텍스처
 번개공격 텍스처
 ------------
 
+![image](https://user-images.githubusercontent.com/30430227/154834696-488c3408-4f02-466e-9cea-a4e2a43ea55a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/154834700-c5781c05-5d07-497b-8252-f4bf727743e2.png)
+
+<br>
+
+![image](https://user-images.githubusercontent.com/30430227/154835223-07bb5c58-3d66-4c21-8d6b-09aab9d250db.png)
+
+![image](https://user-images.githubusercontent.com/30430227/154835230-ef4c3000-ced5-44cc-9201-685aabeec47e.png)
+
+`Animate`
+
+![image](https://user-images.githubusercontent.com/30430227/154835248-d41441d9-b90a-4dc7-aee9-2fb2a46a0938.png)
+
+![image](https://user-images.githubusercontent.com/30430227/154835242-aa7b91de-dfd5-4852-b7a3-15d57ae1515c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/154835298-6ac7e8bf-c639-47b5-b700-132cc847684a.png)
 
 
 
