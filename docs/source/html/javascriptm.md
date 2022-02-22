@@ -163,6 +163,8 @@ let userRate = 30.1234
 userRate.toFixed(2) //소수점 둘째자리
 userRate.toFixed(6) //소수점을 0으로 채워준다
 
+- Zerofill
+'0000'+num
 
 - isNaN - 숫자인지 아닌지 불 값 반환
 
