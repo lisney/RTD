@@ -91,11 +91,18 @@ Ctrl - M : Render Animation
 `대상 먼저 선택 후  선택한다`  
 ![image](https://user-images.githubusercontent.com/30430227/137083928-c2367dd1-721e-4a9a-a990-0a68d62f2ef9.png)  
 
-16. Mask  
-`랜더 해상도로 바꿈 Image Editor > Mask 모드 > Render REsult 선택 `  
+16. Mask- 랜더링해야 MaskEditor에서 보인다(F12), MetaClip(Ctrl-G)변환 후 적용
+
+`동영상을 가이드로 하려면: 랜더 해상도로 바꿈 Image Editor > Mask 모드 > Render REsult 선택 `
+
 ![image](https://user-images.githubusercontent.com/30430227/137091324-f54f9fcd-daf9-4979-ba7d-20cfe24c938a.png)  
 
+`Mask Display > Overlay(Black & White 모드)//오른 쪽에 숨어있다`
+
+![image](https://user-images.githubusercontent.com/30430227/155254134-613fa8cb-0926-4e20-9334-12b46ef95b22.png)
+
 `랜더 시 별도 창이 안뜨게  Preferences > Interface > Editors > Temporary Editors`  
+
 ![image](https://user-images.githubusercontent.com/30430227/137091855-4bc7a7e3-d33b-4cd3-986c-a0b8789e5a8b.png)  
 
 `Add Square > 'B' 포인트 선택, Alt - S 페더, Ctrl -클릭 포인트 추가, 'V' 베지어 핸들`  
