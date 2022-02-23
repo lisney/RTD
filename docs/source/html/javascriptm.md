@@ -222,6 +222,8 @@ parseInt(redColor, 16) //243
 `push()-뒤에 삽입, pop()-뒤에 삭제, shift()-앞에 삭제, unshift()-앞에 삽입`
 
 ```
+# splice는 데이터 변경, concat는 데이터 반환(변경하지 않음)
+
 - arr.splice(n, m) - 연결 n시작, m개수를 제거하고 연결, 반환값(삭제된 요소)
 - 요소 지우고 추가(arr.splice(n,m,x,...), 삽입 arr.splice(1,0,x) - 1번째 위치에 x 삽입
     let arr = [1,2,3,4,5]
@@ -233,8 +235,6 @@ parseInt(redColor, 16) //243
 arr.concat(arr2, arr3...) - 합쳐서 새 배열 반환
     let arr = [1,2]
     console.log(arr.concat([3,4],[5,6]))
-
-    
 ```
 
 ```
