@@ -133,6 +133,27 @@ Ctrl - M : Render Animation
 
 <br>
 
+18. ChromaKey
+
+`키용 스트립 복사 > Hue > Curve > Blur`
+
+![image](https://user-images.githubusercontent.com/30430227/155440665-930f9ca7-a40e-4c49-af72-367fdea28041.png)
+![image](https://user-images.githubusercontent.com/30430227/155440683-bbb17ac4-8172-4e07-baeb-017209a970bf.png)
+![image](https://user-images.githubusercontent.com/30430227/155440815-297a4afb-cb2f-4665-899e-198d417d67c2.png)
+![image](https://user-images.githubusercontent.com/30430227/155440971-79a144d2-5e7c-411e-8932-7cc1b000a505.png)
+
+![image](https://user-images.githubusercontent.com/30430227/155440498-a991db58-590c-4b7e-9913-f7f104ba8e75.png)
+![image](https://user-images.githubusercontent.com/30430227/155440705-78a571ed-02ea-4593-baf5-d11eb5913cf9.png)
+![image](https://user-images.githubusercontent.com/30430227/155440903-3434fb6c-06e0-4bc6-9416-4947cb106987.png)
+![image](https://user-images.githubusercontent.com/30430227/155440993-8cbf6a70-63e4-41f6-a544-911756f3913f.png)
+
+`원본 스트립 > Mask(Strip) > Blend(AlphaOver)`
+
+![image](https://user-images.githubusercontent.com/30430227/155441219-c60cd449-3ca3-4a54-b8bc-ec8ec4f9db19.png)
+![image](https://user-images.githubusercontent.com/30430227/155441407-0e28abae-a836-4f05-84be-652baf9f8b0b.png)
+
+<br>
+
 Power Sequencer
 ------------------
 
