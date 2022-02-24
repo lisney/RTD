@@ -357,6 +357,11 @@ let a =1; let b=2 //임의 변수 없이 값 바꾸기 -> ';' 필수
 객체 구조 분해 : 기본값
     let user = {name: 'Mike', age:30}
     let {name, age, gender='male'} = user //user에 gender 멤버가 없다면 기본값 'gender:'male' 
+    
+* JSON - stringify, parse
+const data1 = JSON.stringify(lee);
+
+console.log(JSON.parse(data1));
 
 ```
 
