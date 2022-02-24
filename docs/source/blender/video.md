@@ -154,6 +154,22 @@ Ctrl - M : Render Animation
 
 <br>
 
+19. 3.0 New
+
+```
+* Preview Editor에서 변형이 된다
+* View> preview as Backdrop
+* Strip Thumbnails(Sequencer Overlay,오른쪽 위 아이콘) - 스트립 썸네일 미리보기(MetaStrip에서는 안됨)
+* Strip Separate Images - 시퀀스 스트립을 각각 정지이미지로 분리
+* 소리안나게 Playback> Mute 또는- Preferences>System>Sound Device None
+```
+
+![image](https://user-images.githubusercontent.com/30430227/155443919-f30e85cd-e826-4a07-90b2-d6e057668f36.png)
+![image](https://user-images.githubusercontent.com/30430227/155443245-afb27ce9-1f5d-46c6-ac7f-63933125771f.png)
+![image](https://user-images.githubusercontent.com/30430227/155443717-9ae5e52e-6d70-47e2-a174-8c9db41bc289.png)
+
+
+
 Power Sequencer
 ------------------
 
