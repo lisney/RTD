@@ -461,6 +461,8 @@ console.log(JSON.parse(data1));
    user = {
     ...user, ...info, skills: [...fe, ...lang]
     } 
+----> 기존 방식(객체 합치기)
+const user1 = Object.assign(user, info)
 ```
 
 <br>
@@ -1066,7 +1068,56 @@ for ...of // 배열 값 순환, 객체obj에 사용하면 Error 발생
 var arr = [1, 2, 3];
 ```
 
+<br>
 
+2. ternary-operator - 세 개에 한 벌
+
+```
+// function getResult(score) {
+//   let result;
+//   if (score > 5) {
+//     result = "❤";
+//   } else {
+//     result = "💨";
+//   }
+//   return result;
+// }
+
+function getResult(score) {
+  return score > 5 ? "❤" : "💨";
+}
+
+console.log(getResult(6));
+```
+
+<br>
+
+3. nullish-coalescing - 널 병합연산자 A ?? B - A가 undefined, null 일 때 B 실행
+
+```
+function printMessage(text) {
+  const message = text ?? "Nothing to display";
+  console.log(text);
+}
+
+printMessage("Hello");
+printMessage(undefined);
+printMessage(null);
+printMessage(); //undefined
+
+// Logical OR operator  A || B - A가 undefined, 0, ''(빈문자)일 경우 B를 실행한다
+function printMessage(text) {
+  const message = text || "Nothing to display";
+  console.log(text);
+}
+
+printMessage("Hello");
+printMessage(undefined);
+printMessage(null);
+printMessage(); //undefined**
+```
+
+<br>
 
 
 
