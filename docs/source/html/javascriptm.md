@@ -1119,6 +1119,73 @@ printMessage(); //undefined**
 
 <br>
 
+4. optional-chaning 조건 안에 조건??
+
+```
+const lee = {
+  name: "Lee",
+  age: 22,
+};
+
+const kim = {
+  name: "Kim",
+  age: 33,
+  job: {
+    title: "singer",
+  },
+};
+
+function displayJobTitle(person) {
+  if (person.job?.title) { // .job이 있으면 다음으로 >.title이 있으면 'true'> if문 실행
+    console.log(person.job.title);
+  }
+}
+//nullish-coalescing 복합 예) person.job?.title ?? 'Not Job Yet!'
+
+displayJobTitle(kim);
+displayJobTitle(lee);
+```
+
+<br>
+
+5.  배열API, 배열 중 짝수들을 각각 4를 곱한 후 전체를 더하라?
+
+```
+let items = [3, 12, 8, 32, 5, 43];
+
+function getAllEvens(items) {
+  return items.filter((num) => num % 2 === 0);
+}
+
+function multiplyByFour(items) {
+  return items.map((num) => num * 4);
+}
+
+function sumArray(items) {
+  return items.reduce((a, b) => a + b, 0);
+}
+
+const evens = items.filter((num) => num & (2 === 0));
+const multiple = evens.map((um) => num * 4);
+const sum = multiple.reduce((a, b) => a + b, 0);
+console.log(sum);
+
+const result = items
+  .filter((num) => num % 2 === 0)
+  .map((num) => num * 4)
+  .reduce((a, b) => a + b, 0);
+console.log(result);
+```
+
+<br>
+
+6. 배열의 요소 중복 제거
+
+```
+const arr = [2, 44, 3, 2, 54, 6, 11];
+
+console.log([...new Set(arr)]); //, {}집합 형변환(new Set) 후 각각 요소를(...) []배열로 넣기 
+```
 
 
 
