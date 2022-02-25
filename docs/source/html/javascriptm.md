@@ -1092,7 +1092,7 @@ console.log(getResult(6));
 
 <br>
 
-3. nullish-coalescing - 널 병합연산자 A ?? B - A가 undefined, null 일 때 B 실행
+3. nullish-coalescing - 널 병합연산자 A ?? B - A에 값이 있으면 실행하고 undefined, null 이면 B를 실행
 
 ```
 function printMessage(text) {
