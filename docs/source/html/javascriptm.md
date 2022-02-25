@@ -559,7 +559,7 @@ update.apply(mike, [1999, "singer"]);
 
 ```
     ...위 예제에 이어서
-    const updateMike = update.bine(mike);
+    const updateMike = update.bin(mike);
     updateMike(1980, "police");
 ```
 ```
