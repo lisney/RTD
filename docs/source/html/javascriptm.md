@@ -588,7 +588,7 @@ update.apply(mike, [1999, "singer"]);
 ```
     const car = {
       wheels: 4,
-      drive() {
+      drive:()=>{
         console.log("drive..");
       },
     };
