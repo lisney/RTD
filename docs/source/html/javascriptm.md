@@ -549,8 +549,8 @@ update.apply(mike, [1999, "singer"]);
 예)
     const nums = [3, 10, 1, 6, 4];
 
-    const maxNum = Math.max(...nums);
-    const minNum = Math.min.apply(null, nums);
+    const maxNum = Math.max(...nums);//max는 숫자들을 받음
+    const minNum = Math.min.apply(null, nums);//min 메소드가 배열을 받도록 apply 사용
 
     console.log(maxNum, minNum);
 ```
