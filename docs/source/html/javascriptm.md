@@ -818,7 +818,7 @@ pr.then().catch().finally(function(){console.log('--- 주문 끝 ---')}) - 처�
       });
     });
     
------- 프로미스로 구현 ---
+------ 프로미스로 구현- return 값으로 프로미스 생성 ---
     const f1 = () => {
       return new Promise((res, rej) => {
         setTimeout(function () {
