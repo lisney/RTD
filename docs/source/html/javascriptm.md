@@ -1,5 +1,22 @@
 Javascript Middle
-==================
+=================
+
+```
+--자바스크립트 디버거 세팅
+폴더 .vacode 폴더 아래 launch.json파일 변경
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "js 디버깅",
+            "program": "${file}"
+        }
+    ]
+}
+```
+
 
 `VScode edge Debugger 설치 > launch > VScode, Edge 동시에 뜸, 브라우저에서 색상 바꿈`
 
