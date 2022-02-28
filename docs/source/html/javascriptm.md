@@ -787,7 +787,7 @@ pr.then().catch().finally(function(){console.log('--- 주문 끝 ---')}) - 처�
 ```
 
 ```
-콜백지옥과 프로미스
+콜백지옥과 프로미스 - 콜백함수 실행 시 '()' 필수
     const f1 = (callback) => {
       setTimeout(function () {
         console.log("1번 주문 완료");
