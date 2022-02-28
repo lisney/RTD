@@ -534,7 +534,7 @@ setTimeout(showName, 3000, 'Mike');
 
 <br>
 
-13. call, apply, bind
+13. call, apply, bind - 객체 멤버 추가 
 
 `call 메서드 this 특정값으로 지정`
 
@@ -574,7 +574,7 @@ update.apply(mike, [1999, "singer"]);
     console.log(maxNum, minNum);
 ```
 
-`bind - 함수의 this 값을 정한 함수를 새로 생성`
+`bind - 함수의 this 값을 정한 함수를 새로 생성, 함수 실행 단순화(.없이 실행)`
 
 ```
     ...위 예제에 이어서
