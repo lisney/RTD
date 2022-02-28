@@ -951,12 +951,12 @@ pr.then().catch().finally(function(){console.log('--- 주문 끝 ---')}) - 처�
 ```
     function* fn() {
       console.log(1);
-      yield 1;
+      yield '하나';//여기서 멈추고 {value:'하나',done:false}를 리턴한다
       console.log(2);
-      yield 2;
+      yield '둘';
       console.log(3);
-      yield 3;
-      return "finish";
+      yield '셋';
+      return "finish";//여기서 {value:'finish',done:true}를 리턴하고 마친다
     }
     const a = fn();
     
