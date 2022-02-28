@@ -1006,7 +1006,7 @@ it.next()
       yield 6;
     }
 
-    const a = fn();
+    const a = fn();//제너레이터 객체 a 
 
     for (let num of a) {
       console.log(num);
