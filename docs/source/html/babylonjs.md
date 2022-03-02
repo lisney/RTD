@@ -73,7 +73,7 @@ body,
   const canvas = document.querySelector('#renderCanvas')
   const engine = new BABYLON.Engine(canvas, true)
 
-  const createScene =()=>{
+  function createScene(){
     const scene = new BABYLON.Scene(engine)
     scene.clearColor = new BABYLON.Color3.Black
 
