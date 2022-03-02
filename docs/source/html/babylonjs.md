@@ -148,6 +148,9 @@ GLTF 로더
       const afo = scene.getMeshByName('Test')//이름으로 선택
       afo.position.y=1
     })
+     const sound = new BABYLON.Sound('love','./gltfs/true.mp3',scene,null,{loop:true, autoplay:true})
+     BABYLON.MeshBuilder.CreateBox("box", {width: 2, height: 1.5, depth: 3})
+     box.scaling = new BABYLON.Vector3(2, 1.5, 3);
 ------------------------------------------------------------------------------
 
     const ground = BABYLON.MeshBuilder.CreateGround('ground',{width:10, height:10})
@@ -164,3 +167,20 @@ engine.runRenderLoop(()=>{
 </script>
 ```
 
+![image](https://user-images.githubusercontent.com/30430227/156319898-5980261e-43ac-48a0-bfff-2a6da77b6ce7.png)
+
+```
+    const roofMat = new BABYLON.StandardMaterial('roofM',scene)
+    roofMat.diffuseColor = new BABYLON.Color3(0,1,0)
+    
+    const floorMat = new BABYLON.StandardMaterial('floorM')
+    floorMat.diffuseTexture = new BABYLON.Texture('./images/4g2.jpg',scene)
+
+    BABYLON.SceneLoader.ImportMeshAsync('','./gltfs/','afo01.glb').then(result=>{
+      const afo = scene.getMeshByName('Test')
+      afo.position.y=1
+      afo.material = roofMat
+      result.meshes[2].scaling.x=2
+      result.meshes[2].material=floorMat
+    })
+```
