@@ -189,16 +189,23 @@ engine.runRenderLoop(()=>{
 
 ```
     /*** 하우스 UV맵 ***/
-    const houseMat = new BABYLON.StandardMaterial('houseM')
-    houseMat.diffuseTexture = new BABYLON.Texture('/images/cubehouse.png')
+    const boxMat = new BABYLON.StandardMaterial('boxM')
+    boxMat.diffuseTexture = new BABYLON.Texture('/images/cubehouse.png')
     const faceUV =[]
     faceUV[0]=new BABYLON.Vector4(0.25,0.0,0.5,1.0)//rear face
     faceUV[1]=new BABYLON.Vector4(0.75,0.0,1.0,1.0)//front face
     faceUV[2]=new BABYLON.Vector4(0.5,0.0,0.75,1.0)//right side
     faceUV[3]=new BABYLON.Vector4(0.0,0.0,0.25,1.0)//left side
 
-    const house = BABYLON.MeshBuilder.CreateBox('house',{width:2,height:1.5,depth:2.5,faceUV:faceUV, wrap:true})
-    house.material = houseMat
+    const box = BABYLON.MeshBuilder.CreateBox('box',{width:2,height:1.5,depth:2.5,faceUV:faceUV, wrap:true})
+    box.material = boxMat
 ```
 
+![image](https://user-images.githubusercontent.com/30430227/156323917-12475163-38a8-4be2-9db5-3525c4467cf8.png)
+![image](https://user-images.githubusercontent.com/30430227/156324958-07e833c1-5c4e-44dd-b280-19354b421129.png)
 
+```
+    /*** 메쉬 합치기 ***/
+    const house = BABYLON.Mesh.MergeMeshes([box,roof])
+    const house = BABYLON.Mesh.MergeMeshes([box,roof],true,false,null,false,true)//합치고, 개별 재질,마지막 매개변수true
+```
