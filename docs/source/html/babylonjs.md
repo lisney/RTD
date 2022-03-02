@@ -29,15 +29,16 @@ import path from "path";
 import { createRequire } from "module";
 
 const app = express();
+const __dirname = path.resolve();
+const require = createRequire(import.meta.url);
+const port = 3000;
+
 app.engine(
   "hbs",
   engine({
     extname: "hbs",
   })
 );
-const __dirname = path.resolve();
-const require = createRequire(import.meta.url);
-const port = 3000;
 
 app.set("view engine", "hbs");
 app.set("views", "./views");
