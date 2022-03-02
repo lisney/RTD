@@ -209,3 +209,15 @@ engine.runRenderLoop(()=>{
     const house = BABYLON.Mesh.MergeMeshes([box,roof])
     const house = BABYLON.Mesh.MergeMeshes([box,roof],true,false,null,false,true)//합치고, 개별 재질,마지막 매개변수true
 ```
+
+![image](https://user-images.githubusercontent.com/30430227/156329039-e9e60b95-deac-4444-b1f5-a6501f116a63.png)
+
+```
+    /*** 복사 Clone ***/
+    const house1 = house.clone('cloneH') //Copy
+    house1.position.x=3
+    
+    const house2 = house.createInstance('instanceH')//instance Copy
+    house2.position.x =-3
+```
+
