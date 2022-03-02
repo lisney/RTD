@@ -188,6 +188,7 @@ engine.runRenderLoop(()=>{
 ![image](https://user-images.githubusercontent.com/30430227/156322917-5e3015ba-f0e3-4077-944b-d68dae2fe92f.png)
 
 ```
+    /*** 하우스 UV맵 ***/
     const houseMat = new BABYLON.StandardMaterial('houseM')
     houseMat.diffuseTexture = new BABYLON.Texture('/images/cubehouse.png')
     const faceUV =[]
