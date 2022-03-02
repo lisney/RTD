@@ -1071,6 +1071,8 @@ Generator 는 값을 미리 만들어 두지 않는다 while(true) 무한루프�
 기타
 -----
 
+`템플릿 리터럴 - 백틱`
+
 1. for in, for of 
 
 ```
