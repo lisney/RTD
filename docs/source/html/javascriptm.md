@@ -1162,7 +1162,7 @@ function displayJobTitle(person) {
     console.log(person.job.title);
   }
 }
-//nullish-coalescing 복합 예) person.job?.title ?? 'Not Job Yet!'
+//nullish-coalescing 복합 예) const title = person.job?.title ?? 'Not Job Yet!';console.log(title)
 
 displayJobTitle(kim);
 displayJobTitle(lee);
