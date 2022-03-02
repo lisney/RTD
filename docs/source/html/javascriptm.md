@@ -1206,7 +1206,7 @@ console.log(result);
 ```
 const arr = [2, 44, 3, 2, 54, 6, 11];
 
-console.log([...new Set(arr)]); //, {}집합 형변환(new Set) 후 각각 요소를(...) []배열로 넣기 
+console.log([...new Set(arr)]); //Set(집합,new Set) > Spread(...) > Array([]) 
 ```
 
 
