@@ -1123,6 +1123,7 @@ function printMessage(text) {
 printMessage("Hello");
 printMessage(undefined);
 printMessage(null);
+printMessage('');//아무것도 출력되지않는다
 printMessage(); //undefined
 
 // Logical OR operator  A || B - A가 undefined, 0, ''(빈문자)일 경우 B를 실행한다
@@ -1134,6 +1135,7 @@ function printMessage(text) {
 printMessage("Hello");
 printMessage(undefined);
 printMessage(null);
+printMessage(''); //'Nothing to display' 출력된다
 printMessage(); //undefined**
 ```
 
