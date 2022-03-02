@@ -1017,10 +1017,10 @@ it.next()
 Generator Next 메소드에 인수 전달 예
 
     function* fn() {
-      const num1 = yield "첫번째 숫자를 입력: ";
-      console.log(num1);
+      const num1 = yield "첫번째 숫자를 입력: ";//yield 앞에서 멈춘다
+      console.log(num1);//next()를 실행하면 yield실행(첫 번째 인수를 num1에 저장, "첫번..." 리턴)>console.log 실행
 
-      const num2 = yield "두번째 숫자를 입력:";
+      const num2 = yield "두번째 숫자를 입력:";//yield 앞에서 멈춤
       console.log(num2);
 
       return num1 + num2;
