@@ -1033,9 +1033,9 @@ Generator Next 메소드에 인수 전달 예
 
 ```
 Generator 는 값을 미리 만들어 두지 않는다 while(true) 무한루프를 사용해도 필요한만큼만 생성한다
-
+    let index = 0;
     function* fn() {
-      let index = 0;
+
       while (true) {
         yield index++;
       }
