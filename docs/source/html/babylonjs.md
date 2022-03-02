@@ -148,7 +148,7 @@ GLTF 로더
       const afo = scene.getMeshByName('Test')//이름으로 선택
       afo.position.y=1
     })
-     const sound = new BABYLON.Sound('love','./gltfs/true.mp3',scene,null,{loop:true, autoplay:true})
+     const sound = new BABYLON.Sound('love','./gltfs/true.mp3',scene,null,{loop:true, autoplay:true})//소리꾼
      BABYLON.MeshBuilder.CreateBox("box", {width: 2, height: 1.5, depth: 3})
      box.scaling = new BABYLON.Vector3(2, 1.5, 3);
 ------------------------------------------------------------------------------
@@ -184,3 +184,20 @@ engine.runRenderLoop(()=>{
       result.meshes[2].material=floorMat
     })
 ```
+
+![image](https://user-images.githubusercontent.com/30430227/156322917-5e3015ba-f0e3-4077-944b-d68dae2fe92f.png)
+
+```
+    const houseMat = new BABYLON.StandardMaterial('houseM')
+    houseMat.diffuseTexture = new BABYLON.Texture('/images/cubehouse.png')
+    const faceUV =[]
+    faceUV[0]=new BABYLON.Vector4(0.25,0.0,0.5,1.0)//rear face
+    faceUV[1]=new BABYLON.Vector4(0.75,0.0,1.0,1.0)//front face
+    faceUV[2]=new BABYLON.Vector4(0.5,0.0,0.75,1.0)//right side
+    faceUV[3]=new BABYLON.Vector4(0.0,0.0,0.25,1.0)//left side
+
+    const house = BABYLON.MeshBuilder.CreateBox('house',{width:2,height:1.5,depth:2.5,faceUV:faceUV, wrap:true})
+    house.material = houseMat
+```
+
+
