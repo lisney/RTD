@@ -1080,6 +1080,9 @@ var obj = {
   b: 2,
   c: 3
 };
+for(let key in obj){
+    console.log(obj[key])
+    }
 
 for ...of // 배열 값 순환, 객체obj에 사용하면 Error 발생
 var arr = [1, 2, 3];
