@@ -144,6 +144,7 @@ GLTF 로더
 ---------------------------------------------------------------------------
     BABYLON.SceneLoader.ImportMeshAsync('Test','./gltfs/','afo01.glb').then(result=>{//'Test'메쉬만 불러옴
       result.meshes[1].position.y=3//첫 번째 메쉬 선택
+      result.meshes[2].scaling.x=2//바닥판 스케일, meshes[0]는 전체에 영향을 주는 것 같다
       const afo = scene.getMeshByName('Test')//이름으로 선택
       afo.position.y=1
     })
