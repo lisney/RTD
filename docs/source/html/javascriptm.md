@@ -1117,7 +1117,7 @@ console.log(getResult(6));
 ```
 function printMessage(text) {
   const message = text ?? "Nothing to display";
-  console.log(text);
+  console.log(message);
 }
 
 printMessage("Hello");
