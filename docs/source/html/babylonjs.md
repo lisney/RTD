@@ -102,3 +102,55 @@ body,
   })
 </script>
 ```
+
+<br>
+
+바빌론 Web Viewer
+-----------------
+
+![image](https://user-images.githubusercontent.com/30430227/156299539-6560d396-ada4-44d3-a17b-8441f96ee23f.png)
+
+```
+<script src="https://cdn.babylonjs.com/viewer/babylon.viewer.js"></script>
+
+<babylon model="./gltfs/afo.gltf"></babylon>
+```
+
+<br>
+
+GLTF 로더
+-----------
+
+```
+<script src="https://cdn.babylonjs.com/babylon.js"></script>
+<script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+
+<canvas id="renderCanvas"></canvas>
+
+<script>
+  const canvas = document.querySelector('#renderCanvas')  
+  const engine = new BABYLON.Engine(canvas, true)
+
+  function createScene(){
+    const scene = new BABYLON.Scene(engine)
+
+    const camera = new BABYLON.ArcRotateCamera('camera',Math.PI/4,Math.PI/3,10, new BABYLON.Vector3(0,0,0))
+    camera.attachControl(canvas,true)
+    camera.wheelPrecision =100
+
+    const light = new BABYLON.HemisphericLight('light',new BABYLON.Vector3(1,1,0))
+
+    BABYLON.SceneLoader.ImportMeshAsync('','./gltfs/','afo.gltf')
+
+    return scene
+  }
+
+const sceneToRender = createScene()
+
+engine.runRenderLoop(()=>{
+  sceneToRender.render()
+})
+
+</script>
+```
+
