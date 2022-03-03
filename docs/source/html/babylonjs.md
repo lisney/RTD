@@ -247,6 +247,9 @@ engine.runRenderLoop(()=>{
 ![image](https://user-images.githubusercontent.com/30430227/156479753-74923597-0581-415a-aff0-c695af35a374.png)
 ![image](https://user-images.githubusercontent.com/30430227/156491013-de37d33e-1657-406a-9a1c-b19cda779c24.png)
 
+![image](https://user-images.githubusercontent.com/30430227/156497135-6fae3b5a-cab3-412b-93cf-5226dce0caf6.png)
+![image](https://user-images.githubusercontent.com/30430227/156497156-65fa9f8f-51a0-4763-93f3-9661147d4500.png)
+
 ```
 <script src="https://unpkg.com/earcut@2.2.3/dist/earcut.min.js"></script>//ExtrudePolygon은 Earcut라이브러리 필요
 
