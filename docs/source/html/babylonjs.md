@@ -245,26 +245,51 @@ engine.runRenderLoop(()=>{
 ```
 
 ![image](https://user-images.githubusercontent.com/30430227/156479753-74923597-0581-415a-aff0-c695af35a374.png)
+![image](https://user-images.githubusercontent.com/30430227/156491013-de37d33e-1657-406a-9a1c-b19cda779c24.png)
 
 ```
 <script src="https://unpkg.com/earcut@2.2.3/dist/earcut.min.js"></script>//ExtrudePolygon은 Earcut라이브러리 필요
 
     /*** 자동차 ***/
     const outline =[
-      new BABYLON.Vector3(-0.3,0,-0.1),
-      new BABYLON.Vector3(0.2,0,-0.1)
+      new BABYLON.Vector3(-3,0,-1),
+      new BABYLON.Vector3(2,0,-1)
     ]
-    for(let i =0;i<20;i++){
+    for(let i =0;i<5;i++){
       outline.push(
-        new BABYLON.Vector3(0.2*Math.cos(i*Math.PI/40), 0, 0.2*Math.sin(i*Math.PI/40)-0.1)
+        new BABYLON.Vector3(2*Math.cos(i*Math.PI/10), 0, 2*Math.sin(i*Math.PI/10)-1)
       )
     }
-    outline.push(new BABYLON.Vector3(0,0,0.1))
-    outline.push(new BABYLON.Vector3(-0.3,0,0.1))
+    outline.push(new BABYLON.Vector3(0,0,1))
+    outline.push(new BABYLON.Vector3(-3,0,1))
 
-    const car = BABYLON.MeshBuilder.ExtrudePolygon('car',{shape:outline,depth:0.2})
+    //const car = BABYLON.MeshBuilder.ExtrudePolygon('car',{shape:outline,depth:2})
+
+    const carUV =[]
+    carUV[0] = new BABYLON.Vector4(0,0.5,0.38,1)
+    carUV[1] = new BABYLON.Vector4(0,0,1,0.5)
+    carUV[2] = new BABYLON.Vector4(0.38,1,0,0.5)
+
+    const carMat = new BABYLON.StandardMaterial('carM')
+    carMat.diffuseTexture = new BABYLON.Texture('./images/car.png')
     
+    const car = BABYLON.MeshBuilder.ExtrudePolygon('car',{shape:outline,depth:2, faceUV:carUV,wrap:true})
+    car.material = carMat
+
     /*** 바퀴 ***/
+    const wheelUV =[]
+    wheelUV[0]= new BABYLON.Vector4(0,0,1,1)
+    wheelUV[1]= new BABYLON.Vector4(0,0.5,0,0.5)
+    wheelUV[2]= new BABYLON.Vector4(0,0,1,1)
+
+    const wheelMat = new BABYLON.StandardMaterial('wheelM')
+    wheelMat.diffuseTexture = new BABYLON.Texture('/images/wheel.png')
+
+    const wheelRB = BABYLON.MeshBuilder.CreateCylinder('wheelRB',{diameter:1, height:0.5,faceUV:wheelUV})
+    wheelRB.material = wheelMat
+    wheelRB.parent = car
+    wheelRB.position = new BABYLON.Vector3(-2,0,-1)
+
     const wheelRF=wheelRB.clone('wheelRF')
     wheelRF.position.x=1
 
@@ -273,5 +298,8 @@ engine.runRenderLoop(()=>{
 
     const wheelLF=wheelRF.clone('wheelLF')
     wheelLF.position.y=-2
+  
+    return scene
+  }
 ```
 
