@@ -116,6 +116,29 @@ body,
 <babylon model="./gltfs/afo.gltf"></babylon>
 ```
 
+`불러온 GLTF 바닥이 깜빡일 때`
+
+```
+<babylon extends="minimal" model="path to model file"></babylon> //기본 Ground 제거, 하지만 카메라 위치가 가깝다
+
+//카메라 거리를 조절하기위해 ID 생성
+<babylon id="myViewer" extends="minimal"></babylon>
+
+<script>
+    BabylonViewer.viewerManager.getViewerPromiseById('myViewer').then((viewer) => {
+        viewer.onSceneInitObservable.add(() => {
+            viewer.sceneManager.camera.radius = 15; //set camera radius
+            viewer.sceneManager.camera.beta = Math.PI / 2.2; //angle of depression
+        });
+        viewer.onEngineInitObservable.add((scene) => {
+            viewer.loadModel({
+                url: "path to model file"
+            });
+        });
+    });
+</script>
+```
+
 <br>
 
 GLTF 로더
@@ -219,5 +242,36 @@ engine.runRenderLoop(()=>{
     
     const house2 = house.createInstance('instanceH')//instance Copy
     house2.position.x =-3
+```
+
+![image](https://user-images.githubusercontent.com/30430227/156479753-74923597-0581-415a-aff0-c695af35a374.png)
+
+```
+<script src="https://unpkg.com/earcut@2.2.3/dist/earcut.min.js"></script>//ExtrudePolygon은 Earcut라이브러리 필요
+
+    /*** 자동차 ***/
+    const outline =[
+      new BABYLON.Vector3(-0.3,0,-0.1),
+      new BABYLON.Vector3(0.2,0,-0.1)
+    ]
+    for(let i =0;i<20;i++){
+      outline.push(
+        new BABYLON.Vector3(0.2*Math.cos(i*Math.PI/40), 0, 0.2*Math.sin(i*Math.PI/40)-0.1)
+      )
+    }
+    outline.push(new BABYLON.Vector3(0,0,0.1))
+    outline.push(new BABYLON.Vector3(-0.3,0,0.1))
+
+    const car = BABYLON.MeshBuilder.ExtrudePolygon('car',{shape:outline,depth:0.2})
+    
+    /*** 바퀴 ***/
+    const wheelRF=wheelRB.clone('wheelRF')
+    wheelRF.position.x=1
+
+    const wheelLB=wheelRB.clone('wheelLB')
+    wheelLB.position.y =-2
+
+    const wheelLF=wheelRF.clone('wheelLF')
+    wheelLF.position.y=-2
 ```
 
