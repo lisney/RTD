@@ -269,9 +269,9 @@ engine.runRenderLoop(()=>{
     //const car = BABYLON.MeshBuilder.ExtrudePolygon('car',{shape:outline,depth:2})
 
     const carUV =[]
-    carUV[0] = new BABYLON.Vector4(0,0.5,0.38,1)
-    carUV[1] = new BABYLON.Vector4(0,0,1,0.5)
-    carUV[2] = new BABYLON.Vector4(0.38,1,0,0.5)
+    carUV[0] = new BABYLON.Vector4(0,0.5,0.38,1)//Bottom
+    carUV[1] = new BABYLON.Vector4(0,0,1,0.5)//Side
+    carUV[2] = new BABYLON.Vector4(0.38,1,0,0.5)//Top
 
     const carMat = new BABYLON.StandardMaterial('carM')
     carMat.diffuseTexture = new BABYLON.Texture('./images/car.png')
@@ -281,9 +281,9 @@ engine.runRenderLoop(()=>{
 
     /*** 바퀴 ***/
     const wheelUV =[]
-    wheelUV[0]= new BABYLON.Vector4(0,0,1,1)
-    wheelUV[1]= new BABYLON.Vector4(0,0.5,0,0.5)
-    wheelUV[2]= new BABYLON.Vector4(0,0,1,1)
+    wheelUV[0]= new BABYLON.Vector4(0,0,1,1)//Bottom
+    wheelUV[1]= new BABYLON.Vector4(0,0.5,0,0.5)//Side
+    wheelUV[2]= new BABYLON.Vector4(0,0,1,1)//Top
 
     const wheelMat = new BABYLON.StandardMaterial('wheelM')
     wheelMat.diffuseTexture = new BABYLON.Texture('/images/wheel.png')
@@ -304,5 +304,34 @@ engine.runRenderLoop(()=>{
   
     return scene
   }
+```
+
+![image](https://user-images.githubusercontent.com/30430227/156513971-a411a2e7-f138-425b-b93f-0c54cbfd3226.png)
+
+```
+    /*** 애니메이션 ***/
+    const animWheel = new BABYLON.Animation('animW', 'rotation.y',10, BABYLON.Animation.ANIMATIONTYPE_FLOAT,BABYLON.Animation.ANIMATIONLOOPMODE_CYCLE) //이름, 회전축, 초당프레임,애니메이션타입,Loop모드
+
+    const wheelKeys=[]//키프레임 객체 배열
+    wheelKeys.push({frame:0,value:0})
+    wheelKeys.push({frame:30,value:2*Math.PI})
+
+    animWheel.setKeys(wheelKeys)//애니메이션 객체를 키프레임 방식으로 세팅,키프레임 배열 인수
+    wheelRB.animations=[]
+    wheelRB.animations.push(animWheel)
+    
+    wheelRF.animations=[]//바퀴에 애니메이션 연결(배열...)
+    wheelRF.animations.push(animWheel)
+    wheelLB.animations=[]
+    wheelLB.animations.push(animWheel)
+    wheelLF.animations=[]
+    wheelLF.animations.push(animWheel)
+
+    scene.beginAnimation(wheelRB,0,3,true)//씬 애니메이션, 움직일 객체, 시작 프레임, 끝 프레임, 반복
+    scene.beginAnimation(wheelRF,0,30,true)
+    scene.beginAnimation(wheelLB,0,30,true)
+    scene.beginAnimation(wheelLF,0,30,true)
+  
+    return scene
 ```
 
