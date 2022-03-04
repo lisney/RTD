@@ -86,7 +86,7 @@ body,
     camera.attachControl(canvas, true)
     camera.wheelPrecision = 100 //숫자값 낮으면 민감, 높으면 둔감
 
-    const light = new BABYLON.HemisphericLight('Light', new BABYLON.Vector3(1,1,0))
+    const light = new BABYLON.HemisphericLight('Light', new BABYLON.Vector3(4,3,2))
 
     const box = BABYLON.MeshBuilder.CreateBox('box',{})
     box.position.x = 0.5
