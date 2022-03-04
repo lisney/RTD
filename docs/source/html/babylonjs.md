@@ -317,14 +317,14 @@ engine.runRenderLoop(()=>{
     wheelKeys.push({frame:30,value:2*Math.PI})
 
     animWheel.setKeys(wheelKeys)//애니메이션 객체를 키프레임 방식으로 세팅,키프레임 배열 인수
-    wheelRB.animations=[]
+    //wheelRB.animations=[]//이 라인 없어도 실행됨
     wheelRB.animations.push(animWheel)
     
-    wheelRF.animations=[]//바퀴에 애니메이션 연결(배열...)
+    //wheelRF.animations=[]//바퀴에 애니메이션 연결(배열...)
     wheelRF.animations.push(animWheel)
-    wheelLB.animations=[]
+    //wheelLB.animations=[]
     wheelLB.animations.push(animWheel)
-    wheelLF.animations=[]
+    //wheelLF.animations=[]
     wheelLF.animations.push(animWheel)
 
     scene.beginAnimation(wheelRB,0,3,true)//씬 애니메이션, 움직일 객체, 시작 프레임, 끝 프레임, 반복
