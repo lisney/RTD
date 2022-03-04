@@ -71,7 +71,7 @@ body,
 
 <script>
   const canvas = document.querySelector('#renderCanvas')
-  const engine = new BABYLON.Engine(canvas, true)
+  const engine = new BABYLON.Engine(canvas, true)//Antialias:true
 
   function createScene(){
     const scene = new BABYLON.Scene(engine)
@@ -79,10 +79,10 @@ body,
 
     const alpha = Math.PI/4
     const beta = Math.PI/3
-    const radius = 8
+    const radius = 5
     const target = new BABYLON.Vector3(0,0,0)
 
-    const camera = new BABYLON.ArcRotateCamera('Camera', alpha, beta, radius,target, scene)
+    const camera = new BABYLON.ArcRotateCamera('Camera', alpha, beta, radius,target, scene)//target, scene없어도 실행된다
     camera.attachControl(canvas, true)
     camera.wheelPrecision = 100 //숫자값 낮으면 민감, 높으면 둔감
 
