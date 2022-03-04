@@ -1211,5 +1211,57 @@ const arr = [2, 44, 3, 2, 54, 6, 11];
 console.log([...new Set(arr)]); //Set(집합,new Set) > Spread(...) > Array([]) 
 ```
 
+<br>
 
+7. Async
+
+![image](https://user-images.githubusercontent.com/30430227/156755531-e785b8f7-c9d3-4475-9271-5a1944d8c598.png)
+
+```
+function delay(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function getApple() {
+  await delay(1000); //return
+  return "🍎";
+}
+async function getBanana() {
+  await delay(3000);
+  return "🍌";
+}
+//async를 promise로 구현한 예
+//function getBanana(){
+//  return delay(3000).then(()=>'🍌')
+//}
+
+function pickFruits() {
+  return getApple().then((apple) => {
+    return getBanana().then((banana) => `${apple}+${banana}`);
+  });
+}
+
+pickFruits().then(console.log);
+
+//async, await 사용하면
+async function pickFruits(){
+  const apple = await getApple()
+  const apple = await getBanana()
+  return `${apple}+${banana}`
+}
+
+//async 병렬 처리-이전에 4초 걸리던게 3초만에 실행
+async function pickFruits(){
+  const applePromise = getApple()
+  const bananaPromise = getBanana()
+  const apple = await applePromise
+  const apple = await bananaPromise
+  return `${apple}+${banana}`
+}
+//Promise.all 위 예제 사용 병렬처리
+function pickAllFruits(){
+  return Promise.all([getApple(),getBanana()]).then(fruits.join(' + '))
+}
+pickAllFruits().then(console.log)
+```
 
