@@ -349,26 +349,18 @@ engine.runRenderLoop(()=>{
 
     <canvas id="renderCanvas"></canvas>
     <script>
-        var canvas = document.querySelector("#renderCanvas");
+        const canvas = document.querySelector("#renderCanvas");
 
-        var engine = new BABYLON.Engine(canvas, true, { preserveDrawingBuffer: true, stencil: true,  disableWebGL2Support: false});
-        var scene = null;
-        var sceneToRender = null;
-        var startRenderLoop = function (engine) {
-            engine.runRenderLoop(function () {
-                if (sceneToRender && sceneToRender.activeCamera) {
-                    sceneToRender.render();
-                }
+        const engine = new BABYLON.Engine(canvas, true);
+
+        async function startRenderLoop(sceneToRender) {
+            engine.runRenderLoop(()=> {
+                sceneToRender.render();
             });
         }
 
-    window.initFunction = async function() {
-        window.engine = engine;
-        startRenderLoop(engine);
-        window.scene = createScene();
-    };
-    initFunction().then(() => {scene.then(returnedScene => { sceneToRender = returnedScene; });
-    });   
+    //initFunction().then(() => {scene.then(returnedScene => { sceneToRender = returnedScene; }); });   
+    createScene().then(startRenderLoop)
 
         async function createScene() {
     // This creates a basic Babylon Scene object (non-mesh)
@@ -392,7 +384,7 @@ engine.runRenderLoop(()=>{
     // Our built-in 'sphere' shape.
     var sphere = BABYLON.MeshBuilder.CreateSphere("sphere", {diameter: 2, segments: 32}, scene);
 
-    let animations = await BABYLON.Animation.ParseFromFileAsync(null, "https://doc.babylonjs.com/examples/animations.json");
+    let animations = await BABYLON.Animation.ParseFromFileAsync(null, "./gltfs/animations.json");
     sphere.animations = animations;
     scene.beginAnimation(sphere, 0, 100, true);
     
