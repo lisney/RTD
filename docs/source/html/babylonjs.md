@@ -384,8 +384,25 @@ engine.runRenderLoop(()=>{
     // Our built-in 'sphere' shape.
     var sphere = BABYLON.MeshBuilder.CreateSphere("sphere", {diameter: 2, segments: 32}, scene);
 
-    let animations = await BABYLON.Animation.ParseFromFileAsync(null, "./gltfs/animations.json");
-    sphere.animations = animations;
+/** JSON 방식 애니메이션Promise**/
+    //let animations = await BABYLON.Animation.ParseFromFileAsync(null, "./gltfs/animations.json");
+    //sphere.animations = animations
+
+/** 기본 키프레임 방식 push**/
+    const xSlide = new BABYLON.Animation('xSlide', 'position.x', 10,BABYLON.Animation.ANIMATIONTYPE_FLOAT,BABYLON.Animation.ANIMATIONLOOPMODE_CYCLE)
+    const keyFrames =[]
+
+    keyFrames.push.apply(keyFrames,[
+        {frame:0,value:2},
+        {frame:10,value:-2},
+        {frame:20,value:2}]
+        )
+
+    xSlide.setKeys(keyFrames)
+
+    sphere.animations.push(xSlide)
+
+/* 애니메이션 시작   **/
     scene.beginAnimation(sphere, 0, 100, true);
     
     // Our built-in 'ground' shape.
