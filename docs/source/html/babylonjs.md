@@ -451,6 +451,9 @@ engine.runRenderLoop(()=>{
         alert('You did it!')
     })
     //btnPlane.billboardMode = BABYLON.Mesh.BILLBOARDMODE_ALL;//항상 카메라 방향 향함
+    
+# 이미지 GUI
+    const image = new BABYLON.GUI.Image('4g2','./images/4g2.jpg')
 ```
 
 
