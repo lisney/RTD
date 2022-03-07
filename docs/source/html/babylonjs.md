@@ -490,7 +490,7 @@ engine.runRenderLoop(()=>{
         box1.position.x = -20
 
         const matBox= new BABYLON.StandardMaterial('MatBox',scene)
-        matBox.diffuseColor = new BABYLON.Color3(0,1,0)
+        matBox.diffuseColor = new BABYLON.Color3(0,1,0)//new BABYLON.Color3.Green()
         
         box1.material = matBox
 
