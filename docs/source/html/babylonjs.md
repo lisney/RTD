@@ -546,6 +546,9 @@ engine.runRenderLoop(()=>{
             })
             panel.addControl(button)
         }
+        
+        //box1.animations.push(anim1)
+        //scene.beginAnimation(box1,0,100,true)
 
         addButton('Play',()=>animationGroup.play(true))
         addButton('Pause',()=>animationGroup.pause())
