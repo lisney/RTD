@@ -572,6 +572,13 @@ update.apply(mike, [1999, "singer"]);
     const minNum = Math.min.apply(null, nums);//min 메소드가 배열을 받도록 apply 사용
 
     console.log(maxNum, minNum);
+    
+#배열에 배열 추가
+    keyFrames.push.apply(keyFrames,[
+        {frame:0,value:2},
+        {frame:10,value:-2},
+        {frame:20,value:2}]
+        )
 ```
 
 `bind - 함수의 this 값을 정한 함수를 새로 생성, 함수 실행 단순화(.없이 실행)`
