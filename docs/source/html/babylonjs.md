@@ -456,4 +456,107 @@ engine.runRenderLoop(()=>{
     const image = new BABYLON.GUI.Image('4g2','./images/4g2.jpg')
 ```
 
+![image](https://user-images.githubusercontent.com/30430227/156979510-833b11a4-5ae5-428c-b002-dabcfce112eb.png)
+
+```
+
+<script src="https://preview.babylonjs.com/babylon.js"></script>
+<script src="https://preview.babylonjs.com/gui/babylon.gui.min.js"></script>
+
+<canvas id="renderCanvas"></canvas>
+
+<script>
+    const canvas = document.querySelector('#renderCanvas')
+
+    const engine = new BABYLON.Engine(canvas, true)
+
+    async function startRenderLoop(sceneToRender){
+        engine.runRenderLoop(()=>{
+            sceneToRender.render()
+        })
+    }
+
+    createScene().then(startRenderLoop)
+
+    async function createScene(){
+        const scene = new BABYLON.Scene(engine)
+
+        const light = new BABYLON.PointLight('Light', new BABYLON.Vector3(0,100,100),scene)
+        const camera = new BABYLON.ArcRotateCamera('Camera',0,1,50,new BABYLON.Vector3.Zero(),scene)
+        camera.attachControl(canvas,true)
+        camera.wheelPreciion=100
+
+        const box1 = BABYLON.Mesh.CreateBox('Box1',10,scene)
+        box1.position.x = -20
+
+        const matBox= new BABYLON.StandardMaterial('MatBox',scene)
+        matBox.diffuseColor = new BABYLON.Color3(0,1,0)
+        
+        box1.material = matBox
+
+        const anim1= new BABYLON.Animation('Anim1','scaling.x',30,BABYLON.Animation.ANIMATIONTYPE_FLOAT,
+            BABYLON.Animation.ANIMATIONLOOPMODE_CYCLE)
+        
+        let keys =[]
+
+        keys.push.apply(keys,[
+            {frame:0,value:1},
+            {frame:20,value:0.2},
+            {frame:100,value:1}
+        ]
+        )
+
+        anim1.setKeys(keys)
+
+        const anim2= new BABYLON.Animation('Anim2','rotation.y',30,BABYLON.Animation.ANIMATIONTYPE_FLOAT,
+            BABYLON.Animation.ANIMATIONLOOPMODE_CYCLE)
+        
+        keys =[]
+
+        keys.push.apply(keys,[
+            {frame:0,value:0},
+            {frame:40,value:Math.PI},
+            {frame:80,value:0}
+        ]
+        )
+
+        anim2.setKeys(keys)
+
+        const animationGroup = new BABYLON.AnimationGroup('myGroup')
+        animationGroup.addTargetedAnimation(anim1,box1)
+        animationGroup.addTargetedAnimation(anim2,box1)
+
+        animationGroup.normalize(0,100)
+
+        const advancedTexture = BABYLON.GUI.AdvancedDynamicTexture.CreateFullscreenUI('UI')
+        const panel = new BABYLON.GUI.StackPanel()
+        panel.isVertical=false
+        panel.verticalAlignment= BABYLON.GUI.Control.VERTICAL_ALIGNMENT_BOTTOM
+        advancedTexture.addControl(panel)
+
+        function addButton(text,callback){
+            const button = BABYLON.GUI.Button.CreateSimpleButton('button',text)
+            button.width ='140px';
+            button.height='40px';
+            button.background='green'
+            button.paddingLeft='10px';
+            button.paddingRight='10px';
+            button.onPointerUpObservable.add(()=>{
+                callback()
+            })
+            panel.addControl(button)
+        }
+
+        addButton('Play',()=>animationGroup.play(true))
+        addButton('Pause',()=>animationGroup.pause())
+        addButton('Stop',()=>{
+            animationGroup.reset()
+            animationGroup.stop()
+        })
+
+        return scene
+
+    }
+</script>
+```
 
