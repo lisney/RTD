@@ -564,7 +564,7 @@ engine.runRenderLoop(()=>{
 ```
 
 ![image](https://user-images.githubusercontent.com/30430227/157173530-5a13b6b3-a5e3-4011-ae9f-61aec211d5af.png)
-
+마우스 드래그
 ```
 <script src="https://preview.babylonjs.com/babylon.js"></script>
 
