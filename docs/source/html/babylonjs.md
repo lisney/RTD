@@ -675,3 +675,179 @@ engine.runRenderLoop(()=>{
 
 </script>
 ```
+
+![image](https://user-images.githubusercontent.com/30430227/157575785-f7d797c5-abfe-4fb5-8a84-917c44e3adab.png)
+
+```
+//씬 이동은 하나 카메라 컨트롤이 되지 않음
+<script src="https://preview.babylonjs.com/babylon.js"></script>
+<script src="https://preview.babylonjs.com/gui/babylon.gui.min.js"></script>
+
+<canvas id="renderCanvas"></canvas>
+
+<script>
+    const canvas = document.querySelector('#renderCanvas')
+    const engine = new BABYLON.Engine(canvas,true)
+
+    async function renderLoop(sceneToRender){
+        engine.runRenderLoop(()=>{
+            sceneToRender.render()
+        })
+    }
+
+    createScene().then(renderLoop)
+
+
+    async function createScene(){
+        const scene1 = new BABYLON.Scene(engine)
+        scene1.clearColor = new BABYLON.Color3(.1,.1,0)
+        
+        const light1 = new BABYLON.HemisphericLight('Light1',new BABYLON.Vector3(1,0,0),scene1)
+        light1.intensity = 0.75
+        light1.specular = new BABYLON.Color3(0.9,0.9,0.5)
+
+        const camera1 = new BABYLON.ArcRotateCamera('Camera1',0,0,0,new BABYLON.Vector3.Zero(), scene1)
+        camera1.setPosition(new BABYLON.Vector3(0,20,-100))
+        camera1.attachControl(canvas, true)
+        camera1.wheelPrecision=100
+
+        let nbBuildings = 800
+        let fact = 60
+        let scaleX = 0
+        let scaleY = 0
+        let scaleZ =0
+        let grey = 0
+        let uvSize = 0
+
+        ///SCENE1///
+        const ground1Mat=new BABYLON.StandardMaterial('Ground1Mat',scene1)
+        //ground1Mat.diffuseColor = new BABYLON.Color3(0.4,0.4,0.4)
+        ground1Mat.backFaceCulling = false
+
+        const ground1 = BABYLON.MeshBuilder.CreatePlane('Ground1',{size:fact},scene1)
+        ground1.rotation.x = Math.PI/2
+        ground1.material = ground1Mat
+
+        const girlTxt = new BABYLON.Texture('/images/4g2.jpg', scene1)
+        const girlMat = new BABYLON.StandardMaterial('GirlMat',scene1)
+        girlMat.diffuseTexture = girlTxt
+
+        // custom position function
+        function myPositionFunction(particle, i, s){
+            scaleX = Math.random()*2+0.8;
+            scaleY = Math.random()*6+0.8
+            scaleZ = Math.random()*2+0.8
+            uvSize = Math.random()*0.9
+            particle.scale.x = scaleX
+            particle.scale.y = scaleY
+            particle.scale.z = scaleZ
+            particle.position.x=(Math.random()-0.5)*fact
+            particle.position.y = particle.scale.y/2+0.01
+            particle.position.z = (Math.random()-0.5)*fact
+            particle.rotation.y = Math.random()*3.5
+            grey = 1.0 - Math.random()*0.5
+            particle.color= new BABYLON.Color4(grey+0.1, grey+0.1,grey, 1)
+            particle.uvs.x = Math.random()*0.1
+            particle.uvs.y = Math.random()*0.1
+            particle.uvs.z= particle.uvs.x+uvSize
+            particle.uvs.w=particle.uvs.y+uvSize
+        }
+
+        //Particle system creation:immutable
+        const SPS = new BABYLON.SolidParticleSystem('SPS', scene1,{updatable:false})
+        const model = BABYLON.MeshBuilder.CreateBox('m',{},scene1)
+        SPS.addShape(model, nbBuildings,{positionFunction:myPositionFunction})
+        const mesh = SPS.buildMesh()
+        mesh.material = girlMat
+        model.dispose()
+
+        //////SCENE2///////
+        const scene2 = new BABYLON.Scene(engine)
+
+        const light2 = new BABYLON.HemisphericLight('Light2',new BABYLON.Vector3(1,0.5,0), scene2)
+        light2.intensity=0.8
+
+        const camera2 = new BABYLON.ArcRotateCamera('Camera2',-Math.PI/2,Math.PI/2,5,BABYLON.Vector3.Zero(),scene2)
+        camera2.attachControl(canvas,true)
+        camera2.wheelPrecision = 100
+
+        const sphere1 = BABYLON.MeshBuilder.CreateSphere('Sphere1',{segments:3},scene2)
+        sphere1.material = new BABYLON.StandardMaterial('Sphere1Mat',scene2)
+        sphere1.material.wireframe=true
+        showNormals(sphere1, 0.25, new BABYLON.Color3.Red(),scene2)
+
+        function showNormals(mesh, size, color, sc){
+            const normals = mesh.getVerticesData(BABYLON.VertexBuffer.NormalKind)
+            const positions = mesh.getVerticesData(BABYLON.VertexBuffer.PositionKind)
+            color=color||BABYLON.Color3.White()
+            sc=sc||scene
+            size=size||1
+
+            const lines=[]
+            for(let i=0;i<normals.length;i+=3){
+                let v1=BABYLON.Vector3.FromArray(positions,i)
+                let v2=v1.add(BABYLON.Vector3.FromArray(normals,i).scaleInPlace(size))
+                lines.push([v1.add(mesh.position),v2.add(mesh.position)])
+            }
+            const normalLines=BABYLON.MeshBuilder.CreateLineSystem('normalLines',{lines:lines},sc)
+            normalLines.color=color
+            return normalLines
+        }
+
+        ///GUI BOTH SCENES///
+
+        let clicks =0
+        let showScene=0
+        let advancedTexture
+
+        function createGUI(scene, showScene){
+            switch(showScene){
+                case 0:
+                    advancedTexture = BABYLON.GUI.AdvancedDynamicTexture.CreateFullscreenUI("UI",true,scene1)
+                    break
+                case 1:
+                    advancedTexture = BABYLON.GUI.AdvancedDynamicTexture.CreateFullscreenUI("UI",true,scene2)
+                    break
+            }
+            const button = BABYLON.GUI.Button.CreateSimpleButton('btn','Scene '+((clicks+1)%2))
+            button.width=0.2
+            button.height='40px'
+            button.color='white'
+            button.background='green';
+            button.verticalAlignment= BABYLON.GUI.Control.VERTICAL_ALIGNMENT_TOP;
+            advancedTexture.addControl(button);
+
+            button.onPointerUpObservable.add(()=>{
+                clicks++
+            })
+        }
+
+        createGUI(scene1,showScene)
+
+        setTimeout(()=>{
+
+            engine.stopRenderLoop()
+            engine.runRenderLoop(()=>{
+                if(showScene !=(clicks%2)){
+                    showScene=clicks%2
+                    switch(showScene){
+                        case 0:
+                            advancedTexture.dispose();
+                            createGUI(scene1,showScene);
+                            scene1.render();
+                            break
+                        case 1:
+                            advancedTexture.dispose();
+                            createGUI(scene2,showScene);
+                            scene2.render();
+                            break
+                    }
+                }
+            })
+        },500)
+
+        return scene1
+
+    }
+</script>
+```
