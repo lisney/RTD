@@ -851,3 +851,88 @@ engine.runRenderLoop(()=>{
     }
 </script>
 ```
+
+![image](https://user-images.githubusercontent.com/30430227/157619020-1ad4839d-c565-4b71-9bc4-798d00004e1f.png)
+Viewports
+```
+<script src="https://preview.babylonjs.com/babylon.js"></script>
+<script src="https://preview.babylonjs.com/gui/babylon.gui.min.js"></script>
+
+<canvas id="renderCanvas"></canvas>
+
+<script>
+    const canvas = document.querySelector('#renderCanvas')
+    const engine = new BABYLON.Engine(canvas,true)
+
+    async function renderLoop(sceneToRender){
+        engine.runRenderLoop(()=>{
+            sceneToRender.render()
+        })
+    }
+
+    createScene().then(renderLoop)
+
+
+    async function createScene(){
+        const scene = new BABYLON.Scene(engine)
+        scene.clearColor = new BABYLON.Color3(.5,.5,.5)
+        
+        const light = new BABYLON.HemisphericLight('Light',new BABYLON.Vector3(1,0,0),scene)
+        light.intensity = 0.7
+
+        const camera1 = new BABYLON.ArcRotateCamera('Camera1',3*Math.PI/8,Math.PI/4,5,new BABYLON.Vector3.Zero(), scene)
+        camera1.attachControl(canvas, true)
+        camera1.wheelPrecision=100
+
+        const camera2 = new BABYLON.ArcRotateCamera('Camera1',5*Math.PI/8,Math.PI/4,10,new BABYLON.Vector3.Zero(), scene)
+        camera2.attachControl(canvas, true)
+        camera2.wheelPrecision=100
+
+        ///Two Viewports///
+        camera1.viewport = new BABYLON.Viewport(0,0.5,1,0.5)//시작위치(0,0.5), 사각형 사이즈(width,height), 가로2등분 윗사각형, 사이즈 절반
+        camera2.viewport = new BABYLON.Viewport(0,0,0.5,0.5)//4등분 왼쪽 아래 사각형, 사각형 사이즈는 절반
+
+        scene.activeCameras.push(camera1)
+        scene.activeCameras.push(camera2)
+
+        //Create Box
+        const faceColors=[]
+        faceColors[0]=BABYLON.Color3.Blue()
+        faceColors[1]=BABYLON.Color3.White()
+        faceColors[2]=BABYLON.Color3.Red()
+        faceColors[3]=BABYLON.Color3.Black()
+        faceColors[4]=BABYLON.Color3.Green()
+        faceColors[5]=BABYLON.Color3.Yellow()
+
+        const box = BABYLON.MeshBuilder.CreateBox('box',{faceColors:faceColors,size:2},scene,true)
+        box.material = new BABYLON.StandardMaterial('',scene)
+
+        function showAxis(size){
+            const makeTextPlane=function(text,color,size){
+                const dynamicTexture = new BABYLON.DynamicTexture('DynamicTeture',50,scene,true)//size, update(bool)
+                dynamicTexture.hasAlpha=true
+                dynamicTexture.drawText(text,5,40,'bold 36px Arial',color,'transparent',true)//true 문자 뒤집힘
+                const plane = BABYLON.MeshBuilder.CreatePlane('TextPlane',{width:size,height:size},scene,true)
+                plane.material = new BABYLON.StandardMaterial('TextPlaneMaterial',scene)
+                plane.material.backFaceCulling=false
+                plane.material.specularColor=new BABYLON.Color3(0,0,0)
+                plane.material.diffuseTexture=dynamicTexture
+                return plane
+            }
+
+            const axisX=BABYLON.Mesh.CreateLines('axisX',[new BABYLON.Vector3.Zero(),new BABYLON.Vector3(size,0,0),
+                new BABYLON.Vector3(size*0.95,size*0.05,0), new BABYLON.Vector3(size,0,0),
+                new BABYLON.Vector3(size*0.95,size*-0.05,0)],scene)
+            axisX.color= new BABYLON.Color3(1,0,0)
+
+            const xChar = makeTextPlane('X','red',size/10)
+            xChar.position= new BABYLON.Vector3(size*0.9,size*-0.05,0)
+        }
+
+        showAxis(3)
+
+        return scene
+
+    }
+</script>
+```
