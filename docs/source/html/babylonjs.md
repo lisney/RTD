@@ -937,7 +937,7 @@ Viewports
 </script>
 ```
 
-![image](https://user-images.githubusercontent.com/30430227/157788212-222a76fd-7baf-4ace-9800-a6a1670139a3.png)
+![image](https://user-images.githubusercontent.com/30430227/157831234-b3eb4142-fe0a-4ea3-898f-4f4665ff058e.png)
 
 ```
 <script src="https://preview.babylonjs.com/babylon.js"></script>
@@ -972,7 +972,6 @@ Viewports
 
         const ground = BABYLON.MeshBuilder.CreateGround('Ground',{width:6,height:6},scene)
 
-
         //Adding Buttons
         const advancedTexture = BABYLON.GUI.AdvancedDynamicTexture.CreateFullscreenUI('UI')
 
@@ -996,13 +995,58 @@ Viewports
                 sphere.dispose()
                 sphere =null
             }
+            if(box){
+                return
+            }else{
             box = BABYLON.MeshBuilder.CreateBox('box',{size:2},scene,true)
             box.position=new BABYLON.Vector3(2,1,0)
+            }
         })
+
+//Label
+
+        const point = new BABYLON.GUI.Ellipse()
+        point.width ='10px'
+        point.height ='10px'
+        point.color ='black'
+        point.thickness =2
+        point.background ='yellow'
+        advancedTexture.addControl(point)
+        point.linkWithMesh(ground)
+
+        const point1 = new BABYLON.GUI.Ellipse()
+        point1.width ='100px'
+        point1.height ='100px'
+        point1.color ='black'
+        point1.thickness =2
+        point1.background ='yellow'
+        advancedTexture.addControl(point1)
+        point1.linkWithMesh(ground)
+        point1.linkOffsetY=-150;
+        point1.linkOffsetX=-150;
+
+        const label = new BABYLON.GUI.TextBlock()
+        label.text='동그라미';
+        label.top='20%'
+        point1.addControl(label)//linkWithMesh 앞에 addControl 써야한단
+
+        const line = new BABYLON.GUI.Line()
+        line.lineWidth=2;
+        line.color='black';
+        line.connectedControl=label;
+        line.linkOffsetY=-5;//시작점에서 Offset
+        line.y2=50;//connectedControl에서 Offset
+        advancedTexture.addControl(line);
+        line.linkWithMesh(ground);
+        line.connectedControl=point1
+
+
+//Buttons
         const btnSphere = BABYLON.GUI.Button.CreateImageWithCenterTextButton('btnSphere','Shpere', "https://img.icons8.com/dotty/80/000000/sphere.png")
         btnSphere.width='60px'
         btnSphere.height='60px'
-        btnSphere.color='transparent'
+        btnSphere.color='black'
+        btnSphere.color='transparent'//버튼 텍스트 안보이게('black'...), CreateImageOnlyButton()과 같은 효과
         btnSphere.background='white'
         btnSphere.top='40%'
         btnSphere.left='5%'
@@ -1017,7 +1061,7 @@ Viewports
                 box.dispose()
                 box =null
             }
-            if(sphere){//중복생성 금지
+            if(sphere){
                 return
             }else{
             sphere = BABYLON.MeshBuilder.CreateSphere('Shpere',{diameter:2},scene,true)
@@ -1027,6 +1071,35 @@ Viewports
 
         advancedTexture.addControl(btnBox)
         advancedTexture.addControl(btnSphere)
+
+//Checkbox
+        const panel = new BABYLON.GUI.StackPanel()
+        panel.width='200px';
+        panel.isVertical=false;
+        panel.horizontalAlignment= BABYLON.GUI.Control.HORIZONTAL_ALIGNMENT_RIGHT;
+        panel.verticalAlignment=BABYLON.GUI.Control.VERTICAL_ALIGNMENT_CENTER;
+        advancedTexture.addControl(panel)
+
+        const checkbox = new BABYLON.GUI.Checkbox()
+        checkbox.width='20px';
+        checkbox.height='20px';
+        checkbox.isChecked=true;
+        checkbox.color='green';
+        checkbox.onIsCheckedChangedObservable.add((value)=>{
+            if(sphere){
+                sphere.scaling.x=2
+            }
+        })
+
+        const checkboxText= new BABYLON.GUI.TextBlock()
+        checkboxText.text='공 펌프';
+        checkboxText.width='180px';
+        checkboxText.marginLeft='5px';//효과없는데?
+        checkboxText.textHorizontalAlignment = BABYLON.GUI.Control.HORIZONTAL_ALIGNMENT_LEFT;
+
+        panel.addControl(checkbox)        
+        panel.addControl(checkboxText)
+
 
         canvas.addEventListener('click',(e)=>{
             const pickResult = scene.pick(scene.pointerX,scene.pointerY)
