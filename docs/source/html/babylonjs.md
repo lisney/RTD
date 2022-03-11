@@ -936,3 +936,105 @@ Viewports
     }
 </script>
 ```
+
+![image](https://user-images.githubusercontent.com/30430227/157788212-222a76fd-7baf-4ace-9800-a6a1670139a3.png)
+
+```
+<script src="https://preview.babylonjs.com/babylon.js"></script>
+<script src="https://preview.babylonjs.com/gui/babylon.gui.min.js"></script>
+
+<canvas id="renderCanvas"></canvas>
+
+<script>
+    const canvas = document.querySelector('#renderCanvas')
+    const engine = new BABYLON.Engine(canvas,true)
+
+    async function renderLoop(sceneToRender){
+        engine.runRenderLoop(()=>{
+            sceneToRender.render()
+        })
+    }
+
+    createScene().then(renderLoop)
+
+
+    async function createScene(){
+        const scene = new BABYLON.Scene(engine)
+        scene.clearColor = new BABYLON.Color3.FromHexString('#e5e5e5')
+        
+        const light = new BABYLON.HemisphericLight('Light',new BABYLON.Vector3(0,1,0),scene)
+        light.intensity = 0.7
+
+        const camera = new BABYLON.ArcRotateCamera('Camera',Math.PI/3,Math.PI/3,10,new BABYLON.Vector3.Zero(),scene)
+        camera.attachControl(canvas,true)
+        camera.wheelPrecision=100
+        //camera.setPosition(new BABYLON.Vector3(10,5,10))
+
+        const ground = BABYLON.MeshBuilder.CreateGround('Ground',{width:6,height:6},scene)
+
+
+        //Adding Buttons
+        const advancedTexture = BABYLON.GUI.AdvancedDynamicTexture.CreateFullscreenUI('UI')
+
+        let box, sphere, selectMesh
+
+        const btnBox = BABYLON.GUI.Button.CreateImageWithCenterTextButton('btnBox','Cube', "https://img.icons8.com/nolan/64/left-view.png")
+        btnBox.width='60px'
+        btnBox.height='60px'
+        btnBox.color='transparent'
+        btnBox.background='white'
+        btnBox.top='40%'
+        btnBox.left='-5%'
+        btnBox.onPointerEnterObservable.add(()=>{
+            btnBox.background='yellow'
+        })
+        btnBox.onPointerOutObservable.add(()=>{
+            btnBox.background='white'
+        })
+        btnBox.onPointerClickObservable.add(()=>{
+            if(sphere){
+                sphere.dispose()
+                sphere =null
+            }
+            box = BABYLON.MeshBuilder.CreateBox('box',{size:2},scene,true)
+            box.position=new BABYLON.Vector3(2,1,0)
+        })
+        const btnSphere = BABYLON.GUI.Button.CreateImageWithCenterTextButton('btnSphere','Shpere', "https://img.icons8.com/dotty/80/000000/sphere.png")
+        btnSphere.width='60px'
+        btnSphere.height='60px'
+        btnSphere.color='transparent'
+        btnSphere.background='white'
+        btnSphere.top='40%'
+        btnSphere.left='5%'
+        btnSphere.onPointerEnterObservable.add(()=>{
+            btnSphere.background='yellow'
+        })
+        btnSphere.onPointerOutObservable.add(()=>{
+            btnSphere.background='white'
+        })
+        btnSphere.onPointerClickObservable.add(()=>{
+            if(box){
+                box.dispose()
+                box =null
+            }
+            sphere = BABYLON.MeshBuilder.CreateSphere('Shpere',{diameter:2},scene,true)
+            sphere.position=new BABYLON.Vector3(-2,1,0)
+        })
+
+        advancedTexture.addControl(btnBox)
+        advancedTexture.addControl(btnSphere)
+
+        canvas.addEventListener('click',(e)=>{
+            const pickResult = scene.pick(scene.pointerX,scene.pointerY)
+
+            if(pickResult.hit){
+                selectMesh = pickResult.pickedMesh
+                selectMesh.visibility=0.8
+            }
+        })
+
+        return scene
+
+    }
+</script>
+```
