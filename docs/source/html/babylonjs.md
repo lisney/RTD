@@ -1017,8 +1017,12 @@ Viewports
                 box.dispose()
                 box =null
             }
+            if(sphere){//중복생성 금지
+                return
+            }else{
             sphere = BABYLON.MeshBuilder.CreateSphere('Shpere',{diameter:2},scene,true)
             sphere.position=new BABYLON.Vector3(-2,1,0)
+            }
         })
 
         advancedTexture.addControl(btnBox)
