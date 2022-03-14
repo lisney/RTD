@@ -190,7 +190,7 @@ AlignEuler to Vector - Normal Rotate
 
 ![image](https://user-images.githubusercontent.com/30430227/141276059-05faf084-7abe-4fb7-a411-9d2cfcbc3e97.png)
 
-`Subtract - 를 연결하지 않으면 한 방향으로만 향한다`
+`Position Input(개별 포인트 위치)과 Subtract한 Vector를 연결`
 
 ![image](https://user-images.githubusercontent.com/30430227/141277205-61ebb9c2-8acf-4267-aea2-18dfcc3bc603.png)
 ![image](https://user-images.githubusercontent.com/30430227/141277564-a448520a-32e3-457f-b9e9-3b34bb9cdedc.png)
