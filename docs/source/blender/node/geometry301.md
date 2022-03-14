@@ -127,9 +127,11 @@ String to Curves
 
 ![image](https://user-images.githubusercontent.com/30430227/146132438-4e4acf62-ed87-4cb1-8b43-c5791a3ce8b9.png)
 
-`sine-GreaterThan(Bool), Maximum(Value-즉 두 값 중 최대값, 바닥을 퐁퐁 )`
+`sine`
 
 ![image](https://user-images.githubusercontent.com/30430227/141012483-32997c91-c1bd-496b-8564-14ae676362be.png)
+
+`GreaterThan(Bool), Maximum(Value-즉 두 값 중 최대값, 바닥을 퐁퐁)`
 
 ![image](https://user-images.githubusercontent.com/30430227/146132974-a8993af0-1fe0-472d-841a-3fc0cfa9c967.png)
 
