@@ -85,8 +85,23 @@ new 3.0
 ![image](https://user-images.githubusercontent.com/30430227/148206750-21a32ffa-43ad-4239-bfe2-2a8879a2e092.png)
 ![image](https://user-images.githubusercontent.com/30430227/148206813-629ee1c7-8f65-4186-a2f1-924b38e27ad8.png)
 
+<br>
 
+New 3.1
+--------
 
+![image](https://user-images.githubusercontent.com/30430227/158087579-80579db4-9908-4ed8-ab02-35a29ecb1034.png)
 
+`Add Shape(PoseMode)`
+
+![image](https://user-images.githubusercontent.com/30430227/158087726-89cbe126-0519-4e74-b8a7-321d81820be8.png)
+
+`delete Armature`
+
+![image](https://user-images.githubusercontent.com/30430227/158087782-88b58046-705e-46ce-9af1-b68033accb23.png)
+
+`Inflate`
+
+![image](https://user-images.githubusercontent.com/30430227/158088112-f85c5d9d-1b54-457a-9e11-07d1a6356a35.png)
 
 
