@@ -143,6 +143,10 @@ String to Curves
 
 ![image](https://user-images.githubusercontent.com/30430227/141016635-2891a9ac-b451-41a2-97e4-7d00b855e0ca.png)
 
+`위에거 심플하게정리`
+
+![image](https://user-images.githubusercontent.com/30430227/158123889-ea1c1960-5fa9-4fa3-9904-2bc7a45230b0.png)
+
 <br>
 
 UV
