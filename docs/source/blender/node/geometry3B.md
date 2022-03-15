@@ -110,23 +110,21 @@ Fire Fly
 DNA
 -----
 
-![image](https://user-images.githubusercontent.com/30430227/139569905-e24fde17-4a96-445b-8735-66e707adaca2.png)
+![image](https://user-images.githubusercontent.com/30430227/158338333-c02a634d-f641-43e6-b462-2d9cbf737de3.png)
 
-![image](https://user-images.githubusercontent.com/30430227/139569920-9efe1430-4156-4181-ab67-01c2dfcdcf5b.png)
+![image](https://user-images.githubusercontent.com/30430227/158338382-92232658-6afd-4dc2-8ffb-840b4ca3d805.png)
 
 <br>
 
 Screw 효과
 ------------
 
-![image](https://user-images.githubusercontent.com/30430227/139607359-c8ff6d0e-47bb-422b-93e2-703c92b07be3.png)
+![image](https://user-images.githubusercontent.com/30430227/158339508-01ad9c3c-8d3d-4f39-8de9-a505e0797e99.png)
+![image](https://user-images.githubusercontent.com/30430227/158340163-da12e54d-56f0-466c-9ed2-da5813df10ad.png)
 
-![image](https://user-images.githubusercontent.com/30430227/139607848-210cc9ff-877d-498c-8d82-81d03e557e86.png)
+![image](https://user-images.githubusercontent.com/30430227/158339569-460691ac-70ba-48ff-a998-f5dab25454f2.png)
 
-`Empty to Scale`
-
-![image](https://user-images.githubusercontent.com/30430227/139607944-40e3f6c0-c24b-4392-8a5b-e59eeda66b55.png)
-
+![image](https://user-images.githubusercontent.com/30430227/158340295-ed1fce2c-2f79-49d2-8b5e-7bb1937fb9a0.png)
 
 <br>
 
