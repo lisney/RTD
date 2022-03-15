@@ -18,6 +18,12 @@ Geometry Node 3.0 Basic 2
 
 <br>
 
+`Sine`
+
+![image](https://user-images.githubusercontent.com/30430227/158311693-f09b1161-98b2-41e8-acd0-dbf8dcb342b5.png)
+
+![image](https://user-images.githubusercontent.com/30430227/158311718-20bee641-4c64-4ec4-a6da-27c460cb755a.png)
+
 Normalize
 -----------
 
