@@ -105,3 +105,57 @@ Fire Fly
 
 ![image](https://user-images.githubusercontent.com/30430227/121120434-7d4fef80-c858-11eb-9965-f72b283bd167.png)
 
+<br>
+
+DNA
+-----
+
+![image](https://user-images.githubusercontent.com/30430227/139569905-e24fde17-4a96-445b-8735-66e707adaca2.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139569920-9efe1430-4156-4181-ab67-01c2dfcdcf5b.png)
+
+<br>
+
+Screw 효과
+------------
+
+![image](https://user-images.githubusercontent.com/30430227/139607359-c8ff6d0e-47bb-422b-93e2-703c92b07be3.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139607848-210cc9ff-877d-498c-8d82-81d03e557e86.png)
+
+`Empty to Scale`
+
+![image](https://user-images.githubusercontent.com/30430227/139607944-40e3f6c0-c24b-4392-8a5b-e59eeda66b55.png)
+
+
+<br>
+
+Spem
+------
+
+`Wave Modifier`
+
+![image](https://user-images.githubusercontent.com/30430227/139609206-963475d9-120e-4591-996d-c3f821e34700.png)
+
+`Geometry Node`
+
+![image](https://user-images.githubusercontent.com/30430227/139609251-672b2544-0208-4795-a293-ed9f0ade1d12.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139609336-ab25b8df-6dd7-4c3c-bff2-3451632c410b.png)
+
+<br>
+
+회오리
+-------
+
+`참조 텍스처 노드`
+
+![image](https://user-images.githubusercontent.com/30430227/139713673-3aa9e968-e4f7-4882-8e2d-f633950a5e28.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139713730-c6e1f1d5-e3ca-4d23-8239-82040c59cfef.png)
+
+`회오리`
+
+![image](https://user-images.githubusercontent.com/30430227/149055784-dcb2c093-e705-494b-b9f3-f6c7b1e2b57c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/149056071-08cc8c76-6b80-4579-85f1-2b8de9dd982e.png)
