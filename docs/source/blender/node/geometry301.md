@@ -10,7 +10,12 @@ Alt - Rmouse Drag: lazy Connect
 뮤트 링크스(Node > Mute Links) - 단축키 설정: Ctrl - Alt - R마우스 드랙
 
 ```
-> Vertex Group
+
+`노드 뮤트 `
+
+![image](https://user-images.githubusercontent.com/30430227/129670865-dd6b7fbe-6573-46c1-8bb1-f3410b4cdcdb.png)
+
+`Layout Frame에서 벗어나기 Alt + P`
 
 `빈 Output 핀을 끌어 Selection에 연결하면 자동생성된다`
 
@@ -256,8 +261,26 @@ Geometry to Instance
 
 ![image](https://user-images.githubusercontent.com/30430227/146120186-e87f3290-107c-4dad-b86f-0556f26ca000.png)
 
+<br>
 
+빌딩
+-----
 
+![image](https://user-images.githubusercontent.com/30430227/158305953-729b3774-e16c-47c9-a7d0-0388c6c731ef.png)
+
+![image](https://user-images.githubusercontent.com/30430227/158306001-4551b7cd-1e6d-424b-95bb-a0e875939e6a.png)
+
+`빌딩2`
+
+![image](https://user-images.githubusercontent.com/30430227/120794443-366dab80-c573-11eb-9ef0-092446c6dcae.png)
+
+![image](https://user-images.githubusercontent.com/30430227/120794475-408faa00-c573-11eb-9bcd-6faa1be57f94.png)
+
+![image](https://user-images.githubusercontent.com/30430227/120794501-49807b80-c573-11eb-90a7-4e215902f725.png)
+
+> Whole Collection 체크를 끄면 Seed가 나타난다
+
+![image](https://user-images.githubusercontent.com/30430227/120794532-52714d00-c573-11eb-9d61-b45636fccded.png)
 
 
 
