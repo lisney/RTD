@@ -1,4 +1,4 @@
-Geometry Node 3B
+Geometry Node 3C
 ===================
 
 커브 모핑
