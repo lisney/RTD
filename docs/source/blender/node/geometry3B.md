@@ -57,58 +57,115 @@ Geometry Node 3B
 
 <br>
 
-DNA
------
+Voronoi 블럭 
+-------------
 
-![image](https://user-images.githubusercontent.com/30430227/139569905-e24fde17-4a96-445b-8735-66e707adaca2.png)
+`Texture Node - Position Node 는 텍스처 위치 이동이 필요시 붙인다`
 
-![image](https://user-images.githubusercontent.com/30430227/139569920-9efe1430-4156-4181-ab67-01c2dfcdcf5b.png)
+![image](https://user-images.githubusercontent.com/30430227/139760382-03e3cf10-3b27-4ce6-bf38-b8ea370dc383.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139760465-aa2bfcfd-b5c9-4322-b443-efc618f4c383.png)
+
+`Add Decimate Modifier(Planar) > Add Geometry Node Modifier`
+
+![image](https://user-images.githubusercontent.com/30430227/149057732-24b37e97-ff3b-4522-8286-d4868b732b0e.png)
+![image](https://user-images.githubusercontent.com/30430227/149057763-703f8c6b-1054-43bc-b386-fc31faa345ff.png)
+
+![image](https://user-images.githubusercontent.com/30430227/149057790-9d04dc61-7d18-4b13-8b51-219d30cf5c44.png)
+
+![image](https://user-images.githubusercontent.com/30430227/149057843-0c8ebe29-a77c-4fb6-8c18-68896afcd091.png)
+
+`Proxy Node`
+
+![image](https://user-images.githubusercontent.com/30430227/149058098-dc982c75-2bb6-4ddc-89d9-e13235c64a28.png)
+
+![image](https://user-images.githubusercontent.com/30430227/149058148-6e3920bd-0e84-4005-a197-28f8970ca13e.png)
 
 <br>
 
-Screw 효과
-------------
+Donut
+---------
 
-![image](https://user-images.githubusercontent.com/30430227/139607359-c8ff6d0e-47bb-422b-93e2-703c92b07be3.png)
+1. 빵 
 
-![image](https://user-images.githubusercontent.com/30430227/139607848-210cc9ff-877d-498c-8d82-81d03e557e86.png)
+![image](https://user-images.githubusercontent.com/30430227/139837216-7918dcf0-ce7e-401f-b2d7-36f9289c7f60.png)
+![image](https://user-images.githubusercontent.com/30430227/139837307-e26f5e98-111d-4506-bc36-d623eb94f74a.png)
 
-`Empty to Scale`
-
-![image](https://user-images.githubusercontent.com/30430227/139607944-40e3f6c0-c24b-4392-8a5b-e59eeda66b55.png)
-
+![image](https://user-images.githubusercontent.com/30430227/149062393-32fdb735-0eb2-4813-aae9-166f560e0682.png)
 
 <br>
 
-Spem
-------
+3. Sprinkles
 
-`Wave Modifier`
+![image](https://user-images.githubusercontent.com/30430227/139843378-1c60c46c-a27e-4d16-a517-a585d8a44a36.png)
+![image](https://user-images.githubusercontent.com/30430227/139843566-d5c90649-1615-4d70-967c-fda9054b552a.png)
 
-![image](https://user-images.githubusercontent.com/30430227/139609206-963475d9-120e-4591-996d-c3f821e34700.png)
+![image](https://user-images.githubusercontent.com/30430227/149063203-2e279684-0c31-4730-a21e-c752fc8245a5.png)
+
+4. Material
+
+![image](https://user-images.githubusercontent.com/30430227/139843934-053f2b7d-cf52-45bd-86e4-33c845e5b099.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139844365-c4ed356d-04ab-4dc6-92e1-9b675e0ed1c4.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139844393-ca19ea8c-e6c3-473c-a108-231caa4488c0.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139845381-3624191e-6f7c-4143-a9ed-a51396967695.png)
+
+![image](https://user-images.githubusercontent.com/30430227/139845537-3f440007-069e-4721-8208-e91fd01ee285.png)
+
+5. 랜더
+
+![image](https://user-images.githubusercontent.com/30430227/139845715-33d8ee0f-d5bb-484d-aa2b-9c1ca0db0c2a.png)
+
+<br>
+
+누들누들 
+---------
+
+1. Mesh Line
+
+`Hook > Cloth`
+
+![image](https://user-images.githubusercontent.com/30430227/139947444-312b0bae-1f35-4d23-8370-63d62cc41879.png)
+![image](https://user-images.githubusercontent.com/30430227/139947641-c2e91028-3433-4814-93a3-f21d79c19448.png)
+
+`Pin Point`
+
+![image](https://user-images.githubusercontent.com/30430227/139947513-2327578a-d3f5-4437-93d7-78634fde02b8.png)
+![image](https://user-images.githubusercontent.com/30430227/139947584-bd873bfd-8f3b-4152-9f63-2735e6fdd4c7.png)
 
 `Geometry Node`
 
-![image](https://user-images.githubusercontent.com/30430227/139609251-672b2544-0208-4795-a293-ed9f0ade1d12.png)
+![image](https://user-images.githubusercontent.com/30430227/149064886-f7c86014-7690-44ca-ac9e-2f162ed00005.png)
 
-![image](https://user-images.githubusercontent.com/30430227/139609336-ab25b8df-6dd7-4c3c-bff2-3451632c410b.png)
+![image](https://user-images.githubusercontent.com/30430227/149064918-8a217843-63d8-48fe-a583-1898592c0c16.png)
+
+`Material`
+
+![image](https://user-images.githubusercontent.com/30430227/149065039-af5b4896-eebb-49f3-8f89-12bd6cda0dc3.png)
 
 <br>
 
-회오리
--------
+Ring
+-----
 
-`참조 텍스처 노드`
+![image](https://user-images.githubusercontent.com/30430227/140256780-ad8493a4-5662-4288-b671-4e57bf4c8631.png)
 
-![image](https://user-images.githubusercontent.com/30430227/139713673-3aa9e968-e4f7-4882-8e2d-f633950a5e28.png)
+![image](https://user-images.githubusercontent.com/30430227/140256756-a4ced21a-8b77-4da6-9179-d235b86815fd.png)
 
-![image](https://user-images.githubusercontent.com/30430227/139713730-c6e1f1d5-e3ca-4d23-8239-82040c59cfef.png)
+![image](https://user-images.githubusercontent.com/30430227/140256867-49a0ae66-3b09-4257-aaa3-241de463128e.png)
+![image](https://user-images.githubusercontent.com/30430227/140256892-b50d93aa-a9f4-48f2-a5b3-1dd9822a0f63.png)
 
-`회오리`
+<br>
 
-![image](https://user-images.githubusercontent.com/30430227/149055784-dcb2c093-e705-494b-b9f3-f6c7b1e2b57c.png)
+Separate
+-------------
 
-![image](https://user-images.githubusercontent.com/30430227/149056071-08cc8c76-6b80-4579-85f1-2b8de9dd982e.png)
+![image](https://user-images.githubusercontent.com/30430227/141681253-785e1b27-d7e8-41ba-a2fe-1c51b145f2dd.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141681262-254b53bc-86a9-471e-90f7-f0e807e6af65.png)
+
 
 
 
