@@ -1,4 +1,4 @@
-Geometry Node 3.0 Basic 2
+Geometry Node 3.0
 ===========================
 
 1. Modular % 나머지
