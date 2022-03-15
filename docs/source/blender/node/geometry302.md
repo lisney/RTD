@@ -6,15 +6,15 @@ Geometry Node 3.0 Basic 2
 `y - 홀수 줄 선택 - 인덱스 넘버(0,0),(0,1)...`
 
 ![image](https://user-images.githubusercontent.com/30430227/142209164-8777ba97-c87c-4e9b-9c88-63e9cffd24c2.png)
+![image](https://user-images.githubusercontent.com/30430227/158281813-77b2a3e9-8b8e-43ca-ac42-01c490a97acd.png)
 
-![image](https://user-images.githubusercontent.com/30430227/142209532-fba822bb-3e99-494f-9db0-74c89686f226.png)
+![image](https://user-images.githubusercontent.com/30430227/158282307-e3803ea4-aa29-4a8f-a626-509f5536aa97.png)
 
 `X - 홀수 줄 선택`
 
 ![image](https://user-images.githubusercontent.com/30430227/142209849-1152a833-6929-4e8a-a9c4-f2cc68a76bb0.png)
 
-![image](https://user-images.githubusercontent.com/30430227/142209878-c6ce4ad2-5433-49ce-9fd8-0c53a3036b18.png)
-
+![image](https://user-images.githubusercontent.com/30430227/158282616-76c67b8e-8d91-4434-90c0-1b583b339c3c.png)
 
 <br>
 
@@ -118,13 +118,7 @@ Proximity
 ![image](https://user-images.githubusercontent.com/30430227/143552887-20e8b195-809c-4613-88b0-90cac989df1d.png)
 ![image](https://user-images.githubusercontent.com/30430227/143552992-7c08758a-ae9b-4129-9084-c253e198e042.png)
 
-![image](https://user-images.githubusercontent.com/30430227/143553073-e6e79951-a8e9-481e-8003-75f03802dd4f.png)
-
-`Align Eular to Vector 추가 > Rotate Euler`
-
-![image](https://user-images.githubusercontent.com/30430227/143553573-1ce32b10-85c9-4aea-83de-1b25fab00395.png)
-
-![image](https://user-images.githubusercontent.com/30430227/143553693-4b47d923-bda3-4ade-91d0-96d2c184782f.png)
+![image](https://user-images.githubusercontent.com/30430227/158284326-0d82b618-30aa-4021-9da3-b65c1cc3c0fc.png)
 
 `Material`
 
