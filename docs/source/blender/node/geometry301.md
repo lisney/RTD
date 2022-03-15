@@ -301,10 +301,27 @@ Geometry to Instance
 
 <br>
 
-`Accumulate Field`
+`Accumulate Field, Leading(행간거리) value:1(거리값) 1번 위치에서 시작/Trailling(따라옴) 0번 위치에서 시작(기본)`
 
+![image](https://user-images.githubusercontent.com/30430227/158317171-af4caf40-faf5-4f26-8c2a-0637e2c202e6.png)
+![image](https://user-images.githubusercontent.com/30430227/158317543-28a68a90-545b-48c6-bdcc-6534646882e0.png)
+![image](https://user-images.githubusercontent.com/30430227/158318608-f1d2a16b-7b1a-461f-8ae5-04440f62db0d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/158317212-6708bfb8-51c7-459d-a319-549e89500bcf.png)
+
+![image](https://user-images.githubusercontent.com/30430227/158318665-cd4910d1-73bb-4b44-9390-1d594625d350.png)
+
+`Scale`
+
+![image](https://user-images.githubusercontent.com/30430227/158319176-ee76e200-b48d-4402-9fae-a1623a245191.png)
+
+![image](https://user-images.githubusercontent.com/30430227/158319210-5f3e6d11-052f-4625-aade-ffe2fda23936.png)
+
+`Group Index(Bool), Bool 패턴으로 분리`
+
+
+![image](https://user-images.githubusercontent.com/30430227/158320447-8c80ba65-da83-465a-83c0-bf637909ee9e.png)
 ![image](https://user-images.githubusercontent.com/30430227/147997239-a6634ca9-b3b6-497d-b50b-f2108b82c756.png)
-
 ![image](https://user-images.githubusercontent.com/30430227/147997305-c63418f8-5360-4434-b045-f2a607b6c92d.png)
 
 <br>
