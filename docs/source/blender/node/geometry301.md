@@ -81,6 +81,35 @@ Alt - Rmouse Drag: lazy Connect
 
 <br>
 
+String to Curves
+-----------------
+
+![image](https://user-images.githubusercontent.com/30430227/141011250-6fa8ebf8-b8ca-4e12-934b-b829c97d9b03.png)
+
+![image](https://user-images.githubusercontent.com/30430227/146132438-4e4acf62-ed87-4cb1-8b43-c5791a3ce8b9.png)
+
+`sine`
+
+![image](https://user-images.githubusercontent.com/30430227/141012483-32997c91-c1bd-496b-8564-14ae676362be.png)
+
+`GreaterThan(Bool), Maximum(Value-즉 두 값 중 최대값, 바닥을 퐁퐁)`
+
+![image](https://user-images.githubusercontent.com/30430227/146132974-a8993af0-1fe0-472d-841a-3fc0cfa9c967.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141012530-3dfe785f-5cf5-4222-8567-e57af3d0f12b.png)
+
+`Attribute Statistic`
+
+![image](https://user-images.githubusercontent.com/30430227/141016335-7d7ad1cb-9745-4865-9663-6dda29ceea31.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141016635-2891a9ac-b451-41a2-97e4-7d00b855e0ca.png)
+
+`위에거 심플하게정리`
+
+![image](https://user-images.githubusercontent.com/30430227/158123889-ea1c1960-5fa9-4fa3-9904-2bc7a45230b0.png)
+
+<br>
+
 Capture Attribute -속성을 빼온다?!
 ------------------------------------
 
@@ -121,36 +150,6 @@ Noise Texture
 ![image](https://user-images.githubusercontent.com/30430227/146128131-cfe908d0-4f2e-49a5-a4c0-5bdf47bcbe35.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/140844726-584d5a57-f8a8-41ed-905b-449179d8af5b.png)
-
-
-<br>
-
-String to Curves
------------------
-
-![image](https://user-images.githubusercontent.com/30430227/141011250-6fa8ebf8-b8ca-4e12-934b-b829c97d9b03.png)
-
-![image](https://user-images.githubusercontent.com/30430227/146132438-4e4acf62-ed87-4cb1-8b43-c5791a3ce8b9.png)
-
-`sine`
-
-![image](https://user-images.githubusercontent.com/30430227/141012483-32997c91-c1bd-496b-8564-14ae676362be.png)
-
-`GreaterThan(Bool), Maximum(Value-즉 두 값 중 최대값, 바닥을 퐁퐁)`
-
-![image](https://user-images.githubusercontent.com/30430227/146132974-a8993af0-1fe0-472d-841a-3fc0cfa9c967.png)
-
-![image](https://user-images.githubusercontent.com/30430227/141012530-3dfe785f-5cf5-4222-8567-e57af3d0f12b.png)
-
-`Attribute Statistic`
-
-![image](https://user-images.githubusercontent.com/30430227/141016335-7d7ad1cb-9745-4865-9663-6dda29ceea31.png)
-
-![image](https://user-images.githubusercontent.com/30430227/141016635-2891a9ac-b451-41a2-97e4-7d00b855e0ca.png)
-
-`위에거 심플하게정리`
-
-![image](https://user-images.githubusercontent.com/30430227/158123889-ea1c1960-5fa9-4fa3-9904-2bc7a45230b0.png)
 
 <br>
 
