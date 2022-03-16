@@ -171,3 +171,55 @@ Spem
 
 ![image](https://user-images.githubusercontent.com/30430227/158500626-e55c2e4a-eade-4f89-8b0f-c86d6567d7fa.png)
 
+<br>
+
+촉수 
+-----
+
+1. Curve 
+
+![image](https://user-images.githubusercontent.com/30430227/141031782-3aad68f6-b2da-4d06-bf7d-286412268ca2.png)
+
+![image](https://user-images.githubusercontent.com/30430227/149078129-fc5fd3f9-3c55-43d1-8396-698ee576788a.png)
+
+<br>
+
+2. Curve to Mesh 
+
+![image](https://user-images.githubusercontent.com/30430227/149080036-92fac574-4ddc-459d-b98f-97ac22ca1e52.png)
+
+![image](https://user-images.githubusercontent.com/30430227/149080004-2e85d51c-b071-4726-90b0-f3ad02ce5d17.png)
+
+<br>
+
+3. 바디 변형
+
+`Frame Layout 내보내기: 노드 선택 > Alt - P`
+
+![image](https://user-images.githubusercontent.com/30430227/149081382-11cb17e3-1233-411e-919f-4d095c51bd74.png)
+
+![image](https://user-images.githubusercontent.com/30430227/149081479-53fea5e7-fcc6-409b-abe9-cda19e6ec861.png)
+
+<br>
+
+4. 재질 속성 출력 - vector 
+
+`U 좌표 - 촉수 Profile Curve Factor`
+
+![image](https://user-images.githubusercontent.com/30430227/149083477-caa1b106-2074-4e9b-aa60-9d863bd8491b.png)
+
+`V 좌표 - 촉수 커브 Factor`
+
+![image](https://user-images.githubusercontent.com/30430227/149083775-f71a2dc4-d9b0-4686-9050-0a0a5e4c628b.png)
+
+<br>
+
+5. 재질
+
+![image](https://user-images.githubusercontent.com/30430227/141043359-e4fdea19-2159-425d-8429-5cbda6cd0242.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141043409-379a9a00-560b-49d7-be87-18385e90abfc.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141044103-c42ce7a3-e8b5-43e3-8091-cfaf9c19e52f.png)
+
+<br>
