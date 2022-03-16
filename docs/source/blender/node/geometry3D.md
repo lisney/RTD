@@ -1,18 +1,6 @@
 Geometry Nodes 3.0 D
 =====================
 
-Bouncing Ball
---------------
-
-`Fraction - 분수를 알아야, 왔다리 갔다리`
-
-![image](https://user-images.githubusercontent.com/30430227/141301980-d987cd50-52d3-4aa1-b915-a52e61e8c818.png)
-
-![image](https://user-images.githubusercontent.com/30430227/141302207-b8f8cd04-afbd-4d9c-860f-dfe9ceae870a.png)
-
-
-<br>
-
 Fractal 
 ---------
 
@@ -52,36 +40,6 @@ Fractal
 
 ![image](https://user-images.githubusercontent.com/30430227/141424610-9db2b1c8-a0f6-4917-8bd8-456d751ff1fc.png)
 ![image](https://user-images.githubusercontent.com/30430227/141424694-57c1d80a-9656-422b-80a7-e292e710fb84.png)
-
-
-<br>
-
-파트 분리
--------------
-
-`분리 Add Node(Clamp - 범위를 0 ~ 1로 제한)`
-
-![image](https://user-images.githubusercontent.com/30430227/141369015-d8829dea-a7cd-4924-a3cd-e0883124e28b.png)
-
-![image](https://user-images.githubusercontent.com/30430227/141368982-f374d3bf-085f-4700-bc28-f738f0c3cfbf.png)
-
-`부드럽게 Map Range(Smooth)`
-
-![image](https://user-images.githubusercontent.com/30430227/141369241-70d3d1bf-9009-491c-b82f-3e24a6f5af17.png)
-
-`Scale Instance > Map Range- 스케일 반대로`
-
-![image](https://user-images.githubusercontent.com/30430227/141369904-786119d4-0d27-4bef-bf8f-3bfa40a65bc0.png)
-
-![image](https://user-images.githubusercontent.com/30430227/141369972-4534a74a-662d-4ab6-87e8-32c70cb1a364.png)
-
-`Rotate`
-
-![image](https://user-images.githubusercontent.com/30430227/141370665-c612996a-802e-4711-a7d7-93e80a762115.png)
-
-![image](https://user-images.githubusercontent.com/30430227/141370762-9f7765fc-3f77-43c5-98aa-cd7333caa0ee.png)
-
-<br>
 
 
 
