@@ -70,9 +70,9 @@ Plexus
 
 ![image](https://user-images.githubusercontent.com/30430227/141862152-360990e3-177c-4cf1-a3cc-50c270e59ef7.png)
 
-![image](https://user-images.githubusercontent.com/30430227/141862489-659f789c-e3f1-455d-85bd-fea7662deaff.png)
+![image](https://user-images.githubusercontent.com/30430227/158541498-29a6f88d-1142-4989-a512-10077fb9cd94.png)
 
-![image](https://user-images.githubusercontent.com/30430227/141862524-7bb80c3d-35f2-40af-9e38-e6f0bd758b32.png)
+![image](https://user-images.githubusercontent.com/30430227/158541546-a04e9e05-498b-44a9-83a0-e233357651ba.png)
 
 `스케일 - Bounding Box`
 
@@ -163,17 +163,6 @@ Mograph - Transition
 ![image](https://user-images.githubusercontent.com/30430227/143591166-bb75d78f-b347-4a09-b989-7447d4786f88.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/143591222-c839d62d-3b8c-4b94-a6a1-e3693a67be80.png)
-
-<br>
-
-Text Rotate
--------------
-
-`노드 연결 단축키: 'f'`
-
-![image](https://user-images.githubusercontent.com/30430227/143663470-a61ae999-d176-40aa-84b3-ffabc5f41e0b.png)
-
-![image](https://user-images.githubusercontent.com/30430227/143663514-b82c77d6-fc37-40d7-b8ef-7209d776f174.png)
 
 <br>
 
