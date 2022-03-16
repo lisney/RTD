@@ -149,6 +149,48 @@ Separate
 
 ![image](https://user-images.githubusercontent.com/30430227/141681262-254b53bc-86a9-471e-90f7-f0e807e6af65.png)
 
+<br>
+
+무작위 인스턴스 
+----------------
+
+1. 랜덤 섭디 그룹 
+
+![image](https://user-images.githubusercontent.com/30430227/141304056-f58f4135-f729-4b90-a91c-9efa40b9a284.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141304303-0ee0f0a3-f039-49a4-8268-a08aa789b11c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141304342-f9790f01-2972-441d-9be2-bddd37388d94.png)
+
+2. 랜덤 섭디 
+
+![image](https://user-images.githubusercontent.com/30430227/141304543-7bd99868-60ee-48b4-8ef0-d7921f8d9488.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141304575-1d56929b-9e49-4535-a3cb-f58883957b07.png)
+
+`랜덤 시드`
+
+![image](https://user-images.githubusercontent.com/30430227/141304771-bb3e4b1a-0a22-4bca-ae20-ca8ec926d382.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141304803-91ec74e9-baef-492c-a993-329b8c709c76.png)
+
+3. Instance
+
+![image](https://user-images.githubusercontent.com/30430227/141305373-131047b8-25bd-40f8-83c5-22c1bd52287a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141305405-cc14cb93-52bf-4b9e-bc5e-209d7958995a.png)
+
+4. Custom Instance
+
+![image](https://user-images.githubusercontent.com/30430227/141306195-c02cb72a-5ae6-477b-896c-84293f5f799e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141306256-df919928-8ddd-46ee-8e30-bbe7ede57bef.png)
+
+5. 재질 
+
+![image](https://user-images.githubusercontent.com/30430227/141306614-1f52f757-2345-4f61-b812-3d8344cf973c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141306665-d762876e-388e-4b40-932d-a38229b41920.png)
 
 
 
