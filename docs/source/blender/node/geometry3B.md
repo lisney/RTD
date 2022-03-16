@@ -107,6 +107,17 @@ Fire Fly
 
 <br>
 
+Bouncing Ball
+--------------
+
+`Fraction - 분수를 알아야, 왔다리 갔다리`
+
+![image](https://user-images.githubusercontent.com/30430227/141301980-d987cd50-52d3-4aa1-b915-a52e61e8c818.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141302207-b8f8cd04-afbd-4d9c-860f-dfe9ceae870a.png)
+
+<br>
+
 파트 분리
 -------------
 
