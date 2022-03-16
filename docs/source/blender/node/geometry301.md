@@ -110,6 +110,17 @@ String to Curves
 
 <br>
 
+Text Rotate
+-------------
+
+`노드 연결 단축키: 'f'`
+
+![image](https://user-images.githubusercontent.com/30430227/143663470-a61ae999-d176-40aa-84b3-ffabc5f41e0b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/143663514-b82c77d6-fc37-40d7-b8ef-7209d776f174.png)
+
+<br>
+
 Capture Attribute -속성을 빼온다?!
 ------------------------------------
 
