@@ -339,9 +339,11 @@ Geometry to Instance
 빌딩기초
 ---------
 
-![image](https://user-images.githubusercontent.com/30430227/158550484-a2d402bf-c630-48ea-b94a-20f711a8e7b5.png)
+`얼굴 +X방향`
+![image](https://user-images.githubusercontent.com/30430227/158577223-0da26d90-15b0-4910-a305-32da49d00bb5.png)
+![image](https://user-images.githubusercontent.com/30430227/158575120-ef663692-51f0-4fe1-8cc3-ae6ad163b655.png)
 
-![image](https://user-images.githubusercontent.com/30430227/158550554-66d105d2-4179-4bcd-9232-f20e4368a7cb.png)
+![image](https://user-images.githubusercontent.com/30430227/158575156-28ebfae4-7b86-473b-b099-1e5f0c3556d9.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/144708458-f78a1cc1-3951-4d89-98dd-36599cae91d2.png)
 
