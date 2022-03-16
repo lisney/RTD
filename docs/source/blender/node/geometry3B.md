@@ -107,6 +107,33 @@ Fire Fly
 
 <br>
 
+파트 분리
+-------------
+
+`분리 Add Node(Clamp - 범위를 0 ~ 1로 제한)`
+
+![image](https://user-images.githubusercontent.com/30430227/141369015-d8829dea-a7cd-4924-a3cd-e0883124e28b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141368982-f374d3bf-085f-4700-bc28-f738f0c3cfbf.png)
+
+`부드럽게 Map Range(Smooth)`
+
+![image](https://user-images.githubusercontent.com/30430227/141369241-70d3d1bf-9009-491c-b82f-3e24a6f5af17.png)
+
+`Scale Instance > Map Range- 스케일 반대로`
+
+![image](https://user-images.githubusercontent.com/30430227/141369904-786119d4-0d27-4bef-bf8f-3bfa40a65bc0.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141369972-4534a74a-662d-4ab6-87e8-32c70cb1a364.png)
+
+`Rotate`
+
+![image](https://user-images.githubusercontent.com/30430227/141370665-c612996a-802e-4711-a7d7-93e80a762115.png)
+
+![image](https://user-images.githubusercontent.com/30430227/141370762-9f7765fc-3f77-43c5-98aa-cd7333caa0ee.png)
+
+<br>
+
 DNA
 -----
 
