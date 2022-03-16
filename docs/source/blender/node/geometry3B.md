@@ -133,7 +133,8 @@ Spem
 
 `Wave Modifier`
 
-![image](https://user-images.githubusercontent.com/30430227/139609206-963475d9-120e-4591-996d-c3f821e34700.png)
+![image](https://user-images.githubusercontent.com/30430227/158492364-a690e087-53a5-4da0-8298-4e7a22d8b5d3.png)
+![image](https://user-images.githubusercontent.com/30430227/158492387-c1a24b20-90be-4874-93be-118e0d050682.png)
 
 `Geometry Node`
 
@@ -154,6 +155,19 @@ Spem
 
 `회오리`
 
+![image](https://user-images.githubusercontent.com/30430227/158499213-cf90b6a1-2acf-47d2-8032-3fa445f7f22a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/158499255-0f6cb1aa-626e-4401-8421-01bacb649dba.png)
+
+`Instance`
+
+![image](https://user-images.githubusercontent.com/30430227/158499988-31d3b214-b76a-496f-8a79-d1dc6a021987.png)
+
+![image](https://user-images.githubusercontent.com/30430227/158499954-fcf8ebba-e806-4e36-94c4-1d440eb34d32.png)
+
+![image](https://user-images.githubusercontent.com/30430227/158500041-d670f065-db9e-4dc5-b304-7a0c86704e5d.png)
+
 ![image](https://user-images.githubusercontent.com/30430227/149055784-dcb2c093-e705-494b-b9f3-f6c7b1e2b57c.png)
 
-![image](https://user-images.githubusercontent.com/30430227/149056071-08cc8c76-6b80-4579-85f1-2b8de9dd982e.png)
+![image](https://user-images.githubusercontent.com/30430227/158500626-e55c2e4a-eade-4f89-8b0f-c86d6567d7fa.png)
+
