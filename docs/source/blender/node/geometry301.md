@@ -334,21 +334,3 @@ Geometry to Instance
 ![image](https://user-images.githubusercontent.com/30430227/147997239-a6634ca9-b3b6-497d-b50b-f2108b82c756.png)
 ![image](https://user-images.githubusercontent.com/30430227/147997305-c63418f8-5360-4434-b045-f2a607b6c92d.png)
 
-<br>
-
-빌딩기초
----------
-
-`얼굴 +X방향`
-![image](https://user-images.githubusercontent.com/30430227/158577223-0da26d90-15b0-4910-a305-32da49d00bb5.png)
-![image](https://user-images.githubusercontent.com/30430227/158575120-ef663692-51f0-4fe1-8cc3-ae6ad163b655.png)
-
-![image](https://user-images.githubusercontent.com/30430227/158575156-28ebfae4-7b86-473b-b099-1e5f0c3556d9.png)
-
-![image](https://user-images.githubusercontent.com/30430227/144708458-f78a1cc1-3951-4d89-98dd-36599cae91d2.png)
-
-![image](https://user-images.githubusercontent.com/30430227/146309669-637ff988-dcbf-4600-af07-85cf2b2b1c18.png)
-
-
-
-  
