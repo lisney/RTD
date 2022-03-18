@@ -97,3 +97,51 @@ City
 
 ![image](https://user-images.githubusercontent.com/30430227/158939308-b95f5428-c609-4eaa-9968-6760d3e5cbf5.png)
 
+<br>
+
+
+줄다리
+---------
+
+`Geometry Node > Add 2 Empty`
+
+![image](https://user-images.githubusercontent.com/30430227/158941839-03c1a4a0-4625-4da8-a679-459705f7e79a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/158942038-2d0e9218-10df-434b-abd2-c505feb84ac4.png)
+
+`로프, 계단 추가`
+
+![image](https://user-images.githubusercontent.com/30430227/158942702-30e6e6ed-4ffc-485f-adff-c72a98708224.png)
+
+![image](https://user-images.githubusercontent.com/30430227/158942721-b5cbc60a-eda7-411e-b122-b152ccf4f8fe.png)
+
+`자유로프 추가 > 부드럽게`
+
+![image](https://user-images.githubusercontent.com/30430227/158943163-1963814d-7322-4043-890f-528ccfadfc97.png)
+
+![image](https://user-images.githubusercontent.com/30430227/158943217-209bf2f1-6962-42c9-bbcf-4bc8515eb5b0.png)
+
+![image](https://user-images.githubusercontent.com/30430227/158943378-185ddbce-c755-4fdd-99a2-81cf6f3fa90d.png)
+
+`손잡이 로프(Offset), 연결 로프(Modulo)`
+
+![image](https://user-images.githubusercontent.com/30430227/158944106-e7d1ff4e-db05-427e-ac7b-532d4fb23464.png)
+
+![image](https://user-images.githubusercontent.com/30430227/158944132-f4935445-1a7b-46db-ba4d-ecdf5112769f.png)
+
+`매듭 `
+
+`Torus Knot`
+
+![image](https://user-images.githubusercontent.com/30430227/142752805-79350bd6-c002-47c1-baec-73745528df2a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142752818-a62ec78f-60b5-49d9-8205-7abb066fb62a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/142752871-5308a9cd-38a4-4939-ae54-a8766b1b635b.png)
+
+<br>
+
+
+
+
+
