@@ -19,3 +19,4 @@ VRoid
 
 ![image](https://user-images.githubusercontent.com/30430227/159197392-7f596d29-0ba0-4d35-86eb-7c377710977d.png)
 
+`bone heat weighting > Remove Double Vertex`
