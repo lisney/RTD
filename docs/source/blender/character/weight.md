@@ -122,6 +122,17 @@ Rigify Weight
 
 ![image](https://user-images.githubusercontent.com/30430227/139250288-d9fa897d-03e7-43d1-bc80-8098ccf043a0.png)
 
+<br>
+
+Rig widh Cloth
+--------------
+
+`옷에 With Empty Groups >몸 선택 후 옷 선택> Weight Paint`
+
+![image](https://user-images.githubusercontent.com/30430227/159213866-497894a4-b7cc-4ef2-bb4d-ec0dc00c8032.png)
+
+![image](https://user-images.githubusercontent.com/30430227/159214129-0bef23fb-5d71-42d5-a657-649abd446843.png)
+
 
 
 
