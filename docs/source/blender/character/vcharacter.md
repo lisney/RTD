@@ -1,7 +1,7 @@
-Mixamo
+VCharcater
 =========
 
-불러오기
+Mixamo
 --------
 
 1. import T-posed mesh model without any animation
@@ -10,3 +10,9 @@ Mixamo
 
 ![image](https://user-images.githubusercontent.com/30430227/139252754-2b5cf96e-898d-40c3-862b-cd005efe1521.png)
 
+<br>
+
+VRoid
+------
+
+`확장자 .vrm ->glb > import GLTF`
