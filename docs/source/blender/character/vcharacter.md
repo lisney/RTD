@@ -16,3 +16,6 @@ VRoid
 ------
 
 `확장자 .vrm ->glb > import GLTF`
+
+![image](https://user-images.githubusercontent.com/30430227/159197392-7f596d29-0ba0-4d35-86eb-7c377710977d.png)
+
