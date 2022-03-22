@@ -24,7 +24,9 @@ Modifier에서 Armature를 Copy한 후 원래 Armature Modifier를 'Apply'한다
 #손과 발의 IK 본은 Root본에 Parent하고 Target은 힙본에 한다
 ```
 
-`기즈모 단축키 설정 E-Move, D-Rotate`
+`툴아이콘 메뉴(기즈모) 단축키 설정 E-Move, D-Rotate`
+
+`Select Mirror 단축키 변경 Alt-M`
 
 `뼈 선택 이동 '[', ']' `
 
@@ -48,5 +50,16 @@ Modifier에서 Armature를 Copy한 후 원래 Armature Modifier를 'Apply'한다
 
 ![image](https://user-images.githubusercontent.com/30430227/159226697-a00b30d0-a181-4ac2-a146-f5a21ac9740e.png)
 ![image](https://user-images.githubusercontent.com/30430227/159226737-28302d83-1096-4fb9-8a17-b04d59c00689.png)
+
+
+펀칭 동작
+---------------------
+
+0. Staging - 펀칭 동작은 정면보다 옆 방향이 보기 좋다
+
+![image](https://user-images.githubusercontent.com/30430227/159426288-64375e21-fd13-4b05-9cb2-cf31d8cceb63.png)
+
+1. Anticipation - 예비동작(다음 동작을 예측케하는 준비동작)
+
 
 
