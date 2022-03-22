@@ -23,6 +23,8 @@ new 3.0
 
 4. Pose Library - 애드온, 기본으로 설치되어 있음
 
+`생성은 프로퍼티 'Create Pose Asset'버튼 , 사용은 어셋 Browser에서`
+
 ![image](https://user-images.githubusercontent.com/30430227/148146128-776e923a-a44c-42c6-b6fb-6d10f6c4a157.png)
 ![image](https://user-images.githubusercontent.com/30430227/148146147-3aa1c775-10d0-4c39-95f8-0116b80448d8.png)
 
