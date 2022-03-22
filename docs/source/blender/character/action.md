@@ -52,14 +52,55 @@ Modifier에서 Armature를 Copy한 후 원래 Armature Modifier를 'Apply'한다
 ![image](https://user-images.githubusercontent.com/30430227/159226737-28302d83-1096-4fb9-8a17-b04d59c00689.png)
 
 
-펀칭 동작
+펀칭 동작 - AutoKey
 ---------------------
 
-0. Staging - 펀칭 동작은 정면보다 옆 방향이 보기 좋다
+1. Staging - 펀칭 동작은 정면보다 옆 방향이 보기 좋다
 
 ![image](https://user-images.githubusercontent.com/30430227/159426288-64375e21-fd13-4b05-9cb2-cf31d8cceb63.png)
 
-1. Anticipation - 예비동작(다음 동작을 예측케하는 준비동작)
+5. Anticipation - 준비자세(예견동작-다음 동작을 예측케하는 자세)
+
+![image](https://user-images.githubusercontent.com/30430227/159428690-0cd8974b-80d6-4b53-b9aa-7c566f7b9389.png)
+
+15. 머무는 타이밍 - 스쿼시(준비 동작을 좀 더 크게 준다)
+
+18. 공격 - 뒷 발 앞으로 내딛고 > 팔은 몸과 동시에 움직이지 않는다
+
+![image](https://user-images.githubusercontent.com/30430227/159431220-796e6b83-f2d8-43c9-a4c3-abb96439099a.png)
+
+20. 팔 뻗기 - Squash & Stretch 
+
+`팔 IK 모드로 바꿈 - 스트레치 전에 스쿼시를 준다, 머리와 허리를 살짝 숙인다`
+
+![image](https://user-images.githubusercontent.com/30430227/159435615-c8ffd91d-0511-48a3-83f8-188bc028e5bb.png)
+
+25. Stretch > 돌아옴, 머리와 허리도 살짝 편다
+
+![image](https://user-images.githubusercontent.com/30430227/159435767-6d136c44-a522-4256-88b9-510222c04e2a.png)
+
+30. 머리와 허리 다시 살짝 숙인다(반동)
+
+<br>
+
+점프 동작 
+-----------
+
+5. Anticipation - 허리, 머리는 숙이고
+
+![image](https://user-images.githubusercontent.com/30430227/159442900-71687f70-2b5f-47c9-922e-615061a7079e.png)
+
+10. 머무는 동작 - 준비자세 좀 더
+
+![image](https://user-images.githubusercontent.com/30430227/159443413-6ec5d6eb-9c06-4d85-982c-851f15d5238d.png)
+
+13. 점프 - 허리, 머리를 편다
+
+![image](https://user-images.githubusercontent.com/30430227/159444086-2d09e149-067a-43f6-8208-86dc8cf61513.png)
+
+18. 최고점 
+
+![image](https://user-images.githubusercontent.com/30430227/159444645-475910d3-979a-495c-84fa-477c315d53c0.png)
 
 
 
