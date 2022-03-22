@@ -43,7 +43,7 @@ new 3.0
 
 <br>
 
-6. Bone Heat Weighting : failed to find solution for one or more bones. 자동 웨이트 문제
+6. 옷에 Weight 복사 시 'Bone Heat Weighting' 에러나면..(VRoid 중복 버텍스 문제)
 
 `모델 복사 > Merge by Distance > Armature Deform >>`
 `원본모델 > With Empty Group > 원본/복사모델 선택 > Transform Weight(NearestFace, SourceLayer:By Name)`
