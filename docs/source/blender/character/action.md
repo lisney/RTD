@@ -117,17 +117,21 @@ Child Of > Visual Transfrom(현재 위치를 자식의 원점으로), Position/I
 ![image](https://user-images.githubusercontent.com/30430227/159646040-90ba619d-951b-4232-94ed-c005e021e506.png)
 ![image](https://user-images.githubusercontent.com/30430227/159647090-967146b1-7fb1-4a00-842f-411ba9764770.png)
 
-15. 머무는 동작- 시위 당긴다 - 고개를 활 쪽으로 기울인다
+15. 시위 당긴다 - 발을 벌린다, 고개를 활 쪽으로 기울인다, 움츠림
 
 ![image](https://user-images.githubusercontent.com/30430227/159647161-a7fd7a02-f9cb-4d0d-ad26-f9a990265ff4.png)
 
-17. 시위를 놓는다 - 오른 팔이 뒤쪽으로 펴지고, 몸은 화살에 이끌리듯 살짝 앞으로 나간다.
+17. 시위를 놓는다 - 오른 팔/머리도 뒤로 젖히고, 몸은 화살에 이끌리듯 살짝 앞으로 나간다. 움츠림 
 
 `화살 > 15-Visual Transform, Clear Inverse , SetKey(Influence) > 16-SetKey(Influence:0)`
+
 `활현 -반동으로 앞쪽으로 > 22 - 뒤쪽 반동 > 25 - 제자리`
 
 ![image](https://user-images.githubusercontent.com/30430227/159647182-d4e90683-318d-4ced-927b-3f0e27b36ff8.png)
 ![image](https://user-images.githubusercontent.com/30430227/159648277-cf65523a-8f09-47c4-ad7e-10ebd95a0dde.png)
 
+25. 팔 내린다, 몸 원래위치로
+
+![image](https://user-images.githubusercontent.com/30430227/159649793-5a88c04e-ddd1-4550-9520-34804204213e.png)
 
 
