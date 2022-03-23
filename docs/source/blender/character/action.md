@@ -13,8 +13,9 @@ $포즈 라이브러리에는 현재 레이어 본의 정보를 저장한다.
 #Pose 자동선택 // Ctrl + L + MouseWheel(순차적으로 선택된다)
 #라이브러리 저장 안될 때 // 회색방패 아이콘을 켜고 저장한다.
 #Shift + E :: pose.breakdown, DopeSheet에서는 Set Keyframe Extrapolaton(보외법)
-※ 보외법 또는 외삽은 수학에서 원래의 관찰 범위를 넘어서서 다른 변수와의 관계에 기초하여 변수의 값을 추정하는 과정이다.
-#Child Of Constraint 에서 Set Inverse 시 부모의 위치로 이동하지 않는 경우 // 위치를 원점으로 옮긴다음 실행해본다Select to Cursor(원점)
+※ 보외법 또는 외삽은 수학에서 원래의 관찰 범위를 넘어서서 다른 변수와의 관계에 기초하여 변수의 값을 추정하는 과정.
+#Child Of Constraint 에서 Set Inverse 시 부모의 위치로 이동하지 않는 경우 
+// 위치를 원점으로 옮긴다음 실행해본다Select to Cursor(원점)
 #Reset Pose 문제(모션캡쳐용 T-포즈를 키애니용으로 변환할 때 필요)
 포즈를 잡은 상태에서 메쉬모드로 나와 메쉬를 선택한다
 Modifier에서 Armature를 Copy한 후 원래 Armature Modifier를 'Apply'한다음
@@ -24,11 +25,22 @@ Modifier에서 Armature를 Copy한 후 원래 Armature Modifier를 'Apply'한다
 #손과 발의 IK 본은 Root본에 Parent하고 Target은 힙본에 한다
 ```
 
-`툴아이콘 메뉴(기즈모) 단축키 설정 E-Move, D-Rotate`
+![image](https://user-images.githubusercontent.com/30430227/159687653-343efa55-ff03-4cf0-bab5-b5c6f18788a1.png)
+![image](https://user-images.githubusercontent.com/30430227/159688362-0e0fa0b6-2005-447d-8fce-0003cf61b4d6.png)
 
-`Select Mirror 단축키 변경 Alt-M`
+![image](https://user-images.githubusercontent.com/30430227/159687676-75d4d8d0-cd34-4a62-b95c-88093ef33219.png)
+![image](https://user-images.githubusercontent.com/30430227/159687711-50b8e887-9f27-49fb-af8b-cc534b6d59a9.png)
 
-`뼈 선택 이동 '[', ']' `
+```
+Timeline Editor - 키프레임 마름모 컬러 바꾸기 단축키 'R'
+Marker - M > Ctrl-M(Rename)
+Curve Editor - 특정 요소의 커브만 보이게 Shift-H, 모두 나타나게 Alt-H
+
+툴아이콘 메뉴(기즈모) 단축키 설정 E-Move, D-Rotate
+Select Mirror 단축키 변경 Alt-M
+뼈 선택 이동 '[', ']' 
+```
+
 
 <br>
 
