@@ -59,7 +59,7 @@ Modifier에서 Armature를 Copy한 후 원래 Armature Modifier를 'Apply'한다
 
 ![image](https://user-images.githubusercontent.com/30430227/159426288-64375e21-fd13-4b05-9cb2-cf31d8cceb63.png)
 
-5. Anticipation - 준비자세(예견동작-다음 동작을 예측케하는 자세)
+5. Anticipation - 준비자세(기대-사전동작, 동작을 예측하게하는 역할)
 
 ![image](https://user-images.githubusercontent.com/30430227/159428690-0cd8974b-80d6-4b53-b9aa-7c566f7b9389.png)
 
@@ -101,6 +101,33 @@ Modifier에서 Armature를 Copy한 후 원래 Armature Modifier를 'Apply'한다
 18. 최고점 
 
 ![image](https://user-images.githubusercontent.com/30430227/159444645-475910d3-979a-495c-84fa-477c315d53c0.png)
+
+<br>
+
+활 쏘기
+-----
+
+```
+Child Of > Visual Transfrom(현재 위치를 자식의 원점으로), Position/Influence Set Key
+>Next Frame > Clear Inverse(부모 영향 벗어남), Influence ->0`
+```
+
+5. Anticipation - 화살/활은 위치를 잡은 후 Child of> Set Inverse
+
+![image](https://user-images.githubusercontent.com/30430227/159646040-90ba619d-951b-4232-94ed-c005e021e506.png)
+![image](https://user-images.githubusercontent.com/30430227/159647090-967146b1-7fb1-4a00-842f-411ba9764770.png)
+
+15. 머무는 동작- 시위 당긴다 - 고개를 활 쪽으로 기울인다
+
+![image](https://user-images.githubusercontent.com/30430227/159647161-a7fd7a02-f9cb-4d0d-ad26-f9a990265ff4.png)
+
+17. 시위를 놓는다 - 오른 팔이 뒤쪽으로 펴지고, 몸은 화살에 이끌리듯 살짝 앞으로 나간다.
+
+`화살 > 15-Visual Transform, Clear Inverse , SetKey(Influence) > 16-SetKey(Influence:0)`
+`활현 -반동으로 앞쪽으로 > 22 - 뒤쪽 반동 > 25 - 제자리`
+
+![image](https://user-images.githubusercontent.com/30430227/159647182-d4e90683-318d-4ced-927b-3f0e27b36ff8.png)
+![image](https://user-images.githubusercontent.com/30430227/159648277-cf65523a-8f09-47c4-ad7e-10ebd95a0dde.png)
 
 
 
