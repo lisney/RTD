@@ -88,8 +88,28 @@ Image Size -가로세로비
 
 ![image](https://user-images.githubusercontent.com/30430227/143068897-6489699e-d8fa-4af9-9e59-79ba8a509dea.png)
 
+<br>
 
+Arrow Rig
+----------
 
+![image](https://user-images.githubusercontent.com/30430227/159624761-bad5f78a-f3d1-4211-af5f-95c606951d7d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/159625134-cf470e50-1fdb-42e7-8226-0b7af6add73b.png)
+
+`IK`
+
+![image](https://user-images.githubusercontent.com/30430227/159624858-e61fc254-63b2-4f98-8b08-425b134e66bd.png)
+![image](https://user-images.githubusercontent.com/30430227/159624939-d990988b-d7a8-488e-8fc9-647618515d4d.png)
+
+`Limit Distance`
+
+![image](https://user-images.githubusercontent.com/30430227/159624893-0117eef4-7909-473d-a30c-10d2e6697643.png)
+![image](https://user-images.githubusercontent.com/30430227/159624925-f51c157c-2af6-4927-8adb-faf035d12a80.png)
+
+`양쪽 IK본 string 본 Parent -> Root`
+
+![image](https://user-images.githubusercontent.com/30430227/159625059-febcc3dc-82eb-45d8-9b4b-77f6b30f6f6f.png)
 
 
 
