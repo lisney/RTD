@@ -41,6 +41,7 @@ Select Mirror 단축키 변경 Alt-M
 뼈 선택 이동 '[', ']' 
 ```
 
+`Break down - 키 프레임 다음으로 중요, 예)진자 운동`
 
 <br>
 
@@ -75,7 +76,7 @@ Select Mirror 단축키 변경 Alt-M
 
 ![image](https://user-images.githubusercontent.com/30430227/159428690-0cd8974b-80d6-4b53-b9aa-7c566f7b9389.png)
 
-15. 머무는 타이밍 - 스쿼시(준비 동작을 좀 더 크게 준다)
+15. 머무는 타이밍 - 스쿼시(준비 동작을 좀 더 크게 준다, break down)
 
 18. 공격 - 뒷 발 앞으로 내딛고 > 팔은 몸과 동시에 움직이지 않는다
 
@@ -102,7 +103,7 @@ Select Mirror 단축키 변경 Alt-M
 
 ![image](https://user-images.githubusercontent.com/30430227/159442900-71687f70-2b5f-47c9-922e-615061a7079e.png)
 
-10. 머무는 동작 - 준비자세 좀 더
+10. 머무는 동작 - 준비자세 좀 더(break down)
 
 ![image](https://user-images.githubusercontent.com/30430227/159443413-6ec5d6eb-9c06-4d85-982c-851f15d5238d.png)
 
@@ -129,7 +130,7 @@ Child Of > Visual Transfrom(현재 위치를 자식의 원점으로), Position/I
 ![image](https://user-images.githubusercontent.com/30430227/159646040-90ba619d-951b-4232-94ed-c005e021e506.png)
 ![image](https://user-images.githubusercontent.com/30430227/159647090-967146b1-7fb1-4a00-842f-411ba9764770.png)
 
-15. 시위 당긴다 - 발을 벌린다, 고개를 활 쪽으로 기울인다, 움츠림
+15. 시위 당긴다(break down) - 발을 벌린다, 고개를 활 쪽으로 기울인다, 움츠림
 
 ![image](https://user-images.githubusercontent.com/30430227/159647161-a7fd7a02-f9cb-4d0d-ad26-f9a990265ff4.png)
 
@@ -146,4 +147,41 @@ Child Of > Visual Transfrom(현재 위치를 자식의 원점으로), Position/I
 
 ![image](https://user-images.githubusercontent.com/30430227/159649793-5a88c04e-ddd1-4550-9520-34804204213e.png)
 
+<br>
 
+봉 돌리기
+----------
+
+`카메라-Stage >키 pose 생성-Frame by Frame > 키 사이 간격 벌림-Timing > Break down>설득력-Stage`
+
+0. 봉의 위치를 오른손 > Child Of 'hand_fk.R > Set Inverse(손에 붙인다)
+
+![image](https://user-images.githubusercontent.com/30430227/159819108-e79310fe-5e16-4781-9314-2da86f9401fc.png)
+![image](https://user-images.githubusercontent.com/30430227/159817326-a374356f-59be-46b6-8366-2ebada5c8203.png)
+
+1. 기본 자세 
+
+![image](https://user-images.githubusercontent.com/30430227/159819248-03b79ab7-99e5-4bd4-826c-53fa649424bf.png)
+
+2. 공격 준비 - 왼발 축으로 180도 회전 오른발 앞으로 딛는다, 시선 정면
+
+![image](https://user-images.githubusercontent.com/30430227/159823439-546e408b-dc7f-4750-aae6-06aa92f480db.png)
+
+3. 공격 
+
+![image](https://user-images.githubusercontent.com/30430227/159824514-5738a0ee-d08f-415e-89ca-98c6459b94f1.png)
+![image](https://user-images.githubusercontent.com/30430227/159824525-e5070a0f-2acd-4b11-b5e4-29e4cbc6b530.png)
+
+`Timing`
+
+![image](https://user-images.githubusercontent.com/30430227/159824869-8be9fd80-1da9-4249-bffd-7db285b7ee62.png)
+
+5. Break Down - 머리, 오른팔, 왼팔 순으로 돌아간다(웨이브), 무게중심 뒤쪽
+
+![image](https://user-images.githubusercontent.com/30430227/159826254-bcf62550-837e-41f6-9791-d10e8a3117c0.png)
+
+7. 손목 회전 
+
+![image](https://user-images.githubusercontent.com/30430227/159826773-f81e57e0-03cb-45d7-a421-17b7c81e02d8.png)
+
+8. 
