@@ -103,7 +103,7 @@ Select Mirror 단축키 변경 Alt-M
 
 ![image](https://user-images.githubusercontent.com/30430227/159442900-71687f70-2b5f-47c9-922e-615061a7079e.png)
 
-10. 머무는 동작 - 준비자세 좀 더(break down)
+10. 머무는 동작 - 준비자세 좀 더(Moving hold, Extream)
 
 ![image](https://user-images.githubusercontent.com/30430227/159443413-6ec5d6eb-9c06-4d85-982c-851f15d5238d.png)
 
@@ -130,11 +130,11 @@ Child Of > Visual Transfrom(현재 위치를 자식의 원점으로), Position/I
 ![image](https://user-images.githubusercontent.com/30430227/159646040-90ba619d-951b-4232-94ed-c005e021e506.png)
 ![image](https://user-images.githubusercontent.com/30430227/159647090-967146b1-7fb1-4a00-842f-411ba9764770.png)
 
-15. 시위 당긴다(break down) - 발을 벌린다, 고개를 활 쪽으로 기울인다, 움츠림
+15. 시위 당긴다(Moving hold, Extream) - 발을 벌린다, 고개를 활 쪽으로 기울인다, 움츠림
 
 ![image](https://user-images.githubusercontent.com/30430227/159647161-a7fd7a02-f9cb-4d0d-ad26-f9a990265ff4.png)
 
-17. 시위를 놓는다 - 오른 팔/머리도 뒤로 젖히고, 몸은 화살에 이끌리듯 살짝 앞으로 나간다. 움츠림 
+17. 시위를 놓는다 - 오른 팔/머리도 뒤로 젖히고, 몸은 화살에 이끌리듯 살짝 앞으로 나간다(Follow Through. 움츠림 
 
 `화살 > 15-Visual Transform, Clear Inverse , SetKey(Influence) > 16-SetKey(Influence:0)`
 
@@ -167,7 +167,7 @@ Child Of > Visual Transfrom(현재 위치를 자식의 원점으로), Position/I
 
 ![image](https://user-images.githubusercontent.com/30430227/159823439-546e408b-dc7f-4750-aae6-06aa92f480db.png)
 
-3. 공격 
+3. 공격 - 시계방향으로 회전 
 
 ![image](https://user-images.githubusercontent.com/30430227/159824514-5738a0ee-d08f-415e-89ca-98c6459b94f1.png)
 ![image](https://user-images.githubusercontent.com/30430227/159824525-e5070a0f-2acd-4b11-b5e4-29e4cbc6b530.png)
@@ -180,8 +180,19 @@ Child Of > Visual Transfrom(현재 위치를 자식의 원점으로), Position/I
 
 ![image](https://user-images.githubusercontent.com/30430227/159826254-bcf62550-837e-41f6-9791-d10e8a3117c0.png)
 
-7. 손목 회전 
+7. 손목 Break Down - 봉 회전
 
 ![image](https://user-images.githubusercontent.com/30430227/159826773-f81e57e0-03cb-45d7-a421-17b7c81e02d8.png)
+![image](https://user-images.githubusercontent.com/30430227/159826984-55f64d21-f9ae-48a0-9676-6e54402947be.png)
 
-8. 
+28. Follow Throuth, 반동 - 몸이 펴진다, 팔등의 긴장이 풀린다
+
+![image](https://user-images.githubusercontent.com/30430227/159828558-bdf47bb6-3883-481a-a4dc-dd2a5a68ec6d.png)
+
+19.  Extream 
+
+![image](https://user-images.githubusercontent.com/30430227/159828859-d9d10207-42bb-4798-8cb3-3bc43d37927a.png)
+
+
+
+
