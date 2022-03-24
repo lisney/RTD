@@ -41,7 +41,11 @@ Select Mirror 단축키 변경 Alt-M
 뼈 선택 이동 '[', ']' 
 ```
 
-`Break down - 키 프레임 다음으로 중요, 예)진자 운동`
+`Breakdown - 메인키 중간에 키프레임 추가, 예)진자 운동`
+
+`Pose Breakdowner 'Shift-E 후 드랙 하거나 수치%입력(모든 변형에) G,R,S-선택' Pose>Inbetweens 참고`
+
+![image](https://user-images.githubusercontent.com/30430227/159848870-2f70bd84-4ec6-4142-ae90-634ed4d0d1d1.png)
 
 <br>
 
@@ -64,6 +68,12 @@ Select Mirror 단축키 변경 Alt-M
 ![image](https://user-images.githubusercontent.com/30430227/159226697-a00b30d0-a181-4ac2-a146-f5a21ac9740e.png)
 ![image](https://user-images.githubusercontent.com/30430227/159226737-28302d83-1096-4fb9-8a17-b04d59c00689.png)
 
+`Active Keying Set - 전체 본 선택 positionRotate> 이후 Available, AutoKey `
+
+![image](https://user-images.githubusercontent.com/30430227/159884036-38005e04-48cd-41b1-b726-df6173d1fdf9.png)
+![image](https://user-images.githubusercontent.com/30430227/159884429-e653d970-6bad-4b56-b57a-47fb0fa31f11.png)
+
+<br>
 
 펀칭 동작 - AutoKey
 ---------------------
@@ -185,7 +195,7 @@ Child Of > Visual Transfrom(현재 위치를 자식의 원점으로), Position/I
 ![image](https://user-images.githubusercontent.com/30430227/159826773-f81e57e0-03cb-45d7-a421-17b7c81e02d8.png)
 ![image](https://user-images.githubusercontent.com/30430227/159826984-55f64d21-f9ae-48a0-9676-6e54402947be.png)
 
-28. Follow Throuth, 반동 - 몸이 펴진다, 팔등의 긴장이 풀린다
+28. Follow Throuth, 마무리 동작 - 몸이 펴진다(Overlapping), 팔등의 긴장이 풀린다
 
 ![image](https://user-images.githubusercontent.com/30430227/159828558-bdf47bb6-3883-481a-a4dc-dd2a5a68ec6d.png)
 
@@ -193,6 +203,15 @@ Child Of > Visual Transfrom(현재 위치를 자식의 원점으로), Position/I
 
 ![image](https://user-images.githubusercontent.com/30430227/159828859-d9d10207-42bb-4798-8cb3-3bc43d37927a.png)
 
+<br>
+
+도끼질 
+-------
+
+![image](https://user-images.githubusercontent.com/30430227/159883230-4381dd04-b889-4470-b49a-eafd4f594972.png)
+![image](https://user-images.githubusercontent.com/30430227/159883127-e5b761a6-ecfd-4644-975a-d92ac710200f.png)
+
+`Rig - 기존 Armature에 본 추가 > 도끼를 본에 Parent Bone > 오른손-FK, 왼 손-IK > ChildOf`
 
 
 
