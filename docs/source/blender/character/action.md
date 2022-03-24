@@ -176,7 +176,7 @@ Child Of > Visual Transfrom(현재 위치를 자식의 원점으로), Position/I
 
 ![image](https://user-images.githubusercontent.com/30430227/159824869-8be9fd80-1da9-4249-bffd-7db285b7ee62.png)
 
-5. Break Down - 머리, 오른팔, 왼팔 순으로 돌아간다(웨이브), 무게중심 뒤쪽
+5. Break Down - 머리, 오른팔, 왼팔 순으로 돌아간다(웨이브-Overlapping), 무게중심 뒤쪽
 
 ![image](https://user-images.githubusercontent.com/30430227/159826254-bcf62550-837e-41f6-9791-d10e8a3117c0.png)
 
