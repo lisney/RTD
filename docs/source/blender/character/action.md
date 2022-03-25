@@ -213,5 +213,29 @@ Child Of > Visual Transfrom(현재 위치를 자식의 원점으로), Position/I
 
 `Rig - 기존 Armature에 본 추가 > 도끼를 본에 Parent Bone > 왼 손-FK, 오른 손-IK > ChildOf`
 
+1. Anticipation 
+
+![image](https://user-images.githubusercontent.com/30430227/160031338-2ee73944-e302-4afa-976d-3526776d34cd.png)
+
+2. 휘두름
+
+![image](https://user-images.githubusercontent.com/30430227/160032259-368f0711-f350-42d0-a2bc-c4019aeca861.png)
+
+10. Moving Hold > 2번 키프레임을 25, 1 키를 복사 > 충전...
+
+![image](https://user-images.githubusercontent.com/30430227/160033352-b5ab759f-24d7-4ec0-b83e-5cd5c1167d75.png)
+
+13. Breakdown - Shift-E > 공격 포즈 Extream
+
+![image](https://user-images.githubusercontent.com/30430227/160034488-bdbb1dbd-b9de-426d-b441-a7c925503e4d.png)
+
+28. Follow Through
+
+![image](https://user-images.githubusercontent.com/30430227/160034969-2f566c50-42a9-49b1-aa6a-6a5ed0ad30f9.png)
+
+
+
+
+
 
 
