@@ -208,10 +208,10 @@ Child Of > Visual Transfrom(현재 위치를 자식의 원점으로), Position/I
 도끼질 
 -------
 
-![image](https://user-images.githubusercontent.com/30430227/159883230-4381dd04-b889-4470-b49a-eafd4f594972.png)
-![image](https://user-images.githubusercontent.com/30430227/159883127-e5b761a6-ecfd-4644-975a-d92ac710200f.png)
+![image](https://user-images.githubusercontent.com/30430227/160030771-f1ded3d5-f76a-442f-9b54-e33d66856b53.png)
+![image](https://user-images.githubusercontent.com/30430227/160030798-c95b8075-41b4-41f6-9cc9-5fa2bd26b4b9.png)
 
-`Rig - 기존 Armature에 본 추가 > 도끼를 본에 Parent Bone > 오른손-FK, 왼 손-IK > ChildOf`
+`Rig - 기존 Armature에 본 추가 > 도끼를 본에 Parent Bone > 왼 손-FK, 오른 손-IK > ChildOf`
 
 
 
