@@ -59,6 +59,32 @@ Down,Up은 없는게 자연스러운가..
 
 `팔 앞으로 왔을 때 구부린다`
 
+<br>
+
+몬스터 모션
+-----------
+
+`rig에 Bone추가 'shield' > 메쉬 & rig 선택 후 Pose모드> shield본 Parent>ChildOf-Set Inverse`
+
+![image](https://user-images.githubusercontent.com/30430227/160578069-c69053a7-9f0f-4dd6-975d-f6cd68f068c9.png)
+![image](https://user-images.githubusercontent.com/30430227/160578171-ace0d19d-a6de-4c50-b04a-38b9793565f6.png)
+
+1. 숨쉬기 
+
+`0, 24프레임 기본 포즈 전체 키 > AutoKey`
+
+![image](https://user-images.githubusercontent.com/30430227/160595704-e20cddbb-30df-41d2-add4-99cead10cffb.png)
+
+`12 torso 대각선 위/아래, 올라갈 때 - 머리 숙이고, 가슴 펴고, torst(척추) 숙이고`
+
+`6, 18 방패 상완 손바닥/손등 방향 회전`
+
+![image](https://user-images.githubusercontent.com/30430227/160597410-0ca608ed-7ca7-410b-a76f-5dfb3aae6aff.png)
+![image](https://user-images.githubusercontent.com/30430227/160597429-49774dd2-e9e4-4ac3-8dd0-61c0d036911c.png)
+
+
+
+
 
 
 
