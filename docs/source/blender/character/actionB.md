@@ -77,7 +77,7 @@ Down,Up은 없는게 자연스러운가..
 
 `12 torso 대각선 위/아래, 올라갈 때 - 머리 숙이고, 가슴 펴고, torst(척추) 숙이고`
 
-`6, 18 방패 상완 손바닥/손등 방향 회전`
+`6, 18 방패-상완(펴짐회전,팔 구부림)/(꼬임회전, 팔 펴짐)`
 
 ![image](https://user-images.githubusercontent.com/30430227/160597410-0ca608ed-7ca7-410b-a76f-5dfb3aae6aff.png)
 ![image](https://user-images.githubusercontent.com/30430227/160597429-49774dd2-e9e4-4ac3-8dd0-61c0d036911c.png)
