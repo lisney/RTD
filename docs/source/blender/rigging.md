@@ -90,7 +90,7 @@ Image Size -가로세로비
 
 <br>
 
-Arrow Rig
+Bow Rig
 ----------
 
 `한쪽 활 가지부분 뼈 미러 복사`
