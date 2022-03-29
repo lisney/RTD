@@ -233,7 +233,36 @@ Child Of > Visual Transfrom(현재 위치를 자식의 원점으로), Position/I
 
 ![image](https://user-images.githubusercontent.com/30430227/160034969-2f566c50-42a9-49b1-aa6a-6a5ed0ad30f9.png)
 
+<br>
 
+기본숨쉬기 
+----------
+
+0. 기본 자세 - 좌우 대칭되지 않게, 양팔은 벌리고 무릎 살짝 굽힘, 양발은 앞뒤로 벌리고
+
+`C-idle은 상체를 구부린다(공격전 자세, 골반은 뒤/측면 흉골은 앞/정면)`
+
+![image](https://user-images.githubusercontent.com/30430227/160510242-c6a1c762-c610-4f86-ba5c-3580567b7bea.png)
+
+40. 기본 자세 키 복사
+
+20. torso 컨트롤을 대각선 위로 이동, 골반 회전, spine.002 반대회전
+
+![image](https://user-images.githubusercontent.com/30430227/160510613-97e16a5d-e01c-443a-afee-e2546dd242bb.png)
+
+10. 30 chest를 숙였다가 펴면 웨이브, 머리도 같은 방법
+
+![image](https://user-images.githubusercontent.com/30430227/160528902-2dce1b76-5a37-481d-8f39-e302a730a5b1.png)
+![image](https://user-images.githubusercontent.com/30430227/160528920-b34869d9-b9c1-4083-a807-b51aa9df16c4.png)
+
+20. 어깨와 팔을 굽혔다 편다, 팔을 손바닥 윗방향으로 회전 - 날개짓?
+
+10. 30 전완을 반대방향으로 틀고 굽혔다 편다 - 웨이브
+
+![image](https://user-images.githubusercontent.com/30430227/160528956-919d805a-3e8a-4880-9658-94921d08f54b.png)
+![image](https://user-images.githubusercontent.com/30430227/160528988-2079c958-1ad4-4f38-be80-7d0f77c0b71e.png)
+
+<br>
 
 
 
