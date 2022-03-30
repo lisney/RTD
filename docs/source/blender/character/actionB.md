@@ -131,11 +131,25 @@ Down,Up은 없는게 자연스러운가..
 
 ![image](https://user-images.githubusercontent.com/30430227/160764300-ab402f04-0ed9-42f3-a0ca-fd46a353f81d.png)
 
+<br>
 
+2. 기본 공격 - 과하지 않게, 스킬공격의 체감효과를 높이기 위해
 
+`5.anticipation - torso와 뒷발 선택, 뒤로 뺀다 > 10.hold`
 
+![image](https://user-images.githubusercontent.com/30430227/160768651-486774da-5e6b-4f32-9d2a-2db1cf1ad87e.png)
+![image](https://user-images.githubusercontent.com/30430227/160768684-a99cf4c5-a629-4514-bde4-6acd7935cf9c.png)
 
+`12. 14.공격-펼친다`
 
+![image](https://user-images.githubusercontent.com/30430227/160773060-25fcf427-c85a-434e-bd9d-dc2554d7bc34.png)
+
+![image](https://user-images.githubusercontent.com/30430227/160772876-0e933271-c1c2-499e-b4b9-37d9178c8c62.png)
+![image](https://user-images.githubusercontent.com/30430227/160773878-21bb32e1-fae6-4d1f-a12c-75e7fa3244bd.png)
+
+`22. hold - Extream>오른팔을 돌린다-스타일리쉬한 재미`
+
+![image](https://user-images.githubusercontent.com/30430227/160776967-ffa9102a-b9de-4bc6-9346-4487b67f7f37.png)
 
 
 
