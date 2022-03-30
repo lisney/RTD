@@ -82,6 +82,58 @@ Down,Up은 없는게 자연스러운가..
 ![image](https://user-images.githubusercontent.com/30430227/160597410-0ca608ed-7ca7-410b-a76f-5dfb3aae6aff.png)
 ![image](https://user-images.githubusercontent.com/30430227/160597429-49774dd2-e9e4-4ac3-8dd0-61c0d036911c.png)
 
+<br>
+
+2. 공격 
+
+`얼굴은 정면, 몸은 뒤로 뺐다가 앞으로 나간다, 양 팔은 수평, 공격전 breakdown-칼을 뒤로 쭉편다`
+
+![image](https://user-images.githubusercontent.com/30430227/160728639-08ccdef0-b220-4c1a-92fa-7ad8c1ca0662.png)
+
+![image](https://user-images.githubusercontent.com/30430227/160728548-73777954-1654-4904-a485-7e0cf7bef97d.png)
+![image](https://user-images.githubusercontent.com/30430227/160728588-746f4d10-49a1-4e11-86fb-3d788c08ab49.png)
+![image](https://user-images.githubusercontent.com/30430227/160728616-72927b56-0a5d-4b7e-9b45-a2524cf997e2.png)
+
+`0.idle > 5.anticipation > 10.hold > 12.attack>14.followthrough(팔 끝까지 회전) >20.hold>24.idle`
+
+`5프레임 breakdown 수정(오른팔 살짝 내리고, 왼팔 펴고)>공격 시 웨이브-torst..arm>14.방패(팔) 회전`
+
+<br>
+
+3. 피격 
+
+`0.idle > 2.damage > 7.hold > 16.idle`
+
+![image](https://user-images.githubusercontent.com/30430227/160735100-929daab6-bbdd-443a-be25-29cd52043a11.png)
+![image](https://user-images.githubusercontent.com/30430227/160735133-f0ac72f8-50d8-4416-bc6c-1da8b23e6dde.png)
+
+`1.방패로 막을려다가 팡>waist다음에 가슴,머리,팔...돌아올 때도`
+
+<br>
+
+캐릭터 모션 
+-----------
+
+1. 공격 대기 동작 - 좌우(정면이 아니라 발 벌린 방향) 폴짝폴짝..TOP뷰에서
+
+`0.18.36.torso & footIK선택 이동`
+
+![image](https://user-images.githubusercontent.com/30430227/160760565-75766db4-785f-44f3-bc03-e3403fe54a94.png)
+![image](https://user-images.githubusercontent.com/30430227/160760531-47a0d3ed-be4c-4497-8212-297802230d7b.png)
+
+`2.20.hold > 9.27.폴짝 - torso,spine,chest 펴고 머리 내린다`
+
+![image](https://user-images.githubusercontent.com/30430227/160761578-d9fd0c41-9af5-4ea4-9663-34853b98ed25.png)
+
+`좌우 발 Overlapping - Shift-E 앞발(hold.2>heel.2>off), 뒷발은 2프레임 Offset 출발`
+
+`좌우 팔은 몸과 Overlapping - 올라가는 중간 프레임에 내려간다`
+
+![image](https://user-images.githubusercontent.com/30430227/160764300-ab402f04-0ed9-42f3-a0ca-fd46a353f81d.png)
+
+
+
+
 
 
 
