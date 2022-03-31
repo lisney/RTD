@@ -169,6 +169,10 @@ Rigging chains
 
 2. 도깨비불 
 
+![image](https://user-images.githubusercontent.com/30430227/161008772-d41eb17f-85e7-46da-a174-02581cc0e08f.png)
+
+`Material`
+
 ![image](https://user-images.githubusercontent.com/30430227/161006725-9e3be49f-430c-4846-87bb-5cc009243be7.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/161006900-6ee96411-c1f0-4f0c-bc53-299a11f82f15.png)
@@ -182,6 +186,28 @@ Rigging chains
 
 ![image](https://user-images.githubusercontent.com/30430227/161007882-b1a4b83b-d177-4ede-b1cd-07e03f51a3f9.png)
 ![image](https://user-images.githubusercontent.com/30430227/161008124-8d04c36f-ed42-4d76-a826-b99423d1ed3f.png)
+
+<br>
+
+3. Impact 
+
+`Material`
+
+![image](https://user-images.githubusercontent.com/30430227/161014303-90ab397e-3f10-45b0-ac07-575f12a03fbd.png)
+![image](https://user-images.githubusercontent.com/30430227/161014471-0d6c5cf8-e032-474e-be90-f82dad74c6cc.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161014673-a102d6e4-5fd0-4e98-9a61-d69d5762c57b.png)
+
+`UV Editor - 왜곡`
+
+![image](https://user-images.githubusercontent.com/30430227/161014826-5b97305c-9c62-4d02-9c09-8b7458154fdb.png)
+![image](https://user-images.githubusercontent.com/30430227/161015141-75222300-15a8-4ccc-8c4c-2f9577c14354.png)
+
+`모션 - 나올 땐 길게>동그랗게`
+
+![image](https://user-images.githubusercontent.com/30430227/161015763-dbe483bf-aded-4523-9bd1-0794a2a80cdf.png)
+![image](https://user-images.githubusercontent.com/30430227/161015838-55a9ddda-690d-4dfd-9bcc-62c260b9a914.png)
+![image](https://user-images.githubusercontent.com/30430227/161015937-bd1c45bc-a32d-4367-b2b5-23c5150b96c0.png)
 
 
 
