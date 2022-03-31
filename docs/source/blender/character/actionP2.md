@@ -24,6 +24,24 @@ Keys
 ![image](https://user-images.githubusercontent.com/30430227/160953624-57f5ea6f-5ade-44b7-a327-c1fc5668f8ab.png)
 ![image](https://user-images.githubusercontent.com/30430227/160953640-53e5ca82-a675-4022-95e4-050bad8d5fd2.png)
 
+<br>
+
+Custom bone shape
+------------------
+
+`방향은 -Y, 기본 크기는 1, Scale to Bone Length 체크(본 비율에 맞춤)`
+
+![image](https://user-images.githubusercontent.com/30430227/160966402-1a85304e-a6f5-4a5c-8b8e-a75142380bc3.png)
+![image](https://user-images.githubusercontent.com/30430227/160966425-ff58bbd1-a612-4a32-b830-9e11a5ba49b9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/160966561-40c802d9-2950-43de-8ccf-1ff2039fd0ad.png)
+
+`Copy Transforms - 본에 메쉬를 맞추기 `
+
+![image](https://user-images.githubusercontent.com/30430227/160968277-dbb97991-50f0-4276-9274-cdd4442d4ce4.png)
+![image](https://user-images.githubusercontent.com/30430227/160968318-1ddf94d8-c928-4c31-8810-138996cce8fb.png)
+
+![image](https://user-images.githubusercontent.com/30430227/160968391-9c47cc23-cf0e-4b12-8379-3ef905ce6ab4.png)
 
 Multiples effects 
 -------------------
