@@ -55,4 +55,39 @@ Time Warp - NLA
 ![image](https://user-images.githubusercontent.com/30430227/160798510-85088e27-d522-4ee9-9a7f-ef8a6bf6c8fb.png)
 ![image](https://user-images.githubusercontent.com/30430227/160798570-e9eefe4d-abc7-437c-9884-27af9fc4f2bc.png)
 
+<br>
+
+Rigging chains 
+----------------
+
+![image](https://user-images.githubusercontent.com/30430227/160954795-4cb9878d-c430-442c-a83a-b4b3140dc5cb.png)
+
+`Array> +y방향`
+
+![image](https://user-images.githubusercontent.com/30430227/160955607-ef0bae59-dd97-4edc-9e31-1efe74ebd4a5.png)
+![image](https://user-images.githubusercontent.com/30430227/160955576-397df494-e060-4ee1-b240-b964be13f498.png)
+
+`Curve Deform - 커브 시작점은 원점에>Curve-Empty Parent>Hook`
+
+![image](https://user-images.githubusercontent.com/30430227/160955940-e486067d-f98e-41ec-930a-cda1d754aef5.png)
+![image](https://user-images.githubusercontent.com/30430227/160959320-3e1f7743-6544-48cc-8d2d-8a46466bc838.png)
+
+![image](https://user-images.githubusercontent.com/30430227/160959379-12275543-ef1f-46a4-81eb-14098893b2db.png)
+
+`Bone >> Hook Scale 안먹힐 때 > Curve Set Handle Type-Free `
+
+![image](https://user-images.githubusercontent.com/30430227/160962359-922a91d0-1f5c-4a00-b472-79b7c88a1b55.png)
+
+![image](https://user-images.githubusercontent.com/30430227/160962247-42f26305-547b-4008-92ed-a15a2042551c.png)
+![image](https://user-images.githubusercontent.com/30430227/160962317-1794f259-eea3-4d41-b7e4-5ab4dbc974ac.png)
+
+`Hook`
+
+![image](https://user-images.githubusercontent.com/30430227/160962767-5c8b366c-8927-4a22-8d24-f3ba7208c0e7.png)
+![image](https://user-images.githubusercontent.com/30430227/160962809-eea0f19c-d786-4abf-a3c7-bc74ba0b219f.png)
+
+
+
+
+
 
