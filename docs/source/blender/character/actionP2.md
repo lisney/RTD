@@ -43,8 +43,37 @@ Custom bone shape
 
 ![image](https://user-images.githubusercontent.com/30430227/160968391-9c47cc23-cf0e-4b12-8379-3ef905ce6ab4.png)
 
-Multiples effects 
--------------------
+<br>
+
+New 3.0
+---------
+
+1. Bendy bone 스케일
+
+![image](https://user-images.githubusercontent.com/30430227/160976434-06fbb2c5-6d07-4eda-8e9f-8aabf4c1a12d.png)
+![image](https://user-images.githubusercontent.com/30430227/160976495-89942227-fa57-4251-8d20-63d1492dd2a8.png)
+![image](https://user-images.githubusercontent.com/30430227/160976582-58808723-19a3-425f-8aa9-b37b691fd9ea.png)
+
+![image](https://user-images.githubusercontent.com/30430227/160976622-42eb8728-46da-4e27-8bed-316818ea31eb.png)
+![image](https://user-images.githubusercontent.com/30430227/160976703-44f7a201-7b5a-4414-abc0-258dc8ae4d8f.png)
+![image](https://user-images.githubusercontent.com/30430227/160976651-2e8135a7-4c24-4d4e-9400-9442a8aa041b.png)
+
+2. Constraint 개별 컨스트레인 복사
+
+![image](https://user-images.githubusercontent.com/30430227/160976222-fa4030f6-e663-4cbf-9587-ba66acd6218c.png)
+![image](https://user-images.githubusercontent.com/30430227/160976241-2e3b8005-62df-4934-ada2-2987f3e7bdbb.png)
+
+![image](https://user-images.githubusercontent.com/30430227/160976285-3d036765-cc13-4083-a35c-e5e4df1fe9c2.png)
+
+3. Motion Paths - Menu::Pose과 Property Editor Tab에 있다
+
+![image](https://user-images.githubusercontent.com/30430227/160982399-0a69d4ad-60b8-4ac7-b787-da36d47aafd2.png)
+![image](https://user-images.githubusercontent.com/30430227/160982420-18b55990-f815-4bbf-b941-14ebc8ee6570.png)
+
+<br>
+
+Multiples effects & Shape Key - Extreme FX
+------------------------------------
 
 `Edit Mode > Duplicate > Separate > Clear Parent and keep`
 
@@ -55,6 +84,12 @@ Multiples effects
 
 ![image](https://user-images.githubusercontent.com/30430227/160787405-0880e5d9-045e-4fc3-8c56-9ea3c7a8bd55.png)
 ![image](https://user-images.githubusercontent.com/30430227/160787649-74fe898f-8fa8-40a4-99ae-df07b74ad669.png)
+
+`Shape Key - 카메라 뷰에서 잘 보이게`
+
+![image](https://user-images.githubusercontent.com/30430227/160986483-0092f631-a9ce-4131-95ab-be0b12504b83.png)
+![image](https://user-images.githubusercontent.com/30430227/160986519-878c6035-5f23-4b14-a025-ccecf01dc4bf.png)
+
 
 <br>
 
@@ -104,8 +139,49 @@ Rigging chains
 ![image](https://user-images.githubusercontent.com/30430227/160962767-5c8b366c-8927-4a22-8d24-f3ba7208c0e7.png)
 ![image](https://user-images.githubusercontent.com/30430227/160962809-eea0f19c-d786-4abf-a3c7-bc74ba0b219f.png)
 
+<br>
 
+### Idle Pose > Anticipation(>Extreme) > Attact(>Extreme) > OverShoot//Breakdown - 키포즈 사이에 추가 shift-E
 
+### Staging은 복선 효과
+
+<br>
+
+2D & 3D FXs 
+---------------
+
+1. Speed Line 
+
+`plane - to Camera View > Noise Shader(Mapping Type;Texture)`
+
+![image](https://user-images.githubusercontent.com/30430227/160991011-5b63a470-9bb2-47d3-b4cf-c629aa268978.png)
+
+![image](https://user-images.githubusercontent.com/30430227/160991368-7f8a05a6-5f34-461a-9d1f-ae59ddbbd9a6.png)
+
+`Cylinder`
+
+![image](https://user-images.githubusercontent.com/30430227/160992033-70ffcbd1-2d61-455c-aebe-d5645a5e0b04.png)
+![image](https://user-images.githubusercontent.com/30430227/160993620-9f7f5421-9c3d-4412-9c24-23884d498a74.png)
+
+![image](https://user-images.githubusercontent.com/30430227/160993564-4fd5505f-dfc8-4d3d-96e2-886606b3522b.png)
+
+<br>
+
+2. 도깨비불 
+
+![image](https://user-images.githubusercontent.com/30430227/161006725-9e3be49f-430c-4846-87bb-5cc009243be7.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161006900-6ee96411-c1f0-4f0c-bc53-299a11f82f15.png)
+
+`to Curve - Curve,Plane 순으로 선택 후 Ctrl-L > Curve Extrude`
+
+![image](https://user-images.githubusercontent.com/30430227/161007423-a2c190ff-e187-421e-8a85-000aca45b5a1.png)
+![image](https://user-images.githubusercontent.com/30430227/161007582-74dc015f-d24b-4441-8758-e651820fce72.png)
+
+`start & End Mapping(Animation) > Curve Edit >Twist Ctrl-T`
+
+![image](https://user-images.githubusercontent.com/30430227/161007882-b1a4b83b-d177-4ede-b1cd-07e03f51a3f9.png)
+![image](https://user-images.githubusercontent.com/30430227/161008124-8d04c36f-ed42-4d76-a826-b99423d1ed3f.png)
 
 
 
