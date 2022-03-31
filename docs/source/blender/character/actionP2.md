@@ -1,6 +1,30 @@
 P2Design 
 =========
 
+Keys
+-----
+
+`Delta Transform - Offset 키 `
+
+![image](https://user-images.githubusercontent.com/30430227/160951002-59ff0652-c58f-48b9-a4d1-7457cd2d56a0.png)
+
+`자식 오브젝트 > Visual Location - 오렌지색`
+
+![image](https://user-images.githubusercontent.com/30430227/160951357-78988e0c-900e-4d94-9b67-94b19aa7f7bb.png)
+![image](https://user-images.githubusercontent.com/30430227/160951421-7cf151f0-faa1-40ea-8177-2e5f33d85b74.png)
+
+`AutoKey 시 Active KeyingSet에만 키가 들어감`
+
+![image](https://user-images.githubusercontent.com/30430227/160952961-f98861aa-7593-43a5-8b07-9a7956940651.png)
+![image](https://user-images.githubusercontent.com/30430227/160952143-17097cde-a8b8-4494-bb45-092d99a2a0d2.png)
+![image](https://user-images.githubusercontent.com/30430227/160952987-68bd9db5-8ade-462a-8aa7-f4dbfa79fa33.png)
+
+`Channel Group Colors`
+
+![image](https://user-images.githubusercontent.com/30430227/160953624-57f5ea6f-5ade-44b7-a327-c1fc5668f8ab.png)
+![image](https://user-images.githubusercontent.com/30430227/160953640-53e5ca82-a675-4022-95e4-050bad8d5fd2.png)
+
+
 Multiples effects 
 -------------------
 
