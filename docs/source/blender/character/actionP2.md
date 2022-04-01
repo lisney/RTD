@@ -211,8 +211,7 @@ Rigging chains
 
 <br>
 
-Landing - 먼지
--------------
+3. Landing Dust - 먼지
 
 ![image](https://user-images.githubusercontent.com/30430227/161173770-720920bc-cac9-4c1d-9145-9c8ee15fc899.png)
 
@@ -231,5 +230,57 @@ Landing - 먼지
 ![image](https://user-images.githubusercontent.com/30430227/161173716-54c873bb-c5bc-41fd-928d-742f98daff71.png)
 ![image](https://user-images.githubusercontent.com/30430227/161173730-1d2b842e-096b-4479-928b-6d7cc541e699.png)
 ![image](https://user-images.githubusercontent.com/30430227/161173755-dcfb7cbf-efac-4313-89c2-edc0c94a63eb.png)
+
+<br>
+
+Stylised fighting FXs
+----------------------
+
+![image](https://user-images.githubusercontent.com/30430227/161180122-26837d72-ec2a-4114-a8fb-df2b93b36f1e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161176921-a2352b6a-01be-48c2-98f7-65fd129a4e24.png)
+![image](https://user-images.githubusercontent.com/30430227/161177276-07fd2e7c-a10d-4981-8f29-248725ada5cb.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161176914-095ea6f8-a492-4b05-96dc-8a38951cc0e2.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161177310-b9ebcae9-f210-445f-9a59-c64fb653aafe.png)
+
+`변형`
+
+![image](https://user-images.githubusercontent.com/30430227/161177433-71402f1e-259f-46ec-9421-29381b5d0b6d.png)
+
+`Action`
+
+![image](https://user-images.githubusercontent.com/30430227/161177567-fba8be41-637b-4d5c-9e1a-e66f80f8f4bc.png)
+![image](https://user-images.githubusercontent.com/30430227/161177618-63bdb8bf-cbb4-44ee-9a68-0b2154927a7a.png)
+![image](https://user-images.githubusercontent.com/30430227/161177653-3b5e5f81-5b8e-4bf9-be7f-56f48705e9b9.png)
+
+`Mesh > Circle Extrude > UV`
+
+![image](https://user-images.githubusercontent.com/30430227/161178344-e08f0948-7d4f-4142-8e97-e3212239c05d.png)
+![image](https://user-images.githubusercontent.com/30430227/161178798-46df9616-664d-4443-b225-cc40acea98b1.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161178428-b8ed4007-3583-4a8a-8e36-68b4e4d1e505.png)
+![image](https://user-images.githubusercontent.com/30430227/161178603-b02b28b3-73c4-4195-8fa2-d235319d003a.png)
+![image](https://user-images.githubusercontent.com/30430227/161178731-62f02eb4-3c37-432c-b745-7c6fff9812cc.png)
+
+`Material Duplicate > Change Linear, ColorRamp, NoiseTexture Link`
+
+![image](https://user-images.githubusercontent.com/30430227/161178955-00bacf41-a6e6-4a74-bbc2-18a2f1958c19.png)
+![image](https://user-images.githubusercontent.com/30430227/161178961-746840b8-a796-4afb-a9f1-603ccaf68c5e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161179259-b06d843a-9034-4024-a988-22eaec71c656.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161179240-d43a7340-9ba1-46b5-8c72-472bdd448db3.png)
+
+`가장자리 문제 > Gradient Mix 추가`
+
+![image](https://user-images.githubusercontent.com/30430227/161179585-9c3bed50-787f-4a4a-85bd-a17b203c0f08.png)
+![image](https://user-images.githubusercontent.com/30430227/161179832-c951ae54-bf93-4271-9718-653b60623699.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161179889-c3d801dc-e7df-478b-b159-cd2e99523305.png)
+
+
+
 
 
