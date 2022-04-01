@@ -233,7 +233,7 @@ Rigging chains
 
 <br>
 
-Stylised fighting FXs
+Stylised fighting FXs - 양식화된
 ----------------------
 
 ![image](https://user-images.githubusercontent.com/30430227/161180122-26837d72-ec2a-4114-a8fb-df2b93b36f1e.png)
@@ -279,6 +279,49 @@ Stylised fighting FXs
 ![image](https://user-images.githubusercontent.com/30430227/161179832-c951ae54-bf93-4271-9718-653b60623699.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/161179889-c3d801dc-e7df-478b-b159-cd2e99523305.png)
+
+<br>
+
+Camera Shake
+------------
+
+`Rotate X > Set Key > Noise`
+
+![image](https://user-images.githubusercontent.com/30430227/161182895-29a584fd-c409-45ad-8f19-a3929dfc7fe4.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161183368-31f82e9e-3334-4f8d-9cea-5b951c86d9d2.png)
+![image](https://user-images.githubusercontent.com/30430227/161183403-bbd1c344-6c3a-404c-99f5-2bf6e6f2d24a.png)
+
+<br>
+
+Fire
+------
+
+![image](https://user-images.githubusercontent.com/30430227/161188889-8587b1de-c75f-49ed-a8ef-37fdcc42a4c2.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161184441-f8cd0838-be6a-4ccc-a98b-73e5d260ebcd.png)
+![image](https://user-images.githubusercontent.com/30430227/161184364-af82ed8b-6c54-42de-8e38-db6c2df92f3a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161185155-15945e1d-d8d8-4fd1-92d0-adda3976e9a4.png)
+![image](https://user-images.githubusercontent.com/30430227/161185780-06fa8f73-a402-41a5-8149-b7c4c685afa2.png)
+![image](https://user-images.githubusercontent.com/30430227/161186520-b5aa68e3-7a4c-480d-8c59-63616830769b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161185850-ee0a9494-1d8c-462f-a8b0-becb99139fa2.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161186588-df13de71-741e-48a6-93df-54a31c1f11cd.png)
+
+`Variation > Empty Object`
+
+![image](https://user-images.githubusercontent.com/30430227/161187578-3c1d7386-9db4-466a-9dd8-e997b46acae6.png)
+![image](https://user-images.githubusercontent.com/30430227/161187885-f04f2c70-2fb8-4cde-a812-2a1d9b02ddeb.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161187645-7534d612-fbb2-4c3e-b7c7-2a9453e92f5c.png)
+
+`Action - Empty Move, Mapping Y Location > Mesh Modifier - Subdivide ,Bend, Displace`
+
+![image](https://user-images.githubusercontent.com/30430227/161188684-35f6bc85-cc8d-4d49-94eb-29ea8bb3e4aa.png)
+![image](https://user-images.githubusercontent.com/30430227/161188761-0242ba6f-b826-485a-a243-c06dd32f89e1.png)
+![image](https://user-images.githubusercontent.com/30430227/161188855-aa203bb5-cb75-4c8e-b8de-b9e351236cb0.png)
 
 
 
