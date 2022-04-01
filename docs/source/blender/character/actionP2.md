@@ -198,7 +198,7 @@ Rigging chains
 
 ![image](https://user-images.githubusercontent.com/30430227/161014673-a102d6e4-5fd0-4e98-9a61-d69d5762c57b.png)
 
-`UV Editor - 왜곡`
+`UV Editor - 형태 왜곡, 텍스처 이동 속도`
 
 ![image](https://user-images.githubusercontent.com/30430227/161014826-5b97305c-9c62-4d02-9c09-8b7458154fdb.png)
 ![image](https://user-images.githubusercontent.com/30430227/161015141-75222300-15a8-4ccc-8c4c-2f9577c14354.png)
@@ -209,5 +209,27 @@ Rigging chains
 ![image](https://user-images.githubusercontent.com/30430227/161015838-55a9ddda-690d-4dfd-9bcc-62c260b9a914.png)
 ![image](https://user-images.githubusercontent.com/30430227/161015937-bd1c45bc-a32d-4367-b2b5-23c5150b96c0.png)
 
+<br>
+
+Landing - 먼지
+-------------
+
+![image](https://user-images.githubusercontent.com/30430227/161173770-720920bc-cac9-4c1d-9145-9c8ee15fc899.png)
+
+`Mesh`
+
+![image](https://user-images.githubusercontent.com/30430227/161170753-1f024ca5-5be7-4706-9c22-c23a1cb9873a.png)
+![image](https://user-images.githubusercontent.com/30430227/161170769-ca5369d4-2347-49bf-a05b-112c82c0bd6b.png)
+![image](https://user-images.githubusercontent.com/30430227/161170990-e508ac39-8868-4836-aa9d-73b50fb11f6d.png)
+
+`Material > UV 조정`
+
+![image](https://user-images.githubusercontent.com/30430227/161173953-ca349166-b29c-4dcf-aa4f-cf087c670ce0.png)
+
+`Action`
+
+![image](https://user-images.githubusercontent.com/30430227/161173716-54c873bb-c5bc-41fd-928d-742f98daff71.png)
+![image](https://user-images.githubusercontent.com/30430227/161173730-1d2b842e-096b-4479-928b-6d7cc541e699.png)
+![image](https://user-images.githubusercontent.com/30430227/161173755-dcfb7cbf-efac-4313-89c2-edc0c94a63eb.png)
 
 
