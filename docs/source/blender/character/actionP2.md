@@ -377,6 +377,26 @@ Muzzle FX
 
 ![image](https://user-images.githubusercontent.com/30430227/161216591-2cf14202-a503-4664-8a81-2b8c64f7df2c.png)
 
+<br>
+
+디졸브 나타나기 
+---------------
+
+![image](https://user-images.githubusercontent.com/30430227/161225344-595b93a2-ba69-408d-a9f4-39eb578e9355.png)
+
+`Blend Mode: Alpha Clip(Alpha 0.5이하는 투명)`
+
+![image](https://user-images.githubusercontent.com/30430227/161221232-71da78eb-ba0b-4dbf-a320-c80d497e67a7.png)
+![image](https://user-images.githubusercontent.com/30430227/161221278-f911cccc-b57c-4d5d-b3f4-0db990beb38c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161222046-61d010aa-0bad-433c-a570-310d95cfcb90.png)
+
+`Detail - Mapping 복사(연결복사 - Shift-Ctrl-D)`
+
+![image](https://user-images.githubusercontent.com/30430227/161225886-7c8db90a-17c7-4c60-9066-8515c04f7472.png)
+
+
+
 
 
 
