@@ -264,7 +264,7 @@ Stylised fighting FXs - 양식화된
 ![image](https://user-images.githubusercontent.com/30430227/161178603-b02b28b3-73c4-4195-8fa2-d235319d003a.png)
 ![image](https://user-images.githubusercontent.com/30430227/161178731-62f02eb4-3c37-432c-b745-7c6fff9812cc.png)
 
-`Shockwave :: Material Duplicate > Change 'Linear', 'ColorRamp', 'NoiseTexture Link'`
+`Shockwave :: Material Duplicate > Change 'Linear', 'ColorRamp', 'NoiseTexture Unlink'`
 
 ![image](https://user-images.githubusercontent.com/30430227/161178955-00bacf41-a6e6-4a74-bbc2-18a2f1958c19.png)
 ![image](https://user-images.githubusercontent.com/30430227/161178961-746840b8-a796-4afb-a9f1-603ccaf68c5e.png)
@@ -322,6 +322,61 @@ Fire
 ![image](https://user-images.githubusercontent.com/30430227/161188684-35f6bc85-cc8d-4d49-94eb-29ea8bb3e4aa.png)
 ![image](https://user-images.githubusercontent.com/30430227/161188761-0242ba6f-b826-485a-a243-c06dd32f89e1.png)
 ![image](https://user-images.githubusercontent.com/30430227/161188855-aa203bb5-cb75-4c8e-b8de-b9e351236cb0.png)
+
+<br>
+
+Muzzle FX
+------------
+
+![image](https://user-images.githubusercontent.com/30430227/161216766-7f67ca03-36d3-4458-96f7-a512d6baa015.png)
+
+`Gradient & Noise Texture Node > Gradient Inverse`
+
+![image](https://user-images.githubusercontent.com/30430227/161195977-8837cb88-2020-4dd5-85ed-b31243f3c65f.png)
+![image](https://user-images.githubusercontent.com/30430227/161196384-27e70b69-a6b9-417c-b38c-94d81875da1f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161196012-0dce1913-b411-41ee-b3b0-a0b3382ac062.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161196441-26b16e43-996e-450a-9d99-293b360bc156.png)
+
+`Mix > Color & Opacity - # 노드 연결 복사 'Shift-Ctrl-D'`
+
+![image](https://user-images.githubusercontent.com/30430227/161207534-795deb51-1ad7-4d5c-8cbb-00c7a8be6146.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161207442-f61dcd94-d10c-4ea3-a4df-2df2322258eb.png)
+
+`Action - 4D Noise`
+
+![image](https://user-images.githubusercontent.com/30430227/161207697-6b03a0b9-56f6-4966-b202-a2034027f0f3.png)
+
+`추가 화염 > Duplicate Plane, Material(+버튼>기존 재질 선택> 복사 버튼)>Assign Material`
+
+![image](https://user-images.githubusercontent.com/30430227/161208191-e258f7b2-e3ee-4dae-9a11-4c8592c987b4.png)
+![image](https://user-images.githubusercontent.com/30430227/161210260-0f11b876-f6a6-4835-902d-e6ad1f9529d5.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161211584-8acf98fe-3ae0-4139-80a5-9f2bfa605394.png)
+![image](https://user-images.githubusercontent.com/30430227/161212154-3a411155-bd7e-49d9-b479-5e048d80983f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161212326-7a3fa750-01c8-4187-a553-12d453a48c0f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161212499-15b90655-9589-44c8-aa68-66b169bc054b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161214986-7f3311ca-2443-42ee-8254-68b3c96f7b2d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161214843-ebb4e251-00d5-445b-b80f-6e8dd719112b.png)
+
+`파티클- Plane > Face Orientation(blue-Positive Direction)`
+
+![image](https://user-images.githubusercontent.com/30430227/161215402-b3dcdd80-6aa2-4efb-9e40-010e2192f88e.png)
+![image](https://user-images.githubusercontent.com/30430227/161215433-7ac2c81d-a5e7-4f08-b307-5a57ab691d06.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161215185-7ca58fb5-83f3-4102-9800-7d00f7ae87e9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161215942-8d6fa5cb-94ed-4701-9716-a4fec41834cd.png)
+![image](https://user-images.githubusercontent.com/30430227/161216297-88d983bc-dc52-4ad2-9b33-5d3fdd001ac9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161216591-2cf14202-a503-4664-8a81-2b8c64f7df2c.png)
+
 
 
 
