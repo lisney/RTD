@@ -264,7 +264,7 @@ Stylised fighting FXs
 ![image](https://user-images.githubusercontent.com/30430227/161178603-b02b28b3-73c4-4195-8fa2-d235319d003a.png)
 ![image](https://user-images.githubusercontent.com/30430227/161178731-62f02eb4-3c37-432c-b745-7c6fff9812cc.png)
 
-`Material Duplicate > Change Linear, ColorRamp, NoiseTexture Link`
+`Shockwave :: Material Duplicate > Change 'Linear', 'ColorRamp', 'NoiseTexture Link'`
 
 ![image](https://user-images.githubusercontent.com/30430227/161178955-00bacf41-a6e6-4a74-bbc2-18a2f1958c19.png)
 ![image](https://user-images.githubusercontent.com/30430227/161178961-746840b8-a796-4afb-a9f1-603ccaf68c5e.png)
