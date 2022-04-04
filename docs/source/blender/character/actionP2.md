@@ -141,6 +141,27 @@ Rigging chains
 
 <br>
 
+Drawbridge rig
+------------------
+
+`Chain - Torus > Edit > Array > Parent-Curve Deform`
+
+![image](https://user-images.githubusercontent.com/30430227/161522264-b48fe7ec-d614-4e48-99cf-a844a7dcc279.png)
+![image](https://user-images.githubusercontent.com/30430227/161522457-6ff2ab85-aca1-455a-a39f-cd4d092f52cc.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161522741-485a3447-1074-4b32-b4fa-4bb737b0ce8b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161537474-2ba4d2e8-a3b8-4765-b002-69d98dfa31cc.png)
+
+`Extrude Curve > add Array Count`
+
+![image](https://user-images.githubusercontent.com/30430227/161537957-e6366983-ef4f-4264-bbce-2ea07b2faaad.png)
+
+
+
+
+<br>
+
 ### Idle Pose > Anticipation(>Extreme) > Attact(>Extreme) > OverShoot//Breakdown - 키포즈 사이에 추가 shift-E
 
 ### Staging은 복선 효과
