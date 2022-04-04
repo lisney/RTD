@@ -520,9 +520,26 @@ Fast idle animation
 
 ![image](https://user-images.githubusercontent.com/30430227/161494364-60654b68-319b-49b2-9b69-9553f22eee43.png)
 
-`chest > Influence`
+`chest > Influence - 어깨등도 같은 방법으로 한다`
 
 ![image](https://user-images.githubusercontent.com/30430227/161494598-5ba45846-2c11-41db-98a8-13a68d1c2cea.png)
+
+<br>
+
+폭발 
+-----
+
+`Fireball > Plane, Empty`
+
+![image](https://user-images.githubusercontent.com/30430227/161509475-35fc75ac-daff-40fa-b1b5-da44ad08dfe9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161509664-d1491f77-5671-4284-81ea-c66666902560.png)
+
+`Icosphere > ParticleSystem > Gravity:0, Velocity(Normal:5, Randomize:1), Physics(Damp:0.1)`
+
+![image](https://user-images.githubusercontent.com/30430227/161510501-264af227-0589-4a19-94ce-bc9b67d4b74e.png)
+![image](https://user-images.githubusercontent.com/30430227/161511495-f5d32769-ec32-418a-b940-5649c87a4a1b.png)
+
 
 
 
