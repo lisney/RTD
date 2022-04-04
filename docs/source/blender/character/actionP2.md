@@ -473,6 +473,59 @@ Sword trail
 
 ![image](https://user-images.githubusercontent.com/30430227/161480533-d8b19d4a-8fde-414e-bb4c-6e183bfce7be.png)
 
+<br>
+
+Fast idle animation
+--------------------
+
+`0,24 Frame - Base Pose > 12 - torso Down`
+
+![image](https://user-images.githubusercontent.com/30430227/161488222-188ae1a2-489c-4c9a-82cd-145e57a1cd2e.png)
+
+`Curve Editor > Individual > Scale`
+
+![image](https://user-images.githubusercontent.com/30430227/161488530-0bbae614-1aca-4f24-bb9b-dbe2d9ed6bd2.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161488474-936aa8e8-1bff-41f6-89ec-9db4c3698b75.png)
+![image](https://user-images.githubusercontent.com/30430227/161488587-34aac3c2-4dc6-45c9-93dc-2caffd897e9b.png)
+![image](https://user-images.githubusercontent.com/30430227/161488698-e3ebe0d5-3852-4067-91c8-cc241efdce62.png)
+
+`Copy`
+
+![image](https://user-images.githubusercontent.com/30430227/161489162-1175606e-2d98-4bc5-b0cb-ec26cb8cf1bf.png)
+
+`Y Location - Alt-H`
+
+![image](https://user-images.githubusercontent.com/30430227/161490401-f93071f7-618f-4e20-914c-1ea5839e4328.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161489920-31457cc9-52da-40f2-8c38-01cab4450a22.png)
+![image](https://user-images.githubusercontent.com/30430227/161491536-e3edf54e-0d01-4004-b416-b2f9516717bc.png)
+
+`Make Cycle - Shift-E > Move Keyframe G-숫자`
+
+![image](https://user-images.githubusercontent.com/30430227/161490596-851c7020-1075-4c88-aace-91ef632285a3.png)
+![image](https://user-images.githubusercontent.com/30430227/161491703-09ac6afe-8a91-406f-80ac-a1ee35316c6e.png)
+
+`Add Empty > Constraint - Copy Transforms -chest > Bake`
+
+![image](https://user-images.githubusercontent.com/30430227/161492593-21934386-4582-4af2-a335-6c9348b17122.png)
+![image](https://user-images.githubusercontent.com/30430227/161493046-d8183da6-97db-46cc-8883-edad57072cff.png)
+
+`chest > Bone Constraint - Copy Transforms - Empty`
+
+![image](https://user-images.githubusercontent.com/30430227/161493659-0650f868-77eb-4685-a84c-4cccd7df233f.png)
+![image](https://user-images.githubusercontent.com/30430227/161493773-074400e4-8f29-42d6-b4f6-07ed42981821.png)
+
+`Empty > curve Editor > 사이클 Shift-E > 이동 G-숫자`
+
+![image](https://user-images.githubusercontent.com/30430227/161494364-60654b68-319b-49b2-9b69-9553f22eee43.png)
+
+`chest > Influence`
+
+![image](https://user-images.githubusercontent.com/30430227/161494598-5ba45846-2c11-41db-98a8-13a68d1c2cea.png)
+
+
+
 
 
 
