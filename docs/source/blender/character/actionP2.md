@@ -395,6 +395,85 @@ Muzzle FX
 
 ![image](https://user-images.githubusercontent.com/30430227/161225886-7c8db90a-17c7-4c60-9066-8515c04f7472.png)
 
+<br>
+
+Sword trail 
+------------
+
+![image](https://user-images.githubusercontent.com/30430227/161480590-82d47986-d06a-4d18-b14e-83c6f96d0e11.png)
+
+`Plane>New Material`
+
+![image](https://user-images.githubusercontent.com/30430227/161466823-92306b25-855f-4506-912b-0d59451ae79d.png)
+![image](https://user-images.githubusercontent.com/30430227/161466918-f42b154f-265a-4cb6-a499-4f0dba72e2d2.png)
+
+`Texture Paint Mode>우상단 + >New Base Color(Black)`
+
+![image](https://user-images.githubusercontent.com/30430227/161467174-16a24f3d-06db-4cdc-86df-af0cc19535a3.png)
+
+`Image Editor(Paint) > Tiling ON`
+
+![image](https://user-images.githubusercontent.com/30430227/161467246-7c36a8a3-1039-4faf-a752-469e9674f9ba.png)
+![image](https://user-images.githubusercontent.com/30430227/161467433-9507cf50-380a-47f6-b835-92c569fce0bc.png)
+![image](https://user-images.githubusercontent.com/30430227/161467360-0e3d1b18-4519-45de-90c5-22b6f88b7df1.png)
+
+`Draw > Smear > Save Image`
+
+![image](https://user-images.githubusercontent.com/30430227/161467693-8af8ea87-dea3-46c7-9994-e76613ed7689.png)
+![image](https://user-images.githubusercontent.com/30430227/161467777-da6d490a-3048-4493-a476-47394e89347a.png)
+
+`Shader Editor`
+
+![image](https://user-images.githubusercontent.com/30430227/161468380-55876d8d-3342-483c-ac8a-97e99784330f.png)
+![image](https://user-images.githubusercontent.com/30430227/161468364-1c34a520-7f9d-4721-8aaa-72809c72b5f8.png)
+
+`New Base Texture > Save`
+
+![image](https://user-images.githubusercontent.com/30430227/161468604-26f989c9-a17e-47f9-bfd3-21dc0512c399.png)
+![image](https://user-images.githubusercontent.com/30430227/161468698-a895e7ea-c800-4d96-a5a7-8546d63a2b3f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161469044-94ba0d71-3128-4fdc-add4-660651fa6b22.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161469187-f933a49a-c392-4530-8d44-279a2c46d62a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161469201-b9345119-36ec-4088-9505-00324ffeb3f9.png)
+![image](https://user-images.githubusercontent.com/30430227/161476469-1a68862b-ca50-4b4b-84be-bec53766f55a.png)
+
+`Bone > Sword to root Bone(PoseMode) > Trail Plane > Empty Group > Assign Vertex Group`
+
+![image](https://user-images.githubusercontent.com/30430227/161477465-d0f40c9c-e124-44b1-8400-29cd9c91241a.png)
+![image](https://user-images.githubusercontent.com/30430227/161477592-4e764cf4-38fe-4793-8002-08751cd4de04.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161477844-a09b570e-0ec9-4760-9b56-d275847cc26a.png)
+![image](https://user-images.githubusercontent.com/30430227/161477804-a7572e87-da76-4649-b48a-2fece028cf43.png)
+
+`Add Subdivision`
+
+![image](https://user-images.githubusercontent.com/30430227/161478143-02d4ce62-8213-46ca-b471-4286352ae1ac.png)
+![image](https://user-images.githubusercontent.com/30430227/161478175-6270e41c-0d65-483d-a19a-b1f4eab54f86.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161478226-0a31a1f7-033b-45a0-92c8-808f4a18c109.png)
+
+`Preserve Volume`
+
+![image](https://user-images.githubusercontent.com/30430227/161478310-5696f909-1855-494f-a4df-3a9d68bf3e96.png)
+![image](https://user-images.githubusercontent.com/30430227/161478329-ebd2f070-21da-47a7-b637-264ea6ab0bff.png)
+
+`Edit Mode >1st Bone Parent > Pose Mode > 나머지 Bone > 1st Bone 선택 후 대상 Bone> Copy Transform`
+
+![image](https://user-images.githubusercontent.com/30430227/161479078-54c71e85-2ecd-4bbd-a7d9-29c760237376.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161479254-55add5ee-c2d3-4a2e-84af-2b4bbdbfba98.png)
+
+`Action > Select 3 Constraint Bones > Bake Action`
+
+![image](https://user-images.githubusercontent.com/30430227/161480156-6a2c18f5-3d74-4e80-b5a8-c8f054e1d8be.png)
+
+`Graph Editor > Offset Frame -Select All > 'G1', 'G2', 'G3'`
+
+![image](https://user-images.githubusercontent.com/30430227/161480533-d8b19d4a-8fde-414e-bb4c-6e183bfce7be.png)
+
+
 
 
 
