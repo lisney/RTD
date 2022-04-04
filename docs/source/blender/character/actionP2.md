@@ -540,10 +540,30 @@ Fast idle animation
 ![image](https://user-images.githubusercontent.com/30430227/161510501-264af227-0589-4a19-94ce-bc9b67d4b74e.png)
 ![image](https://user-images.githubusercontent.com/30430227/161511495-f5d32769-ec32-418a-b940-5649c87a4a1b.png)
 
+![image](https://user-images.githubusercontent.com/30430227/161513093-c9658d47-9808-481f-96dd-9d517fc610cd.png)
 
+`Particle Scale & Shader Animate - 좀 더 동글동글하게`
 
+![image](https://user-images.githubusercontent.com/30430227/161513543-f3af988c-2456-4aa7-a599-bb8768f2c9ab.png)
+![image](https://user-images.githubusercontent.com/30430227/161513623-bd94fa28-fe2d-4977-86f0-09329accb7df.png)
+![image](https://user-images.githubusercontent.com/30430227/161513744-5ce497e7-3a18-4e82-9498-bf2a4b9d320b.png)
 
+![image](https://user-images.githubusercontent.com/30430227/161514208-dc56ced1-58e1-4c88-ade3-dbc27c9182fa.png)
+![image](https://user-images.githubusercontent.com/30430227/161513059-567e4486-4755-4cff-a912-ae8800ee489d.png)
 
+`Sparkles > Icosphere`
+
+![image](https://user-images.githubusercontent.com/30430227/161519289-0bea3801-75ae-47de-b397-a8bec1fcb2be.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161519358-635a9037-1681-4d81-a3fd-c7d8c7c776b8.png)
+
+`Add ParticleSystem > Velocity(Normal:15, Random:8), Gravity:0.2, Damp:0.1  `
+
+![image](https://user-images.githubusercontent.com/30430227/161516767-afc62513-58e1-4123-8b14-8fbf4350513e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161516689-aff83eb5-928c-4013-a6ed-d6c0febde190.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161520072-5ca41abc-c65d-4d19-b80c-ed8a87ac9154.png)
 
 
 
