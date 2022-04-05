@@ -113,6 +113,24 @@ Bow Rig
 
 ![image](https://user-images.githubusercontent.com/30430227/159625059-febcc3dc-82eb-45d8-9b4b-77f6b30f6f6f.png)
 
+<br>
+
+Piston - Damped Track
+------------------------
+
+![image](https://user-images.githubusercontent.com/30430227/161666524-5dd3a897-6913-4b4c-a29c-04c34577b9cf.png)
+![image](https://user-images.githubusercontent.com/30430227/161666506-540fea02-2106-4f21-992d-c60090508e07.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161665672-ffffca52-1f1c-4cdc-9a11-9af95a28f99d.png)
+![image](https://user-images.githubusercontent.com/30430227/161666336-eb590fc6-9d32-4bfb-b96b-48a3be85240e.png)
+
+`Damped Track`
+
+![image](https://user-images.githubusercontent.com/30430227/161666477-fee081cb-7bd1-409d-aaa1-119e59c538ba.png)
+![image](https://user-images.githubusercontent.com/30430227/161666463-11ea7676-29e5-4f03-bc24-5dd8857003d7.png)
+
+
+
 
 
 
