@@ -144,6 +144,9 @@ Rigging chains
 Drawbridge rig
 ------------------
 
+![image](https://user-images.githubusercontent.com/30430227/161655926-e3a0e1f9-03ba-40f2-964c-52049b5b65ad.png)
+![image](https://user-images.githubusercontent.com/30430227/161655909-ec90560d-7c89-4457-bb92-4b44d4c4a6f8.png)
+
 `Chain - Torus > Edit > Array > Parent-Curve Deform`
 
 ![image](https://user-images.githubusercontent.com/30430227/161522264-b48fe7ec-d614-4e48-99cf-a844a7dcc279.png)
@@ -157,8 +160,39 @@ Drawbridge rig
 
 ![image](https://user-images.githubusercontent.com/30430227/161537957-e6366983-ef4f-4264-bbce-2ea07b2faaad.png)
 
+`Rigging :: Bone - Display:Wire`
 
+![image](https://user-images.githubusercontent.com/30430227/161652984-68aad55f-e8a9-4161-9e21-2145efa2b71a.png)
+![image](https://user-images.githubusercontent.com/30430227/161652969-2cbdd267-7cd3-4d32-9ff1-ed55d73a0ce6.png)
 
+`chain mesh & Curve > Parent bone(bone01) ## 겹친 대상 중 하나 선택 단축키shift-alt-Lclick`
+
+![image](https://user-images.githubusercontent.com/30430227/161653430-391cfc98-4273-408f-9a2e-653fcd6c5bc2.png)
+
+`bone & Curve > '/' > Add bones`
+
+![image](https://user-images.githubusercontent.com/30430227/161653694-6ea5fe2d-3c21-43ec-9bca-13d4e0add829.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161653808-a2b9230e-2d91-43a7-9ad4-7a2fe8a80250.png)
+
+`Curve Edit Mode > hook Modifier > Dup hook`
+
+![image](https://user-images.githubusercontent.com/30430227/161654021-a49b426b-3046-4e0e-9822-856dd88c9cd4.png)
+![image](https://user-images.githubusercontent.com/30430227/161653988-c1e974df-5d31-438a-872b-283ccd8b81ff.png)
+
+![image](https://user-images.githubusercontent.com/30430227/161654327-beae1020-751f-4c4f-97de-b4fcff3d3cff.png)
+
+`다리 회전용 bone 추가 ## 로테이션 옵션 단축키 Ctrl-R > XYZ Eular > bridge Mesh> parent bone `
+
+![image](https://user-images.githubusercontent.com/30430227/161654520-8b3249d6-9fd9-4a9f-bd94-f40534331f7a.png)
+
+`체인 bone01(Edit Mode)> bridge bone to Parent`
+
+![image](https://user-images.githubusercontent.com/30430227/161654989-49698b98-6440-4d99-a9f8-9eabbe136c09.png)
+
+`pulley 회전용 bone Driver > bridge bone(Copy as New Driver > Paste Driver >Edit Driver)`
+
+![image](https://user-images.githubusercontent.com/30430227/161655551-24631f71-b20d-4a07-822e-151f029f98d3.png)
 
 <br>
 
