@@ -23,6 +23,14 @@
 
 > IcoSphere(Torus) > Subdivision > Displace 1~2회(Strength: 음수, Voronoi: DistanceSquared)
 
+![image](https://user-images.githubusercontent.com/30430227/126415613-26629353-7c2b-494b-bb34-1acab2fbbcaf.png)
+
+> Fresnel, Gamma
+
+![image](https://user-images.githubusercontent.com/30430227/126415787-70c11cbc-396b-40bd-81c3-b5c2c9a639d7.png)
+
+> Animate
+> 
 ### 물결 1
 
 ![image](https://user-images.githubusercontent.com/30430227/126417036-d7ed6855-73ab-4e3b-9238-44719f9da560.png)
@@ -77,15 +85,6 @@
 ### 물결 반짝이 애니 추가
 
 ![image](https://user-images.githubusercontent.com/30430227/126419076-aa8610d8-ca1f-4de4-ba39-060e85814d73.png)
-
-
-![image](https://user-images.githubusercontent.com/30430227/126415613-26629353-7c2b-494b-bb34-1acab2fbbcaf.png)
-
-> Fresnel, Gamma
-
-![image](https://user-images.githubusercontent.com/30430227/126415787-70c11cbc-396b-40bd-81c3-b5c2c9a639d7.png)
-
-> Animate
 
 기초 이팩트
 --------------
