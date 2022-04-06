@@ -77,7 +77,11 @@ caption 은 제목/ 경로를 적어준다. 확장자 불필요
 <br>
 
 ```
-# 링크
+
+# 파일 링크
+:doc:`usage`
+
+# 주소 링크
 `CNN <http://cnn.com>`_
 
 # 이미지 
@@ -86,6 +90,19 @@ caption 은 제목/ 경로를 적어준다. 확장자 불필요
 # 블럭 감싸기 - 문단(줄 나누기)이 끝날 때까지 계속 감싼다
 >>> 
 
+# 코드블럭 감싸기
+.. code-block:: console
+
+   first install it using pip:
+
+# 빨강 강조 
+``   ``
+
+# italic 
+*   *
+
+# Bold
+**   **
 
 ```
 
