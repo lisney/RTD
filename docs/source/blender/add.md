@@ -1,7 +1,7 @@
 Rigging
 -------
 
-**커스텀 프로퍼티**
+**커스텀 프로퍼티 - 회전값 Expression**
 
 ``Copy New Driver > Paste Driver(Rotate) > to Radian(radians(prop))`` 
 
