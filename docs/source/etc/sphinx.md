@@ -91,9 +91,9 @@ caption 은 제목/ 경로를 적어준다. 확장자 불필요
 >>> 
 
 # 코드블럭 감싸기
-.. code-block:: console
+.. code-block:: console(파란텍스트, console 빼면 검정 텍스트)
 [1줄 띄우고]
-[3칸 띄우고 시작]first install it using pip:
+[1칸 이상 띄우고 시작]first install it using pip:
 
 # 빨강 강조 
 ``   ``
