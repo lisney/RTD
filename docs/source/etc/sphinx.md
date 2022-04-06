@@ -76,6 +76,19 @@ caption 은 제목/ 경로를 적어준다. 확장자 불필요
 
 <br>
 
+```
+# 링크
+`CNN <http://cnn.com>`_
+
+# 이미지 
+.. image:: 주소
+
+# 블럭 감싸기 - 문단(줄 나누기)이 끝날 때까지 계속 감싼다
+>>> 
+
+
+```
+
 md파일
 ![image](https://user-images.githubusercontent.com/30430227/128325216-90bf0faf-6c9b-479d-ad7d-b81e730fa4bc.png)
 
