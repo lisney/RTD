@@ -64,3 +64,20 @@ Sci-Fi Door
 ![image](https://user-images.githubusercontent.com/30430227/162122702-020993fc-b15b-4ae7-91d4-029301a507aa.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/162122655-f21a7710-65fe-4700-86d2-75159a09f408.png)
+
+**Multi Piston**
+
+![image](https://user-images.githubusercontent.com/30430227/162127861-6278b54a-11eb-4f05-ba84-770518d6bec3.png)
+![image](https://user-images.githubusercontent.com/30430227/162127896-732480b5-4351-422b-836b-7cba08c185f5.png)
+
+
+``Root parent > Damped Track > Parent > Copy Transforms``
+ 
+![image](https://user-images.githubusercontent.com/30430227/162126459-ae8d6100-1ae0-4f63-98f8-02e244c6cb86.png)
+![image](https://user-images.githubusercontent.com/30430227/162126833-e942e6df-8a29-44b6-9f80-295c0cff3609.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162127010-73f2a175-ed70-4de3-bcbb-249e6cccd58b.png)
+![image](https://user-images.githubusercontent.com/30430227/162127064-34615542-2652-4c5a-878d-fa2fd5c9f3cc.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162127776-0f59dee5-be73-4609-80c5-dc0e4bc0406e.png)
+![image](https://user-images.githubusercontent.com/30430227/162127820-d8e96374-895b-42f0-b3a7-fac3d9846ba4.png)
