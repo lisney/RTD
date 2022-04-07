@@ -8,6 +8,16 @@ Rigging
 ![image](https://user-images.githubusercontent.com/30430227/161925933-d7cbf67c-0a12-449b-95ae-298750baa68c.png)
 ![image](https://user-images.githubusercontent.com/30430227/161926179-6717b206-60de-412e-b2f5-5b7f1af2b283.png)
 
+**If Expression**
+
+.. code-block:: console 
+
+ 0 if switch == 1 or switch == 3 else 1
+ switch 가 1 또는 3이면 0 그렇지 않으면 1
+ 
+![image](https://user-images.githubusercontent.com/30430227/162124508-c6f53a30-e953-4c6c-9b30-78dc573cc521.png)
+![image](https://user-images.githubusercontent.com/30430227/162124324-193e9849-a6f4-4228-9190-e3cb55a77b7c.png)
+
 
 Sci-Fi Door
 ------------
