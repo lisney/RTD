@@ -8,6 +8,12 @@ Rigging
 ![image](https://user-images.githubusercontent.com/30430227/161925933-d7cbf67c-0a12-449b-95ae-298750baa68c.png)
 ![image](https://user-images.githubusercontent.com/30430227/161926179-6717b206-60de-412e-b2f5-5b7f1af2b283.png)
 
+**또는 Python 사용 회전**
+
+``bpy.context.scene.frame_current/10``
+
+![image](https://user-images.githubusercontent.com/30430227/162128564-cb397160-0cae-4283-9758-707285d972c5.png)
+
 **If Expression**
 
 .. code-block:: console 
@@ -81,3 +87,24 @@ Sci-Fi Door
 
 ![image](https://user-images.githubusercontent.com/30430227/162127776-0f59dee5-be73-4609-80c5-dc0e4bc0406e.png)
 ![image](https://user-images.githubusercontent.com/30430227/162127820-d8e96374-895b-42f0-b3a7-fac3d9846ba4.png)
+
+**Eye Rig**
+
+``Shape Keys > New Shape from Mix > UP, Down Vertex Group``
+
+![image](https://user-images.githubusercontent.com/30430227/162130749-6cae8b83-8297-42f2-81bd-a63294bc0f3e.png)
+![image](https://user-images.githubusercontent.com/30430227/162130968-24341306-3f78-4ac8-8b57-14c7afd52824.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162131228-a5e66046-beee-4025-b336-fa128f4b0ce6.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162131357-23fb2a5e-8bd7-4f2d-b048-d0d5620425a3.png)
+
+``Shape Key Driver``
+
+![image](https://user-images.githubusercontent.com/30430227/162131964-e5b5d387-e310-4348-b5da-101b6dbfc716.png)
+![image](https://user-images.githubusercontent.com/30430227/162131854-6a80143a-3e6d-45ba-a38a-0522c6d8b532.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162131824-3139d7b0-d5ff-4ce7-aeeb-24d92ed957f5.png)
+
+
+
