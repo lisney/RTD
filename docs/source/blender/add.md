@@ -1,5 +1,5 @@
-Rigging
--------
+LPLevel Rigging
+---------------
 
 **커스텀 프로퍼티 - 회전값 Expression**
 
