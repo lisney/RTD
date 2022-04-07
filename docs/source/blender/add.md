@@ -107,4 +107,48 @@ Sci-Fi Door
 ![image](https://user-images.githubusercontent.com/30430227/162131824-3139d7b0-d5ff-4ce7-aeeb-24d92ed957f5.png)
 
 
+2D Rigging
+============
+
+GP Stroke Rig
+--------------
+
+![image](https://user-images.githubusercontent.com/30430227/162156967-d8732522-5cad-4f3e-b9af-25aa4e69b84d.png)
+![image](https://user-images.githubusercontent.com/30430227/162157109-a4769a6f-6e70-40cc-9e33-b21074536e6a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162157306-99cefd75-6375-4e40-a8dc-3399e56beb30.png)
+![image](https://user-images.githubusercontent.com/30430227/162157184-bdc9d0a3-0ffb-4c82-8177-b4dc6fc13f5d.png)
+
+``빨간색 Constraint >CopyLocation(머리녹색본)>StrecthTo(꼬리녹색본)``
+
+![image](https://user-images.githubusercontent.com/30430227/162158178-9e775f03-bd98-45fb-92bc-c7120d681b01.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162157393-9befd063-9a14-4b12-8960-da99db92054c.png)
+
+
+GP Arm Rig
+-----------
+
+``Lattice > Vertex Groups(옷만)``
+
+![image](https://user-images.githubusercontent.com/30430227/162162036-8258b52c-856b-49d8-a21c-f5c0b177a326.png)
+![image](https://user-images.githubusercontent.com/30430227/162165904-c43e6849-24d7-4747-a016-4bfc3ed012ef.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162166003-2f6135bc-9873-4861-9319-94225b8a1794.png)
+
+``Bone > Lattice 수동 Weight > 손 >Layer Relations``
+
+![image](https://user-images.githubusercontent.com/30430227/162167480-24b97bb4-fcba-457b-aaf9-b823ee77ed88.png)
+![image](https://user-images.githubusercontent.com/30430227/162167518-322168a6-25d2-4921-abd3-48c1d092e32f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162167805-b89891ff-be73-448e-998f-30930ae5a33f.png)
+
+``Bendy Bone Volume 문제 > ``
+
+![image](https://user-images.githubusercontent.com/30430227/162168173-276f4cfc-c985-4904-bf7b-31f0949bb072.png)
+![image](https://user-images.githubusercontent.com/30430227/162168453-d644d647-0388-4d81-bf49-5f55780ccd2f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162168420-24c4f934-0569-481a-935d-22ce243481d7.png)
+
+
 
