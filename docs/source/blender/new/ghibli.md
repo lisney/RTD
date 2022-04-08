@@ -18,4 +18,23 @@ Ghibli Style
 
 ![image](https://user-images.githubusercontent.com/30430227/162367043-8a5fda15-91bf-4efc-a9e4-a1a457fa7165.png)
 
+**Eye**
+
+![image](https://user-images.githubusercontent.com/30430227/162370045-81407bbf-dae9-4bbb-814a-d68453b65af7.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162370118-b988f891-6c16-4f77-9fbc-a294c0fcb99d.png)
+
+**tentacle**
+
+![image](https://user-images.githubusercontent.com/30430227/162371156-9493342d-16bd-49c0-96b6-951d0d83adab.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162371243-6a081a8a-b0c6-489c-a15e-569d266cd611.png)
+
+**Running Sand**
+
+![image](https://user-images.githubusercontent.com/30430227/162373151-ccc5dcd4-8b1d-4b17-ba72-1550beb44d12.png)
+![image](https://user-images.githubusercontent.com/30430227/162373242-b2036e7a-6a15-4509-97a6-fbf513666bab.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162373435-f056d6fe-0cdf-4964-9908-14be951b3ada.png)
+
 
