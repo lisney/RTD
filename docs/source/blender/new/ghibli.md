@@ -38,3 +38,22 @@ Ghibli Style
 ![image](https://user-images.githubusercontent.com/30430227/162373435-f056d6fe-0cdf-4964-9908-14be951b3ada.png)
 
 
+Procedural Hatching
+---------------------
+
+![image](https://user-images.githubusercontent.com/30430227/162377083-cacf285d-3bb4-43b1-9ec9-e79f1fca5504.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162377217-ba7fc10b-31f4-490f-99f4-5f104e1d90cc.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162377478-b6fbb9ea-2510-46d3-a133-5fdf60042aaa.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162377527-7bd5d8cb-9a09-40a6-8905-f4d18fca9457.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162377934-5d39d382-b99c-4e49-b87f-7d4ab12801ba.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162377967-00e738bd-44f5-4d80-afde-b78d6e9a87d8.png)
+
+
+
+
+
