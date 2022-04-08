@@ -150,5 +150,42 @@ GP Arm Rig
 
 ![image](https://user-images.githubusercontent.com/30430227/162168420-24c4f934-0569-481a-935d-22ce243481d7.png)
 
+GP Eye Rig
+-------------
+
+![image](https://user-images.githubusercontent.com/30430227/162350899-141908dc-8f0c-4b47-bdb4-c1eec3e6f5cb.png)
+
+``Draw(Layer 'eye')> Edit Mode >Shift-S(keep offset) >Move Left``
+
+![image](https://user-images.githubusercontent.com/30430227/162345028-932e3e76-6256-4155-981f-9fe07a778913.png)
+![image](https://user-images.githubusercontent.com/30430227/162345078-3642a457-df7b-45a1-bc37-2cd8d7d4ba2f.png)
+![image](https://user-images.githubusercontent.com/30430227/162345311-2effc0b1-d5e8-416a-b666-1cf76c9efaba.png)
+
+``Duplicate Layer 'pupil'> Scale > Mask``
+
+![image](https://user-images.githubusercontent.com/30430227/162345775-e6c6ed29-78c0-4067-9548-df35662fc9b0.png)g
+![image](https://user-images.githubusercontent.com/30430227/162345525-4fc5fd92-d677-449e-9a33-b70c2e04aedb.png)
+![image](https://user-images.githubusercontent.com/30430227/162345840-07c1ae0d-f8e3-4d3a-af35-4361441fe6e3.png)
+
+``Mirror Modifier > Apply Modifier(Object Mode)``
+
+![image](https://user-images.githubusercontent.com/30430227/162346024-2a031bfc-e4fe-42b1-89d5-2ab62120e197.png)
+![image](https://user-images.githubusercontent.com/30430227/162346046-98636fae-4232-438d-8d9b-96e7636aee0c.png)
+
+``Add Bone>Custom Shape``
+
+![image](https://user-images.githubusercontent.com/30430227/162349202-1a145241-0e06-4470-a869-20b9048d36d2.png)
+![image](https://user-images.githubusercontent.com/30430227/162349422-38760980-112d-4567-b77f-ccf245c6d0bf.png)
+
+``Empty Group > Assign``
+
+![image](https://user-images.githubusercontent.com/30430227/162349503-9f41e304-9a72-4707-a502-283153b09635.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162349790-355c84f2-fc0e-4fa6-a365-1a155f8fec4a.png)
+![image](https://user-images.githubusercontent.com/30430227/162349830-acb43379-8a1f-4c8c-b83b-12b75df28e95.png)
+
+``Custom Shape 시 Wireframe 체크하면 좋다는데?``
+
+![image](https://user-images.githubusercontent.com/30430227/162350855-18a2c508-d0d4-4e2d-a369-925355391ffc.png)
 
 
