@@ -66,11 +66,23 @@ House
 
 ![image](https://user-images.githubusercontent.com/30430227/162646189-98ad56a9-a769-4e04-8c31-55c6261dd57a.png)
 
+
+**Wood**
+
+``Voronoi or Musgrave 추가하여 음영을 표현해도 좋다``
+
+![image](https://user-images.githubusercontent.com/30430227/162649386-6303ff99-b124-451a-8b2e-fed7476bf63e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162649372-207eb74a-9658-47d4-98c1-7879d029a5df.png)
+
+**Wall**
+
 ![image](https://user-images.githubusercontent.com/30430227/162646874-a13e7d02-2f15-4e70-8ef4-9581ef1a6921.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/162646885-0af9b389-592f-4bdd-98db-618252d46415.png)
 
+![image](https://user-images.githubusercontent.com/30430227/162651011-e5d782b6-1618-49ed-91d7-fa67933dc298.png)
 
-
+![image](https://user-images.githubusercontent.com/30430227/162651144-0f79a8d8-27ab-4c47-aa41-3d92a693e588.png)
 
 
