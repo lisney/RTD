@@ -159,6 +159,31 @@ Tornado
 
 ![image](https://user-images.githubusercontent.com/30430227/162709839-eeed0df2-1851-4cd3-aa1b-1a8722dfad73.png)
 
+Electricity
+-------------
+
+![image](https://user-images.githubusercontent.com/30430227/162732344-6f7aa6a3-8d94-4293-8201-2f1324d723bc.png)
+
+**Polygon Ribbon, Empty> Empty Key Generator**
+
+![image](https://user-images.githubusercontent.com/30430227/162730727-c5414da6-24fd-4c04-b505-ed509371f2b9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162730865-f1f5bad9-138b-4549-b957-317adf889e68.png)
+![image](https://user-images.githubusercontent.com/30430227/162731088-e4deb192-d684-4725-b89b-f7a9c120e890.png)
+![image](https://user-images.githubusercontent.com/30430227/162731125-750bcf79-7291-4599-a324-a5fb49b993f4.png)
+
+**Ribbon Vertex Group > Weight Paint > 좌우Gradient > Invert**
+
+![image](https://user-images.githubusercontent.com/30430227/162731257-3c5406af-371d-4392-920a-e439729fb746.png)
+
+**Displace Modifier> Clouds 큰 값, 작은 값 두개 생성**
+
+![image](https://user-images.githubusercontent.com/30430227/162731991-d97dfad1-3356-431c-96cc-b119c695dc4d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162732023-0979e2cb-603d-4874-9e49-52f6141e4d09.png)
+
+
+
 
 
 
