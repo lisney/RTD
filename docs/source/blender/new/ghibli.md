@@ -86,3 +86,45 @@ House
 ![image](https://user-images.githubusercontent.com/30430227/162651144-0f79a8d8-27ab-4c47-aa41-3d92a693e588.png)
 
 
+Smoke & Explosion
+--------------------
+
+![image](https://user-images.githubusercontent.com/30430227/162669345-449bb07f-bfad-4859-8793-6d3aedbb8845.png)
+![image](https://user-images.githubusercontent.com/30430227/162670182-2c9fddaf-89a5-4e73-8ffb-a5ee6dc62826.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162669451-e462737f-1f8a-4768-9b47-a459d23489e5.png)
+![image](https://user-images.githubusercontent.com/30430227/162669477-4d6855b0-dc5a-4584-b893-21b5b03da499.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162669397-60b040d6-bf7c-4c53-947b-637b60d37441.png)
+
+
+Transform
+------------
+
+![image](https://user-images.githubusercontent.com/30430227/162672585-aa4bb26f-9ac9-4bdc-8645-14881045c3b9.png)
+![image](https://user-images.githubusercontent.com/30430227/162672873-def576c0-86c9-4d4a-a392-3212a0a82535.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162672626-f4124ef0-5ff4-4b38-ad3a-209c5676f9a0.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162672760-5a2bc3fd-6f8e-4c5a-8c11-930d3bdc0963.png)
+
+
+Face Shading
+--------------
+
+![image](https://user-images.githubusercontent.com/30430227/162676222-0a6e9815-fb69-4c0e-aef4-65445a69b897.png)
+![image](https://user-images.githubusercontent.com/30430227/162676194-6aa48982-fec4-48b5-befe-515d51500ea5.png)
+
+
+``Alt-L``
+
+![image](https://user-images.githubusercontent.com/30430227/162675621-86ca911e-3e3b-4c9c-8636-3ef88d2caa53.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162675676-af9d6eed-e886-47b0-b867-a8d3997daa04.png)
+![image](https://user-images.githubusercontent.com/30430227/162675797-289e9f76-a478-4b45-9432-89940d1886dd.png)
+
+
+
+
+
+
