@@ -62,6 +62,14 @@ House
 
 ![image](https://user-images.githubusercontent.com/30430227/162389582-fc1c5acd-b9d7-4ad4-99f8-2c64b24c7c58.png)
 
+![image](https://user-images.githubusercontent.com/30430227/162646121-db935737-4424-46c8-a517-34cfba7f47d1.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162646189-98ad56a9-a769-4e04-8c31-55c6261dd57a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162646874-a13e7d02-2f15-4e70-8ef4-9581ef1a6921.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162646885-0af9b389-592f-4bdd-98db-618252d46415.png)
+
 
 
 
