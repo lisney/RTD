@@ -123,6 +123,25 @@ Face Shading
 ![image](https://user-images.githubusercontent.com/30430227/162675676-af9d6eed-e886-47b0-b867-a8d3997daa04.png)
 ![image](https://user-images.githubusercontent.com/30430227/162675797-289e9f76-a478-4b45-9432-89940d1886dd.png)
 
+Cloud
+--------
+
+1. Simple 
+
+![image](https://user-images.githubusercontent.com/30430227/162678360-22c51fc8-6089-403f-9f90-2646402e935d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162678386-4c5158fd-9e04-425a-abc2-3add2adb1267.png)
+
+2. Dome 
+
+![image](https://user-images.githubusercontent.com/30430227/162679760-e4dc50d4-178e-4027-ac6a-b63965c30622.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162679831-7685061d-42a4-428a-8174-64b8e9ca1613.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162681267-5a4e8fef-da47-4c26-8e8b-5d5e0cee4480.png)
+
+3. single
+
 
 
 
