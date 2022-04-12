@@ -222,6 +222,9 @@ Grass
 
 ![image](https://user-images.githubusercontent.com/30430227/162892249-e0106c2e-56e7-4596-bf44-a9dc6aa94bea.png)
 
+![image](https://user-images.githubusercontent.com/30430227/162893507-d7c9cd46-77e7-44a2-afed-75e2240ad557.png)
+![image](https://user-images.githubusercontent.com/30430227/162893473-b69e8cd9-3203-414c-84a5-0bbdd1f2faab.png)
+
 ``Cycle 랜더에서 투명도 표현 문제 > Max Bounces-Transparent 값 높힌다``
 
 ![image](https://user-images.githubusercontent.com/30430227/162893129-34cdc575-8d69-456b-bc31-71a0ed44bd19.png)
