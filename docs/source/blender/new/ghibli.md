@@ -188,12 +188,35 @@ Rock
 
 ![image](https://user-images.githubusercontent.com/30430227/162879410-8ffd575f-f6ba-40bd-8711-d65b3a58a430.png)
 
-``Object Info-Location``
+``Object Info-Location(Empty Location과 같은 효과)
 
 ![image](https://user-images.githubusercontent.com/30430227/162880435-176d3bbc-0ffd-4a0c-8cf6-b7118627810a.png)
 
 
+Ocean
+------
 
+![image](https://user-images.githubusercontent.com/30430227/162887212-7e703fd2-3331-438e-832b-b6701beceb72.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162887871-7e399fe6-28ec-4332-8e0f-4e6547e4aaaf.png)
+
+
+Grass
+------
+
+``Particle(Hair)>Render Property::Hair(Strand->Strip)``
+
+![image](https://user-images.githubusercontent.com/30430227/162888608-0a500d80-2e8d-43b3-9c51-efbca8ab0812.png)
+![image](https://user-images.githubusercontent.com/30430227/162888635-9b39c6df-0847-4647-ab47-0a8151aab136.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162888662-ab1039e3-1270-4f79-bb48-c370f13d2198.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162889519-cd679dab-ace1-4d00-a1a4-8d16dc658392.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162889568-b78ec74e-6c67-468d-b87d-ce58ef1a74cb.png)
+![image](https://user-images.githubusercontent.com/30430227/162889605-d93a4c1f-325d-408d-9df0-128fa3efa565.png)
+
+![image](https://user-images.githubusercontent.com/30430227/162889768-b5756af3-56cb-4ef3-a43b-b5d1218a0b84.png)
 
 
 
