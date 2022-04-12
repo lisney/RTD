@@ -183,6 +183,17 @@ Electricity
 ![image](https://user-images.githubusercontent.com/30430227/162732023-0979e2cb-603d-4874-9e49-52f6141e4d09.png)
 
 
+Rock
+------
+
+![image](https://user-images.githubusercontent.com/30430227/162879410-8ffd575f-f6ba-40bd-8711-d65b3a58a430.png)
+
+``Object Info-Location``
+
+![image](https://user-images.githubusercontent.com/30430227/162880435-176d3bbc-0ffd-4a0c-8cf6-b7118627810a.png)
+
+
+
 
 
 
