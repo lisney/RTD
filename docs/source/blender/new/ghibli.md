@@ -147,6 +147,25 @@ Cloud
 ![image](https://user-images.githubusercontent.com/30430227/162702467-cbe71970-2d50-46e9-aae7-99d1fcf51a62.png)
 
 
+
+cloud -Volumetrics
+----------------------
+
+``Render Property > Tile Size: 2``
+
+![image](https://user-images.githubusercontent.com/30430227/163131569-027d8f9d-8903-4106-8ebc-56810745df22.png)
+
+**Metaball > Matcap-Normal > Viewport Render **
+
+![image](https://user-images.githubusercontent.com/30430227/163142562-ffc7aafd-13eb-4f58-a56d-7bd62821e5b0.png)
+![image](https://user-images.githubusercontent.com/30430227/163142617-a04aa28b-df44-4e46-8bfa-489cb8fb35fe.png)
+
+``Ambient Occlusion ON-그림자 부분``
+
+![image](https://user-images.githubusercontent.com/30430227/163154263-d2508451-5378-4eb5-94bc-661e937d7795.png)
+
+![image](https://user-images.githubusercontent.com/30430227/163154476-db5eab08-299d-4ede-9da0-5713b9283276.png)
+
 Tornado
 --------
 
@@ -182,6 +201,19 @@ Electricity
 ![image](https://user-images.githubusercontent.com/30430227/162731991-d97dfad1-3356-431c-96cc-b119c695dc4d.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/162732023-0979e2cb-603d-4874-9e49-52f6141e4d09.png)
+
+
+Fire
+------
+
+![image](https://user-images.githubusercontent.com/30430227/163130492-352caccc-84ce-4eba-85ce-a8b49d2fabc2.png)
+
+![image](https://user-images.githubusercontent.com/30430227/163130633-95e20304-83b1-4492-a31b-c12783781a18.png)
+
+**Action**
+
+![image](https://user-images.githubusercontent.com/30430227/163130993-65b2796c-9a59-4ad8-8bb0-7e06ea03cf6a.png)
+
 
 
 Rock
