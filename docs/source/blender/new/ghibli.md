@@ -233,6 +233,52 @@ Grass
 ![image](https://user-images.githubusercontent.com/30430227/162893195-c0fb5f2d-ef9e-4746-b23c-bea459981097.png)
 
 
+Tree - Particle Inatance
+------------------------
+
+![image](https://user-images.githubusercontent.com/30430227/163091167-c8ad476f-f961-4764-885c-1cbd5865f4e8.png)
+
+
+``Two IcoSphere > One-Particle > TOther-Modifier``
+
+![image](https://user-images.githubusercontent.com/30430227/163086403-3be71cc6-f0fc-4d35-8456-ed2b1cd11d20.png)
+![image](https://user-images.githubusercontent.com/30430227/163086423-a0922ad4-6f4a-413a-9b57-1332dfe4bc9e.png)
+
+``ParticleInstance Modifier``
+
+![image](https://user-images.githubusercontent.com/30430227/163086523-cefa15b6-09da-4cd5-ace0-2c48023c59ca.png)
+![image](https://user-images.githubusercontent.com/30430227/163086542-c79653c8-8ab6-4436-84ac-fca63804995a.png)
+
+``Size``
+
+![image](https://user-images.githubusercontent.com/30430227/163086846-5d2d45da-a9a6-4414-9978-ce21dc8fb133.png)
+![image](https://user-images.githubusercontent.com/30430227/163086863-983e3d73-a092-4fc8-8de7-e2f9de40cd1e.png)
+
+**파티클 구, 트리 구 수정-둘 다 Auto Smooth 체크 **
+
+![image](https://user-images.githubusercontent.com/30430227/163088643-5526cfd7-2f62-485d-a665-1792e66bf036.png)
+
+![image](https://user-images.githubusercontent.com/30430227/163088673-2ff2c5e8-d9c8-40ab-a1da-71b8bbfc14fa.png)
+![image](https://user-images.githubusercontent.com/30430227/163087888-42c75dcc-2b52-43c0-b91f-528112ebcaab.png)
+
+![image](https://user-images.githubusercontent.com/30430227/163088769-dc8777d7-f074-4490-b628-f4289833d7bd.png)
+
+![image](https://user-images.githubusercontent.com/30430227/163087932-66233582-0945-4924-95c1-235ce339ddee.png)
+
+![image](https://user-images.githubusercontent.com/30430227/163089294-1bb8cc1a-9645-45ec-b068-6a00c880447d.png)
+![image](https://user-images.githubusercontent.com/30430227/163089312-0630fcfb-6ac8-4f7e-b279-b8527963b01c.png)
+
+``DataTransfer Modifier``
+
+![image](https://user-images.githubusercontent.com/30430227/163089787-1fec1f2c-61fb-4f0d-85cd-7f740e0d051e.png)
+![image](https://user-images.githubusercontent.com/30430227/163089435-f7248aef-a55a-4176-989c-5daad9e8a22f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/163090557-d1c350e7-5830-417c-b799-8502db552238.png)
+![image](https://user-images.githubusercontent.com/30430227/163090586-d83ca6f7-1630-411f-a269-4119cbcfce9c.png)
+
+**Normal Transfer를 정밀하게 > 파티클 구의 메쉬 수 증가**
+
+
 Abstract FX
 ---------------
 
