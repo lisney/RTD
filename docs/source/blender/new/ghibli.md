@@ -279,6 +279,18 @@ Tree - Particle Inatance
 **Normal Transfer를 정밀하게 > 파티클 구의 메쉬 수 증가**
 
 
+Tree - Leaves Texture
+---------------------
+
+![image](https://user-images.githubusercontent.com/30430227/163092841-14c01f81-bbb8-4f8d-8659-7323935f6070.png)
+
+![image](https://user-images.githubusercontent.com/30430227/163092920-de0c3440-2db0-4e02-96b1-3a8f4effa67e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/163093716-ee363187-17e2-4338-8b9f-ab4f09a53a8a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/163093735-5438afa8-2c26-4500-8e8b-8f911049ecff.png)
+
+
 Abstract FX
 ---------------
 
