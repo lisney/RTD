@@ -269,6 +269,8 @@ Grass
 Animate Grass
 --------------
 
+![image](https://user-images.githubusercontent.com/30430227/163562754-e94081c7-df93-4dfb-a4cc-66f03430ed9d.png)
+
 ``Hair Origin Local 0, Normal +Y방향``
 
 ![image](https://user-images.githubusercontent.com/30430227/163546846-5e9aac83-7362-4603-b210-7c6c2fdc696a.png)
@@ -313,13 +315,33 @@ Animate Grass
 **바닥 Normal Transfer > Auto Smooth > Backface Curling**
 
 ![image](https://user-images.githubusercontent.com/30430227/163552564-54414915-6d5a-4205-b69b-53d2441e2a3d.png)
+![image](https://user-images.githubusercontent.com/30430227/163557737-fc3e86e9-c38d-41ef-b7f7-ce573601f844.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/163552593-98b3d952-6a7f-499e-8d3f-82b521a632dd.png)
 
+**World**
 
+![image](https://user-images.githubusercontent.com/30430227/163559272-067b6965-9896-4071-b08b-12e6d78abe0e.png)
 
+![image](https://user-images.githubusercontent.com/30430227/163559300-5aadc363-c0a7-4721-9040-d4a419aa3970.png)
 
+``Material``
 
+![image](https://user-images.githubusercontent.com/30430227/163559653-d5ba4770-75a3-4f4f-b8a8-72c55aae3426.png)
+
+![image](https://user-images.githubusercontent.com/30430227/163559694-d30ce4a3-de28-4f0e-9890-9888c08e8cc9.png)
+
+**Grid Fill - 짝수개의 폴리곤에만 됨 'B'**
+
+![image](https://user-images.githubusercontent.com/30430227/163561080-16df7850-c790-4622-8495-d3b10eb2023c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/163561172-274bad9f-20d6-422b-bc4f-f8cb0f898407.png)
+
+**Animation**
+
+![image](https://user-images.githubusercontent.com/30430227/163562639-d0295949-f932-46f4-ab7d-b5656525babb.png)
+
+![image](https://user-images.githubusercontent.com/30430227/163562610-078e4243-1f7c-432b-a7fa-b118a06760b4.png)
 
 
 
