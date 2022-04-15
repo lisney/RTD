@@ -266,6 +266,63 @@ Grass
 ![image](https://user-images.githubusercontent.com/30430227/162893195-c0fb5f2d-ef9e-4746-b23c-bea459981097.png)
 
 
+Animate Grass
+--------------
+
+``Hair Origin Local 0, Normal +Y방향``
+
+![image](https://user-images.githubusercontent.com/30430227/163546846-5e9aac83-7362-4603-b210-7c6c2fdc696a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/163550431-cd3c7a78-a097-439d-b8d4-2465d85aeb8f.png)
+
+**텍스처 페인트**
+
+``Eye Dropper - 마우스 포인트 위치 's' 클릭 > save Texture``
+
+![image](https://user-images.githubusercontent.com/30430227/163549915-e0ea565c-c6ec-4f58-8e99-fab071607e7b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/163550058-64c48671-345c-472d-a551-b989d8521b31.png)
+
+![image](https://user-images.githubusercontent.com/30430227/163550361-2e50f0c8-4ef4-4168-9afa-bd0e42aa9e49.png)
+
+``Shader Editor``
+
+![image](https://user-images.githubusercontent.com/30430227/163550710-81e3aa15-597d-43dc-b0af-3689d8e65647.png)
+
+![image](https://user-images.githubusercontent.com/30430227/163550741-d15d582f-0307-47ea-8c8f-4bdfb49ac2c5.png)
+
+**바닥 UV수정**
+
+![image](https://user-images.githubusercontent.com/30430227/163550908-9ca0c6c0-80a5-4fd4-9379-b97455ab0129.png)
+
+![image](https://user-images.githubusercontent.com/30430227/163550853-c98798ca-e970-488f-ad53-fa45e5e1900d.png)
+![image](https://user-images.githubusercontent.com/30430227/163550933-21e602a4-3e6c-472d-83a0-26e65773e836.png)
+
+**Particle to Object**
+
+![image](https://user-images.githubusercontent.com/30430227/163551079-d89a4809-137d-4170-8a7c-456ce065310f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/163551251-802debcd-2e1c-4da7-ac3a-55634c383af5.png)
+
+``전체 중 하나 대표로 선택하고 - Ctrl-J > 바닥 파티클 제거 > Grass Shader Shadow None``
+
+![image](https://user-images.githubusercontent.com/30430227/163552139-909d5e5d-a560-4456-95b8-83fe66142748.png)
+
+![image](https://user-images.githubusercontent.com/30430227/163552341-9f2867bd-27f1-4a07-8f79-1f1413e78e20.png)
+
+**바닥 Normal Transfer > Auto Smooth > Backface Curling**
+
+![image](https://user-images.githubusercontent.com/30430227/163552564-54414915-6d5a-4205-b69b-53d2441e2a3d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/163552593-98b3d952-6a7f-499e-8d3f-82b521a632dd.png)
+
+
+
+
+
+
+
+
 Tree - Particle Inatance
 ------------------------
 
