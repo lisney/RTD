@@ -19,3 +19,12 @@ Constraint to Image Bounds
 ![image](https://user-images.githubusercontent.com/30430227/163669653-e53c1c95-f346-4fc9-a312-57983032f6cd.png)
 
 
+Edge Wear
+------------
+
+![image](https://user-images.githubusercontent.com/30430227/163670089-03e80833-34b7-4d39-93cc-61f71840a430.png)
+
+![image](https://user-images.githubusercontent.com/30430227/163670096-bd3f1de1-00f4-4907-b2ba-3434180015e8.png)
+
+![image](https://user-images.githubusercontent.com/30430227/163670167-680b3459-57ec-4763-baa5-cc56eb6bd6bc.png)
+
