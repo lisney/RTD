@@ -49,4 +49,36 @@ Rig Equipment Slot
 
 ![image](https://user-images.githubusercontent.com/30430227/163782235-ea434b9d-3d71-49c4-9e75-626466f49e56.png)
 
+**Scale 문제 > 본 2번 복사 > Parent 중간본(바깥본 선택 Ctrl-클릭- Shift-가운데 본 선택)>중간본 Parent-root**
+
+![image](https://user-images.githubusercontent.com/30430227/163784235-075e09ca-678c-43fe-abc3-cb05e37c615e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/163785383-f0ab6457-ff3a-400b-8e2c-2ffef5163e59.png)
+![image](https://user-images.githubusercontent.com/30430227/163785512-61bf2d2d-2dd3-40dc-8176-815aa925c120.png)
+
+**작은본에 중간본을 Copy Location > Copy Rotation**
+
+![image](https://user-images.githubusercontent.com/30430227/163785676-136be6f7-fe34-4164-a18a-a3a5be62772e.png)
+![image](https://user-images.githubusercontent.com/30430227/163786005-6299e138-8e40-49ad-b609-c9f7412f4781.png)
+
+>>> 스위치 본 > Dup Axe.control 'Axe.property' > Custom Properties 'ADD' > Copy as New Driver
+
+![image](https://user-images.githubusercontent.com/30430227/163786559-ed0a8d34-432b-433d-b8b3-b00137493864.png)
+![image](https://user-images.githubusercontent.com/30430227/163788987-f1e4a4e6-2a8d-4127-aa58-d431aff4e348.png)
+
+**Influence > Paste Driver > Edit Driver>나머지도(-2, -1, 0)**
+
+![image](https://user-images.githubusercontent.com/30430227/163787812-e79e5022-533f-4f51-b943-d3a451161ce0.png)
+
+![image](https://user-images.githubusercontent.com/30430227/163789242-a9cf51eb-42bc-424a-95a9-794f4f340c1a.png)
+
+**Bone Manager Addon-Snap-back 프로퍼티**
+
+![image](https://user-images.githubusercontent.com/30430227/163789531-42158326-35c3-44d5-85e7-a0c1f962e9db.png)
+
+
+
+
+
+
 
