@@ -103,3 +103,12 @@ Rig Equipment Slot
 ![image](https://user-images.githubusercontent.com/30430227/163907755-32dd8feb-fceb-47b4-8c50-d58f86b1156b.png)
 
 
+Normal map
+----------
+
+![image](https://user-images.githubusercontent.com/30430227/163991404-94330fb5-73d4-45e2-b3bd-59ec4a32c525.png)
+![image](https://user-images.githubusercontent.com/30430227/163991449-6c05e0a0-3007-49d9-8578-6ff1f99299ec.png)
+
+![image](https://user-images.githubusercontent.com/30430227/163991490-3542284e-a7f0-408d-95f3-909512d5b8c9.png)
+
+
