@@ -76,9 +76,29 @@ Rig Equipment Slot
 
 ![image](https://user-images.githubusercontent.com/30430227/163789531-42158326-35c3-44d5-85e7-a0c1f962e9db.png)
 
+>>> 양 손 > IK 본 복사 'hand_ik.Snap.L/R' > Parent > Custom Shape Off
 
+![image](https://user-images.githubusercontent.com/30430227/163904889-6eb3f9ff-ab88-4c52-b3ad-6a7e2b132af5.png)
+![image](https://user-images.githubusercontent.com/30430227/163905105-ada17688-1290-4f1a-9294-69b9e6542b83.png)
 
+**hand_ik.Snap.L 복사 'hand_ik.SnapT.L' > Copy Transform
 
+![image](https://user-images.githubusercontent.com/30430227/163905437-36b4bf8b-cb13-45eb-a10a-55ce3d17fb00.png)
+
+**New bone 'bothHand' > Parent 'hand_ik.SnapT.L/R >
+
+![image](https://user-images.githubusercontent.com/30430227/163905967-fdc64a7f-d111-4531-948d-9ecf9cbfac6f.png)
+
+>> Custom Properties > Copy as New Driver > Paste
+
+![image](https://user-images.githubusercontent.com/30430227/163906249-0ecb3f5d-8431-4aec-bc80-a524bf3af9f1.png)
+
+![image](https://user-images.githubusercontent.com/30430227/163906406-545ce8fe-054a-4b02-921f-3ec129fc07a2.png)
+![image](https://user-images.githubusercontent.com/30430227/163906533-c99db4b5-220b-405a-8c94-2a981d98acd4.png)
+
+**bone Move
+
+![image](https://user-images.githubusercontent.com/30430227/163906997-b58fd272-5d5e-478a-8dc8-cfc5e160364a.png)
 
 
 
