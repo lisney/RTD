@@ -96,9 +96,10 @@ Rig Equipment Slot
 ![image](https://user-images.githubusercontent.com/30430227/163906406-545ce8fe-054a-4b02-921f-3ec129fc07a2.png)
 ![image](https://user-images.githubusercontent.com/30430227/163906533-c99db4b5-220b-405a-8c94-2a981d98acd4.png)
 
-**bone Move
+**bone Move > Rest Pose > hand_ik.Snap.R/L Copy Transforms의 Influence에도 BothHand Driver
 
 ![image](https://user-images.githubusercontent.com/30430227/163906997-b58fd272-5d5e-478a-8dc8-cfc5e160364a.png)
 
+![image](https://user-images.githubusercontent.com/30430227/163907755-32dd8feb-fceb-47b4-8c50-d58f86b1156b.png)
 
 
