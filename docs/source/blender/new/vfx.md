@@ -41,7 +41,7 @@ Light Path Node
 
 ![image](https://user-images.githubusercontent.com/30430227/164214450-8be14507-6ecb-467d-9861-8b7a836a3005.png)
 
->> Is Glossy Ray - 거울, 유리 포함
+>> Is Glossy Ray - 거울(Is Reflection,완전/불완전 반사 모두), 유리 포함
 
 ![image](https://user-images.githubusercontent.com/30430227/164214628-ae410f28-38a2-4e57-99af-e2c37673c0b1.png)
 
@@ -50,6 +50,15 @@ Light Path Node
 ![image](https://user-images.githubusercontent.com/30430227/164215073-6c521628-150c-4b7d-af35-54a05927b7e0.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/164215105-fe109982-ccc7-4028-8908-bfae653f0292.png)
+
+>> Is Singular Ray 완전반사, 유리
+
+![image](https://user-images.githubusercontent.com/30430227/164217223-b45ee16a-506b-4d91-b03b-f8c5af72a733.png)
+
+![image](https://user-images.githubusercontent.com/30430227/164217262-a7c62dd5-b0f1-4572-9674-ca52ca1e7030.png)
+
+![image](https://user-images.githubusercontent.com/30430227/164217314-a11ebe60-7ae6-497f-901c-06cdec74eca8.png)
+![image](https://user-images.githubusercontent.com/30430227/164217291-f7526928-1aa3-4bdf-91f4-0a7c3bc1a289.png)
 
 
 
