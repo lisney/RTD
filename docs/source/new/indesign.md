@@ -44,6 +44,10 @@ Indesign
 
 ![image](https://user-images.githubusercontent.com/30430227/165261980-0bb67c76-912d-4b8b-a329-0074a296c706.png)
 
+**목차 점선 폰트 줄이고, 간격 넓힌다**
+
+![image](https://user-images.githubusercontent.com/30430227/165914789-2f7569b7-8789-48e9-a74f-ed80c41c7cb6.png)
+
 
 중첩된 선 스타일 - 단락 스타일
 -----------------------------
@@ -64,6 +68,44 @@ Indesign
 
 ![image](https://user-images.githubusercontent.com/30430227/165875969-647e67c0-5ee5-490c-91a5-2252ee74fddc.png)
 
+**앵커 -프레임 우상단 파란 사각형을 드랙해서 단락 내 특정 위치에 놓는다(Shift-드랙 단락 안으로)**
+
+![image](https://user-images.githubusercontent.com/30430227/165910776-ed0c60b4-d8e8-47d5-920f-956bba339759.png)
+
+![image](https://user-images.githubusercontent.com/30430227/165910489-03712002-15d0-492e-8d66-17c0f48af97c.png)
+
+**밑줄옵션 Alt-클릭**
+
+![image](https://user-images.githubusercontent.com/30430227/165912557-184d9237-bf75-4e8d-beb6-7fed36fe1949.png)
+
+![image](https://user-images.githubusercontent.com/30430227/165912596-10c52269-64f7-49ef-928e-58b7b02099ff.png)
+
+**다단 단락에서 제목글 모든 단에 걸치기> 확장 Span Column**
+
+![image](https://user-images.githubusercontent.com/30430227/165915717-5c61245b-e804-4e52-8c2f-9d9fd7f702a1.png)
+
+![image](https://user-images.githubusercontent.com/30430227/165915704-efc177a6-94b6-4ed2-be0b-4ecc2e07a756.png)
+
+**일반 달락에서 일부 내용 다단 적용> 분할 Split Column**
+
+![image](https://user-images.githubusercontent.com/30430227/165916737-d816cbd3-d1bb-405f-a67c-3cfdc96cbb85.png)
+
+![image](https://user-images.githubusercontent.com/30430227/165916563-de08d419-0d0d-405b-8125-23ad3781d83d.png)
+
+**음영Shading, 테두리**
+
+![image](https://user-images.githubusercontent.com/30430227/165920646-11f48203-1f1a-4d1f-b348-110b5f01d202.png)
+
+![image](https://user-images.githubusercontent.com/30430227/165920402-d97269b8-77c9-4ff7-889e-3687c0dc963f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/165920456-37cb8767-9376-49b7-91d2-6a0b718e9ad5.png)
+
+![image](https://user-images.githubusercontent.com/30430227/165921733-2cf39dd3-2b64-4c0d-bc2f-a5fcc931325f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/165921789-c84d41d0-95a6-4855-a817-b4398286349e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/165921876-a26b4885-cae3-4486-9c06-ed3288dff99d.png)
+
 
 글꼴 필터
 -----------
@@ -76,10 +118,43 @@ Indesign
 
 ![image](https://user-images.githubusercontent.com/30430227/165876786-4089af87-52c1-43b9-bf32-451afd0bb2b8.png)
 
+**MS-Word 등 텍스트 가져오기 시 Shift- 자동 연속 페이지 채우기**
+
+**여러 이미지 <, >방향키**
+
+
 
 포토샵 레이어 옵션 -개체>개체 레이어 옵션
 ---------------------------------
 
 ![image](https://user-images.githubusercontent.com/30430227/165877377-26daec85-6be2-4077-8db4-37645670c453.png)
+
+**가져오기 옵션**
+
+![image](https://user-images.githubusercontent.com/30430227/165898808-91ff4b5b-9fee-4f86-a9e0-6efdfc7123e9.png)
+
+
+마스터 페이지 
+---------------
+
+**마스터 페이지 프레임 변경하기 - Ctrl-Shift-선택**
+
+**로컬재정의Override 제거-마스터페이지 원복**
+
+![image](https://user-images.githubusercontent.com/30430227/165880508-48e648c0-70b5-469e-b4eb-77306e55359c.png)
+
+
+현재 컬러를 Swatches에 저장
+--------------------------
+
+![image](https://user-images.githubusercontent.com/30430227/165901681-696dd465-f6e3-4530-b02a-a0526297bcf1.png)
+
+![image](https://user-images.githubusercontent.com/30430227/165901512-ed00e3c2-e939-4982-9dd9-de151fdbff97.png)
+
+
+패턴 복사
+----------
+
+``Alt - 드랙 중 방향키 > 패턴 갯수 추가``
 
 
