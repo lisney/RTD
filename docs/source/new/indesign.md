@@ -15,6 +15,8 @@ Indesign
   현재 위치에 붙여넣기: Shift-Ctrl-Alt-'V'
   화면 미리보기 'W', 프리젠테이션 Shift-'W'
   개체 > 배치: Ctrl-']', 맨 앞으로 가져오기: Ctrl-Shift-']'
+  
+  화면확대: 
 ```
 
 >>>모드 변경 - 집 아이콘 인디자인 아이콘 Click
@@ -49,5 +51,35 @@ Indesign
 ![image](https://user-images.githubusercontent.com/30430227/165666230-979105e8-d588-4ca2-a29c-fd49fbaa9755.png)
 
 **줄 문자 스타일 바꿈**
+
+
+단락 일부 스타일 변경 경고 표시 [a+] 버튼
+------------------------------
+
+![image](https://user-images.githubusercontent.com/30430227/165875372-3f11d127-59c3-4494-be22-fa57ef4c0914.png)
+
+![image](https://user-images.githubusercontent.com/30430227/165875356-bfabbe79-9251-4139-be43-7b071d1665c0.png)
+
+**단락 전체에 행간 적용 체크 - 일부 행간 변경이 해당 단락 전체에 적용된다**
+
+![image](https://user-images.githubusercontent.com/30430227/165875969-647e67c0-5ee5-490c-91a5-2252ee74fddc.png)
+
+
+글꼴 필터
+-----------
+
+![image](https://user-images.githubusercontent.com/30430227/165875603-7927f7e2-3f3c-4dce-8096-169986b8c41d.png)
+
+
+가져오기 시 선택한 항목 바꾸기
+---------------------------
+
+![image](https://user-images.githubusercontent.com/30430227/165876786-4089af87-52c1-43b9-bf32-451afd0bb2b8.png)
+
+
+포토샵 레이어 옵션 -개체>개체 레이어 옵션
+---------------------------------
+
+![image](https://user-images.githubusercontent.com/30430227/165877377-26daec85-6be2-4077-8db4-37645670c453.png)
 
 
