@@ -16,7 +16,15 @@ Indesign
   화면 미리보기 'W', 프리젠테이션 Shift-'W'
   개체 > 배치: Ctrl-']', 맨 앞으로 가져오기: Ctrl-Shift-']'
   
-  화면확대: 
+  텍스트 - 선택(더블클릭), 나가기(ESC)
+  
+  ALT: Alt-휠: 화면 확대, Alt-Drag: 화면 이동, Alt-앵커: 대화상자
+  
+  표// esc 키: 셀 내용 전체 선택
+  
+  컬러 - 'X' : fill/stroke 모드 전환, '/' : fill None, 'shift-X' : fill/stroke 교체
+  
+  Alt 
 ```
 
 >>>모드 변경 - 집 아이콘 인디자인 아이콘 Click
@@ -173,4 +181,12 @@ Indesign
 **Drop Shadow**
 
 ![image](https://user-images.githubusercontent.com/30430227/166180608-49c66031-b051-4f0c-9bd1-bdf139d1f010.png)
+
+
+그래디언트
+--------
+
+![image](https://user-images.githubusercontent.com/30430227/166209839-b3535b08-4a07-4456-af29-35468361c6a8.png)
+![image](https://user-images.githubusercontent.com/30430227/166209887-0905cf50-399c-4921-927c-e60dedbcbc85.png)
+
 
