@@ -107,6 +107,15 @@ Indesign
 ![image](https://user-images.githubusercontent.com/30430227/165921876-a26b4885-cae3-4486-9c06-ed3288dff99d.png)
 
 
+기존 단락에서 새 스타일 생성할 때
+---------------------------------
+
+``선택항목에 스타일 적용 체크``
+
+![image](https://user-images.githubusercontent.com/30430227/166172187-688e784f-894a-432a-ac5d-8235225f7996.png)
+
+
+
 글꼴 필터
 -----------
 
@@ -157,4 +166,11 @@ Indesign
 
 ``Alt - 드랙 중 방향키 > 패턴 갯수 추가``
 
+
+개체스타일
+----------
+
+**Drop Shadow**
+
+![image](https://user-images.githubusercontent.com/30430227/166180608-49c66031-b051-4f0c-9bd1-bdf139d1f010.png)
 
