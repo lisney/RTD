@@ -77,12 +77,25 @@ Indesign
 ![image](https://user-images.githubusercontent.com/30430227/166400051-08b0188a-338b-417d-94dd-6640fae493ab.png)
 
 
-중첩된 선 스타일, 단락(아래쪽) 경계선 - 단락 스타일
------------------------------
+중첩스타일 선(문장 줄) 스타일, 단락(아래쪽) 경계선 - 단락 스타일
+---------------------------------------------------
 
 ![image](https://user-images.githubusercontent.com/30430227/165666230-979105e8-d588-4ca2-a29c-fd49fbaa9755.png)
 
 **줄 문자 스타일 바꿈**
+
+**Grep조건에 맞춰 스타일 적용**
+
+![image](https://user-images.githubusercontent.com/30430227/166406047-e142d255-c51d-4144-bfae-2722e19b558e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/166406063-e502f7e0-ce8a-4ebe-a166-9527427b58cb.png)
+
+
+다음 스타일 
+-------------
+
+![image](https://user-images.githubusercontent.com/30430227/166403790-1ead60b9-932f-46de-a9ce-894ed5fafb57.png)
+
 
 
 단락 일부 스타일 변경 경고 표시 [a+] 버튼
@@ -142,11 +155,6 @@ Indesign
 
 ![image](https://user-images.githubusercontent.com/30430227/166172187-688e784f-894a-432a-ac5d-8235225f7996.png)
 
-
-다음 스타일 
--------------
-
-![image](https://user-images.githubusercontent.com/30430227/166403790-1ead60b9-932f-46de-a9ce-894ed5fafb57.png)
 
 
 글꼴 필터
