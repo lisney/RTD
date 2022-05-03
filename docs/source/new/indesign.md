@@ -18,13 +18,21 @@ Indesign
   
   텍스트 - 선택(더블클릭), 나가기(ESC)
   
-  ALT: Alt-휠: 화면 확대, Alt-Drag: 화면 이동, Alt-앵커: 대화상자
+  ALT: Alt-휠: 화면 확대, Alt-Drag: 화면 이동, Alt-앵커: 대화상자, Alt-버튼: 대화상자
   
   표// esc 키: 셀 내용 전체 선택
   
   컬러 - 'X' : fill/stroke 모드 전환, '/' : fill None, 'shift-X' : fill/stroke 교체
   
-  Alt 
+  문자/단락 컨트롤 토글: Ctrl-Alt-7, 컨트롤로 : Ctrl-6
+  
+  Power Zoom : Space-Grap Hold > 사각박스 생성 > 이동
+  
+  그리드화-텍스트/개체(라인도) 프레임: 프레임 그릴 때 방향키, 거터: Ctrl-방향키, Alt 복사 시 패턴복사 
+  
+  Distribute - 여러 개체 선택 > Shift-컨트롤 포인트-간격에 맞춰가며 정렬된다
+  
+  
 ```
 
 >>>모드 변경 - 집 아이콘 인디자인 아이콘 Click
@@ -188,5 +196,36 @@ Indesign
 
 ![image](https://user-images.githubusercontent.com/30430227/166209839-b3535b08-4a07-4456-af29-35468361c6a8.png)
 ![image](https://user-images.githubusercontent.com/30430227/166209887-0905cf50-399c-4921-927c-e60dedbcbc85.png)
+
+
+패스파인더 
+----------
+
+![image](https://user-images.githubusercontent.com/30430227/166390693-a324d9ec-4fa1-41a1-8c9e-f7060f4c0bea.png)
+
+
+안쪽에 붙이기 - 텍스트 프레임을 개체에 넣기 
+---------------------------------------
+
+![image](https://user-images.githubusercontent.com/30430227/166390981-e4eb7f5b-524d-41f0-9b22-b2a61cadb4bb.png)
+
+![image](https://user-images.githubusercontent.com/30430227/166391016-591cfeea-13db-41f9-98dc-710febbe9449.png)
+
+
+내용 인식 맞춤 -Content Aware Fit 인공지능?
+----------------------------
+
+![image](https://user-images.githubusercontent.com/30430227/166393792-ab12f053-4dbc-42d4-b41e-d451945d54bf.png)
+
+![image](https://user-images.githubusercontent.com/30430227/166393777-06020500-eb73-46ec-ba2a-e10033f5cee4.png)
+
+
+원문자 
+-------
+
+![image](https://user-images.githubusercontent.com/30430227/166394864-3469506f-05db-4a2d-b69e-c92a3d8ef547.png)
+
+![image](https://user-images.githubusercontent.com/30430227/166395022-a9b826f4-5fce-45ab-a368-5669accb9161.png)
+
 
 
