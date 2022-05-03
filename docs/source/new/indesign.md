@@ -77,7 +77,7 @@ Indesign
 ![image](https://user-images.githubusercontent.com/30430227/166400051-08b0188a-338b-417d-94dd-6640fae493ab.png)
 
 
-중첩된 선 스타일 - 단락 스타일
+중첩된 선 스타일, 단락(아래쪽) 경계선 - 단락 스타일
 -----------------------------
 
 ![image](https://user-images.githubusercontent.com/30430227/165666230-979105e8-d588-4ca2-a29c-fd49fbaa9755.png)
