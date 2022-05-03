@@ -9,7 +9,10 @@ Indesign
 ```
 * 단축키
   
-  폰트 사이즈: Shift-Ctrl-'<'
+  폰트 사이즈: Ctrl-Shift-'<'
+  - 위첨자/아래첨자 Ctrl-Shift(-Alt)-'+'
+  - 단어 간격 : Ctrl-Alt-Shift-'backspace' 또는 '\'
+  
   박스, 이미지 사이즈: Ctrl-'<'
   이미지 프레임에 맞추기: Shift-Ctrl-Alt-'E'
   현재 위치에 붙여넣기: Shift-Ctrl-Alt-'V'
@@ -18,7 +21,7 @@ Indesign
   
   텍스트 - 선택(더블클릭), 나가기(ESC)
   
-  ALT: Alt-휠: 화면 확대, Alt-Drag: 화면 이동, Alt-앵커: 대화상자, Alt-버튼: 대화상자
+  ALT: Alt-휠: 화면 확대, Alt-Drag: 화면 이동, Alt-앵커: 대화상자, Alt-버튼: 대화상자, 프레임 더블클릭: 대화상자
   
   표// esc 키: 셀 내용 전체 선택
   
@@ -63,6 +66,15 @@ Indesign
 **목차 점선 폰트 줄이고, 간격 넓힌다**
 
 ![image](https://user-images.githubusercontent.com/30430227/165914789-2f7569b7-8789-48e9-a74f-ed80c41c7cb6.png)
+
+
+**채움문자 자동 Shift-Tab**
+
+![image](https://user-images.githubusercontent.com/30430227/166399950-9ef874f2-06f0-4c79-a6c1-8ae5c088fd3f.png)
+
+``문자>숨겨진 문자 표시Ctrl-Alt-i``
+
+![image](https://user-images.githubusercontent.com/30430227/166400051-08b0188a-338b-417d-94dd-6640fae493ab.png)
 
 
 중첩된 선 스타일 - 단락 스타일
@@ -130,6 +142,11 @@ Indesign
 
 ![image](https://user-images.githubusercontent.com/30430227/166172187-688e784f-894a-432a-ac5d-8235225f7996.png)
 
+
+다음 스타일 
+-------------
+
+![image](https://user-images.githubusercontent.com/30430227/166403790-1ead60b9-932f-46de-a9ce-894ed5fafb57.png)
 
 
 글꼴 필터
