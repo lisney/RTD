@@ -240,7 +240,7 @@ Indesign
 
 ![image](https://user-images.githubusercontent.com/30430227/166637401-fe48f631-8918-4fa7-b8a6-897da3d21631.png)
 
-**표 셀 라운드-단락스타일로 표현**
+**표 셀 라운드-단락스타일로 표현(띄어쓰기 문자)**
 
 ![image](https://user-images.githubusercontent.com/30430227/166642662-0816f9dd-13c5-4adf-8962-cc070d0b608b.png)
 
