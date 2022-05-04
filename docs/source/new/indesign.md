@@ -240,6 +240,12 @@ Indesign
 
 ![image](https://user-images.githubusercontent.com/30430227/166637401-fe48f631-8918-4fa7-b8a6-897da3d21631.png)
 
+**표 셀 라운드-단락스타일로 표현**
+
+![image](https://user-images.githubusercontent.com/30430227/166642662-0816f9dd-13c5-4adf-8962-cc070d0b608b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/166642705-12796ede-496d-4ffc-b537-9ab04ee97e20.png)
+
 
 내용 인식 맞춤 -Content Aware Fit 인공지능?
 ----------------------------
