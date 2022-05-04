@@ -236,7 +236,7 @@ Indesign
 
 ![image](https://user-images.githubusercontent.com/30430227/166391016-591cfeea-13db-41f9-98dc-710febbe9449.png)
 
-**표 안쪽에 붙이기**
+**표 라운드 코너 - 안쪽에 붙이기로**
 
 ![image](https://user-images.githubusercontent.com/30430227/166637401-fe48f631-8918-4fa7-b8a6-897da3d21631.png)
 
