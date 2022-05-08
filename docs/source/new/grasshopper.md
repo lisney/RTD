@@ -1,7 +1,7 @@
 Grasshopper
 ============
 
-Region Intersection
+커브 내 포인트 선택 Region Intersection
 ---------------------
 
 ![image](https://user-images.githubusercontent.com/30430227/167286208-451f0d7d-998f-4114-ab9b-45ead8ebad46.png)
