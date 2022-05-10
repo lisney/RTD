@@ -13,3 +13,12 @@ Grasshopper
 ![image](https://user-images.githubusercontent.com/30430227/167286490-733dae27-1567-4a67-88c3-f6b0d1070831.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/167286497-df3b377a-f523-4992-abd4-32080d7b5e7e.png)
+
+
+패턴 
+----
+
+![image](https://user-images.githubusercontent.com/30430227/167533487-0af4b7e8-4619-4147-9a4b-72cc7e3b7541.png)
+
+![image](https://user-images.githubusercontent.com/30430227/167533597-e5eb3920-cede-41ae-a2cb-fd01da836f54.png)
+
