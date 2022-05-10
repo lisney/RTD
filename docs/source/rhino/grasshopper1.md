@@ -533,6 +533,13 @@ Sort
 
 <br>
 
+![image](https://user-images.githubusercontent.com/30430227/167586304-97ed6db0-b834-4887-bb91-25c68b686dc6.png)
+
+![image](https://user-images.githubusercontent.com/30430227/167586367-05f50740-2439-4843-8f3b-bb4a05a9e688.png)
+
+**Flip UV: Type 'dir'**
+
+
 Path Mapper
 -------------
 
