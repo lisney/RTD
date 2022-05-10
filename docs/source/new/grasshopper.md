@@ -22,3 +22,13 @@ Grasshopper
 
 ![image](https://user-images.githubusercontent.com/30430227/167533597-e5eb3920-cede-41ae-a2cb-fd01da836f54.png)
 
+
+Shrink Trimmed Surface(Pufferfish)
+-------------------------------
+
+``Surface Split 후 Isotrim이 개별로 먹히지 않을 때``
+
+![image](https://user-images.githubusercontent.com/30430227/167541087-d1463ec6-df5d-463c-ab14-774f6a760fac.png)
+
+![image](https://user-images.githubusercontent.com/30430227/167541128-5c16a590-0052-4602-8339-be387c610d16.png)
+
