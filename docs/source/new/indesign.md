@@ -263,4 +263,9 @@ Indesign
 ![image](https://user-images.githubusercontent.com/30430227/166395022-a9b826f4-5fce-45ab-a368-5669accb9161.png)
 
 
+기준선 격자에 정렬 - 단락
+------------------------
+
+![image](https://user-images.githubusercontent.com/30430227/167747494-dff9733e-3fda-4fea-b51d-e29226edec87.png)
+
 
