@@ -7,6 +7,10 @@ Grasshopper 2
 
 ![image](https://user-images.githubusercontent.com/30430227/147461758-3e6b2b1d-7e8b-4418-b749-9ab08cdc7426.png)
 
+``위에꺼 심플하게``
+
+![image](https://user-images.githubusercontent.com/30430227/167809010-dd4d6802-0e8e-4a15-8939-e547f08437bb.png)
+
 <br>
 
 ![image](https://user-images.githubusercontent.com/30430227/147462135-862f14ff-52f9-4bf3-82b3-db55dd96e722.png)
