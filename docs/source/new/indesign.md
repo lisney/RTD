@@ -297,4 +297,18 @@ PopUp 버튼 - 가시성 버튼 안보일 시 파일 닫았다 다시 열기
 ![image](https://user-images.githubusercontent.com/30430227/168221103-ac37e6ee-1c3d-4eb6-97ee-6be0c164ad95.png)
 
 
+애니메이션 버튼
+--------------
+
+![image](https://user-images.githubusercontent.com/30430227/168260786-6d4f5511-5535-494a-80e1-1825c6ca49f5.png)
+
+``오른쪽 단추 트리거 만들기 버튼> 버튼 개체 선택``
+
+![image](https://user-images.githubusercontent.com/30430227/168260414-e2a12f64-1932-46a6-ad61-1c78ea316dde.png)
+
+``왼쪽 아래 미리보기 버튼``
+
+![image](https://user-images.githubusercontent.com/30430227/168260665-390e9061-a1b7-4bb9-b440-9eef1b62b6a6.png)
+
+
 
