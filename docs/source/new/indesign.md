@@ -269,3 +269,13 @@ Indesign
 ![image](https://user-images.githubusercontent.com/30430227/167747494-dff9733e-3fda-4fea-b51d-e29226edec87.png)
 
 
+특정 문자 앞 스타일 GREP
+------------------------
+
+![image](https://user-images.githubusercontent.com/30430227/168200682-5658af43-a184-4186-a268-b8b77f3d76d5.png)
+
+``..(?=번)``
+
+![image](https://user-images.githubusercontent.com/30430227/168200747-9b0c8817-d02a-4e06-a5a0-0cd3b67b18d3.png)
+
+
