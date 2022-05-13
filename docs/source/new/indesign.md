@@ -283,3 +283,18 @@ Indesign
 ![image](https://user-images.githubusercontent.com/30430227/168200747-9b0c8817-d02a-4e06-a5a0-0cd3b67b18d3.png)
 
 
+PopUp 버튼 - 가시성 버튼 안보일 시 파일 닫았다 다시 열기
+----------------------------------------------
+
+![image](https://user-images.githubusercontent.com/30430227/168220950-2bbc96fd-0041-458e-a8d2-1b2ceeefb0a0.png)
+
+![image](https://user-images.githubusercontent.com/30430227/168220987-bfe9e9a7-0f7a-442d-bd64-3e3bd2e2aeee.png)
+
+![image](https://user-images.githubusercontent.com/30430227/168221024-25a6ae1d-686c-4d3e-9330-094cc5d4524b.png)
+
+``팝업 창 버튼 숨기기``
+
+![image](https://user-images.githubusercontent.com/30430227/168221103-ac37e6ee-1c3d-4eb6-97ee-6be0c164ad95.png)
+
+
+
