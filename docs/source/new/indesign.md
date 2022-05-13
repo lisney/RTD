@@ -57,7 +57,11 @@ Indesign
 
 ![image](https://user-images.githubusercontent.com/30430227/165259854-4fbd8eb3-bb7b-4b5b-9b09-b6f3cba28ce2.png)
 
-![image](https://user-images.githubusercontent.com/30430227/165261121-640ce5a0-ca1f-44db-b442-47369e3dbf45.png)
+**목자 제목, 본문 스타일 적용**
+
+![image](https://user-images.githubusercontent.com/30430227/168205828-ec21d913-b7d1-4309-90cd-93758aadebe9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/168205864-c734c6a3-a2d3-47fa-91b2-b929932ad790.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/165262256-5c5eb38a-ec12-4672-bbc0-3138166dbe9d.png)
 
