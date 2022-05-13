@@ -269,7 +269,7 @@ Indesign
 ![image](https://user-images.githubusercontent.com/30430227/167747494-dff9733e-3fda-4fea-b51d-e29226edec87.png)
 
 
-특정 문자 앞 스타일 GREP
+특정 문자 앞 스타일 GREP -numberpile 폰트
 ------------------------
 
 ![image](https://user-images.githubusercontent.com/30430227/168200682-5658af43-a184-4186-a268-b8b77f3d76d5.png)
