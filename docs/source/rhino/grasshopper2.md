@@ -35,6 +35,10 @@ Grasshopper 2
 
 ![image](https://user-images.githubusercontent.com/30430227/147468639-3cd4b9f5-c54b-4a0f-af29-22cde78c7544.png)
 
+``위에꺼 심플``
+
+![image](https://user-images.githubusercontent.com/30430227/167814985-adbf5596-a5d0-4802-a9de-7308bbe09cff.png)
+
 ![image](https://user-images.githubusercontent.com/30430227/147468988-59d0d81d-4fd4-4c92-8104-f868816e4929.png)
 ![image](https://user-images.githubusercontent.com/30430227/147469014-6dff9969-46c8-4ae5-917a-9e3883c00956.png)
 
@@ -84,7 +88,7 @@ Grasshopper 2
 
 <br>
 
-5. 악어 무늬 
+5. 악어 무늬 - Dispatch 패턴으로 리스트 분리
 
 ![image](https://user-images.githubusercontent.com/30430227/147530466-30a03444-b0cf-4571-b613-c7d122fa6265.png)
 
