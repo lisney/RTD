@@ -266,6 +266,12 @@ Indesign
 
 ![image](https://user-images.githubusercontent.com/30430227/166395022-a9b826f4-5fce-45ab-a368-5669accb9161.png)
 
+**단락 스타일 방법**
+
+![image](https://user-images.githubusercontent.com/30430227/168742057-b46e85e6-1da7-4b6a-8468-064db0c8207d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/168742109-286ec245-246f-4744-bee8-00eb5ad175e0.png)
+
 
 기준선 격자에 정렬 - 단락
 ------------------------
