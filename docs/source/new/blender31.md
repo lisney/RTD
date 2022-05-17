@@ -18,3 +18,14 @@ Blender3.1
 ![image](https://user-images.githubusercontent.com/30430227/168701804-82da7f98-490e-4364-9f82-5233e3bb7721.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/168701865-1b15e853-4344-480a-90b2-f94545e81e0e.png)
+
+
+Sci-Fi - with JSplacement
+---------------------
+
+![image](https://user-images.githubusercontent.com/30430227/168704473-f0a2f6fa-6c63-4b2e-a066-745c7afbc09d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/168704521-0b4f463c-90ba-4c67-a422-68c970d7bd59.png)
+
+![image](https://user-images.githubusercontent.com/30430227/168704532-888af031-cba7-4058-9fb1-c705b23a4dff.png)
+
