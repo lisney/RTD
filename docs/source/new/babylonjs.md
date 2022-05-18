@@ -136,5 +136,26 @@ firstChild VS firstElementChild : 전자는 element,text,comment Node 반환, �
     </script>
 ```
 
+3. Element 생성과 추가
+
+![image](https://user-images.githubusercontent.com/30430227/168986844-7c8992e5-9f9b-4075-b2e5-2663e5c8dc65.png)
+
+```
+*innerHTML-HTML String, appendChild-Node Object
+
+<ul></ul>
+
+<script>
+    const list = document.querySelector('ul');
+
+    let data =['인디자인','자바스크립트','블렌더']
+
+    data.forEach(i=>{
+        const li = document.createElement('li')
+        li.innerHTML=`${i}`
+        list.appendChild(li)
+    })
+</script>
+```
 
 
