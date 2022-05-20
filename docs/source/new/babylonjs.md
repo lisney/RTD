@@ -158,4 +158,115 @@ firstChild VS firstElementChild : 전자는 element,text,comment Node 반환, �
 </script>
 ```
 
+첫번째 Scene 
+-------------
+
+![image](https://user-images.githubusercontent.com/30430227/154913160-c1a90de8-f027-4330-bf58-e547485c4a3c.png)
+
+```
+# router.mjs
+import express from "express";
+
+export const router = express.Router();
+
+router.get("/", async (req, res) => {
+  res.render("home");
+});
+
+
+# app.js
+import express from "express";
+import { engine } from "express-handlebars";
+import path from "path";
+import { createRequire } from "module";
+
+const app = express();
+const __dirname = path.resolve();
+const require = createRequire(import.meta.url);
+const port = 3000;
+
+app.engine(
+  "hbs",
+  engine({
+    extname: "hbs",
+    defaultLayout: "main",
+  })
+);
+
+app.set("view engine", "hbs");
+app.set("views", "./views");
+
+app.use(express.static(__dirname));
+app.use((req, res, next) => {
+  next();
+});
+
+import { router } from "./router.mjs";
+app.use("/", router);
+
+app.listen(port, ["192,168.0.21"], () => {
+  console.log(`The server is running on port ${port}`);
+});
+
+
+# style.css
+body,
+#renderCanvas {
+  width: 100%;
+  height: 100%;
+}
+
+
+# main.hbs
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="renderCanvas"></canvas>
+
+  <script src="https://cdn.babylonjs.com/babylon.js"></script>
+  {{{body}}}
+</body>
+</html>
+
+
+# home.hbs
+<script>
+    const canvas = document.querySelector('#renderCanvas')
+    const engine = new BABYLON.Engine(canvas, true)//antialis true
+
+    function createScene(){
+        const scene = new BABYLON.Scene(engine)
+        scene.clearColor = new BABYLON.Color3.Black
+
+        const radius = 5
+        const target = new BABYLON.Vector3(0,0,0)
+
+        const camera  = new BABYLON.ArcRotateCamera('Cam', Math.PI/4, Math.PI/3, radius, target, scene)
+        camera.attachControl(canvas, true)
+        camera.wheelPrecision = 100//숫자 낮으면 민감
+
+        const light = new BABYLON.HemisphericLight('Light', new BABYLON.Vector3(4,3,2))
+
+        const box = BABYLON.MeshBuilder.CreateBox('Box', {})
+        //box.position.x = 0.5
+        box.position = new BABYLON.Vector3(0.5,1,0)
+
+        return scene
+    }
+
+    const sceneToRender= createScene()
+
+    engine.runRenderLoop(()=>{
+        sceneToRender.render()
+    })
+
+</script>
+
+```
+
 
