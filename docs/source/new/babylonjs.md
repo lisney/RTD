@@ -226,16 +226,22 @@ body,
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <canvas id="renderCanvas"></canvas>
 
   <script src="https://cdn.babylonjs.com/babylon.js"></script>
+  <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+  <script src="https://unpkg.com/earcut@2.2.3/dist/earcut.min.js"></script>//ExtrudePolygon은 Earcut라이브러리 필요
+  <script src="https://preview.babylonjs.com/gui/babylon.gui.min.js"></script>
+
   {{{body}}}
 </body>
 </html>
 
 
 # home.hbs
-<script>
+  <canvas id="renderCanvas"></canvas>
+
+
+# babylon.js
     const canvas = document.querySelector('#renderCanvas')
     const engine = new BABYLON.Engine(canvas, true)//antialis true
 
@@ -264,8 +270,6 @@ body,
     engine.runRenderLoop(()=>{
         sceneToRender.render()
     })
-
-</script>
 
 ```
 
