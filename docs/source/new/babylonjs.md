@@ -66,12 +66,23 @@ app.listen(3000);
 자바스크립트 
 ---------------
 
-1.문자열 3총사
+1.문자열, 배열
 
 ```
 userEmail.indexOf('@') //문자열에서 @문자가 있으면 그 위치의 Index 값 반환
-phoneNum.substr(4,9) //빼내기, 4번째 인덱스부터 9번째까지 반환(인수 9가 없으면 4이후 전부 반환)
-phoneNum.split('-') //문자 '-'를 기준으로 분리한 요소를 배열로 반환
+문자열.substr(4,9) //빼내기, 4번째 인덱스부터 9번째까지 반환(인수 9가 없으면 4이후 전부 반환)
+문자열.split('-') //문자 '-'를 기준으로 분리한 요소를 배열로 반환(<=> 배열.join('--')
+배열.splice(0,1) : 배열에서 0~1번째 인덱스 요소를 삭제하고 삭제한 요소를 리턴=> 객체.slice 배열 원본은 보존/리턴
+
+클래스 객체 배열의 경우...
+Students.find(함수(student, index){return student.score===90} 
+//data.scre가 90인 첫번째 요소에서 멈추고 해당 요소만 리턴(=>배열.filter 조건에 맞는 모든 요소 배열로 리턴)
+
+Students.map(student=>student.score) //클래스 객체를 클래스 멤버변수로 매핑 즉 맴버 변수만 배열로 리턴
+
+Students.reduce((prev, curr)=>{return prev + curr.score},0) // 중괄호 없어도 된다
+//누적값 리턴, 초기값: 0, 순차적으로 return 한 값이 다음 번 prev의 값으로 들어간다.
+
 ```
 
 2. HTML DOM Node
@@ -156,6 +167,83 @@ firstChild VS firstElementChild : 전자는 element,text,comment Node 반환, �
         list.appendChild(li)
     })
 </script>
+```
+
+4. Promise 
+
+```
+상태 : Pending, Fulfill-다하다, 완료, reject
+
+# 프로미스는 자바스크립트 기본 클래스이자 객체 생성 시 바로 실행된다. 비동기적으로..결과는 res, rej
+const promise = new Promise((res, rej) => {
+  setTimeout(() => {
+    console.log("ellie");
+  }, 2000);
+});
+
+
+# 프로미스 실행 결과(resolve 혹은 reject)를 사용하는 방법
+const promise = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("ellie");
+  }, 2000);
+});
+
+promise.then((value) => {
+  console.log(value);
+});
+
+
+# 프로미스 사용하기 chaining
+const promise = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve(1);
+  }, 2000);
+});
+
+promise
+  .then((num) => num * 2)
+  .then((num) => num * 3)
+  .then((num) => {
+    console.log(num);
+    return new Promise((resolve, reject) => {
+      setTimeout(() => resolve(num - 1), 2000);
+    });
+  })
+  .then((num) => console.log(num));
+
+```
+
+5. 프로미스를 깔끔하게 사용하기 async, await
+
+```
+# 프로미스로는
+function fetchUser() {
+  return new Promise((resolve, reject) => {
+    resolve("ellie");
+  });
+}
+
+const user = fetchUser();//사용자 데이터를 백앤드로 받아오는 함수
+
+user.then(console.log);//user=>console.log(user) 의 축약형(전달 인수와 받는 함수의 인수가 같을 때 생략)
+
+// console.log(user);//프로미스 실행 상태를 볼 수 있다(pending, fulfilled, reject)
+
+
+# async로 바꾸면
+async function fetchUser() {
+  return "ellie";
+}
+
+const user = fetchUser();
+
+user.then(console.log);
+
+
+# await
+
+
 ```
 
 첫번째 Scene 
@@ -270,7 +358,53 @@ body,
     engine.runRenderLoop(()=>{
         sceneToRender.render()
     })
+```
+
+
+GLTF 로더 
+-------------
+
+![image](https://user-images.githubusercontent.com/30430227/169491561-9cec2c04-11ac-4553-a4f5-764cb86f2b9c.png)
 
 ```
+const canvas = document.querySelector("#renderCanvas");
+const engine = new BABYLON.Engine(canvas, true);
+
+function createScene() {
+  const scene = new BABYLON.Scene(engine);
+
+  const camera = new BABYLON.ArcRotateCamera(
+    "Cam",
+    Math.PI / 4,
+    Math.PI / 3,
+    10,
+    new BABYLON.Vector3(0, 0, 0)
+  );
+  camera.attachControl(canvas, true);
+  camera.wheelPrecision = 100;
+
+  const light = new BABYLON.HemisphericLight(
+    "Light",
+    new BABYLON.Vector3(1, 1, 0)
+  );
+
+  BABYLON.SceneLoader.ImportMeshAsync("", "./gltfs/", "afo.gltf");
+
+  const ground = BABYLON.MeshBuilder.CreateGround("Ground", {
+    width: 10,
+    height: 10,
+  });
+
+  return scene;
+}
+
+const sceneToRender = createScene();
+
+engine.runRenderLoop(() => {
+  sceneToRender.render();
+});
+
+```
+
 
 
