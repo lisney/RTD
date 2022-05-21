@@ -319,6 +319,8 @@ body,
   <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
   <script src="https://unpkg.com/earcut@2.2.3/dist/earcut.min.js"></script>//ExtrudePolygon은 Earcut라이브러리 필요
   <script src="https://preview.babylonjs.com/gui/babylon.gui.min.js"></script>
+  
+  <script defer src="https://preview.babylonjs.com/gui/babylon.gui.min.js"></script>//defer연기하다. 일단 다운로드 받기시작 HTML로딩 후에 순차적으로 실행
 
   {{{body}}}
 </body>
