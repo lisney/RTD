@@ -467,6 +467,96 @@ async function createScene() {
   return scene;
 }
 
+```
+
+
+블랜더 GLTF Animation 
+-----------------------
+
+![image](https://user-images.githubusercontent.com/30430227/169786317-7133f653-0df1-437d-9845-645050b4971d.png)
 
 ```
+dispose 폐기하다, 처분하다//메모리에서 제거
+
+움직이지 않는 Act 그룹을 먼저 만든다(별아이콘 이름으로 그룹짓는다)
+
+Export 시 Punctual Lights 체크 - 블랜더 조명
+```
+
+![image](https://user-images.githubusercontent.com/30430227/169786222-5c86bc86-c795-4a2d-97f8-a7290def13fa.png)
+
+![image](https://user-images.githubusercontent.com/30430227/169786658-05583dd9-61e8-4d0e-baba-3853a459f074.png)
+
+
+```
+const canvas = document.querySelector("#renderCanvas");
+
+const engine = new BABYLON.Engine(canvas, true);
+
+async function startRenderLoop(sceneToRender) {
+  engine.runRenderLoop(() => {
+    sceneToRender.render();
+  });
+}
+
+createScene().then(startRenderLoop);
+
+async function createScene() {
+  const scene = new BABYLON.Scene(engine);
+
+  const light = new BABYLON.PointLight(
+    "Light",
+    new BABYLON.Vector3(0, 100, 100),
+    scene
+  );
+  const camera = new BABYLON.ArcRotateCamera(
+    "Camera",
+    0,
+    1,
+    5,
+    new BABYLON.Vector3.Zero(),
+    scene
+  );
+  camera.attachControl(canvas, true);
+  camera.wheelPrecision = 100;
+
+  BABYLON.SceneLoader.ImportMeshAsync("", "./gltfs/", "minami.glb", scene);
+
+  const advancedTexture =
+    BABYLON.GUI.AdvancedDynamicTexture.CreateFullscreenUI("UI");
+
+  const btn1 = BABYLON.GUI.Button.CreateSimpleButton("Btn1", "클릭클릭");
+  btn1.width = "150px";
+  btn1.height = "40px";
+  btn1.left = "-200px";
+  btn1.top = "100px";
+  btn1.color = "white";
+  btn1.onPointerUpObservable.add(() => {
+    scene.stopAllAnimations();
+    scene.animationGroups[2].play(true);
+  });
+
+  advancedTexture.addControl(btn1);
+
+  const btn2 = BABYLON.GUI.Button.CreateImageOnlyButton(
+    "Btn2",
+    "images/4g2.jpg"
+  );
+  btn2.width = "150px";
+  btn2.height = "150px";
+  btn2.top = "100px";
+  btn2.hoverCursor = "pointer";
+  btn2.onPointerUpObservable.add(() => {
+    scene.stopAllAnimations();
+    scene.animationGroups[1].play(true);
+  });
+
+  advancedTexture.addControl(btn2);
+
+  return scene;
+}
+
+```
+
+/Skybox
 
