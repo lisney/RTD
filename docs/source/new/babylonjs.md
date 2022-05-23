@@ -409,4 +409,64 @@ engine.runRenderLoop(() => {
 ```
 
 
+비동기적 실행과 기본 버튼 생성
+-------------------------------
+
+![image](https://user-images.githubusercontent.com/30430227/169730870-00f92c36-45d3-42e7-9de1-6d947ece9b2a.png)
+
+```
+const canvas = document.querySelector("#renderCanvas");
+
+const engine = new BABYLON.Engine(canvas, true);
+
+async function startRenderLoop(sceneToRender) {
+  engine.runRenderLoop(() => {
+    sceneToRender.render();
+  });
+}
+
+createScene().then(startRenderLoop);
+
+async function createScene() {
+  const scene = new BABYLON.Scene(engine);
+
+  const light = new BABYLON.PointLight(
+    "Light",
+    new BABYLON.Vector3(0, 100, 100),
+    scene
+  );
+  const camera = new BABYLON.ArcRotateCamera(
+    "Camera",
+    0,
+    1,
+    5,
+    new BABYLON.Vector3.Zero(),
+    scene
+  );
+  camera.attachControl(canvas, true);
+  camera.wheelPrecision = 100;
+
+  const box1 = BABYLON.Mesh.CreateBox("Box1", 1, scene);
+  box1.position.y = 1;
+
+  const matBox = new BABYLON.StandardMaterial("MatBox", scene);
+  matBox.diffuseColor = new BABYLON.Color3(0, 1, 0);
+
+  box1.material = matBox;
+
+  const advancedTexture =
+    BABYLON.GUI.AdvancedDynamicTexture.CreateFullscreenUI("UI");
+
+  const btn1 = BABYLON.GUI.Button.CreateSimpleButton("Btn1", "클릭클릭");
+  btn1.width = "150px";
+  btn1.height = "40px";
+  btn1.onPointerUpObservable.add(() => [alert("니주글래!")]);
+
+  advancedTexture.addControl(btn1);
+
+  return scene;
+}
+
+
+```
 
