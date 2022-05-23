@@ -478,7 +478,7 @@ async function createScene() {
 ```
 dispose 폐기하다, 처분하다//메모리에서 제거
 
-움직이지 않는 Act 그룹을 먼저 만든다(별아이콘 이름으로 그룹짓는다)
+키프레임 그룹 : 움직이지 않는 Act 그룹을 먼저 만든다(별아이콘 같은 이름 = 그룹명)
 
 Export 시 Punctual Lights 체크 - 블랜더 조명
 ```
