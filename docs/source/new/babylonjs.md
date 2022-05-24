@@ -590,7 +590,7 @@ async function createScene() {
     new BABYLON.Vector3.Zero(),
     scene
   );
-  camera.attachControl(canvas, true);
+  camera.attachControl(canvas, false);//true: Canvas 이벤트를 받는다(마우스휠 영향) 
   camera.wheelPrecision = 100;
 
   BABYLON.SceneLoader.ImportMeshAsync(
