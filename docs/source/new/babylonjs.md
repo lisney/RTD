@@ -664,6 +664,8 @@ async function createScene() {
 Skybox 용 .env 파일 만들기 
 --------------------
 
+![image](https://user-images.githubusercontent.com/30430227/169996866-9e82cd27-2c61-4b36-9efe-9591df06de7a.png)
+
 ```
 # dds대신 env 텍스쳐로 대체
 
