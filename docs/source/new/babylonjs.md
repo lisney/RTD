@@ -661,7 +661,7 @@ async function createScene() {
 
 ```
 
-.env 파일 만들기 
+Skybox 용 .env 파일 만들기 
 --------------------
 
 ```
