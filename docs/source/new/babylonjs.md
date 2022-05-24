@@ -661,3 +661,18 @@ async function createScene() {
 
 ```
 
+.env 파일 만들기 
+--------------------
+
+```
+# dds대신 env 텍스쳐로 대체
+
+  const hdrTexture = new BABYLON.CubeTexture("images/environment.env", scene);
+
+  const currentSkybox = scene.createDefaultSkybox(hdrTexture, true);
+
+# 바빌론 SANDBOX에 아무 씬이나 넣은 후 HDR 텍스쳐를 드랙해서 넣으면 메뉴가 생성된다
+```
+
+![image](https://user-images.githubusercontent.com/30430227/169995070-345f3e2d-21c3-4506-9ab6-4659ad9737c2.png)
+
