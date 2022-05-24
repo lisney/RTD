@@ -558,5 +558,106 @@ async function createScene() {
 
 ```
 
-/Skybox
+SkyBox Stack UI
+-----------------
+
+![image](https://user-images.githubusercontent.com/30430227/169964778-d331c338-f5bb-4bbf-8fe7-37012446bdb7.png)
+
+```
+# dds : directDrawSurface 바빌론 Skybox 용 HDRI 이미지보다 작은 용량이라는데...
+
+
+const canvas = document.querySelector("#renderCanvas");
+
+const engine = new BABYLON.Engine(canvas, true);
+
+async function startRenderLoop(sceneToRender) {
+  engine.runRenderLoop(() => {
+    sceneToRender.render();
+  });
+}
+
+createScene().then(startRenderLoop);
+
+async function createScene() {
+  const scene = new BABYLON.Scene(engine);
+
+  const camera = new BABYLON.ArcRotateCamera(
+    "Camera",
+    0,
+    1,
+    5,
+    new BABYLON.Vector3.Zero(),
+    scene
+  );
+  camera.attachControl(canvas, true);
+  camera.wheelPrecision = 100;
+
+  BABYLON.SceneLoader.ImportMeshAsync(
+    "",
+    "./gltfs/",
+    "minami.glb",
+    scene,
+    function () {
+      const advancedTexture =
+        BABYLON.GUI.AdvancedDynamicTexture.CreateFullscreenUI("UI");
+
+      const UiPanel = new BABYLON.GUI.StackPanel();
+      UiPanel.width = "220px";
+      UiPanel.fontSize = "14px";
+      UiPanel.horizontalAlignment =
+        BABYLON.GUI.Control.HORIZONTAL_ALIGNMENT_RIGHT;
+      advancedTexture.addControl(UiPanel);
+
+      let nbButtons = 1;
+
+      const addButton = function (text, parent, onPointerUpObservable) {
+        const button = BABYLON.GUI.Button.CreateSimpleButton(
+          "but" + nbButtons++,
+          text
+        );
+        button.paddingTop = "10px";
+        button.width = "100px";
+        button.height = "50px";
+        button.color = "white";
+        button.background = "green";
+        button.hoverCursor = "pointer";
+        button.onPointerUpObservable.add(onPointerUpObservable);
+        parent.addControl(button);
+      };
+
+      addButton("Clean Animations", UiPanel, () => {
+        scene.stopAllAnimations();
+      });
+
+      addButton("Minami", UiPanel, () => {
+        scene.animationGroups[1].play(true);
+      });
+
+      const button = BABYLON.GUI.Button.CreateImageOnlyButton(
+        "4G2",
+        "images/4g2.jpg"
+      );
+      button.paddingTop = "10px";
+      button.width = "100px";
+      button.height = "100px";
+      button.onPointerUpObservable.add(() => {
+        scene.stopAllAnimations();
+        scene.animationGroups[1].play(true);
+      });
+
+      UiPanel.addControl(button);
+    }
+  );
+
+  const hdrTexture = BABYLON.CubeTexture.CreateFromPrefilteredData(
+    "images/environment.dds", 
+    scene
+  );
+  const currentSkybox = scene.createDefaultSkybox(hdrTexture, true);
+
+  return scene;
+}
+
+```
 
