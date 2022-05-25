@@ -685,8 +685,8 @@ Skybox 용 .env 파일 만들기
 ![image](https://user-images.githubusercontent.com/30430227/170226120-1dbef7f1-42d9-4001-b6fe-21201fdd35da.png)
 
 ```
-.createInstance 인스턴스 복사
-mesh.parent mesh의 원점이 부모의 원점으로 이동
+# .createInstance 인스턴스 복사
+# mesh.parent mesh의 원점이 부모의 원점으로 이동
 
 const canvas = document.querySelector("#renderCanvas");
 
