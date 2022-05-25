@@ -679,7 +679,7 @@ Skybox 용 .env 파일 만들기
 ![image](https://user-images.githubusercontent.com/30430227/169995070-345f3e2d-21c3-4506-9ab6-4659ad9737c2.png)
 
 
-백그라운드 머티리얼 - 장면에 사용되는 재질
+백그라운드 머티리얼 -  Environment에 사용되는 재질
 -----------------------------------------
 
 ![image](https://user-images.githubusercontent.com/30430227/170226120-1dbef7f1-42d9-4001-b6fe-21201fdd35da.png)
