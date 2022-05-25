@@ -678,3 +678,91 @@ Skybox 용 .env 파일 만들기
 
 ![image](https://user-images.githubusercontent.com/30430227/169995070-345f3e2d-21c3-4506-9ab6-4659ad9737c2.png)
 
+
+백그라운드 머티리얼 - 장면에 사용되는 재질
+-----------------------------------------
+
+![image](https://user-images.githubusercontent.com/30430227/170226120-1dbef7f1-42d9-4001-b6fe-21201fdd35da.png)
+
+```
+.createInstance 인스턴스 복사
+mesh.parent mesh의 원점이 부모의 원점으로 이동
+
+const canvas = document.querySelector("#renderCanvas");
+
+const engine = new BABYLON.Engine(canvas, true);
+
+var createScene = function () {
+  // This creates a basic Babylon Scene object (non-mesh)
+  var scene = new BABYLON.Scene(engine);
+  scene.useRightHandedSystem = true;
+  BABYLON.SceneLoader.ImportMesh(
+    "",
+    "gltfs/",
+    "minami.glb",
+    scene,
+    function (meshes) {
+      const parent = new BABYLON.TransformNode("parent");
+
+      // Original mesh
+      const mesh = scene.getMeshByName("Cube");
+      mesh.parent = parent;
+      // mesh.position = new BABYLON.Vector3(0, 2, 0);
+      parent.position = new BABYLON.Vector3(0, -1, 0);
+
+      // Instance
+      const meshInstance = scene.meshes[3].createInstance("meshInstance");
+      meshInstance.position = new BABYLON.Vector3(5, 0, 0);
+
+      // This creates a light, aiming 0,1,0 - to the sky (non-mesh)
+      var light = new BABYLON.DirectionalLight(
+        "light",
+        new BABYLON.Vector3(2, -2, -2),
+        scene
+      );
+
+      // Our built-in 'ground' shape.
+      var ground = BABYLON.MeshBuilder.CreateGround(
+        "ground",
+        { width: 40, height: 40 },
+        scene
+      );
+      ground.position = new BABYLON.Vector3(0, -1, 0);
+
+      const backgroundMaterial = new BABYLON.BackgroundMaterial(
+        "BackgroundMaterial",
+        scene
+      );
+      backgroundMaterial.shadowOnly = true;
+      ground.material = backgroundMaterial;
+
+      var shadowGenerator = new BABYLON.ShadowGenerator(1024, light);
+      shadowGenerator.bias = 0;
+      // shadowGenerator.addShadowCaster(meshInstance, true);
+      scene.meshes.forEach((mesh) => {
+        shadowGenerator.addShadowCaster(mesh, true);
+      });
+      ground.receiveShadows = true;
+    }
+  );
+
+  var camera = new BABYLON.ArcRotateCamera(
+    "camera",
+    Math.PI / 2,
+    0.9,
+    50,
+    new BABYLON.Vector3(0, 2, 0),
+    scene
+  );
+  camera.attachControl(canvas, true);
+
+  return scene;
+};
+
+const sceneToRender = createScene();
+
+engine.runRenderLoop(() => {
+  sceneToRender.render();
+});
+
+```
