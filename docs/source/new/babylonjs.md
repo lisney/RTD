@@ -766,3 +766,100 @@ engine.runRenderLoop(() => {
 });
 
 ```
+
+
+백그라운드 머티리얼 연습 
+-----------------------
+
+![image](https://user-images.githubusercontent.com/30430227/170467852-a3ae31bc-3dda-4caf-8d2c-1dd98edc268b.png)
+
+```
+const canvas = document.querySelector("#renderCanvas");
+
+const engine = new BABYLON.Engine(canvas, true);
+
+function createScene() {
+  const scene = new BABYLON.Scene(engine, true);
+
+  const camera = new BABYLON.ArcRotateCamera(
+    "Camera",
+    Math.PI / 4,
+    Math.PI / 3,
+    5,
+    new BABYLON.Vector3.Zero(),
+    scene
+  );
+  camera.attachControl(canvas, false);
+  camera.wheelPrecision = 100;
+
+  const light = new BABYLON.DirectionalLight(
+    "Light",
+    new BABYLON.Vector3(-1, -3, 1),
+    scene
+  );
+  light.position = new BABYLON.Vector3(3, 9, 3);
+  light.intensity = 0.7;
+
+  const sphere = BABYLON.MeshBuilder.CreateSphere(
+    "Sphere",
+    { segments: 6, diameter: 2 },
+    scene
+  );
+  sphere.position = new BABYLON.Vector3(0, 1, 0);
+
+  const ground = BABYLON.MeshBuilder.CreateGround(
+    "Ground",
+    { width: 6, height: 6, subdivisions: 32 },
+    scene
+  );
+
+  // Add Shadow
+  const generator = new BABYLON.ShadowGenerator(512, light);
+  generator.addShadowCaster(sphere);
+  generator.useBlurExponentialShadowMap = true; // true t-소문자, 그림자 가장자리 부드럽게
+  generator.blurScale = 1;
+  generator.blurKernel = 64; // blur에 사용되는 작은 행렬, Blur 확장
+  generator.useKernelBlur = true;
+  generator.depthScale = 0;
+
+  ground.receiveShadows = true; // receiveShadows -복수형
+
+  const backgroundMaterial = new BABYLON.BackgroundMaterial(
+    "BackgroundMaterial",
+    scene
+  );
+
+  // BackgroundMaterial Texture
+  backgroundMaterial.diffuseTexture = new BABYLON.Texture(
+    "images/backgroundGround.png",
+    scene
+  );
+  backgroundMaterial.diffuseTexture.hasAlpha = true; // hasAlpha
+  // backgroundMaterial.diffuseTexture.uScale = 2.0;
+  // backgroundMaterial.diffuseTexture.vScale = 3.0;
+  backgroundMaterial.shadowLevel = 0.1; // shadow Transparent(0 black, 1 no shadow)
+  backgroundMaterial.opacityFresnel = false; // 각도에 따른 불투명도 효과 제거, 수평일 때도 선명하게 보인다
+
+  // 미러 텍스처
+  const mirror = new BABYLON.MirrorTexture("mirror", 512, scene);
+  mirror.mirrorPlane = new BABYLON.Plane(0, -1, 0, 0);
+  mirror.renderList.push(sphere);
+  backgroundMaterial.reflectionTexture = mirror;
+  backgroundMaterial.reflectionFresnel = true;
+  backgroundMaterial.reflectionStandardFresnelWeight = 0.9;
+
+  // BackgroundMaterial Shadow Only
+  // backgroundMaterial.primaryColor = new BABYLON.Color4(0.6, 0.6, 0, 1);
+  // backgroundMaterial.shadowOnly = true;
+  // backgroundMaterial.wireframe = true;
+  ground.material = backgroundMaterial;
+
+  return scene;
+}
+
+const sceneToRender = createScene();
+
+engine.runRenderLoop(() => {
+  sceneToRender.render();
+});
+```
