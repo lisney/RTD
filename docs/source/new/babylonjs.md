@@ -845,7 +845,7 @@ function createScene() {
   mirror.mirrorPlane = new BABYLON.Plane(0, -1, 0, 0);
   mirror.renderList.push(sphere);
   backgroundMaterial.reflectionTexture = mirror;
-  backgroundMaterial.reflectionFresnel = true;
+  backgroundMaterial.reflectionFresnel = true; // fresnel 보는 각도에 따라 반사량이 다른
   backgroundMaterial.reflectionStandardFresnelWeight = 0.9;
 
   // BackgroundMaterial Shadow Only
