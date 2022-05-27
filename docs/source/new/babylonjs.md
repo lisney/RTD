@@ -768,10 +768,10 @@ engine.runRenderLoop(() => {
 ```
 
 
-백그라운드 머티리얼 연습 
+백그라운드 머티리얼,비디오,스프라이트 
 -----------------------
 
-![image](https://user-images.githubusercontent.com/30430227/170467852-a3ae31bc-3dda-4caf-8d2c-1dd98edc268b.png)
+![image](https://user-images.githubusercontent.com/30430227/170646510-de0569f2-c947-4d70-a68e-9b30a3d8d83e.png)
 
 ```
 const canvas = document.querySelector("#renderCanvas");
@@ -789,7 +789,7 @@ function createScene() {
     new BABYLON.Vector3.Zero(),
     scene
   );
-  camera.attachControl(canvas, false);
+  camera.attachControl(canvas, false); // 마우스 휠 시 브라우저 스크롤 false
   camera.wheelPrecision = 100;
 
   const light = new BABYLON.DirectionalLight(
@@ -807,11 +807,91 @@ function createScene() {
   );
   sphere.position = new BABYLON.Vector3(0, 1, 0);
 
+  // Click Action Manager
+  sphere.isPickable = true;
+  sphere.actionManager = new BABYLON.ActionManager(scene);
+  sphere.actionManager.registerAction(
+    new BABYLON.ExecuteCodeAction(
+      BABYLON.ActionManager.OnPickTrigger,
+      function () {
+        sphere.position.y += 0.1;
+      }
+    )
+  );
+
+  const hi = new BABYLON.HighlightLayer("hi", scene, { isStroke: true }); // 하이라이트효과, blur대신 선으로 true
+
+  scene.registerBeforeRender(() => {
+    hi.blurHorizontalSize = 0.1;
+    hi.blurVerticalSize = 0.1;
+  });
+
+  sphere.actionManager.hoverCursor = "pointer";
+
+  sphere.actionManager.registerAction(
+    new BABYLON.ExecuteCodeAction(
+      BABYLON.ActionManager.OnPointerOverTrigger,
+      function () {
+        scene.hoverCursor = "pointer";
+        hi.addMesh(sphere, BABYLON.Color3.Green());
+      }
+    )
+  );
+  sphere.actionManager.registerAction(
+    new BABYLON.ExecuteCodeAction(
+      BABYLON.ActionManager.OnPointerOutTrigger,
+      function () {
+        hi.removeMesh(sphere, BABYLON.Color3.Green());
+      }
+    )
+  );
+
   const ground = BABYLON.MeshBuilder.CreateGround(
     "Ground",
     { width: 6, height: 6, subdivisions: 32 },
     scene
   );
+
+  // Video
+  const video = BABYLON.MeshBuilder.CreatePlane(
+    "Video",
+    {
+      width: 1,
+      height: 2,
+      sideOrientation: BABYLON.Mesh.DOUBLESIDE,
+    },
+    scene
+  );
+  video.position = new BABYLON.Vector3(2, 1, 0);
+
+  const matVideo = new BABYLON.StandardMaterial("MatVideo", scene);
+  const texVideo = new BABYLON.VideoTexture(
+    "TexVideo",
+    "images/packing.mp4",
+    scene
+  );
+  matVideo.diffuseTexture = texVideo;
+  matVideo.roughness = 1;
+  matVideo.emissiveColor = new BABYLON.Color3.White();
+  video.material = matVideo;
+
+  video.actionManager = new BABYLON.ActionManager(scene);
+  video.actionManager.registerAction(
+    new BABYLON.ExecuteCodeAction(BABYLON.ActionManager.OnPickTrigger, () => {
+      console.log("hu");
+    })
+  );
+  video.actionManager.hoverCursor = "help";
+
+  scene.onPointerObservable.add(function (event) {
+    if (event.pickInfo.pickedMesh === video) {
+      if (texVideo.video.paused) {
+        texVideo.video.play();
+      } else {
+        texVideo.video.pause();
+      }
+    }
+  }, BABYLON.PointerEventTypes.POINTERPICK);
 
   // Add Shadow
   const generator = new BABYLON.ShadowGenerator(512, light);
@@ -854,6 +934,20 @@ function createScene() {
   // backgroundMaterial.wireframe = true;
   ground.material = backgroundMaterial;
 
+  //sprite
+  const spriteManager4G2 = new BABYLON.SpriteManager(
+    "4G2Manager",
+    "images/4g2.jpg",
+    1000,
+    { width: 100, height: 100 } // 300X300 spriteSheet, 가로 세로가 같은 경우 100만 써도 된다
+  );
+  const sprite = new BABYLON.Sprite("4G2", spriteManager4G2);
+  sprite.width = 1;
+  sprite.height = 1.2;
+  sprite.position = new BABYLON.Vector3(0, 1, 2);
+
+  sprite.playAnimation(0, 8, true, 1000); // loop true, frame delay 100
+
   return scene;
 }
 
@@ -862,4 +956,5 @@ const sceneToRender = createScene();
 engine.runRenderLoop(() => {
   sceneToRender.render();
 });
+
 ```
