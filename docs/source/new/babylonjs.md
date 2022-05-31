@@ -958,3 +958,36 @@ engine.runRenderLoop(() => {
 });
 
 ```
+
+Node Editor
+--------------
+
+![image](https://user-images.githubusercontent.com/30430227/171119668-d3d1d9dd-3bb0-4fe5-807b-edec5660e841.png)
+
+```
+# 생성 
+  const nodeMaterial = new BABYLON.NodeMaterial("node material", scene, {
+    emitComments: true,
+  });
+  nodeMaterial.setToDefault();  // 기본 노드들 생성
+
+# 디버거 활성
+  scene.debugLayer.show();
+  // scene.debugLayer.select(nodeMaterial);
+  
+## 박스선택 단축키 : Ctrl hold
+## 노드 에러 시 기존 노드를 지운 후 인풋 포인트를 클릭하면 새로 생성된다. 
+```
+
+![image](https://user-images.githubusercontent.com/30430227/171120012-04502fbe-c796-46a0-941b-105bf69dfcba.png)
+
+![image](https://user-images.githubusercontent.com/30430227/171120111-8ac3b15c-a368-48ea-a1f9-4e93a798e458.png)
+
+**PBRMatallicRoughness**
+
+![image](https://user-images.githubusercontent.com/30430227/171123988-0cbf0cb7-6463-44cc-89fa-d63c56e1ab11.png)
+
+
+
+
+
