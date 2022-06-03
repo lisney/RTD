@@ -67,7 +67,7 @@ Ring
 
 
 10. 합친Compound Scale, Position  
-`Clone 강아지`  
+`Clone 강아지 > Scale이 안먹힐 때 클론 후 자체 스케일 속성으로 조정`  
 ![image](https://user-images.githubusercontent.com/30430227/132160216-2d6e5439-a8bb-4afb-9400-1f2a4ba56fbb.png)
 ![image](https://user-images.githubusercontent.com/30430227/132160313-8c918fd3-b449-4eec-afb6-fafbb812d698.png)  
 
