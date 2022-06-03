@@ -41,6 +41,16 @@ Part WB에서 생성한 Cube에는 기본적으로 Shape Binder가 안 먹힌다
 ![image](https://user-images.githubusercontent.com/30430227/171530959-64311fe3-b3fb-40cf-8bb6-fdadbe098e1a.png)
 
 
+Part Cube를 PartDesign에서 사용하려면 
+--------------------------------------
+
+`Cube 선택 > New Body 버튼 클릭(혹은 드랙해서 넣는다)`
+
+![image](https://user-images.githubusercontent.com/30430227/171535186-2fdff7e9-b3de-436c-a6e0-61b47bda4eb6.png)
+
+![image](https://user-images.githubusercontent.com/30430227/171534532-fd53bfbc-ccf0-4a19-82eb-408041f2ca70.png)
+![image](https://user-images.githubusercontent.com/30430227/171534441-6c7fe209-a3d9-4c91-9eb6-4cfa5d49f231.png)
+
 
 
 
