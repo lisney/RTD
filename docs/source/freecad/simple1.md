@@ -83,7 +83,7 @@ Ring
 ![image](https://user-images.githubusercontent.com/30430227/132160754-d76279ea-384c-4e64-aaa6-a6b6276eb9c3.png)  
 
 
-13. Mapped Sketch 로 복사하기  
+13. Mapped Sketch 로 복사하기 - Variables.rotate
 ![image](https://user-images.githubusercontent.com/30430227/132161148-c24deb70-281a-4475-901b-0bf55c145edb.png)  
 
 
