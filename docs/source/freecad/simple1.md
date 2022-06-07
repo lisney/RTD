@@ -83,7 +83,8 @@ Ring
 ![image](https://user-images.githubusercontent.com/30430227/132160754-d76279ea-384c-4e64-aaa6-a6b6276eb9c3.png)  
 
 
-13. Mapped Sketch 로 복사하기 - Variables.rotate
+13. Mapped Sketch 로 복사하기
+
 ![image](https://user-images.githubusercontent.com/30430227/132161148-c24deb70-281a-4475-901b-0bf55c145edb.png)  
 
 
@@ -267,7 +268,7 @@ Tractor Tire
 ![image](https://user-images.githubusercontent.com/30430227/132618526-1d8da556-1dc1-48ff-9e9f-d742b45efffd.png)  
 
 
-11. 회전 변수 생성  
+11. 회전 변수 생성   - Variables.rotate앞에 Variables.붙일 것
 ![image](https://user-images.githubusercontent.com/30430227/132618852-ff42ab2f-b9e8-4a4f-a2d4-78668409e351.png)  
 ![image](https://user-images.githubusercontent.com/30430227/132618912-ee47352f-a806-40ca-b35c-48893f42ffb4.png)
 ![image](https://user-images.githubusercontent.com/30430227/132618881-715315a3-f3f1-443a-88f6-dea210e304f3.png)  
