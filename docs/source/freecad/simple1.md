@@ -269,6 +269,7 @@ Tractor Tire
 
 
 11. 회전 변수 생성   - Variables.rotate앞에 Variables.붙일 것
+12. 
 ![image](https://user-images.githubusercontent.com/30430227/132618852-ff42ab2f-b9e8-4a4f-a2d4-78668409e351.png)  
 ![image](https://user-images.githubusercontent.com/30430227/132618912-ee47352f-a806-40ca-b35c-48893f42ffb4.png)
 ![image](https://user-images.githubusercontent.com/30430227/132618881-715315a3-f3f1-443a-88f6-dea210e304f3.png)  
