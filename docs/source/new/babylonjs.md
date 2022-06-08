@@ -257,6 +257,7 @@ user.then(console.log);
 import express from "express";
 
 export const router = express.Router();
+//const router = express.Router(); export {router};
 
 router.get("/", async (req, res) => {
   res.render("home");
