@@ -78,10 +78,11 @@ userEmail.indexOf('@') //문자열에서 @문자가 있으면 그 위치의 Inde
 Students.find(함수(student){return student.score===90} 
 //data.scre가 90인 첫번째 요소에서 멈추고 해당 요소만 리턴(=>배열.filter 조건에 맞는 모든 요소 배열로 리턴)
 
-Students.map(student=>student.score) //클래스 객체를 클래스 멤버변수로 매핑 즉 맴버 변수만 배열로 리턴
+const scores = Students.map(student=>student.score) //클래스 객체를 클래스 멤버변수로 매핑 즉 맴버 변수만 배열로 리턴
 
 Students.reduce((prev, curr)=>{return prev + curr.score},0) // 중괄호 없어도 된다
 //누적값 리턴, 초기값: 0, 순차적으로 return 한 값이 다음 번 prev의 값으로 들어간다.
+//scores.reduce((prev,curr)=>prev+curr,0)와 같은 결과
 
 ```
 
