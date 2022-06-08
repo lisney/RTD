@@ -480,9 +480,9 @@ async function createScene() {
 ```
 dispose 폐기하다, 처분하다//메모리에서 제거
 
-키프레임 그룹 : 움직이지 않는 Act 그룹을 먼저 만든다(별아이콘 같은 이름 = 그룹명)
+키프레임 그룹 : 움직이지 않는 Act 그룹을 먼저 만든다(Default 액팅그룹, 별아이콘 같은 이름 = 그룹이 된다)
 
-Export 시 Punctual Lights 체크 - 블랜더 조명
+Export 시 Punctual Lights 체크 - 블랜더 조명 사용
 ```
 
 ![image](https://user-images.githubusercontent.com/30430227/169786222-5c86bc86-c795-4a2d-97f8-a7290def13fa.png)
