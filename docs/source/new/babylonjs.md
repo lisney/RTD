@@ -226,8 +226,8 @@ function fetchUser() {
 }
 
 const user = fetchUser();//사용자 데이터를 백앤드로 받아오는 함수
-
 user.then(console.log);//user=>console.log(user) 의 축약형(전달 인수와 받는 함수의 인수가 같을 때 생략)
+//fetchUser().then(console.log) - 변수 user 대신 바로 실행해도 같은 결과
 
 // console.log(user);//프로미스 실행 상태를 볼 수 있다(pending, fulfilled, reject)
 
