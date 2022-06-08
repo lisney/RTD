@@ -218,7 +218,7 @@ promise
 5. 프로미스를 깔끔하게 사용하기 async, await
 
 ```
-# 프로미스로는
+# 프로미스로 리턴 - 함수 실행 시 프로미스 스타토
 function fetchUser() {
   return new Promise((resolve, reject) => {
     resolve("ellie");
