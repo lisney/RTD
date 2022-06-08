@@ -75,7 +75,7 @@ userEmail.indexOf('@') //문자열에서 @문자가 있으면 그 위치의 Inde
 배열.splice(0,1) : 배열에서 0~1번째 인덱스 요소를 삭제하고 삭제한 요소를 리턴=> 객체.slice 배열 원본은 보존/리턴
 
 클래스 객체 배열의 경우...
-Students.find(함수(student, index){return student.score===90} 
+Students.find(함수(student){return student.score===90} 
 //data.scre가 90인 첫번째 요소에서 멈추고 해당 요소만 리턴(=>배열.filter 조건에 맞는 모든 요소 배열로 리턴)
 
 Students.map(student=>student.score) //클래스 객체를 클래스 멤버변수로 매핑 즉 맴버 변수만 배열로 리턴
