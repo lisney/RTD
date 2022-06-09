@@ -41,3 +41,10 @@ LoopCut Tip
 ![image](https://user-images.githubusercontent.com/30430227/169924374-9d099778-0f1f-4755-b0ca-fd7b4e0778aa.png)
 
 
+타임라인 싱크 - PlayHead
+-------------------------
+
+**싱크할 Editor창 메뉴 전부 옵션을 켜준다**
+
+![image](https://user-images.githubusercontent.com/30430227/172775343-6d834e22-c5d6-4edd-88b3-9797e582ef18.png)
+
