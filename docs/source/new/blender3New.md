@@ -48,3 +48,10 @@ LoopCut Tip
 
 ![image](https://user-images.githubusercontent.com/30430227/172775343-6d834e22-c5d6-4edd-88b3-9797e582ef18.png)
 
+
+
+비디오시퀀스 랜더링 끄기
+----------------------
+
+![image](https://user-images.githubusercontent.com/30430227/172777502-202f992f-bdd5-45fe-bc14-cb11835b6224.png)
+
