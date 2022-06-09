@@ -697,6 +697,8 @@ const engine = new BABYLON.Engine(canvas, true);
 var createScene = function () {
   // This creates a basic Babylon Scene object (non-mesh)
   var scene = new BABYLON.Scene(engine);
+  
+  // glTF Files use right handed system 
   scene.useRightHandedSystem = true;
   BABYLON.SceneLoader.ImportMesh(
     "",
