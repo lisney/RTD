@@ -52,5 +52,32 @@ Part Cube를 PartDesign에서 사용하려면
 ![image](https://user-images.githubusercontent.com/30430227/171534441-6c7fe209-a3d9-4c91-9eb6-4cfa5d49f231.png)
 
 
+원형 테두리 글씨
+----------------
+
+![image](https://user-images.githubusercontent.com/30430227/172741431-996c2843-0127-4b73-8b39-8b28e6834a0c.png)
+
+**Sketcher WB > 가이드스케치(도넛)&프로파일스케치(호)**
+
+![image](https://user-images.githubusercontent.com/30430227/172741592-15078c49-afe8-4dae-a98f-fff5a73d9772.png)
+
+**Part WB > Revolve(Z축방향 회전-서피스)**
+
+![image](https://user-images.githubusercontent.com/30430227/172741763-b6751264-e78a-4c36-a0fd-35c40c3d2f77.png)
+
+**Draft WB > ShapeString**
+
+![image](https://user-images.githubusercontent.com/30430227/172741902-ab53b66f-2f22-4d52-ae59-54f2618c26b6.png)
+
+**Sketcher WB > 컨스트럭션 박스 그리기**
+
+![image](https://user-images.githubusercontent.com/30430227/172742011-9686696a-7b15-4c4f-bce0-b3c1a9596ad0.png)
+
+**Curver WB > 원둘레(느낌표버튼) > 스케치선택 후 서피스 선택 > Map a Sketch > Extra Objects**
+
+![image](https://user-images.githubusercontent.com/30430227/172742293-6a01e59e-53e4-4ef3-b8da-7698ebc9d983.png)
+
+![image](https://user-images.githubusercontent.com/30430227/172742385-556b6836-f094-478d-bffe-b030bf082e69.png)
+
 
 
