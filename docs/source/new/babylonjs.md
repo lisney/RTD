@@ -783,7 +783,7 @@ const canvas = document.querySelector("#renderCanvas");
 const engine = new BABYLON.Engine(canvas, true);
 
 function createScene() {
-  const scene = new BABYLON.Scene(engine, true);
+  const scene = new BABYLON.Scene(engine);
 
   const camera = new BABYLON.ArcRotateCamera(
     "Camera",
