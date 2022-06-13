@@ -153,5 +153,5 @@ LatticeA
 
 `Compound`
 
-![image](https://user-images.githubusercontent.com/30430227/173264927-88c8220c-412b-458b-96c6-ecbe8df709b1.png)
+![image](https://user-images.githubusercontent.com/30430227/173265132-29a801bb-fdad-4e3f-81ca-a35c25a2990a.png)
 
