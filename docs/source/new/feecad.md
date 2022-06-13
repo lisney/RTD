@@ -80,4 +80,78 @@ Part Cube를 PartDesign에서 사용하려면
 ![image](https://user-images.githubusercontent.com/30430227/172742385-556b6836-f094-478d-bffe-b030bf082e69.png)
 
 
+LatticeA
+----------
+
+1. Sketcher WB - 2 스케치
+
+![image](https://user-images.githubusercontent.com/30430227/173260626-4e20e493-44a5-434f-a213-6c0c00da2c2e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/173260644-74b0c6f5-6002-466e-9b48-ffe9dce881d9.png)
+
+
+2. Part WB - Extrude > Taper Angle
+
+![image](https://user-images.githubusercontent.com/30430227/173260681-11e10093-a989-4925-8082-84e84938534a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/173260710-8f6f4d51-f55a-47c3-b627-874c431c97d6.png)
+
+
+3. Lattice2 WB 
+
+![image](https://user-images.githubusercontent.com/30430227/173260742-51fd28fb-cc9f-40a6-bd4e-3ebcb5ec880b.png)
+![image](https://user-images.githubusercontent.com/30430227/173260877-1e24c120-f523-44d0-840b-dbde5329e918.png)
+
+![image](https://user-images.githubusercontent.com/30430227/173260790-5badca95-c26e-44f0-a1e4-6a385d63c83e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/173260812-604790f5-2ac7-4a5d-9e18-54bc63d4e181.png)
+
+
+`Extrude, LinearArray 차례로 선택 후`
+
+![image](https://user-images.githubusercontent.com/30430227/173260933-3f788b60-214b-4da9-b187-1efe2e37cf66.png)
+
+![image](https://user-images.githubusercontent.com/30430227/173260917-80bfc61b-3d98-4933-809f-d77be40dcbfa.png)
+
+
+4. Draft WB - Extrude 클론 > Transform
+
+![image](https://user-images.githubusercontent.com/30430227/173261017-54d89d7a-7e35-4b10-8b10-2251a39ff295.png)
+
+![image](https://user-images.githubusercontent.com/30430227/173261058-ba87a63d-1486-4e87-a03f-27174d691cb7.png)
+
+
+5. Part WB - Extrude, Extrude001 선택 후 Make Compound
+
+![image](https://user-images.githubusercontent.com/30430227/173261175-d8fe6697-c9d0-450a-b0fc-ee27249395fe.png)
+
+`Populate LinearArray... 속성에서 Lattice Populate Object를 Extrude에서 Compound로 바꿈 > Refresh`
+
+![image](https://user-images.githubusercontent.com/30430227/173261340-5fa00ec1-a771-4b12-8ac7-a60f3e7af85b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/173261289-6d504129-65ca-4684-b739-2e23dbfd5e96.png)
+![image](https://user-images.githubusercontent.com/30430227/173261302-aa69a96a-6de6-4108-8b63-3152e461523b.png)
+
+
+6. Lattice2 WB 
+
+![image](https://user-images.githubusercontent.com/30430227/173261591-59082e72-79e1-4381-99fb-5b945a01ab12.png)
+![image](https://user-images.githubusercontent.com/30430227/173261625-36c4f89c-870f-498c-899c-44452852fadc.png)
+
+`Reverse`
+
+![image](https://user-images.githubusercontent.com/30430227/173261657-0241c0c5-3864-43c4-a679-7dac0fef963f.png)
+![image](https://user-images.githubusercontent.com/30430227/173261680-549696b2-eaab-494a-a6bc-2eb987b5ebb6.png)
+
+`Populate... - LinearArray001 선택 > `
+
+![image](https://user-images.githubusercontent.com/30430227/173261766-69e21f25-36de-4494-966e-2da486113e60.png)
+
+`LinearArray001 - Count: 9`
+
+![image](https://user-images.githubusercontent.com/30430227/173261787-ae18c0b9-2887-4493-ae20-82d8a69e6cf3.png)
+
+`Compound`
+
+![image](https://user-images.githubusercontent.com/30430227/173264927-88c8220c-412b-458b-96c6-ecbe8df709b1.png)
 
