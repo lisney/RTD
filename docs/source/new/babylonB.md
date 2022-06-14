@@ -44,6 +44,7 @@ function createScene() {
     new BABYLON.Vector3(0, 1, -5),
     scene
   );
+  camera.setTarget(BABYLON.Vector3.Zero());
   camera.attachControl(canvas, false);
   camera.speed = 0.25; // 키보드 방향키 감도
   // camera.wheelPrecision = 50;//FreeCamera는 줌이 안된다
@@ -116,3 +117,103 @@ function createScene() {
 }
 ```
 
+
+
+PBR Material 
+-------------------
+
+![image](https://user-images.githubusercontent.com/30430227/173498961-c6db96cb-34fe-466b-93bc-2e899e231cf9.png)
+
+```
+const canvas = document.querySelector("#renderCanvas");
+const engine = new BABYLON.Engine(canvas, true);
+
+const scene = createScene();
+
+engine.runRenderLoop(() => {
+  scene.render();
+});
+
+function createScene() {
+  const scene = new BABYLON.Scene(engine);
+  // scene.environmentIntensity = 0.1;//씬 환경 텍스처 Intensity
+
+  const camera = new BABYLON.ArcRotateCamera(
+    "camera",
+    Math.PI / 4,
+    Math.PI / 3,
+    5,
+    new BABYLON.Vector3(0, 0, 0),
+    scene
+  );
+  // camera.setTarget(BABYLON.Vector3.Zero());//freeCamera용 타깃
+  camera.attachControl(canvas, false);
+  // camera.speed = 0.25; // 키보드 방향키 감도
+  camera.wheelPrecision = 50; //FreeCamera는 줌이 안된다
+
+  const hemiLight = new BABYLON.HemisphericLight(
+    "hemiLight",
+    new BABYLON.Vector3(0, 1, 1),
+    scene
+  );
+
+  hemiLight.intensity = 0.5;
+
+  // Mesh
+  const ground = BABYLON.MeshBuilder.CreateGround(
+    "ground",
+    { width: 5, height: 5 },
+    scene
+  );
+
+  const ball = BABYLON.MeshBuilder.CreateSphere("ball", { diameter: 2 }, scene);
+  ball.position = new BABYLON.Vector3(0, 1, 0);
+
+  // Material
+  function CreateGroundMaterial() {
+    const pbr = new BABYLON.PBRMaterial("pbr", scene);
+    pbr.roughness = 1; //값이 0 면 거울
+    pbr.albedoTexture = new BABYLON.Texture("./images/adiffuse.jpg", scene);
+    pbr.albedoTexture.vScale = 4;
+    pbr.albedoTexture.uScale = 4;
+    pbr.bumpTexture = new BABYLON.Texture("./images/anormal.jpg", scene);
+    pbr.bumpTexture.vScale = 4;
+    pbr.bumpTexture.uScale = 4;
+    pbr.invertNormalMapX = true;
+    pbr.invertNormalMapY = true;
+    pbr.emissiveTexture = new BABYLON.Texture("./images/aambientt.jpg", scene); //흰색이 Emissive, 검정은 투명
+    pbr.emissiveColor = new BABYLON.Color3(1, 1, 1);
+    // pbr.emissiveIntensity = 3;
+
+    const glowLayer = new BABYLON.GlowLayer("glow", scene);
+    glowLayer.intensity = 1;
+
+    // pbr.useAmbientOcclusionFromMetallicTextureRed = true;
+    // pbr.useRoughnessFromMetallicTextureGreen = true;
+    // pbr.useMetallinessFromMetallicTextureBlue = true;
+
+    return pbr;
+  }
+  ground.material = CreateGroundMaterial();
+
+  function CreateBallMaterial() {
+    const pbr = new BABYLON.PBRMetallicRoughnessMaterial("pbr", scene);
+    pbr.baseColor = new BABYLON.Color3(1, 0.7, 0.3);
+    pbr.metallic = 1;
+    pbr.roughness = 0;
+    pbr.environmentTexture = BABYLON.CubeTexture.CreateFromPrefilteredData(
+      "images/environment.dds",
+      scene
+    );
+    return pbr;
+  }
+
+  ball.material = CreateBallMaterial();
+
+  const envTexture = new BABYLON.CubeTexture("images/environment.env", scene);
+  scene.createDefaultSkybox(envTexture, true);
+
+  return scene;
+}
+
+```
