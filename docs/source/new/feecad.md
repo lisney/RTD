@@ -155,3 +155,24 @@ LatticeA
 
 ![image](https://user-images.githubusercontent.com/30430227/173265132-29a801bb-fdad-4e3f-81ca-a35c25a2990a.png)
 
+
+회전하기 Draft WB
+--------------------
+
+`회전 면 선택`
+
+![image](https://user-images.githubusercontent.com/30430227/173546641-3e8cc7ed-e977-4a72-9510-d13b06830ca8.png)
+![image](https://user-images.githubusercontent.com/30430227/173546730-d2d2ded7-9d24-4853-a3a6-812863695cd5.png)
+
+![image](https://user-images.githubusercontent.com/30430227/173546692-7526560b-78cf-4e89-9509-b6c580b17df5.png)
+
+`스냅 락 > 회전`
+
+![image](https://user-images.githubusercontent.com/30430227/173547095-606df9fa-52e9-4a31-85b1-a3e0f73b9e87.png)
+
+![image](https://user-images.githubusercontent.com/30430227/173546941-1c49d35d-b5f4-4af7-8e37-a631b88a8110.png)
+![image](https://user-images.githubusercontent.com/30430227/173547010-ed9ef046-7653-4916-8468-f1665d004274.png)
+
+
+
+
