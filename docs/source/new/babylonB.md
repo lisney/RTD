@@ -217,3 +217,23 @@ function createScene() {
 }
 
 ```
+
+
+import GLB(GLTF)
+-------------------
+
+![image](https://user-images.githubusercontent.com/30430227/173505758-a0ff0ed1-7246-4bd0-8390-3f5ce88a9470.png)
+
+```
+  BABYLON.SceneLoader.ImportMesh(
+    "",
+    "./gltfs/",
+    "afo.gltf",
+    scene,
+    (meshes) => {
+      scene.meshes[0].position = new BABYLON.Vector3(0, -1, 0);
+    }
+  );
+```
+
+
