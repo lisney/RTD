@@ -242,6 +242,8 @@ import GLB(GLTF)
 
 ![image](https://user-images.githubusercontent.com/30430227/173759157-b837b499-1e32-4dcd-b6a4-40875e3aae41.png)
 
+`블랜더에서 라이트 제거하고 export`
+
 ```
   const camera = new BABYLON.FreeCamera(
     "camera",
