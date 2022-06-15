@@ -314,5 +314,41 @@ import GLB(GLTF)
   );
 ```
 
+블랜더 bake shadow map
+----------------------
 
+1. UV Editor > New image > Save
+
+![image](https://user-images.githubusercontent.com/30430227/173763939-58359107-e8d3-48a2-8e59-9f4ab71b4319.png)
+![image](https://user-images.githubusercontent.com/30430227/173763872-fad99dda-aa68-4fdb-871e-48baf1f3b545.png)
+
+![image](https://user-images.githubusercontent.com/30430227/173764558-97b03eaf-da13-478b-9caa-8caf93fb91a8.png)
+
+
+2. 수지와 바닥 각각에 UV Map 추가 'Shadow' > Edit Mode > Pack Islands
+
+![image](https://user-images.githubusercontent.com/30430227/173765867-029682bf-5dd7-4e86-a95c-a1d56baa92e9.png)
+![image](https://user-images.githubusercontent.com/30430227/173765914-639d6e90-fbf7-4609-a4dc-638b9197f5df.png)
+
+
+3. Shader Editor > Image Texture노드 생성 후 shadow 이미지 선택 > 선택상태로 둔다 > 복사한 후 바닥 쉐이더에 붙여넣기
+
+![image](https://user-images.githubusercontent.com/30430227/173767216-478b587f-eb7c-4fe4-a4ee-52e35b2d951c.png)
+
+`Cycles Soft Shadow - Radius 값을 높인다`
+
+![image](https://user-images.githubusercontent.com/30430227/173769356-6a38c1fe-2e88-44f5-8eb7-9161b4db2a75.png)
+
+
+4. 베이크 - 수지와 바닥 선택 > Margin : 8px > Bake
+
+![image](https://user-images.githubusercontent.com/30430227/173770645-15de3595-464f-4f69-a0a6-b91e4feaf7f5.png)
+![image](https://user-images.githubusercontent.com/30430227/173770572-39f3c648-1aeb-4016-9875-33f5ec1595a0.png)
+
+
+5. Compositor Editor > Rendering - 노이즈, 색상 
+
+![image](https://user-images.githubusercontent.com/30430227/173771161-c58c4029-1aa9-4663-8245-cfc5b9acdaed.png)
+
+![image](https://user-images.githubusercontent.com/30430227/173774065-ce3a8a4e-2c5f-49d3-9077-054c0972a4cf.png)
 
