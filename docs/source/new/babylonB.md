@@ -346,9 +346,39 @@ import GLB(GLTF)
 ![image](https://user-images.githubusercontent.com/30430227/173770572-39f3c648-1aeb-4016-9875-33f5ec1595a0.png)
 
 
-5. Compositor Editor > Rendering - 노이즈, 색상 
+5. Compositor Editor > Rendering - 노이즈, 색상 자연스럽게..> 이미지 저장 jpg
 
 ![image](https://user-images.githubusercontent.com/30430227/173771161-c58c4029-1aa9-4663-8245-cfc5b9acdaed.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/173774065-ce3a8a4e-2c5f-49d3-9077-054c0972a4cf.png)
 
+
+6. Shader Editor
+
+![image](https://user-images.githubusercontent.com/30430227/173776365-1c766161-c171-48d4-a25c-70b935f9e572.png)
+
+![image](https://user-images.githubusercontent.com/30430227/173776421-d015316f-a059-48f6-8a3f-0c5d27d5d1a3.png)
+
+
+7. Export
+
+![image](https://user-images.githubusercontent.com/30430227/173776733-14434d0a-3b7d-4d2d-a887-959e7165bb19.png)
+
+
+8. Babylon
+
+![image](https://user-images.githubusercontent.com/30430227/173777429-c35f4689-c3c6-46a9-92e1-90284d933d59.png)
+
+```
+  const camera = new BABYLON.FreeCamera(
+    "camera",
+    new BABYLON.Vector3(0, 1, 1),
+    scene
+  );
+  camera.setTarget(BABYLON.Vector3.Zero()); //freeCamera용 타깃
+  camera.attachControl(canvas, false);
+  camera.speed = 0.1; // 키보드 방향키 감도
+  camera.minZ = 0.01; //Cliping Planes min
+  
+  
+```
