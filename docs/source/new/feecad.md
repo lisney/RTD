@@ -174,5 +174,52 @@ LatticeA
 ![image](https://user-images.githubusercontent.com/30430227/173547010-ed9ef046-7653-4916-8468-f1665d004274.png)
 
 
+패널 레이아웃 
+------------
+
+`풀스크린 Alt - F11`
+
+1. View > Panels > Python Console > 선택 > Clear Console
+
+![image](https://user-images.githubusercontent.com/30430227/173713998-19c92adc-9e4a-40ae-8aac-097d961b2f05.png)
+
+![image](https://user-images.githubusercontent.com/30430227/173714112-03821ed6-21e6-49c7-82b7-00d92b559123.png)
+
+
+2. 시트탭 생성
+
+![image](https://user-images.githubusercontent.com/30430227/173718115-79111544-4fc5-45f2-bbab-f0accecfe518.png)
+
+![image](https://user-images.githubusercontent.com/30430227/173714911-8642e114-1d58-42f8-a077-9a2abb419b6a.png)
+
+3. 매크로 > Create
+
+![image](https://user-images.githubusercontent.com/30430227/173715027-9c8fb791-ad14-4516-9325-9ef962b479f5.png)
+
+![image](https://user-images.githubusercontent.com/30430227/173715122-32696e87-6130-45c3-93b7-5363c2e354a7.png)
+
+![image](https://user-images.githubusercontent.com/30430227/173717096-d60850c9-74c1-4a6d-af70-713254d78b44.png)
+
+```
+from PySide import QtGui
+
+#Gui.activateWorkbench("SpreadsheetWorkbench")
+# Gui.Selection.addSelection('ArmExt','Spreadsheet')
+Gui.runCommand('Std_TileWindows',0)
+mw = Gui.getMainWindow()
+win = mw.findChildren(QtGui.QGraphicsView)
+win[0].setFocus()
+Gui.runCommand('Std_TileWindows',0)
+```
+
+4. 아이콘 > Tools > Customize > Macros >Add
+
+![image](https://user-images.githubusercontent.com/30430227/173718696-4accba5b-5fe7-4652-85dd-14e0696bdaa0.png)
+
+![image](https://user-images.githubusercontent.com/30430227/173718861-c87766ba-0e26-4cd4-b37d-e18df81db3be.png)
+
+![image](https://user-images.githubusercontent.com/30430227/173719029-5bf1cff9-7f64-4bd0-9d9c-0b2ebc560b50.png)
+
+
 
 
