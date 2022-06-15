@@ -352,6 +352,15 @@ import GLB(GLTF)
 
 ![image](https://user-images.githubusercontent.com/30430227/173774065-ce3a8a4e-2c5f-49d3-9077-054c0972a4cf.png)
 
+`참고-기본 씬 대신 랜더`
+
+![image](https://user-images.githubusercontent.com/30430227/173779487-80511d9b-3648-4301-a17a-a012d3ee240d.png)
+
+
+
+로딩스크린 - splash
+----------------------
+
 
 6. Shader Editor
 
