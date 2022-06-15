@@ -237,3 +237,80 @@ import GLB(GLTF)
 ```
 
 
+그림자와 Gizmo
+--------------
+
+![image](https://user-images.githubusercontent.com/30430227/173759157-b837b499-1e32-4dcd-b6a4-40875e3aae41.png)
+
+```
+  const camera = new BABYLON.FreeCamera(
+    "camera",
+    new BABYLON.Vector3(5, 5, -5),
+    scene
+  );
+  camera.setTarget(BABYLON.Vector3.Zero()); //freeCamera용 타깃
+  camera.attachControl(canvas, false);
+  camera.speed = 0.25; // 키보드 방향키 감도
+
+  //조명
+
+  // const hemiLight = new BABYLON.HemisphericLight(
+  //   "hemiLight",
+  //   new BABYLON.Vector3(0, 1, 0),
+  //   scene
+  // );
+  // hemiLight.intensity = 0.5;
+  // hemiLight.diffuse = new BABYLON.Color3(1, 0, 0);
+  // hemiLight.groundColor = new BABYLON.Color3(0, 0, 1);
+  // hemiLight.specular = new BABYLON.Color3(0, 1, 0);
+
+  const spotLight = new BABYLON.SpotLight(
+    "spotLight",
+    new BABYLON.Vector3(-3, 3, -5), //위치
+    new BABYLON.Vector3(3, -2, 3), //방향-위치가 아니라 방향이다
+    Math.PI / 2, //조명 각도
+    10, //Exponent
+    scene
+  );
+  spotLight.intensity = 10;
+  spotLight.shadowEnabled = true;
+  spotLight.shadowMinZ = 1;//shadow clipping minimum
+  spotLight.shadowMaxZ = 10;
+
+  //shadow 제너레이터
+  const shadowGen = new BABYLON.ShadowGenerator(1024, spotLight);
+  shadowGen.useBlurCloseExponentialShadowMap = true;//부드러운 가장자리
+
+  CreateGizmos(spotLight);
+
+  // Light Gizmo
+  function CreateGizmos(customLight) {
+    const lightGizmo = new BABYLON.LightGizmo(); //라이트 메쉬
+    lightGizmo.scaleRatio = 3;
+    lightGizmo.light = customLight;
+
+    const gizmoManager = new BABYLON.GizmoManager(scene); //컨트롤러
+    gizmoManager.positionGizmoEnabled = true;
+    gizmoManager.rotationGizmoEnabled = true;
+    gizmoManager.usePointerToAttachGizmos = false;
+    gizmoManager.scaleRatio = 2;
+    gizmoManager.attachToMesh(lightGizmo.attachedMesh);
+  }
+
+  // Import GLB file
+  BABYLON.SceneLoader.ImportMesh(
+    "",
+    "./gltfs/",
+    "nolight.glb",
+    scene,
+    (meshes) => {
+      meshes.map((mesh) => {
+        mesh.receiveShadows = true;
+        shadowGen.addShadowCaster(mesh);
+      });
+    }
+  );
+```
+
+
+
