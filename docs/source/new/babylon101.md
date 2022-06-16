@@ -358,10 +358,6 @@ import GLB(GLTF)
 
 
 
-로딩스크린 - splash
-----------------------
-
-
 6. Shader Editor
 
 ![image](https://user-images.githubusercontent.com/30430227/173776365-1c766161-c171-48d4-a25c-70b935f9e572.png)
@@ -389,4 +385,9 @@ import GLB(GLTF)
   camera.speed = 0.1; // 키보드 방향키 감도
   camera.minZ = 0.01; //Cliping Planes min
 ```
+
+
+로딩스크린 - splash
+----------------------
+
 
