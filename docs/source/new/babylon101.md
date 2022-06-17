@@ -605,7 +605,7 @@ function createScene() {
 ```
 
 
-Camera Mechanics - 비동기 방식
+Camera Behavior - 비동기 방식
 ------------------
 
 ![image](https://user-images.githubusercontent.com/30430227/174257419-c63f95f2-68dc-4af2-a909-397d8e1ca6ac.png)
@@ -655,7 +655,7 @@ async function createScene() {
   // 비헤이비어
   // camera.useBouncingBehavior = true; // Radius 한계에 오면 팅김
   camera.useAutoRotationBehavior = true; //클릭하면 멈춤
-  camera.autoRotationBehavior.idleRotationSpeed = 0.5;
+  camera.autoRotationBehavior.idleRotationSpeed = 0.5;//음수 - 반대방향 회전
   camera.autoRotationBehavior.idleRotationSpinupTime = 1000; //Ease In
   camera.autoRotationBehavior.idleRotationWaitTime = 2000; //클릭 멈춤 후 대기시간
   camera.autoRotationBehavior.zoomStopsAnimation = true; //Wheel - Zoom 때도 회전 멈춤
@@ -696,4 +696,8 @@ async function createScene() {
   return scene;
 }
 ```
+
+
+Mesh Action
+--------------
 
