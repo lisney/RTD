@@ -605,7 +605,95 @@ function createScene() {
 ```
 
 
-Camera Mechanics
+Camera Mechanics - 비동기 방식
 ------------------
 
+![image](https://user-images.githubusercontent.com/30430227/174257419-c63f95f2-68dc-4af2-a909-397d8e1ca6ac.png)
+
+```
+# 초기 CSS, HTML로
+const canvas = document.querySelector("#renderCanvas");
+const engine = new BABYLON.Engine(canvas, true);
+
+// const scene = createScene();
+
+// engine.runRenderLoop(() => {
+//   scene.render();
+// });
+
+// 비동기 버전
+function startRenderLoop(sceneToRender) {
+  engine.runRenderLoop(() => {
+    sceneToRender.render();
+  });
+}
+
+createScene().then(startRenderLoop);
+
+async function createScene() {
+  const scene = new BABYLON.Scene(engine);
+
+  const camera = new BABYLON.ArcRotateCamera(
+    "camera",
+    Math.PI / 2, //좌우회전 > 반시계방향
+    Math.PI / 3, //상하회전 > X축 기준 반시계
+    5, //Radius - 거리
+    new BABYLON.Vector3.Zero(),
+    scene
+  );
+  camera.attachControl(canvas, false);
+  camera.wheelPrecision = 50;
+  camera.minZ = 0.1; //clipping Plane
+
+  //Radius -거리 한계
+  camera.lowerRadiusLimit = 0.5;
+  camera.upperRadiusLimit = 5;
+
+  //panning Sensibility - 0이면 No Pan, 500 - 기본값
+  camera.panningSensibility = 0;
+
+  // 비헤이비어
+  // camera.useBouncingBehavior = true; // Radius 한계에 오면 팅김
+  camera.useAutoRotationBehavior = true; //클릭하면 멈춤
+  camera.autoRotationBehavior.idleRotationSpeed = 0.5;
+  camera.autoRotationBehavior.idleRotationSpinupTime = 1000; //Ease In
+  camera.autoRotationBehavior.idleRotationWaitTime = 2000; //클릭 멈춤 후 대기시간
+  camera.autoRotationBehavior.zoomStopsAnimation = true; //Wheel - Zoom 때도 회전 멈춤
+
+  // 프레임 비헤이비어 - 화면 사이즈 변형 애니
+  camera.useFramingBehavior = true;
+  camera.framingBehavior.radiusScale = 1;
+  camera.framingBehavior.framingTime = 4000; //사이즈 변경 시간
+
+  // Import GLB
+  // 일반 glb에서는 콜백함수로 meshes 사용, 로딩스크린 evt 가 되지 않는다
+  // BABYLON.SceneLoader.ImportMesh(
+  //   "",
+  //   "./gltfs/",
+  //   "suzie.glb",
+  //   scene,
+  //   (meshes) => {
+  //     camera.setTarget(meshes[0]);
+  //   }
+  // );
+
+  // 비동기 버전 GLB
+  const { meshes } = await BABYLON.SceneLoader.ImportMeshAsync(
+    "",
+    "./gltfs/",
+    "suzie.glb",
+    scene
+  );
+
+  // const watch = meshes[0];
+  const watch = scene.getMeshByName("Cylinder"); //meshes[0]
+  watch.showBoundingBox = true;
+  camera.setTarget(watch);
+
+  const envTexture = new BABYLON.CubeTexture("images/environment.env", scene);
+  scene.createDefaultSkybox(envTexture, true, 100, 0.1);
+
+  return scene;
+}
+```
 
