@@ -211,7 +211,7 @@ function createScene() {
   ball.material = CreateBallMaterial();
 
   const envTexture = new BABYLON.CubeTexture("images/environment.env", scene);
-  scene.createDefaultSkybox(envTexture, true);
+  scene.createDefaultSkybox(envTexture, true, 1000, 0.2); //0.2 Texture Roughness
 
   return scene;
 }
@@ -598,7 +598,7 @@ function createScene() {
   );
 
   const envTexture = new BABYLON.CubeTexture("images/environment.env", scene);
-  scene.createDefaultSkybox(envTexture, true);
+  scene.createDefaultSkybox(envTexture, true, 1000, 0.2);
 
   return scene;
 }
