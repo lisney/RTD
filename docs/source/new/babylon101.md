@@ -390,4 +390,222 @@ import GLB(GLTF)
 로딩스크린 - splash
 ----------------------
 
+![image](https://user-images.githubusercontent.com/30430227/174218133-51cf3486-b364-4da1-9485-c6c4d76396c3.png)
+
+```
+# home.hbs
+<div class="box">
+    <div id="loader">
+        <p>Loading</p>
+        <div id="loadingContainer">
+            <div id="loadingBar">로딩바다</div>
+        </div>
+        <p id="percentLoaded">25%</p>
+    <H2>Loading</p>
+    </div>
+<canvas id="renderCanvas"></canvas>
+
+</div>
+
+<script src="babylon.js"></script>
+
+# style.css
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  margin: 0 auto;
+  width: 70%;
+  height: 70%;
+}
+
+#renderCanvas {
+  width: 100%;
+  height: 100%;
+}
+
+#loader {
+  width: 100%;
+  height: 100%;
+  background: slategray;
+  font-size: 1rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#loaded {
+  width: 100%;
+  height: 100%;
+  color: white;
+  background: slategray;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+#loadingBar {
+  width: 10%;
+  height: 2rem;
+  background: white;
+}
+
+#loadingContainer {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  width: 15%;
+  font-size: 6rem;
+  font-family: "Oswald";
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+p:nth-child(1) {
+  /* color: rgb(0, 129, 70); */
+  animation: pulse 0.5s alternate infinite ease-in-out;
+  font-weight: 400;
+  justify-content: flex-end;
+}
+p:nth-child(2) {
+  font-size: 5.25rem;
+  animation: pulseFade 0.5s alternate infinite ease-in-out;
+}
+p:nth-child(3) {
+  /* color: rgb(0, 129, 70); */
+  color: white;
+  justify-content: flex-start;
+  animation: pulse 0.5s alternate infinite ease-in-out 0.5s;
+}
+
+h2 {
+  margin: 0.25rem;
+  font-family: "Oswald";
+  font-weight: 200;
+}
+
+@keyframes pulse {
+  to {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+}
+
+@keyframes pulseFade {
+  to {
+    opacity: 0.5;
+  }
+}
+
+# babylon.js
+const canvas = document.querySelector("#renderCanvas");
+
+//로딩바
+const loadingBar = document.querySelector("#loadingBar");
+const percentLoaded = document.querySelector("#percentLoaded");
+const loader = document.querySelector("#loader");
+
+//엔진
+const engine = new BABYLON.Engine(canvas, true);
+
+class CustomLoadingScreen {
+  constructor(loadingBar, percentLoaded, loader) {
+    //constructor - Class에서 프로퍼티(변수)를 선언하는 곳
+    this.loadingBar = loadingBar;
+    this.percentLoaded = percentLoaded;
+    this.loader = loader;
+    this.status = 0;
+  }
+  displayLoadingUI() {
+    this.loadingBar.style.width = "100%";
+    this.percentLoaded.innerText = "0%";
+    // alert(this.loadingUIText);
+    console.log("로딩중");
+  }
+  hideLoadingUI() {
+    this.loader.id = "loaded";
+
+    setTimeout(() => {
+      this.loader.style.display = "none";
+    }, 1000);
+    // alert("니주글래!");
+  }
+  updateLoadStatus(status) {
+    //status - ImportMeshAsync의 evt 값 받음
+    this.loadingBar.style.width = `${status}%`;
+    this.percentLoaded.innerText = `${status}%`;
+    console.log(status);
+  }
+}
+
+const loadingScreen = new CustomLoadingScreen(
+  loadingBar,
+  percentLoaded,
+  loader
+);
+
+engine.loadingScreen = loadingScreen;
+
+const scene = createScene();
+
+engine.runRenderLoop(() => {
+  scene.render();
+  engine.hideLoadingUI();
+});
+
+function createScene() {
+  const scene = new BABYLON.Scene(engine);
+
+  engine.displayLoadingUI();
+
+  const camera = new BABYLON.FreeCamera(
+    "camera",
+    new BABYLON.Vector3(0, 1, 1),
+    scene
+  );
+  camera.setTarget(BABYLON.Vector3.Zero()); //freeCamera용 타깃
+  camera.attachControl(canvas, false);
+  camera.speed = 0.1; // 키보드 방향키 감도
+  camera.minZ = 0.01; //Cliping Planes min
+
+  // Import GLB file
+  BABYLON.SceneLoader.ImportMeshAsync(
+    "",
+    "./gltfs/",
+    "suzie.glb",
+    scene,
+    (evt) => {
+      // evt는 ...Async로 부를 때 생성
+      const loadStatus = ((evt.loaded * 100) / evt.total).toFixed();
+      loadingScreen.updateLoadStatus(loadStatus);
+    }
+  );
+
+  const envTexture = new BABYLON.CubeTexture("images/environment.env", scene);
+  scene.createDefaultSkybox(envTexture, true);
+
+  return scene;
+}
+```
+
+
+Camera Mechanics
+------------------
+
 
