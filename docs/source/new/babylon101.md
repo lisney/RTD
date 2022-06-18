@@ -698,6 +698,81 @@ async function createScene() {
 ```
 
 
-Mesh Action
+Mesh Action Manager
 --------------
+
+![image](https://user-images.githubusercontent.com/30430227/174418626-893f13c7-0488-4b8c-9c4f-ba37a032c655.png)
+
+```
+
+  //재질
+  const sphereMat = new BABYLON.PBRMaterial("sphereMat", scene);
+  sphereMat.albedoColor = new BABYLON.Color3(1, 0, 0);
+  sphereMat.roughness = 0;
+
+  // const watch = meshes[0];
+  const watch = scene.getMeshByName("Cylinder"); //meshes[0]
+  watch.showBoundingBox = true;
+  camera.setTarget(watch);
+  meshes[1].material = sphereMat;
+
+  const envTexture = new BABYLON.CubeTexture("images/environment.env", scene);
+  scene.createDefaultSkybox(envTexture, true, 100, 0.1);
+
+  //회전용 큐브
+  const cube = new BABYLON.MeshBuilder.CreateBox("cube", {
+    height: 0.5,
+    width: 0.5,
+    depth: 0.5,
+  });
+  cube.material = sphereMat;
+
+  //메시 액션
+  //interpolate..부드러운 액션
+  function CreateAction() {
+    watch.actionManager = new BABYLON.ActionManager(scene);
+    watch.actionManager.registerAction(
+      new BABYLON.SetValueAction(
+        BABYLON.ActionManager.OnPickDownTrigger,
+        watch,
+        "scaling",
+        new BABYLON.Vector3(1.2, 1.2, 1.2)
+      )
+    );
+
+    watch.actionManager
+      .registerAction(
+        new BABYLON.InterpolateValueAction(
+          BABYLON.ActionManager.OnPickDownTrigger,
+          sphereMat,
+          "roughness",
+          1,
+          3000
+        )
+      )
+      .then(
+        //한 번 더 클릭하면 실행
+        new BABYLON.InterpolateValueAction(
+          BABYLON.ActionManager.NothingTrigger,
+          sphereMat,
+          "roughness",
+          0,
+          1000
+        )
+      );
+
+    scene.actionManager = new BABYLON.ActionManager(scene);
+    scene.actionManager.registerAction(
+      new BABYLON.IncrementValueAction(
+        BABYLON.ActionManager.OnEveryFrameTrigger,
+        cube,
+        "rotation.y",
+        0.01
+      )
+    );
+  }
+
+  CreateAction();
+
+```
 
