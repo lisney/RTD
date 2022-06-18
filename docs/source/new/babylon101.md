@@ -776,3 +776,71 @@ Mesh Action Manager
 
 ```
 
+
+First Person Controller
+---------------------------
+
+![image](https://user-images.githubusercontent.com/30430227/174420446-05a973b6-10e1-48ba-916c-43b9cd2e30cf.png)
+
+```
+const canvas = document.querySelector("#renderCanvas");
+const engine = new BABYLON.Engine(canvas, true);
+
+// 비동기 버전
+function startRenderLoop(sceneToRender) {
+  engine.runRenderLoop(() => {
+    sceneToRender.render();
+  });
+}
+
+createScene().then(startRenderLoop);
+
+async function createScene() {
+  const scene = new BABYLON.Scene(engine);
+
+  const camera = new BABYLON.FreeCamera(
+    "camera",
+    new BABYLON.Vector3(0, 1, 0),
+    scene
+  );
+  camera.attachControl(canvas, false);
+  camera.applyGravity = true;
+  camera.checkCollisions = true;
+  camera.ellipsoid = new BABYLON.Vector3(1, 1, 1);
+  camera.minZ = 0.1;
+  camera.speed = 0.75;
+  camera.angularSensibility = 4000; //카메라 회전 감도, 낮을 수록 높다
+
+  //라이트
+  new BABYLON.HemisphericLight("hemi", new BABYLON.Vector3(0, 1, 0), scene);
+
+  scene.onPointerDown = (evt) => {
+    if (evt.button === 0) engine.enterPointerlock();
+    if (evt.button === 1) engine.exitPointerlock();
+  };
+
+  const framesPerSecond = 60;
+  const gravity = -9.81;
+  scene.gravity = new BABYLON.Vector3(0, gravity / framesPerSecond, 0);
+  scene.collisionsEnabled = true;
+
+  // 비동기 버전 GLB
+  const { meshes } = await BABYLON.SceneLoader.ImportMeshAsync(
+    "",
+    "./gltfs/",
+    "fpc.glb",
+    scene
+  );
+  meshes.map((mesh) => {
+    mesh.checkCollisions = true;
+  });
+
+  //재질
+  const sphereMat = new BABYLON.PBRMaterial("sphereMat", scene);
+  sphereMat.albedoColor = new BABYLON.Color3(1, 0, 0);
+  sphereMat.roughness = 0;
+
+  return scene;
+}
+```
+
