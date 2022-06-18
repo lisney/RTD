@@ -221,5 +221,10 @@ Gui.runCommand('Std_TileWindows',0)
 ![image](https://user-images.githubusercontent.com/30430227/173719029-5bf1cff9-7f64-4bd0-9d9c-0b2ebc560b50.png)
 
 
+심플 복사 
+----------
+
+![image](https://user-images.githubusercontent.com/30430227/174435018-1e0506ea-39ff-4c1e-a1ef-5010bae8d319.png)
+
 
 
