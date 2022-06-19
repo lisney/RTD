@@ -850,7 +850,7 @@ Physics Impostor-사칭자
 
 ![image](https://user-images.githubusercontent.com/30430227/174461610-012890ee-97db-4b16-b1d4-884b14721085.png)
 
-![image](https://user-images.githubusercontent.com/30430227/174462615-b773914a-68e4-455f-bd89-d5a956fbe859.png)
+![image](https://user-images.githubusercontent.com/30430227/174463649-0372437e-707d-499f-8088-138f7fc43aec.png)
 
 ```
 # main.hbs
@@ -932,29 +932,61 @@ async function createScene() {
     { diameterX: 1, segments: 4 },
     scene
   );
-  sphere.position.y = 2;
+  sphere.position.y = 8;
+
+  const box = BABYLON.MeshBuilder.CreateBox("box", { size: 1 });
+  box.position = new BABYLON.Vector3(0, 3, 0);
 
   const ground = BABYLON.MeshBuilder.CreateGround("ground", {
     width: 10,
     height: 10,
   });
   ground.position.y = -1;
-  ground.isVisible = false;//랜더 시 안보이게
+  ground.isVisible = false; //랜더 시 안보이게
 
   scene.enablePhysics(null, new BABYLON.CannonJSPlugin()); //중력 null = new BABYLON.Vector3(0,-9.8,0)
 
   sphere.physicsImpostor = new BABYLON.PhysicsImpostor(
     sphere,
     BABYLON.PhysicsImpostor.SphereImpostor,
-    { mass: 1, restitution: 0.9 },
+    { mass: 1, restitution: 0.9, friction: 0.5 },
     scene
   );
+
+  box.physicsImpostor = new BABYLON.PhysicsImpostor(
+    box,
+    BABYLON.PhysicsImpostor.BoxImpostor,
+    { mass: 1, resititution: 0.5 }
+  );
+
   ground.physicsImpostor = new BABYLON.PhysicsImpostor(
     ground,
     BABYLON.PhysicsImpostor.BoxImpostor,
     { mass: 0, resitution: 0.9 }, //mass 0 - 고정
     scene
   );
+
+  // 물리 충돌
+  box.physicsImpostor.registerOnPhysicsCollide(
+    sphere.physicsImpostor,
+    detectCollisions
+  );
+
+  function detectCollisions(boxCol, colAgainst) {
+    //boxCol 맞은 놈, colAgainst 때린 놈, 배열[] 가능
+    boxCol.object.scaling = new BABYLON.Vector3(1.5, 0.5, 1.5); //충돌하면 3배로 커진다
+    boxCol.setScalingUpdated();
+
+    const redMat = new BABYLON.StandardMaterial("redMat", scene);
+    redMat.diffuseColor = new BABYLON.Color3(1, 0, 0);
+    colAgainst.object.material = redMat;
+  }
+
+  // 트리거 테스트
+  scene.registerBeforeRender(() => {
+    //랜더링 하기전에 호출
+    console.log("intersects?", box.intersectsMesh(sphere));
+  });
 
   return scene;
 }
