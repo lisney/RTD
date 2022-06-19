@@ -83,9 +83,30 @@ const scores = Students.map(student=>student.score) //클래스 객체를 클래
 Students.reduce((prev, curr)=>{return prev + curr.score},0) // 중괄호 없어도 된다
 //누적값 리턴, 초기값: 0, 순차적으로 return 한 값이 다음 번 prev의 값으로 들어간다.
 //scores.reduce((prev,curr)=>prev+curr,0)와 같은 결과
-
 ```
 
+```
+# Math
+원주율은 Math.PI
+버리면 Math.floor(Math.PI))
+소수점 두 자리는 Math.floor(Math.PI*100)/100)
+소수점 두 자리 고정 (Math.PI).toFixed(2))
+
+# Zfill 구현 padStart(기준문자열, 반복문자열)
+  function zFill(num, digit) {
+    const numString = num.toString();
+    return numString.padStart(digit, "0");
+  }
+    
+# 랜덤 함수
+  function randomNum(min, max) {
+    if (min == max) {
+      return min;
+    }
+    const random = Math.random();
+    return (random * (max - min) + min);
+  }
+```
 2. HTML DOM Node
 
 .nextElementSibling(형제), .firstElementChild, .childNodes.item(3)=childNodes[3]=children[1],
