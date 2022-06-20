@@ -315,4 +315,47 @@ TechDraw WB
 ![image](https://user-images.githubusercontent.com/30430227/174533614-aca36ab3-4bcd-42c4-ab44-1ff1e9530161.png)
 
 
+2. Insert View - Tree View에서 볼 단계 아이콘 선택 후 실행, 혹시 뒤집혀 나오면 ViewPort 흔들기..
+
+![image](https://user-images.githubusercontent.com/30430227/174534130-75c745f9-86ea-4b9c-8afc-1afa4da16da5.png)
+![image](https://user-images.githubusercontent.com/30430227/174534161-d5dc7d39-34a1-4dc2-bbe2-12fe7a0bb849.png)
+
+![image](https://user-images.githubusercontent.com/30430227/174534056-a0e76f82-6271-4af7-aabd-3069dd7b8b67.png)
+![image](https://user-images.githubusercontent.com/30430227/174533866-2baa7e8d-5fb9-494e-aef4-cbb8cb180e98.png)
+
+`Preferences`
+
+![image](https://user-images.githubusercontent.com/30430227/174534430-a77b33af-fadf-428f-9ba6-4fa049c0291f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/174534474-1cafe88f-416c-439e-bd55-07fbda5244ba.png)
+
+![image](https://user-images.githubusercontent.com/30430227/174534507-8819c296-8dc2-4086-b8bb-4fa2795a27b8.png)
+![image](https://user-images.githubusercontent.com/30430227/174534534-c2c6c4bc-42f2-40f8-8eed-3106d90c03f1.png)
+
+
+3. 후처리
+
+![image](https://user-images.githubusercontent.com/30430227/174535023-d6c8267a-277e-4480-b2b3-84ac8b005c69.png)
+
+![image](https://user-images.githubusercontent.com/30430227/174534966-3aabd5ad-8155-4f8d-be8b-10599f81ce7f.png)
+![image](https://user-images.githubusercontent.com/30430227/174534998-fe9364bf-a4e4-428a-acee-366f45471c01.png)
+
+
+4. Section View
+
+![image](https://user-images.githubusercontent.com/30430227/174535510-9a610d94-e2e2-406f-babf-70a4acbc708a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/174535402-240448d1-f415-4879-a003-0734a00f214d.png)
+
+
+5. Detail View - 
+
+![image](https://user-images.githubusercontent.com/30430227/174535916-ab21a9f3-abc5-4a03-9d00-30f6f1c18c06.png)
+
+![image](https://user-images.githubusercontent.com/30430227/174535957-2731d13c-f1f2-447e-93fb-8fc7787ec500.png)
+![image](https://user-images.githubusercontent.com/30430227/174535980-81018def-5572-4309-b76f-053255635be2.png)
+![image](https://user-images.githubusercontent.com/30430227/174536030-896aef6d-df04-4dc5-9517-715c29601e14.png)
+
+
+
 
