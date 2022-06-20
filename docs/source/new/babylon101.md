@@ -984,11 +984,125 @@ async function createScene() {
 
   // 트리거 테스트
   scene.registerBeforeRender(() => {
-    //랜더링 하기전에 호출
+    //랜더링 할 때마다 호출 engine.runRenderLoop
     console.log("intersects?", box.intersectsMesh(sphere));
   });
 
   return scene;
 }
 ```
+
+
+Physical Velocity 
+-------------------
+
+![image](https://user-images.githubusercontent.com/30430227/174565648-94cc2e6e-d860-4e92-9098-de04b8d96c0a.png)
+
+```
+# Camera
+  const camera = new BABYLON.FreeCamera(
+    "camera",
+    new BABYLON.Vector3(0, 1, -5),
+    scene
+  );
+  camera.attachControl(canvas, false);
+  // camera.applyGravity = true;
+  // camera.checkCollisions = true;
+  // camera.ellipsoid = new BABYLON.Vector3(1, 1, 1);
+  camera.minZ = 0.1;
+  camera.speed = 0.75;
+  camera.angularSensibility = 4000; //카메라 회전 감도, 낮을 수록 높다
+
+  camera.setTarget(BABYLON.Vector3.Zero());
+  
+# GLBs
+  // 비동기 버전 GLB
+  const { meshes: meshA } = await BABYLON.SceneLoader.ImportMeshAsync(
+    //{}구조분해할당 별명 :meshA
+    "",
+    "./gltfs/",
+    "fpc.glb",
+    scene
+  );
+
+  meshA.map((mesh) => {
+    mesh.checkCollisions = true;
+    mesh.material = randColor();
+  });
+
+  const { meshes: meshB } = await BABYLON.SceneLoader.ImportMeshAsync(
+    "",
+    "./gltfs/",
+    "suzi.glb",
+    scene
+  );
+
+  scene.enablePhysics(null, new BABYLON.CannonJSPlugin()); //중력 null = new BABYLON.Vector3(0,-9.8,0)
+
+  const suziCol = BABYLON.MeshBuilder.CreateBox("suziCol", {
+    width: 2,
+    height: 2,
+    depth: 2,
+  });
+  suziCol.position.y = 2;
+
+  suziCol.visibility = 0.25;
+
+  suziCol.physicsImpostor = new BABYLON.PhysicsImpostor(
+    suziCol,
+    BABYLON.PhysicsImpostor.BoxImpostor,
+    { mass: 1 },
+    scene
+  );
+
+  // 회전
+  suziCol.rotate(BABYLON.Vector3.Forward(), 1.5); //라디안 값 1.5
+
+  //부모
+  meshB[0].parent = suziCol; //자식의 위치 이동>부모로
+  // meshB[0].setParent(suziCol);//자식 위치 그대로
+
+  //바닥
+  const ground = BABYLON.MeshBuilder.CreateGround("ground", {
+    width: 10,
+    height: 10,
+  });
+  ground.position.y = -1;
+  ground.isVisible = false; //랜더 시 안보이게
+
+  ground.physicsImpostor = new BABYLON.PhysicsImpostor(
+    ground,
+    BABYLON.PhysicsImpostor.BoxImpostor,
+    { mass: 0, resitution: 0.9 }, //mass 0 - 고정
+    scene
+  );
+
+  // 물리 속도-추진력 (1)번 시리즈 테스트 후 (2)번 라인들 테스트
+  function suziPhysics() {
+    // suziCol.physicsImpostor.setLinearVelocity(new BABYLON.Vector3(0, 1, 0));//(1)
+    suziCol.physicsImpostor.setLinearVelocity(suziCol.up.scale(2)); //(2) .scale() 배속
+    // suziCol.physicsImpostor.setAngularVelocity(new BABYLON.Vector3(0, 1, 0)); //(1) 회전 추진
+    suziCol.physicsImpostor.setAngularVelocity(suziCol.up); //(2)회전 추진
+    // camera.position.y = suziCol.position.y;//(1)
+    camera.position = new BABYLON.Vector3( //(2)
+      suziCol.position.x,
+      suziCol.position.y,
+      camera.position.z
+    );
+  }
+
+  //매 프레임마다 실행
+  scene.registerBeforeRender(suziPhysics);
+
+  //마우스 클릭 시onPointerDown 물리 끔 unregisterBe..
+  let gameOver = false;
+
+  if (!gameOver) scene.registerBeforeRender(suziPhysics);
+
+  scene.onPointerDown = () => {
+    gameOver = true;
+    scene.unregisterBeforeRender(suziPhysics);
+  };
+```
+
 
