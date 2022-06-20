@@ -1,6 +1,79 @@
 FreeCAD
 ========
 
+2.0 New
+--------
+
+1. Rotate to nearest
+
+`네비게이션 큐브 클릭 시 가장 가까운 위치로 회전 -off하면`
+
+![image](https://user-images.githubusercontent.com/30430227/174507753-338e47d1-b86c-4b49-a6e5-d35717c7d130.png)
+
+`ON/OFF`
+
+![image](https://user-images.githubusercontent.com/30430227/174507845-8f99416d-d216-4722-b998-2e98535ba9c9.png)
+![image](https://user-images.githubusercontent.com/30430227/174507853-e03db900-8a5d-4eff-ba84-3837ac7106f9.png)
+
+
+2. Std User Edit Mode
+
+`트리 뷰에서 아이콘 더블 클릭 시 실행될 기능 선택`
+
+![image](https://user-images.githubusercontent.com/30430227/174508251-0c2f4497-6469-42dc-ab4b-eba393ab269b.png)
+
+
+3. View > Persistent Section - 섹션 커팅
+
+![image](https://user-images.githubusercontent.com/30430227/174508722-13a5645f-f1d6-4393-a977-8a9630ccbada.png)
+
+
+4. PartDesign - Direction/edge:돌출 방향 지정 가능, Length along sk:방향에 따라 특정 길이로 지정 가능
+
+![image](https://user-images.githubusercontent.com/30430227/174509553-6fb3fa87-4316-46b4-98b5-ed7667bd1672.png)
+
+`Hole > Model Thread`
+
+![image](https://user-images.githubusercontent.com/30430227/174510023-a4b52b1a-6c6d-428d-99ed-dbb13cb7f343.png)
+
+![image](https://user-images.githubusercontent.com/30430227/174510050-4ebd21b5-6cc4-4d4e-9cb2-2ca5e0ec62ef.png)
+
+
+5. Sketcher
+
+`Split`
+
+![image](https://user-images.githubusercontent.com/30430227/174510210-714d1429-15e5-4131-90e2-9ad8a0487ba6.png)
+
+![image](https://user-images.githubusercontent.com/30430227/174510222-22f2ebde-bd28-4b72-ad19-b37268b0245a.png)
+![image](https://user-images.githubusercontent.com/30430227/174510238-eb5b3f9d-b08a-4082-bd1c-e054073e5047.png)
+
+`Rectangle & Radius`
+
+![image](https://user-images.githubusercontent.com/30430227/174510343-3d8ab5d0-5d9f-4e45-9deb-ab8a7fc8fd03.png)
+
+![image](https://user-images.githubusercontent.com/30430227/174510446-81f4e830-275c-4faf-be6c-a27c4133bcec.png)
+
+`Remove Axes alignment - 기존 Constraints를 제거`
+
+![image](https://user-images.githubusercontent.com/30430227/174510804-32cb84f0-24bc-4406-9d1a-6c1a4d5f9128.png)
+
+![image](https://user-images.githubusercontent.com/30430227/174510716-3c5cea9d-8ef9-456d-bb68-f74745789353.png)
+![image](https://user-images.githubusercontent.com/30430227/174510732-4e9e99a1-0c22-4aa8-b5dd-6737adabc94f.png)
+
+`Slot 그릴 때 Ctrl-수직수평 제한`
+
+![image](https://user-images.githubusercontent.com/30430227/174510888-46287726-f5d6-4bb9-b015-f5b024aeda55.png)
+
+`B-spline > Insert Knot`
+
+![image](https://user-images.githubusercontent.com/30430227/174511027-9394949b-10c7-43a9-9ca1-252a37789024.png)
+
+![image](https://user-images.githubusercontent.com/30430227/174511070-105695e4-7c6a-4e13-be6e-1a01f617025d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/174511097-452e2190-d294-4970-a4f1-07e9bfdf24bb.png)
+
+
 shape binder
 ---------------
 
