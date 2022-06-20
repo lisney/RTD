@@ -300,4 +300,19 @@ Gui.runCommand('Std_TileWindows',0)
 ![image](https://user-images.githubusercontent.com/30430227/174435018-1e0506ea-39ff-4c1e-a1ef-5010bae8d319.png)
 
 
+TechDraw WB
+--------------
+
+`코어 워크벤치라 Addon에 없다 > Customize에서 Enable해서 사용`
+
+![image](https://user-images.githubusercontent.com/30430227/174533443-54b82537-eb78-4a5a-a845-56ea706ad7af.png)
+
+1. 템플릿
+
+![image](https://user-images.githubusercontent.com/30430227/174533562-6d8216f7-b398-47a3-9b05-0b1f9e7e2bfa.png)
+
+![image](https://user-images.githubusercontent.com/30430227/174533652-7d17f1fc-0b8e-449a-96c5-f452378e8e01.png)
+![image](https://user-images.githubusercontent.com/30430227/174533614-aca36ab3-4bcd-42c4-ab44-1ff1e9530161.png)
+
+
 
