@@ -813,7 +813,8 @@ async function createScene() {
 
   //라이트
   new BABYLON.HemisphericLight("hemi", new BABYLON.Vector3(0, 1, 0), scene);
-
+  
+  // 마우스 포인터 락 - ESC키 해제
   scene.onPointerDown = (evt) => {
     if (evt.button === 0) engine.enterPointerlock();
     if (evt.button === 1) engine.exitPointerlock();
@@ -890,6 +891,7 @@ async function createScene() {
   //라이트
   new BABYLON.HemisphericLight("hemi", new BABYLON.Vector3(0, 1, 0), scene);
 
+  // 마우스 포인터 락 - ESC키 해제
   scene.onPointerDown = (evt) => {
     if (evt.button === 0) engine.enterPointerlock();
     if (evt.button === 1) engine.exitPointerlock();
@@ -993,7 +995,7 @@ async function createScene() {
 ```
 
 
-Physical Velocity 
+Physics Velocity 
 -------------------
 
 ![image](https://user-images.githubusercontent.com/30430227/174565648-94cc2e6e-d860-4e92-9098-de04b8d96c0a.png)
@@ -1104,5 +1106,202 @@ Physical Velocity
     scene.unregisterBeforeRender(suziPhysics);
   };
 ```
+
+
+
+Physics Force
+--------------
+
+![image](https://user-images.githubusercontent.com/30430227/174596728-e2cee0bf-9d32-40fc-aa60-dfacec54251f.png)
+
+```
+const canvas = document.querySelector("#renderCanvas");
+const engine = new BABYLON.Engine(canvas, true);
+
+// 비동기 버전
+function startRenderLoop(sceneToRender) {
+  engine.runRenderLoop(() => {
+    sceneToRender.render();
+  });
+}
+
+createScene().then(startRenderLoop);
+
+async function createScene() {
+  const scene = new BABYLON.Scene(engine);
+
+  const camera = new BABYLON.FreeCamera(
+    "camera",
+    new BABYLON.Vector3(0, 1, -5),
+    scene
+  );
+  camera.attachControl(canvas, false);
+  // camera.applyGravity = true;
+  // camera.checkCollisions = true;
+  // camera.ellipsoid = new BABYLON.Vector3(1, 1, 1);
+  camera.minZ = 0.1;
+  camera.speed = 0.75;
+  camera.angularSensibility = 4000; //카메라 회전 감도, 낮을 수록 높다
+
+  camera.setTarget(BABYLON.Vector3.Zero());
+
+  //라이트
+  new BABYLON.HemisphericLight("hemi", new BABYLON.Vector3(0, 1, 0), scene);
+
+  // 마우스 포인터 락
+  // scene.onPointerDown = (evt) => {
+  //   if (evt.button === 0) engine.enterPointerlock();
+  //   if (evt.button === 1) engine.exitPointerlock();
+  // };
+
+  const framesPerSecond = 60;
+  const gravity = -9.81;
+  scene.gravity = new BABYLON.Vector3(0, gravity / framesPerSecond, 0);
+  scene.collisionsEnabled = true;
+
+  //재질
+  function randColor() {
+    randMat = new BABYLON.PBRMaterial("randMat", scene);
+    randMat.albedoColor = new BABYLON.Color3(
+      Math.random(),
+      Math.random(),
+      Math.random
+    );
+    randMat.roughness = 1;
+
+    return randMat;
+  }
+
+  // 비동기 버전 GLB
+  const { meshes: meshA } = await BABYLON.SceneLoader.ImportMeshAsync(
+    //{}구조분해할당 별명 :meshA
+    "",
+    "./gltfs/",
+    "fpc.glb",
+    scene
+  );
+
+  meshA.map((mesh) => {
+    mesh.checkCollisions = true;
+    mesh.material = randColor();
+  });
+
+  const { meshes: meshB } = await BABYLON.SceneLoader.ImportMeshAsync(
+    "",
+    "./gltfs/",
+    "suzi.glb",
+    scene
+  );
+
+  scene.enablePhysics(
+    new BABYLON.Vector3(0, -9.81, 0),
+    new BABYLON.CannonJSPlugin()
+  );
+
+  // 박스
+  const box = BABYLON.MeshBuilder.CreateBox("box", {
+    size: 2,
+  });
+  const boxMat = new BABYLON.PBRMaterial("boxMat", scene);
+  boxMat.albedoColor = new BABYLON.Color3(1, 0.5, 0);
+  boxMat.roughness = 1;
+
+  box.material = boxMat;
+
+  box.physicsImpostor = new BABYLON.PhysicsImpostor(
+    box,
+    BABYLON.PhysicsImpostor.BoxImpostor,
+    { mass: 1, friction: 1 },
+    scene
+  );
+
+  // 액션 매니저 - 마우스 충격파!
+  box.actionManager = new BABYLON.ActionManager(scene);
+
+  box.actionManager.registerAction(
+    new BABYLON.ExecuteCodeAction(
+      BABYLON.ActionManager.OnPickDownTrigger,
+      () => {
+        box.physicsImpostor.applyImpulse(
+          new BABYLON.Vector3(0, 0, 5),
+          box.getAbsolutePosition().add(new BABYLON.Vector3(0, 1, 0))
+        ); //getAbsolutePosition 센터포지션, .add() 추가하면 센터 + Y1 높이가 펄스 포인트
+      }
+    )
+  );
+
+  //바닥
+  const ground = BABYLON.MeshBuilder.CreateGround("ground", {
+    width: 40,
+    height: 40,
+  });
+  ground.position.y = -1;
+  ground.isVisible = false; //랜더 시 안보이게
+
+  ground.physicsImpostor = new BABYLON.PhysicsImpostor(
+    ground,
+    BABYLON.PhysicsImpostor.BoxImpostor,
+    { mass: 0, resitution: 0.9 }, //mass 0 - 고정
+    scene
+  );
+
+  // 캐논 볼
+
+  let cannonball;
+  function CreateCannonball() {
+    cannonball = BABYLON.MeshBuilder.CreateSphere("cannonball", {
+      diameter: 0.5,
+    });
+    const ballMat = new BABYLON.PBRMaterial("ballMat", scene);
+    ballMat.albedoColor = new BABYLON.Color3(1, 0, 0);
+    ballMat.roughness = 1;
+
+    cannonball.material = ballMat;
+
+    cannonball.physicsImpostor = new BABYLON.PhysicsImpostor(
+      cannonball,
+      BABYLON.PhysicsImpostor.SphereImpostor,
+      { mass: 1, friction: 1 }
+    );
+    cannonball.position = camera.position;
+    cannonball.setEnabled(false);
+  }
+
+  CreateCannonball();
+
+  // 캐논볼 알까기
+  function ShootCannonball() {
+    const clone = cannonball.clone("clone");
+    clone.position = camera.position;
+
+    clone.setEnabled(true);
+
+    clone.physicsImpostor.applyForce(
+      // 방향, 포지션
+      camera.getForwardRay().direction,
+      clone.getAbsolutePosition()
+    );
+
+    clone.physicsImpostor.registerOnPhysicsCollide(
+      ground.physicsImpostor,
+      () => {
+        setTimeout(() => {
+          clone.dispose(); //폐기
+        }, 3000);
+      }
+    );
+  }
+
+  //캐논볼 발사
+  scene.onPointerDown = (e) => {
+    if (e.button === 2) ShootCannonball();
+  };
+
+  return scene;
+}
+```
+
+
+
 
 
