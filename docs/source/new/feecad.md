@@ -357,5 +357,22 @@ TechDraw WB
 ![image](https://user-images.githubusercontent.com/30430227/174536030-896aef6d-df04-4dc5-9517-715c29601e14.png)
 
 
+6. Annotation
+
+![image](https://user-images.githubusercontent.com/30430227/174538389-59bc61d3-72f1-4d8c-92a2-169bbd460254.png)
+
+![image](https://user-images.githubusercontent.com/30430227/174536165-a1bb65a2-a172-4a88-8dfe-ac58a73e4c6a.png)
+
+
+7. Chain Dimension
+
+![image](https://user-images.githubusercontent.com/30430227/174538665-11c5439e-5ef5-4c13-878b-eaca0a8c9c08.png)
+
+![image](https://user-images.githubusercontent.com/30430227/174538595-433b7d9b-9c36-4ae8-a8d1-1c50fec01576.png)
+
+
+8. Export PDF - Mouse R button
+
+![image](https://user-images.githubusercontent.com/30430227/174538838-5cc64d55-2010-48ce-9455-8fbcd84f4e48.png)
 
 
