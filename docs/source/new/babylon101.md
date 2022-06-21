@@ -1302,6 +1302,187 @@ async function createScene() {
 ```
 
 
+Raycasting 
+----------
+
+![image](https://user-images.githubusercontent.com/30430227/174721267-f57dfc78-fd77-4364-b417-720b987ba6ed.png)
+
+```
+const canvas = document.querySelector("#renderCanvas");
+const engine = new BABYLON.Engine(canvas, true);
+
+// 비동기 버전
+function startRenderLoop(sceneToRender) {
+  engine.runRenderLoop(() => {
+    sceneToRender.render();
+  });
+}
+
+createScene().then(startRenderLoop);
+
+async function createScene() {
+  const scene = new BABYLON.Scene(engine);
+
+  const camera = new BABYLON.FreeCamera(
+    "camera",
+    new BABYLON.Vector3(0, 1, -5),
+    scene
+  );
+  camera.attachControl(canvas, false);
+  // camera.applyGravity = true;
+  // camera.checkCollisions = true;
+  // camera.ellipsoid = new BABYLON.Vector3(1, 1, 1);
+  camera.minZ = 0.1;
+  camera.speed = 0.75;
+  camera.angularSensibility = 4000; //카메라 회전 감도, 낮을 수록 높다
+
+  camera.setTarget(BABYLON.Vector3.Zero());
+
+  //라이트
+  new BABYLON.HemisphericLight("hemi", new BABYLON.Vector3(0, 1, 0), scene);
+
+  const framesPerSecond = 60;
+  const gravity = -9.81;
+  scene.gravity = new BABYLON.Vector3(0, gravity / framesPerSecond, 0);
+  scene.collisionsEnabled = true;
+
+  //재질
+  function randColor() {
+    randMat = new BABYLON.PBRMaterial("randMat", scene);
+    randMat.albedoColor = new BABYLON.Color3(
+      Math.random(),
+      Math.random(),
+      Math.random()
+    );
+    randMat.roughness = 1;
+
+    return randMat;
+  }
+
+  // 비동기 버전 GLB
+  const { meshes: meshA } = await BABYLON.SceneLoader.ImportMeshAsync(
+    //{}구조분해할당 별명 :meshA
+    "",
+    "./gltfs/",
+    "fpc.glb",
+    scene
+  );
+
+  meshA.map((mesh) => {
+    mesh.checkCollisions = true;
+    mesh.material = randColor();
+  });
+
+  scene.enablePhysics(
+    new BABYLON.Vector3(0, -9.81, 0),
+    new BABYLON.CannonJSPlugin()
+  );
+
+  //바닥
+  const ground = BABYLON.MeshBuilder.CreateGround("ground", {
+    width: 40,
+    height: 40,
+  });
+  ground.position.y = -1;
+  ground.isVisible = false; //랜더 시 안보이게
+
+  ground.physicsImpostor = new BABYLON.PhysicsImpostor(
+    ground,
+    BABYLON.PhysicsImpostor.BoxImpostor,
+    { mass: 0, resitution: 0.9, friction: 10 }, //mass 0 - 고정
+    scene
+  );
+
+  // 지구
+  const earth = BABYLON.MeshBuilder.CreateSphere("earth", { diameter: 3 });
+  earth.position.y = 3;
+  const earthMat = new BABYLON.PBRMaterial("earthMat", scene);
+  earthMat.albedoColor = new BABYLON.Color3(1, 1, 1);
+  earthMat.roughness = 1;
+
+  earth.material = earthMat;
+
+  earth.physicsImpostor = new BABYLON.PhysicsImpostor(
+    earth,
+    BABYLON.PhysicsImpostor.SphereImpostor,
+    { mass: 1, friction: 1 }
+  );
+
+  //페인팅 재질
+  let splatters;
+
+  function CreateTextures() {
+    const blue = new BABYLON.PBRMaterial("blue", scene);
+    const orange = new BABYLON.PBRMaterial("orange", scene);
+    const green = new BABYLON.PBRMaterial("green", scene);
+
+    blue.albedoTexture = new BABYLON.Texture("./images/blue.png", scene);
+    orange.albedoTexture = new BABYLON.Texture("./images/orange.png", scene);
+    green.albedoTexture = new BABYLON.Texture("./images/green.png", scene);
+
+    blue.roughness = 1;
+    orange.roughness = 1;
+    green.roughness = 1;
+
+    blue.albedoTexture.hasAlpha = true;
+    orange.albedoTexture.hasAlpha = true;
+    green.albedoTexture.hasAlpha = true;
+
+    blue.zOffset = -0.25; //재질이 표면에 매핑되는 위치, 음수-표면 바깥에 위치
+    orange.zOffset = -0.25;
+    green.zOffset = -0.25;
+
+    splatters = [blue, orange, green];
+  }
+
+  CreateTextures();
+
+  //레이캐스트
+  function CreatePickingRay() {
+    scene.onPointerDown = () => {
+      const ray = scene.createPickingRay(
+        scene.pointerX,
+        scene.pointerY,
+        BABYLON.Matrix.Identity(), //피킹 대상,identity(정체성,단위) - 행렬이 단위 행렬인지 체크
+        camera
+      );
+
+      const raycastHit = scene.pickWithRay(ray);
+
+      //raycastHit - 화면 클릭 시 발생, raycastHit.hit -Mesh 클릭했을 때 발생
+      //if(raycastHit){
+      // console.log("니 주글래!");
+      // }
+      if (raycastHit.hit && raycastHit.pickedMesh.name === "earth") {
+        const decal = BABYLON.MeshBuilder.CreateDecal(
+          "decal",
+          raycastHit.pickedMesh,
+          {
+            position: raycastHit.pickedPoint,
+            normal: raycastHit.getNormal(true),
+            size: new BABYLON.Vector3(1, 1, 1),
+          }
+        );
+        decal.material =
+          splatters[Math.floor(Math.random() * splatters.length)];
+
+        decal.setParent(raycastHit.pickedMesh); //데칼을 지구에 붙인다
+
+        //충격파
+        raycastHit.pickedMesh.physicsImpostor.applyImpulse(
+          ray.direction, //ray.direction.scale(5) 더 강하게
+          raycastHit.pickedPoint
+        );
+      }
+    };
+  }
+
+  CreatePickingRay();
+
+  return scene;
+}
+```
+
 
 
 
