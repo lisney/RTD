@@ -1484,5 +1484,209 @@ async function createScene() {
 ```
 
 
+기본 애니메이션 M-마우스 클릭 시 사라짐
+------------------------------------
+
+![image](https://user-images.githubusercontent.com/30430227/174770168-0c44aae4-d275-465e-a2ea-21ef32b4ccc0.png)
+
+```
+const canvas = document.querySelector("#renderCanvas");
+const engine = new BABYLON.Engine(canvas, true);
+
+// 비동기 버전
+function startRenderLoop(sceneToRender) {
+  engine.runRenderLoop(() => {
+    sceneToRender.render();
+  });
+}
+
+createScene().then(startRenderLoop);
+
+async function createScene() {
+  const scene = new BABYLON.Scene(engine);
+
+  const camera = new BABYLON.FreeCamera(
+    "camera",
+    new BABYLON.Vector3(0, 1, -5),
+    scene
+  );
+  camera.attachControl(canvas, false);
+  // camera.applyGravity = true;
+  // camera.checkCollisions = true;
+  // camera.ellipsoid = new BABYLON.Vector3(1, 1, 1);
+  camera.minZ = 0.1;
+  camera.speed = 0.75;
+  camera.angularSensibility = 4000; //카메라 회전 감도, 낮을 수록 높다
+
+  camera.setTarget(BABYLON.Vector3.Zero());
+
+  //라이트
+  new BABYLON.HemisphericLight("hemi", new BABYLON.Vector3(0, 1, 0), scene);
+
+  const framesPerSecond = 60;
+  const gravity = -9.81;
+  scene.gravity = new BABYLON.Vector3(0, gravity / framesPerSecond, 0);
+  scene.collisionsEnabled = true;
+
+  //재질
+  function randColor() {
+    randMat = new BABYLON.PBRMaterial("randMat", scene);
+    randMat.albedoColor = new BABYLON.Color3(
+      Math.random(),
+      Math.random(),
+      Math.random()
+    );
+    randMat.roughness = 1;
+
+    return randMat;
+  }
+
+  // 비동기 버전 GLB
+  const { meshes: meshA } = await BABYLON.SceneLoader.ImportMeshAsync(
+    //{}구조분해할당 별명 :meshA
+    "",
+    "./gltfs/",
+    "fpc.glb",
+    scene
+  );
+
+  meshA.map((mesh) => {
+    mesh.checkCollisions = true;
+    mesh.material = randColor();
+  });
+
+  const { meshes: meshB } = await BABYLON.SceneLoader.ImportMeshAsync(
+    "",
+    "./gltfs/",
+    "suzi.glb",
+    scene
+  );
+
+  meshB.shift(); //메쉬 리스트 쉬프트 1 -> 0
+
+  // meshB[1].rotationQuaternion = null; //gltf는 Quaternion으로 export한다
+  meshB[0].rotationQuaternion = null; //gltf는 Quaternion으로 export한다
+  // meshB[0].visibility = 0.5;
+
+  // const target = meshB[1];
+  const target = meshB[0];
+
+  scene.enablePhysics(
+    new BABYLON.Vector3(0, -9.81, 0),
+    new BABYLON.CannonJSPlugin()
+  );
+
+  //바닥
+  const ground = BABYLON.MeshBuilder.CreateGround("ground", {
+    width: 40,
+    height: 40,
+  });
+  ground.position.y = -1;
+  ground.isVisible = false; //랜더 시 안보이게
+
+  ground.physicsImpostor = new BABYLON.PhysicsImpostor(
+    ground,
+    BABYLON.PhysicsImpostor.BoxImpostor,
+    { mass: 0, resitution: 0.9, friction: 100 }, //mass 0 - 고정
+    scene
+  );
+
+  function CreateAnimations() {
+    const rotateFrames = []; //keyframe 저장 배열
+    const slideFrames = [];
+    const fadeFrames = [];
+
+    const fps = 60;
+
+    rotateFrames.push({ frame: 0, value: 0 });
+    rotateFrames.push({ frame: 180, value: Math.PI * 2 });
+
+    slideFrames.push({ frame: 0, value: new BABYLON.Vector3(0, 0, 0) });
+    slideFrames.push({ frame: 60, value: new BABYLON.Vector3(-1, 2, 0) });
+    slideFrames.push({ frame: 120, value: new BABYLON.Vector3(2, 1, 0) });
+    slideFrames.push({ frame: 180, value: new BABYLON.Vector3(0, 0, 0) });
+
+    fadeFrames.push({ frame: 0, value: 1 });
+    fadeFrames.push({ frame: 180, value: 0 });
+
+    const rotateAnim = new BABYLON.Animation(
+      "rotateAnim",
+      "rotation.y",
+      fps,
+      BABYLON.Animation.ANIMATIONTYPE_FLOAT,
+      // BABYLON.Animation.ANIMATIONLOOPMODE_CONSTANT
+      BABYLON.Animation.ANIMATIONLOOPMODE_CYCLE
+    );
+
+    const slideAnim = new BABYLON.Animation(
+      "slideAnim",
+      "position",
+      fps,
+      BABYLON.Animation.ANIMATIONTYPE_VECTOR3,
+      BABYLON.Animation.ANIMATIONLOOPMODE_CYCLE
+    );
+
+    const fadeAnim = new BABYLON.Animation(
+      "fadeAnim",
+      "visibility",
+      fps,
+      BABYLON.Animation.ANIMATIONTYPE_FLOAT,
+      BABYLON.Animation.ANIMATIONLOOPMODE_CONSTANT
+    );
+
+    rotateAnim.setKeys(rotateFrames);
+    slideAnim.setKeys(slideFrames);
+    fadeAnim.setKeys(fadeFrames);
+
+    target.animations.push(rotateAnim);
+    target.animations.push(slideAnim);
+    target.animations.push(fadeAnim);
+
+    // 1. 모든 애니메이션 실행
+    // scene.beginAnimation(target, 0, 180, true); //true =loop
+
+    // 2. 선택 애니메이션 실행 directAnimation
+    // scene.beginDirectAnimation(target, [slideAnim, rotateAnim], 0, 180, true);
+
+    // scene.onPointerDown = (evt) => {
+    //   if (evt.button === 1)
+    //     scene.beginDirectAnimation(target, [fadeAnim], 0, 180, true);
+    // };
+
+    // 3.종료 애니메이션
+    function onAnimationEnd() {
+      console.log("니주글래!");
+      target.setEnabled(false); //메시를 랜더링 하지 않음
+    }
+
+    const animControl = scene.beginDirectAnimation(
+      target,
+      [slideAnim, rotateAnim],
+      0,
+      180,
+      true, //loop-true
+      1, //speed Ratio
+      onAnimationEnd
+    );
+
+    scene.onPointerDown = async (evt) => {
+      if (evt.button === 1) {
+        await scene
+          .beginDirectAnimation(target, [fadeAnim], 0, 180) //loop-false
+          .waitAsync(); // 애니메이션(fadeAnim) 이 끝날 때까지 기다림, 프로미스
+        animControl.stop();
+      }
+    };
+  }
+
+  CreateAnimations();
+
+  // scene.debugLayer.show();
+
+  return scene;
+}
+```
+
+
 
 
