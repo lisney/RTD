@@ -1688,5 +1688,242 @@ async function createScene() {
 ```
 
 
+캐릭터 애니메이션
+------------------
+
+[무료게임어셋](https://www.kenney.nl/assets/animated-characters-2)
+
+![image](https://user-images.githubusercontent.com/30430227/174774965-8ffd8b0a-95b9-4504-bbe3-1a728b7e0901.png)
+
+1. Mixamo 
+
+`idle, jump, run(inplace) 다운`
+
+![image](https://user-images.githubusercontent.com/30430227/174917668-183a157c-4492-4873-a450-3e7be608472d.png)
 
 
+2. Blender
+
+`Mesh Import > Shader Editro > Skin Texture > Emission:0, Alpha: 1`
+
+![image](https://user-images.githubusercontent.com/30430227/174918719-1b5d781e-4099-419b-8093-5c7ff2fcb1c2.png)
+![image](https://user-images.githubusercontent.com/30430227/174918690-001b131c-5b91-42f8-a7fa-26a3cc5170f4.png)
+
+`Animation FBX Import > Action Editor(Dopesheet) > Rename > Root.001 삭제(애니메이션은 남아있다)`
+
+![image](https://user-images.githubusercontent.com/30430227/174919299-625f58d7-a40e-4892-861f-636b1e872141.png)
+
+![image](https://user-images.githubusercontent.com/30430227/174919263-31ea1741-5598-4a7c-abff-3694f7310d1a.png)
+![image](https://user-images.githubusercontent.com/30430227/174919509-d75686c7-dd72-4440-8922-3ba43c732173.png)
+
+`Root 선택 > ActoinEditor > Animation Clip 선택`
+
+![image](https://user-images.githubusercontent.com/30430227/174920094-89e0ed1a-f9ea-4e1f-9da7-af409280b30f.png)
+![image](https://user-images.githubusercontent.com/30430227/174920079-433f0c61-272f-46e1-9803-a792a91f5a20.png)
+
+`NonlinearEditor > 'Root' 트랙 선택 > Add Action Strip > Rename`
+
+![image](https://user-images.githubusercontent.com/30430227/174925539-c9e43d5c-259b-4b45-abb6-a94980d94a82.png)
+
+![image](https://user-images.githubusercontent.com/30430227/174925608-92733fd8-734d-4d4c-b91c-91e8a4f21f2c.png)
+![image](https://user-images.githubusercontent.com/30430227/174925633-a76fe326-99da-4121-b95b-b865317a1d9f.png)
+
+`별 버튼-Play Solo`
+
+![image](https://user-images.githubusercontent.com/30430227/174926732-4776d3e5-a21f-4c94-a383-b39e4946304f.png)
+
+`Export GLB - Compression`
+
+![image](https://user-images.githubusercontent.com/30430227/174927028-43b6a925-3e6e-48b6-bd16-9ca07c5fb7b0.png)
+
+
+3. BabylonJS
+
+![image](https://user-images.githubusercontent.com/30430227/174961550-8ebeae0d-bc72-425b-97a7-4750ec17fe92.png)
+
+```
+const canvas = document.querySelector("#renderCanvas");
+const engine = new BABYLON.Engine(canvas, true);
+
+// 비동기 버전
+function startRenderLoop(sceneToRender) {
+  engine.runRenderLoop(() => {
+    sceneToRender.render();
+  });
+}
+
+createScene().then(startRenderLoop);
+
+async function createScene() {
+  const scene = new BABYLON.Scene(engine);
+
+  const camera = new BABYLON.FreeCamera(
+    "camera",
+    new BABYLON.Vector3(0, 3, -5),
+    scene
+  );
+  // camera.attachControl(canvas, false);
+  camera.minZ = 0.1;
+  camera.speed = 0.75;
+  camera.angularSensibility = 4000; //카메라 회전 감도, 낮을 수록 높다
+
+  camera.setTarget(new BABYLON.Vector3(0, 2, 0));
+
+  //라이트
+  new BABYLON.HemisphericLight("hemi", new BABYLON.Vector3(0, 1, 0), scene);
+
+  const framesPerSecond = 60;
+  // const gravity = -9.81;
+  // scene.gravity = new BABYLON.Vector3(0, gravity / framesPerSecond, 0);
+  // scene.collisionsEnabled = true;
+
+  //재질
+  function randColor() {
+    randMat = new BABYLON.PBRMaterial("randMat", scene);
+    randMat.albedoColor = new BABYLON.Color3(
+      Math.random(),
+      Math.random(),
+      Math.random()
+    );
+    randMat.roughness = 1;
+
+    return randMat;
+  }
+
+  // 비동기 버전 GLB
+  const { meshes: meshA } = await BABYLON.SceneLoader.ImportMeshAsync(
+    //{}구조분해할당 별명 :meshA
+    "",
+    "./gltfs/",
+    "fpc.glb",
+    scene
+  );
+
+  meshA.map((mesh) => {
+    // mesh.checkCollisions = true;
+    // mesh.material = randColor();
+    mesh.position.y = 0.6;
+  });
+
+  const { meshes: meshB, animationGroups } =
+    await BABYLON.SceneLoader.ImportMeshAsync(
+      "",
+      "./gltfs/",
+      "character.glb",
+      scene
+    );
+
+  meshB[0].rotate(BABYLON.Vector3.Up(), -Math.PI / 2); //메쉬 회전(축,값)
+  meshB[0].position = new BABYLON.Vector3(3, 0, 0);
+
+  animationGroups[0].stop();
+  animationGroups[2].play(true);
+
+  const run = animationGroups[2];
+
+  // 어텍 애니메이션
+  let zombieAnims;
+  CreateZombie();
+
+  const attackAnim = animationGroups[1].targetedAnimations[0].animation; //animationGroup[1]이 실행되면 타킷 애니
+
+  // 어텍 이벤트 60 frame 후에 실행, loop=false
+  const attackEvt = new BABYLON.AnimationEvent(
+    60,
+    () => {
+      zombieAnims[2].stop();
+      zombieAnims[1].play();
+    },
+    false
+  );
+
+  attackAnim.addEvent(attackEvt);
+
+  scene.onPointerDown = (evt) => {
+    if (evt.button === 2) animationGroups[1].play();
+  };
+
+  //쌍동이 BLB 불러옴
+  async function CreateZombie() {
+    const { meshes, animationGroups } =
+      await BABYLON.SceneLoader.ImportMeshAsync(
+        "",
+        "./gltfs/",
+        "character.glb",
+        scene
+      );
+
+    zombieAnims = animationGroups;
+
+    meshes[0].rotate(BABYLON.Vector3.Up(), Math.PI / 2);
+    meshes[0].position = new BABYLON.Vector3(-3, 0, 0);
+
+    zombieAnims[0].stop();
+    animationGroups[2].play(true);
+
+    const deathAnim = animationGroups[1].targetedAnimations[0].animation;
+
+    const deathEvt = new BABYLON.AnimationEvent(
+      80,
+      () => {
+        run.play(true); //좀비 죽으면 달리기
+      },
+      false
+    );
+    deathAnim.addEvent(deathEvt);
+  }
+
+  //커스텀 씬 애니메이션 추가 - 카메라 Animation
+  async function CreateCstmscene() {
+    const camKeys = [];
+    const fps = 60;
+    const camAnim = new BABYLON.Animation(
+      "camAnim",
+      "position",
+      fps,
+      BABYLON.Animation.ANIMATIONTYPE_VECTOR3,
+      BABYLON.Animation.ANIMATIONLOOPMODE_CONSTANT,
+      true
+    );
+
+    camKeys.push({ frame: 0, value: new BABYLON.Vector3(0, 3, -5) });
+    camKeys.push({ frame: 3 * fps, value: new BABYLON.Vector3(-8, 10, -20) }); //좌로8, 위로10, 뒤로20
+    camKeys.push({ frame: 6 * fps, value: new BABYLON.Vector3(8, 10, -20) });
+    camKeys.push({ frame: 9 * fps, value: new BABYLON.Vector3(0, 3, -5) });
+
+    camAnim.setKeys(camKeys);
+
+    camera.animations.push(camAnim);
+
+    await scene.beginAnimation(camera, 0, 12 * fps).waitAsync(); //애니메이션 끝날 때까지 기다려..
+    EndCstmscene();
+  }
+
+  CreateCstmscene();
+
+  function EndCstmscene() {
+    camera.attachControl(scene, false);
+    animationGroups[2].stop();
+    animationGroups[0].play();
+  }
+
+  //바닥
+  const ground = BABYLON.MeshBuilder.CreateGround("ground", {
+    width: 40,
+    height: 40,
+  });
+  ground.position.y = -1;
+  ground.isVisible = false; //랜더 시 안보이게
+
+  // ground.physicsImpostor = new BABYLON.PhysicsImpostor(
+  //   ground,
+  //   BABYLON.PhysicsImpostor.BoxImpostor,
+  //   { mass: 0, resitution: 0.9, friction: 100 }, //mass 0 - 고정
+  //   scene
+  // );
+
+  // scene.debugLayer.show();
+
+  return scene;
+}
+```
