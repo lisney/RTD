@@ -66,15 +66,57 @@ app.listen(3000);
 자바스크립트 
 ---------------
 
-1.문자열, 배열
+1.숫자, 문자열, 배열
 
 ```
-userEmail.indexOf('@') //문자열에서 @문자가 있으면 그 위치의 Index 값 반환
-문자열.substr(4,9) //빼내기, 4번째 인덱스부터 9번째까지 반환(인수 9가 없으면 4이후 전부 반환)
-문자열.split('-') //문자 '-'를 기준으로 분리한 요소를 배열로 반환(<=> 배열.join('--'), 참고:('')->모든 문자를 배열로
-배열.splice(0,1) : 배열에서 0~1번째 인덱스 요소를 삭제하고 삭제한 요소를 리턴=> 객체.slice 배열 원본은 보존/리턴
+#숫자
+.toFixed(숫자) - 기본 소수부분 삭제, 소수점 자리수에서 반올림 
+console.log(userRate.toFixed(2));
+console.log(isNaN(userRate.toFixed(2)));//isNaN 숫자가 아니면 true
 
-클래스 객체 배열의 경우...
+
+#문자열
+userEmail.indexOf('@') //문자열에서 @문자가 있으면 그 위치의 Index 값 반환
+.substr(4,9) //빼내기, 4번째 인덱스부터 9번째까지 반환(인수 9가 없으면 4이후 전부 반환)
+.split('-') //문자 '-'를 기준으로 분리한 요소를 배열로 반환(<=> 배열.join('--') 문자열을 배열로
+.splice(0,1) : 배열에서 0~1번째 인덱스 요소를 삭제하고 삭제한 요소를 리턴=> 객체.slice 배열 원본은 보존/리턴
+
+.trim() 앞 뒤 공백문자 제거 '   0ㅇㄹㅇ  ' -> '0ㅇㄹㅇ'
+.padStart(자릿수,채울문자(열) : (5,'56') -> '00056'
+
+
+#배열
+const arr = ["철수", "야놀자"];
+console.log(arr.concat([3, 4])); // ['철수', '야놀자', 3, 4] // Object.assign 비슷, concatenate-사슬로 잇다
+console.log(arr.join("")); // '철수야놀자' - 배열을 문자열로 <-> .split(''), .split(나눌기준문자(열))
+console.log(Array.isArray(userEmail.split("@naver"))); //Array.isArray -문자열이면 true
+
+// .find - 조건에 맞는 첫 요소 반환 .filter - 조건에 맞는 모든 요소 배열로 반환 
+const arr = [1, 3, 2, 4, 5];
+const result = arr.find((item) => {
+  return item % 2 === 0;
+});
+console.log(result);
+
+
+#객체
+class User {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+  showAge() {
+    console.log(`안녕하세요 ${this.name}님 나이는 ${this.age}입니다`);
+  }
+}
+const user1 = new User('Lee',50)
+
+const user1 = new User("Lee", 50);
+const user2 = Object.assign({ size: "Big" }, user1);//{}내용 없으면 객체 복사, 배열의 .concat과 비슷
+console.log(Object.keys(user2));
+console.log(Object.entries(user2));// 객체를 배열로([Key,Value]를 요소로 하는 배열)<->Object.fromEntries(배열)
+
+# 클래스 객체 배열의 경우...
 Students.find(함수(student){return student.score===90} 
 //data.scre가 90인 첫번째 요소에서 멈추고 해당 요소만 리턴(=>배열.filter 조건에 맞는 모든 요소 배열로 리턴)
 
@@ -83,6 +125,12 @@ const scores = Students.map(student=>student.score) //클래스 객체를 클래
 Students.reduce((prev, curr)=>{return prev + curr.score},0) // 중괄호 없어도 된다
 //누적값 리턴, 초기값: 0, 순차적으로 return 한 값이 다음 번 prev의 값으로 들어간다.
 //scores.reduce((prev,curr)=>prev+curr,0)와 같은 결과
+
+# 구조분해할당(Destructuring assignment)
+const user = { name: "Lee", age: 50 };
+const { name, age } = user;
+
+console.log(name, age);
 ```
 
 ```
@@ -94,7 +142,7 @@ Students.reduce((prev, curr)=>{return prev + curr.score},0) // 중괄호 없어�
 
 # Zfill 구현 padStart(기준문자열, 반복문자열)
   function zFill(num, digit) {
-    const numString = num.toString();
+    const numString = num.toString();//문자열을 숫자로 parseInt(문자열,진수) -> 기본 10진법 숫자로 변환
     return numString.padStart(digit, "0");
   }
     
