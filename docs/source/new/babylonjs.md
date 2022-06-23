@@ -154,6 +154,38 @@ console.log(name, age);
     const random = Math.random();
     return (random * (max - min) + min);
   }
+  
+# Rest Parameter ... 나머지 매개변수, 맨 뒤에 넣어야한다(a, b, ...c)
+function add(...numbers) {
+  let result = 0;
+  numbers.forEach((num) => {
+    result += num;
+  });
+  console.log(result);
+}
+
+add(3, 5, 11);
+
+## 위 Rest Parameter 합을 reduce를 사용하면
+  // let result = numbers.reduce((prev, cur) => prev + cur);//블록이 없으면 prev+cur이 리턴값이다
+  let result = numbers.reduce((prev, cur) => {
+    return prev + cur;//{}블록함수는 return 해줘야한다
+  }, 10);
+  
+  
+# 전개 구문(Spread syntax) ...배열
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
+const result = [0, ...arr1, ...arr2, 7, 8, 9];
+console.log(result);
+
+## 배열  const result = [...arr1]; = arr1.concat()
+
+## 객체  const user2 = { ...user1, size: "Big" }; = Object.assign(user1,{size:'Big'})
+
+
+
+
 ```
 2. HTML DOM Node
 
