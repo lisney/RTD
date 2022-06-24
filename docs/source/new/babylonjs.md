@@ -265,6 +265,36 @@ const user1 = new User1("Lee", 50, "Big");
 user1.showAge();
 
 
+# 제너레이터 함수 iterator 함수- 순차적 yield(return)
+function* fn() {
+  console.log(1);
+  yield "하나";
+  console.log(2);
+  yield "둘";
+  return "finish";
+}
+
+const a = fn();
+a.next();//a.next() 실행 > 순차적으로 yield에서 값을 return하고 멈춘다
+
+## for (let key of b) { // 제너레이터는 for of 로 순환
+  console.log(key);
+}
+
+
+# 삼항연산자 - ternary operator
+function getResult(score) {
+  return score > 5 ? "❤" : "💨";
+}
+
+
+# 널 병합Nullish-coalescing 연산자 ??
+function printMessage(text){
+  const message = text?? "Nothing to display"
+  console.log(message)
+}
+
+
 
 
 ```
@@ -400,7 +430,7 @@ promise
 5. 프로미스를 깔끔하게 사용하기 async, await
 
 ```
-# 프로미스로 리턴 - 함수 실행 시 프로미스 스타토
+# 프로미스로 리턴 - 함수로 만들어 프로미스 실행 타임 조절, 왜냐면 프로미스는 생성하면 바로 실행되버려서..
 function fetchUser() {
   return new Promise((resolve, reject) => {
     resolve("ellie");
@@ -414,9 +444,9 @@ user.then(console.log);//user=>console.log(user) 의 축약형(전달 인수와 
 // console.log(user);//프로미스 실행 상태를 볼 수 있다(pending, fulfilled, reject)
 
 
-# async로 바꾸면
+# async로 바꾸면 - return 값이 promise의 resolve가 된다.(참고 result는 try를 사용)
 async function fetchUser() {
-  return "ellie";
+  return 'Mike'
 }
 
 const user = fetchUser();
@@ -424,7 +454,12 @@ const user = fetchUser();
 user.then(console.log);
 
 
-# await
+# await - 프로미스를 순차적으로 실행 할 수 있다, 프로미스 체인의 가독성 높임
+async function fetchUser() {
+  const result1 = await Pr1()//await 다음에 프로미스를 Return하는 함수, result에 resolve
+  const result2 = await Pr2(result1)
+  ...//순차적으로 실행된다(비동기방식으로)
+}
 
 
 ```
