@@ -116,6 +116,11 @@ const user2 = Object.assign({ size: "Big" }, user1);//{}내용 없으면 객체 
 console.log(Object.keys(user2));
 console.log(Object.entries(user2));// 객체를 배열로([Key,Value]를 요소로 하는 배열)<->Object.fromEntries(배열)
 
+### 아래 .call Method 참고 > 객체의 메서드를 함수로 실행?
+const fn = user1.showAge
+fn() // 실행안된다. 이 함수는 this가 없어
+fn.call(user1)//user1객체가 this가 된다
+
 # 클래스 객체 배열의 경우...
 Students.find(함수(student){return student.score===90} 
 //data.scre가 90인 첫번째 요소에서 멈추고 해당 요소만 리턴(=>배열.filter 조건에 맞는 모든 요소 배열로 리턴)
@@ -182,6 +187,82 @@ console.log(result);
 ## 배열  const result = [...arr1]; = arr1.concat()
 
 ## 객체  const user2 = { ...user1, size: "Big" }; = Object.assign(user1,{size:'Big'})
+
+
+# 클로저 함수-함수 리턴, 변수 은닉화 Closer
+
+function makeCounter() {
+  let num = 0;// 은닉화
+  return function () {
+    return num++;
+  };
+}
+
+const counter = makeCounter();
+console.log(counter());
+console.log(counter());
+
+
+# .call - 함수에 붙여 객체Object의 요소를 부른다? showName(Object)
+const mike = {
+  name: "Mike",
+};
+function showName() {
+  console.log(this.name);
+}
+
+showName();
+showThisName.call(mike);
+
+## 객체Object의 멤버 변수 추가하는 함수는?(클래스 인스턴스에도 적용 가능)
+function update(birth, occupation) {
+  this.birth = birth;
+  this.occupation = occupation;
+}
+update.call(mike, 1999, "singer");
+console.log(mike);
+
+## .call 매서드를 함수로 묶어.bine 실행하는 방법? update.call(Object,...) = udateBind(...)
+const updateBind = update.bind(mike);
+updateBind.call(1999, "singer");
+console.log(mike);
+
+## 참고> .call파라미터를 배열 형식으로 전달하는 매서드 .apply(Object,[...])
+
+
+# 클래스와 프로토타입 비교
+class User {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+  showAge() {
+    console.log(`안녕하세요 ${this.name}님 나이는 ${this.age}입니다`);
+  }
+}
+--------------------------------------------------------------------
+function User2(name, age) {
+  this.name = name;
+  this.age = age;
+}
+User2.prototype.showName = function () {
+  console.log(this.name);
+};
+
+## 클래스 상속 extends
+class User1 extends User {
+  constructor(name, age, size) {
+    super(name, age);//constructor의 경우는 부모super 멤버변수를 반드시 넣어줘야한다
+    this.size = size;
+  }
+  showAge() {
+    super.showAge(); //부모super의 매서드를 실행하려면 추가
+    console.log(`${this.name}은 ${this.size}`);
+  }
+}
+
+const user1 = new User1("Lee", 50, "Big");
+user1.showAge();
 
 
 
