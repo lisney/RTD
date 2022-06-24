@@ -73,7 +73,7 @@ app.listen(3000);
 .toFixed(숫자) - 기본 소수부분 삭제, 소수점 자리수에서 반올림 
 console.log(userRate.toFixed(2));
 console.log(isNaN(userRate.toFixed(2)));//isNaN 숫자가 아니면 true
-
+-----------------------------------------------------------------
 
 #문자열
 userEmail.indexOf('@') //문자열에서 @문자가 있으면 그 위치의 Index 값 반환
@@ -83,7 +83,7 @@ userEmail.indexOf('@') //문자열에서 @문자가 있으면 그 위치의 Inde
 
 .trim() 앞 뒤 공백문자 제거 '   0ㅇㄹㅇ  ' -> '0ㅇㄹㅇ'
 .padStart(자릿수,채울문자(열) : (5,'56') -> '00056'
-
+-----------------------------------------------------------------
 
 #배열
 const arr = ["철수", "야놀자"];
@@ -98,6 +98,15 @@ const result = arr.find((item) => {
 });
 console.log(result);
 
+## 배열API 문제> 배열 items의 요소 중 짝수를 2배한 후 전체를 더한 값은?
+const items = [2, 12, 8, 32, 5, 42];
+
+const evens = items.filter((item) => item % 2 === 0);
+const doubles = evens.map((even) => even * 2);
+const adds = doubles.reduce((prev, cur) => prev + cur, 0);
+
+console.log(adds);
+-------------------------------------------------------------------
 
 #객체
 class User {
@@ -130,6 +139,7 @@ const scores = Students.map(student=>student.score) //클래스 객체를 클래
 Students.reduce((prev, curr)=>{return prev + curr.score},0) // 중괄호 없어도 된다
 //누적값 리턴, 초기값: 0, 순차적으로 return 한 값이 다음 번 prev의 값으로 들어간다.
 //scores.reduce((prev,curr)=>prev+curr,0)와 같은 결과
+-----------------------------------------------------------------
 
 # 구조분해할당(Destructuring assignment)
 const user = { name: "Lee", age: 50 };
@@ -176,7 +186,7 @@ add(3, 5, 11);
   let result = numbers.reduce((prev, cur) => {
     return prev + cur;//{}블록함수는 return 해줘야한다
   }, 10);
-  
+-----------------------------------------------------------------
   
 # 전개 구문(Spread syntax) ...배열
 const arr1 = [1, 2, 3];
@@ -184,12 +194,15 @@ const arr2 = [4, 5, 6];
 const result = [0, ...arr1, ...arr2, 7, 8, 9];
 console.log(result);
 
-## 배열  const result = [...arr1]; = arr1.concat()
+## 배열 매서드 대체  const result = [...arr1]; = arr1.concat()
 
-## 객체  const user2 = { ...user1, size: "Big" }; = Object.assign(user1,{size:'Big'})
+## 객체 매서드 대체 const user2 = { ...user1, size: "Big" }; = Object.assign(user1,{size:'Big'})
 
+## 배열의 중복 요소 제거 Set - 집합은 중복 요소를 제거한다
+console.log(...new Set(items));
+-----------------------------------------------------------------
 
-# 클로저 함수-함수 리턴, 변수 은닉화 Closer
+# 클로저 함수- 리턴 함수, 변수 은닉화 Closer
 
 function makeCounter() {
   let num = 0;// 은닉화
@@ -201,9 +214,9 @@ function makeCounter() {
 const counter = makeCounter();
 console.log(counter());
 console.log(counter());
+-----------------------------------------------------------------
 
-
-# .call - 함수에 붙여 객체Object의 요소를 부른다? showName(Object)
+# .call - 함수에 붙여 객체Object를 부른다(객체가 this.가 된다) showName(Object)
 const mike = {
   name: "Mike",
 };
@@ -228,7 +241,7 @@ updateBind.call(1999, "singer");
 console.log(mike);
 
 ## 참고> .call파라미터를 배열 형식으로 전달하는 매서드 .apply(Object,[...])
-
+-----------------------------------------------------------------
 
 # 클래스와 프로토타입 비교
 class User {
@@ -263,7 +276,7 @@ class User1 extends User {
 
 const user1 = new User1("Lee", 50, "Big");
 user1.showAge();
-
+-----------------------------------------------------------------
 
 # 제너레이터 함수 iterator 함수- 순차적 yield(return)
 function* fn() {
@@ -280,7 +293,7 @@ a.next();//a.next() 실행 > 순차적으로 yield에서 값을 return하고 멈
 ## for (let key of b) { // 제너레이터는 for of 로 순환
   console.log(key);
 }
-
+-----------------------------------------------------------------
 
 # 삼항연산자 - ternary operator
 function getResult(score) {
@@ -288,14 +301,13 @@ function getResult(score) {
 }
 
 
-# 널 병합Nullish-coalescing 연산자 ??
+# 널 병합Nullish-coalescing 연산자 ?? VS Logical-OR Operator
 function printMessage(text){
-  const message = text?? "Nothing to display"
+  const message = text?? "Nothing to display"//?? 입력값이 없으면Null () => "Nothing to..."
   console.log(message)
 }
 
-
-
+## const message = text || "Nothing to display"; // || text가 없으면 ("") => ... 
 
 ```
 2. HTML DOM Node
