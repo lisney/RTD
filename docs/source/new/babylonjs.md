@@ -473,6 +473,22 @@ async function fetchUser() {
   ...//순차적으로 실행된다(비동기방식으로)
 }
 
+## setTimeout 내에서는 return을 사용할 수 없어..
+//2초 후 Ellie 출력하고, 이어서 2초 후 'Hello' 출력하는 함수
+async function promise() {
+  const result1 = await new Promise((res, rej) => {
+    setTimeout(() => res("Ellie"), 2000);
+  });
+  const result2 = await new Promise((res, rej) => {
+    console.log(result1);
+    setTimeout(() => res("Hello"), 2000);
+  });
+  await new Promise((res, rej) => {
+    console.log(result2);
+  });
+}
+
+promise();
 
 ```
 
