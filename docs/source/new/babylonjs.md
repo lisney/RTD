@@ -88,6 +88,7 @@ userEmail.indexOf('@') //문자열에서 @문자가 있으면 그 위치의 Inde
 #배열
 const arr = ["철수", "야놀자"];
 console.log(arr.concat([3, 4])); // ['철수', '야놀자', 3, 4] // Object.assign 비슷, concatenate-사슬로 잇다
+//.concat은 문자열에도 사용가능 const str = "철수"; str.concat("야놀자")
 console.log(arr.join("")); // '철수야놀자' - 배열을 문자열로 <-> .split(''), .split(나눌기준문자(열))
 console.log(Array.isArray(userEmail.split("@naver"))); //Array.isArray -문자열이면 true
 
