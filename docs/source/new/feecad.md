@@ -376,3 +376,44 @@ TechDraw WB
 ![image](https://user-images.githubusercontent.com/30430227/174538838-5cc64d55-2010-48ce-9455-8fbcd84f4e48.png)
 
 
+EXploded Assembly
+-------------------
+
+1. 재질 설정
+
+`Combo View : View > Appearance`
+
+![image](https://user-images.githubusercontent.com/30430227/175800952-a7d91d81-2b3b-4d98-a35c-d077cbfa2b8d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/175800803-eed70629-649f-46cd-9a28-a8bc8212247b.png)
+
+
+2. 볼트 애니메이션
+
+![image](https://user-images.githubusercontent.com/30430227/175801144-10422595-bc5a-40dc-9366-03faa0b40f2e.png)
+![image](https://user-images.githubusercontent.com/30430227/175801147-8db7af50-907f-4f42-89be-23a5658b40a0.png)
+
+`너트 Edge 들 선택 후 방향 Face선택`
+
+![image](https://user-images.githubusercontent.com/30430227/175801104-a9dfc5d9-44df-492f-84fc-50ae7342de74.png)
+![image](https://user-images.githubusercontent.com/30430227/175801114-db1a0c10-935e-42ac-841f-0a88f7014945.png)
+
+![image](https://user-images.githubusercontent.com/30430227/175801126-f305536a-05ad-4bec-a182-dd11dfa60f33.png)
+
+`BoltGroup 애니메이션 세팅`
+
+![image](https://user-images.githubusercontent.com/30430227/175801226-f182ccbb-a961-4f6f-b206-1af50b974966.png)
+![image](https://user-images.githubusercontent.com/30430227/175801232-976a22c3-aca3-48f3-b626-d40e7dfe6cac.png)
+
+`볼트 Face 들 선택`
+
+![image](https://user-images.githubusercontent.com/30430227/175801367-14b5c740-10ec-4f7c-916d-23a918f277ad.png)
+
+![image](https://user-images.githubusercontent.com/30430227/175801320-b1d8050e-d14a-4804-ad6f-27b42acf66c4.png)
+
+![image](https://user-images.githubusercontent.com/30430227/175801379-e40ff915-8f29-4325-91c5-ce67ba8c792e.png)
+![image](https://user-images.githubusercontent.com/30430227/175801389-3fcbd100-8e90-4cf3-babe-0a10461ccd0c.png)
+
+
+
+
