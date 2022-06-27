@@ -476,7 +476,7 @@ Assemble4
 ![image](https://user-images.githubusercontent.com/30430227/175890568-4190e2ed-f5e7-42f7-8d9e-603a06bcebc9.png)
 ![image](https://user-images.githubusercontent.com/30430227/175890764-8e6c67ba-b923-4f15-99a0-fc0dfec6f185.png)
 
-4. Fasteners WB 
+4. Fasteners WB - 기존 Part 위치에 붙는다(에러->A2Plus사용)
 
 ![image](https://user-images.githubusercontent.com/30430227/175891138-b1b8d096-7dfb-4f08-94bc-9d7d71556472.png)
 ![image](https://user-images.githubusercontent.com/30430227/175891647-dadba5c3-71c9-4142-b15c-804a652eeb89.png)
@@ -488,3 +488,8 @@ Assemble4
 ![image](https://user-images.githubusercontent.com/30430227/175891562-3689f729-1d3f-431f-bcb7-4298c074f481.png)
 
 
+5. A2Plus는 기준되는 파트를 외부에서 불러와야 작동된다 > 이후 기존 파트를 A2Plus로 바꾸서 사용가능
+
+![image](https://user-images.githubusercontent.com/30430227/175934973-b619a718-b204-46be-9c32-92356afcb0b6.png)
+
+![image](https://user-images.githubusercontent.com/30430227/175935157-80cb2c4e-9526-4d01-8df6-a07e7c90181d.png)
