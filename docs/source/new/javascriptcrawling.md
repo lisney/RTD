@@ -41,7 +41,7 @@ vagrant box remove centos/7
 
 ```
 # 가상머신 실행
-> vagrant up --provider virtualbox
+> vagrant up --provider virtualbox //--provider vir...부분 없이도 실행 되는지?
 
 # 접속
 > vagrant ssh
