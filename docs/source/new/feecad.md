@@ -493,3 +493,46 @@ Assemble4
 ![image](https://user-images.githubusercontent.com/30430227/175934973-b619a718-b204-46be-9c32-92356afcb0b6.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/175935157-80cb2c4e-9526-4d01-8df6-a07e7c90181d.png)
+
+
+Exploded Assembly
+-------------------
+
+1. 두 점 선택 붙이기 -나중 선택한 점으로 붙는다
+
+![image](https://user-images.githubusercontent.com/30430227/175936200-195b955c-8e2c-41d7-8cdd-14973c836448.png)
+
+![image](https://user-images.githubusercontent.com/30430227/175936127-fa5db609-7d04-4dcc-a7e9-f29dbfe543e7.png)
+![image](https://user-images.githubusercontent.com/30430227/175936232-63794ace-b4af-4883-9078-217ed14433a8.png)
+
+
+2. 심플 그룹 생성
+
+![image](https://user-images.githubusercontent.com/30430227/175936658-549fc0f8-6b62-496f-9c6e-95cf98a9818a.png)
+![image](https://user-images.githubusercontent.com/30430227/175936682-d30fdab1-93f4-49fe-a6ad-f2fc316cdb61.png)
+
+
+3. 그룹중 하나를 다른 방향으로 변경 - Tree에서 심플그룹 선택 후 박스의 방향면을 선택한다
+
+![image](https://user-images.githubusercontent.com/30430227/175936884-6307cc4b-9f4e-49af-aabe-b0ab55902203.png)
+![image](https://user-images.githubusercontent.com/30430227/175936945-18429d8e-5717-4536-a376-8f4e4addc59a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/175937035-1f8302c6-94bd-4aa4-aa73-98700d9f6988.png)
+
+
+4. 조립 순서 바꾸기 - 나중에 선택하는 것이 가장 위로 간다 - 여러개 선택 가능
+
+![image](https://user-images.githubusercontent.com/30430227/175939358-b6063f8b-a9dd-4b2c-99cc-7aac82643443.png)
+![image](https://user-images.githubusercontent.com/30430227/175939405-12306fe8-42a7-463f-a921-e5c11d453e38.png)
+
+
+5. 선택한 Explode만 애니 보기
+
+![image](https://user-images.githubusercontent.com/30430227/175940465-4fd6249d-5a51-4c26-9e7c-0ed6b699f466.png)
+
+
+7. View Turntable
+
+![image](https://user-images.githubusercontent.com/30430227/175948197-3e452d3c-8abe-4b2b-ac8e-0bf458e48570.png)
+
+
