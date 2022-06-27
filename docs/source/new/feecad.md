@@ -73,6 +73,43 @@ FreeCAD
 
 ![image](https://user-images.githubusercontent.com/30430227/174511097-452e2190-d294-4970-a4f1-07e9bfdf24bb.png)
 
+![image](https://user-images.githubusercontent.com/30430227/175866455-f24ca219-1659-43ab-939d-7b258ab8178f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/175866572-116953c8-f6cf-4556-bf93-de6af6eee830.png)
+![image](https://user-images.githubusercontent.com/30430227/175866590-b9754a46-bc80-49a9-b648-85bcbd0e2a8b.png)
+
+
+`Delete All Constraint`
+
+![image](https://user-images.githubusercontent.com/30430227/175866980-ed75e9cd-f922-4895-9f33-95e8385d7a18.png)
+
+`Close Shape - 한방에 연결 Constraint를 생성해준다 > 연결되지 않는 라인을 순서대로 선택한 후 > CloseShpae`
+
+![image](https://user-images.githubusercontent.com/30430227/175868348-56f554cc-a080-4c0a-aba9-895833de264e.png)
+![image](https://user-images.githubusercontent.com/30430227/175868472-4f560782-e471-4a29-aa76-58b4131f387a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/175868224-67f68c37-9ccf-4f37-a5b8-e73ba283d028.png)
+![image](https://user-images.githubusercontent.com/30430227/175868288-12435a26-88cc-421f-8b01-1a7c5b7191cb.png)
+![image](https://user-images.githubusercontent.com/30430227/175868308-093cc9f8-d695-4cd2-9a57-98c1ddb59628.png)
+
+`구속조건 선택, 구속조건에 걸린 Geometry 선택`
+
+![image](https://user-images.githubusercontent.com/30430227/175868900-e97cbe6a-5b10-4dc2-ac40-a4f01dcb738c.png)
+![image](https://user-images.githubusercontent.com/30430227/175869008-bc69f89a-d670-4643-9bdb-389fcb77cc0b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/175869047-39908624-c5b4-4858-85d6-0d9d842da760.png)
+![image](https://user-images.githubusercontent.com/30430227/175869066-788f8377-7d67-4fb1-9c39-ccdbc78beb36.png)
+
+![image](https://user-images.githubusercontent.com/30430227/175869093-c9823c75-e6ea-4c80-8df9-25c587d78c5f.png)
+![image](https://user-images.githubusercontent.com/30430227/175869108-127da999-d3af-4405-a7dd-d76ee664b56e.png)
+
+`축 정렬 구속조건 제거`
+
+![image](https://user-images.githubusercontent.com/30430227/175869309-43938504-a6c0-4d27-aa28-1584a79090de.png)
+
+![image](https://user-images.githubusercontent.com/30430227/175869330-dda2a6b0-b7b5-4337-bdcf-da08795723be.png)
+![image](https://user-images.githubusercontent.com/30430227/175869364-f3faab52-986a-467b-b2f1-212db83e0387.png)
+
 
 shape binder
 ---------------
