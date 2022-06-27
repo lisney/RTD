@@ -452,5 +452,34 @@ EXploded Assembly
 ![image](https://user-images.githubusercontent.com/30430227/175801389-3fcbd100-8e90-4cf3-babe-0a10461ccd0c.png)
 
 
+Assemble4
+----------
+
+1. New Model 
+
+![image](https://user-images.githubusercontent.com/30430227/175890078-c202c9bb-c0c2-49bb-b6e5-ee97dac77b48.png)
+
+
+2. 빈 파트 생성(노랑) > 모델파트를 어샘블 파트에 드랙 > 로컬축 생성
+
+![image](https://user-images.githubusercontent.com/30430227/175890353-6369870b-e362-4ca1-9df4-65d25d7d8ac2.png)
+![image](https://user-images.githubusercontent.com/30430227/175890390-5295804c-46ea-462e-9bb7-19e02c7312f5.png)
+
+
+3. 인서트 파트
+ 
+![image](https://user-images.githubusercontent.com/30430227/175890568-4190e2ed-f5e7-42f7-8d9e-603a06bcebc9.png)
+![image](https://user-images.githubusercontent.com/30430227/175890764-8e6c67ba-b923-4f15-99a0-fc0dfec6f185.png)
+
+4. Fasteners WB 
+
+![image](https://user-images.githubusercontent.com/30430227/175891138-b1b8d096-7dfb-4f08-94bc-9d7d71556472.png)
+![image](https://user-images.githubusercontent.com/30430227/175891647-dadba5c3-71c9-4142-b15c-804a652eeb89.png)
+
+`모두 선택 > 설정값 수정`
+
+![image](https://user-images.githubusercontent.com/30430227/175891252-621c4549-d039-4509-81b3-09546d892ae0.png)
+
+![image](https://user-images.githubusercontent.com/30430227/175891562-3689f729-1d3f-431f-bcb7-4298c074f481.png)
 
 
