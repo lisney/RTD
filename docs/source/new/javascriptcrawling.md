@@ -148,7 +148,9 @@ gpgkey=https://packages.microsoft.com/keys/microsoft.asc
 # install the latest version of Visual Studio Code
 yum install code
 
-# 실행
+# super에서 나온exit 후 실행
+exit
+
 code
 
 * Yum은 Yellow dog - Update RPM 설치를 개선하기 위해 개발한 패키지 관리자
