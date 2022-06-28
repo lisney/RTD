@@ -27,7 +27,7 @@ Javascript Crawling
 # 가상머신 설정 생성
 vagrant init centos/7
 
-# 박스 설치
+# 박스 설치 (username	root, password	vagrant)
 vagrant up
 
 # 박스 제거
@@ -68,4 +68,89 @@ vagrant reload	가상머신 재시동
 ```
 
 
+NodeJS설치
+------------
 
+1. nvm 설치 - nodejs 설치(여러버전을 관리할 수 있다. nvm activate, deactivate
+
+`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash`
+
+`로그아웃>로그인`
+
+`mkdir ~/.nvm // nvm이 사용할 디렉토리 생성, ~ 홈디렉토리`
+
+```
+# nvm 제거
+vi ~/.bashrc 로 들어가 아래 내용 삭제 후 저장
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+rm -rf ~/.nvm 
+
+후 재시동
+```
+
+2. nvm install node 16 //안정화 버전
+
+3. 환경변수 수정 - sudoers 파일 수정
+
+`sudo visudo`
+
+```
+간단한 vi 명령어
+  편집 : 수정할 위치에서 i키 입력 후 수정
+  저장하고 빠져나오기 : 편집이 완료되면 esc키를 누른 후 :wq를 누름 
+  저장없이 빠저나오기 : esc키를 클릭 후 :q를 누름
+
+# 수정내용
+#######################################
+## env_reset를 무효화 처리  
+######################################
+# Defaults   env_reset
+Defaults    !env_reset
+
+
+######################################
+## HOME을 사용할 수 있게 주석 제거 처리
+######################################
+# Defaults   env_keep += "HOME"
+Defaults   env_keep += "HOME"
+
+```
+
+ VSCode 설치
+ --------------
+ 
+ ```
+ # 슈퍼 유저로 들어가
+ [be-jerry@localhost ~]$ su
+ -암호 : 
+ 
+ # Nano Editor 설치
+ nano /etc/yum.repos.d/vscode.repo
+ 
+ # Start by importing the Microsoft GPG key
+ rpm --import https://packages.microsoft.com/keys/microsoft.asc
+ 
+ # create the following repo file to enable the Visual Studio Code repository
+ nano /etc/yum.repos.d/vscode.repo
+ 
+ # Paste the following content into the file:
+ [code]
+name=Visual Studio Code
+baseurl=https://packages.microsoft.com/yumrepos/vscode
+enabled=1
+gpgcheck=1
+gpgkey=https://packages.microsoft.com/keys/microsoft.asc
+
+# install the latest version of Visual Studio Code
+yum install code
+
+# 실행
+code
+
+* Yum은 Yellow dog - Update RPM 설치를 개선하기 위해 개발한 패키지 관리자
+
+ ```
