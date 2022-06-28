@@ -542,3 +542,18 @@ Exploded Assembly
 ![image](https://user-images.githubusercontent.com/30430227/176062621-2ce314c1-54dc-4c9c-afb3-18b5382be171.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/176064792-fb28fbe6-20b3-4210-8614-9faedf196058.png)
+
+
+Create shape안될 때 - Part WB
+--------------------
+
+`두 파트에서 선택하면 Solid Error 가 난다 > 한 파트로 만들어줄려면 DraftWB > UPgrade`
+
+![image](https://user-images.githubusercontent.com/30430227/176067981-bf0b4936-f161-417b-b96e-ad1aff92a994.png)
+
+
+Face Color 
+--------------
+
+![image](https://user-images.githubusercontent.com/30430227/176068347-a705f167-39fd-4916-be35-0cd5d113174d.png)
+
