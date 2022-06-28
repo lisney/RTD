@@ -124,7 +124,7 @@ Defaults   env_keep += "HOME"
  --------------
  
  ```
- # 슈퍼 유저로 들어가
+ # 슈퍼 유저로 들어가 (sudo -i//바로들어감)
  [be-jerry@localhost ~]$ su
  -암호 : 
  
