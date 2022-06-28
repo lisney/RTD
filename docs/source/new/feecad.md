@@ -555,5 +555,7 @@ Create shape안될 때 - Part WB
 Face Color 
 --------------
 
+`PartDesign WB에서 만든 파트라면 > Pasr WB 에서 Simple Copy 후 > 마우스 오른 클릭 메뉴`
+
 ![image](https://user-images.githubusercontent.com/30430227/176068347-a705f167-39fd-4916-be35-0cd5d113174d.png)
 
