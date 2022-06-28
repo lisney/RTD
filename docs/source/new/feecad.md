@@ -510,7 +510,7 @@ Exploded Assembly
 ![image](https://user-images.githubusercontent.com/30430227/175936682-d30fdab1-93f4-49fe-a6ad-f2fc316cdb61.png)
 
 
-3. 그룹중 하나를 다른 방향으로 변경 - Tree에서 심플그룹 선택 후 박스의 방향면을 선택한다
+3. 그룹중 하나를 다른 방향으로 변경(좌우 동시 조립) - Tree에서 심플그룹 선택 후 박스의 방향면을 선택한다
 
 ![image](https://user-images.githubusercontent.com/30430227/175936884-6307cc4b-9f4e-49af-aabe-b0ab55902203.png)
 ![image](https://user-images.githubusercontent.com/30430227/175936945-18429d8e-5717-4536-a376-8f4e4addc59a.png)
