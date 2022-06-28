@@ -488,11 +488,9 @@ Assemble4
 ![image](https://user-images.githubusercontent.com/30430227/175891562-3689f729-1d3f-431f-bcb7-4298c074f481.png)
 
 
-5. A2Plus는 기준되는 파트를 외부에서 불러와야 작동된다 > 이후 기존 파트를 A2Plus로 바꾸서 사용가능
+5. A2Plus에서 Fix 파트 생성
 
-![image](https://user-images.githubusercontent.com/30430227/175934973-b619a718-b204-46be-9c32-92356afcb0b6.png)
-
-![image](https://user-images.githubusercontent.com/30430227/175935157-80cb2c4e-9526-4d01-8df6-a07e7c90181d.png)
+![image](https://user-images.githubusercontent.com/30430227/176063718-362fff58-8397-4751-aff0-144760773c05.png)
 
 
 Exploded Assembly
@@ -536,3 +534,9 @@ Exploded Assembly
 ![image](https://user-images.githubusercontent.com/30430227/175948197-3e452d3c-8abe-4b2b-ac8e-0bf458e48570.png)
 
 
+8. 결론 - 작업순서, A2Plus에서 복사하고 정렬 한 후 Exploded Assm에서 조립한다
+
+![image](https://user-images.githubusercontent.com/30430227/176062565-f371ea45-08d0-4aa0-a604-bd1474bd1529.png)
+![image](https://user-images.githubusercontent.com/30430227/176062586-9607dd1c-9727-4b2e-8b5c-03c2c981af00.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176062621-2ce314c1-54dc-4c9c-afb3-18b5382be171.png)
