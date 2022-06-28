@@ -534,9 +534,11 @@ Exploded Assembly
 ![image](https://user-images.githubusercontent.com/30430227/175948197-3e452d3c-8abe-4b2b-ac8e-0bf458e48570.png)
 
 
-8. 결론 - 작업순서, A2Plus에서 복사하고 정렬 한 후 Exploded Assm에서 조립한다
+8. 결론 - 작업순서, A2Plus에서 복사하고 정렬 한 후 Exploded Assm에서 조립한다 > Fastners 사이즈 맞춤
 
 ![image](https://user-images.githubusercontent.com/30430227/176062565-f371ea45-08d0-4aa0-a604-bd1474bd1529.png)
 ![image](https://user-images.githubusercontent.com/30430227/176062586-9607dd1c-9727-4b2e-8b5c-03c2c981af00.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/176062621-2ce314c1-54dc-4c9c-afb3-18b5382be171.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176064792-fb28fbe6-20b3-4210-8614-9faedf196058.png)
