@@ -60,6 +60,7 @@ vagrant resume	가상머신 휴면에서 복원
 vagrant reload	가상머신 재시동
 
 # SSH 클라이언트(윈도우에서)에서 접근하기위해 Vagrnatfile 설정값 수정
+# 다음 설정 시 Vagrant ssh 가 실행되지 않는다...해결안됨!!
   # 가상머신의 80포트를 호스트머신의 8080 포트에 할당함
   config.vm.network "forwarded_port", guest: 80, host: 8080
   # 가상머신의 IP를 아래 설정한 IP주소에 할당함
