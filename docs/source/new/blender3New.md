@@ -80,5 +80,13 @@ Bsurface
 ![image](https://user-images.githubusercontent.com/30430227/176344292-acb41d07-594d-4cba-85c6-9799a12ed094.png)
 ![image](https://user-images.githubusercontent.com/30430227/176344332-c78575b9-e4ef-40dd-9cc1-851ec6b72bae.png)
 
+`Grease Pencil 추가 선 그리기 > Auto Toggle ON > Draw > Add Surface`
+
+![image](https://user-images.githubusercontent.com/30430227/176348619-b95cf0c2-67bd-4f44-af3b-9ebef73c8a6e.png)
+![image](https://user-images.githubusercontent.com/30430227/176348647-08dc1a3e-b0bb-4d7b-83cd-48b0a2cd65c7.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176348468-07958ada-931a-434e-a422-af943cd955ff.png)
+
+
 
 
