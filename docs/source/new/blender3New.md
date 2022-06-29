@@ -87,6 +87,22 @@ Bsurface
 
 ![image](https://user-images.githubusercontent.com/30430227/176348468-07958ada-931a-434e-a422-af943cd955ff.png)
 
+`Curve 추가 > Initialize > Curve 선택 > Add Surface`
+
+![image](https://user-images.githubusercontent.com/30430227/176349084-8bd3fb72-3556-43ee-bcae-e719e50ca875.png)
+![image](https://user-images.githubusercontent.com/30430227/176349095-be8967ba-a135-48dc-8846-d4c7601d3375.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176349221-0bfefbf0-ca06-4c89-a920-456971c0e5b4.png)
+![image](https://user-images.githubusercontent.com/30430227/176349204-294c334d-79e9-4399-93ae-08918753b7db.png)
+
+`응용 > Add Annotation > Annotation to curves  > Edit curve > 복사 이동 >Add Surface `
+
+![image](https://user-images.githubusercontent.com/30430227/176349479-7e0802c8-3671-41aa-a3f0-3ada052563af.png)
+![image](https://user-images.githubusercontent.com/30430227/176350143-132a0041-c0fa-4287-97f4-75bee780afa8.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176350436-f6406988-fef9-4bc3-98bb-2d1b429bf989.png)
+![image](https://user-images.githubusercontent.com/30430227/176350394-6d0798da-ac96-460d-9f25-796015d125ec.png)
+
 
 
 
