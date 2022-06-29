@@ -59,7 +59,7 @@ LoopCut Tip
 Bsurface 
 ----------
 
-1. Initialize - 기존 Mesh를 사용하거나 빈 BSurfaceMesh로 작업할 수 있다
+1. BSurface Mesh 이용
 
 ![image](https://user-images.githubusercontent.com/30430227/176342776-2722cad3-3599-48e7-9b58-801f18fd07dc.png)
 
@@ -102,6 +102,68 @@ Bsurface
 
 ![image](https://user-images.githubusercontent.com/30430227/176350436-f6406988-fef9-4bc3-98bb-2d1b429bf989.png)
 ![image](https://user-images.githubusercontent.com/30430227/176350394-6d0798da-ac96-460d-9f25-796015d125ec.png)
+
+
+2. 기존 메쉬 이용 
+
+![image](https://user-images.githubusercontent.com/30430227/176350712-d4621ac7-0ff3-40b1-ac81-294071dee634.png)
+![image](https://user-images.githubusercontent.com/30430227/176350726-c8a80965-e8ad-4c3d-b394-a1d910edb4f3.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176350761-1af07f55-1c8a-473a-82eb-149b77af391a.png)
+
+`연속 선택 방향 - 드로잉 라인 방향(세로는 비대칭으로 그린다. 마지막 라인이 한쪽으로 치우치게)`
+
+![image](https://user-images.githubusercontent.com/30430227/176351715-5bd88a09-8bd5-48a4-b9f5-010f6b65c32f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176351625-b6839ca5-704e-45e4-bcbf-c1a402d0062b.png)
+![image](https://user-images.githubusercontent.com/30430227/176351679-5d9e66a7-de1d-49df-9003-fc6c5282ca01.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176352440-03cbee50-4169-486a-a32b-a3c2292a8f80.png)
+![image](https://user-images.githubusercontent.com/30430227/176353061-70478c1e-7d44-4309-aebf-6e9390ee4ff9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176353826-18c033fe-1b6a-48ca-8b44-3fa2a60ff425.png)
+![image](https://user-images.githubusercontent.com/30430227/176353849-0b57d174-6b44-4540-8940-c5938ccfcc40.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176353966-c710b149-be56-46ce-8976-fd98fd0a66c8.png)
+![image](https://user-images.githubusercontent.com/30430227/176353980-37a0cce5-c845-41a6-9e52-5d2f66bdcfb7.png)
+
+`그리는 순서 > 아래서 위로`
+
+![image](https://user-images.githubusercontent.com/30430227/176354416-82672189-5fa7-46b0-b68e-e0b45b0a7dbd.png)
+![image](https://user-images.githubusercontent.com/30430227/176354436-9d9ca840-048a-460a-8c61-37dbe0a75c94.png)
+
+
+3. 기능 연습 
+
+`3D Cursor위치 이동 드로잉`
+
+![image](https://user-images.githubusercontent.com/30430227/176356866-320fe709-8fa0-4b71-8a99-f13c858074c9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176354846-f1169f67-8268-4507-9037-738917aa427c.png)
+![image](https://user-images.githubusercontent.com/30430227/176354883-4b92407e-8ec2-4350-9cb9-ed245a95187d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176356748-1614771e-a1dc-40da-be82-773b981aaeff.png)
+![image](https://user-images.githubusercontent.com/30430227/176356764-1b47e269-53a7-463f-97e2-9f90dfe7672c.png)
+![image](https://user-images.githubusercontent.com/30430227/176356827-94fa2ec3-2216-421f-bc23-4d5ed18704d6.png)
+
+`Grease Pencil > Line > Dup`
+
+![image](https://user-images.githubusercontent.com/30430227/176357365-d1a0f59e-fa28-4894-8db7-861644415ed2.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176357329-717fbc16-a5b4-448c-a479-ba482d0ed551.png)
+![image](https://user-images.githubusercontent.com/30430227/176357431-1024c7f2-40d8-4b4a-a1be-46ff0d7f5275.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176357519-7e68bb11-f565-4a2b-9828-62744e9f391f.png)
+![image](https://user-images.githubusercontent.com/30430227/176357592-5008353e-d0b0-4f2c-875f-5c1417826e86.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176357716-0b2e9b62-917a-4149-9675-cfad688ba87e.png)
+![image](https://user-images.githubusercontent.com/30430227/176357797-e091ff87-aff3-47f3-ae96-cef8f069bdcf.png)
+
+
+4. 얼굴 Retop
+
+
+
 
 
 
