@@ -55,3 +55,30 @@ LoopCut Tip
 
 ![image](https://user-images.githubusercontent.com/30430227/172777502-202f992f-bdd5-45fe-bc14-cb11835b6224.png)
 
+
+Bsurface 
+----------
+
+1. Initialize - 기존 Mesh를 사용하거나 빈 BSurfaceMesh로 작업할 수 있다
+
+![image](https://user-images.githubusercontent.com/30430227/176342776-2722cad3-3599-48e7-9b58-801f18fd07dc.png)
+
+`Annotation 사용 > Initialize > Draw > Add Surface`
+
+![image](https://user-images.githubusercontent.com/30430227/176342833-ebedb0cc-a5cf-4e5a-a63b-562a81b3b0eb.png)
+![image](https://user-images.githubusercontent.com/30430227/176343351-15dc7178-0aa3-4325-8318-ebcc9a8758ce.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176344292-acb41d07-594d-4cba-85c6-9799a12ed094.png)
+![image](https://user-images.githubusercontent.com/30430227/176343374-5e730212-de71-4a11-8c37-5a41b45a0c88.png)
+
+`Grease Pencil 사용 > Draw > Select Grease Pencil > Add Surface`
+
+![image](https://user-images.githubusercontent.com/30430227/176344163-4e40abf0-a1a7-4eea-8bd8-b9207e0f669d.png)
+![image](https://user-images.githubusercontent.com/30430227/176344116-bcd606af-0752-41ff-8054-b17023ac94f4.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176344221-974e31fa-deb1-4a2e-baff-5ba345c74a72.png)
+![image](https://user-images.githubusercontent.com/30430227/176344292-acb41d07-594d-4cba-85c6-9799a12ed094.png)
+![image](https://user-images.githubusercontent.com/30430227/176344332-c78575b9-e4ef-40dd-9cc1-851ec6b72bae.png)
+
+
+
