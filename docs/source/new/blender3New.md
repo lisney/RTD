@@ -162,6 +162,51 @@ Bsurface
 
 4. 얼굴 Retop
 
+![image](https://user-images.githubusercontent.com/30430227/176384426-82b20395-ab81-471d-b612-f8a1ccdbdc1d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176384630-d8490aaf-303b-425e-b5c8-8fadabb32c8e.png)
+![image](https://user-images.githubusercontent.com/30430227/176384695-bf0377eb-df19-429a-bc1f-e009a5689271.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176384804-a1fc2ba9-81dc-4dee-9369-1d103e22bacc.png)
+![image](https://user-images.githubusercontent.com/30430227/176384829-317ee3d1-d505-4dee-a38b-6de5120d6f6c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176385114-4c8aaa89-ab57-4ba4-af27-a5ca022e7d3b.png)
+![image](https://user-images.githubusercontent.com/30430227/176385211-d85b24f2-c6c8-4ba6-8b93-f5300d560ff9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176385428-ac638195-bd75-49ad-adb5-48aec6e6cbed.png)
+![image](https://user-images.githubusercontent.com/30430227/176385468-f2400a18-5b1a-471d-b30c-615c68b0c7ad.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176385587-f3acfb4f-eff3-4492-b466-ff97a44a9996.png)
+![image](https://user-images.githubusercontent.com/30430227/176385623-1f6ac94e-0b49-4bd3-a8f4-39046703495a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176385777-6987ec43-c06e-4aa1-b6e8-0babfbe68189.png)
+![image](https://user-images.githubusercontent.com/30430227/176385810-3917ab1f-3f6a-4dc6-88c4-fc4061c8b65d.png)
+
+`왼쪽에서 오른쪽으로 드로잉`
+
+![image](https://user-images.githubusercontent.com/30430227/176386673-be70a16b-0686-49d7-a0df-2eb42934fc68.png)
+![image](https://user-images.githubusercontent.com/30430227/176386765-87b81134-4ad3-4380-b44d-20fc0ad5ae29.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176387203-41c8e434-ca8e-4080-af4e-af7cd5b23776.png)
+![image](https://user-images.githubusercontent.com/30430227/176387225-e81a359e-fdfd-4d21-b9e6-a6d2082b8a4c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176387409-81ec43e7-274d-4c72-8171-2888f8350fde.png)
+![image](https://user-images.githubusercontent.com/30430227/176387451-165dfc32-e2e4-45d2-84a4-2b80f442bbbd.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176387903-ccfb8407-4a29-4c27-8585-22659276eee2.png)
+![image](https://user-images.githubusercontent.com/30430227/176387821-84e3e136-8920-4a55-b965-b496261b3a81.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176388080-f83ac0cf-3684-45f2-9001-ba5ddd679968.png)
+![image](https://user-images.githubusercontent.com/30430227/176388105-a474cfd9-abf9-478d-8f47-3979f658a43f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176388602-8300eee9-d9f6-41f5-9664-c50a2cb3fd1e.png)
+![image](https://user-images.githubusercontent.com/30430227/176388689-61ebb253-dddb-422d-afbc-3395746df424.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176388935-8c636e06-e878-4212-95af-901f94ff6ff2.png)
+![image](https://user-images.githubusercontent.com/30430227/176388966-71365ebf-004f-4936-ac56-be017dc58a81.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176389190-2f7c3de4-7624-47ef-8035-e74e8d9fdf6c.png)
+![image](https://user-images.githubusercontent.com/30430227/176389225-c985aaf1-4ebd-480e-a83d-80fe9cb10b0d.png)
 
 
 
