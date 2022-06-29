@@ -71,6 +71,8 @@ vagrant reload	가상머신 재시동
 
 ![image](https://user-images.githubusercontent.com/30430227/176329965-c8a2ad64-8b13-4073-aafc-7ff4df7f96b6.png)
 
+`우분투 GUI 실행 startxfce4&`
+
 
 NodeJS설치
 ------------
