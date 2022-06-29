@@ -67,6 +67,10 @@ vagrant reload	가상머신 재시동
   config.vm.network "private_network", ip: "192.168.33.10"
 ```
 
+`우분투 GUI세팅 > 저장 후 vagrant reload`
+
+![image](https://user-images.githubusercontent.com/30430227/176329965-c8a2ad64-8b13-4073-aafc-7ff4df7f96b6.png)
+
 
 NodeJS설치
 ------------
