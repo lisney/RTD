@@ -561,3 +561,51 @@ Face Color
 
 ![image](https://user-images.githubusercontent.com/30430227/176068347-a705f167-39fd-4916-be35-0cd5d113174d.png)
 
+
+Manipulator WB
+-------------
+
+1. Align Tools
+
+`대상과 본체 순으로 선택 후(점선면 다 된다) > Align`
+
+![image](https://user-images.githubusercontent.com/30430227/176575018-b0265b02-eea8-4c11-b57e-0bd171984341.png)
+![image](https://user-images.githubusercontent.com/30430227/176575060-17571bd9-0d25-4c8d-8a81-3bc5c3a545aa.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176574782-69246a3f-2c54-42dd-aaf2-3723c755c310.png)
+
+`단순한 이동 - Drag`
+
+![image](https://user-images.githubusercontent.com/30430227/176575409-3a0b3e09-b63a-48e3-8887-f4dc2e428df5.png)
+
+`X-ray 보기 - 파트 선택 후 >X-ray`
+
+![image](https://user-images.githubusercontent.com/30430227/176575531-0f2fb76e-43f1-4dfb-9807-04277a517383.png)
+
+
+2. Measure 
+
+![image](https://user-images.githubusercontent.com/30430227/176575998-16ab99a9-b372-4dc8-8ba3-46c5ef1b2e24.png)
+
+`포인트 기준 측정 , End Point, Mid Point, Center Point`
+
+![image](https://user-images.githubusercontent.com/30430227/176576234-6cd0a9c7-5efe-44f5-acff-27ecf168a041.png)
+
+`원의 지름, 길이, 각도 측정`
+
+![image](https://user-images.githubusercontent.com/30430227/176576058-3ae450b7-0400-4a87-b1a4-cee700fdf316.png)
+
+
+3. Mover
+
+`수치 입력`
+
+![image](https://user-images.githubusercontent.com/30430227/176576579-499940f1-5078-4641-93fb-186e8f303764.png)
+![image](https://user-images.githubusercontent.com/30430227/176576593-a11b8331-0b19-48ea-82b7-6d13f6202b22.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176576560-75c6ca1f-5d0b-49b1-944e-8caf382c368b.png)
+
+`선택한 면을 기준으로 카메라 정렬`
+
+![image](https://user-images.githubusercontent.com/30430227/176576535-a64b681f-d603-479c-8183-e9ebe3f354a3.png)
+
