@@ -73,11 +73,18 @@ vagrant reload	가상머신 재시동
 
 `GUI 창에서 마우스 잡혔을 때 탈출하기 -오른쪽 Ctrl 키`
 
-`우분투 GUI 실행 startxfce4&`
+```
+# 우분투 데스크탑 설치
 
-`광학드라이드 에러`
+$ sudo apt-get install --no-install-recommends ubuntu-desktop (최소 설치)
+$ sudo apt-get install ubuntu-desktop (전체 설치)
+```
+
+`우분투 GUI 실행 startxfce4& - 잘안된다`
 
 ```
+# 광학드라이드 에러 날 때`
+
 $sudo apt-get install virtualbox-guest-additions-iso
 $sudo apt-get install virtualbox-guest-utils 
 
@@ -90,7 +97,7 @@ $sudo usermodr -G vboxsf -a ubuntu
 $reboot 
 ```
 
-`공유 디렉토리 $ cd /media/sf_share`
+`호스트PC와 게스트PC 공유 폴더 만들기 $ cd /media/sf_share`
 
 ![image](https://user-images.githubusercontent.com/30430227/176595860-d21e73dc-d31a-4a39-a235-7f8925b8dda8.png)
 
