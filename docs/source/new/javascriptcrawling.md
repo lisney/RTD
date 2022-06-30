@@ -197,3 +197,20 @@ code
 
 * Yum은 Yellow dog - Update RPM 설치를 개선하기 위해 개발한 패키지 관리자
  ```
+
+
+데스크탑
+------------------------
+
+```
+# 와콤 드라이버 설치
+sudo sh -c "apt-get update && apt-get install xserver-xorg-input-wacom$(dpkg -S $(which Xorg) | grep -Eo -- "-hwe-[^:]*")"
+
+# CLI 모드 전환
+CTRL + ALT + F1 : F1 ~ F6 까지 텍스트 모드로 전환.
+CTRL + ALT + F7 : GUI 모드로 돌아가기.
+
+
+
+
+```
