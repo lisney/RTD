@@ -256,3 +256,23 @@ Bsurface
 ![image](https://user-images.githubusercontent.com/30430227/176607404-4c949fc5-a945-4315-86d2-0d3d194efc79.png)
 
 
+**Foot Modeling**
+
+![image](https://user-images.githubusercontent.com/30430227/176607678-57e124ad-0b7b-4511-b6bc-17cf7e239540.png)
+![image](https://user-images.githubusercontent.com/30430227/176607828-98167881-c157-44aa-bc0a-e51df9689faf.png)
+![image](https://user-images.githubusercontent.com/30430227/176608383-8bc9ef38-56d0-43ac-8574-1bb925e521f9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176608927-c9c5070d-ed94-47fd-befa-cd8e2564d7b6.png)
+![image](https://user-images.githubusercontent.com/30430227/176609252-7168377f-6704-4a05-a023-7d988ec0b686.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176610171-1988b3fc-dea9-4f47-bdb1-43c4a53ee4b5.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176610486-0e670eab-e183-4475-9006-0caecaa4c9b3.png)
+![image](https://user-images.githubusercontent.com/30430227/176610518-2c607bff-4eca-4909-baa8-8df3de7830ff.png)
+![image](https://user-images.githubusercontent.com/30430227/176610705-bcc2ff69-b7e4-464f-b836-898b3b254fcf.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176611447-f1521813-17e9-4366-9753-4539ea4f2df9.png)
+![image](https://user-images.githubusercontent.com/30430227/176611619-6e6ada4b-d973-4fad-9076-feeeec54d914.png)
+![image](https://user-images.githubusercontent.com/30430227/176612354-bcfcbeae-e920-45f1-9c18-84944f4c93b1.png)
+
+
