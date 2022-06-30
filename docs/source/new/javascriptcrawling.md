@@ -71,7 +71,31 @@ vagrant reload	가상머신 재시동
 
 ![image](https://user-images.githubusercontent.com/30430227/176329965-c8a2ad64-8b13-4073-aafc-7ff4df7f96b6.png)
 
+`GUI 창에서 마우스 잡혔을 때 탈출하기 -오른쪽 Ctrl 키`
+
 `우분투 GUI 실행 startxfce4&`
+
+`광학드라이드 에러`
+
+```
+$sudo apt-get install virtualbox-guest-additions-iso
+$sudo apt-get install virtualbox-guest-utils 
+
+설치가 끝난뒤에
+
+$sudo usermodr -G vboxsf -a ubuntu 
+
+입력하시고 재부팅 해보세요
+
+$reboot 
+```
+
+`공유 디렉토리 $ cd /media/sf_share`
+
+![image](https://user-images.githubusercontent.com/30430227/176595860-d21e73dc-d31a-4a39-a235-7f8925b8dda8.png)
+
+`마운트하기 $ sudo mount -t vboxsf share /mnt/share`
+
 
 
 NodeJS설치
@@ -165,5 +189,4 @@ exit
 code
 
 * Yum은 Yellow dog - Update RPM 설치를 개선하기 위해 개발한 패키지 관리자
-
  ```
