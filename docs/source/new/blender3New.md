@@ -20,6 +20,18 @@ Blender3.1
 ![image](https://user-images.githubusercontent.com/30430227/168701865-1b15e853-4344-480a-90b2-f94545e81e0e.png)
 
 
+`Bevel- 옆으로 돌출했던 상하단 면을 Z-축 방향으로 Scale Down`
+
+![image](https://user-images.githubusercontent.com/30430227/176838832-7bca6186-0100-4b06-9647-d5e099947404.png)
+![image](https://user-images.githubusercontent.com/30430227/176838884-573a78c7-86e7-4f28-b02d-14e06f5ca53e.png)
+![image](https://user-images.githubusercontent.com/30430227/176839635-5c554456-e310-4642-ac6d-688d095905f2.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176839616-ed96c8db-317d-417a-a368-0950d3e40262.png)
+
+
+`노드 정렬- Node Wrangler>Align -Shift-'='`
+
+
 Sci-Fi - with JSplacement
 ---------------------
 
