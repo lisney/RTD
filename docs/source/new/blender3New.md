@@ -32,6 +32,27 @@ Blender3.1
 `노드 정렬- Node Wrangler>Align -Shift-'='`
 
 
+`캡처 Attribute - 기본 point는 노말방향 정렬 잘된다`
+
+![image](https://user-images.githubusercontent.com/30430227/176846311-01b07ebf-2d82-4df3-930f-430fb1dd933e.png)
+![image](https://user-images.githubusercontent.com/30430227/176846492-cbd06656-b749-490b-b85e-83e9cc27d5d3.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176846365-855553a5-7e63-4233-bf41-953f0ad31661.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176846534-3ea47f9e-5c2c-423e-85a1-55d11bae46a2.png)
+
+`하지만 Mesh to Point를 지나면서 Normal이 리셋되는거같다. 그래서 기존의 Gometry에서 Normal을 캡처하게된다`
+
+![image](https://user-images.githubusercontent.com/30430227/176846658-045902e3-e31b-4d8b-a841-f587002dc193.png)
+![image](https://user-images.githubusercontent.com/30430227/176846872-7bb81f6b-bf64-46fb-a473-4bc192b48079.png)
+![image](https://user-images.githubusercontent.com/30430227/176847360-0526fe79-e56b-4e44-bcf2-cba2160a63fb.png)
+
+![image](https://user-images.githubusercontent.com/30430227/176846696-fc3b2aed-1f9a-4c85-8574-993a0cda4422.png)
+![image](https://user-images.githubusercontent.com/30430227/176846908-11487bee-0f11-4f20-a2e2-264175b8b48b.png)
+
+
+
+
 Sci-Fi - with JSplacement
 ---------------------
 
