@@ -33,3 +33,5 @@ CNC 제어 프로그램 -GLBL
 -----
 
 ![image](https://user-images.githubusercontent.com/30430227/177021322-371d2eb6-c2b1-4f3a-92a9-7e88805fc1e6.png)
+
+![image](https://user-images.githubusercontent.com/30430227/177085941-4d99d9af-3763-4bc3-ad31-84eb1cb7315f.png)
