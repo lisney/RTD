@@ -609,3 +609,26 @@ Manipulator WB
 
 ![image](https://user-images.githubusercontent.com/30430227/176576535-a64b681f-d603-479c-8183-e9ebe3f354a3.png)
 
+
+
+회전 축 
+--------
+
+1. Edit > Placement
+
+![image](https://user-images.githubusercontent.com/30430227/177228538-eed47fb2-abd0-437b-a60c-b3c5225f5cea.png)
+
+![image](https://user-images.githubusercontent.com/30430227/177228485-0df016ef-0802-4131-b389-c28fe56476a0.png)
+![image](https://user-images.githubusercontent.com/30430227/177228552-5992d0b1-b11e-46cb-801d-d78fca92932a.png)
+
+`Selected points`
+
+![image](https://user-images.githubusercontent.com/30430227/177228740-6794f578-53be-4bd3-80c5-5159097b567f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/177228706-d77cc07a-a9f4-44c0-9a54-b40b23649ba6.png)
+![image](https://user-images.githubusercontent.com/30430227/177228719-4a18a709-e149-4c2a-9fcf-6af946141ba6.png)
+
+![image](https://user-images.githubusercontent.com/30430227/177228903-7a6816b5-befb-44d9-8206-93fe4c23fc7d.png)
+![image](https://user-images.githubusercontent.com/30430227/177228915-8e9b3aab-bdaa-456a-ad06-64fcea60fdc8.png)
+
+
