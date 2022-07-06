@@ -493,6 +493,23 @@ Assemble4 -> A2Plus
 ![image](https://user-images.githubusercontent.com/30430227/176063718-362fff58-8397-4751-aff0-144760773c05.png)
 
 
+`투명 모드 전환`
+
+![image](https://user-images.githubusercontent.com/30430227/177452883-ef05e4b1-aa07-4c5b-b361-dcffb3c40e5c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/177452908-d286abcf-8c65-47da-9c3c-68aaa7528090.png)
+![image](https://user-images.githubusercontent.com/30430227/177452929-3b978edb-a832-450c-a0ef-06be0e10d498.png)
+
+
+`같은 평면에 정렬`
+
+![image](https://user-images.githubusercontent.com/30430227/177453526-7a771fcb-80e9-43e2-8bc8-72dd803d02be.png)
+
+![image](https://user-images.githubusercontent.com/30430227/177453458-92e7de91-4476-4794-85cd-8280289181fa.png)
+![image](https://user-images.githubusercontent.com/30430227/177453478-c4549733-4d77-44c0-b563-98e86bbf9816.png)
+![image](https://user-images.githubusercontent.com/30430227/177453963-47759a4e-f50a-4a85-8ab7-0a630ba82c53.png)
+
+
 Exploded Assembly
 -------------------
 
