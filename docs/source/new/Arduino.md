@@ -21,6 +21,7 @@ Arduino
 ![image](https://user-images.githubusercontent.com/30430227/176809240-90413b89-5b2b-450a-b45f-bbae24644486.png)
 ![image](https://user-images.githubusercontent.com/30430227/176809300-355b0103-cd8f-4b4a-b484-a21bd9183164.png)
 
+![image](https://user-images.githubusercontent.com/30430227/177500282-810cb633-97a0-4ce9-8c64-da08f3f89a2e.png)
 
 
 CNC 제어 프로그램 -GLBL
