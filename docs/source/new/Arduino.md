@@ -28,6 +28,24 @@ CNC 제어 프로그램 -GLBL
 ---------------------
 
 [GRBL](https://github.com/grbl/grbl)
+ 
+ `보드 라이브러리 설치 > GLBL 폴더 선택`
+ 
+ ![image](https://user-images.githubusercontent.com/30430227/177696088-0a22d6e3-ae70-4973-b9c5-1b76fcff1bf5.png)
+
+
+`예제에서 선택하고 > 업로드`
+
+![image](https://user-images.githubusercontent.com/30430227/177696414-04b65a0c-8ade-4ef0-8c7c-090643740b05.png)
+
+
+GLBL 컨트롤러 - JAVA 런타임 필요
+--------------------
+
+[유니버설G코드센더](https://winder.github.io/ugs_website/download/)
+
+![image](https://user-images.githubusercontent.com/30430227/177696801-496ae569-d26e-4da8-8fb7-f23a2675ebb4.png)
+
 
 
 부품 
@@ -36,3 +54,11 @@ CNC 제어 프로그램 -GLBL
 ![image](https://user-images.githubusercontent.com/30430227/177021322-371d2eb6-c2b1-4f3a-92a9-7e88805fc1e6.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/177085941-4d99d9af-3763-4bc3-ad31-84eb1cb7315f.png)
+
+
+아두이노 보드 매니저 업그레이드
+--------------------
+
+![image](https://user-images.githubusercontent.com/30430227/177694462-51075aa6-578a-4c84-a631-cdb61db0a7ea.png)
+
+
