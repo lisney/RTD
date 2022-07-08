@@ -62,3 +62,59 @@ GLBL 컨트롤러 - JAVA 런타임 필요
 ![image](https://user-images.githubusercontent.com/30430227/177694462-51075aa6-578a-4c84-a631-cdb61db0a7ea.png)
 
 
+라즈베리파이 모니터 없이 설치하기
+----------------------------------
+
+1. boot 폴더에 'ssh', 'wpa_supplicant.conf' 파일 생성
+
+```
+ssh는 비워두고, wpa... ssid 공유기id, psk패스워드
+
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=GB
+
+network={
+	ssid="KT_GiGA_2G"
+	psk="123456789"
+}
+```
+
+2. PuTTY 설치 - 윈도우 원격 접속  프로그램 설치위함
+
+[주소](https://putty.org/)
+
+![image](https://user-images.githubusercontent.com/30430227/177980019-c475d32b-3d1c-4689-a7ab-92e7765c5c30.png)
+
+
+3. 라즈베리파이 부팅 후 putty로 연결
+
+```
+초기 아이디/패스 - pi/raspberry
+
+윈도우 원격 접속 프로그램 설치
+sudo apt-get install xrdp
+sudo pat-get install tightvncserver
+```
+
+4. 윈도우 원격 프로그램 실행 
+
+```
+윈도우키 누르고 '원격' > 원격 데스크톱 실행 > 라즈베리파이 원격 접속
+```
+
+
+라즈베리파이 모니터 
+------------------
+
+```
+메모리 --> boot 드라이브 --> config.txt
+hdmi_force_hotplug=1
+config_hdmi_boost=4
+hdmi_group=1
+
+hdmi_force_hotplug=1 앞의 #을 삭제하여 활성화!
+hdmi_drive=2 역시 #을 삭제하여 활성화 ! 
+그리고 저장합니다 
+(hdmi_drive 숫자로 해상도를 조절하기 때문에 모니터에 맞춰서 입력해줘야 화면이 짤리지 않아요!)
+```
