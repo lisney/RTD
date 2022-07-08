@@ -57,5 +57,37 @@ Inkscape
 ![image](https://user-images.githubusercontent.com/30430227/177921852-6c490542-d2cb-4785-996f-5affcc62e1f3.png)
 
 
+6. 3D 박스
+
+![image](https://user-images.githubusercontent.com/30430227/177929747-c3f2b997-f9a4-493a-9ae3-85edf5b958aa.png)
+
+![image](https://user-images.githubusercontent.com/30430227/177929719-4d1395ec-bc84-499f-9e93-02bfcfde6650.png)
+
+
+
+FlowChart
+---------------
+
+1. Snap -File > Document Properties > New grid > Toggle Snap 버튼
+
+![image](https://user-images.githubusercontent.com/30430227/177931324-3c85627b-eb84-497c-a467-bf7e88a0600d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/177932070-23cd2fbe-33fe-46b3-8260-ee5ea72af0e5.png)
+
+
+2. 도형 - Object > Symbol
+
+![image](https://user-images.githubusercontent.com/30430227/177932323-60aaab6f-a484-4795-8610-0bb5f30db757.png)
+![image](https://user-images.githubusercontent.com/30430227/177932387-b860f50e-2801-4ce9-877b-fbf9f47b43a6.png)
+
+![image](https://user-images.githubusercontent.com/30430227/177933143-03d6c5d6-8602-4328-8ae4-c83006ffc167.png)
+
+![image](https://user-images.githubusercontent.com/30430227/177933041-be7f2b5a-e7c3-4e4a-9e16-3391c0859f5e.png)
+![image](https://user-images.githubusercontent.com/30430227/177933841-05ffde6d-4f4a-445e-a99b-04ea710ff5a5.png)
+
+`PgUp, PgDn`
+
+![image](https://user-images.githubusercontent.com/30430227/177934052-994938bb-2bd8-4482-9195-a7b2c9027080.png)
+
 
 
