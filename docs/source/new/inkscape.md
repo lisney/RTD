@@ -5,3 +5,57 @@ Inkscape
 
 ![image](https://user-images.githubusercontent.com/30430227/177917446-afa1a5a1-7cdf-4ed1-9653-e67a5a3801c4.png)
 
+
+2. Extrude - 점을 기준으로 돌출
+
+![image](https://user-images.githubusercontent.com/30430227/177917571-80af503d-a394-4f1d-b736-b9b557b1a2a1.png)
+![image](https://user-images.githubusercontent.com/30430227/177917753-bdf2ad65-75a3-49fc-9373-b4f4807151fa.png)
+
+`Object to Path 후 재돌출`
+
+![image](https://user-images.githubusercontent.com/30430227/177918926-573a746a-a3be-48ea-be6d-2779bb060870.png)
+
+![image](https://user-images.githubusercontent.com/30430227/177917550-e379aec0-68e1-4602-ac17-e092d8f1f780.png)
+![image](https://user-images.githubusercontent.com/30430227/177917725-87f111a9-4637-443e-a6b1-c8a14b870175.png)
+
+
+3. Polygon 선 굵기 문제 - Opject to Path
+
+![image](https://user-images.githubusercontent.com/30430227/177918578-39024718-8353-45a7-8e4d-e7f895043dee.png)
+
+![image](https://user-images.githubusercontent.com/30430227/177918618-bab8d50a-e236-4b73-83fe-f49844cb7d35.png)
+
+
+4. Perspective 
+
+`Edit Node Scale 단축키 <, >  Rotate [, ], 첫번째 노드 선택방법: 패스 선택 후 'N' > TAB`
+
+![image](https://user-images.githubusercontent.com/30430227/177920105-fb6d5bc5-5927-438c-be39-7deeed9b083a.png)
+
+
+`변경할 도형(첫번째 포인트가 왼쪽아래 위치해야한다)을 먼저 선택하고 테두리를 선택한 후`
+
+![image](https://user-images.githubusercontent.com/30430227/177920223-ffffc68d-349f-421a-b624-9da0ff6e51c6.png)
+![image](https://user-images.githubusercontent.com/30430227/177929314-5a4fd426-43e3-4914-a3e2-16597bd1ccae.png)
+
+![image](https://user-images.githubusercontent.com/30430227/177919377-a50f779b-3c88-40b3-9379-62716816c203.png)
+
+
+`시작 노드 바꾸기 > 노드 끊었다 붙이기, 패스 방향 바꾸기 Path > Reverse`
+
+![image](https://user-images.githubusercontent.com/30430227/177929482-febbe897-0236-4204-a3c3-0523145cd83e.png)
+![image](https://user-images.githubusercontent.com/30430227/177929538-847617c9-3c49-4b52-bb9d-a91dab6d6237.png)
+
+
+5. Align and Distribute Ctrl-Shit-A
+
+`노드 모드가 있다. 바로 나타나지 않으면 Path 선택 후 노드편집버튼 누른다`
+
+![image](https://user-images.githubusercontent.com/30430227/177921619-5d271595-c612-438b-9c12-febb921cd883.png)
+
+![image](https://user-images.githubusercontent.com/30430227/177921829-241bccb2-3404-4ef9-ba31-7db7e8d1f38a.png)
+![image](https://user-images.githubusercontent.com/30430227/177921852-6c490542-d2cb-4785-996f-5affcc62e1f3.png)
+
+
+
+
