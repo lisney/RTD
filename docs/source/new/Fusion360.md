@@ -17,3 +17,8 @@ Fusion360
 ![image](https://user-images.githubusercontent.com/30430227/169242362-0ca3932c-f753-4627-aaa6-e0afe26285dd.png)
 
 
+콤포넌트 드랙 방지 
+-----------------
+
+![image](https://user-images.githubusercontent.com/30430227/177907809-b081befc-93b6-4ab3-b66b-75944cbb8deb.png)
+
