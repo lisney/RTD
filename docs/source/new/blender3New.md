@@ -64,6 +64,23 @@ Blender3.1
 ![image](https://user-images.githubusercontent.com/30430227/176871032-07a96bbc-445f-4cf9-acb5-2d4463fde754.png)
 
 
+`화살표 - 벡터차는 앞 점이 종점 즉 가리키는 대상 +Y가 된다`
+
+![image](https://user-images.githubusercontent.com/30430227/178089170-ec1b5d16-0eb4-4b3b-9641-81f749b87c5c.png)
+![image](https://user-images.githubusercontent.com/30430227/178089213-1e65cb16-127b-4463-90a4-91a6f20f51fa.png)
+![image](https://user-images.githubusercontent.com/30430227/178089217-08b195b9-75fe-4a5a-ae1a-60025d98ff2c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/178089233-2d495271-8f3f-4c18-abb5-292e2b8c3550.png)
+
+
+`고랑 Map Range 거리가 멀어질 수록 값이 커진다>From 시작 시점과 끝 시점을 좁힌다>to 최대값을 `
+
+![image](https://user-images.githubusercontent.com/30430227/178089663-c288c604-f341-471d-85d5-f87bf2792ce6.png)
+![image](https://user-images.githubusercontent.com/30430227/178089656-613c1e50-8ad0-4033-b826-c667b9c9404d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/178089678-a7745cdb-75e2-4e50-aa9c-044e93d6b0ae.png)
+
+
 `입체 노이즈: RGB Color-CombineXYZ-Vector`
 
 ![image](https://user-images.githubusercontent.com/30430227/176868184-56f9466b-118c-4e1c-8ea2-950bf58cdb8a.png)
