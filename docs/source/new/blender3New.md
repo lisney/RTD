@@ -29,6 +29,13 @@ Blender3.1
 ![image](https://user-images.githubusercontent.com/30430227/176839616-ed96c8db-317d-417a-a368-0950d3e40262.png)
 
 
+`Convex Hull -열린 면을 닫아주는 효과`
+
+![image](https://user-images.githubusercontent.com/30430227/178129619-1ff383d6-2fb7-42ee-9b81-bb071fd37e33.png)
+
+![image](https://user-images.githubusercontent.com/30430227/178129652-087e07d5-cfda-4983-b409-e202f1152649.png)
+
+
 `노드 정렬- Node Wrangler>Align -Shift-'='`
 
 
