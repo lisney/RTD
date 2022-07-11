@@ -103,21 +103,30 @@ sudo pat-get install tightvncserver
 윈도우키 누르고 '원격' > 원격 데스크톱 실행 > 라즈베리파이 원격 접속
 ```
 
+![image](https://user-images.githubusercontent.com/30430227/178209304-963a5469-2015-44d7-9985-31e9462e4404.png)
+
 
 라즈베리파이 모니터 
 ------------------
 
 ```
 메모리 --> boot 드라이브 --> config.txt
-hdmi_force_hotplug=1
-config_hdmi_boost=4
-hdmi_group=1
 
 hdmi_force_hotplug=1 앞의 #을 삭제하여 활성화!
 hdmi_drive=2 역시 #을 삭제하여 활성화 ! 
 그리고 저장합니다 
 (hdmi_drive 숫자로 해상도를 조절하기 때문에 모니터에 맞춰서 입력해줘야 화면이 짤리지 않아요!)
 
-# 아이피 주소 찾기
+# 라즈베리파이 아이피 주소 찾기
 ifconfig
+
+# 한글
+sudo apt-get install fonts-nanum
+
+sudo apt-get install uim uim-byeoru //한영 전환 Shift-space
+
+# SSH 연결 안될 때
+sudo raspi-config
+Interfacing Options > SSH
+
 ```
