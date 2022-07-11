@@ -130,3 +130,32 @@ sudo raspi-config
 Interfacing Options > SSH
 
 ```
+
+
+NodeJS 로 모터 컨트롤 하기 
+-------------------------
+
+[사이트](https://github.com/nodesource/distributions}
+
+```
+# 노드js 최신버전 설치
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# node.js용 pigpio 라이브러리 설치 
+sudo apt-get update //이줄은 이미 설치된거같음
+sudo apt-get install pigpio //이줄도 이미 설치된거같음
+
+npm install pigpio // NodeJS기반 pigpio 설치
+
+# 모터 드라이버용 모듈 설치
+npm install pigpio-l298n //1이 아니라 L이다
+
+# VSCode 설치
+sudo apt install code
+
+# 스크래치3 설치 - 파이 > 기본설정 > Recommended Software에서 설치할 수도있다
+sudo apt-get update
+sudo apt-get install scratch3
+
+```
