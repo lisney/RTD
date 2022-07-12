@@ -169,3 +169,130 @@ VSCode로 원격 프로그래밍
 좌측 하단의 연결 버튼(녹색) 클릭 > 상단 메뉴에서 Connect to Host > 사용자이름@아이피
 ```
 
+
+모터 제어하기 - 파이썬 
+------------------------
+
+![image](https://user-images.githubusercontent.com/30430227/178426917-ef5d53e7-8549-44ba-8c65-8b73f622e513.png)
+
+```
+L298N 모터 드라이버의 Enable핀을 점프(5V)시키면 최대속도로 회전한다
+Enable, 다음 2쌍의 핀이 A 모터를 제어한다(2쌍의 핀은 방향을 제어)
+01 Forward, 10 Backward, 00,11 Stop
+
+# 전원부
+외부입력과 외부출력(5V)는 모두 가운데 GND를 공유한다
+5V 점퍼를 제거하면 외부출력이 되지 않고 오로지 입력전력을 활용할 수 있게된다.
+```
+
+```
+# -*- coding: utf-8 -*-
+
+# 라즈베리파이 GPIO 패키지 
+import RPi.GPIO as GPIO
+from time import sleep
+
+# 모터 상태
+STOP  = 0
+FORWARD  = 1
+BACKWORD = 2
+
+# 모터 채널
+CH1 = 0
+CH2 = 1
+
+# PIN 입출력 설정
+OUTPUT = 1
+INPUT = 0
+
+# PIN 설정
+HIGH = 1
+LOW = 0
+
+# 실제 핀 정의
+#PWM PIN
+ENA = 17  #37 pin SPEED Control
+ENB = 0   #27 pin
+
+#GPIO PIN
+IN1 = 27  #37 pin
+IN2 = 22  #35 pin
+IN3 = 6   #31 pin
+IN4 = 5   #29 pin
+
+# 핀 설정 함수
+def setPinConfig(EN, INA, INB):        
+    GPIO.setup(EN, GPIO.OUT)
+    GPIO.setup(INA, GPIO.OUT)
+    GPIO.setup(INB, GPIO.OUT)
+    # 100khz 로 PWM 동작 시킴 
+    pwm = GPIO.PWM(EN, 100) 
+    # 우선 PWM 멈춤.   
+    pwm.start(0) 
+    return pwm
+
+# 모터 제어 함수
+def setMotorContorl(pwm, INA, INB, speed, stat):
+
+    #모터 속도 제어 PWM
+    pwm.ChangeDutyCycle(speed)  
+    
+    if stat == FORWARD:
+        GPIO.output(INA, HIGH)
+        GPIO.output(INB, LOW)
+        
+    #뒤로
+    elif stat == BACKWORD:
+        GPIO.output(INA, LOW)
+        GPIO.output(INB, HIGH)
+        
+    #정지
+    elif stat == STOP:
+        GPIO.output(INA, LOW)
+        GPIO.output(INB, LOW)
+
+        
+# 모터 제어함수 간단하게 사용하기 위해 한번더 래핑(감쌈)
+def setMotor(ch, speed, stat):
+    if ch == CH1:
+        #pwmA는 핀 설정 후 pwm 핸들을 리턴 받은 값이다.
+        setMotorContorl(pwmA, IN1, IN2, speed, stat)
+    else:
+        #pwmB는 핀 설정 후 pwm 핸들을 리턴 받은 값이다.
+        setMotorContorl(pwmB, IN3, IN4, speed, stat)
+  
+
+# GPIO 모드 설정 
+GPIO.setmode(GPIO.BCM)
+      
+#모터 핀 설정
+#핀 설정후 PWM 핸들 얻어옴 
+pwmA = setPinConfig(ENA, IN1, IN2)
+pwmB = setPinConfig(ENB, IN3, IN4)
+
+    
+#제어 시작
+
+# 앞으로 80프로 속도로
+setMotor(CH1, 80, FORWARD)
+setMotor(CH2, 80, FORWARD)
+#5초 대기
+sleep(5)
+
+# 뒤로 40프로 속도로
+setMotor(CH1, 40, BACKWORD)
+setMotor(CH2, 40, BACKWORD)
+sleep(5)
+
+# 뒤로 100프로 속도로
+setMotor(CH1, 100, BACKWORD)
+setMotor(CH2, 100, BACKWORD)
+sleep(5)
+
+#정지 
+setMotor(CH1, 80, STOP)
+setMotor(CH2, 80, STOP)
+
+# 종료
+GPIO.cleanup()
+```
