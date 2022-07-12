@@ -4,7 +4,7 @@ NAS
 원격데스크탑
 -----------------
 
-PC를 NAS처럼 사용
+PC를 NAS처럼 사용 >  공유폴더를 사용
 
 ![image](https://user-images.githubusercontent.com/30430227/178501357-ad3031b3-e231-4041-9dc5-cca5af86fe0b.png)
 
