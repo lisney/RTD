@@ -159,3 +159,13 @@ sudo apt-get update
 sudo apt-get install scratch3
 
 ```
+
+
+VSCode로 원격 프로그래밍 
+------------------------
+
+```
+# remote SSH 설치
+좌측 하단의 연결 버튼(녹색) 클릭 > 상단 메뉴에서 Connect to Host > 사용자이름@아이피
+```
+
