@@ -104,9 +104,8 @@ Blender3.1
 
 `Clamp`
 
-![image](https://user-images.githubusercontent.com/30430227/178706059-bccfd9bc-6d82-41c7-8f0d-34b2b5601b39.png)
-
 ![image](https://user-images.githubusercontent.com/30430227/141369015-d8829dea-a7cd-4924-a3cd-e0883124e28b.png)
+![image](https://user-images.githubusercontent.com/30430227/178706059-bccfd9bc-6d82-41c7-8f0d-34b2b5601b39.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/141368982-f374d3bf-085f-4700-bc28-f738f0c3cfbf.png)
 
