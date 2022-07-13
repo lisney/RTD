@@ -349,3 +349,92 @@ except KeyboardInterrupt: # Ctrl-C
     print('거리 측정 완료')
     GPIO.cleanup()
 ```
+
+
+```
+# 30센티 보다 가까우면 모터 작동
+
+import RPi.GPIO as GPIO
+from time import sleep, time
+
+GPIO.setmode(GPIO.BCM) #모듈번호 BCM 모드
+GPIO.setwarnings(False) #실행 시  경고 뜨는 경우 이 라인 추가
+
+TRIG = 23
+ECHO = 24
+print('초음파 거리 측정기')
+
+# 모터 상태
+STOP =0
+FORWARD =1
+BACKWARD =2
+
+HIGH =1
+LOW =0
+
+ENA = 17
+INA = 27
+INB = 22
+
+# 핀 설정
+def setPinConfig():
+    GPIO.setup(TRIG, GPIO.OUT) # 거리센서 핀 설정
+    GPIO.setup(ECHO, GPIO.IN) # 라즈베리파이는 입력 전압이 3.3V 이하라야한다
+
+    GPIO.setup(ENA,GPIO.OUT) # 모터 핀 설정
+    GPIO.setup(INA,GPIO.OUT)
+    GPIO.setup(INB,GPIO.OUT)
+    pwm = GPIO.PWM(ENA, 100)
+    pwm.start(0)
+
+    GPIO.output(TRIG,False)
+    print('초음파 출력 초기화')
+    sleep(2)
+
+    return pwm
+
+# 모터 제어 함수
+def setMotorControl(pwm,speed,stat):
+    pwm.ChangeDutyCycle(speed)
+
+    if stat == FORWARD:
+        GPIO.output(INA,HIGH)
+        GPIO.output(INB,LOW)
+    elif stat == BACKWARD:
+        GPIO.output(INA,LOW)
+        GPIO.output(INB,HIGH)
+    elif stat == STOP:
+        GPIO.output(INA,LOW)
+        GPIO.output(INB,LOW)
+
+GPIO.setmode(GPIO.BCM)
+
+pwm = setPinConfig()
+
+try:
+    while True:
+        GPIO.output(TRIG, True)
+        sleep(0.0001) # 10uS의 펄스 발생을 위한 딜레이
+        GPIO.output(TRIG, False)
+
+        while GPIO.input(ECHO)==0:
+            start = time() # Echo핀 상승 시간값 저장
+
+        while GPIO.input(ECHO)==1:
+            stop = time() # Echo핀 하강 시간값 저장
+
+        check_time = stop - start
+        distance = check_time * 34300/2
+
+        if distance > 30:
+            setMotorControl(pwm, 80, STOP)
+        else:
+            setMotorControl(pwm, 40,FORWARD)
+
+        print('Distance : %.1f cm'%distance)
+        sleep(1)
+
+except KeyboardInterrupt: # Ctrl-C
+    print('거리 측정 완료')
+    GPIO.cleanup()
+```
