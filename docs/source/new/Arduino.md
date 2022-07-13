@@ -179,6 +179,8 @@ config 파일 열어
 
 ![image](https://user-images.githubusercontent.com/30430227/178426917-ef5d53e7-8549-44ba-8c65-8b73f622e513.png)
 
+![image](https://user-images.githubusercontent.com/30430227/178651110-1851aab6-2d35-4f9b-b41d-c3aa156b9cef.png)
+
 ```
 L298N 모터 드라이버의 Enable핀을 점프(5V)시키면 최대속도로 회전한다
 Enable, 다음 2쌍의 핀이 A 모터를 제어한다(2쌍의 핀은 방향을 제어)
@@ -304,6 +306,9 @@ GPIO.cleanup()
 ![image](https://user-images.githubusercontent.com/30430227/178647935-6b1c81bd-ad20-4e55-ab2a-b9933a13a105.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/178647340-0b8717bf-dd79-47be-a220-2e2156b71436.png)
+
+![image](https://user-images.githubusercontent.com/30430227/178651226-e90b5df7-b9fc-400d-a9c9-3d8f62b9abfa.png)
+![image](https://user-images.githubusercontent.com/30430227/178651285-31a76dd5-ae9e-4596-a93f-fce01a6d94f3.png)
 
 ```
 import RPi.GPIO as GPIO
