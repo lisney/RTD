@@ -167,6 +167,10 @@ VSCode로 원격 프로그래밍
 ```
 # remote SSH 설치
 좌측 하단의 연결 버튼(녹색) 클릭 > 상단 메뉴에서 Connect to Host > 사용자이름@아이피
+
+# VSCodd SSH 접속 안될 때
+config 파일 열어
+    Port 22 추가한다
 ```
 
 
