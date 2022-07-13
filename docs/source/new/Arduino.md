@@ -300,3 +300,47 @@ setMotor(CH2, 80, STOP)
 # 종료
 GPIO.cleanup()
 ```
+
+![image](https://user-images.githubusercontent.com/30430227/178647935-6b1c81bd-ad20-4e55-ab2a-b9933a13a105.png)
+
+![image](https://user-images.githubusercontent.com/30430227/178647340-0b8717bf-dd79-47be-a220-2e2156b71436.png)
+
+```
+import RPi.GPIO as GPIO
+import time
+
+GPIO.setmode(GPIO.BCM) #모듈번호 BCM 모드
+GPIO.setwarnings(False) #실행 시  경고 뜨는 경우 이 라인 추가
+
+TRIG = 23
+ECHO = 24
+print('초음파 거리 측정기')
+
+GPIO.setup(TRIG, GPIO.OUT)
+GPIO.setup(ECHO, GPIO.IN) # 라즈베리파이는 입력 전압이 3.3V 이하라야한다
+
+GPIO.output(TRIG,False)
+print('초음파 출력 초기화')
+time.sleep(2)
+
+try:
+    while True:
+        GPIO.output(TRIG, True)
+        time.sleep(0.0001) # 10uS의 펄스 발생을 위한 딜레이
+        GPIO.output(TRIG, False)
+
+        while GPIO.input(ECHO)==0:
+            start = time.time() # Echo핀 상승 시간값 저장
+
+        while GPIO.input(ECHO)==1:
+            stop = time.time() # Echo핀 하강 시간값 저장
+
+        check_time = stop - start
+        distance = check_time * 34300/2
+        print('Distance : %.1f cm'%distance)
+        time.sleep(0.4)
+
+except KeyboardInterrupt: # Ctrl-C
+    print('거리 측정 완료')
+    GPIO.cleanup()
+```
