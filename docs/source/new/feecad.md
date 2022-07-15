@@ -666,5 +666,5 @@ Manipulator WB
 `커브로 변환`
 
 ![image](https://user-images.githubusercontent.com/30430227/179153578-c5435d45-c797-405d-aa4b-ce9eae7c0d6c.png)
-
+![image](https://user-images.githubusercontent.com/30430227/179153658-667d26f0-4ed4-4fb9-ad33-0b17df8ad432.png)
 
