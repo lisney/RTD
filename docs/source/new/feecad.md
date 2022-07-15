@@ -663,3 +663,8 @@ Manipulator WB
 
 ![image](https://user-images.githubusercontent.com/30430227/179128826-2472dbe8-c228-4614-b902-16654b67ebef.png)
 
+`커브로 변환`
+
+![image](https://user-images.githubusercontent.com/30430227/179153578-c5435d45-c797-405d-aa4b-ce9eae7c0d6c.png)
+
+
