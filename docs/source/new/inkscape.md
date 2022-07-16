@@ -90,4 +90,37 @@ FlowChart
 ![image](https://user-images.githubusercontent.com/30430227/177934052-994938bb-2bd8-4482-9195-a7b2c9027080.png)
 
 
+FreeCAD 
+-----------
+
+`Curve WB >`
+
+![image](https://user-images.githubusercontent.com/30430227/179361388-bfcf1f22-0ec8-4712-b901-f3edcd68b42d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/179361356-09f34597-460f-4047-8d65-5415c602b2f0.png)
+![image](https://user-images.githubusercontent.com/30430227/179361375-867051cb-6500-4cc5-ba3b-40e504f75ef6.png)
+
+`Export - flattened 옵션`
+
+![image](https://user-images.githubusercontent.com/30430227/179361433-d27f5edd-9c34-464d-8716-9cca5e0c820c.png)
+
+`Import > Ungroup`
+
+![image](https://user-images.githubusercontent.com/30430227/179361474-4f41114e-6835-468e-8f09-5496a131b42c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/179361477-e72c298a-1300-49bf-a712-0228ba62b792.png)
+![image](https://user-images.githubusercontent.com/30430227/179361486-1420f033-9ed9-4e6c-914e-f8e2b4a976e7.png)
+
+`치수 Extension`
+
+![image](https://user-images.githubusercontent.com/30430227/179361506-d461d205-3ee2-48b0-bb81-3225be67eaf1.png)
+
+![image](https://user-images.githubusercontent.com/30430227/179361527-13665c8b-5b54-4195-8fbb-50ea676cb166.png)
+
+`Path > Division`
+
+![image](https://user-images.githubusercontent.com/30430227/179361618-ede8920c-770a-4aed-9301-66030dd4a6db.png)
+
+![image](https://user-images.githubusercontent.com/30430227/179361593-93069acd-7dfd-4d44-b851-38873af192c5.png)
+![image](https://user-images.githubusercontent.com/30430227/179361606-dc51445e-0889-4fc1-a620-1cffa6455514.png)
 
