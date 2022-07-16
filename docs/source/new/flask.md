@@ -22,3 +22,17 @@ if __name__ == '__main__': # 현재 파일이 main 이면 실행
 
 `서버 실행 - sudo python3 hello.py`
 
+
+파이썬 가상환경
+-----------------------
+
+```
+> python -m venv myproject
+
+# 실행
+myproject\script\activate.bat 실행
+
+# 나오기
+> deactivate
+```
+
