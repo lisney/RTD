@@ -123,12 +123,77 @@ import os
 
 BASE_DIR = os.path.dirname(__file__)
 
-SQLALCHEMY_DATABASE_URL = 'sulite:///{}'.format(os.path.join(BASE_DIR,'pybo.db'))
-# DB 접속 주소, 홈디렉토리에 pybo.db파일로 저장
+SQLALCHEMY_DATABASE_URI = 'sqlite:///{}'.format(os.path.join(BASE_DIR,'pybo.db'))
+# DB 접속 주소 'URI' 다, 홈디렉토리에 pybo.db파일로 저장
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 # sqlalchemy 의 이벤트를 처리하는 옵션, 현재 사용하지 않으므로 False
 
+# __init__.py 파일 수정
+from flask import Flask
+from flask_migrate import Migrate
+from flask_sqlalchemy import SQLAlchemy
 
+import config
+
+db = SQLAlchemy() # db 객체 생성
+migrate = Migrate()
+
+def create_app():
+    app = Flask(__name__)
+    app.config.from_object(config)
+
+    # ORM
+    db.init_app(app) # db 객체를 app에 등록
+    migrate.init_app(app, db) # migrate 에 app과 db 등록
+
+    # 블루프린트
+    from .views import main_views
+    app.register_blueprint(main_views.bp)
+
+    return app
+
+# 데이터 베이스 초기화 - /migrations(DB를 관리하는) 폴더가 생성
+> flask db init
+
+# flask db migrate - DB 모델 생성/변경, flask db upgrade - 실재 데이터베이스에 등록
+
+# 데이터베이스 모델 생성
+/pybo/models.py
+from pybo import db
+
+class Question(db.Model): # 생성된 테이블명은 'question'이 된다
+    id = db.Column(db.Integer, primary_key=True)
+    subject = db.Column(db.String(200), nullable=False)
+    content = db.Column(db.Text(),nullable=False)
+    create_data = db.Column(db.DateTime(), nullable=False)
+
+
+class Answer(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    question_id = db.Column(db.Integer, db.ForeignKey('question.id', ondelete='CASCADE'))
+    # foreign key 기존 모델과 연결된 속성 즉 외부키
+    question = db.relationship('Question', backref=db.backref('answer_set'))
+    # 답변 모델에서 질문 모델을 참조하기 위해 추가함, answer.question.subject처럼 참조 # backref 역참조, 질문의 답변들을 참조?
+    content = db.Column(db.Text(), nullable=False)
+    create_date = db.Column(db.DateTime(), nullable=False)
+
+# __init__.py 추가
+    # ORM
+    db.init_app(app) # db 객체를 app에 등록
+    migrate.init_app(app, db) # migrate 에 app과 db 등록
+    from . import models
+    
+# 리비전 파일 생성
+> flask db migrate
 
 ```
 
+![image](https://user-images.githubusercontent.com/30430227/179382867-488c27f4-d25a-4190-b6d5-1aa9f1fd727e.png)
+![image](https://user-images.githubusercontent.com/30430227/179382935-aedaaacf-2e19-40c7-a3c8-8194a92dd108.png)
+
+
+```
+# 리비전 파일 실행 - 실재 db가 생성된다
+> flask db upgrade
+
+```
