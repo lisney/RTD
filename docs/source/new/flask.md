@@ -211,6 +211,13 @@ class Answer(db.Model):
 질문 목록 Template
 -----------------------
 
+![image](https://user-images.githubusercontent.com/30430227/179385299-1152ee5b-07b4-42f4-90dc-cc87fa7475b2.png)
+![image](https://user-images.githubusercontent.com/30430227/179385295-69d32683-0ebc-426d-a127-264a0bca0d66.png)
+
+`.get_or_404`
+
+![image](https://user-images.githubusercontent.com/30430227/179385402-20e149ee-11c1-438e-aecf-0dfe42975c2c.png)
+
 ```
 # main_views.py 변경
 from flask import Blueprint, render_template
@@ -253,11 +260,6 @@ def detail(question_id):
     {{ question.content}}
 </div>
 ```
-
-![image](https://user-images.githubusercontent.com/30430227/179385299-1152ee5b-07b4-42f4-90dc-cc87fa7475b2.png)
-![image](https://user-images.githubusercontent.com/30430227/179385295-69d32683-0ebc-426d-a127-264a0bca0d66.png)
-
-![image](https://user-images.githubusercontent.com/30430227/179385402-20e149ee-11c1-438e-aecf-0dfe42975c2c.png)
 
 ```
 * 블루프린트로 질문 템플릿들 분리
