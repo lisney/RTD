@@ -165,7 +165,7 @@ class Question(db.Model): # 생성된 테이블명은 'question'이 된다
     id = db.Column(db.Integer, primary_key=True)
     subject = db.Column(db.String(200), nullable=False)
     content = db.Column(db.Text(),nullable=False)
-    create_data = db.Column(db.DateTime(), nullable=False)
+    create_date = db.Column(db.DateTime(), nullable=False)
 
 
 class Answer(db.Model):
@@ -195,5 +195,22 @@ class Answer(db.Model):
 ```
 # 리비전 파일 실행 - 실재 db가 생성된다
 > flask db upgrade
-
 ```
+![image](https://user-images.githubusercontent.com/30430227/179383238-a7199536-5ca4-4c2d-9913-a93e312e9585.png)
+
+# DB 브라우저
+
+[사이트](https://sqlitebrowser.org/dl/)
+
+![image](https://user-images.githubusercontent.com/30430227/179383421-a99729f3-aecd-4e50-933b-9c55c828f0e1.png)
+![image](https://user-images.githubusercontent.com/30430227/179383463-4552a0c3-f81f-4b66-a195-bfe0c0922606.png)
+
+`alembic_version 은 migrate가 관리`
+
+
+
+
+
+
+
+
