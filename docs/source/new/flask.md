@@ -311,6 +311,8 @@ def index():
 답변 등록
 --------------
 
+![image](https://user-images.githubusercontent.com/30430227/179387879-f6f1ca95-3bef-44b8-80ef-4d1f194bcb28.png)
+
 ```
 # question_detail.html 내용 수정 - '|length' 개수를 출력하는 필터
 <h1>{{ question.subject}}</h1>
@@ -361,3 +363,7 @@ def create(question_id):
     app.register_blueprint(answer_views.bp)
     
 ```
+
+
+
+
