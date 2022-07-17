@@ -33,9 +33,6 @@ if __name__ == '__main__': # 현재 파일이 main 이면 실행
 myproject\script\activate.bat 실행
 
 # 실행 배치파일 예 myproject.cmd - bat가 아니라 cmd
-@echo off
-cd myproject/script
-activate
 
 # 가상환경 나오기
 > deactivate
@@ -71,6 +68,67 @@ flask pybo
 set FLASK_APP=pybo
 set FLASK_ENV=development
 .\scripts\activate
+
+# 앱 팩토리-어플리케이션 팩토리(create_app함수) - 앱의 규모가 커질 때 발생하는 문제 예방
+> mkdir pybo
+> move pybo.py pybo\__init__.py #이름 바꿔 이동, __init__ 폴더를 패키지화, 패키지 초기화 기능
+
+# __init__.py 파일 수정
+
+from flask import Flask
+
+def create_app():
+    app = Flask(__name__)
+
+    @app.route('/') # 애너테이션
+    def hello_pybo(): # 애너테이션으로 URL '/'에 매핑되는 함수 = 라우팅 함수
+        return 'Hello World!'
+
+    return app
+ 
+ 
+#블루프린트 - 라우팅 함수 체계적 관리
+/pybo/views/main_views.py
+form flask import Blueprint
+
+bp = Blueprint('main',__name__,url_prefix='/')
+# main 별칭, __name__ 현재 모듈명main_views, url_prefix 접두 URL - 해당 경로에서 pb URL 이어감
+
+@bp.route('/')
+def hello_pybo():
+    return 'Hello World!'
+
+## __init__.py 파일도 수정
+def create_app():
+    app = Flask(__name__)
+
+    from .views import main_views
+    app.register_blueprint(main_views.bp)
+
+    return app
+    
+```
+
+
+데이터 모델 생성 ORM -object relational mapping
+--------------------------------
+
+```
+# SQLAlchemy 와 Flask-Migrate 라이브러리 설치(SQLAlchemy는 flask-migrate에 포함되 있음)
+>pip install flask-migrate
+
+# DB 설정파일 생성
+/config.py
+import os
+
+BASE_DIR = os.path.dirname(__file__)
+
+SQLALCHEMY_DATABASE_URL = 'sulite:///{}'.format(os.path.join(BASE_DIR,'pybo.db'))
+# DB 접속 주소, 홈디렉토리에 pybo.db파일로 저장
+SQLALCHEMY_TRACK_MODIFICATIONS = False
+# sqlalchemy 의 이벤트를 처리하는 옵션, 현재 사용하지 않으므로 False
+
+
 
 ```
 
