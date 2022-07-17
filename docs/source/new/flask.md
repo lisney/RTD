@@ -208,9 +208,156 @@ class Answer(db.Model):
 `alembic_version 은 migrate가 관리`
 
 
+질문 목록 Template
+-----------------------
+
+```
+# main_views.py 변경
+from flask import Blueprint, render_template
+
+from pybo.models import Question
+
+bp = Blueprint('main',__name__,url_prefix='/')
+# main 별칭, __name__ 현재 모듈명main_views, url_prefix 접두 URL - 해당 경로에서 pb URL 이어감
+
+@bp.route('/')
+def index():
+    question_list = Question.query.order_by(Question.create_date.desc())
+    return render_template('question/question_list.html', question_list=question_list)
+    # render_template 템플릿 파일을 화면으로 랜더링하는 함수, templates폴더를 기본으로 인식, question_list 데이터를 전달한다
+    
+# 질문 리스트 HTML
+\pybo\templates\question\question_list.html
+{% if question_list %}
+<ul>
+    {% for question in question_list %}
+    <li><a href="/detail/{{ question.id }}">{{ question.subject }}</a></li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>질문이 없습니다</p>
+
+{% endif %}
+
+# 질문 라우팅 함수 추가 main_views.py
+@bp.route('/detail/<int:question_id>/')
+def detail(question_id):
+    # question = Question.query.get(question_id)
+    question = Question.query.get_or_404(question_id) # 페이지 없음 메시지 표시
+    return render_template('question/question_detail.html', question=question)
+    
+# 질문 상세 HTML
+\pybo\templates\question\question_detail.html
+<h1>{{ question.subject}}</h1>
+<div>
+    {{ question.content}}
+</div>
+```
+
+![image](https://user-images.githubusercontent.com/30430227/179385299-1152ee5b-07b4-42f4-90dc-cc87fa7475b2.png)
+![image](https://user-images.githubusercontent.com/30430227/179385295-69d32683-0ebc-426d-a127-264a0bca0d66.png)
+
+![image](https://user-images.githubusercontent.com/30430227/179385402-20e149ee-11c1-438e-aecf-0dfe42975c2c.png)
+
+```
+* 블루프린트로 질문 템플릿들 분리
+\views\question_views.py
+from flask import Blueprint, render_template
+
+from pybo.models import Question
+
+bp = Blueprint('question',__name__,url_prefix='/question')
+# bp 객체 생성 시 url_prefix 에 /question 을 붙여 구분한다
+
+@bp.route('/list/') # URL 매핑을 /list/ 로 한다
+def _list(): # 함수명은 _list(list는 파이썬 예약어)
+    question_list = Question.query.order_by(Question.create_date.desc())
+    return render_template('question/question_list.html', question_list=question_list)
+
+@bp.route('/detail/<int:question_id>/')
+def detail(question_id):
+    question = Question.query.get_or_404(question_id)
+    return render_template('question/question_detail.html', question=question)
 
 
+* main_views.py 수정
+from flask import Blueprint, render_template, url_for
+from werkzeug.utils import redirect
+
+from pybo.models import Question
+
+bp = Blueprint('main',__name__,url_prefix='/')
+# main 별칭, __name__ 현재 모듈명main_views, url_prefix 접두 URL - 해당 경로에서 pb URL 이어감
+
+@bp.route('/')
+def index():
+    return redirect(url_for('question._list'))
+    # 함수 redirect(URL) - URL로 페이지 이동(리다이렉트), 함수 url_for(라우팅 함수) -라우팅 함수에 매핑돼 있는 URL 리턴
+    
+
+* __init__.py에 블루프린트 추가
+    # 블루프린트
+    from .views import main_views, question_views
+    app.register_blueprint(main_views.bp)
+    app.register_blueprint(question_views.bp)
 
 
+* url_for 사용 'question_list.html' 수정, url_for(함수명, 매개변수) - 함수 detail(quesion_id)
+    <!-- <li><a href="/detail/{{ question.id }}">{{ question.subject }}</a></li> -->
+    <li><a href="{{ url_for('question.detail', question_id=question.id)}}">{{ question.subject }}</a></li>
+```
 
 
+답변 등록
+--------------
+
+```
+# question_detail.html 내용 수정 - '|length' 개수를 출력하는 필터
+<h1>{{ question.subject}}</h1>
+<div>
+    {{ question.content}}
+</div>
+
+<h5>{{ question.answer_set|length}}개의 답변이 있습니다</h5>
+<div>
+    <ul>
+        {% for answer in question.answer_set %}
+        <li>{{ answer.content }}</li>
+        {% endfor %}
+    </ul>
+</div>
+
+<form action="{{ url_for('answer.create', question_id=question.id)}}" method="post">
+    <textarea name="content" id="content" rows="15"></textarea>
+    <input type="submit" value="답변등록">
+</form>
+
+* 답변 관리 블루프린트 생성 
+\pybo\views\answer_views.py
+from datetime import datetime
+
+from flask import Blueprint, url_for, request
+from werkzeug.utils import redirect
+
+from pybo import db
+from pybo.models import Question, Answer
+
+bp = Blueprint('answer',__name__, url_prefix='/answer')
+
+@bp.route('/create/<int:question_id>', methods=['POST',])
+def create(question_id):
+    question = Question.query.get_or_404(question_id)
+    content = request.form['content'] # post 로 전달받은 form의 요소 중 content의 내용을 받는다
+    answer = Answer(content=content, create_date=datetime.now())
+    question.answer_set.append(answer)
+    db.session.commit()
+    return redirect(url_for('question.detail',question_id=question.id))
+   
+* __init__.py 에 블루프린트 추가
+    # 블루프린트
+    from .views import main_views, question_views, answer_views
+    app.register_blueprint(main_views.bp)
+    app.register_blueprint(question_views.bp)
+    app.register_blueprint(answer_views.bp)
+    
+```
