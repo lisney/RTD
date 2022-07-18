@@ -4,25 +4,6 @@ Flask
 `라즈베리파이OS에 이미 설치되어 있음`
 
 
-Hello World
-----------------
-
-```
-from flask import Flask # 플라스크 모듈 호출
-
-app = Flask(__name__) # 플라스크 앱 생성
-
-@app.route('/') # 기본 경로('/')로 요청이 오면 hello 함수 실행
-def hello():
-    return 'Hello World'
-
-if __name__ == '__main__': # 현재 파일이 main 이면 실행
-    app.run(debug=True, port=80, host='0.0.0.0')
-```
-
-`서버 실행 - sudo python3 hello.py`
-
-
 파이썬 가상환경
 -----------------------
 
@@ -521,3 +502,150 @@ class QuestionForm(FlaskForm):
 ```
 
 
+라즈베리파이 
+---------------
+
+`핀번호 보기 > pinout`
+
+```
+# happy.py
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return 'Hi'
+
+if __name__=='__main__':
+    app.run(debug=True, port=80, host='0.0.0.0')
+    
+    
+# 실행 
+> export FLASK_APP='hello'
+> export FLASK_ENV=development
+> flask run
+
+## 외부 연결 목적으로 실행
+> sudo python3 hello.py
+
+## 외부 컴에서 접속
+192.168.0.80
+
+# HTML
+\templates\index.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>라즈베리파</title>
+</head>
+
+<body>
+    <h1>GPIO 테스트</h1>
+    <hr>
+    <div>
+        <h3>something to do</h3>
+        <ul>
+            <li>eat</li>
+            <li>study</li>
+            <li>watching</li>
+        </ul>
+    </div>
+</body>
+
+</html>
+
+## hello.py 수정
+from flask import Flask, render_template
+...
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+
+# URL함수 추가
+@app.route('/<username>')
+def hello(username):
+    return render_template('index.html', user=username)
+
+## HTML 수정
+...
+<body>
+    {% if user %}
+    <p>Nice to meet you. {{ user }}</p>
+    {% endif %}
+    <h1>GPIO 테스트</h1>
+...
+
+```
+
+
+모터 제어 
+----------
+
+![image](https://user-images.githubusercontent.com/30430227/179503879-edea1222-9c0a-4e18-bbc2-c2b6797c9f8f.png)
+
+```
+# hello.py
+from flask import Flask, render_template, url_for, redirect
+import RPi.GPIO as GPIO
+from time import sleep
+
+GPIO.setmode(GPIO.BCM)
+
+GPIO.setup(16, GPIO.OUT)
+GPIO.setup(20, GPIO.OUT)
+GPIO.setup(21, GPIO.OUT)
+
+pwm = GPIO.PWM(16,100)
+pwm.start(0)
+pwm.ChangeDutyCycle(30)
+
+app = Flask(__name__)
+
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@app.route('/<dir>')
+def motor(dir):
+    if dir=='forward':
+        print('앞으로')
+        GPIO.output(20, 1)
+        GPIO.output(21, 0)
+    elif dir=='backward':
+        print('뒤로')
+        GPIO.output(20, 0)
+        GPIO.output(21, 1)
+    elif dir=='stop':
+        GPIO.output(20, 0)
+        GPIO.output(21, 0)
+    return render_template('index.html', dir=dir)
+
+if __name__=='__main__':
+    app.run(debug=True, port=80, host='0.0.0.0')
+
+
+# index.html
+    <div>
+        <h3>something to do</h3>
+        <p>
+            <b>모터방향: {% if dir=='forward' %}전진
+                {% elif dir=='backward' %}후진
+                {% elif dir=='stop' %}정지
+                {% endif %}
+            </b>
+            <a href="{{ url_for('motor', dir ='forward') }}"><input type="button" value="전진"></a>
+            <a href="{{ url_for('motor', dir = 'backward') }}"><input type="button" value="후진"></a>
+            <a href="{{ url_for('motor', dir = 'stop') }}"><input type="button" value="정지"></a>
+        </p>
+    </div>
+
+</html>
+
+```
