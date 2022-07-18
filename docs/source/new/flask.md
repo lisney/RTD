@@ -367,5 +367,53 @@ def create(question_id):
 ```
 
 
+템플릿 상속 extends 
+------------------
+
+```
+# style.css
+\pybo\static\style.css
+textarea {
+  width: 100%;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  color: teal;
+}
+
+
+# 기본 HTML 생성 - url_for('폴더',filename='파일명)
+\pybo\templates\base.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello, Pybot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+</head>
+
+<body>
+    {% block content %}
+    {% endblock %}
+</body>
+
+</html>
+
+
+# question_detail.html
+{% extends 'base.html' %}
+{% block content %}
+
+...내용
+
+{% endblock %}
+
+```
+
+
 
 
