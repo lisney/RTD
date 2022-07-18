@@ -471,6 +471,7 @@ def create():
 <div class="container">
     <h5>질문등록</h5>
     <form method="post">
+        {{ form.csrf_token }}
         {{ form.subject.label }}
         {{ form.subject() }}
 
@@ -482,9 +483,41 @@ def create():
 </div>
 {% endblock %}
 
+## 수작업 폼
+    <form method="post">
+        {{ form.csrf_token }}
+        <label for="subject">제목</label>
+        <input type="text" name="subject">
+
+        <label for="content">내용</label>
+        <textarea name="content" id="" rows="10"></textarea>
+        <button type="submit">저장하기</button>
+    </form>
 
 
+### 폼의 내용없이 저장버튼 누르면 에러메시지 출력 시 제목란에 입력한게 사라지지 않게
+        <input type="text" name="subject" value="{{ form.subject.data or '' }}">
 
+
+# 입력란이 비었을 때 오류 메시지 출력
+> question_form.html - <form> 내부에 추가 
+        {% if form.errors %}
+        {% for field, errors in form.errors.items() %}
+        <strong>{{ form[field].label }}</strong>
+        <ul>
+            {% for error in errors %}
+            <li>{{ error }}</li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
+        {% endif %}
+
+> forms.py
+class QuestionForm(FlaskForm):
+    subject = StringField('제목', validators=[DataRequired('제목은 필수')])
+    # validators 검증, DataREquired-필수항목인지 체크, Email-이메일인지 체크, Length-길이 체크 등
+    content = TextAreaField('내용', validators=[DataRequired('내용도 필수')])
+    
 ```
 
 
