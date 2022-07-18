@@ -415,5 +415,76 @@ input[type="submit"] {
 ```
 
 
+폼 모듈 사용 질문 등록 생성
+-----------------------
+
+![image](https://user-images.githubusercontent.com/30430227/179438177-1b55f470-481f-47c9-9396-fe2aea220ad1.png)
+
+```
+# 모듈 설치
+> pip install flask-wtf
+
+# secret key 등록 -config.py
+...내용추가
+SECRET_KEY='dev'
+# 편의상 문자열 'dev' 를 사용했지만 실제 서비스를 운영에는 다르다
+
+
+# question_list.html 에 질문등록 추가
+<a href="{{ url_for('question.create') }}">질문등록</a>
+
+
+## 질문 폼 만들기
+\pybo\forms.py
+from flask_wtf import FlaskForm
+from wtforms import StringField, TextAreaField
+from wtforms.validators import DataRequired
+
+class QuestionForm(FlaskForm):
+    subject = StringField('제목', validators=[DataRequired()])
+    # validators 검증, DataREquired-필수항목인지 체크, Email-이메일인지 체크, Length-길이 체크 등
+    content = TextAreaFiedl('내용', validators=[DataRequired()])
+    
+
+# 질문등록 라우팅함수 변경
+\pybo\question_views.py
+...
+from datetime import datetime
+from flask import Blueprint, render_template, request, url_for
+from werkzeug.utils import redirect
+
+from .. import db
+from pybo.models import Question
+from pybo.forms import QuestionForm
+
+...
+@bp.route('/create', methods=('GET','POST')) # GET, POST 요청을 받음
+def create():
+    form = QuestionForm()
+    return render_template('question/question_form.html', form=form)
+
+
+# 질문 폼 템플릿 추가
+\pybo\templates\question\question_form.html
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    <h5>질문등록</h5>
+    <form method="post">
+        {{ form.subject.label }}
+        {{ form.subject() }}
+
+        {{ form.content.label }}
+        {{ form.content() }}
+
+        <button type="submit">저장하기</button>
+    </form>
+</div>
+{% endblock %}
+
+
+
+
+```
 
 
