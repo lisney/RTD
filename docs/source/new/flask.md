@@ -78,7 +78,7 @@ set FLASK_ENV=development
 
 # 앱 팩토리-어플리케이션 팩토리(create_app함수) - 앱의 규모가 커질 때 발생하는 문제 예방
 > mkdir pybo
-> move pybo.py pybo\__init__.py #이름 바꿔 이동, __init__ 폴더를 패키지화, 패키지 초기화 기능
+> move pybo.py pybo\__init__.py #이름 바꿔 이동, __init__ 폴더를 패키지화, 패키지 초기화 기능(리눅스 $ mv)
 
 # __init__.py 파일 수정
 
