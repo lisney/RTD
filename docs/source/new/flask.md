@@ -63,9 +63,9 @@ def hello_pybo():
     return 'Hello, Pybo!'
     
 # 실행 
-flask pybo
+flask run
 >> 플라스크는 기본 앱 명을 app.py로 한다. 기본 앱 명 수정
->> set FLASK_APP=pybo 실행 후 다시 실행한다
+>> set FLASK_APP=pybo 실행 후 다시 실행한다(리눅스 $ export FLASK_APP=pybo)
 
 # 개발환경으로 실행하기 - 디버그 모드 활성
 >> set FLASK_ENV=development 후 실행
