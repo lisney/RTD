@@ -652,6 +652,11 @@ def motor(dir):
         GPIO.output(20, 0)
         GPIO.output(21, 0)
     return render_template('index.html', dir=dir)
+    
+@app.route('/<int:speed>')
+def speed(speed):
+    pwm.ChangeDutyCycle(speed)
+    return render_template('index.html')
 
 if __name__=='__main__':
     app.run(debug=True, port=80, host='0.0.0.0')
@@ -670,7 +675,14 @@ if __name__=='__main__':
             <a href="{{ url_for('motor', dir = 'backward') }}"><input type="button" value="후진"></a>
             <a href="{{ url_for('motor', dir = 'stop') }}"><input type="button" value="정지"></a>
         </p>
-    </div>
+        <p>
+            <b>스피드</b>
+            <a href="{{ url_for('speed', speed=10) }}">스피드10</a>
+            <a href="{{ url_for('speed', speed=50) }}">스피드50</a>
+            <a href="{{ url_for('speed', speed=100) }}">스피드100</a>
+
+        </p>
+</div>
 
 </html>
 
