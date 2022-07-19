@@ -3,6 +3,20 @@ Flask
 
 `라즈베리파이OS에 이미 설치되어 있음`
 
+```
+# 파이썬3을 기본으로 설정하기
+
+> 파이썬 버전 확인 > python -V(대문자)
+> update-alternatives --config python(상태 확인, 처음에는 아무것도 설정되어 있지 않다)
+> sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
+> sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.9 2
+> update-alternatives --config python(설정 확인)
+> python -V
+```
+
+![image](https://user-images.githubusercontent.com/30430227/179646088-3284240c-45e4-40d1-8a88-7c2b048f83ff.png)
+
+
 
 파이썬 가상환경
 -----------------------
