@@ -16,7 +16,19 @@ Flask
 
 ![image](https://user-images.githubusercontent.com/30430227/179646088-3284240c-45e4-40d1-8a88-7c2b048f83ff.png)
 
+```
+# 라즈베리파이 가상환경
+> sudo apt install virtualenv(설치)
+> virtualenv myproject(생성)
+> source myproject/bin/activate(실행,source 쉘스크립트를 실행)
+> deactivate(나오기)
 
+# 라즈베리파이 배치파일 -쉘 스크립트 .sh
+> sudo chmod +x myproject.sh(sh을 실행되도록 만듬)
+> ./myproject.sh('./' - 앞에 붙이면 실행명령=sh, bash)
+
+
+```
 
 파이썬 가상환경
 -----------------------
