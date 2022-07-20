@@ -857,6 +857,10 @@ $ flask shell 에서 등록한 사용자 확인
 로그인
 -------
 
+![image](https://user-images.githubusercontent.com/30430227/179962334-f054da8a-bd0a-47b8-a138-f5d452640bb4.png)
+
+![image](https://user-images.githubusercontent.com/30430227/179965626-ed31d1e8-80e4-428f-9675-1ec380c772ae.png)
+
 ```
 사용자도 존재하고 비밀번호도 일치한다면 플라스크 세션(session)에 사용자 정보를 저장한다.세션은 서버에 브라우저별로 생성되는 메모리 공간
 쿠키는 서버가 웹 브라우저에 발행하는 값이다. 웹 브라우저는 서버에서 받은 쿠키를 저장한다. 이후 서버에 다시 요청을 보낼 때는 저장한 쿠키를 HTTP 헤더에 담아서 전송한다.
@@ -870,6 +874,8 @@ class UserLoginForm(FlaskForm):
 \auth_views.py
 from flask import Blueprint, url_for, render_template, flash, request, session
 from werkzeug.security import generate_password_hash, check_password_hash
+...
+from pybo.forms import UserCreateForm, UserLoginForm
 ...
 @bp.route('/login', methods=('GET','POST'))
 def login():
@@ -911,7 +917,42 @@ def login():
 {% endblock %}
 
 \navbar.html 추가
- <li><a href="{{ rul_for('auth.login') }}">로그인</a> </li>
+ <li><a href="{{ url_for('auth.login') }}">로그인</a> </li>
+
+
+# 로그인 여부 -\auth_views.py
+@bp.before_app_request는 라우팅 함수보다 먼저 실행된다.
+> g는 플라스크의 컨텍스트 변수, session 변수에 user_id값이 있으면(session.get) user_id에 대입
+> User DB에서 조회query.get하여 user 객체 g.user에 대입 
+
+from flask import Blueprint, url_for, render_template, flash, request, session , g
+...
+@bp.before_app_request
+def load_logged_in_user():
+    user_id = session.get('user_id')
+    if user_id is None:
+        g.user = None
+    else:
+        g.user = User.query.get(user_id)
+
+@bp.route('/logout')
+def logout():
+    session.clear()
+    return redirect(url_for('main.index'))
+    
+\navbar.html 수정
+        <div>
+            {% if g.user %}
+            <ul>
+                <li><a href="{{url_for('auth.logout')}}">{{ g.user.username }}(로그아웃)</a></li>
+            </ul>
+            {% else %}
+            <ul>
+                <li><a href="{{ url_for('auth.signup') }}">계정생성</a></li>
+                <li><a href="{{ url_for('auth.login') }}">로그인</a> </li>
+            </ul>
+            {% endif %}
+        </div>
 
 ```
 
