@@ -707,6 +707,19 @@ def format_datetime(value, fmt='%Y년 %m월 %d일 %p %I:%M'):
 
 ```
 
+답변 개수 추가
+--------------
+
+![image](https://user-images.githubusercontent.com/30430227/179912496-fe08cfc1-7203-4024-a7a6-9424c2d02bbc.png)
+
+```
+이미지는 일부러 CSS 적용함 \question_list.html에 추가
+    <a href="{{ url_for('question.detail', question_id=question.id) }}">{{ question.subject }}</a> 아래에
+    {% if question.answer_set|length >0 %}
+    <span>{{question.answer_set|length}}</span>
+    {%endif%}
+```
+
 
 
 
