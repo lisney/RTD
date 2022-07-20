@@ -437,8 +437,36 @@ SECRET_KEY='dev'
 # 편의상 문자열 'dev' 를 사용했지만 실제 서비스를 운영에는 다르다
 
 
-# question_list.html 에 질문등록 추가
+# question_list.html 에 질문등록
+<h1>플라스크 연습</h1>
 <a href="{{ url_for('question.create') }}">질문등록</a>
+<hr>
+<table>
+    <thead>
+        <tr>
+            <th>번호</th>
+            <th>제목</th>
+            <th>작성일시</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% if question_list %}
+        {% for question in question_list %}
+        <tr>
+            <td>{{ loop.index }}</td>
+            <td>
+                <a href="{{ url_for('question.detail', question_id=question.id) }}">{{ question.subject }}</a>
+            </td>
+            <td>{{ question.create_date }}</td>
+        </tr>
+        {% endfor %}
+        {% else %}
+        <tr>
+            <td>질문이 없습니다</td>
+        </tr>
+        {%endif%}
+    </tbody>
+</table>
 
 
 ## 질문 폼 만들기
@@ -531,6 +559,155 @@ class QuestionForm(FlaskForm):
     content = TextAreaField('내용', validators=[DataRequired('내용도 필수')])
     
 ```
+
+네비게이션 include
+--------------------
+
+![image](https://user-images.githubusercontent.com/30430227/179896280-1deef101-d1cf-471d-a0a4-bb153cc0666d.png)
+
+```
+pybo\template\navbar.html
+<nav>
+    <div>
+        <a href="{{url_for('main.index')}}">홈</a>
+        <div>
+            <ul>
+                <li><a href="#">계정생성</a></li>
+                <li><a href="#">로그인</a> </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+base.html에 추가
+    {% include 'navbar.html' %}
+
+```
+
+게시판 페이징 - paginate 함수
+-----------------------------
+
+```
+$ export FLASK_APP=pybo
+$ flask shell
+> from pybo import db
+> from pybo.models import Question
+> from datetime import datetime
+
+> for i in range(300):
+    q = Question(subject='테스트 데이터입니다:[%03d]' % i, content='내용무', create_date=datetime.now())
+    db.session.add(q)
+
+>  db.session.commit()
+```
+
+```
+\pybo\views\question_views.py
+@bp.route('/list/')
+def _list():
+    page = request.args.get('page',type=int, default=1)
+    # '.../?page=5' 방식으로 요청한 URL에서 page값을 가져온다, default=1(page 요청 URL이 없으면 기본값인 1 즉 /?page=1을 보여준다)
+    question_list = Question.query.order_by(Question.create_date.desc())
+    question_list = question_list.paginate(page, per_page=10)
+    # paginate 함수, page(페이지 번호), per_page(페이지게시물 건 수)
+    return render_template('question/question_list.html',question_list=question_list)
+```
+
+![image](https://user-images.githubusercontent.com/30430227/179907027-1d44c8c6-1705-4f0d-8e1d-a64ec34c80cf.png)
+
+```
+# pagenate 객체
+items	현재 페이지에 해당하는 게시물 리스트	[<Question 282>,<Question 283>, ...]
+page	현재 페이지 번호	2
+iter_pages	페이지 범위	[1, 2, 3, 4, 5, None, 30, 31]
+prev_num / next_num	이전 페이지 번호 / 다음 페이지 번호	현재 페이지가 3인 경우, 2 / 4
+has_prev / has_next	이전 페이지 존재 여부 / 다음 페이지 존재 여부	True / False
+
+\pybo\templates\question\question_list.html
+        {% for question in question_list %}를
+        {% for question in question_list.items %}로 바꾼다
+        
+# 페이지 이동버튼 추가
+</table>
+<ul class="paginate">
+    {% if question_list.has_prev %}
+    <li><a href="?page={{ question_list.prev_num }}">이전</a></li>
+    {% else %}
+    <li>이전</li>
+    {% endif %}
+    {% for page_num in question_list.iter_pages() %}
+    {% if page_num %}
+    {% if page_num !=question_list.page %}
+    <li><a href="?page={{page_num}}">{{page_num}}</a></li>
+    {% else %}
+    <li>{{page_num}}</li>
+    {% endif %}
+    {%else%}
+    <li>...</li>
+    {%endif%}
+    {% endfor %}
+    <!-- 다음페이지 -->
+    {% if question_list.has_next %}
+    <li><a href="?page={{question_list.next_num}}">다음</a></li>
+    {% else %}
+    <li>다음</li>
+    {% endif %}
+</ul>
+
+/style.css
+ul.paginate{
+    display:flex;
+    list-style: none;
+}
+
+.paginate li{
+    padding-left:10px
+}
+```
+
+템플릿 필터로 날짜 포멧 바꾸기
+-------------------------
+
+![image](https://user-images.githubusercontent.com/30430227/179908658-021eabb7-ee54-4a2f-9a8a-7677d942b5e6.png)
+
+![image](https://user-images.githubusercontent.com/30430227/179908695-626634c1-a13a-4433-a5f0-59171ea4afd2.png)
+
+```
+\pybo\filter.py
+def format_datetime(value, fmt='%Y년 %m월 %d일 %p %I:%M'):
+    return value.strftime(fmt)
+    
+\pybo\__init__.py 에 추가
+    #필터
+    from .filter import format_datetime
+    app.jinja_env.filters['datetime']=format_datetime
+
+    return app
+
+\question_list.html 에 적용
+   <td>{{ question.create_date|datetime }}</td>
+            
+```
+
+
+게시물 번호 매기기
+------------------
+
+![image](https://user-images.githubusercontent.com/30430227/179911866-be00e6fe-4264-485c-abbe-7d99c20f16d0.png)
+
+```
+# 공식
+.total - (.page -1)*.per_page - loop.index0
+> question_list.total전체 개수, ..page현재 페이지, ..per_page페이지당 게시물 수, loop.index0 해당 페이지의 나열 인덱스(0을 붙이면 0,1,2,3..으로 번호가 붙는다)
+>> .total 는 끝 번호
+>> .total -(.page -1)*.per_page 는 다음 페이지의 시작 번호가 된다. 여기서 나열 인덱스 0 ~ 갯수만큼 뺀 것이 순서대로 번호가 된다
+
+\question_list.html 수정
+{{ loop.index }} => {{ question_list.total -((question_list.page-1)*question_list.per_page)- loop.index0 }}
+
+```
+
+
 
 
 라즈베리파이 
