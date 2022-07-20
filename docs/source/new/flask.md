@@ -496,7 +496,7 @@ from pybo.forms import QuestionForm
 @bp.route('/create', methods=('GET','POST')) # GET, POST 요청을 받음
 def create():
     form = QuestionForm()
-    if request.method == 'POST' and form.validate_on_submit():
+    if request.method == 'POST' and form.validate_on_submit(): # validate_on_submit() 입력받은 폼의 정합성 검사
         question = Question(subject=form.subject.data, content=form.content.data, create_date=datetime.now())
         db.session.add(question)
         db.session.commit()
@@ -845,6 +845,73 @@ form_errors.html 템플릿 파일은 다음과 같이 "필드에서 발생한 �
 
 \navbar.html 수정
 <li><a href="{{ url_for('auth.signup') }}">계정생성</a></li>
+
+
+$ flask shell 에서 등록한 사용자 확인
+> from pybo.models import User
+> User.query.all()
+> User.query.first().username
+
+```
+
+로그인
+-------
+
+```
+사용자도 존재하고 비밀번호도 일치한다면 플라스크 세션(session)에 사용자 정보를 저장한다.세션은 서버에 브라우저별로 생성되는 메모리 공간
+쿠키는 서버가 웹 브라우저에 발행하는 값이다. 웹 브라우저는 서버에서 받은 쿠키를 저장한다. 이후 서버에 다시 요청을 보낼 때는 저장한 쿠키를 HTTP 헤더에 담아서 전송한다.
+그러면 서버는 웹 브라우저가 보낸 쿠키를 이전에 발행했던 쿠키값과 비교하여 같은 웹 브라우저에서 요청한 것인지 아닌지를 구분할 수 있다.
+이때 세션은 바로 쿠키 1개당 생성되는 서버의 메모리 공간이라고 할 수 있다.
+\forms.py
+class UserLoginForm(FlaskForm):
+    username = StringField('사용자이름', validators=[DataRequired(), Length(min=3, max=15)])
+    password = PasswordField('비밀번호', validators=[DataRequired()])
+    
+\auth_views.py
+from flask import Blueprint, url_for, render_template, flash, request, session
+from werkzeug.security import generate_password_hash, check_password_hash
+...
+@bp.route('/login', methods=('GET','POST'))
+def login():
+    form = UserLoginForm()
+    if request.method =='POST' and form.validate_on_submit():
+        error=None
+        user = User.query.filter_by(username=form.username.data).first()
+        if not user:
+            error ='존재하지 않는 사용자니더'
+        elif not check_password_hash(user.password, form.password.data):
+            error='비빌번호가 올바르지 않아서'
+        if error is None:
+            session.clear()
+            session['user_id']=user.id
+            return redirect(url_for('main.index'))
+        flash(error)
+    return render_template('auth/login.html', form=form)
+    
+
+\templates\auth\login.html 생성
+{% extends 'base.html' %}
+{% block content %}
+<div>
+    <h5>로그인</h5>
+    <form action="" method="post">
+        {{form.csrf_token}}
+        {% include 'form_errors.html' %}
+        <div>
+            <label for="username">사용자이름</label>
+            <input type="text" name="username" id="username" value="{{ form.username.data or '' }}">
+        </div>
+        <div>
+            <label for="password">비밀번호</label>
+            <input type="password" name="password" id="password" value="{{ form.username.data or '' }}">
+        </div>
+        <button type="submit">로그인</button>
+    </form>
+</div>
+{% endblock %}
+
+\navbar.html 추가
+ <li><a href="{{ rul_for('auth.login') }}">로그인</a> </li>
 
 ```
 
