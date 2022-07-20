@@ -720,7 +720,133 @@ def format_datetime(value, fmt='%Y년 %m월 %d일 %p %I:%M'):
     {%endif%}
 ```
 
+회원가입
+---------
 
+![image](https://user-images.githubusercontent.com/30430227/179930929-478f484b-2773-40b7-b982-66c277b7e6ac.png)
+
+```
+# 회원 모델 생성 \models.py
+class User(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    username = db.Column(db.String(20), unique=True, nullable=False)
+    password = db.Column(db.String(20), nullable=False)
+    email = db.Column(db.String(20), unique=True, nullable=False)
+> id 는 자동으로 증가하는 기본키
+> unique 는 같은 값 불가
+
+# 리비전(리~버전 생성)
+$ flask db migrate
+후 DB도 변경
+$ flask db upgrade
+
+# 회원가입 폼 추가 \forms.py 수정 - Length 길이 검증, EqualTo 같은지 검증
+from flask_wtf import FlaskForm
+from wtforms import StringField, TextAreaField, PasswordField, EmailField
+from wtforms.validators import DataRequired, Length, EqualTo, Email
+...
+
+class UserCreateForm(FlaskForm):
+    username = StringField('사용자이름', validators=[DataRequired(), Length(min=3, max=15)])
+    password = PasswordField('비밀번호', validators=[DataRequired(), EqualTo('password2', '비밀번호가 일치하지 안소')])
+    password2 = PasswordField('비밀번호확인', validators=[DataRequired()])
+    email = EmailField('이메일', validators=[DataRequired(), Email()])
+
+# 이메일 검증을 위한 모듈 설치
+$  pip install email_validator
+
+# 회원가입 블루프린트 생성 \views\auth_views.py
+from flask import Blueprint, url_for, render_template, flash, request
+from werkzeug.security import generate_password_hash
+from werkzeug.utils import redirect
+
+from pybo import db
+from pybo.forms import UserCreateForm
+from pybo.models import User
+
+bp = Blueprint('auth',__name__,url_prefix='/auth')
+
+@bp.route('/signup',methods=('GET','POST'))
+def signup():
+    form = UserCreateForm()
+    if request.method =='POST' and form.validate_on_submit():
+        user = User.query.filter_by(username=form.username.data).first() # 기존 유저가 있으면 User에 대입
+        if not user:
+            user = User(username=form.username.data, password=generate_password_hash(form.password1.data), email=form.email.data)
+            db.session.add(user)
+            db.session.commit()
+            return redirect(url_for('main.index'))
+        else:
+            flash('이미 존재하는 사용자입니다') # flash 에러 발생 함수
+    return render_template('auth/signup.html', form=form)
+
+
+# 블루프린트 등록 __init__.py
+    from .views import main_views, question_views, answer_views, auth_views
+    ...
+    app.register_blueprint(auth_views.bp)
+
+
+# 회원가입 템플릿 - \templates\auth\signup.html
+>> form action 을 비워두면 현재 URL로 폼을 전송한다
+{% extends 'base.html' %}
+{% block content %}
+<div>
+    <h5>계정생성</h5>
+    <form action="" method="post">
+        {{form.csrf_token}}
+        {% include "form_errors.html" %}
+        <div>
+            <label for="username">사용자이름</label>
+            <input type="text" name="username" id="username" value="{{ form.username.data or '' }}">
+        </div>
+        <div>
+            <label for="password1">비밀번호</label>
+            <input type="password" name="password1" id="password1" value="{{ form.password1.data or '' }}">
+        </div>
+        <div>
+            <label for="password2">비밀번호 확인</label>
+            <input type="password" name="password2" id="password2" value="{{ form.password2.data or '' }}">
+        </div>
+        <div>
+            <label for="email">이메일</label>
+            <input type="text" name="email" id="email" value="{{ form.email.data or '' }}">
+        </div>
+        <button type="submit">생성하기</button>
+    </form>
+</div>
+
+{% endblock %}
+
+
+# \templates\form_errors.html
+form_errors.html 템플릿 파일은 다음과 같이 "필드에서 발생한 오류를 표시하는 부분"과 "flash를 거치면서 발생한 오류를 표시하는 부분"으로 구성된다.
+필드 오류는 폼 validators 검증에 실패한 경우 표시되고, flash 오류는 flash('이미 존재하는 사용자입니다.')와 같은 로직에 의해 표시된다.
+
+<!-- 필드오류 -->
+{% if form.errors %}
+<div>
+    {% for field, errors in form.errors.items() %}
+    <strong>{{ form[field].label }}</strong>
+    <ul>
+        {% for error in errors %}
+        <li>{{ error }}</li>
+        {% endfor %}
+    </ul>
+    {% endfor %}
+</div>
+{% endif %}
+
+<!-- flash오류 -->
+{% for message in get_flashed_messages() %}
+<div>{{message}}</div>
+{% endfor %}
+
+
+\navbar.html 수정
+<li><a href="{{ url_for('auth.signup') }}">계정생성</a></li>
+
+```
 
 
 라즈베리파이 
