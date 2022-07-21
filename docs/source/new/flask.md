@@ -1154,6 +1154,68 @@ def delete(question_id):
 ```
 
 
+추천 기능 추가 
+----------------
+
+
+```
+# 테이블 객체 생성
+\models.py
+> 사용자 id와 질문 id를 쌍으로 갖는 테이블 객체
+> user_id와 question_id 는 프라이머리키이므로 두개의 값이 모두 같은 데이터는 저장될 수 없다.
+
+question_voter = db.Table(
+    'question_voter',
+    db.Column('user_id', db.Integer, db.ForeignKey('user.id', ondelete='CASCADE'), primary_key=True),
+    db.Column('question_id', db.Integer, db.ForeignKey('question.id', ondelete='CASCADE'),primary_key=True)
+)
+```
+
+![image](https://user-images.githubusercontent.com/30430227/180150509-193f2c75-8c66-4cf3-b6f9-cadd2d998968.png)
+![image](https://user-images.githubusercontent.com/30430227/180150582-86c6f017-5348-45b2-b3ae-e697ad6d7a84.png)
+
+```
+# \models.py
+> Question 클래스에 추천인 필드 추가
+> secondary - 실재 데이터가 저장되는 테이블을 question_voter로 정한다
+
+    voter = db.relationship('User', secondary=question_voter, backref=db.backref('quesion_voter_set'))
+
+> migrate, upgrade 실행
+
+```
+
+![image](https://user-images.githubusercontent.com/30430227/180158196-40f594e4-019f-4827-9cd5-0da01532843c.png)
+
+```    
+* 추천 라우팅 함수 \question_views.py
+@bp.route('/vote/<int:question_id>')
+@login_required
+def vote(question_id):
+    _question = Question.query.get_or_404(question_id)
+    if g.user == _question.user:
+        flash('본인은 추천불가!!')
+    else:
+        _question.voter.append(g.user)
+        db.session.commit()
+    return redirect(url_for('question.detail', question_id=question_id))
+
+
+* 질문 추천 버튼 \quesion_detail.html
+<a href="javascript:void(0)" data-uri="{{ url_for('question.vote', question_id=question.id) }}" class="recommend">추천</a>
+<s>{{ question.voter|length}}</s>
+...
+    const recommend_elements = document.querySelectorAll('.recommend')
+    Array.from(recommend_elements).forEach(function (element) {
+        element.addEventListener('click', function () {
+            if (confirm('정말로?')) {
+                location.href = this.dataset.uri
+            }
+        })
+    })
+    
+
+```
 
 
 
