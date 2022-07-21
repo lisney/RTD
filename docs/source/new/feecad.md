@@ -728,4 +728,29 @@ Manipulator WB
 ![image](https://user-images.githubusercontent.com/30430227/180109069-40175b67-6d09-44f3-b7f9-26e6ad452f69.png)
 
 
+Drawf Dimension 치수재기
+-----------------
+
+Draft WB
+
+![image](https://user-images.githubusercontent.com/30430227/180136753-cfc9b146-ee89-421a-ae5c-37da38b489a9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180136618-b252fb1b-a04d-4481-b350-47934658237a.png)
+![image](https://user-images.githubusercontent.com/30430227/180136812-2ed76d8e-ee5d-4dbc-afd4-dc7a173bd75d.png)
+
+`Dimension 단축키 D > I, 원 센터를 찍을 땐 Snap Near 끄고 Snap Center 켠다`
+
+![image](https://user-images.githubusercontent.com/30430227/180144642-d592fa78-2719-4b21-b2e6-757cdb457509.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180136898-87ab03d8-1682-4573-9a06-9e6c9fb16c9a.png)
+
+`축 고정 단축키 'x','y', 텍스트가 선 방향에 고정 shift-`
+
+`축 고정 x 1번 점 찍고, 2번 점 찍고 축 y 고정 후 3번 치수표시자 위치 찍기`
+
+![image](https://user-images.githubusercontent.com/30430227/180145088-9c55d1aa-0ac5-455e-8740-d0384269531b.png)
+
+`Tube position -8 옮기기`
+
+
 
