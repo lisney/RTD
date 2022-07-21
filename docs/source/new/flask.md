@@ -956,6 +956,54 @@ def logout():
 
 ```
 
+모델 수정하기
+--------------
+
+```
+# SQLite 버그패치 __init__.py
+...
+from sqlalchemy import MetaData
+
+import config
+
+naming_convention = {
+    "ix": 'ix_%(column_0_label)s',
+    "uq": "uq_%(table_name)s_%(column_0_name)s",
+    "ck": "ck_%(table_name)s_%(column_0_name)s",
+    "fk": "fk_%(table_name)s_%(column_0_name)s_%(referred_table_name)s",
+    "pk": "pk_%(table_name)s"
+}
+db = SQLAlchemy(metadata=MetaData(naming_convention=naming_convention))
+migrate = Migrate()
+...
+    db.init_app(app)
+    if app.config['SQLALCHEMY_DATABASE_URI'].startswith("sqlite"):
+        migrate.init_app(app, db, render_as_batch=True)
+    else:
+        migrate.init_app(app, db)
+    from . import models
+    
+>> flask db migrate > flask db upgrade 명령 실행하여 DB 변경한다
+
+
+# Question 모델 필드 추가 user_id
+class Question(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    subject = db.Column(db.String(200), nullable=False)
+    content = db.Column(db.Text(), nullable=False)
+    create_date = db.Column(db.DateTime(), nullable=False)
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id',ondelete='CASCADE'), nullable=False)
+    user = db.relationship('User', backref=db.backref('question_set'))
+
+에러! user_id의 nullable=False인데 이미 저장되어있는 question 데이터에는 user_id가 없어서 발생
+> nullable =True > server_default='1'(기본 user_id를 1로, 이전 데이터도 1의 값을 추가한다
+> flask db upgrade 명령을 수행할 때 server_default는 이전 데이에도 1의 값 추가<=>default는 앞으로 추가할 데이터에만 적용)
+> 최종리비전과 현재 리비전이 달라 upgrade가 수행되지 않는다(>flask db heads > flask db current) > flask db stamp heads
+> migrate, upgrade 실행
+
+
+```
+
 
 라즈베리파이 
 ---------------
