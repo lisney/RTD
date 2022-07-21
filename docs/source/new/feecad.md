@@ -668,3 +668,64 @@ Manipulator WB
 ![image](https://user-images.githubusercontent.com/30430227/179153578-c5435d45-c797-405d-aa4b-ce9eae7c0d6c.png)
 ![image](https://user-images.githubusercontent.com/30430227/179153658-667d26f0-4ed4-4fb9-ad33-0b17df8ad432.png)
 
+
+
+통 모델링 
+---------
+
+1. Sketch WB 
+
+![image](https://user-images.githubusercontent.com/30430227/180106071-abac09ee-eebd-4451-aee4-713e4513a398.png)
+![image](https://user-images.githubusercontent.com/30430227/180106089-1c0d1548-bb76-43e8-a269-e53f4bf1819f.png)
+
+`Fillet`
+
+![image](https://user-images.githubusercontent.com/30430227/180106155-6cdfc32d-298c-4107-a454-3f8c18bd5902.png)
+![image](https://user-images.githubusercontent.com/30430227/180106052-7716f64d-f3f3-42d8-a34e-b238783d6e53.png)
+
+`Duplicate Sketch`
+
+![image](https://user-images.githubusercontent.com/30430227/180106230-96e2ac26-45cf-45ad-94d5-01f851c36408.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180106494-850a6f8b-547e-4945-b176-494bf9675eb8.png)
+![image](https://user-images.githubusercontent.com/30430227/180106544-9b35994e-7de2-4656-a120-cd8e6d9ca9fc.png)
+
+
+2. Part WB 
+
+`Loft`
+
+![image](https://user-images.githubusercontent.com/30430227/180106885-1075e016-6d00-4640-87d3-56e8e3f87118.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180106958-f77e9aab-64d3-48ed-9884-c6d62d949d86.png)
+![image](https://user-images.githubusercontent.com/30430227/180106937-fbfc52ff-3bbb-4d16-bdb7-f6c1ffc95f87.png)
+
+
+3. Lattice2 WB
+
+`면 선택 후 > Array`
+
+![image](https://user-images.githubusercontent.com/30430227/180107564-d9a9f919-a0ec-4cbe-b38f-7c299679e607.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180107184-c77f72e4-5b1a-40d3-87e2-ef7a5aacf5a3.png)
+
+`Face 대신 Edge 선택 > Concentric`
+
+![image](https://user-images.githubusercontent.com/30430227/180107420-01c42184-1668-41a1-b48d-b68f749ec28e.png)
+![image](https://user-images.githubusercontent.com/30430227/180107818-2b02f322-14b1-41ed-89c1-86683eff9d66.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180107673-4e60433c-7007-40f7-a231-22f14258be4f.png)
+![image](https://user-images.githubusercontent.com/30430227/180107734-b6708c85-b8c0-40f3-bca9-aa459cac3060.png)
+
+
+`Populate with Copy`
+
+![image](https://user-images.githubusercontent.com/30430227/180108964-cce2b1a7-7c70-4aab-9acc-cdf293942c27.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180108909-07106181-6c3b-404c-b161-2d2829607178.png)
+![image](https://user-images.githubusercontent.com/30430227/180108940-b41730dd-9619-4836-a8f4-71a012624288.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180109069-40175b67-6d09-44f3-b7f9-26e6ad452f69.png)
+
+
+
