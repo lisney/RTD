@@ -1101,6 +1101,16 @@ def modify(question_id):
         form=QuestionForm(obj=question)
     return render_template('question/question_form.html', form=form)
 
+@bp.route('/delete/<int:question_id>')
+@login_required
+def delete(question_id):
+    question = Question.query.get_or_404(question_id)
+    if g.user !=question.user:
+        flash('삭제권한나이')
+        return redirect(url_for('question.detail', question_id=question_id))
+    db.session.delete(question)
+    db.session.commit()
+    return redirect(url_for('question._list'))
 
 \question_detail.html 에 flash 기능, 수정 버튼 추가
 <!-- flash오류 -->
@@ -1110,9 +1120,39 @@ def modify(question_id):
     <a href="{{url_for('question.modify', question_id=question.id)}}">
         <input type="button" value="수정">
     </a>
+    
 
+# 삭제버튼 추가 - 정말로? 확인 기능을 추가
+\base.html - 화면이 전부 로딩된 후에 스크립트 실행하기 위해서 </body>태그 바로 위에 넣어준다
+...
+    {% block script %}
+    {% endblock %}
+</body>
+
+
+\question_detail.html
+> javascript:void(0)로 설정하면 해당 링크를 클릭해도 아무런 동작도 하지 않는다
+> data-uri - 자바스크립스에 전달
+> "삭제" 버튼을 클릭하고 "확인"을 선택하면 data-uri 속성에 해당하는 {% url 'pybo:question_delete' question.id %} URL이 호출될 것이다.
+    <a href="javascript:void(0" class="delete" data-uri="{{ url_for('question.delete',question_id=question.id) }}">
+        <input type="button" value="삭제">
+    </a>
+...
+{% block script %}
+<script>
+    const delete_elements = document.querySelectorAll('.delete')
+    Array.from(delete_elements).forEach(function (element) {
+        element.addEventListener('click', function () {
+            if (confirm('정말로 삭제하시겠습니?')) {
+                location.href = this.dataset.uri;
+            }
+        })
+    })
+</script>
+{% endblock %}
 
 ```
+
 
 
 
