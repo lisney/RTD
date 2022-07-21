@@ -997,12 +997,125 @@ class Question(db.Model):
 
 에러! user_id의 nullable=False인데 이미 저장되어있는 question 데이터에는 user_id가 없어서 발생
 > nullable =True > server_default='1'(기본 user_id를 1로, 이전 데이터도 1의 값을 추가한다
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id',ondelete='CASCADE'), nullable=True, server_default='1')
 > flask db upgrade 명령을 수행할 때 server_default는 이전 데이에도 1의 값 추가<=>default는 앞으로 추가할 데이터에만 적용)
 > 최종리비전과 현재 리비전이 달라 upgrade가 수행되지 않는다(>flask db heads > flask db current) > flask db stamp heads
 > migrate, upgrade 실행
+> nullable=False 로 바꾸고 server_default는 제거한다 >migrate, upgrade 실행
+
+
+# Answer 모델도 같은 작업
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id',ondelete='CASCADE'), nullable=True, server_default='1')
+    user = db.relationship('User', backref=db.backref('answer_set'))
+> migrate, upgrade 실행 > nullable=False로 바꾸고 server_default 제거 후 migrate, upgrade 실행
+
+
+# question_vies.py 수정
+from flask import Blueprint, render_template, request, url_for, g # g 추가
+...
+question = Question(subject=form.subject.data, content=form.content.data, create_date=datetime.now(),user=g.user) # user=g.user 추가
+
+
+# 로그아웃 시 '질문등록' 누르면 로그인페이지로 가기 - 코드 중복을 피하기위해 데코레이션 생성
+> @functools- 기존함수를 감싸서 실행, g.user가 없으면 로그인 페이지로, next는 로그인 후 원래페이지로 되돌아가기 위한 파라미터
+\auth_views.py
+import functools
+...
+def login_required(view):
+    @functools.wraps(view)
+    def wrapped_view(*args,**kwargs):
+        if g.user is None:
+            _next=request.url if request.method == 'GET' else ''
+            return redirect(url_for('auth.login', next=_next))
+        return view(*args, **kwargs)
+    return wrapped_view
+
+# \auth_views.py > login 함수 수정
+        if error is None:
+            session.clear()
+            session['user_id']=user.id
+            _next = request.args.get('next','')
+            if _next:
+                return redirect(_next)
+            else:
+                return redirect(url_for('main.index'))
+        flash(error)
+        
+# \question_views.py 수정
+from pybo.views.auth_views import login_required 추가
+
+@bp.route('/create', methods=('GET','POST'))
+@login_required # 이부분에 추가
+def create():
+    form=QuestionForm()
+
+
+# 로그아웃 상태에는 답변등록 불가하게 \question_detail.html 수정
+<textarea {% if not g.user %}disabled{%endif%} name="content" id="content" rows="10"></textarea>
+
+```
+
+
+글쓴이 표시하기 
+------------------
+
+![image](https://user-images.githubusercontent.com/30430227/180122138-566dbb2c-6fc3-494d-9aea-d8d08d538ee9.png)
+
+```
+\question_list.html
+            <th>제목</th>
+            <th>글쓴이</th>
+            <th>작성일시</th>
+...            
+            <td>{{question.user.username}}</td>
+```
+
+
+게시물 수정/삭제
+----------------
+
+```
+\models.py > Question 클래스에 추가
+    modify_date = db.Column(db.DateTime(), nullable=True)
+    
+# migrate, upgrade 실행
+\question_views.py
+from flask import Blueprint, render_template, request, url_for, g, flash # flash 추가
+...
+@bp.route('/modify/<int:question_id>', methods=('GET','POST'))
+@login_required
+def modify(question_id):
+    question = Question.query.get_or_404(question_id)
+    if g.user != question.user:
+        flash('수정권한이 없습니다')
+        return redirect(url_for('question.detail', question_id=question_id))
+    if request.method == 'POST':
+        form = QuestionForm()
+        if form.validate_on_submit():
+            form.populate_obj(question)
+            # .populate_obj(question)는 form 변수에 들어 있는 데이터(화면에서 입력한 데이터)를 question 객체에 업데이트 하는 역할
+            question.modify_date = datetime.now()
+            db.session.commit()
+            return redirect(url_for('question.detail', question_id=question_id))
+    else:
+        form=QuestionForm(obj=question)
+    return render_template('question/question_form.html', form=form)
+
+
+\question_detail.html 에 flash 기능, 수정 버튼 추가
+<!-- flash오류 -->
+{% for message in get_flashed_messages() %}
+<s>{{message}}</s>
+...
+    <a href="{{url_for('question.modify', question_id=question.id)}}">
+        <input type="button" value="수정">
+    </a>
 
 
 ```
+
+
+
 
 
 라즈베리파이 
