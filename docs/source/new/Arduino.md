@@ -106,6 +106,13 @@ sudo pat-get install tightvncserver
 ![image](https://user-images.githubusercontent.com/30430227/178209304-963a5469-2015-44d7-9985-31e9462e4404.png)
 
 
+5. fileZilla 로 접속
+
+```
+라즈베리파이 기본 포트 : 22
+
+```
+
 라즈베리파이 모니터 
 ------------------
 
