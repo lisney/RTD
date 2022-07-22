@@ -100,7 +100,7 @@ def index():
 To Do List
 ----------------
 
-![image](https://user-images.githubusercontent.com/30430227/180381554-65b6f099-7741-4d60-a531-313199e7309b.png)
+![image](https://user-images.githubusercontent.com/30430227/180382412-f89fa670-de46-44b2-b172-cf44603258cd.png)
 
 1. DB
 
@@ -111,7 +111,7 @@ $ pip install flask-migrate //flask-sqlalchemy도 같이 설치됨
 
 * 보안
 $ touch .env
-SECRTE_KEY = lisney
+SECRET_KEY = lisney
 
 $ touch config.py
 import os
@@ -121,7 +121,7 @@ load_dotenv()
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 
 class Configuration(object):
-    SECRET_KEY = os.environ.get('SECRTE_KEY')
+    SECRET_KEY = os.environ.get('SECRET_KEY')
     SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL') or \
         'sqlite:///' + os.path.join(BASE_DIR, 'todo.db')
     SQLALCHEMY_TRACK_MODIFICATIONS = False //database 가 변경될 때 알림기능 끔
@@ -373,6 +373,8 @@ Other
 {% endblock %}
 ```
 
+이어서...다
+-------------
 
 
 
@@ -387,3 +389,122 @@ Other
 2. multipart/form-data 파일이나 이미지를 서버로 전송할 경우 이 방식을 사용
 3. text/plain 이 형식은 인코딩을 하지 않은 문자 상태로 전송
 
+```
+
+![image](https://user-images.githubusercontent.com/30430227/180392037-b90ad6b5-a881-41a2-862b-5cddec57d499.png)
+
+1. \core\ 폴더 아래 static, static\uploads 폴더 생성
+
+
+2. configy.py 파일
+
+```
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+
+
+class Config(object):
+    SECRET_KEY = os.environ.get('SECRET_KEY')
+    UPLOAD_FOLDER = os.path.join(BASE_DIR, 'core/static/uploads')
+    ALLOWED_EXTENSIONS = {'jpg'}
+    MAX_CONTENT_LENGTH = 16 * 1024 * 1024
+
+```
+
+3. \core\__init__.py
+
+```
+from flask import Flask
+from config import Config
+
+app = Flask(__name__)
+app.config.from_object(Config)
+
+from core import views
+```
+
+4. \core\views.py
+
+```
+from flask import render_template, flash, request, redirect
+from core import app
+from werkzeug.utils import secure_filename
+from config import Config
+import os
+
+@app.route('/', methods=['POST', 'GET'])
+def index():
+    greeting = 'Hello there, Ace'
+
+    if request.method =='POST':
+        file = request.files['file']
+        if file.filename =='':
+            flash('No file was selected')
+            return redirect(request.url)
+        elif file and allowed_file(file.filename):
+            filename = secure_filename(file.filename)
+            file.save(os.path.join(Config.UPLOAD_FOLDER, filename))
+            flash('Image has been successfully uploaded')
+            return redirect('/')
+        else:
+            flash('Allowed media type are - jpg')
+            return redirect(request.url)
+    else:
+        return render_template('index.html', greet=greeting)
+
+
+def allowed_file(filename):
+    return '.' in filename and  \
+        filename.rsplit('.', 1)[1].lower() in Config.ALLOWED_EXTENSIONS
+
+```
+
+5. Template \core\templates\index.html
+
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jinja2</title>
+</head>
+
+<body>
+    <h1>{{greet}}</h1>
+
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <ul class="flashes">
+        {% for message in messages %}
+        <li>{{ message }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    {% endwith %}
+
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+    </form>
+</body>
+
+</html>
+```
+
+
+OSError: [Errno 98] Address already in use
+----------------------------------------------
+
+```
+* 비정상적으로 서버가 종료되어 flask run 이 실행되지 않는 문제
+
+$  sudo lsof -i:5000
+flask   12458 brush    3u  IPv4  68014      0t0  TCP localhost:5000 (LISTEN)
+$ sudo kill -9 12458 12458
+```
