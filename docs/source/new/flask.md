@@ -1218,8 +1218,27 @@ def vote(question_id):
 ```
 
 
+앵커 - 일단 원리만
+-------------
+
+```
+# 해당 위치에 앵커 태그를 놓는다
+<a id="answer_{{ answer.id }}"></a>
+
+# return 
+return redirect(url_for('question.detail', question_id=question_id)) 를 해당 앵커의 위치로 가도록 코드 수정
+
+return redirect('{}#answer_{}'.format(
+    url_for('question.detail', question_id=question_id), answer.id))
+```
+
+
+
+
 검색 기능 
 ----------
+
+![image](https://user-images.githubusercontent.com/30430227/180179299-8bc5005e-39ce-455e-bbd9-efdd54c51c5c.png)
 
 ```
 * Join - 한줄로
@@ -1265,9 +1284,6 @@ def _list():
     return render_template('question/question_list.html',question_list=question_list, page=page, kw=kw)
 
 ```
-
-
-![image](https://user-images.githubusercontent.com/30430227/180179299-8bc5005e-39ce-455e-bbd9-efdd54c51c5c.png)
 
 ```
 \question_list.html 검색창 추가
