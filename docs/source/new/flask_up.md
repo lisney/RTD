@@ -52,8 +52,56 @@ $ flask run
 ```
 $ pip install python-dotenv
 
+$ touch .flaskenv //생성 후 환경변수 입력
+FLASK_APP=base.py
+FLASK_ENV=development
 
 ```
+
+
+4. Template - 플라스크는 jinja2 신사 템플릿을 기본으로 사용한다
+
+![image](https://user-images.githubusercontent.com/30430227/180363701-9bc0971f-5be9-4f56-ad2f-c190d6a35a93.png)
+
+```
+$ cd core
+$ mkdir templates
+$ touch index.html
+
+\views.py 수정
+from flask import render_template
+from core import app
+
+@app.route('/')
+def index():
+    greeting = 'Hello there, Ace'
+    return render_template('index.html', greet=greeting)
+
+
+\templates\index.html 작성
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jinja2</title>
+</head>
+
+<body>
+    <h1>{{greet}}</h1>
+</body>
+
+</html>
+```
+
+
+To Do List
+----------------
+
+
+
 
 파일업로드 
 -------------
