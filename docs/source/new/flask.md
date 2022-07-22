@@ -1218,6 +1218,79 @@ def vote(question_id):
 ```
 
 
+검색 기능 
+----------
+
+```
+* Join - 한줄로
+> 홍길동인 user가 작성한 질문들만 찾기
+user = User.query.get(User.username=='홍길동')
+Question.query.filter(Question.user_id==user.id)
+=> Question.query.join(User).filter(User.username=='홍길동')
+
+* 아우터조인 
+$ flask shell
+> from pybo.models import Question, Answer >Question.query.count() >Answer.query.count()
+>Question.query.join(Answer).count() # join은 교집합의 갯수를 출력한다
+>Question.query.outerjoin(Answer).count() # outerjoin은 합집합
+> distinct 붙이면 outjoin에서 Qeustion 갯수만 나옴
+
+* 서브쿼리 - 모델 자체를 사용하기보다는 필요한 데이터만 모아서 조회하는 데 사용(join하여)
+
+
+\question_views.py _list 함수에 검색 기능 추가
+from ..models import Question, Answer, User
+...
+@bp.route('/list/')
+def _list():
+    page = request.args.get('page',type=int, default=1)
+    # '.../?page=5' 방식으로 요청한 URL에서 page값을 가져온다, default=1(page 요청 URL이 없으면 기본값인 1 즉 /?page=1을 보여준다)
+    question_list = Question.query.order_by(Question.create_date.desc())
+    # paginate 함수, page(페이지 번호), per_page(페이지게시물 건 수)
+    kw = request.args.get('kw', type=str, default='')
+    if kw:
+        search = '%%{}%%'.format(kw)
+        sub_query = db.session.query(Answer.question_id, Answer.content, User.username)\
+            .join(User, Answer.user_id == User.id).subquery()
+        question_list = question_list \
+            .join(User) \
+            .outerjoin(sub_query, sub_query.c.question_id == Question.id) \
+            .filter(Question.subject.ilike(search) |   # 질문제목, ilike -대소문자 구분안함
+                Question.content.ilike(search) |       # 질문 내용
+                User.username.ilike(search) |          # 질문 작성자
+                sub_query.c.content.ilike(search) |    # 답변 내용
+                sub_query.c.username.ilike(search)     # 답변 작성자
+             ).distinct()
+    question_list = question_list.paginate(page, per_page=10) # 이 라인 위치 중요. paginate 는 outerjoin 후에 처리한다
+    return render_template('question/question_list.html',question_list=question_list, page=page, kw=kw)
+
+```
+
+
+![image](https://user-images.githubusercontent.com/30430227/180179299-8bc5005e-39ce-455e-bbd9-efdd54c51c5c.png)
+
+```
+\question_list.html 검색창 추가
+<div>
+    <input type="text" id="search_kw" value="{{ kw or '' }}">
+    <button id="btn_search">찾기</button>
+</div>
+
+* 검색과 페이징이 동시 처리되려면 위에서 모든 페이지 링크를 href 속성에 직접 입력하는 대신
+  form을 통해 페이징이 요청 data-page 속성으로 값을 읽을 수 있도록 변경(?page=1 방식)
+
+... 수정내용
+    <li><a href="javascript:void(0)" data-page="{{ question_list.prev_num }}" class="page_link">이전</a></li>
+    <li><a href="javascript:void(0)" data-page="{{page_num}}" class="page_link">{{page_num}}</a></li>
+    <li><a href="javascript:void(0)" data-page="{{question_list.next_num}}" class="page_link">다음</a></li>
+    
+<form action="{{ url_for('question._list')}}" method="get" id="searchForm">
+    <input type="hidden" id="kw" name="kw" value="{{ kw or '' }}">
+    <input type="hidden" id="page" name="page" value="{{ page }}">
+</form>
+{% endblock %}
+
+```
 
 
 라즈베리파이 
