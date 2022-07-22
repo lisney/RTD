@@ -58,3 +58,99 @@ if __name__ == '__main__':
 ```
 
 `실행 $ python flaskr.py`
+
+
+데이터베이스 생성 
+------------------
+
+```
+* flaskr.py 추가
+from __future__ import with_statement
+from contextlib import closing
+
+# 모든 임포트 위에..
+...
+# db 초기화 함수 - with ~ as 파일 열고 닫을 때 자동으로 close 해준다
+def init_db():
+    with closing(connect_db()) as db:
+        with app.open_resource('schema.sql') as f:
+            db.cursor().executescript(f.read())
+        db.commit()
+
+
+* 실행 
+$ python
+> from flaskr import init_db
+> init_db()
+
+* error -  script argument must be unicode. 발생한다면
+(f.read().decode('utf-8')) 로 수정 후 실행
+
+```
+
+
+데이터베이스 커넥션 요청
+----------------------
+
+```
+* flaskr.py 추가 init_db() 다음에
+> before_request() 함수는 리퀘스트가 실행되기 전에 호출되는 함수
+> 예외상황은 teardown_request() 으로 전달된다.
+> 데이터베이스 커넥션을 특별하게 저장하는 Flask 'g' 객체
+@app.before_request
+def before_request():
+    g.db = connect_db
+
+@app.teardown_request
+def teardown_request(exception):
+    g.db.close()
+    
+```
+
+
+
+뷰 함수들 
+---------
+
+```
+# 뷰 함수들
+@app.route('/')
+def show_entries():
+    cur = g.db.execute('select title, text from entries order by id desc')
+    entries = [dict(title=row[0], text=row[1]) for row in cur.fetchall()]
+    return render_template('show_entires.html', entries=entries)
+
+@app.route('/add', methods=['POST'])
+def add_entry():
+    if not session.get('logged_in'):
+        abort(401)
+    g.db.execute('insert into entries (title, text) values (?,?)',[request.form['title'], request.form['text']])
+    g.db.commit()
+    flash('New entry was successfully posted')
+    return redirect(url_for('show_entries'))
+
+@app.route('/login', methods=['GET','POST'])
+def login():
+    error = None
+    if request.method =='POST':
+        if request.form['username'] != app.config['USERNAME']:
+            error = 'Invalid username'
+        elif request.form['password'] != app.config['PASSWORD']:
+            error = 'Invalid password'
+        else:
+            session['logged_id'] = True
+            flash('You were logged in')
+            return redirect(url_for('show_entries'))
+    return render_template('login.html', error=error)
+
+# dict객체의 pop() 함수에 두번째 파라미터(기본값)를 전달하여 사용하면 이 함수는 dict객체에서 해당 키를 삭제할 것이다. 
+@app.route('/logout')
+def logout():
+    session.pop('logged_in', None)
+    flash('You were logged out')
+    return redirect(url_for('show_entires'))
+    
+```
+
+
+
