@@ -754,3 +754,90 @@ Draft WB
 
 
 
+결합 용기 
+----------
+
+1. PartDesign WB
+
+![image](https://user-images.githubusercontent.com/30430227/180631088-dce5cb35-7c48-4ebd-a869-6d5d59d40182.png)
+![image](https://user-images.githubusercontent.com/30430227/180631104-b4264b83-5406-4df9-ae26-a93498ff390b.png)
+
+2. New Body
+
+![image](https://user-images.githubusercontent.com/30430227/180631188-0bd2aafd-6981-40d9-b1ed-a899951bc730.png)
+
+`Sketch 에서 선을 선택 후 Shape Binder생성`
+
+![image](https://user-images.githubusercontent.com/30430227/180631160-f86c8158-dcf1-4d25-bbb1-a3abe245120a.png)
+![image](https://user-images.githubusercontent.com/30430227/180631179-107b1538-2e2a-4ddb-9868-d170ba6a2a52.png)
+![image](https://user-images.githubusercontent.com/30430227/180631182-1bf2342b-a5a5-4bc4-abe0-8d2939356b0d.png)
+
+`new Sketch`
+
+![image](https://user-images.githubusercontent.com/30430227/180631237-2d5c6b36-2bd0-46e1-ad05-4b3f362d9458.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180631246-3a609f23-3aed-4092-baab-2a565e398085.png)
+
+
+3. New Document
+
+![image](https://user-images.githubusercontent.com/30430227/180631359-16fe3621-9f8b-4784-a642-21bf58bd4b59.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180631366-94f47dda-a9e3-4446-8ecf-7120aa17256c.png)
+
+`Sketch > Pipe`
+
+![image](https://user-images.githubusercontent.com/30430227/180631390-ba580f91-a817-4550-975b-9b79013ba622.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180631399-d673e252-2d50-4b9e-8367-f72acd3f4ed7.png)
+![image](https://user-images.githubusercontent.com/30430227/180631420-ad99f8b4-8f25-4b69-a9e4-a6d3584eb6ba.png)
+
+
+`New Body > Shape Binder > 기존 바디의 sketch를 hide해야 프로젝션External Geometry가 선택된다`
+
+![image](https://user-images.githubusercontent.com/30430227/180631454-55b81bb3-f2c9-418d-b522-84dd5406aa7c.png)
+![image](https://user-images.githubusercontent.com/30430227/180631458-f90eb0de-f5cc-4b41-ba21-dd8f8e2f5a74.png)
+
+
+`Sketch > Shape Binder > Pipe`
+
+![image](https://user-images.githubusercontent.com/30430227/180631556-03467735-ebd3-47fd-a8b2-b329dcb12892.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180631562-c3208407-9955-4935-8ea6-487f3f50afe1.png)
+![image](https://user-images.githubusercontent.com/30430227/180631568-8f095190-dc78-42e9-bce8-2e116bb6966a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180631631-8f48ca77-8821-4b22-9158-1d89fe7d4074.png)
+
+
+`Draft WB > Clone - 파트디자인 WB Clone이 아니라`
+
+![image](https://user-images.githubusercontent.com/30430227/180631670-3630dd4f-a88c-4efb-908d-f32084d2ae79.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180631682-5c112fa2-3757-41b0-9b21-21a559df3db0.png)
+
+`윗 바디에 드랙`
+
+![image](https://user-images.githubusercontent.com/30430227/180631725-87a8eb8a-90e7-481f-93df-ebbc20b4515c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180631742-f8424943-f35e-4824-9985-23c0ad738f96.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180631765-c6b26a24-79a2-47da-b5df-9813dc2c899a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180631766-78897b10-d0ca-4023-b978-bba223e38b47.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180631797-40a0062b-74b0-4e04-a8e9-ed5a43548dee.png)
+
+
+`pad`
+
+![image](https://user-images.githubusercontent.com/30430227/180631876-36ea7bb8-2000-4a60-b994-b07f3f435b37.png)
+
+
+`바디를 이동하면 늘어난다 > 각각의 Body를 Clone한 후 이동하면 된다`
+
+![image](https://user-images.githubusercontent.com/30430227/180631904-df5896d8-7ea4-4757-af0a-1cc3a8ec8045.png)
+![image](https://user-images.githubusercontent.com/30430227/180631908-0eeb9b34-5a10-47af-870e-d0fd7cfd0cd7.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180631909-a447df07-63c0-4cae-a0df-f032969d4f48.png)
+
+
