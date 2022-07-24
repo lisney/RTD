@@ -509,4 +509,28 @@ OSError: [Errno 98] Address already in use
 $  sudo lsof -i:5000
 flask   12458 brush    3u  IPv4  68014      0t0  TCP localhost:5000 (LISTEN)
 $ sudo kill -9 12458 12458
+
+
+* 모든 파일/폴더 지우기
+$ rm *
+$ rm -r *
+
+
+스키마는 데이터베이스의 구조와 제약 조건을 기술한 메타데이터의 집합이다
+> entries 테이블이 있으면 drop 없으면 생성, 이 테이블의 각 row에는 id, title, text 컬럼으로 구성된다.
+id 는 정수로 자동으로 증가되는 프라이머리 키(primary key) 이다. 나머지 두개의 컬럼은 null이 아닌 문자열(strings) 값을 가진다.
+* flaskr\schema.sql
+drop table if exists entries;
+create table entries{
+    id integer primary key autoincrement,
+    title string not null,
+    text string not null
+}
+
+
+* error -  script argument must be unicode. 발생한다면
+(f.read().decode('utf-8')) 로 수정 후 실행
+
 ```
+
+
