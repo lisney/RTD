@@ -159,7 +159,7 @@ class TaskForm(FlaskForm):
     # coerce 강제, int() 함수를 강제로 적용하다?
     date = DateField('날짜', format='%Y-%m-%d', validators=[DataRequired()])
     time = TimeField('시간', format='%H:%M', validators=[DataRequired()])
-    submit = SubmitField('Add task')
+    submit = SubmitField('작업추가')
  
 * \core\task\views.py
 from flask import render_template, redirect, url_for, request
@@ -180,7 +180,7 @@ def tasks():
     form = TaskForm()
     form.category.choices = [(category.id, category.name) for category in Category.query.all()]
 
-    return render_template('task/tasks.html', title='Create Tasks', form=form, todo=todo, DateNow=now, check=check)
+    return render_template('task/tasks.html',todo=todo, title='Create Tasks', form=form, DateNow=now, check=check) ## todo를 맨앞에 두기
     
     
 * 블루프린트 등록 \core\__init__.py 에 추가
@@ -246,31 +246,7 @@ Other
 ```
 
 
-5. 카테고리 db 등록
-
-```
-$ python
-> from core.task.models import Category
-> from core import db
-> c1 = Category(name='Business')
-> c2 = Category(name='Personal')
-> c3 = Category(name='Other')
-> db.session.add(c1)
-> db.session.add(c2)
-> db.session.add(c3)
-> db.session.commit()
-> c = Category.query.all()
-> for c in c:
-.     print(c.name)
-.
-Business
-Personal
-Other
-
-```
-
-
-6. tasks.html 생성 \core\templates\task\tasks.html
+5. tasks.html 생성 \core\templates\task\tasks.html
 
 ```
 * novalidate 폼 제출 시 유효성 검사 하지 않음
@@ -369,8 +345,59 @@ Other
 {% endblock %}
 ```
 
-이어서...다
--------------
+
+6. POST 처리
+
+![image](https://user-images.githubusercontent.com/30430227/180715393-d20da1c4-8185-4576-aa27-6dc660442053.png)
+
+```
+* \task\views.py 수정
+from flask import render_template, url_for, request
+from werkzeug.utils import redirect
+from .models import Category
+from ..models import Todo
+from . import task
+from .forms import TaskForm
+from .. import db
+from datetime import datetime
+
+@task.route('/create-task', methods=['GET','POST'])
+def tasks():
+    check=None
+    todo=Todo.query.all()
+    date=datetime.now()
+    now=date.strftime('%Y-%m-%d')
+
+    form = TaskForm()
+    form.category.choices = [(category.id, category.name) for category in Category.query.all()]
+
+    if request.method =='POST':
+        if request.form.get('taskDelete') is not None:
+            deleteTask = request.form.get('checkedbox')
+            if deleteTask is not None:
+                todo = Todo.query.filter_by(id=int(deleteTask)).one()
+                db.session.delete(todo)
+                db.session.commit()
+                return redirect(url_for('task.tasks'))
+            else:
+                check = '삭제할 작업의 체크박스를 선택하세'
+
+        elif form.validate_on_submit():
+            selected = form.category.data
+            category=Category.query.get(selected)
+            todo = Todo(title=form.title.data, date=form.date.data, time=form.time.data, category=category.name)
+            db.session.add(todo)
+            db.session.commit()
+            return redirect(url_for('task.tasks'))
+
+    return render_template('task/tasks.html', todo=todo, title='업무 생성', form=form, DateNow=now, check=check)
+
+```
+
+
+Authentication
+---------------------
+
 
 
 
