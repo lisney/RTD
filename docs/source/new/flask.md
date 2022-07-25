@@ -1,6 +1,8 @@
 Flask
 ======
 
+`파이썬을 기반으로 작성된 마이크로 웹 프레임워크(framework) 중 하나로, Werkzeug 툴킷과 Jinja2 템플릿 엔진에 기반을 둔다`
+
 `라즈베리파이OS에 이미 설치되어 있음`
 
 ```
@@ -18,19 +20,33 @@ Flask
 
 ```
 # 라즈베리파이 가상환경
-> sudo apt install virtualenv(설치)
-> virtualenv myproject(생성)
-> source myproject/bin/activate(실행,source 쉘스크립트를 실행)
-> deactivate(나오기)
+$ python -m venv env
+$ source env/bin/activate  // 실행
+
+$ pip install flask //deactivate(나오기)
+$ mkdir core  // rmdir 디렉토리 삭제 => rm -r(비어있지않아도 모두 삭제)
+$ cd core
+
+$ pip install flask
+
+* 빈파일 만들기
+$ touch __init__.py  $ touch views.py
+
+* 환경파일 만들기 .flaskenv //$ export FLASK_APP=base.py 실행할 필요없이
+$ pip install python-dotenv
+$ touch .flaskenv
+FLASK_APP=brush
+FLASK_ENV=development
+
+...
 
 # 라즈베리파이 배치파일 -쉘 스크립트 .sh
 > sudo chmod +x myproject.sh(sh을 실행되도록 만듬)
 > ./myproject.sh('./' - 앞에 붙이면 실행명령=sh, bash)
 
-
 ```
 
-파이썬 가상환경
+파이썬 가상환경 및 플라스크 설치
 -----------------------
 
 ```
@@ -66,6 +82,7 @@ def hello_pybo():
 flask run
 >> 플라스크는 기본 앱 명을 app.py로 한다. 기본 앱 명 수정
 >> set FLASK_APP=pybo 실행 후 다시 실행한다(리눅스 $ export FLASK_APP=pybo)
+
 
 # 개발환경으로 실행하기 - 디버그 모드 활성
 >> set FLASK_ENV=development 후 실행
@@ -132,8 +149,9 @@ BASE_DIR = os.path.dirname(__file__)
 
 SQLALCHEMY_DATABASE_URI = 'sqlite:///{}'.format(os.path.join(BASE_DIR,'pybo.db'))
 # DB 접속 주소 'URI' 다, 홈디렉토리에 pybo.db파일로 저장
+# SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(BASE_DIR, 'todo.db')
 SQLALCHEMY_TRACK_MODIFICATIONS = False
-# sqlalchemy 의 이벤트를 처리하는 옵션, 현재 사용하지 않으므로 False
+# sqlalchemy 의 이벤트를 처리하는 옵션, DB변경 알림 옵션, 현재 사용하지 않으므로 False
 
 # __init__.py 파일 수정
 from flask import Flask
