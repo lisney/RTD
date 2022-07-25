@@ -398,6 +398,94 @@ def tasks():
 Authentication
 ---------------------
 
+```
+$ pip install flask-login
+
+* Model 
+from flask_login import UserMixin //flask-login에서 제공하는 사용자 클래스 객체
+class User(UserMixin):            // UserMixin에서 상속
+    def __init__(self, user_id):  // 사용할 정보, 여기서는 user_id만 세션에 사용한다
+        self.user_id = user_id
+        
+        
+* __init__
+from flask_login import LoginManager  //로그인 관련 기능을 담고 있는 로그인 객체
+login = LoginManager(app)     // login = LoginManager() 후 login.init_app(app) 를 한번에 수행
+// user_loader - 사용자 정보를 조회, unauthorized_handler - 로그인된 사용자가 아닐 경우 처리 관리자
+예)
+@login.user_loader
+def load_user(id):
+
+
+* 사용자 정보 세션 저장 및 삭제
+from flask_login import login_user, logout_user
+
+@app.route('/login/get_info', methods=['GET', 'POST'])
+def login_get_info():
+    user_id = request.form.get('userID')
+    user_pw = request.form.get('userPW')
+
+    if user_id is None or user_pw is None:
+        return redirect('/relogin')
+
+    # 사용자가 입력한 정보가 회원가입된 사용자인지 확인
+    user_info = User.get_user_info(user_id, user_pw)
+
+    if user_info['result'] != 'fail' and user_info['count'] != 0:
+        # 사용자 객체 생성
+        login_info = User(user_id=user_info['data'][0]['USER_ID'])
+        # 사용자 객체를 session에 저장
+        login_user(login_info)
+        return redirect('/main')
+    else:
+        return redirect('/relogin')
+        
+ # 로그인 실패 시 재로그인
+@app.route('/relogin')
+def relogin():
+    login_result_text = "로그인에 실패했습니다. 다시 시도해주세요."
+    
+    return render_template('common/template_login.html', login_result_text=login_result_text)
+
+
+# 로그아웃
+@app.route('/logout')
+def logout():
+    # session 정보를 삭제한다.
+    logout_user()
+    return redirect('/')
+    
+    
+ * 로그인한 사용자인지 확인
+ from flask_login import login_required 
+ 
+@app.route("/main")
+@login_required  // login_required 데코레이터만 추가하면 로그인한 사용자인지 쉽게 판단
+def main():
+    menu_list = Menu().get_menu_list()
+    if menu_list['result'] == 'fail':
+        menu_list = None
+    else:
+        menu_list = menu_list['data']
+    
+    return render_template("common/layout/layout_basic.html", 
+            menu_list=menu_list)
+
+
+
+* is_authenticated - 로그인한 사용자인지 확인
+login_required는 해당 경로의 코드를 실행하기 전 로그인된 사용자인지 판단하여 로그인된 사용자만 기능을 실행할 수 있도록 한다.
+is_authenticated는 직접 로그인된 사용자인지 판단
+
+@app.route('/')
+def root():
+    if current_user.is_authenticated:
+        return redirect('/main')  // 로그인된 사용자는 메인화면으로
+    else:
+        return redirect('/login') // 로그인하지 않는 사용자는 로그인화면으로 이동
+
+
+```
 
 
 파일업로드 
