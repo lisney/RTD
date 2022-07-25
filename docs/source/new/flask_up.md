@@ -1,67 +1,21 @@
 FlaskUP
 ========
 
-`파이썬을 기반으로 작성된 마이크로 웹 프레임워크(framework) 중 하나로, Werkzeug 툴킷과 Jinja2 템플릿 엔진에 기반을 둔다`
-
-시작 
------
-
-1. 가상환경
+1. .flaskenv, 폴더 생성
 
 ```
-$ python -m venv env
-$ source env/bin/activate
-
-$ pip install flask
+* .flaskenv
+$ touch .flaskenv
+FLASK_APP=base
+FLASK_ENV=development
 
 $ mkdir core
 $ cd core
-
-* 빈파일 만들기
-$ touch __init__.py  $ touch views.py
-
-```
-
-2. __init__.py
-
-```
-* __name__ 생성한 모듈명 즉 'core'
-from flask import Flask
-
-app = Flask(__name__)
-
-from core import views
-
-
-* views.py
-from core import app
-
-@app.route('/')
-def index():
-    return 'Hello Ace'
-    
-
-$ cd ..
-$ touch base.py
-
-$ export FLASK_APP=base.py
-$ flask run
-
-```
-
-3. python-dotenv 생성 - 실행환경 만들기
-
-```
-$ pip install python-dotenv
-
-$ touch .flaskenv // flask run 환경변수가 됨
-FLASK_APP=base.py
-FLASK_ENV=development
-
+$ touch __init__.py 
 ```
 
 
-4. Template - 플라스크는 jinja2 신사 템플릿을 기본으로 사용한다
+2. Template - 플라스크는 jinja2 신사 템플릿을 기본으로 사용한다
 
 ![image](https://user-images.githubusercontent.com/30430227/180363701-9bc0971f-5be9-4f56-ad2f-c190d6a35a93.png)
 
@@ -69,18 +23,6 @@ FLASK_ENV=development
 $ cd core
 $ mkdir templates
 $ touch index.html
-
-\views.py 수정
-from flask import render_template
-from core import app
-
-@app.route('/')
-def index():
-    greeting = 'Hello there, Ace'
-    return render_template('index.html', greet=greeting)
-
-
-\templates\index.html 작성
 <!DOCTYPE html>
 <html lang="en">
 
@@ -96,6 +38,27 @@ def index():
 </body>
 
 </html>
+```
+
+3. \core\__init__.py
+
+```
+* __name__ 생성한 모듈명 즉 'core'
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    greet ='Hello there, Ace'
+    return render_template('index.html', greet=greet)
+
+$ cd ..
+$ touch base.py
+from core import app
+
+$ flask run
+
 ```
 
 
@@ -124,23 +87,27 @@ BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 
 class Configuration(object):
     SECRET_KEY = os.environ.get('SECRET_KEY')
-    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL') or \
-        'sqlite:///' + os.path.join(BASE_DIR, 'todo.db')
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(BASE_DIR, 'todo.db')
     SQLALCHEMY_TRACK_MODIFICATIONS = False //database 가 변경될 때 알림기능 끔
 
 
 * __init__.py 수정
-from flask import Flask
+from flask import Flask, render_template
 from config import Configuration
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 
 app = Flask(__name__)
 app.config.from_object(Configuration)
-db = SQLAlchemy(app)
-migrate = Migrate(app, db)
+db=SQLAlchemy(app) # db.init_app(app) -db 객체를 app에 등록
+migrate = Migrate(app, db) # migrate.init_app(app,db) - migrate에 app과 db 등록
 
-from core import views, models
+from . import models
+
+@app.route('/')
+def index():
+    greet ='Hello there, Ace'
+    return render_template('index.html', greet=greet)
 
 
 * \core\models.py 데이터 모델 생성
@@ -165,7 +132,7 @@ $ pip install flask-wtf //폼 모듈 설치
 * \core\task\__init_.py
 from flask import Blueprint
 
-task = Blueprint('task',__name__,template_folder='templates')
+task = Blueprint('task',__name__,template_folder='templates') # template_folder 없어도 
 
 from . import views
 
@@ -279,7 +246,31 @@ Other
 ```
 
 
-5. tasks.html 생성 \core\templates\task\tasks.html
+5. 카테고리 db 등록
+
+```
+$ python
+> from core.task.models import Category
+> from core import db
+> c1 = Category(name='Business')
+> c2 = Category(name='Personal')
+> c3 = Category(name='Other')
+> db.session.add(c1)
+> db.session.add(c2)
+> db.session.add(c3)
+> db.session.commit()
+> c = Category.query.all()
+> for c in c:
+.     print(c.name)
+.
+Business
+Personal
+Other
+
+```
+
+
+6. tasks.html 생성 \core\templates\task\tasks.html
 
 ```
 {% extends 'base.html' %}
