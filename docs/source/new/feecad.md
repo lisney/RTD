@@ -863,6 +863,10 @@ Part WB 2D Offset
 ![image](https://user-images.githubusercontent.com/30430227/180705189-781cf0d6-5fb4-43a4-b73b-b0e81ce3272f.png)
 ![image](https://user-images.githubusercontent.com/30430227/180705170-3996d588-a39b-4b80-ba1a-8f08ed3a7819.png)
 
+`Edge 선택 sub-shape binder > 2D offset > shape binder > Pocket`
+
+![image](https://user-images.githubusercontent.com/30430227/180705911-17817866-978a-4040-916a-41df83d73d25.png)
+
 
 
 
