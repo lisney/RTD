@@ -273,6 +273,9 @@ Other
 6. tasks.html 생성 \core\templates\task\tasks.html
 
 ```
+* novalidate 폼 제출 시 유효성 검사 하지 않음
+* {{ form.hidden_tag() }} - cross site request forgery(csrf) 공격을 막는 csrf token을 가져온다
+
 {% extends 'base.html' %}
 
 {% block content %}
