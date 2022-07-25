@@ -841,3 +841,29 @@ Draft WB
 ![image](https://user-images.githubusercontent.com/30430227/180631909-a447df07-63c0-4cae-a0df-f032969d4f48.png)
 
 
+
+Part WB 2D Offset
+--------------------
+
+`PartDesign WB`
+
+![image](https://user-images.githubusercontent.com/30430227/180704752-c9682d63-a9f3-4c77-8d4a-ccf3fe61301d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180704721-71395592-3418-4264-9647-93fbf0bf16fb.png)
+![image](https://user-images.githubusercontent.com/30430227/180704777-710cee3a-7372-4671-b399-ec15f0acc881.png)
+
+`Part WB > 2D offset`
+
+![image](https://user-images.githubusercontent.com/30430227/180704910-85cbc8fe-618a-4028-905b-8f9c31c13834.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180704921-3a1f563a-ad71-4fe7-a0ec-2f0092080fe7.png)
+
+`PartDesign WB > Offset2D 선택 후 shape binder > Pad `
+
+![image](https://user-images.githubusercontent.com/30430227/180705189-781cf0d6-5fb4-43a4-b73b-b0e81ce3272f.png)
+![image](https://user-images.githubusercontent.com/30430227/180705170-3996d588-a39b-4b80-ba1a-8f08ed3a7819.png)
+
+
+
+
+
