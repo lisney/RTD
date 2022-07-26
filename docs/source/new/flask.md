@@ -6,6 +6,376 @@ Flask
 `라즈베리파이OS에 이미 설치되어 있음`
 
 ```
+* 비정상적으로 서버가 종료되어 flask run 이 실행되지 않는 문제
+
+$  sudo lsof -i:5000
+flask   12458 brush    3u  IPv4  68014      0t0  TCP localhost:5000 (LISTEN)
+$ sudo kill -9 12458 12458
+
+```
+
+https://code.visualstudio.com/docs/python/tutorial-flask
+
+https://velog.io/@abcd8637/series/%EC%8A%A4%ED%8C%8C%EB%A5%B4%ED%83%80%EC%BD%94%EB%94%A9%ED%81%B4%EB%9F%BD
+
+
+
+VSCode
+-------
+
+```
+1. install Python Extension
+2. sudo apt install python3-pip
+
+* 가상환경
+sudo apt-get install python3-venv    # If needed
+python3 -m venv .venv
+source .venv/bin/activate
+
+```
+
+![image](https://user-images.githubusercontent.com/30430227/180898549-dd7e9be7-1b57-4d0b-acef-7d78143f673b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180898594-07a70207-f83c-409e-8580-2842696ce157.png)
+
+```
+* 새 터미널 생성 Ctrl-Shift-`
+$ python -m pip install --upgrade pip
+$ pip install flask
+
+* 첫 번째 앱 /app.py
+from flask import Flask
+app = Flask(__name__)
+
+
+@app.route('/')
+def home():
+    return 'Hello, Flask!'
+
+* 실행  $ flask run
+
+```
+
+
+정규표현식 
+--------------
+
+1. 문자열
+
+```
+[abc] - 문자열이 a, b, c 중 하나를 포함한다([abc] = [a-c] - 범위, [12345] = [1-5])
+
+^ - 반대([^a-c] -a,b,c 중 하나를 포함하지 않는다, [^0-9] - 숫자가 아닌 문자만)
+
+* 별명
+[0-9] = \d - 숫자와 매치
+[^0-9] = \D - 숫자가 아닌 것과 매치(대문자는 반대의미)
+[a-zA-Z0-9_] = \w - 문자+숫자(alphanumeric)와 매치
+[^a-zA-Z0-9_] = \W - 문자+숫자(alphanumeric)가 아닌 문자와 매치
+[ \t\n\r\f\v] = \s - whitespace 문자와 매치(빈 칸은 공백문자(space)를 의미)
+[^ \t\n\r\f\v] = \S - whitespace 문자가 아닌 것과 매치
+
+
+* . -  \n을 제외한 모든 문자와 매치(re.DOTALL 옵션을 주면 \n 문자와도 매치)
+a.b - a+모든 문자+b 와 매치(=aab, a0b), a[.]b = a.b만 매치
+
+* * , + 반복
+ab*c = ac, abc, abbbbc
+ab+c = abc, abbbc(+는 최소 1회 이상)
+
+* ? - 있거나 없거나 매치
+ab?c = ac, abc
+
+* {m,n} 회수제한
+ab{2}c = abbc,  ab{2,3}c = abbc, abbbc
+
+** 정규식 사용
+import re
+p = re.compile('[a-z]+') #p 컴파일된 패턴 객체
+m = p.match('drs435') # 문자열의 처음부터 정규식과 매치되는지 조사
+s = p.search('23dfe32d') # 문자열 전체 검색 매칭되는 첫번째 구간 반환
+print(m,s)
+
+=>한방에 re.match('[a-z]+','drs435')
+
+예) 주민등록번호 pat = re.compile("(\d{6})[-]\d{7}")
+    전화번호 p = re.compile(r"\w+\s+\d+[-]\d+[-]\d+")
+
+* 그루핑 (ABC)+ - 'ABC' 문자가 반복되는 지 
+>>> p = re.compile(r"(\w+)\s+\d+[-]\d+[-]\d+") # r = raw 개행문자들 기능 무시
+>>> m = p.search("park 010-1234-1234")
+>>> print(m.group(1))
+park
+* group(0) 매치된 전체 문자열/ group(1) 첫 번째 그룹에 해당되는 문자열/ group(n) n 번째 그룹에 해당되는 문자열
+
+```
+
+
+VSCode 계속
+----------
+
+![image](https://user-images.githubusercontent.com/30430227/180906527-f88e6d9d-0daf-4181-a558-99095984e63e.png)
+
+```
+from flask import Flask
+from datetime import datetime
+import re
+
+app = Flask(__name__)
+
+
+@app.route('/')
+def home():
+    return 'Hello, Flask!'
+
+@app.route('/hello/<name>')
+def hello_there(name):
+    now = datetime.now()
+    formatted_now = now.strftime('%A, %d %B, %Y at %X')
+
+    match_object = re.match('[a-zA-Z]+', name)
+
+    if match_object:
+        clean_name = match_object.group(0)
+    else:
+        clean_name = 'Friend'
+
+    content = "Hello there, "+ clean_name + "! It's" + formatted_now
+    return content
+    
+```
+
+`Break Point <F9>`
+
+![image](https://user-images.githubusercontent.com/30430227/180907131-ce653e54-bde5-4332-9f62-a9f26cef8693.png)
+
+`<F5> > Flask 선택`
+
+
+`템플릿`
+
+![image](https://user-images.githubusercontent.com/30430227/180909738-6f0550e7-7384-41d5-b9f1-c34955678084.png)
+
+
+```
+* \app.py\
+from flask import Flask, render_template
+from datetime import datetime
+import re
+
+app = Flask(__name__)
+
+
+@app.route('/')
+def home():
+    return 'Hello, Flask!'
+
+@app.route('/hello/<name>')
+def hello_there(name):
+
+    return render_template('hello_there.html', name=name,date=datetime.now())
+    
+    
+* \templates\hello_there.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    {% if name %}
+    <strong>Hello there, {{ name }}!</strong> It's {{ date.strftime('%A, %d %B, %Y at %X') }}
+    {% else %}
+    What's your name? Provide it after /hello/ in the URL.
+    {% endif %}
+</body>
+
+</html>
+```
+
+`Static`
+
+![image](https://user-images.githubusercontent.com/30430227/180910580-dab06224-da72-4d00-996c-280364e05f55.png)
+
+```
+\static\style.css
+.message{
+    font-weight: 600;
+    color: blue;
+}
+
+
+\hello_there.html
+    <strong>Hello there, {{ name }}!</strong><span class="message"> It's {{ date.strftime('%A, %d %B, %Y at %X')
+    
+
+\app.py
+from flask import Flask, render_template, url_for
+
+```
+
+
+`JSON 데이터 테스트 \static\data.json`
+
+![image](https://user-images.githubusercontent.com/30430227/180911376-7d39b4f8-b78e-4af4-bd44-d6f5d572c7a2.png)
+
+```
+{
+    "01":{
+        "note":"This data is very simple because we're demonstrating only the mechanism"
+    }
+}
+
+** app.py
+@app.route('/api/data')
+def get_data():
+    return app.send_static_file('data.json')
+
+```
+
+`템플릿 확장`
+
+```
+* \templates\layout.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="{{ url_for('home') }}" class="navbar-brand">Home</a>
+        <a href="{{ url_for('about') }}" class="navbar-brand">About</a>
+        <a href="{{ url_for('contact') }}" class="navbar-brand">Contact</a>
+    </div>
+
+    <div class="body-content">
+        {% block content %}
+        {% endblock %}
+        <hr>
+        <footer>
+            <p>&#169 2018</p>
+        </footer>
+    </div>
+</body>
+
+</html>
+
+
+* style.css
+.navbar {
+    background-color: lightslategray;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding: 8px 5px 8px 5px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-brand {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.navbar-item {
+    font-variant: small-caps;
+    margin-left: 30px;
+}
+
+.body-content {
+    padding: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+```
+
+** 템플릿 확장 코드 스니펫
+
+![image](https://user-images.githubusercontent.com/30430227/180913500-a683d485-fb2a-4aa2-9ff1-6e67819cdcf8.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180913647-d8a32746-9e59-4053-8973-7a522fa660a6.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180914079-c37272ce-a0e9-4bb9-b714-6fb8ad161b7e.png)
+![image](https://user-images.githubusercontent.com/30430227/180914118-f630ba58-737b-4fa1-b042-72a944ffb74d.png)
+
+```
+"Flask Tutorial: template extending layout.html": {
+    "prefix": "flextlayout",
+    "body": [
+        "{% extends \"layout.html\" %}",
+        "{% block title %}",
+        "$0",
+        "{% endblock %}",
+        "{% block content %}",
+        "{% endblock %}"
+    ],
+
+    "description": "Boilerplate template that extends layout.html"
+},
+
+```
+
+
+![image](https://user-images.githubusercontent.com/30430227/180914560-fe9a3c5f-0d56-46a4-bacc-862e37a231db.png)
+
+```
+\templates\home.html
+{% extends "layout.html" %}
+{% block title %}
+Home
+{% endblock %}
+{% block content %}
+<p>Home page for the Visual Studio Code Flask tutorial.</p>
+{% endblock %}
+
+
+\templates\about.html
+{% extends "layout.html" %}
+{% block title %}
+About
+{% endblock %}
+{% block content %}
+<p>About page for the Visual Studio Code Flask tutorial.</p>
+{% endblock %}
+
+
+\templates\contact.html
+{% extends "layout.html" %}
+{% block title %}
+Contact
+{% endblock %}
+{% block content %}
+Contact us<p>Contact page for the Visual Studio Code Flask tutorial.</p>
+{% endblock %}
+
+** app.py 추가
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
+
+```
+
+
+```
 # 파이썬3을 기본으로 설정하기
 
 > 파이썬 버전 확인 > python -V(대문자)
