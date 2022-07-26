@@ -12,7 +12,11 @@ $  sudo lsof -i:5000
 flask   12458 brush    3u  IPv4  68014      0t0  TCP localhost:5000 (LISTEN)
 $ sudo kill -9 12458 12458
 
+* Flask몬^^
+FLASK_ENV = development 로 설정하면 HTML등 변화를 바로 반영한다.
+
 ```
+
 
 
 VSCode
