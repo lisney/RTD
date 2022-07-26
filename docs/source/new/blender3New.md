@@ -370,3 +370,37 @@ Outline
 --------------
 
 ![image](https://user-images.githubusercontent.com/30430227/179001037-d68ba0ed-ac5e-43c3-95de-e9c343897c8f.png)
+
+
+Tri to Quad
+-------------
+
+`Ctrl-X  dissolve`
+
+![image](https://user-images.githubusercontent.com/30430227/180921049-23f9d06f-e37b-414a-97eb-e51f3d17efeb.png)
+![image](https://user-images.githubusercontent.com/30430227/180921071-1836b9d6-5504-497b-ad76-c5ed270b328b.png)
+
+
+![image](https://user-images.githubusercontent.com/30430227/180921200-1f5bdee8-d645-4115-b5ba-088090669be3.png)
+![image](https://user-images.githubusercontent.com/30430227/180921357-17524748-a21b-4f7a-87e7-914694b42f7e.png)
+
+`Edge Select + Select Sharp Edges > Edge Crease Shift-E > 1`
+
+![image](https://user-images.githubusercontent.com/30430227/180921477-a17be0f7-34f8-4ed4-9e62-0ed27b9c29d1.png)
+![image](https://user-images.githubusercontent.com/30430227/180921628-6b184db4-87aa-4a9e-97c8-c70bbc3b23a1.png)
+
+`Subdivide >Apply > Select All >Edge Crease Shift-E > -1`
+
+![image](https://user-images.githubusercontent.com/30430227/180921823-e15c3f34-e70f-4d4d-a78e-26a6cc840774.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180921868-153ba2d1-b49f-461a-98ad-14cf817d9759.png)
+![image](https://user-images.githubusercontent.com/30430227/180921909-66c50e02-04c1-40de-9159-a9039fda049a.png)
+
+
+`디테일 추가 - Solidify > Remesh:Smooth`
+
+![image](https://user-images.githubusercontent.com/30430227/180922455-cf30b76b-4861-4ad1-8d81-a74c32235947.png)
+![image](https://user-images.githubusercontent.com/30430227/180922496-099a8691-240f-481c-9cd3-465a90ced104.png)
+
+
+
