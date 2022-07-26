@@ -14,11 +14,6 @@ $ sudo kill -9 12458 12458
 
 ```
 
-https://code.visualstudio.com/docs/python/tutorial-flask
-
-https://velog.io/@abcd8637/series/%EC%8A%A4%ED%8C%8C%EB%A5%B4%ED%83%80%EC%BD%94%EB%94%A9%ED%81%B4%EB%9F%BD
-
-
 
 VSCode
 -------
