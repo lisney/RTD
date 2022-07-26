@@ -106,7 +106,7 @@ print(m,s)
 >>> print(m.group(1))
 park
 
-* group() -은 매칭되는 모든 데이터
+* group() -은 매칭되는 문자열 반환
 * group(0) 매치된 전체 문자열/ group(1) 첫 번째 그룹에 해당되는 문자열/ group(n) n 번째 그룹에 해당되는 문자열
 
 
