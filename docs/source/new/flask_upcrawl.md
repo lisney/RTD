@@ -94,7 +94,20 @@ soup = BeautifulSoup(res.text, 'lxml') # 불러온 문서res.text를 lxml 파서
     <li>{{ rank.a.get_text() }}</li>
     {% endfor %}
 </ul>
+<span class="soup" data-uri='{{ soup.find("li", attrs={"class":"rank01"}).a.get_text() }}'></span>
+
+// 자바스크립트로 data 전달 후 경고창 띄우기
+<script>
+    const soup = document.querySelector('.soup')
+    alert(soup.dataset.uri)
+</script>
+
+
+* find_all 조건에 맞는 모든 엘리먼트 배열로 반환 \app.py
+cartoons = soup.find_all("a", attrs={"class":"title"})
 
 ```
+
+
 
 
