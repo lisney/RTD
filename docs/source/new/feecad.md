@@ -869,5 +869,24 @@ Part WB 2D Offset
 
 
 
+복합형태 
+---------
+
+`Cross Section`
+
+![image](https://user-images.githubusercontent.com/30430227/180955551-9d9951b6-c249-4d51-b6e6-96619757057b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180955589-eb577a59-8117-4b56-82cf-5536d3d2699d.png)
+![image](https://user-images.githubusercontent.com/30430227/180955667-0f712f53-4ea1-4065-ad89-d46f5b017f86.png)
+![image](https://user-images.githubusercontent.com/30430227/180955778-b6508b30-7014-475f-aab1-36f70fe9bb7d.png)
+
+`Revolve > Pipe`
+
+![image](https://user-images.githubusercontent.com/30430227/180957851-2bf776f8-eaa8-497c-b6b2-9c88422db778.png)
+![image](https://user-images.githubusercontent.com/30430227/180957803-792967c8-1277-4459-81fc-1346bd9d515d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180957768-88d75679-fe61-4ca1-bda2-92bbf7a5a653.png)
+![image](https://user-images.githubusercontent.com/30430227/180957910-dfdd903d-3465-4d14-b7a8-5525237eabca.png)
+
 
 
