@@ -79,5 +79,36 @@ cartoons = soup.find_all("a", attrs={"class":"title"})
 ```
 
 
+VSCode 앱에서 정규식
+-----------------
+
+```
+* 네이버코믹 랭킹
+* app.py
+rankA = soup.find_all('li', attrs={"class":re.compile('rank.*')})
+rankA = soup.find_all('li', class_ =re.compile('rank.*')) # class는 파이썬 예약어이므로 대신 'class_' 사용
+rankA = soup.find_all('li', re.compile('rank.*')) # find의 두 번째 인자는 CSS 클래스이다
+rankA = soup('li', re.compile('rank.*'))  #soup 기본은 find_all이다
+
+def home():
+    return render_template('home.html', date=datetime.now(), m=m, lst=lst, soup=soup, rankA=rankA)
+
+*\home.html
+<ul>
+    {% for rank in rankA %}
+    <li>{{ rank.a['title']}} </li>
+    {% endfor %}
+</ul>
+
+* limit
+rankA = soup.find_all('li', class_ =re.compile('rank.*'), limit=10) # 10위까지만
+
+<ol type="1"> => 1,2,3숫자 매김
+
+
+
+
+```
+
 
 
