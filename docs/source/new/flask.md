@@ -55,6 +55,131 @@ def home():
 
 ```
 
+템플릿 
+------
+
+```
+from flask import Flask, render_template, url_for
+import re
+from datetime import datetime
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return render_template('home.html', date=datetime.now())
+
+@app.route('/api/data')
+def get_data():
+    return app.send_static_file('data.json')
+    
+\templates\layout.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="{{ url_for('home')}}" class="navbar-brand">Home</a>
+        <a href="{{ url_for('about')}}" class="navbar-brand">About</a>
+        <a href="{{ url_for('contact')}}" class="navbar-brand">Contact</a>
+    </div>
+
+    <div class="body-content">
+        {% block content %}
+        {% endblock %}
+        <hr>
+        <footer>
+            <p>&#169 2012</p>
+        </footer>
+    </div>
+    {% block script %}
+    {% endblock %}
+</body>
+
+</html>
+
+```
+
+
+템플릿 확장 HTML 코드 스니펫
+-------------------------------
+
+![image](https://user-images.githubusercontent.com/30430227/180913500-a683d485-fb2a-4aa2-9ff1-6e67819cdcf8.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180913647-d8a32746-9e59-4053-8973-7a522fa660a6.png)
+
+![image](https://user-images.githubusercontent.com/30430227/180914079-c37272ce-a0e9-4bb9-b714-6fb8ad161b7e.png)
+![image](https://user-images.githubusercontent.com/30430227/180914118-f630ba58-737b-4fa1-b042-72a944ffb74d.png)
+
+```
+  "Flask Tutorial: template extending layout.html": {
+    "prefix": "flextlayout",
+    "body": [
+        "{% extends \"layout.html\" %}",
+        "{% block title %}",
+        "${title}",
+        "{% endblock %}",
+        "{% block content %}",
+        "$0",
+        "{% endblock %}"
+    ],
+  
+    "description": "Boilerplate template that extends layout.html"
+  },
+
+
+\templates\home.html
+{% extends "layout.html" %}
+{% block title %}
+Home
+{% endblock %}
+{% block content %}
+{% if name %}
+<strong>Hello there, {{name}}!</strong> It's {{ date.strftime('%A, %d %B, %Y at %X') }}
+{% endif %}
+{% endblock %}
+
+
+** app.py 추가
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
+
+```
+
+
+JSON 데이터 테스트 \static\data.json
+-------------------------------
+
+![image](https://user-images.githubusercontent.com/30430227/180911376-7d39b4f8-b78e-4af4-bd44-d6f5d572c7a2.png)
+
+```
+{
+    "01":{
+        "note":"This data is very simple because we're demonstrating only the mechanism"
+    }
+}
+
+** app.py
+@app.route('/api/data')
+def get_data():
+    return app.send_static_file('data.json')
+
+```
+
+
 
 정규표현식 
 --------------
@@ -62,6 +187,39 @@ def home():
 1. 문자열
 
 ```
+/app.py 추가 /<name> 이 있을 때 라우팅
+@app.route('/<name>')
+def name(name):
+    now = datetime.now()
+    formatted_now = now.strftime('%A, %d %B, %Y at %X')
+
+    match_object = re.match('[a-zA-Z]+', name)
+
+    if match_object:
+        clean_name = match_object.group(0)
+    else:
+        clean_name = 'Friend'
+        
+    return render_template('home.html', name=clean_name, date=formatted_now)
+
+@app.route('/')
+def home():
+    p=re.compile('ca.e')
+    m=p.match('cahe')
+
+    return render_template('home.html', date=datetime.now(), m=m)
+    
+
+* home.html
+{% if name %}
+<strong>Hello there, {{name}}!</strong> It's {{ date }}
+{% else %}
+<p>{{ m.group() }}</p>
+<strong>Hello there, Friend!</strong> It's {{ date.strftime('%A, %d %B, %Y at %X') }}
+{% endif %}
+
+
+
 [abc] - 문자가 a, b, c 중 하나를 포함한다([abc] = [a-c] - 범위, [12345] = [1-5])
 
 ^ - 반대([^a-c] -a,b,c 중 하나를 포함하지 않는다, [^0-9] - 숫자가 아닌 문자만)
@@ -114,169 +272,19 @@ park
 ```
 
 
-VSCode 계속
-----------
-
-![image](https://user-images.githubusercontent.com/30430227/180906527-f88e6d9d-0daf-4181-a558-99095984e63e.png)
-
-```
-from flask import Flask
-from datetime import datetime
-import re
-
-app = Flask(__name__)
-
-
-@app.route('/')
-def home():
-    return 'Hello, Flask!'
-
-@app.route('/hello/<name>')
-def hello_there(name):
-    now = datetime.now()
-    formatted_now = now.strftime('%A, %d %B, %Y at %X')
-
-    match_object = re.match('[a-zA-Z]+', name)
-
-    if match_object:
-        clean_name = match_object.group(0)
-    else:
-        clean_name = 'Friend'
-
-    content = "Hello there, "+ clean_name + "! It's" + formatted_now
-    return content
-    
-```
-
-`Break Point <F9>`
+Break Point <F9>
+--------------------
 
 ![image](https://user-images.githubusercontent.com/30430227/180907131-ce653e54-bde5-4332-9f62-a9f26cef8693.png)
 
 `<F5> > Flask 선택`
 
 
-`템플릿`
 
-![image](https://user-images.githubusercontent.com/30430227/180909738-6f0550e7-7384-41d5-b9f1-c34955678084.png)
-
-
-```
-* \app.py\
-from flask import Flask, render_template
-from datetime import datetime
-import re
-
-app = Flask(__name__)
-
-
-@app.route('/')
-def home():
-    return 'Hello, Flask!'
-
-@app.route('/hello/<name>')
-def hello_there(name):
-
-    return render_template('hello_there.html', name=name,date=datetime.now())
-    
-    
-* \templates\hello_there.html
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-    {% if name %}
-    <strong>Hello there, {{ name }}!</strong> It's {{ date.strftime('%A, %d %B, %Y at %X') }}
-    {% else %}
-    What's your name? Provide it after /hello/ in the URL.
-    {% endif %}
-</body>
-
-</html>
-```
-
-`Static`
-
-![image](https://user-images.githubusercontent.com/30430227/180910580-dab06224-da72-4d00-996c-280364e05f55.png)
+style.css
+-------------
 
 ```
-\static\style.css
-.message{
-    font-weight: 600;
-    color: blue;
-}
-
-
-\hello_there.html
-    <strong>Hello there, {{ name }}!</strong><span class="message"> It's {{ date.strftime('%A, %d %B, %Y at %X')
-    
-
-\app.py
-from flask import Flask, render_template, url_for
-
-```
-
-
-`JSON 데이터 테스트 \static\data.json`
-
-![image](https://user-images.githubusercontent.com/30430227/180911376-7d39b4f8-b78e-4af4-bd44-d6f5d572c7a2.png)
-
-```
-{
-    "01":{
-        "note":"This data is very simple because we're demonstrating only the mechanism"
-    }
-}
-
-** app.py
-@app.route('/api/data')
-def get_data():
-    return app.send_static_file('data.json')
-
-```
-
-`템플릿 확장`
-
-```
-* \templates\layout.html
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}{% endblock %}</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-</head>
-
-<body>
-    <div class="navbar">
-        <a href="{{ url_for('home') }}" class="navbar-brand">Home</a>
-        <a href="{{ url_for('about') }}" class="navbar-brand">About</a>
-        <a href="{{ url_for('contact') }}" class="navbar-brand">Contact</a>
-    </div>
-
-    <div class="body-content">
-        {% block content %}
-        {% endblock %}
-        <hr>
-        <footer>
-            <p>&#169 2018</p>
-        </footer>
-    </div>
-</body>
-
-</html>
-
-
-* style.css
 .navbar {
     background-color: lightslategray;
     font-size: 1em;
@@ -307,75 +315,7 @@ def get_data():
 
 ```
 
-** 템플릿 확장 코드 스니펫
 
-![image](https://user-images.githubusercontent.com/30430227/180913500-a683d485-fb2a-4aa2-9ff1-6e67819cdcf8.png)
-
-![image](https://user-images.githubusercontent.com/30430227/180913647-d8a32746-9e59-4053-8973-7a522fa660a6.png)
-
-![image](https://user-images.githubusercontent.com/30430227/180914079-c37272ce-a0e9-4bb9-b714-6fb8ad161b7e.png)
-![image](https://user-images.githubusercontent.com/30430227/180914118-f630ba58-737b-4fa1-b042-72a944ffb74d.png)
-
-```
-"Flask Tutorial: template extending layout.html": {
-    "prefix": "flextlayout",
-    "body": [
-        "{% extends \"layout.html\" %}",
-        "{% block title %}",
-        "$0",
-        "{% endblock %}",
-        "{% block content %}",
-        "{% endblock %}"
-    ],
-
-    "description": "Boilerplate template that extends layout.html"
-},
-
-```
-
-
-![image](https://user-images.githubusercontent.com/30430227/180914560-fe9a3c5f-0d56-46a4-bacc-862e37a231db.png)
-
-```
-\templates\home.html
-{% extends "layout.html" %}
-{% block title %}
-Home
-{% endblock %}
-{% block content %}
-<p>Home page for the Visual Studio Code Flask tutorial.</p>
-{% endblock %}
-
-
-\templates\about.html
-{% extends "layout.html" %}
-{% block title %}
-About
-{% endblock %}
-{% block content %}
-<p>About page for the Visual Studio Code Flask tutorial.</p>
-{% endblock %}
-
-
-\templates\contact.html
-{% extends "layout.html" %}
-{% block title %}
-Contact
-{% endblock %}
-{% block content %}
-Contact us<p>Contact page for the Visual Studio Code Flask tutorial.</p>
-{% endblock %}
-
-** app.py 추가
-@app.route('/about')
-def about():
-    return render_template('about.html')
-
-@app.route('/contact')
-def contact():
-    return render_template('contact.html')
-
-```
 
 
 ```
