@@ -25,37 +25,7 @@ with open...
 ```
 
 
-2. 정규식
-
-```
-p = re.compile('ca.e')
-
-m=p.match('cahe')
-
-@app.route('/')
-def home():
-    return render_template('home.html',m=m)
-
-* 템플릿    
-<p>{{ m.group() }}</p>
-
-
-* search
-m=p.search('good care')
-
-{% if m %}
-<strong>"{{ m.group() }}"</strong> 을 '{{m.string}}' 문자열에서 발견[시작 index : {{m.start()}}]
-{% else %}
-<strong>니주글래!</strong>
-
-
-* findall - 매칭되는 모든 문자열 리스트로 반환
-lst = p.findall('good care cafe')
-
-```
-
-
-3. 모듈 설치
+2. 모듈 설치
 
 ```
 $ pip install beautifulsoup4
