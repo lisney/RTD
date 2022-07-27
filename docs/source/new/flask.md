@@ -211,14 +211,29 @@ def home():
     
 
 * home.html
+{% if m %}
+<p>{{ m.group() }}</p>
+{% else %}
+{{ m }}
+{% endif %}
 {% if name %}
 <strong>Hello there, {{name}}!</strong> It's {{ date }}
 {% else %}
-<p>{{ m.group() }}</p>
 <strong>Hello there, Friend!</strong> It's {{ date.strftime('%A, %d %B, %Y at %X') }}
 {% endif %}
 
 
+* search
+m=p.search('good care')
+
+{% if m %}
+<strong>"{{ m.group() }}"</strong> 을 '{{m.string}}' 문자열에서 발견[시작 index : {{m.start()}}]
+{% else %}
+<strong>니주글래!</strong>
+
+
+* findall - 매칭되는 모든 문자열 리스트로 반환
+lst = p.findall('good care cafe')
 
 [abc] - 문자가 a, b, c 중 하나를 포함한다([abc] = [a-c] - 범위, [12345] = [1-5])
 
