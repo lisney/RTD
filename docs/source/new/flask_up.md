@@ -9,6 +9,7 @@ RaspberryPi
 
 ```
 * .flaskenv
+$ pip install python-dotenv # 설치되지 않았다면
 $ touch .flaskenv
 FLASK_APP=base
 FLASK_ENV=development
