@@ -89,6 +89,7 @@ rankA = soup.find_all('li', attrs={"class":re.compile('rank.*')})
 rankA = soup.find_all('li', class_ =re.compile('rank.*')) # class는 파이썬 예약어이므로 대신 'class_' 사용
 rankA = soup.find_all('li', re.compile('rank.*')) # find의 두 번째 인자는 CSS 클래스이다
 rankA = soup('li', re.compile('rank.*'))  #soup 기본은 find_all이다
+rankA = soup.select('.asideBoxRank > li ')
 
 def home():
     return render_template('home.html', date=datetime.now(), m=m, lst=lst, soup=soup, rankA=rankA)
@@ -102,6 +103,7 @@ def home():
 
 * limit
 rankA = soup.find_all('li', class_ =re.compile('rank.*'), limit=10) # 10위까지만
+rankA = soup.select('.asideBoxRank > li ', limit=10)
 
 <ol type="1"> => 1,2,3숫자 매김
 
