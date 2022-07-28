@@ -27,6 +27,13 @@ Fusion360
 Draw 라인 굵기 조절
 ------------------
 
+`View 추가`
+
+![image](https://user-images.githubusercontent.com/30430227/181417683-7c511776-62a3-40d8-b6d1-0ff2c2cc2fd6.png)
+
+
+`Line Width`
+
 ![image](https://user-images.githubusercontent.com/30430227/181414703-9c76f615-446f-4329-9fc7-6f25bdbc50cc.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/181414795-30211be0-6615-426e-acf4-eef230bbbaf4.png)
