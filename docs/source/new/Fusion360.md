@@ -22,3 +22,12 @@ Fusion360
 
 ![image](https://user-images.githubusercontent.com/30430227/177907809-b081befc-93b6-4ab3-b66b-75944cbb8deb.png)
 
+
+
+Draw 라인 굵기 조절
+------------------
+
+![image](https://user-images.githubusercontent.com/30430227/181414703-9c76f615-446f-4329-9fc7-6f25bdbc50cc.png)
+
+![image](https://user-images.githubusercontent.com/30430227/181414795-30211be0-6615-426e-acf4-eef230bbbaf4.png)
+![image](https://user-images.githubusercontent.com/30430227/181414835-afb2ee29-e8c3-4330-b808-a6f0c05788b8.png)
