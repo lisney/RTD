@@ -156,3 +156,27 @@ for year in range(2019,2021):
 ```
 
 
+3. 썸네일 
+
+![image](https://user-images.githubusercontent.com/30430227/181448074-b12daeb3-abdf-4155-8e4d-7f1ad380bb70.png)
+
+```
+\app.py
+images = soup.find_all("img", class_ ="thumb_img", limit=5 )
+img_names = soup.select('.info_tit > a', limit=10)
+
+    return render_template('home.html', date=datetime.now(), images=images, img_names=img_names)
+    
+    
+\home.html
+<ol type="1">
+    {% for image in images %}
+    <li>
+        <img src="{{image['src'] }}" alt="" width="100">
+        <span>{{img_names[loop.index].text}}</span>
+    </li>
+    {% endfor %}
+</ol>
+
+
+```
