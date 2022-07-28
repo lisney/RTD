@@ -107,10 +107,52 @@ rankA = soup.select('.asideBoxRank > li ', limit=10)
 
 <ol type="1"> => 1,2,3숫자 매김
 
+```
 
+
+이미지 끌어오기, enumerate, starswith, image.content
+----------------
+
+1. 1위부터 5위까지
+
+```
+url = 'https://search.daum.net/search?w=tot&q=2021%EB%85%84%EC%98%81%ED%99%94%EC%88%9C%EC%9C%84&DA=MOR&rtmaxcoll=MOR'
+res = requests.get(url)
+res.raise_for_status()
+soup = BeautifulSoup(res.text, 'lxml')
+
+images = soup.find_all("img", class_ ="thumb_img", limit=5) # 강의에선 limit 대신 if i >= 4: break
+
+for i, image in enumerate(images):
+    image_url = image['src']
+    if image_url.startswith('//'):
+        image_url = 'https:' + image_url
+        images[i]['src'] = image_url
+    
+    image_res = requests.get(image_url)
+    image_res.raise_for_status()
+
+    with open('movie{}.jpg'.format(i + 1), 'wb') as f:
+        f.write(image_res.content)
+```
+
+
+2. 2019~2020
 
 
 ```
+* for year 문으로 기존 for문을 감싼다
+for year in range(2019,2021):
+    url = 'https://search.daum.net/search?w=tot&q={}%EB%85%84%EC%98%81%ED%99%94%EC%88%9C%EC%9C%84&DA=MOR&rtmaxcoll=MOR'.format(year)
+    res = requests.get(url)
+    ...
 
+
+* 저장 이미지의 이름이 중복되므로 format 변경
+    for i, image in enumerate(images):
+...
+        with open('movie_{}_{}.jpg'.format(year,i + 1), 'wb') as f:
+    
+```
 
 
