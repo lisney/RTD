@@ -173,7 +173,7 @@ img_names = soup.select('.info_tit > a', limit=10)
     {% for image in images %}
     <li>
         <img src="{{image['src'] }}" alt="" width="100">
-        <span>{{img_names[loop.index].text}}</span>
+        <span>{{img_names[loop.index].text}}</span>  // loop.index -1 해줘야 매칭이된다^^;
     </li>
     {% endfor %}
 </ol>
