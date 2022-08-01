@@ -890,3 +890,84 @@ Part WB 2D Offset
 
 
 
+커브 서피스 
+-----------
+
+1. Sketcher WB > 스케치 2개
+
+![image](https://user-images.githubusercontent.com/30430227/182069550-37105cdc-1309-4729-9475-931b6d4d44f9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/182069841-213e5446-af2b-49f0-9b9a-110d323b5e19.png)
+
+
+`Part WB`
+
+![image](https://user-images.githubusercontent.com/30430227/182069896-c3debb0b-fff6-4cc7-bb56-b2adf21f1576.png)
+
+![image](https://user-images.githubusercontent.com/30430227/182069946-304ff6f1-aca0-4d05-b7a7-fa54cbbf97df.png)
+![image](https://user-images.githubusercontent.com/30430227/182070012-5c9c9da7-9b11-479f-ae97-4c12488c9935.png)
+![image](https://user-images.githubusercontent.com/30430227/182070038-706d551f-c3f0-474f-999c-60ba95dfbf34.png)
+
+![image](https://user-images.githubusercontent.com/30430227/182070072-ce6312eb-bb00-47a3-91b1-cd2e73d4bef9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/182070137-03efebbd-7d71-4271-8a7f-98c9f794a8ea.png)
+
+![image](https://user-images.githubusercontent.com/30430227/182070189-88884956-ca30-4c95-a3d7-4cf1529c825f.png)
+![image](https://user-images.githubusercontent.com/30430227/182070423-68f0c263-418c-495d-a5ca-2eda35b176a7.png)
+
+
+2. Sketcher WB > XY 평면
+
+`세로 먼저 그리고, 가로 클릭하는 지점이 시작지점이 된다`
+
+![image](https://user-images.githubusercontent.com/30430227/182070757-50d69dea-3d8f-4940-8e50-16cfa26e1af9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/182070887-54243441-0a85-4b4f-8757-946c8fd6c41e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/182071086-e35f59b2-67bc-4ab7-8a40-1d0eb61bc2ea.png)
+
+
+`XZ 평면 > ARC > Part WB > Extrude(Reverse) > Mirror`
+
+![image](https://user-images.githubusercontent.com/30430227/182071503-c67a8a9f-ea88-4175-ab54-16a94a858188.png)
+
+![image](https://user-images.githubusercontent.com/30430227/182071658-742a7f75-b8b4-48dc-87f5-4ecb6a5ba254.png)
+![image](https://user-images.githubusercontent.com/30430227/182071790-5333392f-b5f2-417d-b803-2a3dd35206b2.png)
+
+
+`Surface WB > Filling`
+
+![image](https://user-images.githubusercontent.com/30430227/182071922-f2c89934-e080-485d-af9b-ebfec1dbc10e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/182074206-7bd259c9-b2a0-4c1d-803e-09a7e44a504a.png)
+![image](https://user-images.githubusercontent.com/30430227/182074191-444790af-4fb6-40cd-94bc-129a0da4c9f8.png)
+
+![image](https://user-images.githubusercontent.com/30430227/182074307-0ef27fd2-ad72-45e4-8ff7-806286bd94d0.png)
+
+![image](https://user-images.githubusercontent.com/30430227/182074324-f7c4fc49-bc06-4ce2-9abd-fc4c2a5ef430.png)
+![image](https://user-images.githubusercontent.com/30430227/182074809-4e676d92-d18b-4ee5-be01-4144155efb19.png)
+
+
+`Part WB > `
+
+![image](https://user-images.githubusercontent.com/30430227/182074886-e921d0b1-a1f0-4bb6-8e36-bca7149e05ce.png)
+
+`Error?`
+
+![image](https://user-images.githubusercontent.com/30430227/182075604-edd65f2c-bd62-4286-b76e-12b9a28f8595.png)
+
+`Property`
+
+![image](https://user-images.githubusercontent.com/30430227/182075657-f2e5a339-c2c8-4dc1-ae52-376b7dc8d48d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/182075757-380ed0ab-79a4-4ea3-a194-5e045829ddaf.png)
+
+
+`Compound > Solid`
+
+![image](https://user-images.githubusercontent.com/30430227/182075888-3104b3bf-1a61-4993-a8e9-fcb486ee331b.png)
+
+
+
+
+
