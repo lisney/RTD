@@ -34,3 +34,30 @@ def ajax():
                 
 ```
 
+
+`POST`
+
+```
+    let user = {
+        name: 'John',
+        surname: 'Smith'
+    }
+    function onButtonClicked() {
+        fetch('/ajax', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(user)
+        }).then(response =>
+            response.text()).then((data) =>
+                alert('전송받은 내용: ' + data))
+    }
+
+---------------------------------------------------
+@app.route('/ajax', methods=['GET','POST'])
+def ajax():
+    if request.method =='POST':
+        return 'Hello!'
+    return mydata 
+    
+```
+
