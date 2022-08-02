@@ -244,7 +244,7 @@ console.log(mike);
 ## 참고> .call파라미터를 배열 형식으로 전달하는 매서드 .apply(Object,[...])
 -----------------------------------------------------------------
 
-# 클래스와 프로토타입 비교
+# 클래스와 프로토타입 비교 python constructor는 def __init__:
 class User {
   constructor(name, age) {
     this.name = name;
