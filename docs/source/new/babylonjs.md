@@ -226,7 +226,7 @@ function showName() {
 }
 
 showName();
-showThisName.call(mike);
+showName.call(mike);
 
 ## 객체Object의 멤버 변수 추가하는 함수는?(클래스 인스턴스에도 적용 가능)
 function update(birth, occupation) {
