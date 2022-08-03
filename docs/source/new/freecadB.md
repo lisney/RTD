@@ -45,13 +45,35 @@ Loft2
 ![image](https://user-images.githubusercontent.com/30430227/182531411-33ab520e-b375-43c2-9e3b-fc905ef498c2.png)
 
 
-`Sketch 수정(Loft Solid OFF) > Ruled Surface`
+`Sketch 수정(Loft Solid OFF) > Ruled Surface > Compound > Convert to Solid`
 
 ![image](https://user-images.githubusercontent.com/30430227/182531473-ea9dcfa3-ef41-4b09-b87a-2b46f84f4c56.png)
 
-![image](https://user-images.githubusercontent.com/30430227/182531535-81f3ffd0-f398-4667-8403-ab10907bcf3b.png)
+![image](https://user-images.githubusercontent.com/30430227/182531949-fcac0360-da87-4914-bd1f-53f29a198d49.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/182531619-cb368777-e3a9-40c4-a6f1-fbe5bb11a53a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/182532059-fd761963-ecf0-4e6c-b8d9-9ce496e5fa74.png)
+![image](https://user-images.githubusercontent.com/30430227/182532084-96e61cd6-84b5-4307-a4fb-38b2921b9766.png)
+
+![image](https://user-images.githubusercontent.com/30430227/182532222-0d79f901-58da-40c3-9ca4-faff11a4113f.png)
+
+
+
+Loft3
+-------
+
+![image](https://user-images.githubusercontent.com/30430227/182532411-2dddfe41-2b26-4d14-9ff1-4c6a009e9864.png)
+![image](https://user-images.githubusercontent.com/30430227/182532444-30172a38-78d6-4a59-8104-c7467cbe528a.png)
+
+
+`Edit Scketch > Split Edge`
+
+![image](https://user-images.githubusercontent.com/30430227/182532694-aedc720c-fedc-4981-95cb-cfd0fc1ed38d.png)
+![image](https://user-images.githubusercontent.com/30430227/182532755-576c5537-d968-4fb6-8cf7-13f13bbdbac1.png)
+
+![image](https://user-images.githubusercontent.com/30430227/182532778-289e7190-9c04-4df5-8511-ba556d294449.png)
+
 
 
 
