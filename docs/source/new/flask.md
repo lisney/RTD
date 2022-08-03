@@ -342,6 +342,12 @@ style.css
 > sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.9 2
 > update-alternatives --config python(설정 확인)
 > python -V
+    
+# 다른 방법 - 되는지 모르겠다
+$ python --version //현재 파이썬 버전
+$ which python3 //파이썬3의 위치
+$ which python2 //파이썬2의 위치
+$ sudo ln -sf [파이썬3의 위치] /usr/bin/python
 ```
 
 ![image](https://user-images.githubusercontent.com/30430227/179646088-3284240c-45e4-40d1-8a88-7c2b048f83ff.png)
