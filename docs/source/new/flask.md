@@ -1683,6 +1683,9 @@ if __name__=='__main__':
 ## 외부 연결 목적으로 실행
 > sudo python3 hello.py
 
+## 경로 오류 날 때
+> sudo python helo_flask/app.py
+    
 ## 외부 컴에서 접속
 192.168.0.80
 
