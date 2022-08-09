@@ -81,6 +81,35 @@ Follow Path
 
 
 
+낙엽
+------
+
+`끝부분이 이동할 방향을 향한다-라인과 일치 > 변곡점에서 간격이 좁아진다`
+
+![image](https://user-images.githubusercontent.com/30430227/183611537-be0b3ec4-8a5e-4ac4-9fa2-5e335860bbfd.png)
+![image](https://user-images.githubusercontent.com/30430227/183613224-59f86e18-c92f-40ef-8c65-87fb18187768.png)
+
+![image](https://user-images.githubusercontent.com/30430227/183613132-63e1d22d-6e6d-47f1-a7b7-5d1f047e410b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/183613508-37506a4f-9876-4278-80c7-62aebb20b32f.png)
+
+
+
+풍선 
+-----
+
+`전체적으로 등속으로 이동 > 통 튈 때 회전한다`
+
+![image](https://user-images.githubusercontent.com/30430227/183615639-b81ec3c2-0101-46d1-8eb8-270eaa9fe654.png)
+
+![image](https://user-images.githubusercontent.com/30430227/183617299-35d8be04-d582-47f5-9215-5977b98c382a.png)
+![image](https://user-images.githubusercontent.com/30430227/183617536-31ecb31f-69d5-4e3a-a963-6a5bf900f577.png)
+![image](https://user-images.githubusercontent.com/30430227/183617625-68f2742f-bbe7-45a6-ba2e-590228110ad7.png)
+
+![image](https://user-images.githubusercontent.com/30430227/183617670-c037e5d0-aa60-469f-a136-c3f9e07517fe.png)
+
+
+
 
 
 
