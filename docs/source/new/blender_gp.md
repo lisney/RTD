@@ -36,5 +36,11 @@ Fill Tool
 ![image](https://user-images.githubusercontent.com/30430227/183563755-a70522f0-d880-4f83-afd9-6af8fe850aeb.png)
 
 
+Follow Path
+----------
+
+![image](https://user-images.githubusercontent.com/30430227/183569799-ad50cd15-1551-44c1-a8ae-988b011d1255.png)
+
+
 
 
