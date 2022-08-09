@@ -43,4 +43,36 @@ Follow Path
 
 
 
+무거운 공 
+---------
+
+![image](https://user-images.githubusercontent.com/30430227/183585473-7e412aba-945a-45fd-b3fc-fb81b9542ea4.png)
+![image](https://user-images.githubusercontent.com/30430227/183585527-3f5d404d-e14f-4a1c-ba56-e2433e395ebf.png)
+
+![image](https://user-images.githubusercontent.com/30430227/183585714-9bdaab39-9185-449b-9ba3-87621ffb86e3.png)
+![image](https://user-images.githubusercontent.com/30430227/183585804-947dbac9-dc69-49fb-a73c-ebe58f413e82.png)
+
+![image](https://user-images.githubusercontent.com/30430227/183585613-ba7de666-8dfa-4a1f-a46a-8005dfdcc814.png)
+
+
+
+튀는 공 
+-------
+
+![image](https://user-images.githubusercontent.com/30430227/183588076-048316c0-4aa2-4df2-8fa8-fa9ae0fa51fd.png)
+![image](https://user-images.githubusercontent.com/30430227/183588138-6d8e751c-c617-4b8a-a158-ac40e7b2b2de.png)
+
+![image](https://user-images.githubusercontent.com/30430227/183593677-d24caa2f-e71a-4d74-aa1e-1c5bab85db44.png)
+![image](https://user-images.githubusercontent.com/30430227/183593716-a91c0230-da1b-4165-8aee-5e26741f086f.png)
+![image](https://user-images.githubusercontent.com/30430227/183593764-33f26ea9-d9d3-420b-a242-d950b0305f21.png)
+![image](https://user-images.githubusercontent.com/30430227/183593798-3fa9e6c0-1010-41a3-8052-51edf8700340.png)
+
+
+
+
+
+
+
+
+
 
