@@ -59,6 +59,8 @@ Follow Path
 튀는 공 
 -------
 
+`그리기 후 Auto Keyframe을 끄고 본을 생성/리깅한다 `
+
 ![image](https://user-images.githubusercontent.com/30430227/183588076-048316c0-4aa2-4df2-8fa8-fa9ae0fa51fd.png)
 ![image](https://user-images.githubusercontent.com/30430227/183588138-6d8e751c-c617-4b8a-a158-ac40e7b2b2de.png)
 
@@ -66,6 +68,16 @@ Follow Path
 ![image](https://user-images.githubusercontent.com/30430227/183593716-a91c0230-da1b-4165-8aee-5e26741f086f.png)
 ![image](https://user-images.githubusercontent.com/30430227/183593764-33f26ea9-d9d3-420b-a242-d950b0305f21.png)
 ![image](https://user-images.githubusercontent.com/30430227/183593798-3fa9e6c0-1010-41a3-8052-51edf8700340.png)
+
+
+진자
+----
+
+`양쪽 끝에 간격을 좁게한다`
+
+![image](https://user-images.githubusercontent.com/30430227/183596868-97808537-1459-47ac-a2f1-19dfd03d6687.png)
+
+![image](https://user-images.githubusercontent.com/30430227/183598303-0ae48999-9cda-4ab1-9aab-e36cd3659260.png)
 
 
 
