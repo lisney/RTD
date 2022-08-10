@@ -11,12 +11,17 @@ Trim - Cutter -선정리
 ![image](https://user-images.githubusercontent.com/30430227/183557824-9904c4b2-5105-4aa1-abb3-9af0748c7922.png)
 
 
-`라인 두께 고정 - Screen Space`
+`라인 두께 고정 > 2D라인 - Screen Space`
 
 ![image](https://user-images.githubusercontent.com/30430227/183794627-cbdaa283-6fa4-4d29-b7bf-f58d253775fa.png)
 ![image](https://user-images.githubusercontent.com/30430227/183794815-c6c7042c-61a5-4737-a933-8e92943cb67b.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/183794575-a88c3f3a-21f0-4f42-9fbe-79375e33535a.png)
+
+
+`Edit Mode`
+
+![image](https://user-images.githubusercontent.com/30430227/183798463-e541512a-f9fa-48d9-a2cf-184bffeaeb1a.png)
 
 
 Fill Tool
