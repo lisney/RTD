@@ -110,6 +110,15 @@ Follow Path
 
 
 
+여러번 튀는 공 
+------------
+
+![image](https://user-images.githubusercontent.com/30430227/183791303-037e6b27-aa96-456f-beea-d83ad5367367.png)
+
+
+
+`훅업 - 전장면과 연속성, 속도 방향 등`
+
 
 
 
