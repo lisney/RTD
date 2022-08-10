@@ -160,4 +160,22 @@ Follow Path
 
 
 
+뒤에서 앞으로 날아오는 공 
+----------------------
+
+`공중에서 간격이 좁아지고 > 앞으로 날아올 수록 간격 넓어진다`
+
+![image](https://user-images.githubusercontent.com/30430227/183822843-a9886b30-9ea6-4690-bd8f-5d5e63d1acb5.png)
+![image](https://user-images.githubusercontent.com/30430227/183823105-3ea953e2-861d-4c01-ab8f-80fd86d62c57.png)
+
+![image](https://user-images.githubusercontent.com/30430227/183822932-475c64fc-2eef-4872-958d-53f0f681247d.png)
+![image](https://user-images.githubusercontent.com/30430227/183822974-59292fd8-e822-4913-9d57-0bc3aaa3a165.png)
+
+![image](https://user-images.githubusercontent.com/30430227/183822616-3a44d9f4-803d-4a3c-964f-155a500748a6.png)
+
+
+
+
+
+
 
