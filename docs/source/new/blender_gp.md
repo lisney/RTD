@@ -11,6 +11,13 @@ Trim - Cutter -선정리
 ![image](https://user-images.githubusercontent.com/30430227/183557824-9904c4b2-5105-4aa1-abb3-9af0748c7922.png)
 
 
+`라인 두께 고정 - Screen Space`
+
+![image](https://user-images.githubusercontent.com/30430227/183794627-cbdaa283-6fa4-4d29-b7bf-f58d253775fa.png)
+![image](https://user-images.githubusercontent.com/30430227/183794815-c6c7042c-61a5-4737-a933-8e92943cb67b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/183794575-a88c3f3a-21f0-4f42-9fbe-79375e33535a.png)
+
 
 Fill Tool
 --------------
@@ -120,8 +127,31 @@ Follow Path
 `훅업 - 전장면과 연속성, 속도 방향 등`
 
 
+ 앞으로 다가오는 공 
+ ----------------
+ 
+ `스케일 중심 축 아래로 > 다가와도 선 굵기 그대로 screen `
+ 
+![image](https://user-images.githubusercontent.com/30430227/183795577-832ea6b6-2740-4912-86b1-837239aa454d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/183795616-7ee66a9d-6f44-40d3-8b34-66c85baa0e41.png)
 
 
+`Positon`
+
+![image](https://user-images.githubusercontent.com/30430227/183795849-d32f0988-e0ca-493f-9bec-9a37f6ed7c93.png)
+![image](https://user-images.githubusercontent.com/30430227/183795879-117dbed6-824e-4fcf-8a8a-49aa13e11593.png)
+
+
+`Scale`
+
+![image](https://user-images.githubusercontent.com/30430227/183796015-02d314db-d392-49df-a97e-b031a99cf5f2.png)
+![image](https://user-images.githubusercontent.com/30430227/183795973-e7ac3e22-fb11-484e-a10d-5914026e4e36.png)
+
+
+`가까울 수록 빠르다 > 간격 넓다 `
+
+![image](https://user-images.githubusercontent.com/30430227/183796380-a37f59f4-2d6f-4a21-89fa-63821079ec6b.png)
 
 
 
