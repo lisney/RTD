@@ -175,6 +175,31 @@ Follow Path
 
 
 
+자동차 급발진 
+------------
+
+![image](https://user-images.githubusercontent.com/30430227/184066227-ec8636a1-74b2-4d93-959d-198e31e56e0b.png)
+
+`1,2,3...12 frame - 진동`
+
+![image](https://user-images.githubusercontent.com/30430227/184067043-7d839696-ba2e-454b-8c02-e50756bdda99.png)
+
+`24 앞바퀴 들기 > 33 들고 전진 > 35공중 회전 > 37, 39, 41,43 앞뒤바퀴 번갈아 통통 튀기 > 48 앞바퀴들고전진
+
+![image](https://user-images.githubusercontent.com/30430227/184067576-1b3bd90d-e652-4efb-96b3-098a4b1a4020.png)
+![image](https://user-images.githubusercontent.com/30430227/184067708-97c61899-6ee5-4a35-959b-ed9124de3bf1.png)
+
+![image](https://user-images.githubusercontent.com/30430227/184068566-56f8292f-dee7-4e21-a8af-11615dc18760.png)
+
+`interpolate 12-24 EOEI > 24-33 힘을 모으다 - 33에 간격 밀집`
+
+![image](https://user-images.githubusercontent.com/30430227/184069061-9e53eb39-ce35-4a21-9c16-765d1c938c0e.png)
+![image](https://user-images.githubusercontent.com/30430227/184069237-be9922f8-1096-46ad-ac94-6ec740d55573.png)
+
+
+
+
+
 
 
 
