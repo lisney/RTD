@@ -40,4 +40,27 @@ Render Pass
 ![image](https://user-images.githubusercontent.com/30430227/184104623-27fe7e9f-b47c-483d-880b-d312ff4efc46.png)
 
 
+openEXR - MultiLayer
+---------
+
+![image](https://user-images.githubusercontent.com/30430227/184107521-84271e2d-8f4a-43b5-8c25-99f3bcbf68da.png)
+
+`Add View > Indirect Only 체크`
+
+![image](https://user-images.githubusercontent.com/30430227/184109007-578175fa-044a-4892-ac89-07f949afb0a2.png)
+![image](https://user-images.githubusercontent.com/30430227/184109041-0e9352e5-8130-4acb-9ad5-7eab32ebf6fe.png)
+
+![image](https://user-images.githubusercontent.com/30430227/184108647-0bc0bc68-1a14-4136-afa1-b1448e7072dc.png)
+![image](https://user-images.githubusercontent.com/30430227/184108945-7d82841e-90c9-4bbf-bd82-3d876ba484ee.png)
+
+`Hold Out 체크`
+
+![image](https://user-images.githubusercontent.com/30430227/184109225-0e471b92-5624-4d37-be35-895dd9cdc6f2.png)
+![image](https://user-images.githubusercontent.com/30430227/184109187-983b8145-ec27-451e-adee-344706364f20.png)
+
+`Phothshoo Plugin - Exr-IO_2.06.00`
+
+
+
+
 
