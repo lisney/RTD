@@ -244,7 +244,7 @@ Follow Path
 ![image](https://user-images.githubusercontent.com/30430227/184085786-e93d2325-405b-4b42-848a-f21148dfaedc.png)
 ![image](https://user-images.githubusercontent.com/30430227/184085970-f9c448a6-55e9-4681-8d70-e816fc3c34bf.png)
 
-`26 - 1번 프레임 반복 - 흠! 자연스럽지않아;;`
+`26 - 1번 프레임 반복 - 흠! 모션 이상해;;`
 
 
 
@@ -253,7 +253,20 @@ Follow Path
 
 ![image](https://user-images.githubusercontent.com/30430227/184097326-b9134970-0b6c-49b8-8971-da1fb65d4324.png)
 ![image](https://user-images.githubusercontent.com/30430227/184098187-af5a8ade-0474-411d-b30d-c3b571d178ff.png)
-![image](https://user-images.githubusercontent.com/30430227/184097544-782c7684-0d21-4044-bad8-53ae7759c0e6.png)
+
+`13-17, 15 BreakeD`
+
+![image](https://user-images.githubusercontent.com/30430227/184117903-d84d4a87-562a-408d-87bb-788e8f295453.png)
+![image](https://user-images.githubusercontent.com/30430227/184118694-a77c2b5f-bd31-4ee5-b72f-98d3f96118c3.png)
+![image](https://user-images.githubusercontent.com/30430227/184119291-af135d27-d21d-4d28-898b-4cab5273cbb4.png)
+![image](https://user-images.githubusercontent.com/30430227/184119619-baddf21a-6b23-44f7-9c91-71da560246e9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/184119681-8c2cff03-c428-43e3-8f0e-9cd04cb94e19.png)
+
+`23 안착(반동), 37 - 1 키 복사`
+
+![image](https://user-images.githubusercontent.com/30430227/184120349-bef88f33-4d9c-431e-a746-16a94555958d.png)
+
 
 
 
