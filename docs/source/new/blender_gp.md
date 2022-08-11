@@ -222,6 +222,46 @@ Follow Path
 
 
 
+관절로 전해지는 타이밍
+-------------------
+
+`Mesh Onion Skin Addon`
+
+![image](https://user-images.githubusercontent.com/30430227/184083327-d004d348-e1c8-4cc2-9c03-fd65a14d6480.png)
+![image](https://user-images.githubusercontent.com/30430227/184083379-41e185ee-92b5-4962-80b4-56d13fddb378.png)
+
+
+`1,5,8,11`
+
+![image](https://user-images.githubusercontent.com/30430227/184084302-c8ddf940-e7d1-4ff4-bbb5-81009217f845.png)
+![image](https://user-images.githubusercontent.com/30430227/184084804-2959af96-fefd-4c93-9422-db7ebe02ab32.png)
+![image](https://user-images.githubusercontent.com/30430227/184084351-7c176225-ae16-4bb6-a746-52f8fc6a8c23.png)
+
+`14,17,23`
+
+![image](https://user-images.githubusercontent.com/30430227/184085652-7fc5beda-cbcb-4342-a190-d924e169c28e.png)
+![image](https://user-images.githubusercontent.com/30430227/184085690-4f58d02b-172e-41b5-9fc5-50cf3f055703.png)
+![image](https://user-images.githubusercontent.com/30430227/184085786-e93d2325-405b-4b42-848a-f21148dfaedc.png)
+![image](https://user-images.githubusercontent.com/30430227/184085970-f9c448a6-55e9-4681-8d70-e816fc3c34bf.png)
+
+`26 - 1번 프레임 반복 - 흠! 자연스럽지않아;;`
+
+
+
+손으로 가르키기
+---------------
+
+![image](https://user-images.githubusercontent.com/30430227/184097326-b9134970-0b6c-49b8-8971-da1fb65d4324.png)
+![image](https://user-images.githubusercontent.com/30430227/184098187-af5a8ade-0474-411d-b30d-c3b571d178ff.png)
+![image](https://user-images.githubusercontent.com/30430227/184097544-782c7684-0d21-4044-bad8-53ae7759c0e6.png)
+
+
+
+
+
+
+
+
 
 
 
