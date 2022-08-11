@@ -198,13 +198,24 @@ Follow Path
 
 
 
-급제동 
+급정거 
 -------
 
+`2 출발 12 멈춤`
+
+![image](https://user-images.githubusercontent.com/30430227/184071012-2d07f17d-b49c-4671-bda5-67acfec87aea.png)
 
 
+`18 미끌림1 > 22 미끌림226 끝점 > 28 뒷바퀴 떨어짐`
+
+![image](https://user-images.githubusercontent.com/30430227/184071633-a0dc513f-b85d-4e9d-ba01-ce6314f26942.png)
+
+`덜컹덜컹 30 > 32`
+
+![image](https://user-images.githubusercontent.com/30430227/184071990-0ce24dd0-be93-46e5-870f-462ede021f87.png)
 
 
+`interpolate`
 
 
 
