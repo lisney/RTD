@@ -56,6 +56,41 @@ if __name__ =="__main__":
 --------------
 
 ```
+bl_info ={
+        "name":"Slow Speed",
+        "category":"Sequencer",
+        "author":"Brush"
+        }
+
+
+import bpy
+
+class slowSpeed(bpy.types.Menu):
+    bl_label = "Slow Speed"
+    bl_idname ="Sequencer.slow_speed"
+    
+    def draw(self, context):
+        layout = self.layout
+        layout.operator("sequencer.meta_make")
+        layout.operator("sequencer.effect_strip_add").type='SPEED'
+    
+        bpy.context.active_sequence_strip.speed_factor = 0.5
+    
+def register():
+    bpy.utils.register_class(slowSpeed)
+
+    
+def unregister():
+    bpy.utils.unregister_class(slowSpeed)
+    
+    
+if __name__ =="__main__":
+    register()
+```
+
+
+
+```
 import bpy
 
 class SequencerEditMenu(bpy.types.Menu):
