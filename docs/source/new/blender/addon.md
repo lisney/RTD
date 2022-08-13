@@ -358,7 +358,7 @@ bl_info = {
 import bpy
 
 
-class ObjectCursorArray(bpy.types.Operator):
+class SlowSpeed(bpy.types.Operator):
     """Slow Speed"""
     bl_idname = "sequencer.slow_speed"
     bl_label = "Slow Speed"
@@ -375,14 +375,14 @@ class ObjectCursorArray(bpy.types.Operator):
 
 
 def menu_func(self, context):
-    self.layout.operator(ObjectCursorArray.bl_idname)
+    self.layout.operator(SlowSpeed.bl_idname)
 
 # store keymaps here to access after registration
 addon_keymaps = []
 
 
 def register():
-    bpy.utils.register_class(ObjectCursorArray)
+    bpy.utils.register_class(SlowSpeed)
     bpy.types.SEQUENCER_MT_strip.append(menu_func)
 
     # handle the keymap
@@ -392,7 +392,7 @@ def register():
     kc = wm.keyconfigs.addon
     if kc:
         km = wm.keyconfigs.addon.keymaps.new(name='Object Mode', space_type='EMPTY')
-        kmi = km.keymap_items.new(ObjectCursorArray.bl_idname, 'T', 'PRESS', ctrl=True, shift=True)
+        kmi = km.keymap_items.new(SlowSpeed.bl_idname, 'T', 'PRESS', ctrl=True, shift=True)
         addon_keymaps.append((km, kmi))
 
 def unregister():
@@ -403,7 +403,7 @@ def unregister():
         km.keymap_items.remove(kmi)
     addon_keymaps.clear()
 
-    bpy.utils.unregister_class(ObjectCursorArray)
+    bpy.utils.unregister_class(SlowSpeed)
     bpy.types.SEQUENCER_MT_strip.remove(menu_func)
 
 
