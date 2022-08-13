@@ -341,8 +341,75 @@ if __name__ == "__main__":
 
 
 
-시퀀서 메뉴 
+시퀀서 Slow Speed 메뉴 
 --------------
+
+![image](https://user-images.githubusercontent.com/30430227/184494608-4ee72284-fd3f-4e75-a5bd-f668f160e609.png)
+![image](https://user-images.githubusercontent.com/30430227/184494652-5821b923-c8fc-4b20-8fc4-d902d6543c6e.png)
+![image](https://user-images.githubusercontent.com/30430227/184494621-e5997b4c-6493-4476-939b-95ecf3c9f613.png)
+
+```
+bl_info = {
+    "name": "Cursor Array",
+    "blender": (2, 80, 0),
+    "category": "Sequencer",
+}
+
+import bpy
+
+
+class ObjectCursorArray(bpy.types.Operator):
+    """Slow Speed"""
+    bl_idname = "sequencer.slow_speed"
+    bl_label = "Slow Speed"
+    bl_options = {'REGISTER', 'UNDO'}
+
+    def execute(self, context):
+
+        bpy.ops.sequencer.meta_make()
+        bpy.ops.sequencer.effect_strip_add(type='SPEED')
+        bpy.context.active_sequence_strip.speed_control = 'MULTIPLY'
+        bpy.context.active_sequence_strip.speed_factor = 0.5
+
+        return {'FINISHED'}
+
+
+def menu_func(self, context):
+    self.layout.operator(ObjectCursorArray.bl_idname)
+
+# store keymaps here to access after registration
+addon_keymaps = []
+
+
+def register():
+    bpy.utils.register_class(ObjectCursorArray)
+    bpy.types.SEQUENCER_MT_strip.append(menu_func)
+
+    # handle the keymap
+    wm = bpy.context.window_manager
+    # Note that in background mode (no GUI available), keyconfigs are not available either,
+    # so we have to check this to avoid nasty errors in background case.
+    kc = wm.keyconfigs.addon
+    if kc:
+        km = wm.keyconfigs.addon.keymaps.new(name='Object Mode', space_type='EMPTY')
+        kmi = km.keymap_items.new(ObjectCursorArray.bl_idname, 'T', 'PRESS', ctrl=True, shift=True)
+        addon_keymaps.append((km, kmi))
+
+def unregister():
+    # Note: when unregistering, it's usually good practice to do it in reverse order you registered.
+    # Can avoid strange issues like keymap still referring to operators already unregistered...
+    # handle the keymap
+    for km, kmi in addon_keymaps:
+        km.keymap_items.remove(kmi)
+    addon_keymaps.clear()
+
+    bpy.utils.unregister_class(ObjectCursorArray)
+    bpy.types.SEQUENCER_MT_strip.remove(menu_func)
+
+
+if __name__ == "__main__":
+    register()
+```
 
 ```
 bl_info ={
