@@ -289,8 +289,146 @@ Follow Path
 
 
 
+Spline IK 리깅
+------------------
+
+`Edit > Lock Object MOdes - Pose Mode 시 박스가 선택안된다(only bone) > off - 박스도 선택된다`
+
+![image](https://user-images.githubusercontent.com/30430227/184518800-dd4a1cdf-97eb-4d63-b24f-610469b3ed75.png)
+
+![image](https://user-images.githubusercontent.com/30430227/184518815-a525c5d9-d5f0-4a22-9b2a-9445d298c2dd.png)
+![image](https://user-images.githubusercontent.com/30430227/184518824-3829122e-a2e0-4381-93ec-8d00d3bb88f8.png)
+
+
+1. 본 생성 > Pose Mode, 카툰용 본 복사 > 레이어로 옮김 > subdivide
+
+![image](https://user-images.githubusercontent.com/30430227/184518877-5971f609-f880-414b-a0b1-10f63e80e2b4.png)
+![image](https://user-images.githubusercontent.com/30430227/184518884-111a662c-20aa-4353-b851-c2e04005c16d.png)
+![image](https://user-images.githubusercontent.com/30430227/184518992-5cdf19fe-8106-4ffb-b0a3-f0c5ee9d7839.png)
+![image](https://user-images.githubusercontent.com/30430227/184518985-b3710ed2-0b6f-41a0-a3dd-74e2b5abb717.png)
+
+2. Add Bezier Curve > Handle Type: Auto
+
+![image](https://user-images.githubusercontent.com/30430227/184519083-9e6bb37b-8f94-435f-a70c-e8c2f9269ee3.png)
+![image](https://user-images.githubusercontent.com/30430227/184519177-b93e5567-a80c-49ed-81d7-a5d714ea4ab0.png)
+
+`Snap > Extrude`
+
+![image](https://user-images.githubusercontent.com/30430227/184519103-32b0ad9f-f098-4953-9535-ec9ae65fc6ee.png)
+![image](https://user-images.githubusercontent.com/30430227/184519191-25d071bb-d025-406a-9e71-060ee48295d4.png)
+![image](https://user-images.githubusercontent.com/30430227/184519213-11e7f6f7-6683-47ef-82b6-d36f5ce62185.png)
+
+
+3. Spline IK Constraint
+
+![image](https://user-images.githubusercontent.com/30430227/184519251-de5b1ea0-59dc-411d-b0f9-b49b36746ddb.png)
+![image](https://user-images.githubusercontent.com/30430227/184519260-717d7a7a-f4ad-4e8d-89c6-47cfd152d92a.png)
+![image](https://user-images.githubusercontent.com/30430227/184519303-36f42f62-043c-4b70-9147-5688a6c93349.png)
+
+
+4. Control bone 생성 >Clear Parent > Move Layer > 기본본,Control 본 deform Off(Alt-클릭)
+
+![image](https://user-images.githubusercontent.com/30430227/184519387-986c85a6-2991-44e9-ba7a-f606f850499d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/184519428-5214e458-55ec-485e-9170-f4b8d2a4b9dd.png)
+![image](https://user-images.githubusercontent.com/30430227/184519440-ad7d7d0b-0c3a-4545-8276-1989718bcea3.png)
+
+
+5. Cureve Hook-Pose Mode에서 본 선택 후 Shift-커브 선택, Edit모드에서 Ctrl-H > Parent 
+
+![image](https://user-images.githubusercontent.com/30430227/184519566-c0a670ed-665f-4c9e-931f-3b95385849ec.png)
+![image](https://user-images.githubusercontent.com/30430227/184519577-1fc1f1d8-36ed-46f5-b99f-8d274329bac7.png)
+![image](https://user-images.githubusercontent.com/30430227/184519585-f4ee4a26-4063-4dd2-b749-b67c00efb57d.png)
+
+
+![image](https://user-images.githubusercontent.com/30430227/184519474-b459a44d-a5b5-4f94-8b2d-9df04a8cc764.png)
+![image](https://user-images.githubusercontent.com/30430227/184519490-ab108ea5-30a9-441e-9ad1-37735938c6d7.png)
+![image](https://user-images.githubusercontent.com/30430227/184519501-ba306950-211b-465f-8339-a7f10cf8fe2d.png)
+
+
+6. 커브 parent Armatrue
+
+![image](https://user-images.githubusercontent.com/30430227/184519673-61f14734-1238-4d63-af7b-8ef0e3996c5f.png)
+
+
+7. Custom Object 
+
+`Empty Sphere`
+
+![image](https://user-images.githubusercontent.com/30430227/184519693-7df6e202-f7e8-423a-89fb-1c4af8570d04.png)
+
+![image](https://user-images.githubusercontent.com/30430227/184519722-61d8aafc-f332-47b9-803b-23bdf6ec1864.png)
+![image](https://user-images.githubusercontent.com/30430227/184519714-ee433b00-cb6e-40b5-83b1-8e18355d918b.png)
+
+`나머지 컨트롤본 전부선택 후 Copy Attribute 'Ctrl-C'`
+
+![image](https://user-images.githubusercontent.com/30430227/184519816-9cb5cae3-e9f5-46e1-bb12-f1760fec7798.png)
+
+![image](https://user-images.githubusercontent.com/30430227/184519832-9d3cabcb-6418-4684-8415-29f6b0d204b0.png)
+![image](https://user-images.githubusercontent.com/30430227/184519838-1c344328-99d5-44a5-a05f-41e1222faf65.png)
+
+![image](https://user-images.githubusercontent.com/30430227/184519883-63f2b05e-f92a-45b9-9ea1-888d24d668ad.png)
 
 
 
+줄 흔드는 타이밍 
+------------------
+
+`Curve Thickness - Not GP Line`
+
+![image](https://user-images.githubusercontent.com/30430227/184520080-0d427de1-717c-43ee-94d9-00229f7d215c.png)
+
+
+`7, 13, 19, 25, 31 웹이브가 흐른다 `
+
+![image](https://user-images.githubusercontent.com/30430227/184520285-49f5467e-512b-498e-b525-8a79b84c8b45.png)
+
+![image](https://user-images.githubusercontent.com/30430227/184520306-de45ad23-e772-4ba7-8c7e-b8a890c5075b.png)
+
+
+
+그리스펜슬 팔 리깅
+-----------------
+
+![image](https://user-images.githubusercontent.com/30430227/184520463-195e97a4-c65c-4a4e-9d6c-3f57868ca789.png)
+
+`Lattice > Armature`
+
+![image](https://user-images.githubusercontent.com/30430227/184520519-dd5bd440-d023-4b04-ae84-be10f68b8144.png)
+![image](https://user-images.githubusercontent.com/30430227/184520542-613f9efa-d42a-41ce-a904-7f73190be79b.png)
+
+
+`래티스 Armature Modifier > Vertex Group`
+
+![image](https://user-images.githubusercontent.com/30430227/184520706-8a15fb08-f001-49d9-9185-4aa71006cf16.png)
+![image](https://user-images.githubusercontent.com/30430227/184520708-a71ff7b7-095e-45a2-a586-3fd5514a5fb8.png)
+
+![image](https://user-images.githubusercontent.com/30430227/184520754-c813b595-6d98-4b10-9dfb-fa04a4953eb2.png)
+![image](https://user-images.githubusercontent.com/30430227/184520699-fe167ba6-f4d8-4ae0-8bd4-a50aa07fb073.png)
+
+
+`그리스펜슬 >Lattice Modifer > Vertex Group`
+
+![image](https://user-images.githubusercontent.com/30430227/184520819-767e2a9d-4b13-479f-acbd-dc58fd1432ec.png)
+
+![image](https://user-images.githubusercontent.com/30430227/184520918-f2cfc63e-9f0c-4217-818a-85ae60a48367.png)
+![image](https://user-images.githubusercontent.com/30430227/184520913-d7430525-7961-4ef4-a605-a5e79ea6190e.png)
+
+`Hand Relation Bone`
+
+![image](https://user-images.githubusercontent.com/30430227/184520934-0f7ec808-99ea-4683-a7be-a3c020c68454.png)
+![image](https://user-images.githubusercontent.com/30430227/184520966-aeede4fb-4b0d-4a93-b259-a3252b74595a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/184520962-b769b60c-087a-44b9-a0f3-0a8cd44d40cb.png)
+
+
+`Bendy Bone > Lattice Interpolation : Linear`
+
+![image](https://user-images.githubusercontent.com/30430227/184521008-78dc78ef-aa48-43e0-b480-92431c5a9584.png)
+
+![image](https://user-images.githubusercontent.com/30430227/184521042-c173437c-f29a-4579-9301-917ca422f38d.png)
+![image](https://user-images.githubusercontent.com/30430227/184521052-99f364e1-3cb0-4ddd-bf49-f7abd63c3ffa.png)
+
+![image](https://user-images.githubusercontent.com/30430227/184521081-f7504ca6-9060-485e-9960-4642bbe166e9.png)
 
 
