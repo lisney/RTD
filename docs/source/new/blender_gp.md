@@ -269,7 +269,23 @@ Follow Path
 
 
 
+손 흔들기 
+---------
 
+![image](https://user-images.githubusercontent.com/30430227/184517556-d0ec6535-04a3-4770-874c-18ba97dc15a3.png)
+![image](https://user-images.githubusercontent.com/30430227/184517561-e7982b93-29be-4594-b011-c181c6987eac.png)
+
+`7, 13, 19`
+
+![image](https://user-images.githubusercontent.com/30430227/184517650-55322eda-2e66-4823-8aca-2e36fe4d45da.png)
+![image](https://user-images.githubusercontent.com/30430227/184517672-3498d4a9-ada2-4be8-90e5-1f644017ea8b.png)
+![image](https://user-images.githubusercontent.com/30430227/184517737-61c3ecbb-6a73-4751-8205-83e950909fe0.png)
+
+`25, 31 - 1번 복사 > loop(Shift-E)`
+
+![image](https://user-images.githubusercontent.com/30430227/184517755-ebb27a57-547f-446e-8c63-cf05b9989fdb.png)
+
+![image](https://user-images.githubusercontent.com/30430227/184517894-789e2d34-969f-4907-93fb-11936987d912.png)
 
 
 
