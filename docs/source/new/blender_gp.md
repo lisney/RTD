@@ -432,3 +432,38 @@ Spline IK 리깅
 ![image](https://user-images.githubusercontent.com/30430227/184521081-f7504ca6-9060-485e-9960-4642bbe166e9.png)
 
 
+실전 후속동작 
+-----------
+
+![image](https://user-images.githubusercontent.com/30430227/184782541-4844800f-cc45-4d17-8957-7ad7854ce802.png)
+
+`5, 6 - 확 당기는 느낌(프레임간격 좁게)`
+
+![image](https://user-images.githubusercontent.com/30430227/184782828-47aea1fe-350c-4db3-828c-a1859d941941.png)
+![image](https://user-images.githubusercontent.com/30430227/184782934-2483dbbf-747a-4983-9e21-44b39f97586f.png)
+
+`17, 21`
+
+![image](https://user-images.githubusercontent.com/30430227/184783402-ee258747-9a05-482f-98e6-6f6daa472bf3.png)
+![image](https://user-images.githubusercontent.com/30430227/184783434-6943a7ef-7f9f-41a9-be53-15f158b07273.png)
+
+
+`24, 27 - 후속 동작, 30, 32, 34 - 푸딩처럼 흔들흔들`
+
+![image](https://user-images.githubusercontent.com/30430227/184783648-7436947b-74d8-4845-af83-2bf049059d84.png)
+![image](https://user-images.githubusercontent.com/30430227/184783685-e0c8a43a-be24-4034-945a-42edcc8e24f9.png)
+![image](https://user-images.githubusercontent.com/30430227/184784033-4234eba4-7d69-49ea-bfd2-a679b1e973b1.png)
+![image](https://user-images.githubusercontent.com/30430227/184784052-9b7b733c-736a-48b8-8f03-4c65a1380ad1.png)
+![image](https://user-images.githubusercontent.com/30430227/184784074-ada441b8-3d16-46f0-8fba-20c405cf0897.png)
+![image](https://user-images.githubusercontent.com/30430227/184784329-a38c24db-a2aa-468a-88f1-251db7522e53.png)
+
+`10-17 확 땅기는 느낌`
+
+![image](https://user-images.githubusercontent.com/30430227/184784674-e16c43b1-2e20-458a-ab60-0bb54261cf2b.png)
+![image](https://user-images.githubusercontent.com/30430227/184784698-abbf408d-8797-49b7-be62-8ca01513019f.png)
+
+
+
+
+
+
