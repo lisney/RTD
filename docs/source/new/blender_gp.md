@@ -530,6 +530,33 @@ Spline IK 리깅
 
 
 
+머리카락 날리는 타이밍 - Sculpt
+---------------------
+
+![image](https://user-images.githubusercontent.com/30430227/184811650-c73a2c74-9d64-47a1-919b-3d94b7f4f1a2.png)
+![image](https://user-images.githubusercontent.com/30430227/184811711-68d95705-175e-403f-876c-081e584ba09d.png)
+![image](https://user-images.githubusercontent.com/30430227/184811734-8473a063-554c-4d37-9faa-aea0f2e2b308.png)
+
+![image](https://user-images.githubusercontent.com/30430227/184811757-9f79d6ae-f4c8-4a39-8a30-9ebf5ecb3264.png)
+![image](https://user-images.githubusercontent.com/30430227/184811777-46d8d7b3-b144-4084-845d-e883fe33eac1.png)
+![image](https://user-images.githubusercontent.com/30430227/184811791-1c5c1802-7b5c-4a0e-a01b-bb6f933586f5.png)
+
+
+
+깃발 
+-----
+
+![image](https://user-images.githubusercontent.com/30430227/184835481-369da645-e62b-49f1-abdc-e414e43e8fe6.png)
+
+`원화 1, 3`
+
+![image](https://user-images.githubusercontent.com/30430227/184835776-2cad9594-bb94-4e92-bfd0-ff503beb101e.png)
+![image](https://user-images.githubusercontent.com/30430227/184835947-4318b92c-7303-432e-8432-a345f9e917b2.png)
+
+`BreakDown 2, 4`
+
+![image](https://user-images.githubusercontent.com/30430227/184841361-fffcf0aa-c602-4f7f-a8ac-b3380064e0f9.png)
+![image](https://user-images.githubusercontent.com/30430227/184841392-38d791c3-4146-4e12-84b3-5fb58c73eddf.png)
 
 
 
