@@ -432,7 +432,7 @@ Spline IK 리깅
 ![image](https://user-images.githubusercontent.com/30430227/184521081-f7504ca6-9060-485e-9960-4642bbe166e9.png)
 
 
-실전 후속동작 
+후속동작1 
 -----------
 
 ![image](https://user-images.githubusercontent.com/30430227/184782541-4844800f-cc45-4d17-8957-7ad7854ce802.png)
@@ -461,6 +461,29 @@ Spline IK 리깅
 
 ![image](https://user-images.githubusercontent.com/30430227/184784674-e16c43b1-2e20-458a-ab60-0bb54261cf2b.png)
 ![image](https://user-images.githubusercontent.com/30430227/184784698-abbf408d-8797-49b7-be62-8ca01513019f.png)
+
+
+후속동작2
+---------
+
+![image](https://user-images.githubusercontent.com/30430227/184787187-20b169f1-e65c-40d1-8f98-3f23e65b03d8.png)
+
+
+`5, 6`
+
+![image](https://user-images.githubusercontent.com/30430227/184787374-9e97bcfc-60cd-4579-99ec-865b83a62c87.png)
+
+
+`7, 16 > Interpolate > 키프레임 이동`
+
+![image](https://user-images.githubusercontent.com/30430227/184787780-51e96b20-ede7-4f09-80e8-988be4b832fc.png)
+![image](https://user-images.githubusercontent.com/30430227/184787880-586f7ab1-c13e-4c6c-a905-d0443488f1a4.png)
+
+![image](https://user-images.githubusercontent.com/30430227/184788798-5f45c9c1-16ab-4528-9c23-30bcabcb7c48.png)
+![image](https://user-images.githubusercontent.com/30430227/184788823-5b1d308e-582c-4616-a728-cd9d16733deb.png)
+
+
+
 
 
 
