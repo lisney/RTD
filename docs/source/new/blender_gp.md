@@ -484,6 +484,24 @@ Spline IK 리깅
 
 
 
+망치 회전
+---------------
+
+![image](https://user-images.githubusercontent.com/30430227/184789999-ebeab689-3c67-47e5-80e0-b2e5f55065e7.png)
+
+`1, 19, 42`
+
+![image](https://user-images.githubusercontent.com/30430227/184790986-dc164a0c-4fbd-497c-bba4-ad49c99a9d4a.png)
+![image](https://user-images.githubusercontent.com/30430227/184791066-ffc37920-7fb0-45ae-bb53-4b5cb9a12fc5.png)
+![image](https://user-images.githubusercontent.com/30430227/184791134-e7573dd2-cbf0-4e6a-bdd7-195ddc2f3de1.png)
+
+`Path Animation 조정`
+
+![image](https://user-images.githubusercontent.com/30430227/184791581-d39452a7-0b02-49d8-b950-6c4867744327.png)
+![image](https://user-images.githubusercontent.com/30430227/184791648-15fe1087-4fe8-42d8-bfa7-d88c35d9d8d4.png)
+
+
+
 
 
 
