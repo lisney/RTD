@@ -502,6 +502,33 @@ Spline IK 리깅
 
 
 
+못 박기
+-------
+
+![image](https://user-images.githubusercontent.com/30430227/184800513-c69d81bc-cc29-4eba-b132-110cf9e60d77.png)
+
+`16준비동작, 18액션, 22반동-후속동작`
+
+![image](https://user-images.githubusercontent.com/30430227/184800668-72e018be-6a15-4aec-a871-41a4b8c9d36c.png)
+![image](https://user-images.githubusercontent.com/30430227/184800809-f4eeae7c-c7be-43dc-8276-de0c768fef7a.png)
+![image](https://user-images.githubusercontent.com/30430227/184801039-c425ff13-129f-41ea-95ea-774c58475a2a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/184800708-131b0638-e2ca-4af2-bc81-decf6c9eaf43.png)
+
+
+`31, 37준비동작, 39액션`
+
+![image](https://user-images.githubusercontent.com/30430227/184801504-69864413-c0ef-42b2-ad7b-3770d890b5a1.png)
+![image](https://user-images.githubusercontent.com/30430227/184801571-72a3a934-16f3-4ed4-828b-567186a8db43.png)
+![image](https://user-images.githubusercontent.com/30430227/184801606-9d5b3538-3c29-4fc8-bed8-e6ae399100c7.png)
+
+
+`못 18, 20, 39, 41`
+
+![image](https://user-images.githubusercontent.com/30430227/184802193-922c83e2-af70-4998-99e9-91681bd0b6ed.png)
+![image](https://user-images.githubusercontent.com/30430227/184802237-4af35331-2ab7-45b1-a622-07087ae285dd.png)
+
+
 
 
 
