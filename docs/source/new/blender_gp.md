@@ -560,5 +560,26 @@ Spline IK 리깅
 
 
 
+To Mesh
+------------
 
+![image](https://user-images.githubusercontent.com/30430227/184871291-b266dc42-62df-4c20-9f27-4b29137406ee.png)
+![image](https://user-images.githubusercontent.com/30430227/184871158-9316e2db-21b6-49d7-a66e-07ca5c73a569.png)
+
+`to Path > to Mesh`
+
+![image](https://user-images.githubusercontent.com/30430227/184871416-c274836e-3de6-4ce3-b2ae-00c771c4a338.png)
+
+![image](https://user-images.githubusercontent.com/30430227/184871782-93ac2002-5fd3-4c60-bc62-f778d8085992.png)
+![image](https://user-images.githubusercontent.com/30430227/184871759-b0bdc747-7162-461c-b5f2-1a9e08e03954.png)
+![image](https://user-images.githubusercontent.com/30430227/184871575-a5b94d43-8f6e-40e9-8999-6d7f57181232.png)
+
+
+`Check Deselect > Invert Select Ctrl-I > dissolve Ctrl-X`
+
+![image](https://user-images.githubusercontent.com/30430227/184871937-b8d4bedf-d1e8-497c-9a78-d13d37360765.png)
+![image](https://user-images.githubusercontent.com/30430227/184872038-b0ecb394-8ba1-40d2-b496-8d70d6497648.png)
+![image](https://user-images.githubusercontent.com/30430227/184872190-ecc42d0c-782f-414f-bd1e-1ade9f200279.png)
+
+![image](https://user-images.githubusercontent.com/30430227/184872022-45d0f72e-6c59-4558-b203-d7822301c252.png)
 
