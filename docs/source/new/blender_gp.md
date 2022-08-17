@@ -1,6 +1,7 @@
 Blender GP
 ==============
 
+`레이어 옮김 Edit Mode 'M'`
 
 Trim - Cutter -선정리
 ------------------
@@ -787,6 +788,21 @@ Rigify Rig
 ![image](https://user-images.githubusercontent.com/30430227/185070590-2e9bd091-6564-4f77-92d0-b5aa4362bf39.png)
 ![image](https://user-images.githubusercontent.com/30430227/185070688-2469531f-2564-48be-b02c-7f6b0e860aff.png)
 
+
+
+갈대 - 호 운동
+--------------
+
+![image](https://user-images.githubusercontent.com/30430227/185084843-790c7150-cd9d-4f33-8c70-52e8b168b7d1.png)
+![image](https://user-images.githubusercontent.com/30430227/185085653-21d27e03-5c6f-4e6c-81f2-85e2543515dc.png)
+![image](https://user-images.githubusercontent.com/30430227/185085782-cd5f0def-41e3-46dd-afd4-4349ad6c77df.png)
+![image](https://user-images.githubusercontent.com/30430227/185085883-70933e1b-0b9d-4a02-86a1-ab955d6a4bb1.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185086120-75567972-bff0-41b5-8823-9db7e0b19280.png)
+![image](https://user-images.githubusercontent.com/30430227/185086272-838770b7-fa58-4d02-961b-3cd1484da038.png)
+![image](https://user-images.githubusercontent.com/30430227/185086297-df329473-01f6-47e4-b488-e79af37fc595.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185086571-850c29fd-1c1a-442c-bfb2-467e6e36b5c3.png)
 
 
 
