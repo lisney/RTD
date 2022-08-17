@@ -676,6 +676,96 @@ Eye Rig
 ![image](https://user-images.githubusercontent.com/30430227/185038475-3f97e3ec-1326-4b0f-9852-80aa784b1c4c.png)
 
 
+Rigify Rig
+-------------
+
+1. limbs.simple_tentacle(body2, neck1)
+
+![image](https://user-images.githubusercontent.com/30430227/185044945-f6a66bb1-6877-4310-a5ee-be7e06bb6013.png)
+![image](https://user-images.githubusercontent.com/30430227/185045358-d77a9cf8-03eb-4c47-ae9b-f88302a95cc1.png)
+![image](https://user-images.githubusercontent.com/30430227/185045497-ed155657-5c9a-4791-9112-43908fa3f5ef.png)
+
+
+2. New tentacle + IK.L 본 추가
+
+![image](https://user-images.githubusercontent.com/30430227/185047427-fabf4a52-099c-4084-8789-a02c2f8812cf.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185047455-120d8a6a-231b-4517-b218-216e12fdd649.png)
+
+
+3. Symmetrize
+
+![image](https://user-images.githubusercontent.com/30430227/185048038-34b938a5-714f-4354-b820-fb65fe38ff96.png)
+
+
+4. Pose Mode
+
+![image](https://user-images.githubusercontent.com/30430227/185048115-799a388f-439e-4c04-a155-d15516576bc2.png)
+![image](https://user-images.githubusercontent.com/30430227/185048447-51517406-1208-4488-b78b-122afa2ba801.png)
+![image](https://user-images.githubusercontent.com/30430227/185048266-379906d2-6005-484f-a2c2-7f4e928f018e.png)
+
+
+5. Generate Rig
+
+`Delete Constraint > IK > Copy Rotation`
+
+![image](https://user-images.githubusercontent.com/30430227/185049358-8bcc7788-eedf-4b37-89c7-45a33fe2ed26.png)
+![image](https://user-images.githubusercontent.com/30430227/185049431-75797c6e-113f-4551-943c-cb51715d5bdc.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185049523-58946955-b0ee-444f-8334-20334cb3eef4.png)
+![image](https://user-images.githubusercontent.com/30430227/185049734-a27a117c-550c-4f7b-87fb-646e2266e891.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185050108-ef784dcc-1576-4ea1-8c13-50c2081e018d.png)
+![image](https://user-images.githubusercontent.com/30430227/185050135-777cd6c1-3922-4b2d-be07-654c7bb9ed8b.png)
+
+
+6. Edit Mode
+
+`Copy Roll Angle`
+
+![image](https://user-images.githubusercontent.com/30430227/185050864-b0a1160b-05d8-482c-8109-296dbb806e56.png)
+![image](https://user-images.githubusercontent.com/30430227/185051000-43bb53f6-d856-4446-9328-d4531169268e.png)
+![image](https://user-images.githubusercontent.com/30430227/185051027-06498958-2145-4b5b-800d-37f2adc53e19.png)
+
+
+`발 좌우 뒤집히게(IK 타겟 좌우 움직여본다) , Z축 체크 해제`
+
+![image](https://user-images.githubusercontent.com/30430227/185051627-eb5d5ab9-cb2d-45d9-adb3-c8a9db1f1c07.png)
+![image](https://user-images.githubusercontent.com/30430227/185051671-007ff5bb-d025-4510-b819-5b59011d0a54.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185051723-5dfcd03e-dc02-446d-8697-9a15a6f593f3.png)
+![image](https://user-images.githubusercontent.com/30430227/185051759-d7dbb1ea-2236-4adc-bdb8-e81d578fd894.png)
+
+
+7. Empty Group
+
+![image](https://user-images.githubusercontent.com/30430227/185052825-238471ee-29b7-46a9-93ce-533b40724d09.png)
+![image](https://user-images.githubusercontent.com/30430227/185052726-1fb8fd93-7cf8-402f-b45f-9071e2480960.png)
+
+
+`Weight`
+
+![image](https://user-images.githubusercontent.com/30430227/185053042-9240b0b6-16ae-4ac4-8bc1-4f1da616f7f4.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185054427-bec92e83-ac24-46ff-8f8e-8b032f928ee8.png)
+![image](https://user-images.githubusercontent.com/30430227/185054379-a447cd4f-15f1-4fd4-8b4e-ae54da10d151.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185054702-e526e42e-cc90-40f1-a71c-f670223bb3fc.png)
+![image](https://user-images.githubusercontent.com/30430227/185054729-1bb3306e-b717-4ffa-99e5-584f8ae92cb4.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185055253-16c0b3e1-b4a9-4a77-89fe-a64c447efc4c.png)
+![image](https://user-images.githubusercontent.com/30430227/185055274-1cba91aa-0f55-4e67-8641-622e946583d5.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185055416-8aca4c15-ca0c-499c-9839-0310aff27d77.png)
+![image](https://user-images.githubusercontent.com/30430227/185055499-ee33c674-c38c-4283-9db5-a29aeae26537.png)
+![image](https://user-images.githubusercontent.com/30430227/185055611-19bfa6df-2ca5-4dc3-80e4-2c332d7d9094.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185055641-b53c0618-4ade-4bad-bf38-3cde5a842bfc.png)
+![image](https://user-images.githubusercontent.com/30430227/185055716-a0c3662c-facc-432b-a371-6a9cb40f44f6.png)
+![image](https://user-images.githubusercontent.com/30430227/185055741-708d45cd-4c01-4191-a8ab-21ef6da2245a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185055865-c25d29bd-f9dc-4447-b26a-e33819418c1d.png)
+
 
 
 
