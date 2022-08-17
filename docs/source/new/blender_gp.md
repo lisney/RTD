@@ -768,6 +768,24 @@ Rigify Rig
 
 
 
+밀어내기 
+------------
+
+`12`
+
+![image](https://user-images.githubusercontent.com/30430227/185067888-a73da6cb-0a82-47f9-8792-03379bdf5ac4.png)
+
+`19, 20, 23`
+
+![image](https://user-images.githubusercontent.com/30430227/185068659-1a3d83e9-9f42-4a68-8ee3-88468da07b25.png)
+![image](https://user-images.githubusercontent.com/30430227/185069164-48c5a97d-7ba1-417b-8a3a-d28a2800cb57.png)
+
+`31, 34, 36, 39`
+
+![image](https://user-images.githubusercontent.com/30430227/185069631-8d93f2d0-8977-4f58-b2df-04209ecfdafe.png)
+![image](https://user-images.githubusercontent.com/30430227/185070084-958743fe-5133-4c82-ba52-281bfbcab27b.png)
+![image](https://user-images.githubusercontent.com/30430227/185070590-2e9bd091-6564-4f77-92d0-b5aa4362bf39.png)
+![image](https://user-images.githubusercontent.com/30430227/185070688-2469531f-2564-48be-b02c-7f6b0e860aff.png)
 
 
 
