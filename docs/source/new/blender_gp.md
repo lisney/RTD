@@ -616,6 +616,69 @@ Lattice - Bone Envelope
 
 
 
+Eye Rig
+-----------
+
+`센터 정렬`
+
+![image](https://user-images.githubusercontent.com/30430227/185032641-475aec35-f460-47d0-829e-f3616891dfd0.png)
+
+`Object Mode`
+
+![image](https://user-images.githubusercontent.com/30430227/185032782-b44e637e-e93d-4f0f-a749-0c7d2e66426e.png)
+![image](https://user-images.githubusercontent.com/30430227/185032815-af72df3e-cbcb-4d6f-be04-f1fa3f4c14e6.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185032806-873c934e-1ab7-4fbe-93df-938fad47e575.png)
+
+`Dup Layer`
+
+![image](https://user-images.githubusercontent.com/30430227/185033432-46b5a60d-7135-4faa-9565-da405b9c5f40.png)
+![image](https://user-images.githubusercontent.com/30430227/185033476-d77c9b0c-1221-4372-9590-86e1b9b2d1fb.png)
+
+`Pupil, Rim Mask(Eye)`
+
+![image](https://user-images.githubusercontent.com/30430227/185033923-70182c20-8a67-4fb3-941a-b4be556a6c6d.png)
+![image](https://user-images.githubusercontent.com/30430227/185033960-67980dd4-a5fb-454b-b787-696cc9a1f604.png)
+
+`Add Eyelid Layer`
+
+![image](https://user-images.githubusercontent.com/30430227/185034372-b4fd390d-ef17-41d8-a00e-522ea12b59b8.png)
+![image](https://user-images.githubusercontent.com/30430227/185034483-27bbe9b2-881e-4f6f-90e0-84e4d4434423.png)
+![image](https://user-images.githubusercontent.com/30430227/185034498-56571efd-33ed-4c60-b3c7-2968bcb7c469.png)
+
+`Deform - UnCheck Alt-Click > Parent`
+
+![image](https://user-images.githubusercontent.com/30430227/185036031-e438d126-bbf8-46b0-91fc-7a8401e1e209.png)
+![image](https://user-images.githubusercontent.com/30430227/185036096-56782771-ba27-4071-b704-a6590b057e34.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185036232-03c578d8-4896-4743-833f-7e77928eb110.png)
+![image](https://user-images.githubusercontent.com/30430227/185036157-0e966360-31c9-4eee-9133-af24ec7feebc.png)
+
+
+`Constraint - Copy Location, Stretch to`
+
+![image](https://user-images.githubusercontent.com/30430227/185036481-faaf53c9-2354-416a-8920-99cfa29cbf94.png)
+![image](https://user-images.githubusercontent.com/30430227/185036542-571ac0c7-f810-4ce3-8421-72d9c10cf6dd.png)
+
+
+`Parent - Empty Group`
+
+![image](https://user-images.githubusercontent.com/30430227/185036873-dd8c16c9-7fd2-497e-8444-841b64044caf.png)
+![image](https://user-images.githubusercontent.com/30430227/185037122-a6442308-b089-49ad-8002-72d424943f05.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185037240-818bc284-a5d1-4281-809a-df266873ee1a.png)
+![image](https://user-images.githubusercontent.com/30430227/185037285-087e60b2-08f5-4239-8e5a-3c3da73bb838.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185037332-86d3c333-b5c9-4d47-af25-70017e26fd49.png)
+![image](https://user-images.githubusercontent.com/30430227/185037351-bc55d1a3-0335-42c1-88a7-d975fb159801.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185038459-24a733c5-833a-46e1-868a-32529ac26acd.png)
+![image](https://user-images.githubusercontent.com/30430227/185038475-3f97e3ec-1326-4b0f-9852-80aa784b1c4c.png)
+
+
+
+
+
 
 
 
