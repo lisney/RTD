@@ -583,3 +583,15 @@ To Mesh
 
 ![image](https://user-images.githubusercontent.com/30430227/184872022-45d0f72e-6c59-4558-b203-d7822301c252.png)
 
+
+
+Curve Editing
+--------------
+
+`Resolution - 버텍스의 갯수(생성 후 변경가능), Threshold - 낮을 수록 컨트롤 포인트 많아진다(변경불가), CornerAngle - 클수록 날카롭지않은 곡선`
+
+`Adaptive - 모서리 각짐`
+
+![image](https://user-images.githubusercontent.com/30430227/185009182-c2e589d4-d134-484d-beef-f575696660b0.png)
+
+
