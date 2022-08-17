@@ -595,3 +595,27 @@ Curve Editing
 ![image](https://user-images.githubusercontent.com/30430227/185009182-c2e589d4-d134-484d-beef-f575696660b0.png)
 
 
+
+Shrinkwrap Modifier 
+--------------
+
+![image](https://user-images.githubusercontent.com/30430227/185022652-0a97890e-eb64-4732-a8f8-5b6416961739.png)
+![image](https://user-images.githubusercontent.com/30430227/185022667-b810545b-1246-4307-94e9-3b36b7378f56.png)
+
+
+
+Lattice - Bone Envelope
+-----------------------
+
+![image](https://user-images.githubusercontent.com/30430227/185026544-a9712e9a-8d1e-45ea-824f-3642aa58b8d1.png)
+![image](https://user-images.githubusercontent.com/30430227/185026642-1514a994-2df5-4b02-b4c8-01837d7099b0.png)
+![image](https://user-images.githubusercontent.com/30430227/185026567-949e227a-89b5-4665-af2b-362f282bfaa4.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185027190-34a031f5-3658-4bbf-bfd4-ff62b5745ea5.png)
+![image](https://user-images.githubusercontent.com/30430227/185027257-3c3cf5a7-0c02-4468-86cc-b5124637e9b2.png)
+
+
+
+
+
+
