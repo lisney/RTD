@@ -793,6 +793,8 @@ Rigify Rig
 갈대 - 호 운동
 --------------
 
+1. 리깅 
+
 ![image](https://user-images.githubusercontent.com/30430227/185084843-790c7150-cd9d-4f33-8c70-52e8b168b7d1.png)
 ![image](https://user-images.githubusercontent.com/30430227/185085653-21d27e03-5c6f-4e6c-81f2-85e2543515dc.png)
 ![image](https://user-images.githubusercontent.com/30430227/185085782-cd5f0def-41e3-46dd-afd4-4349ad6c77df.png)
@@ -803,6 +805,32 @@ Rigify Rig
 ![image](https://user-images.githubusercontent.com/30430227/185086297-df329473-01f6-47e4-b488-e79af37fc595.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/185086571-850c29fd-1c1a-442c-bfb2-467e6e36b5c3.png)
+
+
+2. 액션 - 좌우로 키를 모아줘야 회전하는 느낌이 난다
+
+`1, 7, 13, 19`
+
+![image](https://user-images.githubusercontent.com/30430227/185096372-589677f1-8514-4b0a-986c-e69863fbc988.png)
+![image](https://user-images.githubusercontent.com/30430227/185096515-1e6efd8e-0e98-43d7-bc3b-a88f9de6b504.png)
+![image](https://user-images.githubusercontent.com/30430227/185097565-2fc7d826-e4e3-4ff1-b3d9-b0e870d49267.png)
+![image](https://user-images.githubusercontent.com/30430227/185096960-3bde3650-6a70-4be1-9685-75cff33431dd.png)
+
+`25, 31, 37, 43`
+
+![image](https://user-images.githubusercontent.com/30430227/185097223-c61a09f9-481c-470f-9a90-34a719e86b0d.png)
+![image](https://user-images.githubusercontent.com/30430227/185097707-9d852423-1c0f-4939-a065-657084b0369d.png)
+![image](https://user-images.githubusercontent.com/30430227/185097958-3a7bbf19-2631-4d47-aabb-3a0321011311.png)
+![image](https://user-images.githubusercontent.com/30430227/185098120-f709f2c8-d585-43b3-bdcf-09fd4f3b58a1.png)
+
+`49, 56 - 1번 복제`
+
+
+
+
+
+
+
 
 
 
