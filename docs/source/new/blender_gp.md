@@ -884,6 +884,8 @@ Head Turn
 
 ![image](https://user-images.githubusercontent.com/30430227/185299001-a67bc945-d497-4d6d-84e2-141f0c5566e4.png)
 
+`눈썹은 방향을 반대로 할 것!!`
+
 ![image](https://user-images.githubusercontent.com/30430227/185299388-238adce0-1cb7-46d2-afc1-f1c96266abf8.png)
 ![image](https://user-images.githubusercontent.com/30430227/185299287-15d64e08-9a3e-4d0d-b7a4-ae016573253e.png)
 ![image](https://user-images.githubusercontent.com/30430227/185298906-374078b7-47ac-4a81-a70b-c394675c99d7.png)
@@ -927,13 +929,108 @@ Head Turn
 ![image](https://user-images.githubusercontent.com/30430227/185319567-b79eda82-5722-4e86-ace0-a1fb46f1ca55.png)
 ![image](https://user-images.githubusercontent.com/30430227/185322799-b64ec8ee-79cd-4bd4-9950-0e90188b7520.png)
 
-`Hair 아래서 위로 1, 0.75, 0.5//Hair.001 위에서 아래로 1, 0.5, 0.25`
+`Lattice 웨이트, Hair 아래서 위로 1, 0.75, 0.5//Hair.001 위에서 아래로 1, 0.5, 0.25`
 
 ![image](https://user-images.githubusercontent.com/30430227/185323142-4989d547-abdc-4c5a-81e1-ed873f70c874.png)
 ![image](https://user-images.githubusercontent.com/30430227/185324434-a53bca80-b98d-4f0d-840e-68d783d185dc.png)
 
 
 7. 컨트롤 본 - 본 레이어 다르게
+
+![image](https://user-images.githubusercontent.com/30430227/185341907-8a69a3c0-c393-4827-bbe6-747d5c9280d9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185342199-22197c2c-17bb-4f00-ab3f-25cc900f31ad.png)
+![image](https://user-images.githubusercontent.com/30430227/185342278-b22e2a46-fe28-47e7-931b-9cfcb0745a6f.png)
+
+
+`Brow`
+
+![image](https://user-images.githubusercontent.com/30430227/185345228-798f782d-540c-4b80-a9f1-cc8d6d88b6d6.png)
+![image](https://user-images.githubusercontent.com/30430227/185345417-f942548a-442b-4db1-a5e1-c7064320a42c.png)
+![image](https://user-images.githubusercontent.com/30430227/185348681-1a8c4ece-61b6-4f5a-b5e5-0e94d6ffef06.png)
+
+
+`침고 Local With Parent(본에만 있는 옵션) 선택하면, 상위 본의 이동에도 영향을 받는다`
+
+![image](https://user-images.githubusercontent.com/30430227/185345808-365da4e5-e919-435f-82f9-7057ca6c5e7e.png)
+![image](https://user-images.githubusercontent.com/30430227/185348250-4aa173c9-dd4b-434b-b881-3fd67b22672a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185348344-673bab7c-ee5f-472e-9f30-41f7626e7c8a.png)
+![image](https://user-images.githubusercontent.com/30430227/185348429-4a97cab7-4f10-4490-8c99-a047c7935ae7.png)
+
+`축 제한`
+
+![image](https://user-images.githubusercontent.com/30430227/185349342-73aa1b3d-00ca-41af-9c69-7adf6c3d2ff8.png)
+
+
+`Eye 컨트롤1`
+
+![image](https://user-images.githubusercontent.com/30430227/185352890-405241d6-0d99-41db-b95e-b80278f79de8.png)
+![image](https://user-images.githubusercontent.com/30430227/185353222-98477961-6536-463e-aff0-cbb10945aade.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185353417-9aa4edea-8018-49f2-a8db-b98388f4b32d.png)
+
+`Eye 컨트롤2 - Offset 체크(부모 움직임에 영향을 받고, 자신도 독립적으로 움직일 수 있다)`
+
+![image](https://user-images.githubusercontent.com/30430227/185354738-56d8512d-4621-4430-9d98-403bad15f2ac.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185355141-d2a1330b-ebbf-4ca3-9308-35e737bab112.png)
+![image](https://user-images.githubusercontent.com/30430227/185356183-4f1f1dbe-9810-4263-9944-f94fc13cbd79.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185355818-454f07ec-4ddb-4e5d-9a8f-aa148751663a.png)
+
+`Limit Distance`
+
+![image](https://user-images.githubusercontent.com/30430227/185360175-fea1ba49-e6f8-4106-9278-0fed2c70f0ad.png)
+![image](https://user-images.githubusercontent.com/30430227/185360347-c7ed91bc-d967-4ee0-b33c-20353cbd295c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185360885-0a9f0a25-38c4-47de-997a-605de5e393b4.png)
+![image](https://user-images.githubusercontent.com/30430227/185360926-317e76e0-5697-4495-bdfc-5d224ba51c84.png)
+
+
+8. Action Editor
+
+`0, 50 - 반대쪽 눈도`
+
+![image](https://user-images.githubusercontent.com/30430227/185377677-e659f3aa-717f-4ede-a93b-f2467fd4d559.png)
+![image](https://user-images.githubusercontent.com/30430227/185377775-605cfa7c-c2f9-43ad-9696-9971b320811b.png)
+![image](https://user-images.githubusercontent.com/30430227/185377906-6e9ad50f-0d27-4916-9e20-3bc9e425293d.png)
+
+`Keyframe Interpolation 'T' `
+
+![image](https://user-images.githubusercontent.com/30430227/185378307-9eec0fb4-f823-4eea-8a91-91f5aecf2aa1.png)
+
+`키프레임 이동 > 'G' 50`
+
+![image](https://user-images.githubusercontent.com/30430227/185378675-d640e142-b4b6-447a-a6a7-355a66d4afc4.png)
+
+`1 프레임 - 눈 크게 뜨기`
+
+![image](https://user-images.githubusercontent.com/30430227/185378960-23426c43-9b47-429b-883f-97cc01c3633e.png)
+
+
+`Ctrl_Blink`
+
+![image](https://user-images.githubusercontent.com/30430227/185379858-fa522cde-e1fc-41ff-828f-a7f43c083e00.png)
+![image](https://user-images.githubusercontent.com/30430227/185380223-58e630ab-34a5-4093-9a92-1aaf11977959.png)
+![image](https://user-images.githubusercontent.com/30430227/185380255-e6158061-f11c-45bb-882d-ca5e9c586c7a.png)
+
+`Copy Constraint - Copy Attribute Addon 'Ctrl-C'`
+
+![image](https://user-images.githubusercontent.com/30430227/185380656-1ec70213-dc2a-41d7-91a6-1ea1e45573d6.png)
+
+
+`눈 Bone Constraint`
+
+![image](https://user-images.githubusercontent.com/30430227/185380994-37862a85-83e3-4cda-801c-39ebfd815e3b.png)
+![image](https://user-images.githubusercontent.com/30430227/185381413-41445e38-04c9-4095-a63a-e031f6cddc30.png)
+
+
+
+
+
+
+
 
 
 
