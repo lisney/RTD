@@ -827,6 +827,47 @@ Rigify Rig
 
 
 
+Head Turn
+-------------
+
+1. Sketch - Mirror
+
+![image](https://user-images.githubusercontent.com/30430227/185276760-49872e4d-2978-48d1-af5d-1d03fa0cb4e6.png)
+
+
+2. Character Collection > New GP 'Head_base
+
+![image](https://user-images.githubusercontent.com/30430227/185276896-adff18fc-4ce1-437f-81f7-74bc39d6b895.png)
+
+`Random Stroke`
+
+![image](https://user-images.githubusercontent.com/30430227/185279106-ac863f30-d69d-4635-99cd-4540fe79184e.png)
+![image](https://user-images.githubusercontent.com/30430227/185280184-7a285d14-82a6-4c85-80e5-90d09441ef51.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185280057-a1fb7201-8d15-474d-b4bd-8283de88fdbf.png)
+![image](https://user-images.githubusercontent.com/30430227/185280109-dbc66fa1-ffb1-48d6-8bda-72318889f570.png)
+![image](https://user-images.githubusercontent.com/30430227/185280149-45df42b7-5c9e-4b7d-8b3c-98c07b63224b.png)
+
+
+3. Dup GP 'Nose' -Y축 방향 앞으로 이동
+
+![image](https://user-images.githubusercontent.com/30430227/185281320-5b43ac85-ba8d-48b4-9606-820ff91ff002.png)
+![image](https://user-images.githubusercontent.com/30430227/185281335-3db37a14-19ce-4b57-8e27-3353b88aed26.png)
+
+`Eye_brow.L/R - 코 앞, Eye.L/R - 코 뒤, Ear.L/R -얼굴 뒤, hair - 머리와 귀 사이, GlabellarLine`
+
+![image](https://user-images.githubusercontent.com/30430227/185282303-d238633a-7477-4d38-82c6-14328c829c64.png)
+![image](https://user-images.githubusercontent.com/30430227/185282403-9c0c100a-2843-471b-a79b-448a2ecf2b1a.png)
+![image](https://user-images.githubusercontent.com/30430227/185282882-1a1b3a0e-00f3-41c5-ae85-b21be2d57ff8.png)
+![image](https://user-images.githubusercontent.com/30430227/185282837-4c1aba3c-2a70-4f87-b72d-787da8f5e1c0.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185283876-8475da19-eda4-45ac-9b27-074ce32a8081.png)
+![image](https://user-images.githubusercontent.com/30430227/185283829-d2f17069-eefd-437d-91d9-8a834a1be1d9.png)
+![image](https://user-images.githubusercontent.com/30430227/185284972-5fc69970-4ac7-427b-b14f-6f878e49b87b.png)
+
+
+
+
 
 
 
