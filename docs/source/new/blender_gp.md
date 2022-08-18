@@ -866,6 +866,37 @@ Head Turn
 ![image](https://user-images.githubusercontent.com/30430227/185284972-5fc69970-4ac7-427b-b14f-6f878e49b87b.png)
 
 
+4. Lattice 
+
+![image](https://user-images.githubusercontent.com/30430227/185295318-546b256b-f315-4e7b-a965-a59f23f48c72.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185295343-6d948f1b-eb55-4486-af86-10f732d69ab9.png)
+![image](https://user-images.githubusercontent.com/30430227/185295648-4c3333ed-6ee8-4057-96f0-383e86f9fc55.png)
+![image](https://user-images.githubusercontent.com/30430227/185295939-657f864b-a8ce-4c3f-b6e2-87b8ed4e6edf.png)
+
+`Modifier - Head만 Vertex Group 적용(래티스 바깥라인 포함)`
+
+![image](https://user-images.githubusercontent.com/30430227/185296937-1825c277-62bc-4dbd-9178-049cd23cbb1c.png)
+![image](https://user-images.githubusercontent.com/30430227/185296991-1f4441f4-cfc6-4b13-ba10-418489948b9b.png)
+
+
+`ForeHead - 4개 본, Brow - 2개`
+
+![image](https://user-images.githubusercontent.com/30430227/185299001-a67bc945-d497-4d6d-84e2-141f0c5566e4.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185299388-238adce0-1cb7-46d2-afc1-f1c96266abf8.png)
+![image](https://user-images.githubusercontent.com/30430227/185299287-15d64e08-9a3e-4d0d-b7a4-ae016573253e.png)
+![image](https://user-images.githubusercontent.com/30430227/185298906-374078b7-47ac-4a81-a70b-c394675c99d7.png)
+
+
+5. Armature Modifier
+
+![image](https://user-images.githubusercontent.com/30430227/185299938-f180e42a-3973-49e8-9e06-416c1a37d8d7.png)
+![image](https://user-images.githubusercontent.com/30430227/185299735-8d31eaf2-75c7-42d2-b167-12d7d3ebde4f.png)
+![image](https://user-images.githubusercontent.com/30430227/185299961-b8570cbc-2780-406c-b5aa-e0c881312f23.png)
+
+
+
 
 
 
