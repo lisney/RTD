@@ -874,13 +874,13 @@ Head Turn
 ![image](https://user-images.githubusercontent.com/30430227/185295648-4c3333ed-6ee8-4057-96f0-383e86f9fc55.png)
 ![image](https://user-images.githubusercontent.com/30430227/185295939-657f864b-a8ce-4c3f-b6e2-87b8ed4e6edf.png)
 
-`Modifier - Head만 Vertex Group 적용(래티스 바깥라인 포함)`
+`Modifier - Head만 Vertex Group 적용(주름과 입 제외)`
 
 ![image](https://user-images.githubusercontent.com/30430227/185296937-1825c277-62bc-4dbd-9178-049cd23cbb1c.png)
 ![image](https://user-images.githubusercontent.com/30430227/185296991-1f4441f4-cfc6-4b13-ba10-418489948b9b.png)
 
 
-`ForeHead - 4개 본, Brow - 2개`
+`ForeHead - 4개 본, Brow - 2개(Head_Top본, 가운데 머리카락용 본인데 머리카락이 없어서;)`
 
 ![image](https://user-images.githubusercontent.com/30430227/185299001-a67bc945-d497-4d6d-84e2-141f0c5566e4.png)
 
@@ -889,11 +889,54 @@ Head Turn
 ![image](https://user-images.githubusercontent.com/30430227/185298906-374078b7-47ac-4a81-a70b-c394675c99d7.png)
 
 
-5. Armature Modifier
+5. Armature Modifier - Brow, ForeHead, Head
 
 ![image](https://user-images.githubusercontent.com/30430227/185299938-f180e42a-3973-49e8-9e06-416c1a37d8d7.png)
 ![image](https://user-images.githubusercontent.com/30430227/185299735-8d31eaf2-75c7-42d2-b167-12d7d3ebde4f.png)
 ![image](https://user-images.githubusercontent.com/30430227/185299961-b8570cbc-2780-406c-b5aa-e0c881312f23.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185303536-a7d77f13-6ca7-49e6-8ef9-d1713c8fa4d0.png)
+![image](https://user-images.githubusercontent.com/30430227/185303418-2990e0a7-8d8b-4ce0-9670-c9d2bf56dd21.png)
+![image](https://user-images.githubusercontent.com/30430227/185303514-5ea32f2e-81a4-4055-8fa6-30255011c4ce.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185305316-d9516e0d-b430-4970-b9ac-ac1c396817af.png)
+![image](https://user-images.githubusercontent.com/30430227/185305439-efc55936-d3df-4cc5-9c6f-3cd057205708.png)
+![image](https://user-images.githubusercontent.com/30430227/185305355-b9737236-e909-49a1-8b25-f7025c1e042b.png)
+
+
+6. 추가 본 Face, Mouse, Eye > Head GP Armature M추가
+
+![image](https://user-images.githubusercontent.com/30430227/185309819-f36c562f-be1f-4e99-8388-e1ed5fecd97c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185307233-6ee2b8c4-acb4-4077-ac4f-fc7d062cef8c.png)
+![image](https://user-images.githubusercontent.com/30430227/185307388-4225ee1d-8aae-4643-a9bd-dbec9ad501a1.png)
+![image](https://user-images.githubusercontent.com/30430227/185307302-d858163c-ac3d-4985-a9de-37d83398bf2b.png)
+
+`Ear - Armature`
+
+![image](https://user-images.githubusercontent.com/30430227/185311136-a6a77848-288d-418d-a04c-7cf8bad74230.png)
+
+`Nose Bone 두 개 추가`
+
+![image](https://user-images.githubusercontent.com/30430227/185312475-f0bba965-99eb-41ee-a7b2-35955614061d.png)
+![image](https://user-images.githubusercontent.com/30430227/185312987-a9b1b3d4-5fb3-407c-a108-c74f636b9b3d.png)
+
+`가운데 머리카락`
+
+![image](https://user-images.githubusercontent.com/30430227/185318804-7c3d1af7-0c47-408e-979d-28f96d2a6674.png)
+![image](https://user-images.githubusercontent.com/30430227/185319567-b79eda82-5722-4e86-ace0-a1fb46f1ca55.png)
+![image](https://user-images.githubusercontent.com/30430227/185322799-b64ec8ee-79cd-4bd4-9950-0e90188b7520.png)
+
+`Hair 아래서 위로 1, 0.75, 0.5//Hair.001 위에서 아래로 1, 0.5, 0.25`
+
+![image](https://user-images.githubusercontent.com/30430227/185323142-4989d547-abdc-4c5a-81e1-ed873f70c874.png)
+![image](https://user-images.githubusercontent.com/30430227/185324434-a53bca80-b98d-4f0d-840e-68d783d185dc.png)
+
+
+7. 컨트롤 본 - 본 레이어 다르게
+
+
+
 
 
 
