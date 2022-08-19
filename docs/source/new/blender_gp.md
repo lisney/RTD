@@ -1027,7 +1027,26 @@ Head Turn
 
 
 
+9. Chin 
 
+![image](https://user-images.githubusercontent.com/30430227/185540435-ddbdb68e-6b51-4bd0-9633-566c9c0a9bab.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185540541-86956513-d243-45c3-89d8-2b488179d3fb.png)
+![image](https://user-images.githubusercontent.com/30430227/185540463-681a3c64-977a-42f8-bd9c-1cf2a1b2f4ca.png)
+
+
+`Mouth`
+
+![image](https://user-images.githubusercontent.com/30430227/185541761-fac713d3-f38b-4e1e-ad19-c14af3d4c9b2.png)
+![image](https://user-images.githubusercontent.com/30430227/185542096-299688b6-6960-4cd8-aedf-471ee80b6952.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185543424-ee6f884d-dc04-4e42-b8d8-1c281b9b99a7.png)
+![image](https://user-images.githubusercontent.com/30430227/185543349-99d353a8-52ca-465d-839b-5672d67befa5.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185543587-f50ece53-6e61-4a4a-94ff-ef752a4827ff.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185544248-d2dd2c10-701d-4b02-9313-a783aeb90469.png)
+![image](https://user-images.githubusercontent.com/30430227/185544265-48fe5470-cec9-465c-9c90-c8cd7b7c7d23.png)
 
 
 
