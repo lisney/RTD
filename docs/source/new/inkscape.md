@@ -124,3 +124,18 @@ FreeCAD
 ![image](https://user-images.githubusercontent.com/30430227/179361593-93069acd-7dfd-4d44-b851-38873af192c5.png)
 ![image](https://user-images.githubusercontent.com/30430227/179361606-dc51445e-0889-4fc1-a620-1cffa6455514.png)
 
+
+Power Stroke 
+-----------------
+
+![image](https://user-images.githubusercontent.com/30430227/185748929-2aa87efd-fef9-4307-ae7d-17a796916175.png)
+
+`Path > Path Effect`
+
+![image](https://user-images.githubusercontent.com/30430227/185748957-d4d242cf-b94a-4269-bec5-4807f8818c89.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185749012-3bcb3f6f-516a-4a1a-9218-de70dd55f02d.png)
+![image](https://user-images.githubusercontent.com/30430227/185748984-ab45f1d5-56fb-4fe1-8f82-9025e19d5a68.png)
+
+
+
