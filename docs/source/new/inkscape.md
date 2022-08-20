@@ -124,6 +124,16 @@ FreeCAD
 ![image](https://user-images.githubusercontent.com/30430227/179361593-93069acd-7dfd-4d44-b851-38873af192c5.png)
 ![image](https://user-images.githubusercontent.com/30430227/179361606-dc51445e-0889-4fc1-a620-1cffa6455514.png)
 
+![image](https://user-images.githubusercontent.com/30430227/185750332-09317e89-fa56-46f8-9d20-daa84ae6dae1.png)
+![image](https://user-images.githubusercontent.com/30430227/185750357-3d55022e-7dee-4e09-bb65-afc0d470cb90.png)
+
+`Blur`
+
+![image](https://user-images.githubusercontent.com/30430227/185750983-83a3bc2f-0747-4835-b0e0-0792b0290912.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185750997-f71bcf1f-6b05-4e94-ada1-78d2f04e4cd9.png)
+![image](https://user-images.githubusercontent.com/30430227/185751007-31dda2c3-55eb-462d-8c56-cbc496a030bb.png)
+
 
 Power Stroke 
 -----------------
