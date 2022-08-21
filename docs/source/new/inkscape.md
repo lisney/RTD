@@ -6,6 +6,15 @@ Inkscape
 
 ![image](https://user-images.githubusercontent.com/30430227/185782212-97ee4e2b-9f6d-489c-be19-52e9dabd1f96.png)
 
+`캔버스 회전 Ctrl-MM 드래그`
+
+![image](https://user-images.githubusercontent.com/30430227/185796371-54099723-3f21-4495-a4c5-4fe78824c689.png)
+![image](https://user-images.githubusercontent.com/30430227/185796411-b6d22c3d-0ba5-46e3-ac75-9131ccd5d479.png)
+
+`컨틀로바 사이드에서 상단으로 View > Wide Screen 체크 해제`
+
+![image](https://user-images.githubusercontent.com/30430227/185796849-4331575b-a281-4cd7-a012-363b1d5720e8.png)
+
 
 1. 스케일 시 라인 두께가 변하는 현상
 
@@ -200,5 +209,41 @@ Path Effect
 ![image](https://user-images.githubusercontent.com/30430227/185782670-61a95ca8-623d-43d1-9846-4bb9de9859ef.png)
 
 
+Isoetic Design
+-------------------
 
+![image](https://user-images.githubusercontent.com/30430227/185795470-f8e3cf2c-d4b8-4dd7-ac54-c9c9e25d9d0f.png)
+![image](https://user-images.githubusercontent.com/30430227/185795486-63731248-c86d-4d1e-8aac-7fed0ff91d8d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185795611-e3041aef-7a02-49c9-9a4b-759b19cc609a.png)
+
+`Path Effect -Corners`
+
+![image](https://user-images.githubusercontent.com/30430227/185795747-55ef3580-5a18-45e2-a4a0-f6a7dc4a3202.png)
+![image](https://user-images.githubusercontent.com/30430227/185795786-4781e44a-5368-4b82-b3a8-42efcb15a8d7.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185795764-58215816-eb2b-46bf-81df-fb8f37f7a016.png)
+
+`Object To Path > Insert New Node사이점 추가 > Extension`
+
+![image](https://user-images.githubusercontent.com/30430227/185796217-fe3e0d07-8e8f-49cf-9c62-5792cb1d7011.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185796250-1f5a5e61-944e-4337-9429-9529e050466c.png)
+
+`Ungroup > Delete`
+
+![image](https://user-images.githubusercontent.com/30430227/185796896-f246c358-6e74-47a2-915d-bc54291ab35a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185798089-888a7926-3e7e-4b5d-9455-330333bac40f.png)
+
+`Page Grid View Toggle Shift-3`
+
+![image](https://user-images.githubusercontent.com/30430227/185797633-9194fe5e-c484-45e0-bbae-7f4466d7c9bd.png)
+
+`Boolean`
+
+![image](https://user-images.githubusercontent.com/30430227/185798236-abdbae44-8556-41b9-b0cf-ea6d1568349f.png)
+![image](https://user-images.githubusercontent.com/30430227/185798245-687cec89-aa79-4b1d-8e3c-60f40e938bdf.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185798646-03264b00-b3e1-4501-8bf8-110ecfbdf9c7.png)
 
