@@ -2,7 +2,7 @@ Inkscape
 ============
 
 
-`페이지 프리셋 Show Welcome dialog`
+`처음 실행 시 페이지 프리셋 안보이게 Show Welcome dialog 체크 해제`
 
 ![image](https://user-images.githubusercontent.com/30430227/185782212-97ee4e2b-9f6d-489c-be19-52e9dabd1f96.png)
 
