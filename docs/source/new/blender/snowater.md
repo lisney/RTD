@@ -1,8 +1,9 @@
 Snowater
-----------
+=========
 
-Snow -Dynamic Paint
-----------------------
+
+Snow trace
+--------------
 
 1. Cylinder - Remesh > 바닥 메쉬 삭제
 
@@ -56,6 +57,19 @@ Snow -Dynamic Paint
 `바닥 - Surface Type:Displace`
 
 ![image](https://user-images.githubusercontent.com/30430227/185728492-e208132b-b49f-441b-a941-132920b4c571.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185779554-6e7d385c-2526-45f2-99b2-867c3c3943bc.png)
+
+
+6. Shading - Cycle
+
+![image](https://user-images.githubusercontent.com/30430227/185780248-095f1e9a-33e2-4436-98e6-ba3061e403d3.png)
+
+`Displace Set`
+
+![image](https://user-images.githubusercontent.com/30430227/185780263-77af12f3-4821-4750-b41e-8b0121f180a1.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185780307-dc0bdae4-00c8-401f-9b36-fbbfcb6114c5.png)
 
 
 
