@@ -61,7 +61,55 @@ Snow trace
 ![image](https://user-images.githubusercontent.com/30430227/185779554-6e7d385c-2526-45f2-99b2-867c3c3943bc.png)
 
 
-6. Shading - Cycle
+6. 바닥 displace
+
+![image](https://user-images.githubusercontent.com/30430227/185780640-a45eb7a4-48d0-4dda-958c-bb5fe5a1c834.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185780647-151fd088-22c7-42bd-bbc8-4b8bb77d402f.png)
+![image](https://user-images.githubusercontent.com/30430227/185780660-6bcf2d38-c110-444d-83e8-891c8793d8ba.png)
+
+`Light`
+
+![image](https://user-images.githubusercontent.com/30430227/185780820-5ff3c90b-6991-459c-90e8-841717591220.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185780788-aa10000e-74c8-4704-ab9c-c6a277d49dff.png)
+![image](https://user-images.githubusercontent.com/30430227/185780848-a6f4500d-7b22-4616-abad-4733efaaa0df.png)
+
+
+7. Particle - 나중에 인스턴스 오브젝트로 바꾼다 
+
+![image](https://user-images.githubusercontent.com/30430227/185780952-6f53eb19-6baa-4bd0-a47c-3641f62618b4.png)
+![image](https://user-images.githubusercontent.com/30430227/185780961-64c7b173-6339-4d2f-ac6a-5f48fc1b6d3d.png)
+
+`ShrinkWrap`
+
+![image](https://user-images.githubusercontent.com/30430227/185781198-49768b52-13e1-403a-a79f-4bb1e3933010.png)
+![image](https://user-images.githubusercontent.com/30430227/185781203-aff0ea53-1932-4214-9d7c-ce6eb31c21b2.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185781423-dc15c756-c27b-40ff-84e7-224bb64e53ad.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185781291-d7411e32-0737-4f7f-9586-986827360287.png)
+![image](https://user-images.githubusercontent.com/30430227/185781434-3bab284f-2aa1-4511-afea-2ce6ef98c8df.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185781552-e55abbc0-d5f4-4a41-ae03-53540d3fdc02.png)
+
+
+`바닥 - Stickness, Damping, Friction`
+
+![image](https://user-images.githubusercontent.com/30430227/185781486-85b71b36-0a97-481a-8278-0fac7a2d2809.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185781495-f7ee40ab-02b0-48fb-9331-4470953bbb57.png)
+
+
+`수동 키프레임`
+
+![image](https://user-images.githubusercontent.com/30430227/185781098-69235859-43a5-4d19-853c-fd3e97ca2c42.png)
+![image](https://user-images.githubusercontent.com/30430227/185781094-fd09aabf-70a3-48fd-9128-ee5413c59057.png)
+
+
+
+
+6. Snow Shader - Cycle
 
 ![image](https://user-images.githubusercontent.com/30430227/185780248-095f1e9a-33e2-4436-98e6-ba3061e403d3.png)
 
