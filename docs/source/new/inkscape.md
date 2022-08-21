@@ -1,6 +1,12 @@
 Inkscape 
 ============
 
+
+`페이지 프리셋 Show Welcome dialog`
+
+![image](https://user-images.githubusercontent.com/30430227/185782212-97ee4e2b-9f6d-489c-be19-52e9dabd1f96.png)
+
+
 1. 스케일 시 라인 두께가 변하는 현상
 
 ![image](https://user-images.githubusercontent.com/30430227/177917446-afa1a5a1-7cdf-4ed1-9653-e67a5a3801c4.png)
@@ -135,7 +141,7 @@ FreeCAD
 ![image](https://user-images.githubusercontent.com/30430227/185751007-31dda2c3-55eb-462d-8c56-cbc496a030bb.png)
 
 
-Power Stroke 
+Path Effect 
 -----------------
 
 ![image](https://user-images.githubusercontent.com/30430227/185748929-2aa87efd-fef9-4307-ae7d-17a796916175.png)
@@ -146,6 +152,53 @@ Power Stroke
 
 ![image](https://user-images.githubusercontent.com/30430227/185749012-3bcb3f6f-516a-4a1a-9218-de70dd55f02d.png)
 ![image](https://user-images.githubusercontent.com/30430227/185748984-ab45f1d5-56fb-4fe1-8f82-9025e19d5a68.png)
+
+
+`Hatch`
+
+![image](https://user-images.githubusercontent.com/30430227/185781860-95413874-5f16-49a5-aa07-7bcdb187c810.png)
+![image](https://user-images.githubusercontent.com/30430227/185781873-04675651-ad93-44c8-9ff5-43f57b439dc9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185781903-3972a81c-2c3c-4e1c-b42f-a93a6f5c24ff.png)
+![image](https://user-images.githubusercontent.com/30430227/185781936-9975e95e-0851-43f8-a52f-828c41a429ec.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185781854-2ce80e4d-6856-44a0-87c3-2da99e2a1d6c.png)
+
+
+커스텀 컬러팔레트
+---------------
+
+1. File > Document Properties > New Grid
+
+![image](https://user-images.githubusercontent.com/30430227/185782178-cadd44d6-62a5-4b0b-91e3-96737f0643e1.png)
+
+2. Color Box
+
+![image](https://user-images.githubusercontent.com/30430227/185782349-abd57b68-274c-4ca9-905c-05466703455f.png)
+![image](https://user-images.githubusercontent.com/30430227/185782409-b4ddceb1-4088-4bab-aff2-85f1a9ee326d.png)
+
+3. Document Properties - Fit Button- 이미지에 페이지 사이즈 맞춤
+
+![image](https://user-images.githubusercontent.com/30430227/185782464-7ea3e0a9-83d7-427f-8e2c-8b8b43e24e38.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185782444-bc71a913-1c5f-4d56-a97a-4c902e50303f.png)
+
+
+4. Save 
+
+![image](https://user-images.githubusercontent.com/30430227/185782526-53560cac-eb2e-45a4-9e6a-813d8ece12ab.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185782572-c75f658e-a73e-4277-9dfc-05e85140e040.png)
+
+
+5. 팔레트 선택
+
+![image](https://user-images.githubusercontent.com/30430227/185782695-a55708b4-ff57-4c12-b58c-9f387329ec6a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185782611-e45955e7-ac8b-4c2f-8172-8a35dfcbc561.png)
+![image](https://user-images.githubusercontent.com/30430227/185782661-7f73d309-f72f-41eb-8bb2-6b96dc21139b.png)
+![image](https://user-images.githubusercontent.com/30430227/185782670-61a95ca8-623d-43d1-9846-4bb9de9859ef.png)
+
 
 
 
