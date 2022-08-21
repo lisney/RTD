@@ -5,6 +5,8 @@ Snowater
 Snow trace
 --------------
 
+![image](https://user-images.githubusercontent.com/30430227/185781609-20abb6a5-b53a-4d8f-926d-4d0aca3ceac5.png)
+
 1. Cylinder - Remesh > 바닥 메쉬 삭제
 
 ![image](https://user-images.githubusercontent.com/30430227/185727638-37b8cee3-4731-4501-8de1-22957905126b.png)
