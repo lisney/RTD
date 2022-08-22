@@ -258,6 +258,19 @@ Path Effect
 ![image](https://user-images.githubusercontent.com/30430227/185781854-2ce80e4d-6856-44a0-87c3-2da99e2a1d6c.png)
 
 
+`Construct Grid > Objct to Path > (그리드 선택 후 패스 선택)Extension > Perspect`
+
+![image](https://user-images.githubusercontent.com/30430227/185873482-28ba4861-7172-49d9-9e55-8aa9cbffaa9a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185873692-e4ecf4c1-25c2-45cd-8641-614cfa6ec0ba.png)
+![image](https://user-images.githubusercontent.com/30430227/185873716-56b6a52d-ab66-46bc-ac25-1a2072140b87.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185874021-7cc7cbce-5694-41bc-8109-31cf206a1b46.png)
+![image](https://user-images.githubusercontent.com/30430227/185874388-a7d7da54-dceb-49ff-981d-5de1d6565b03.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185874337-93565013-30c8-48dc-94c5-880decf10099.png)
+
+
 커스텀 컬러팔레트
 ---------------
 
@@ -380,8 +393,17 @@ Text
 ![image](https://user-images.githubusercontent.com/30430227/185847372-133c0680-2c09-422c-a8de-ef67834515a6.png)
 
 
-2.
+2. 싱크홀 
 
+![image](https://user-images.githubusercontent.com/30430227/185871855-411d4343-a1ff-454d-9106-c96183216c6b.png)
+![image](https://user-images.githubusercontent.com/30430227/185871818-8b15f228-9c35-423c-a1e9-34ce66a66384.png)
+![image](https://user-images.githubusercontent.com/30430227/185872145-f1d1d650-c359-4032-8d82-cda8eeadaeb3.png)
+![image](https://user-images.githubusercontent.com/30430227/185872277-beddd2d9-3898-4d5e-91c0-f65cfb03ef29.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185872403-d117e8cb-f181-42db-b622-e95271e051e0.png)
+
+
+3. 
 
 
 레이어 구
@@ -448,6 +470,58 @@ Text
 ![image](https://user-images.githubusercontent.com/30430227/185855308-121a8f14-1ccb-4f9b-9910-1bbcd823f153.png)
 ![image](https://user-images.githubusercontent.com/30430227/185856155-a047c27c-2e03-41a7-ad27-668f20f5c947.png)
 ![image](https://user-images.githubusercontent.com/30430227/185856006-5cc333f8-3397-46f6-adb3-a0e0a1e6add3.png)
+
+
+
+Galaxy Logo
+-----------
+
+![image](https://user-images.githubusercontent.com/30430227/185863485-8fa4a785-cdce-4496-8415-b80c4b47bcce.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185860174-84e1d6d8-3d18-4d54-a473-a6466b7ecf37.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185860753-61b6ca13-0604-46c2-b838-e61641ec5b88.png)
+
+`Path Effect > Bend`
+
+![image](https://user-images.githubusercontent.com/30430227/185861216-e0f1a2c5-6ea7-4c8f-b570-ada24335612f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185860969-d6295ff3-a825-4951-a29d-98e4d9fe92be.png)
+![image](https://user-images.githubusercontent.com/30430227/185861034-d954a20a-8084-442f-ace8-7392ee096199.png)
+
+`Transform > Rotate > Ctrl-D Apply Rotate`
+
+![image](https://user-images.githubusercontent.com/30430227/185863074-f414948b-0917-4cb1-9c7d-b8dde96075e3.png)
+![image](https://user-images.githubusercontent.com/30430227/185863330-3baa4b82-c0a2-4d71-b6a0-00ad61c5437e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185863376-177d99cc-7a97-4e4f-ab14-57c092498489.png)
+
+
+라인스
+--------
+
+![image](https://user-images.githubusercontent.com/30430227/185864524-493db8c7-7fb3-4e95-ad6b-a96a405730ee.png)
+![image](https://user-images.githubusercontent.com/30430227/185864556-3797bce9-be7c-417e-9419-738395725a10.png)
+![image](https://user-images.githubusercontent.com/30430227/185865845-ae478027-61fb-4abb-aa1b-c680d11dfced.png)
+
+`Combine > Path Effect > Stitch `
+
+![image](https://user-images.githubusercontent.com/30430227/185864813-f8279c9d-8d95-430c-a32c-ba83f793c52d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185865028-e38df12d-c222-4909-93a2-9cde77adf4e2.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185865979-2ebd3afc-ef97-41e2-b7e6-58a8cf16a275.png)
+
+`Eidt Curve 버튼을 다시 누르면 > 왼쪽 상단에 두 점이 붙어 나타난다 > 원래 위치로 이동 후 변형`
+
+![image](https://user-images.githubusercontent.com/30430227/185870520-c42f2f6d-09c2-43b0-bb5b-a4ac07f1e071.png)
+
+
+
+
+
+
+
 
 
 
