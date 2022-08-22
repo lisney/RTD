@@ -433,6 +433,23 @@ Text
 ![image](https://user-images.githubusercontent.com/30430227/185853771-84d71a0f-129c-4f0d-aed4-c4571c2c5a34.png)
 
 
+코어 
+-----
+
+`Radial Gradient > 그래디언트 편집 'G' > `
+
+![image](https://user-images.githubusercontent.com/30430227/185854335-000bbca5-506b-4d06-8b5a-dbc4789bea9f.png)
+![image](https://user-images.githubusercontent.com/30430227/185854676-f11edc94-78c2-40f5-9f1e-2d5e43b9daf5.png)
+![image](https://user-images.githubusercontent.com/30430227/185854873-cf39aa3a-895e-438f-937d-c4ec8ff675b0.png)
+![image](https://user-images.githubusercontent.com/30430227/185854979-685abbbb-7960-4b12-9d53-3cbcb1c9faa1.png)
+
+`Difference > Break Apart > Delete`
+
+![image](https://user-images.githubusercontent.com/30430227/185855308-121a8f14-1ccb-4f9b-9910-1bbcd823f153.png)
+![image](https://user-images.githubusercontent.com/30430227/185856155-a047c27c-2e03-41a7-ad27-668f20f5c947.png)
+![image](https://user-images.githubusercontent.com/30430227/185856006-5cc333f8-3397-46f6-adb3-a0e0a1e6add3.png)
+
+
 
 
 
