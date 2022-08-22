@@ -41,6 +41,18 @@ Inkscape
 ![image](https://user-images.githubusercontent.com/30430227/185824735-9cbc8e5a-f374-46b2-b0e2-6a4c237b425d.png)
 
 
+`View > Split Mode(원 화살표 더블클릭) > X-ray 모드 Alt-6(원 크기, 이미지 랜더)`
+
+![image](https://user-images.githubusercontent.com/30430227/185832790-b408e5ca-21b0-4e9e-8b36-a15ef2d785c9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185840576-88338e96-e00e-4e83-a335-5346985af4e7.png)
+![image](https://user-images.githubusercontent.com/30430227/185829354-fe326846-5994-46b7-b035-4d9e14ee6c97.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185831952-544a7d41-c361-41f1-9923-17b23c1750e1.png)
+![image](https://user-images.githubusercontent.com/30430227/185840420-21e88cdb-4e4f-4424-9de5-e6aca10b80a2.png)
+
+
+
 1. 스케일 시 라인 두께가 변하는 현상
 
 ![image](https://user-images.githubusercontent.com/30430227/177917446-afa1a5a1-7cdf-4ed1-9653-e67a5a3801c4.png)
