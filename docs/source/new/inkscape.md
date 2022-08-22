@@ -283,6 +283,17 @@ Path Effect
 ![image](https://user-images.githubusercontent.com/30430227/185877901-5cbc857a-1017-4fdc-9121-03ed09237168.png)
 
 
+`Path Along Path - 패턴 요소를 미리 클립보드로 복사한다`
+
+![image](https://user-images.githubusercontent.com/30430227/185880119-7f287ff1-07d9-42b5-a819-b04db6315e90.png)
+![image](https://user-images.githubusercontent.com/30430227/185880333-a35bd94e-5e0e-4303-b8bd-0cd5c5c5f304.png)
+![image](https://user-images.githubusercontent.com/30430227/185880299-a982b79d-9b69-42cf-b03d-e14cfc57d133.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185880487-1d471154-1c18-4819-a157-872ca26428ed.png)
+![image](https://user-images.githubusercontent.com/30430227/185880534-d927a73e-b834-4c9f-9bf1-bca42783116b.png)
+
+
+
 커스텀 컬러팔레트
 ---------------
 
