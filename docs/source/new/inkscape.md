@@ -1,6 +1,10 @@
 Inkscape 
 ============
 
+`와콤 필압 문제 - USB를 제거한 후 남아있는 HID관련 장치를 모두 사용안함`
+
+![image](https://user-images.githubusercontent.com/30430227/185902476-f9ee5a1f-02e9-4116-b2dc-1dd277b993ca.png)
+
 
 `Path 노드 추가 - 선 더블클릭 Shift-i/ 끝 점 복사 Shift-D/ Extend 베지어툴 끝점 선택 후 드랙`
 
