@@ -271,6 +271,18 @@ Path Effect
 ![image](https://user-images.githubusercontent.com/30430227/185874337-93565013-30c8-48dc-94c5-880decf10099.png)
 
 
+`Envelope`
+
+![image](https://user-images.githubusercontent.com/30430227/185876670-4be7254f-ba32-4437-bddc-c4f4386d3d7e.png)
+![image](https://user-images.githubusercontent.com/30430227/185876692-8747bde4-c8a1-4dea-862b-8eadc7af8020.png)
+![image](https://user-images.githubusercontent.com/30430227/185876769-7d62929d-b8f7-4d36-a581-51f85fe99f50.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185877268-d55d0f7f-4a10-4244-90b1-9c40215865b9.png)
+![image](https://user-images.githubusercontent.com/30430227/185877759-53f2aca4-b84d-4058-a648-de19d9f61f1b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185877901-5cbc857a-1017-4fdc-9121-03ed09237168.png)
+
+
 커스텀 컬러팔레트
 ---------------
 
@@ -403,7 +415,10 @@ Text
 ![image](https://user-images.githubusercontent.com/30430227/185872403-d117e8cb-f181-42db-b622-e95271e051e0.png)
 
 
-3. 
+3. Put on Path
+
+![image](https://user-images.githubusercontent.com/30430227/185879053-079c732f-9ba8-42d5-b6ad-c41da598afbb.png)
+
 
 
 레이어 구
