@@ -406,5 +406,34 @@ Text
 ![image](https://user-images.githubusercontent.com/30430227/185851292-e6a83717-83f8-4a69-850c-804c5b152a17.png)
 
 
+깃발 
+---------
+
+`Stroke to Path > Union > Difference > Delete`
+
+![image](https://user-images.githubusercontent.com/30430227/185851561-a87f09cb-54e7-4436-970a-a2628761f899.png)
+![image](https://user-images.githubusercontent.com/30430227/185851746-d3fcf734-39e9-41ea-a7f3-c928263778d7.png)
+![image](https://user-images.githubusercontent.com/30430227/185851835-68297821-885f-4e55-98d2-9bba3dc0b3cc.png)
+
+`Duplicate > Difference > Duplicate > Union`
+
+![image](https://user-images.githubusercontent.com/30430227/185852606-26152db9-a6bb-4d80-bd6c-c72367b5a0f1.png)
+![image](https://user-images.githubusercontent.com/30430227/185852638-fb353e33-9269-475e-8ae5-3cb2b9496085.png)
+![image](https://user-images.githubusercontent.com/30430227/185852765-2617f598-c6a1-4a1d-b267-ba78cbd07f1f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185852991-b1a08c95-d66f-4d13-aa78-1f63a4205677.png)
+
+`Union 세로바 > Intersection > Union > Break Apart`
+
+![image](https://user-images.githubusercontent.com/30430227/185853452-ced964c3-e951-4aee-b49d-64ec806d9ba9.png)
+![image](https://user-images.githubusercontent.com/30430227/185853399-ffce087e-8794-415b-b6b1-1657530970ae.png)
+![image](https://user-images.githubusercontent.com/30430227/185853605-83f31eb6-5e52-471d-ad8b-c68964dc0049.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185853744-a1ccc91c-6538-43c2-ad0d-a1ad93d8e9ea.png)
+![image](https://user-images.githubusercontent.com/30430227/185853771-84d71a0f-129c-4f0d-aed4-c4571c2c5a34.png)
+
+
+
+
 
 
