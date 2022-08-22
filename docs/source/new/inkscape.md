@@ -2,18 +2,43 @@ Inkscape
 ============
 
 
+`Path 노드 추가 - 선 더블클릭 Shift-i/ 끝 점 복사 Shift-D/ Extend 베지어툴 끝점 선택 후 드랙`
+
 `처음 실행 시 페이지 프리셋 안보이게 Show Welcome dialog 체크 해제`
 
 ![image](https://user-images.githubusercontent.com/30430227/185782212-97ee4e2b-9f6d-489c-be19-52e9dabd1f96.png)
+
 
 `캔버스 회전 Ctrl-MM 드래그`
 
 ![image](https://user-images.githubusercontent.com/30430227/185796371-54099723-3f21-4495-a4c5-4fe78824c689.png)
 ![image](https://user-images.githubusercontent.com/30430227/185796411-b6d22c3d-0ba5-46e3-ac75-9131ccd5d479.png)
 
+
 `컨틀로바 사이드에서 상단으로 View > Wide Screen 체크 해제`
 
 ![image](https://user-images.githubusercontent.com/30430227/185796849-4331575b-a281-4cd7-a012-363b1d5720e8.png)
+
+
+`Break Apart - 세그먼트 별로 분리한다, 불린 오브젝트도 분리`
+
+![image](https://user-images.githubusercontent.com/30430227/185823848-caae7ee0-3fe6-4f24-b2c4-0cc474220782.png)
+![image](https://user-images.githubusercontent.com/30430227/185823869-f14af6f1-95c3-4dca-8ba8-18798a54efab.png)
+![image](https://user-images.githubusercontent.com/30430227/185823921-045358a1-99e2-4e19-ad42-51443a5b68cf.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185819395-d03e1d41-e695-452e-910d-58c76849ba08.png)
+
+
+`레이어 불투명도`
+
+![image](https://user-images.githubusercontent.com/30430227/185820137-0ccee13f-9b11-447f-82a7-97f7c8dffb54.png)
+![image](https://user-images.githubusercontent.com/30430227/185820164-f4992b7a-4228-41c8-b221-14df96155de9.png)
+
+
+`Dynamic Offset > 노드에디트`
+
+![image](https://user-images.githubusercontent.com/30430227/185824698-198138af-dba8-4be4-ad8a-8f190e2aaf92.png)
+![image](https://user-images.githubusercontent.com/30430227/185824735-9cbc8e5a-f374-46b2-b0e2-6a4c237b425d.png)
 
 
 1. 스케일 시 라인 두께가 변하는 현상
@@ -246,4 +271,32 @@ Isoetic Design
 ![image](https://user-images.githubusercontent.com/30430227/185798245-687cec89-aa79-4b1d-8e3c-60f40e938bdf.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/185798646-03264b00-b3e1-4501-8bf8-110ecfbdf9c7.png)
+
+
+Wheel 트레이싱
+------------
+
+`레이어 선택 > Fill and Stroke > Opacity`
+
+![image](https://user-images.githubusercontent.com/30430227/185821185-701b88d1-a4bb-4df2-930c-0df25410a671.png)
+![image](https://user-images.githubusercontent.com/30430227/185821203-8d669b80-9cb7-4bd7-a55e-5c80cef49a1c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185821070-2016fb6f-e708-4123-be9b-38ecc5895490.png)
+![image](https://user-images.githubusercontent.com/30430227/185821120-2ad00993-2584-4d05-9983-f03783c3db51.png)
+
+`단축키 베지어 B 라인 > 노드에디트 N - 베지어 컨트롤보다 선을 끌어 형태를 만든다`
+
+![image](https://user-images.githubusercontent.com/30430227/185821471-95ff4d9e-3ced-4e37-b432-067d522ffc67.png)
+![image](https://user-images.githubusercontent.com/30430227/185821659-b0c68ba0-58e7-4053-8a68-f8c0d9c21bb9.png)
+
+
+`Path Division - 닫힌 커브만 가능`
+
+![image](https://user-images.githubusercontent.com/30430227/185828060-34730334-938e-4729-8b3c-b4a3797f4f21.png)
+![image](https://user-images.githubusercontent.com/30430227/185828112-fe379358-2a3b-4184-aad9-64c5db12c9ef.png)
+![image](https://user-images.githubusercontent.com/30430227/185828169-78f076dd-4694-4bcc-895f-c49fafd10840.png)
+
+
+
+
 
