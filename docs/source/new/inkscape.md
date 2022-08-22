@@ -52,6 +52,53 @@ Inkscape
 ![image](https://user-images.githubusercontent.com/30430227/185840420-21e88cdb-4e4f-4424-9de5-e6aca10b80a2.png)
 
 
+`Mesh Tool - 점 추가: 아웃라인 더블클릭`
+
+![image](https://user-images.githubusercontent.com/30430227/185841890-6a1f65f9-ac8a-4aa5-8aa2-f4917c5bc22d.png)
+
+
+`Pick Color - 아이드로퍼툴 > 클릭 드래그(평균 컬러), Shift-클릭-픽 라인컬러`
+
+![image](https://user-images.githubusercontent.com/30430227/185842321-8ecc5cf9-1a20-4beb-922d-5e99af73962d.png)
+
+
+`Fill Boundary - 페인트 버킷`
+
+![image](https://user-images.githubusercontent.com/30430227/185842688-1d9df229-787f-46fa-8916-7b86ce7eddd3.png)
+![image](https://user-images.githubusercontent.com/30430227/185842719-bec176c5-b742-43fb-acfb-855e3ef9449b.png)
+
+
+`Tweak - 별 > Path Effect 패턴 > Object to Path > Break Apart > Select All > Tweak`
+
+![image](https://user-images.githubusercontent.com/30430227/185842789-c12583f0-6dcc-4b3c-97b7-34b0fdd8029e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185843664-665474b0-62ab-4be6-94b7-cd302d872afd.png)
+![image](https://user-images.githubusercontent.com/30430227/185843679-fe4d8d81-77c7-4271-81ee-714db98ef044.png)
+
+
+`Measure > 그래픽으로 변환`
+
+![image](https://user-images.githubusercontent.com/30430227/185844130-ee659fd6-1c02-45fb-8be1-9e4c3b01698b.png)
+![image](https://user-images.githubusercontent.com/30430227/185844164-f67a2821-5eee-4601-aaf0-4159f97d707b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185844110-0f810b79-b1c2-4bdb-b7ab-a8a4079e03f3.png)
+
+
+`Polygon > Rounded > Star 버튼// Round Corner-Stroke`
+
+![image](https://user-images.githubusercontent.com/30430227/185844423-d80c8f7e-dc36-4bb0-affc-74fca1ba8b2f.png)
+![image](https://user-images.githubusercontent.com/30430227/185844458-bd2b8e1d-cebc-40c5-b3dd-1a046a99cc04.png)
+![image](https://user-images.githubusercontent.com/30430227/185844504-f98fc0b0-2802-491d-9f76-d07bd0d549a4.png)
+![image](https://user-images.githubusercontent.com/30430227/185844657-7e4c17cf-17f2-409a-b73a-994bca93eb3b.png)
+![image](https://user-images.githubusercontent.com/30430227/185844807-a034479b-9b78-4b1c-82dc-63ab619b0ea9.png)
+
+
+`Perspective - Rotate`
+
+![image](https://user-images.githubusercontent.com/30430227/185848083-d024ac9c-8ed3-47d6-afc1-2c0eef252b0b.png)
+![image](https://user-images.githubusercontent.com/30430227/185848108-7f58245a-d3f0-4368-8499-110fc4cba969.png)
+![image](https://user-images.githubusercontent.com/30430227/185848132-18a861d4-d8ee-44bc-b212-6d01549d4737.png)
+
 
 1. 스케일 시 라인 두께가 변하는 현상
 
@@ -308,6 +355,55 @@ Wheel 트레이싱
 ![image](https://user-images.githubusercontent.com/30430227/185828112-fe379358-2a3b-4184-aad9-64c5db12c9ef.png)
 ![image](https://user-images.githubusercontent.com/30430227/185828169-78f076dd-4694-4bcc-895f-c49fafd10840.png)
 
+
+Text
+-------
+
+1. Reflect(Division > 위 아래 Union > 아래 Copy > 박스 선택 Paste Size > Align(First Select)
+
+![image](https://user-images.githubusercontent.com/30430227/185845902-f460ce1e-d0f3-4bb0-8963-55ecd96d1925.png)
+![image](https://user-images.githubusercontent.com/30430227/185845922-bf0c64b5-4745-4ea9-b733-5fc0df90a8af.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185845989-893458f4-ebfe-4223-bb60-964d9b7efca9.png)
+![image](https://user-images.githubusercontent.com/30430227/185846202-e41a49b6-7fb8-4bfe-9b9a-541ed25f6408.png)
+![image](https://user-images.githubusercontent.com/30430227/185846408-027cb725-f336-41f2-9f0e-323b6a7fa853.png)
+
+`노드 편집 모드 > (바닥 2 노드 선택 Shift-드랙)사다리꼴 > Path Effect > Gradient`
+
+![image](https://user-images.githubusercontent.com/30430227/185846686-cc247396-4047-4647-bc74-0a5a73ae4457.png)
+![image](https://user-images.githubusercontent.com/30430227/185846648-b4d87216-e188-4c9d-ab43-1e32006d082d.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185846977-19820f11-bd7b-445d-bb56-cc6189a85cac.png)
+![image](https://user-images.githubusercontent.com/30430227/185846948-07e48186-6a5e-4e4d-80b5-fc0ae8bb80fd.png)
+![image](https://user-images.githubusercontent.com/30430227/185847222-a396802e-dadb-4cef-a995-ec33a83c01c3.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185847372-133c0680-2c09-422c-a8de-ef67834515a6.png)
+
+
+2.
+
+
+
+레이어 구
+----------
+
+![image](https://user-images.githubusercontent.com/30430227/185849241-ef91d829-2c34-472e-be8c-656c95df1265.png)
+![image](https://user-images.githubusercontent.com/30430227/185849397-9f3a8a6d-4276-4f30-905e-2fb7f919d022.png)
+
+`Ungroup > Delete > Stroke to Path > Union > Break Apart > Delete > Union > Duplicate > Flip Vertical`
+
+![image](https://user-images.githubusercontent.com/30430227/185849588-acfd8309-f5e8-4667-bfb1-81f019bd1484.png)
+![image](https://user-images.githubusercontent.com/30430227/185849707-49e40033-d8f1-4aba-9e6f-7db3df1d68ca.png)
+![image](https://user-images.githubusercontent.com/30430227/185849895-72f09310-6875-4738-a9cd-7a01fed2a346.png)
+
+![image](https://user-images.githubusercontent.com/30430227/185850314-08d256c4-745d-4514-b154-f02a61a40ef0.png)
+![image](https://user-images.githubusercontent.com/30430227/185850249-28813bb0-6918-4f3b-a5a2-614ba5838d1b.png)
+
+`Duplicate > Circle Difference`
+
+![image](https://user-images.githubusercontent.com/30430227/185850632-36f03ae4-e140-4942-bb0b-04e3d6885854.png)
+![image](https://user-images.githubusercontent.com/30430227/185850598-39697bac-c50c-48a9-a719-dd8ffe45c97c.png)
+![image](https://user-images.githubusercontent.com/30430227/185851292-e6a83717-83f8-4a69-850c-804c5b152a17.png)
 
 
 
