@@ -1099,6 +1099,10 @@ Paint Mode - Color Attribute
 ![image](https://user-images.githubusercontent.com/30430227/186096979-bacabce6-60bb-4c8a-a3c1-5ef5332a48af.png)
 ![image](https://user-images.githubusercontent.com/30430227/186097262-bc1417c1-134c-4d7e-b240-b42eee459c91.png)
 
+`7,19 - UP`
+
+![image](https://user-images.githubusercontent.com/30430227/186111648-6d3cf768-35cc-4703-8faa-33483fbda737.png)
+![image](https://user-images.githubusercontent.com/30430227/186111615-ddf39347-beb2-49c5-af96-cd5b454e8d10.png)
 
 
 
