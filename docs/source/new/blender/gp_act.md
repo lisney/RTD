@@ -55,6 +55,21 @@ Follow Path
 ![image](https://user-images.githubusercontent.com/30430227/183569799-ad50cd15-1551-44c1-a8ae-988b011d1255.png)
 
 
+사용자 컬ㄹ팔레트
+---------------
+
+`컬러 체인지 - Tint Brush`
+
+![image](https://user-images.githubusercontent.com/30430227/186054934-48b697e7-8090-4fe0-a65e-479f1df77504.png)
+![image](https://user-images.githubusercontent.com/30430227/186055046-263f62eb-cd56-4c4c-bc35-375aa4f25707.png)
+
+`Image Editor`
+
+![image](https://user-images.githubusercontent.com/30430227/186056327-b2dd2e01-7a7b-42da-90a8-23397fd4d6bc.png)
+
+![image](https://user-images.githubusercontent.com/30430227/186056480-469ee9f1-3025-48cf-8109-2e364363a698.png)
+
+
 
 무거운 공 
 ---------
@@ -1050,6 +1065,18 @@ Head Turn
 
 
 
+Paint Mode - Color Attribute
+-------------------------------
+
+`Draw 시 Solid Stroke Material 잠금, Fill 시 Solid Fill 잠금 할 것`
+
+![image](https://user-images.githubusercontent.com/30430227/186070031-3dcbb776-9c2e-4ef6-8273-72128c3042ef.png)
+
+![image](https://user-images.githubusercontent.com/30430227/186070196-17d7ce5a-14a9-4721-aaca-41a2b7076b44.png)
+
+
+걷기 
+----
 
 
 
