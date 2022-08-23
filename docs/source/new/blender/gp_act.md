@@ -723,7 +723,7 @@ Rigify Rig
 
 5. Generate Rig
 
-`Delete Constraint > IK > Copy Rotation`
+`Delete Constraint > IK Shift-i > Copy Rotation`
 
 ![image](https://user-images.githubusercontent.com/30430227/185049358-8bcc7788-eedf-4b37-89c7-45a33fe2ed26.png)
 ![image](https://user-images.githubusercontent.com/30430227/185049431-75797c6e-113f-4551-943c-cb51715d5bdc.png)
@@ -1075,8 +1075,30 @@ Paint Mode - Color Attribute
 ![image](https://user-images.githubusercontent.com/30430227/186070196-17d7ce5a-14a9-4721-aaca-41a2b7076b44.png)
 
 
-걷기 
-----
+걷기 1, 13, 25
+-------------
+
+![image](https://user-images.githubusercontent.com/30430227/186087653-2d1c4334-b6d1-478a-8859-4d1a060724c0.png)
+
+`IK Stretch`
+
+![image](https://user-images.githubusercontent.com/30430227/186087403-a7ba849d-15df-4c4e-929e-cf94cafa3241.png)
+![image](https://user-images.githubusercontent.com/30430227/186087498-4af1f5f7-0290-4fae-bace-1ec4b8ab2946.png)
+
+`1, 13, 7-4자 모양, 4-당겨오는 느낌, 10-7자 모양`
+
+![image](https://user-images.githubusercontent.com/30430227/186094179-c125507f-6ddd-4d50-96c6-c42c944e0a04.png)
+![image](https://user-images.githubusercontent.com/30430227/186094233-4cbd743f-ecc1-4a53-b687-d176112c2b5f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/186095491-1fab8fba-2acb-4bc9-808d-3ad52475fd67.png)
+![image](https://user-images.githubusercontent.com/30430227/186095666-b49a196c-cdaa-44f3-8d83-1fe5972fc2f8.png)
+![image](https://user-images.githubusercontent.com/30430227/186096026-1f36d04f-521e-4a17-b3be-55d1b80843a2.png)
+
+`19-4자모양, 16, 22`
+
+![image](https://user-images.githubusercontent.com/30430227/186096979-bacabce6-60bb-4c8a-a3c1-5ef5332a48af.png)
+![image](https://user-images.githubusercontent.com/30430227/186097262-bc1417c1-134c-4d7e-b240-b42eee459c91.png)
+
 
 
 
