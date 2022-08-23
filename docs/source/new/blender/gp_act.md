@@ -709,7 +709,7 @@ Rigify Rig
 ![image](https://user-images.githubusercontent.com/30430227/185047455-120d8a6a-231b-4517-b218-216e12fdd649.png)
 
 
-3. Symmetrize
+3. Symmetrize - 4번 Rigify Type 까지 적용한 후 적용할 것
 
 ![image](https://user-images.githubusercontent.com/30430227/185048038-34b938a5-714f-4354-b820-fb65fe38ff96.png)
 
