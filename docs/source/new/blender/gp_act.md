@@ -714,7 +714,7 @@ Rigify Rig
 ![image](https://user-images.githubusercontent.com/30430227/185048038-34b938a5-714f-4354-b820-fb65fe38ff96.png)
 
 
-4. Pose Mode
+4. Pose Mode - Deform 두 개 모두 끈다
 
 ![image](https://user-images.githubusercontent.com/30430227/185048115-799a388f-439e-4c04-a155-d15516576bc2.png)
 ![image](https://user-images.githubusercontent.com/30430227/185048447-51517406-1208-4488-b78b-122afa2ba801.png)
