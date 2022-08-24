@@ -1,10 +1,6 @@
 Inkscape 
 ============
 
-`와콤 필압 문제 - USB를 제거한 후 남아있는 HID관련 장치를 모두 사용안함`
-
-![image](https://user-images.githubusercontent.com/30430227/185902476-f9ee5a1f-02e9-4116-b2dc-1dd277b993ca.png)
-
 
 `Path 노드 추가 - 선 더블클릭 Shift-i/ 끝 점 복사 Shift-D/ Extend 베지어툴 끝점 선택 후 드랙`
 
@@ -107,6 +103,8 @@ Inkscape
 1. 스케일 시 라인 두께가 변하는 현상
 
 ![image](https://user-images.githubusercontent.com/30430227/177917446-afa1a5a1-7cdf-4ed1-9653-e67a5a3801c4.png)
+
+![image](https://user-images.githubusercontent.com/30430227/186327428-c1ec333a-2c6f-4fbc-b66c-31c3e8bfdc13.png)
 
 
 2. Extrude - 점을 기준으로 돌출
