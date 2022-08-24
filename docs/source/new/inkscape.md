@@ -547,6 +547,37 @@ Galaxy Logo
 ![image](https://user-images.githubusercontent.com/30430227/185870520-c42f2f6d-09c2-43b0-bb5b-a4ac07f1e071.png)
 
 
+만화 글풍선
+-----------
+
+1. 원 > 블러 > 사각형 > Paste Size & Align > 점
+
+![image](https://user-images.githubusercontent.com/30430227/186300777-b336afca-4a91-4745-93d7-2a8b951edfbc.png)
+![image](https://user-images.githubusercontent.com/30430227/186300820-dfd0a98c-17f2-4d11-8962-1bf4a1b28aad.png)
+
+2. Edit 
+
+![image](https://user-images.githubusercontent.com/30430227/186300896-f587cb66-d43e-49ef-a7d2-bfa261b17581.png)
+
+![image](https://user-images.githubusercontent.com/30430227/186302121-5e12234f-27a4-4365-b72f-bb2cf5273e9b.png)
+
+`Alt-Wheel or Alt-Click 뒤 도형 선택하기 > Delete`
+
+![image](https://user-images.githubusercontent.com/30430227/186302263-98a21870-c351-42c5-bd7a-518123855caf.png)
+![image](https://user-images.githubusercontent.com/30430227/186302381-746c14e4-1c28-4052-aa9e-590700356fe9.png)
+
+`Color`
+
+![image](https://user-images.githubusercontent.com/30430227/186302518-513ef0d6-c274-4b0e-b71c-2413e0168d60.png)
+
+3. 별 
+
+![image](https://user-images.githubusercontent.com/30430227/186302962-350dc612-fb3a-4813-a13b-089412d2ac40.png)
+![image](https://user-images.githubusercontent.com/30430227/186302978-ca4a5624-6d2d-4b68-8c46-ac75b2129624.png)
+
+![image](https://user-images.githubusercontent.com/30430227/186303048-8fad6df8-783c-4f72-b60a-b2673ad42524.png)
+![image](https://user-images.githubusercontent.com/30430227/186303288-02e7ff79-9c11-4038-ae15-114fea32b9f1.png)
+
 
 
 
