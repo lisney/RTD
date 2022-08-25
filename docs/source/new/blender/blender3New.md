@@ -403,4 +403,23 @@ Tri to Quad
 ![image](https://user-images.githubusercontent.com/30430227/180922496-099a8691-240f-481c-9cd3-465a90ced104.png)
 
 
+Rig Spring
+----------
+
+![image](https://user-images.githubusercontent.com/30430227/186569264-67b25971-8283-47b2-8803-9c830a17c00c.png)
+![image](https://user-images.githubusercontent.com/30430227/186569290-ac93dd52-ced1-400b-b068-273d1f027f68.png)
+
+`Maintain Volume - None`
+
+![image](https://user-images.githubusercontent.com/30430227/186569342-58ac2c05-2baa-4078-b8a0-ec8eb55281b5.png)
+
+`Hook`
+
+![image](https://user-images.githubusercontent.com/30430227/186569416-087cfa70-6e71-4a7c-b5d3-af447f3e2067.png)
+![image](https://user-images.githubusercontent.com/30430227/186569437-bd9fd0f9-eb92-4080-9af3-1fc16f33e90f.png)
+![image](https://user-images.githubusercontent.com/30430227/186569501-ef051d51-1a09-4fa4-852a-4d05e86e7022.png)
+
+
+
+
 
