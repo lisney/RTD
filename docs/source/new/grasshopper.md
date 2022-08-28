@@ -1,9 +1,29 @@
 Grasshopper
 ============
 
-`더블클릭 //, ~`
+`더블클릭 // Panel, ~ Scribble, Ctrl-G - 테두리`
 
-`Mesh+ 설치 User Object Folder`
+`Mesh+ 애드온 설치 User Object Folder`
+
+알고리즘
+--------
+
+```
+문제 해결 절차
+입력 - 출력 - 명확성 - 효율성 - 유한성
+```
+
+2포인트 로컬좌표 생성
+-----------------------
+
+![image](https://user-images.githubusercontent.com/30430227/187058765-0ec5167f-1724-4f54-ba51-cb548d599564.png)
+
+
+4시간 기초 정리 
+---------------
+
+![image](https://user-images.githubusercontent.com/30430227/187058978-e9b5ab76-e320-48a7-aee0-cfbf70ea667d.png)
+
 
 
 커브 내 포인트 선택 Region Intersection
