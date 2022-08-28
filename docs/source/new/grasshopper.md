@@ -24,6 +24,13 @@ Grasshopper
 
 ![image](https://user-images.githubusercontent.com/30430227/187058978-e9b5ab76-e320-48a7-aee0-cfbf70ea667d.png)
 
+![image](https://user-images.githubusercontent.com/30430227/187060194-86b29729-a95f-40de-afd3-750224e7fa8c.png)
+
+`엑셀로 데이터 옮기기 Copy Data Only`
+
+![image](https://user-images.githubusercontent.com/30430227/187060215-7218a5ed-6205-41ec-b376-27f5b3b167b6.png)
+
+
 
 
 커브 내 포인트 선택 Region Intersection
