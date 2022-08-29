@@ -31,6 +31,12 @@ Grasshopper
 ![image](https://user-images.githubusercontent.com/30430227/187060215-7218a5ed-6205-41ec-b376-27f5b3b167b6.png)
 
 
+로프트 꼬임 
+----------
+
+![image](https://user-images.githubusercontent.com/30430227/187192471-b109394b-380e-4c15-82ef-bc220a31ed46.png)
+![image](https://user-images.githubusercontent.com/30430227/187192517-a03daa7b-6c13-48e9-ad6d-0478374dd152.png)
+
 
 
 커브 내 포인트 선택 Region Intersection
