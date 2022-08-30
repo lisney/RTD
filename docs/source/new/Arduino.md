@@ -465,3 +465,25 @@ except KeyboardInterrupt: # Ctrl-C
 ![image](https://user-images.githubusercontent.com/30430227/187345589-35272285-cc00-4db8-857b-4191a7155696.png)
 
 `보드의 리셋버튼 누름`
+
+
+아두이노 펌웨어 Make 
+------------------------
+
+`현재 폴더에서 도스명령창 실행   'cmd .'`
+
+![image](https://user-images.githubusercontent.com/30430227/187400361-9b642a98-dd5c-4ac9-981e-cc7aa5819563.png)
+![image](https://user-images.githubusercontent.com/30430227/187400420-f28a337d-abcc-4d82-893e-b2bd381168e9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/187400480-fe6b0721-3139-4b7d-bc2b-3f7aef80cb81.png)
+
+```
+Make가 포함된 마지막 버전 Arduino 1.0.6
+C:\Users\3DPrinter\Desktop\GRBL-28byj-48-Servo-master>C:\arduino\hardware\tools\avr\utils\bin\make
+
+```
+
+
+
+
+
