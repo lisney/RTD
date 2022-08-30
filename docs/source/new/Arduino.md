@@ -24,8 +24,10 @@ Arduino
 ![image](https://user-images.githubusercontent.com/30430227/177500282-810cb633-97a0-4ce9-8c64-da08f3f89a2e.png)
 
 
-CNC 제어 프로그램 -GLBL
+CNC 제어 프로그램 -GRBL
 ---------------------
+
+`아두이노 메가2560용 따로 있다. 컨트롤러 Baud Rate 115200 선택`
 
 [GRBL](https://github.com/grbl/grbl)
  
