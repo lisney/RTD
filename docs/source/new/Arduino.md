@@ -483,7 +483,29 @@ C:\Users\3DPrinter\Desktop\GRBL-28byj-48-Servo-master>C:\arduino\hardware\tools\
 
 ```
 
+CAMotics - G코드 보는
+-------------
+
+`Inkscape`
+
+![image](https://user-images.githubusercontent.com/30430227/187426395-3ff558a8-44ff-4d74-84c4-ad0434d55002.png)
+![image](https://user-images.githubusercontent.com/30430227/187426354-efc63a1e-b133-460d-8a67-c71f20a50466.png)
+
+![image](https://user-images.githubusercontent.com/30430227/187426477-5224867a-7697-4897-b730-53e799668089.png)
+![image](https://user-images.githubusercontent.com/30430227/187426526-e7216eae-e4bc-4857-be25-90733ecc7172.png)
+
+`Path to GCode 탭 선택 Apply`
+
+![image](https://user-images.githubusercontent.com/30430227/187426709-d56d2858-b656-46e8-9124-c4da1857cfdc.png)
+![image](https://user-images.githubusercontent.com/30430227/187426737-ec9dda5c-0799-4d1d-b2f4-4a199c45c98e.png)
+
+`feed 바꾸고 다시 Path to GCode`
+
+![image](https://user-images.githubusercontent.com/30430227/187426862-4bf449a1-fa03-487c-9d60-f15d516e30d8.png)
 
 
 
+`New Project > Add Tool(1mm) > Add GCode > Run 버튼(되감기모양)`
+
+![image](https://user-images.githubusercontent.com/30430227/187425891-cff4f076-69d1-488d-876f-d3fbbf8ad628.png)
 
