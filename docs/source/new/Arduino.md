@@ -455,3 +455,11 @@ except KeyboardInterrupt: # Ctrl-C
     print('거리 측정 완료')
     GPIO.cleanup()
 ```
+
+
+아두이노 메가 업로드 오류
+-----------------------
+
+![image](https://user-images.githubusercontent.com/30430227/187345589-35272285-cc00-4db8-857b-4191a7155696.png)
+
+`보드의 리셋버튼 누름`
