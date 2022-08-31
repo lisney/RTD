@@ -470,6 +470,7 @@ except KeyboardInterrupt: # Ctrl-C
 아두이노 펌웨어 Make 
 ------------------------
 
+
 `현재 폴더에서 도스명령창 실행   'cmd .'`
 
 ![image](https://user-images.githubusercontent.com/30430227/187400361-9b642a98-dd5c-4ac9-981e-cc7aa5819563.png)
@@ -481,7 +482,11 @@ except KeyboardInterrupt: # Ctrl-C
 Make가 포함된 마지막 버전 Arduino 1.0.6
 C:\Users\3DPrinter\Desktop\GRBL-28byj-48-Servo-master>C:\arduino\hardware\tools\avr\utils\bin\make
 
+아두이노 설치 경로
 ```
+
+![image](https://user-images.githubusercontent.com/30430227/187569984-293548df-5bfa-4b74-8324-ec4f091a7351.png)
+
 
 CAMotics - G코드 보는
 -------------
@@ -504,10 +509,21 @@ CAMotics - G코드 보는
 ![image](https://user-images.githubusercontent.com/30430227/187426862-4bf449a1-fa03-487c-9d60-f15d516e30d8.png)
 
 
-
 2. CAMotics
 
 `New Project > Add Tool(1mm) > Add GCode > Run 버튼(되감기모양)`
 
 ![image](https://user-images.githubusercontent.com/30430227/187425891-cff4f076-69d1-488d-876f-d3fbbf8ad628.png)
+
+3. 다른 GCode 업로더
+
+`Universal GCODE Sender - ugs-platform-app-win64.zip`
+
+![image](https://user-images.githubusercontent.com/30430227/187571043-e608ef06-b326-4da0-82a3-2a712eff3023.png)
+
+
+
+
+
+
 
