@@ -522,6 +522,10 @@ CAMotics - G코드 보는
 ![image](https://user-images.githubusercontent.com/30430227/187571043-e608ef06-b326-4da0-82a3-2a712eff3023.png)
 
 
+COM 포트 인식 불량 
+--------------
+
+`장치관리자에서 아두이노 포트 사용안함 > 케이블 분리 > 연결 > 포트 사용함`
 
 
 
