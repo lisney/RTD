@@ -149,5 +149,14 @@ Loft3
 ![image](https://user-images.githubusercontent.com/30430227/183546462-9e400bdc-4988-4cb8-928e-d9c4fc693784.png)
 
 
+기어 
+------
+
+```
+모듈m = 피치원지름pcd / 잇수z
+기어거리d = (pcd1 + pcd2)/2 = (m*z1 + m*z2)/2 = m(z1+z2)/2
+d = m(z1+z2)/2 => m = 2d/(z1+z2)
+
+```
 
 
