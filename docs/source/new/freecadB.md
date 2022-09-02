@@ -194,7 +194,7 @@ d = m(z1+z2)/2 => m = 2d/(z1+z2)
 이 틈에 의해 나사와 톱니바퀴는 자유롭게 움직일 수 있다.
 그러나 어떠한 방향으로 회전하던 것을 반대방향으로 회전시킬 때 어긋남과 충격이 일어날 수 있다
 Backlash = (value /z)*split
-split 1:1(1/2 and1/2), 1:2(1/3 and 2/3), 1:6(1/7 and 6/7)
+split 1:1(1/2 and 1/2), 1:2(1/3 and 2/3), 1:6(1/7 and 6/7)
 ```
 ![image](https://user-images.githubusercontent.com/30430227/188043417-fc59078c-2be9-4a71-8864-d162b9c7dcaf.png)
 ![image](https://user-images.githubusercontent.com/30430227/188043552-96370029-7ee5-4ff9-985a-cf17538005fe.png)
@@ -248,6 +248,19 @@ Bevel 기어
 
 ![image](https://user-images.githubusercontent.com/30430227/188050827-d3b250d2-e792-484b-afc4-ce703ba0edb4.png)
 
+2. New Body > Bevel Gear > Y7.5 
+
+![image](https://user-images.githubusercontent.com/30430227/188055426-a2804890-688e-4158-93d4-79d4fe29008f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188055487-f8a023f5-2c2c-4562-84dd-c9236c8a281a.png)
+![image](https://user-images.githubusercontent.com/30430227/188055469-034554d6-1d18-418a-b4c8-575c1fb7229a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188055716-be7a3b9f-f9d3-483c-bb1e-8adbdc200765.png)
+![image](https://user-images.githubusercontent.com/30430227/188055729-7b0fec5b-e940-4e33-a8a3-39c7342b3680.png)
+
+`Backlash`
+
+![image](https://user-images.githubusercontent.com/30430227/188056450-c800942e-9bb0-4a40-ae9a-a8623dd08355.png)
 
 
 
