@@ -5,7 +5,7 @@ Grasshopper
 
 `Mesh+ 애드온 설치 User Object Folder`
 
-`넓이`
+`Number노드 연결 -넓이`
 
 ![image](https://user-images.githubusercontent.com/30430227/188081211-343ae906-27a8-47b0-b4a8-df5ca4756d00.png)
 
@@ -13,6 +13,9 @@ Grasshopper
 
 ![image](https://user-images.githubusercontent.com/30430227/188081354-ce4c6ae0-896c-4a1b-bf4c-73ff90737184.png)
 
+`Number노드 연결 - 각도`
+
+![image](https://user-images.githubusercontent.com/30430227/188099088-58859312-4e06-49a2-a22b-1e7e5fe09ecc.png)
 
 
 
