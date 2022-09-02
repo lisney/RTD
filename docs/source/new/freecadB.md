@@ -149,14 +149,93 @@ Loft3
 ![image](https://user-images.githubusercontent.com/30430227/183546462-9e400bdc-4988-4cb8-928e-d9c4fc693784.png)
 
 
-기어 
+평기어 
 ------
+
+![image](https://user-images.githubusercontent.com/30430227/188043725-3e92f6b3-6d9b-4cc3-b9f8-26937dcc0c97.png)
 
 ```
 모듈m = 피치원지름pcd / 잇수z => pcd = mz
 기어거리d = (pcd1 + pcd2)/2 = (m*z1 + m*z2)/2 = m(z1+z2)/2
 d = m(z1+z2)/2 => m = 2d/(z1+z2)
+```
+
+1. 기어생성 New Body(part Design에서) 안에 기어를 생성한다. 위치이동 할 수 있다
+
+![image](https://user-images.githubusercontent.com/30430227/188039610-056caa31-c62a-4cae-bc79-4fac0c767fac.png)
+![image](https://user-images.githubusercontent.com/30430227/188039678-64496055-0655-4570-8373-0d1fb4748ce8.png)
+
+2. 모듈module과 잇수teeth 롤 입력하여 두 개의 기어를 생성한다
+
+`dist = 72, 작은기어 m4t12df38, 큰기어 m4t24df86`
+
+![image](https://user-images.githubusercontent.com/30430227/188040926-35dd3cba-5513-4a13-ae1c-ff1ea8873fae.png)
+
+3. Pocket
+
+![image](https://user-images.githubusercontent.com/30430227/188041344-b3e2a69c-1cc9-4313-9055-29d45b15a9e0.png)
+
+4. New Pocket > Polar Pattern
+
+![image](https://user-images.githubusercontent.com/30430227/188041575-6ca80e5b-d597-47bb-8d72-2bab303dc150.png)
+![image](https://user-images.githubusercontent.com/30430227/188041603-2832bdd2-2fc8-40f7-9021-d2dbdc7af667.png)
+![image](https://user-images.githubusercontent.com/30430227/188041619-b11e12bc-9039-4be8-a3a2-1be2e9790a74.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188041672-52811522-19af-498c-aa84-7be6c16f308a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188042108-a49c50f9-e44a-4000-bfde-71d2b838390f.png)
+![image](https://user-images.githubusercontent.com/30430227/188042130-0702b37f-3402-4d32-8250-ae4489ea04e2.png)
+![image](https://user-images.githubusercontent.com/30430227/188042173-6f6e62e8-5555-4c0a-b616-4e0dc59cb25c.png)
+
+5. Backlash
 
 ```
+서로 맞물려 운동하는 기계 장치 등에서 운동방향으로 일부러 만들어진 틈이다.
+이 틈에 의해 나사와 톱니바퀴는 자유롭게 움직일 수 있다.
+그러나 어떠한 방향으로 회전하던 것을 반대방향으로 회전시킬 때 어긋남과 충격이 일어날 수 있다
+Backlash = (value /z)*split
+split 1:1(1/2 and1/2), 1:2(1/3 and 2/3), 1:6(1/7 and 6/7)
+```
+![image](https://user-images.githubusercontent.com/30430227/188043417-fc59078c-2be9-4a71-8864-d162b9c7dcaf.png)
+![image](https://user-images.githubusercontent.com/30430227/188043552-96370029-7ee5-4ff9-985a-cf17538005fe.png)
+
+
+6. Animation - Assembly4 WB
+
+`New Model > Body 선택 LCS > Move LCS X36 > LCS 두 개 추가 > Z10(X0, X72) > 기어에도 각각 LCS로컬좌표시스템 추가한다`
+
+![image](https://user-images.githubusercontent.com/30430227/188045216-f2cd4d31-6fc3-4331-8af1-d707fc6b4146.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188045349-443d7a2c-b2ef-4a2d-847c-a16a7ffd5c22.png)
+![image](https://user-images.githubusercontent.com/30430227/188045486-fd085467-0a14-45fc-a64e-83efb61958d2.png)
+![image](https://user-images.githubusercontent.com/30430227/188045640-7a5b6ea9-bb83-4f3c-876f-a73f1467f25b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188045403-497e3e73-85bb-425c-b51b-4f5c77aac839.png)
+![image](https://user-images.githubusercontent.com/30430227/188045435-e37244a3-fbbe-46f6-a148-8f7c103329d7.png)
+![image](https://user-images.githubusercontent.com/30430227/188045658-f48ff444-2994-4238-b90f-baf8906be7a7.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188045853-8c1a0c4c-c5ea-448f-bb4c-4b78789db0d0.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188046152-4f165bb0-7002-4401-8818-8072f4e0cd45.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188047538-a01e3124-2ef1-424e-b773-d411262ed3ae.png)
+
+`Add Variable`
+
+![image](https://user-images.githubusercontent.com/30430227/188048041-d1535a65-de66-429b-866a-f6a83153a18e.png)
+![image](https://user-images.githubusercontent.com/30430227/188048022-8a72df60-43e4-4e50-99dd-5d7e4f86bc31.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188048169-c70c1756-02e5-4812-b606-2707a79b418f.png)
+![image](https://user-images.githubusercontent.com/30430227/188048238-5a02fb23-f559-4126-a2c9-5af3e397e117.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188048274-59e42639-b1b4-4342-929c-d1d33c9a1afc.png)
+![image](https://user-images.githubusercontent.com/30430227/188048397-82262327-2955-4313-911e-b4243ba73aca.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188048654-4b299e12-b0d6-40e8-827a-09bd6f404c68.png)
+![image](https://user-images.githubusercontent.com/30430227/188049177-37975084-35fd-46a2-bdfa-7898fe2730c3.png)
+
+
+
+
 
 
