@@ -5,6 +5,17 @@ Grasshopper
 
 `Mesh+ 애드온 설치 User Object Folder`
 
+`넓이`
+
+![image](https://user-images.githubusercontent.com/30430227/188081211-343ae906-27a8-47b0-b4a8-df5ca4756d00.png)
+
+`넓이가 가장 큰 서피스 선택`
+
+![image](https://user-images.githubusercontent.com/30430227/188081354-ce4c6ae0-896c-4a1b-bf4c-73ff90737184.png)
+
+
+
+
 알고리즘
 --------
 
@@ -69,4 +80,6 @@ Shrink Trimmed Surface(Pufferfish)
 ![image](https://user-images.githubusercontent.com/30430227/167541087-d1463ec6-df5d-463c-ab14-774f6a760fac.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/167541128-5c16a590-0052-4602-8339-be387c610d16.png)
+
+
 
