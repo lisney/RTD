@@ -235,6 +235,22 @@ split 1:1(1/2 and1/2), 1:2(1/3 and 2/3), 1:6(1/7 and 6/7)
 ![image](https://user-images.githubusercontent.com/30430227/188049177-37975084-35fd-46a2-bdfa-7898fe2730c3.png)
 
 
+Bevel 기어
+-------------
+
+1. XYplane > XZ Plane > YZ Plane
+
+![image](https://user-images.githubusercontent.com/30430227/188050147-5a8fb0cf-fe9c-4d77-9b40-59fbcc62e0e5.png)
+![image](https://user-images.githubusercontent.com/30430227/188050311-2344dbd6-752d-4bc5-a641-32307ca80035.png)
+![image](https://user-images.githubusercontent.com/30430227/188050678-b71b0bf7-373a-4e07-992e-9e2367c81fb9.png)
+
+`Reference 체크`
+
+![image](https://user-images.githubusercontent.com/30430227/188050827-d3b250d2-e792-484b-afc4-ce703ba0edb4.png)
+
+
+
+
 
 
 
