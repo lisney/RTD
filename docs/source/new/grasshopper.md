@@ -7,6 +7,8 @@ Grasshopper
 
 `Number노드 연결 -넓이`
 
+`Graft - 나혼자 산다?`
+
 ![image](https://user-images.githubusercontent.com/30430227/188081211-343ae906-27a8-47b0-b4a8-df5ca4756d00.png)
 
 `넓이가 가장 큰 서피스 선택`
