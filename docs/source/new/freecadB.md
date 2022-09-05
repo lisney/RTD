@@ -263,7 +263,65 @@ Bevel 기어
 ![image](https://user-images.githubusercontent.com/30430227/188056450-c800942e-9bb0-4a40-ae9a-a8623dd08355.png)
 
 
+Fork & Spoon
+---------
 
+`Sketcher WB > YZ Plane`
+
+![image](https://user-images.githubusercontent.com/30430227/188340134-162989a3-927e-46c3-8dc9-73b3e06d04a5.png)
+
+`Part WB > Extrude Z > Extrude X`
+
+![image](https://user-images.githubusercontent.com/30430227/188340269-af363b8c-fae9-450d-8620-9b2b8993092f.png)
+![image](https://user-images.githubusercontent.com/30430227/188340227-13ec4515-710f-4655-ad40-5709eecb4783.png)
+![image](https://user-images.githubusercontent.com/30430227/188340250-cc83e05f-b28d-4378-a3a1-4d4bed3bebe6.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188340391-4c31ab96-7cf0-41df-aacf-f93d040471ba.png)
+![image](https://user-images.githubusercontent.com/30430227/188340373-aba5364e-9eab-4f56-b297-7637e50187cf.png)
+
+`Sketcher WB > XY Plane > Place Z > Arc`
+
+![image](https://user-images.githubusercontent.com/30430227/188340516-4fc91d0a-3a78-4032-84f5-9658d913dcf3.png)
+![image](https://user-images.githubusercontent.com/30430227/188340507-915765f3-2bd3-4d41-8591-4d0f3c1d4f95.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188340740-f5907134-39cf-4a40-8954-c511d9a46cf1.png)
+![image](https://user-images.githubusercontent.com/30430227/188341064-0e58870d-8495-4f64-8cf6-a14cefc86e3e.png)
+
+`Sketch Tools > Symmetry`
+
+![image](https://user-images.githubusercontent.com/30430227/188341117-12a50444-e9b6-4c9e-a50c-9449251338fa.png)
+![image](https://user-images.githubusercontent.com/30430227/188341171-10f7f04a-2067-40a7-b86b-0651280b232f.png)
+
+`Part wB > Extrude > Boolean: Intersection`
+
+![image](https://user-images.githubusercontent.com/30430227/188341502-191b3c8e-4b95-4f75-9b85-8b902fb11c6e.png)
+
+`Spoon > Plane YZ > Arc & B-spline`
+
+![image](https://user-images.githubusercontent.com/30430227/188341851-58dc91e9-8ee6-4853-83f3-c0a4752f66fe.png)
+![image](https://user-images.githubusercontent.com/30430227/188341876-acb5524a-1f64-4cf7-bac0-5e670feb14e9.png)
+
+`copy > Duplicate Sketch > Placement X`
+
+![image](https://user-images.githubusercontent.com/30430227/188341916-94f9b857-a8db-4147-b824-14c10929af1c.png)
+![image](https://user-images.githubusercontent.com/30430227/188341933-6be550dc-c8c9-4175-bcc5-9cc8aaee8a56.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188342103-97cbb03e-2932-4753-b8d1-7fa8a2912274.png)
+![image](https://user-images.githubusercontent.com/30430227/188342226-0a000ec9-f41c-4b5c-9946-f79faae827f1.png)
+![image](https://user-images.githubusercontent.com/30430227/188342201-88c652ff-35d2-4122-aa64-b01b8b3733cd.png)
+
+`Part WB > Loft > Edit Sketch`
+
+![image](https://user-images.githubusercontent.com/30430227/188342302-15a7a59a-0d7e-4fd7-bf76-92d0366ff5ac.png)
+![image](https://user-images.githubusercontent.com/30430227/188342552-4eba7ad9-287b-4072-82d2-0f396c53a930.png)
+![image](https://user-images.githubusercontent.com/30430227/188342532-a52450ce-d826-4295-8971-349ce29170d7.png)
+
+`Sketch XY Plane`
+
+![image](https://user-images.githubusercontent.com/30430227/188342674-0d2aad76-28a4-41af-912f-6392d856d900.png)
+![image](https://user-images.githubusercontent.com/30430227/188342813-c752aaa5-1e1d-48ae-b272-7da7cd5ed4a5.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188342857-1eb585c0-2350-4c7d-b5d7-10bd2ffa9921.png)
 
 
 
