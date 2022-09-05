@@ -9,7 +9,7 @@ Grasshopper
 
 `Graft - 나혼자 산다?`
 
-`Shift Paths - 노드 Shift`
+`Shift Paths - (-1) = {a;b;c} => {a;b}/ (-2) => {a}`
 
 ![image](https://user-images.githubusercontent.com/30430227/188350052-a0533d6b-57d4-4b99-bb1e-0c924fa3f9a4.png)
 ![image](https://user-images.githubusercontent.com/30430227/188350030-cd112609-f1a2-4810-926b-fc10c4bc73a2.png)
