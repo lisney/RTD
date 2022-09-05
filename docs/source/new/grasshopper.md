@@ -81,7 +81,7 @@ Grasshopper
 ![image](https://user-images.githubusercontent.com/30430227/167286497-df3b377a-f523-4992-abd4-32080d7b5e7e.png)
 
 
-패턴 
+패턴1 
 ----
 
 ![image](https://user-images.githubusercontent.com/30430227/167533487-0af4b7e8-4619-4147-9a4b-72cc7e3b7541.png)
@@ -97,6 +97,21 @@ Shrink Trimmed Surface(Pufferfish)
 ![image](https://user-images.githubusercontent.com/30430227/167541087-d1463ec6-df5d-463c-ab14-774f6a760fac.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/167541128-5c16a590-0052-4602-8339-be387c610d16.png)
+
+
+패턴2 
+-----
+
+![image](https://user-images.githubusercontent.com/30430227/188369349-e09801d5-8389-409a-a4c5-de9557a653ea.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188369734-0ccfe89d-68f4-442d-ba18-1b73e726a226.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188369808-52c9bf4c-4b3e-4cbc-96ff-8b973957bad9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188369839-400c7ab7-86b7-4bc4-b473-cc7e56b0b353.png)
+
+
+
 
 
 
