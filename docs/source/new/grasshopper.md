@@ -9,6 +9,18 @@ Grasshopper
 
 `Graft - 나혼자 산다?`
 
+`Shift Paths - 노드 Shift`
+
+![image](https://user-images.githubusercontent.com/30430227/188350052-a0533d6b-57d4-4b99-bb1e-0c924fa3f9a4.png)
+![image](https://user-images.githubusercontent.com/30430227/188350030-cd112609-f1a2-4810-926b-fc10c4bc73a2.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188350126-2a154634-49b1-42fe-98ab-b9ecc718c89a.png)
+![image](https://user-images.githubusercontent.com/30430227/188350139-e601f327-e7c2-49c4-ac60-5731f5af3fe9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188358701-44a313fd-2f04-4341-a7a4-84d6287a47e8.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188358760-c27244cb-a022-425b-b121-0409114fc0b1.png)
+
 ![image](https://user-images.githubusercontent.com/30430227/188081211-343ae906-27a8-47b0-b4a8-df5ca4756d00.png)
 
 `넓이가 가장 큰 서피스 선택`
