@@ -27,8 +27,13 @@ Handlebard 간단 서버
 **app.js
 import express from "express";
 import { engine } from "express-handlebars";
+import path from "path";
+import { createRequire } from "module";
 
 const app = express();
+const __dirname = path.resolve();
+const require = createRequire(import.meta.url);
+const port = 3000;
 
 app.engine(
   "hbs",
@@ -36,15 +41,22 @@ app.engine(
     extname: "hbs",
   })
 );
+
 app.set("view engine", "hbs");
 app.set("views", "./views");
+
+app.use(express.static(__dirname));
+app.use((req, res, next) => {
+  next();
+});
 
 app.get("/", (req, res) => {
   res.render("home");
 });
 
-app.listen(3000);
-
+app.listen(port, ["192.168.0.21"], () => {
+  console.log(`The server is running on port ${port}`);
+});
 
 **/views/home.hbs
 <h1>방어력에 올인합니다!</h1>
