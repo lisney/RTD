@@ -589,7 +589,7 @@ body,
 
 # home.hbs
   <canvas id="renderCanvas"></canvas>
-
+  <script src="babylon.js"></script>
 
 # babylon.js
     const canvas = document.querySelector('#renderCanvas')
