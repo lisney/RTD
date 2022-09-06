@@ -84,7 +84,7 @@ app.listen(port, ["192.168.0.21"], () => {
 #숫자
 .toFixed(숫자) - 기본 소수부분 삭제, 소수점 자리수에서 반올림 
 console.log(userRate.toFixed(2));
-console.log(isNaN(userRate.toFixed(2)));//isNaN숫자 뿐아니라 문자열에서 숫자만 있으면 false
+console.log(isNaN(userRate.toFixed(2)));//isNaN숫자 뿐아니라 문자열에서 숫자만 있으면 true
 -----------------------------------------------------------------
 
 #문자열
