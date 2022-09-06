@@ -87,6 +87,11 @@ console.log(userRate.toFixed(2));
 console.log(isNaN(userRate.toFixed(2)));//isNaN숫자 뿐아니라 문자열에서 숫자만 있으면 true
 -----------------------------------------------------------------
 
+# 숫자 <-> 문자열
+.toString, String(), + ''
+parseInt(정수), parseFloat(실수), Number(정소, 실수)
+'12' 는 문자열(typeof '12')이다. 그러나 isNaN false가 나온다
+
 #문자열
 userEmail.indexOf('@') //문자열에서 @문자가 있으면 그 위치의 Index 값 반환
 .substr(4,9) //빼내기, 4번째 인덱스부터 9번째까지 반환(인수 9가 없으면 4이후 전부 반환)
