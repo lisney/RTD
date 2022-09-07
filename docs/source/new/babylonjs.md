@@ -460,7 +460,7 @@ promise
 5. 프로미스를 깔끔하게 사용하기 async, await
 
 ```
-# 프로미스로 리턴 - 함수로 만들어 프로미스 실행 시점 조절, 왜냐면 프로미스는 생성하면 바로 실행되버려서..
+# 프로미스로 리턴 - 함수 실행(fetchUser() 또는 user)하면 프로미스를 리턴 즉 프로미스가 실행된다(프로미스는 생성하면 바로 실행)
 function fetchUser() {
   return new Promise((resolve, reject) => {
     resolve("ellie");
