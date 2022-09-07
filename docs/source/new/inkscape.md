@@ -525,6 +525,22 @@ Galaxy Logo
 ![image](https://user-images.githubusercontent.com/30430227/185863376-177d99cc-7a97-4e4f-ab14-57c092498489.png)
 
 
+`Rotate Center Reset - hold Shift & Click Center Marker`
+
+![image](https://user-images.githubusercontent.com/30430227/188764013-b517de70-8a01-4da9-84bf-f9a5bab41f62.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188764410-044d8ea3-e9a4-4238-bc4b-21420353182b.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188764359-9e16d84c-b508-4f9b-8146-e5006d92af4f.png)
+![image](https://user-images.githubusercontent.com/30430227/188764385-86063ea4-325b-4ce8-b464-024c6aafe25a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188764893-23f1c117-36ba-4d4e-bfc8-a26135456ce7.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188764842-ac2ae6aa-16b2-4c63-a7bf-456dceefeb64.png)
+![image](https://user-images.githubusercontent.com/30430227/188764861-930197dd-6791-470e-9c8d-1e6603a4a404.png)
+
+
+
 라인스
 --------
 
