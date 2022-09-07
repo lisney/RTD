@@ -632,7 +632,17 @@ Color Tiled Clones
 ![image](https://user-images.githubusercontent.com/30430227/188800608-56856930-96c5-4a18-89df-edeceaa593e8.png)
 
 
+Pattern 
+------------
 
+![image](https://user-images.githubusercontent.com/30430227/188835331-fc59abe8-013c-4f42-be4f-65f80c66cdf9.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188835634-335951ea-f179-4024-a752-e2e630868922.png)
+![image](https://user-images.githubusercontent.com/30430227/188835666-e821f715-a3dd-4b9e-95a2-b62a0313d64e.png)
+![image](https://user-images.githubusercontent.com/30430227/188835713-23f2f577-9402-449c-b6a9-1b3b2f5ecf43.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188835815-ba333710-54ad-4b4f-af1f-b7edc1b73f60.png)
+![image](https://user-images.githubusercontent.com/30430227/188835941-f4316f0f-8a81-4d8a-882a-957c2251ccf8.png)
 
 
 
