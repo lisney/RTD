@@ -100,6 +100,11 @@ Inkscape
 ![image](https://user-images.githubusercontent.com/30430227/185848132-18a861d4-d8ee-44bc-b212-6d01549d4737.png)
 
 
+`라인으로 선택 - Shift-Alt-드랙`
+
+![image](https://user-images.githubusercontent.com/30430227/188873865-3d434438-4d65-42f8-9d40-db5e54bfb569.png)
+
+
 1. 스케일 시 라인 두께가 변하는 현상
 
 ![image](https://user-images.githubusercontent.com/30430227/177917446-afa1a5a1-7cdf-4ed1-9653-e67a5a3801c4.png)
@@ -632,7 +637,7 @@ Color Tiled Clones
 ![image](https://user-images.githubusercontent.com/30430227/188800608-56856930-96c5-4a18-89df-edeceaa593e8.png)
 
 
-Pattern 
+Pattern A 
 ------------
 
 ![image](https://user-images.githubusercontent.com/30430227/188835331-fc59abe8-013c-4f42-be4f-65f80c66cdf9.png)
@@ -644,6 +649,26 @@ Pattern
 ![image](https://user-images.githubusercontent.com/30430227/188835815-ba333710-54ad-4b4f-af1f-b7edc1b73f60.png)
 ![image](https://user-images.githubusercontent.com/30430227/188835941-f4316f0f-8a81-4d8a-882a-957c2251ccf8.png)
 
+
+Pattern B
+------------
+
+![image](https://user-images.githubusercontent.com/30430227/188875610-aee4f05a-19f8-4058-973e-9e08d91e9cd6.png)
+![image](https://user-images.githubusercontent.com/30430227/188875695-86a1421d-9bd6-4543-bfbe-ba0c6b546788.png)
+![image](https://user-images.githubusercontent.com/30430227/188876243-98238fd6-8a77-46a3-a7e0-73c6bd0cfa73.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188876296-6ffa40f1-3cee-4fcc-a10b-4ba2a33d95ed.png)
+![image](https://user-images.githubusercontent.com/30430227/188876355-77798eb7-f635-4769-8f8e-ebec3233a90d.png)
+![image](https://user-images.githubusercontent.com/30430227/188876417-da4c10f7-7310-4d3b-ae8a-9488b19c9f5a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/188876446-65cbaad3-9cea-47f8-b336-02e976e055db.png)
+![image](https://user-images.githubusercontent.com/30430227/188876736-9d0db028-1c8f-4890-b46e-031b4671f9c6.png)
+![image](https://user-images.githubusercontent.com/30430227/188876929-a0765f90-ae55-45d3-8527-55cf743336af.png)
+
+`Clip`
+
+![image](https://user-images.githubusercontent.com/30430227/188877011-eead98aa-7154-4564-8360-3d2270da69c5.png)
+![image](https://user-images.githubusercontent.com/30430227/188877195-7887043b-2ddf-4e18-a8cb-8d37faab53fa.png)
 
 
 
