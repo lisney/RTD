@@ -593,6 +593,17 @@ Galaxy Logo
 ![image](https://user-images.githubusercontent.com/30430227/186303288-02e7ff79-9c11-4038-ae15-114fea32b9f1.png)
 
 
+Color Tiled Clones 
+---------------------
+
+`?컬러`
+
+![image](https://user-images.githubusercontent.com/30430227/188768002-76b8fa00-139e-4583-9121-3dee3b668440.png)
+![image](https://user-images.githubusercontent.com/30430227/188768123-3d5b8378-c032-45fa-b48b-d372ed40726e.png)
+
+`Create Tiled Clones > Trace`
+
+![image](https://user-images.githubusercontent.com/30430227/188768205-6c06560a-3613-4aa1-85e2-6163961314e1.png)
 
 
 
