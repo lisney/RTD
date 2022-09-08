@@ -671,6 +671,29 @@ Pattern B
 ![image](https://user-images.githubusercontent.com/30430227/188877195-7887043b-2ddf-4e18-a8cb-8d37faab53fa.png)
 
 
+Pattern C
+-------------
+
+![image](https://user-images.githubusercontent.com/30430227/189007558-47e898e8-1e61-4986-9cf9-547e91667681.png)
+![image](https://user-images.githubusercontent.com/30430227/189007618-bd83ffc1-896a-4225-8bb5-ce5cefb19e56.png)
+![image](https://user-images.githubusercontent.com/30430227/189007708-3471de2c-ee36-4a6c-8731-9329417ade9c.png)
+
+![image](https://user-images.githubusercontent.com/30430227/189007748-de29df53-13de-4171-9fb7-6c276e6c1c2b.png)
+![image](https://user-images.githubusercontent.com/30430227/189007859-8cc729fd-8e6c-412e-b33d-4f900abe963e.png)
+
+`Stroke to Path > Union > Mirror`
+
+![image](https://user-images.githubusercontent.com/30430227/189007982-3608efcb-7c65-4f6c-9cf1-7f7ce91d1967.png)
+![image](https://user-images.githubusercontent.com/30430227/189008195-ea1d1d7f-a518-4820-8e18-2e4cb35871fa.png)
+![image](https://user-images.githubusercontent.com/30430227/189008412-9ae69df3-d5c7-47c2-b012-0ff6da2c1b6c.png)
+
+
+`Mirror`
+
+
+
+
+
 
 
 
