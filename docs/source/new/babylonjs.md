@@ -674,6 +674,10 @@ engine.runRenderLoop(() => {
 ```
 
 
+![image](https://user-images.githubusercontent.com/30430227/189026874-7d78fa83-b352-4272-a155-5d8e2a2450c8.png)
+![image](https://user-images.githubusercontent.com/30430227/189026922-27787cdd-b051-4dfc-b5c5-92edbc803858.png)
+
+
 비동기적 실행과 기본 버튼 생성
 -------------------------------
 
