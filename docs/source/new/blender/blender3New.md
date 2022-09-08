@@ -20,6 +20,7 @@ cmd /k
 ![image](https://user-images.githubusercontent.com/30430227/168501797-73c55fe6-a730-4b6f-9735-8f767633a7de.png)
 ![image](https://user-images.githubusercontent.com/30430227/168501823-d3b6decd-cf27-46f5-be47-f8c6cd32902b.png)
 
+`Camera Parent하면 동시에 돌려가며 볼 수도 있다`
 
 도시 -Geometry Nodes
 --------------------
