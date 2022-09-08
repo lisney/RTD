@@ -608,7 +608,7 @@ body,
         const target = new BABYLON.Vector3(0,0,0)
 
         const camera  = new BABYLON.ArcRotateCamera('Cam', Math.PI/4, Math.PI/3, radius, target, scene)
-        camera.attachControl(canvas, true)
+        camera.attachControl(canvas, true) // true - canvas(의 이벤트 허용
         camera.wheelPrecision = 100//숫자 낮으면 민감
 
         const light = new BABYLON.HemisphericLight('Light', new BABYLON.Vector3(4,3,2))
