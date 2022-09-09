@@ -11,6 +11,7 @@ Todo
 |Passport/Session|||||
 |CSS|||||
 |multer formidable|||||
+|Flask연동|||||
 |검색/페이징/정렬|||||
 |서버통신NoAJAX|||||
 |보안Crypto|||||
