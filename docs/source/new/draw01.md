@@ -17,5 +17,10 @@ Drawing 01
 ![image](https://user-images.githubusercontent.com/30430227/189834156-f2ebc5a9-927f-4096-8022-ebaa351d86a8.png)
 ![image](https://user-images.githubusercontent.com/30430227/189834235-c78ea714-bfb9-46e8-9e2b-982fd44b0f16.png)
 
+![image](https://user-images.githubusercontent.com/30430227/189835350-c34c7214-d984-44d2-9d40-fa277e3775b2.png)
+![image](https://user-images.githubusercontent.com/30430227/189835403-734fdaba-14bb-403e-8f00-4fbad54ce1a8.png)
+![image](https://user-images.githubusercontent.com/30430227/189835170-a49e5ae8-a9a6-4b23-bed5-7f87e5e83d7e.png)
+![image](https://user-images.githubusercontent.com/30430227/189836145-d134fa4a-7df3-4fe2-8ed0-e694ff02192b.png)
+
 
 
