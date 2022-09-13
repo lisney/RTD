@@ -22,5 +22,31 @@ Drawing 01
 ![image](https://user-images.githubusercontent.com/30430227/189835170-a49e5ae8-a9a6-4b23-bed5-7f87e5e83d7e.png)
 ![image](https://user-images.githubusercontent.com/30430227/189836145-d134fa4a-7df3-4fe2-8ed0-e694ff02192b.png)
 
+![image](https://user-images.githubusercontent.com/30430227/189837482-c1cbf505-af05-43cb-acf5-dd170035d131.png)
+![image](https://user-images.githubusercontent.com/30430227/189837624-a1e3cf24-ddeb-4f82-b1bd-3b5acf60c4db.png)
+![image](https://user-images.githubusercontent.com/30430227/189837522-b133e2d6-50e8-4f6b-acc5-b0938e87d388.png)
+
+![image](https://user-images.githubusercontent.com/30430227/189838803-2f7eadc0-b852-46ab-bbe7-f78d36fb7cc7.png)
+![image](https://user-images.githubusercontent.com/30430227/189838832-e3073d97-33cb-4018-acb5-e0662c7ff276.png)
+
+![image](https://user-images.githubusercontent.com/30430227/189839789-64a389ca-5741-4855-bc86-8af48ec0f3ab.png)
+![image](https://user-images.githubusercontent.com/30430227/189839969-dd5b10a6-759d-4380-9133-1f116138d608.png)
+![image](https://user-images.githubusercontent.com/30430227/189841095-ea62ebfc-a3e2-4cb7-92a6-091a31e43017.png)
+
+![image](https://user-images.githubusercontent.com/30430227/189841536-5cef4591-e191-4b35-972a-477f84b078c8.png)
+![image](https://user-images.githubusercontent.com/30430227/189841758-13bcfe28-4db9-4fe4-93bd-a1157e0cbbd5.png)
+![image](https://user-images.githubusercontent.com/30430227/189842141-3e79821f-65de-4cec-b851-4ede699a464e.png)
+
+![image](https://user-images.githubusercontent.com/30430227/189843085-65100b82-5078-4483-9ad4-607491847118.png)
+![image](https://user-images.githubusercontent.com/30430227/189843271-1f73634d-46b6-42dc-bde5-567e757efde1.png)
+![image](https://user-images.githubusercontent.com/30430227/189843452-3f88381a-d631-489b-b348-f99799f8c773.png)
+
+![image](https://user-images.githubusercontent.com/30430227/189843863-a4152f00-3982-4d09-9335-a67138983e4a.png)
+![image](https://user-images.githubusercontent.com/30430227/189844233-9f483c75-5a3c-4da7-a3dd-575d562565af.png)
+
+![image](https://user-images.githubusercontent.com/30430227/189845197-bb8038d0-a9ef-4baf-98f1-78b1c792151d.png)
+
+
+
 
 
