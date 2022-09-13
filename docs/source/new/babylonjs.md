@@ -4,6 +4,9 @@ BabylonJS
 모듈 Export/Import
 --------------------
 
+`import 에러 시 확장자 .mjs 혹은 패키지에 모듈 사용 적용`
+`package.json -- "type": "module"`
+
 ```
 * import {}
 
