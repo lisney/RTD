@@ -46,6 +46,17 @@ Drawing 01
 
 ![image](https://user-images.githubusercontent.com/30430227/189845197-bb8038d0-a9ef-4baf-98f1-78b1c792151d.png)
 
+![image](https://user-images.githubusercontent.com/30430227/189845819-23a407b8-088c-440b-9e3f-e02c8d2073e4.png)
+![image](https://user-images.githubusercontent.com/30430227/189848390-3726725c-edf1-49ed-9221-f76d1b5f4510.png)
+
+![image](https://user-images.githubusercontent.com/30430227/189845975-03bac8c2-02a5-46f0-9b90-4a66804c7b42.png)
+![image](https://user-images.githubusercontent.com/30430227/189846016-4328c98e-4c53-49e8-bdab-c1488742527e.png)
+![image](https://user-images.githubusercontent.com/30430227/189846683-ac54d142-37ca-4e38-a070-f888cddaccb3.png)
+![image](https://user-images.githubusercontent.com/30430227/189847998-2864457c-d37a-4ee6-8ee0-e987c06bfb18.png)
+
+![image](https://user-images.githubusercontent.com/30430227/189848777-77f76f88-9ea9-4e84-be1e-0bc69349c94f.png)
+![image](https://user-images.githubusercontent.com/30430227/189848934-53e9d902-0126-4396-af90-27efef406959.png)
+![image](https://user-images.githubusercontent.com/30430227/189849265-bc019a81-5b8a-4282-814f-eba0a92c3022.png)
 
 
 
