@@ -743,6 +743,26 @@ Manga FX
 ![image](https://user-images.githubusercontent.com/30430227/190063620-f2ce8e6d-0aa3-439e-b822-cde5ac61a7ea.png)
 ![image](https://user-images.githubusercontent.com/30430227/190063733-570cb224-c16e-4e2e-b02d-ee170544afd5.png)
 
+`점점 > 2 Box > Combine`
+
+![image](https://user-images.githubusercontent.com/30430227/190065414-604b67da-09cd-47ca-8a0e-0d0abb1fcf32.png)
+![image](https://user-images.githubusercontent.com/30430227/190065243-35dec6a4-95da-48a0-8cf4-8fdadac2bbd0.png)
+![image](https://user-images.githubusercontent.com/30430227/190065292-634595ba-8efb-4ea3-8dda-3292d37fcffa.png)
+![image](https://user-images.githubusercontent.com/30430227/190065330-26b924e9-a7c8-44a0-a2f6-1535889331b5.png)
+
+`Copy to Clipboard > Draw Freehand line> Path FX >Pattern`
+
+![image](https://user-images.githubusercontent.com/30430227/190065948-08a55a98-690f-49e2-85a7-a54db9867409.png)
+![image](https://user-images.githubusercontent.com/30430227/190066018-ace6b435-759f-4430-9da7-0a21dcbc431b.png)
+
+`Size 1/2 > Dup > Path Reverse - 변화없을 시 살짝 움직여본다`
+
+![image](https://user-images.githubusercontent.com/30430227/190066906-bcfa3de0-fa99-47ff-9f5a-e88777e24fff.png)
+![image](https://user-images.githubusercontent.com/30430227/190066984-a54ddd99-088a-4fde-82e6-a57af203d79a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/190067059-2cfa93eb-0dcd-4b89-9f86-1b253086f0ad.png)
+![image](https://user-images.githubusercontent.com/30430227/190067583-1320dd9f-7628-4270-b56f-943c5fbcdfaf.png)
+
 
 
 
