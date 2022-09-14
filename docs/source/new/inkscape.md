@@ -290,6 +290,8 @@ Path Effect
 ![image](https://user-images.githubusercontent.com/30430227/185877901-5cbc857a-1017-4fdc-9121-03ed09237168.png)
 
 
+
+
 `Path Along Path - 패턴 요소를 미리 클립보드로 복사한다`
 
 ![image](https://user-images.githubusercontent.com/30430227/185880119-7f287ff1-07d9-42b5-a819-b04db6315e90.png)
@@ -709,7 +711,37 @@ Pattern C
 ![image](https://user-images.githubusercontent.com/30430227/190058204-725cfdaa-983b-4710-9425-632a65b22e4f.png)
 
 
+Manga FX
+---------
 
+`Stroke to Path > Simplify Ctrl-L 여러 번 > Box > Set Clip`
+
+![image](https://user-images.githubusercontent.com/30430227/190060363-6812031b-ffd0-4e7d-ab9b-b876d2865c84.png)
+![image](https://user-images.githubusercontent.com/30430227/190060593-cdb3518b-f27a-4301-8a91-55294d4221f8.png)
+![image](https://user-images.githubusercontent.com/30430227/190060929-b0eb86a1-3ef9-49b6-b863-bfea5cfb50e8.png)
+
+`양끝 노드 외 중간 노드들 선택 삭제 > 양 끝 노드 > Corner`
+
+![image](https://user-images.githubusercontent.com/30430227/190061788-0e102e27-1496-4c9b-a1b8-846c1342d5fd.png)
+![image](https://user-images.githubusercontent.com/30430227/190061814-528a21f1-e825-4c74-b46b-78229bd6b4c7.png)
+![image](https://user-images.githubusercontent.com/30430227/190061904-02b05984-8f1b-49e3-8806-07013c184c44.png)
+
+`끝 노드 선택 >`
+
+![image](https://user-images.githubusercontent.com/30430227/190062050-e7fddce3-84cf-4b57-a1b6-72074110f199.png)
+![image](https://user-images.githubusercontent.com/30430227/190061995-a091fea4-ce4e-444f-ac6b-9a2af3119b1e.png)
+
+`Path FX > Perspective Envelope > Bend`
+
+![image](https://user-images.githubusercontent.com/30430227/190062278-07caa8e9-bd01-49ce-8002-a1ed1c59ad7a.png)
+![image](https://user-images.githubusercontent.com/30430227/190062640-27497ae5-337b-4b57-a8b7-7b335147a4a5.png)
+
+![image](https://user-images.githubusercontent.com/30430227/190063176-6ef47ef2-83ee-40bd-a80c-1e3084ffc127.png)
+![image](https://user-images.githubusercontent.com/30430227/190063504-cc12a89e-6868-463b-9d53-b4ccb69153da.png)
+![image](https://user-images.githubusercontent.com/30430227/190063571-6825c3f6-5607-4119-ac9d-b7df90fc5c7a.png)
+
+![image](https://user-images.githubusercontent.com/30430227/190063620-f2ce8e6d-0aa3-439e-b822-cde5ac61a7ea.png)
+![image](https://user-images.githubusercontent.com/30430227/190063733-570cb224-c16e-4e2e-b02d-ee170544afd5.png)
 
 
 
