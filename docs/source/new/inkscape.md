@@ -703,6 +703,11 @@ Pattern C
 
 ![image](https://user-images.githubusercontent.com/30430227/190056273-fb6401e9-20b9-4887-9014-ec94e7063e6e.png)
 
+`Text > Follow into Frame`
+
+![image](https://user-images.githubusercontent.com/30430227/190057228-71043e71-f500-4dfd-8303-74c760dc043c.png)
+![image](https://user-images.githubusercontent.com/30430227/190058204-725cfdaa-983b-4710-9425-632a65b22e4f.png)
+
 
 
 
