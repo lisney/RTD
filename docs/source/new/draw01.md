@@ -59,7 +59,27 @@ Drawing 01
 ![image](https://user-images.githubusercontent.com/30430227/189849265-bc019a81-5b8a-4282-814f-eba0a92c3022.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/190035081-d59909e4-c7c6-4af2-aca8-a55b18aa780e.png)
+![image](https://user-images.githubusercontent.com/30430227/190037744-fc450e51-1fdf-4717-8e9d-aa67d76955ca.png)
+![image](https://user-images.githubusercontent.com/30430227/190037784-bdf83be3-d577-41de-92e4-618ff260101a.png)
+![image](https://user-images.githubusercontent.com/30430227/190037836-8c3d6e8b-15a5-45a3-9305-1e5653aebcba.png)
 
+![image](https://user-images.githubusercontent.com/30430227/190037972-3b904184-b955-498d-833f-f33d8ce7b340.png)
+![image](https://user-images.githubusercontent.com/30430227/190038051-2111df40-58f6-47dd-b7bc-cbdbd528f485.png)
+![image](https://user-images.githubusercontent.com/30430227/190038122-0c49b14c-a02a-4b30-a6b5-f17e1ea8b9f5.png)
+![image](https://user-images.githubusercontent.com/30430227/190038140-3878f47c-c482-4caf-953c-f100aefb5b75.png)
+
+![image](https://user-images.githubusercontent.com/30430227/190038220-95ff5ede-68d4-4ab7-8ef8-d46e1b538487.png)
+![image](https://user-images.githubusercontent.com/30430227/190038247-67018e5e-735c-4d30-9983-d951728b602f.png)
+![image](https://user-images.githubusercontent.com/30430227/190038258-b83f40c2-e10a-4e70-a206-f613250f4de7.png)
+![image](https://user-images.githubusercontent.com/30430227/190038281-203b48d9-1427-4e64-9107-3de195da6b80.png)
+
+![image](https://user-images.githubusercontent.com/30430227/190038322-5e400553-07bf-44a0-a6fa-c3bf7c161a99.png)
+![image](https://user-images.githubusercontent.com/30430227/190038356-42367ac1-c49b-44c1-89fd-cd7b7b6fea45.png)
+![image](https://user-images.githubusercontent.com/30430227/190038387-b619432f-d15c-4f9c-9bb9-b5d053e4bd51.png)
+![image](https://user-images.githubusercontent.com/30430227/190038413-e8c13308-0bf3-4f8d-8d5b-24b89d96a9e0.png)
+
+
+`척추`
 
 ![image](https://user-images.githubusercontent.com/30430227/190035593-95b98988-770c-4ba7-be04-cfbb380c7c2a.png)
 ![image](https://user-images.githubusercontent.com/30430227/190035626-8e2b4dd5-8fdf-4585-8777-f7876f58a0be.png)
@@ -69,8 +89,31 @@ Drawing 01
 ![image](https://user-images.githubusercontent.com/30430227/190035758-289d675d-e447-406e-83b8-ad104adacd20.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/190035872-ca14c590-6229-4111-a295-f462698cf6c8.png)
+![image](https://user-images.githubusercontent.com/30430227/190036245-0bd99351-dacd-4274-a2c2-0efb1b736f29.png)
+
+![image](https://user-images.githubusercontent.com/30430227/190036286-fd19354e-50d6-4f60-a413-89afff4a5c8a.png)
+![image](https://user-images.githubusercontent.com/30430227/190036503-6ba3eb21-2c70-41c5-beee-120a7542ea6f.png)
+
+![image](https://user-images.githubusercontent.com/30430227/190036370-b78f5a99-d9ec-48ad-9440-8e15ca57f1c9.png)
+![image](https://user-images.githubusercontent.com/30430227/190036437-f39827be-fe60-4b39-875c-087aca0e2667.png)
+![image](https://user-images.githubusercontent.com/30430227/190036419-bc2e75fc-9ddb-4ec6-a2ed-a9f7eb2e1e12.png)
+
+![image](https://user-images.githubusercontent.com/30430227/190035312-fc38f128-4540-4ba3-98ae-81bc57fbc63f.png)
 
 ![image](https://user-images.githubusercontent.com/30430227/190035801-1af89971-16b8-4683-ba1c-48b5f7645e1a.png)
-![image](https://user-images.githubusercontent.com/30430227/190035312-fc38f128-4540-4ba3-98ae-81bc57fbc63f.png)
+![image](https://user-images.githubusercontent.com/30430227/190036938-c4fb2bf5-2853-482a-bff0-03f0a1fe8f81.png)
+
+![image](https://user-images.githubusercontent.com/30430227/190036987-d63f8b32-d551-48ea-a3e9-77a07cf4e2f3.png)
+![image](https://user-images.githubusercontent.com/30430227/190037430-90b1eb24-74d3-4e8d-857a-dc6ec50d88a7.png)
+
+![image](https://user-images.githubusercontent.com/30430227/190037026-18fd999f-0b9c-43e6-b8f2-d67c120a2a51.png)
+![image](https://user-images.githubusercontent.com/30430227/190037161-9c7ecdb9-cdfc-4e01-852a-6ae244f2da44.png)
+
+![image](https://user-images.githubusercontent.com/30430227/190037211-a5b934a7-047b-4757-88db-5f78d71b3686.png)
+![image](https://user-images.githubusercontent.com/30430227/190037242-9f99a91e-6c0f-4151-8068-a3660a8201a4.png)
+![image](https://user-images.githubusercontent.com/30430227/190037262-e7a578e8-624c-4c38-b2b3-c7c57f02a34f.png)
+![image](https://user-images.githubusercontent.com/30430227/190037290-38f4e152-aded-4247-ae94-2986034f107b.png)
+
+
 
 
