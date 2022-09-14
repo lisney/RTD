@@ -124,6 +124,12 @@ Drawing 01
 ![image](https://user-images.githubusercontent.com/30430227/190037262-e7a578e8-624c-4c38-b2b3-c7c57f02a34f.png)
 ![image](https://user-images.githubusercontent.com/30430227/190037290-38f4e152-aded-4247-ae94-2986034f107b.png)
 
+`기본도형`
 
+![image](https://user-images.githubusercontent.com/30430227/190042752-51db4956-6bc4-4130-8b64-90de718acac0.png)
+![image](https://user-images.githubusercontent.com/30430227/190042787-303e9b0f-d33b-451b-ba49-2ca740cf1b51.png)
+![image](https://user-images.githubusercontent.com/30430227/190042809-67ffcf24-df56-4c50-a489-9e7cf5f446a3.png)
+
+![image](https://user-images.githubusercontent.com/30430227/190043363-0611cb34-c843-4481-9981-4f0ddc91a3fc.png)
 
 
