@@ -132,4 +132,8 @@ Drawing 01
 
 ![image](https://user-images.githubusercontent.com/30430227/190043363-0611cb34-c843-4481-9981-4f0ddc91a3fc.png)
 
+`모델링`
+
+![image](https://user-images.githubusercontent.com/30430227/190300343-39a1ab81-e269-49c1-a095-f213dfcd2f7a.png)
+![image](https://user-images.githubusercontent.com/30430227/190300625-825da47e-d8e0-4dda-a8c5-9145259c818b.png)
 
