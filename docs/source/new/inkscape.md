@@ -777,14 +777,16 @@ Manga FX
 ![image](https://user-images.githubusercontent.com/30430227/190069193-77f0b7fd-ca80-490e-bf9a-d116c45fe199.png)
 
 
-다단 
+다단, 텍스트 주변 흐르기
 -------
 
 `박스s Combine > Text > Follow Into Frame`
 
 ![image](https://user-images.githubusercontent.com/30430227/190564890-c17ca03b-8a49-4db1-97c3-8f4155714025.png)
 
+`Text > Set Subtraction Frame`
 
+![image](https://user-images.githubusercontent.com/30430227/190567264-732b00df-9876-4707-bab5-4a3edb1d6c49.png)
 
 
 
