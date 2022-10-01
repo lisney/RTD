@@ -91,7 +91,18 @@ console.log(str1.match(/(이효이이)+/g)); // (이효이이) 그룹 -'이효�
 console.log(str1.match(/효이\s+/g)); // '효이' 뒤에 공백(\s)이 1개 이상(+) 있는 패턴
 ```
 
+onChange
+------------
 
+```
+const selectElement = document.querySelector('.ice-cream');
+
+selectElement.addEventListener('change', (event) => {
+  const result = document.querySelector('.result');
+  result.textContent = `You like ${event.target.value}`;
+});
+
+```
 
 
 
