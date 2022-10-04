@@ -107,6 +107,24 @@ selectElement.addEventListener('change', (event) => {
 [유튜브 모달](https://codepen.io/captain_yar/full/OJMEmGw)
 
 
+ngrok
+--------
+
+```
+# 프로그램 다운 > 압축풀기
+
+# 주소 고정 하기
+ngrok authtoken <<복사한 인증>>
+```
+
+![image](https://user-images.githubusercontent.com/30430227/193833649-4a3e82b2-208e-4863-9e2a-988ffced28d8.png)
+
+```
+# 실행
+서버 생성 > nogok http 3000
+```
+
+![image](https://user-images.githubusercontent.com/30430227/193833431-35a20c5e-ee8f-4258-8eaa-305c429ad59b.png)
 
 
 
