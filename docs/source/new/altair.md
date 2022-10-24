@@ -37,6 +37,12 @@ Altair Inspire Studio
 
 ![image](https://user-images.githubusercontent.com/30430227/197489278-7020764d-279c-46c3-9214-d2f5ca68aa34.png)
 
+13. 폴리넙스 - 루프 선택하기 'Alt', 점선면 편집 모드('a','s','d', 더블클릭), 모따기 - 엣지의 화살표를 Alt-드랙(멀티선택도 가능)
+
+
+
+
+
 
 
 
