@@ -5,5 +5,12 @@ Altair Inspire Studio
 
 `c- 커브 토글, v- 모델 토글`
 
+2. 변형 - 'w', 'e'
+
+3. 보기 'h', 'i'- 솔로
+
+
+
+
 
 
