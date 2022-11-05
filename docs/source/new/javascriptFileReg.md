@@ -51,6 +51,24 @@ fs.readdir(path, (err, files) => {
     });
   }
 });
+
+// 파일명 일괄
+import fs from 'fs'
+
+const path="D:/SD/프렌즈/Friends Season 3.1080p.5.1Ch.BluRay.ReEnc-DeeJayAhmed"
+
+fs.readdir(path,(err,files)=>{
+    console.log("Friends.S03E01.1080p.BluRay.x265-RARBG".slice(10,15)+'hello')
+    const pre="Friends.S03E"
+    const end=".1080p.BluRay.x265-RARBG.srt"
+
+    files.map(file=>{
+        const oName=path+'/'+file
+        const rName=path+'/'+pre+file.slice(12,14)+end
+        fs.rename(oName,rName,(err)=>console.log(err))
+    })
+
+})
 ```
 
 
