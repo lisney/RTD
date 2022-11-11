@@ -41,6 +41,12 @@ FreeCAD
 
 5. Sketcher
 
+`MultiLine 직선/수평/수직/호 토글- 단축키 'm`
+
+![image](https://user-images.githubusercontent.com/30430227/201364311-a2d3d8c4-442e-47c0-91d1-e2cb71fe77ee.png)
+![image](https://user-images.githubusercontent.com/30430227/201364406-a66de92d-01e3-4754-af3f-2c61bf42b4c3.png)
+
+
 `Split`
 
 ![image](https://user-images.githubusercontent.com/30430227/174510210-714d1429-15e5-4131-90e2-9ad8a0487ba6.png)
